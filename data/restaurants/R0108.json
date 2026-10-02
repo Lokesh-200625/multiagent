@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0108",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=ANIRUDH+HOTEL+Medaram+Telangana",
+  "restaurantName": "ANIRUDH HOTEL",
+
+  "associatedTemple": {
+    "templeId": "T0021",
+    "templeName": "Medaram (Sri Sammakka Saralamma Temple)"
+  },
+
+  "basicInformation": {
+    "category": "Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A family-friendly restaurant on Tadvai Road near Medaram Temple, serving South Indian meals, tiffins and non-vegetarian dishes for pilgrims and tourists."
+  },
+
+  "location": {
+    "fullAddress": "2-03, Tadvai Road, Medaram, Telangana 506347, India",
+    "area": "Tadvai Road",
+    "city": "Medaram",
+    "district": "Mulugu",
+    "state": "Telangana",
+    "pincode": "506347",
+    "landmark": "Near Sri Sammakka Saralamma Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 0.45,
+      "source": "Estimated from verified Google Business location",
+      "confidence": "High"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 6,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Approx. 450 m walking distance",
+        "confidence": "High"
+      },
+
+      "bike": {
+        "value": 2,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Temple approach road",
+        "confidence": "High"
+      },
+
+      "car": {
+        "value": 2,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Temple approach road",
+        "confidence": "High"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+919494970473",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Vada",
+      "Poori"
+    ],
+    "lunch": [
+      "Veg Meals",
+      "Non-Veg Meals"
+    ],
+    "dinner": [
+      "Chicken Curry",
+      "Biryani",
+      "South Indian Meals"
+    ],
+    "snacks": [
+      "Bajji",
+      "Bonda"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ],
+    "specialDishes": [
+      "Chicken Biryani",
+      "Veg Meals"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹100–200",
+    "averageCostForTwo": "₹250–400"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 5.0,
+    "totalReviews": 48
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Sammakka Saralamma Temple",
+    "busStand": "Medaram Bus Stand",
+    "railwayStation": "Warangal Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located close to Medaram Temple.",
+    "Suitable for pilgrims and families.",
+    "Budget-friendly restaurant.",
+    "Vegetarian and non-vegetarian food available.",
+    "Parking facility available."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "address",
+      "phoneNumber",
+      "googleRating",
+      "totalReviews",
+      "priceRange"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "workingHours",
+      "foodInformation"
+    ],
+    "unknownFields": [
+      "officialWebsite",
+      "googleBusinessProfile"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

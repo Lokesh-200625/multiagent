@@ -1,0 +1,91 @@
+{
+  "associated_temple": "Swarnagiri Sri Venkateswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Country Spa Kuteeram",
+      "hotel_type": "Spa Resort",
+      "address": "Kunoor Village, Mothukur Road, Near Yadagiri Gutta Temple, Bhongir Mandal, Bhuvanagiri, Telangana - 508116, India",
+      "contact_numbers": [
+        "+91 98662 88169"
+      ],
+      "email": "",
+      "about": "Country Spa Kuteeram is a wellness resort located near Yadagiri Gutta and within convenient driving distance of Swarnagiri Sri Venkateswara Swamy Temple. The resort is known for its Ayurvedic wellness therapies, eco-friendly cottages, peaceful surroundings, and family-friendly facilities, making it suitable for pilgrims as well as leisure travelers. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Country+Spa+Kuteeram+Bhongir",
+      "official_website": "",
+      "price_range": "₹2,500–₹5,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Yadagirigutta Bus Stand – Approximately 5 km",
+        "railway_station": "Wangapalli Railway Station – Approximately 8 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 65 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Tripadvisor": "https://www.tripadvisor.in/Hotel_Review-g2288613-d1542675-Reviews-Country_Spa_Kuteeram-Bhuvanagiri_Yadadri_Bhuvanagiri_District_Telangana.html",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Tripadvisor",
+        "rating": "3.9/5"
+      },
+      "room_types": [
+        "Eco Cottage",
+        "Deluxe Cottage"
+      ],
+      "amenities": [
+        "Swimming Pool",
+        "Spa",
+        "Ayurvedic Wellness Centre",
+        "Vegetarian Restaurant",
+        "Free Parking",
+        "Room Service",
+        "Children's Play Area",
+        "Yoga Hall",
+        "Free Wi-Fi",
+        "Air Conditioning"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available",
+        "food_type": "Pure Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Wellness Travelers",
+        "Couples",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform or direct booking.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Swarnagiri Sri Venkateswara Swamy Temple",
+        "Yadagirigutta Temple",
+        "Bhongir Fort",
+        "Wangapalli Railway Station"
+      ],
+      "temple_id": "T0023",
+      "hotel_id": "H0132"
+    }
+  ],
+  "temple_id": "T0023",
+  "hotel_id": "H0132"
+}

@@ -1,0 +1,90 @@
+{
+  "associated_temple": "Sri Gnana Saraswati Temple, Basara",
+  "hotels": [
+    {
+      "hotel_name": "EVER IN HOME",
+      "hotel_type": "3-Star Lodge",
+      "address": "ever in home, Sy No. 428/AA1 and 428/A6, Basar New, Basar, Nirmal District, Telangana - 504101, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "EVER IN HOME is a 3-star lodge located approximately a 5-minute walk from Sri Gnana Saraswati Temple, Basara. The property offers clean, comfortable, and affordable accommodation with Standard Non-AC and AC King Bed rooms. It provides essential amenities including Wi-Fi, parking, airport transfers, room service, housekeeping, and power backup, making it suitable for pilgrims and families. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=EVER+IN+HOME+Basar",
+      "official_website": "",
+      "price_range": "₹1,200–₹1,800 per night (Approx.)",
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Basar Bus Stand – Approximately 900 m",
+        "railway_station": "Basar Railway Station – Approximately 3.1 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 210 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/ever_in_home-details-bhainsa.html",
+        "Goibibo": "https://www.goibibo.com/hotels/ever-in-home-hotel-in-bhainsa-7013418527257292050/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.0/5"
+      },
+      "room_types": [
+        "Standard Non AC Room with Garden View",
+        "AC Room with King Size Bed"
+      ],
+      "amenities": [
+        "Wi-Fi",
+        "Parking",
+        "Airport Transfers",
+        "Room Service",
+        "Housekeeping",
+        "Air Conditioning",
+        "Power Backup",
+        "Luggage Assistance",
+        "Balcony",
+        "Mineral Water",
+        "Toiletries",
+        "CCTV Security"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Not Mentioned"
+      },
+      "food_facility": {
+        "availability": "Not Mentioned",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Included",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Budget Travelers",
+        "Solo Travelers"
+      ],
+      "cancellation_policy": "Free cancellation till 24 hours before check-in is available on eligible room plans. Book @ ₹0 Payment is available on selected bookings. Unmarried couples are not allowed. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Gnana Saraswati Temple – 5 minutes walk",
+        "Basar Railway Station",
+        "Basar Bus Stand",
+        "Godavari River"
+      ],
+      "temple_id": "T0004",
+      "hotel_id": "H0005"
+    }
+  ],
+  "temple_id": "T0004",
+  "hotel_id": "H0005"
+}

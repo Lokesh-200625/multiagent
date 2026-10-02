@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0091",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=FM+Paradise+Family+Restaurant+Medak+Telangana",
+  "restaurantName": "FM Paradise Family Restaurant",
+
+  "associatedTemple": {
+    "templeId": "T0016",
+    "templeName": "Edupayala Vana Durga Bhavani Temple"
+  },
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A family restaurant in Medak town route area, suitable for pilgrims travelling to Edupayala Vana Durga Bhavani Temple who prefer a proper dining facility."
+  },
+
+  "location": {
+    "fullAddress": "Medak Town, Telangana, India",
+    "area": "Medak Town",
+    "city": "Medak",
+    "district": "Medak",
+    "state": "Telangana",
+    "pincode": "502110",
+    "landmark": "Medak Main Road Area",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+
+    "distanceFromTempleKm": {
+      "value": 20,
+      "source": "Calculated estimate based on Medak town to Edupayala route",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+
+      "walking": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Not_Applicable",
+        "calculationBasis": null,
+        "confidence": "Low"
+      },
+
+      "bike": {
+        "value": 40,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average rural road speed",
+        "confidence": "Medium"
+      },
+
+      "car": {
+        "value": 35,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Road connectivity from Medak",
+        "confidence": "Medium"
+      },
+
+      "bus": {
+        "value": 50,
+        "unit": "Estimated",
+        "type": "Estimated",
+        "calculationBasis": "Public transport variation",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+
+    "openingTime": null,
+    "closingTime": null,
+
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+
+    "breakfast": [
+      "South Indian Tiffins"
+    ],
+
+    "lunch": [
+      "Meals",
+      "Biryani"
+    ],
+
+    "dinner": [
+      "Indian Cuisine",
+      "Chinese Items"
+    ],
+
+    "snacks": [
+      "Fast Food"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ],
+
+    "specialDishes": [
+      "Biryani"
+    ]
+  },
+
+  "priceInformation": {
+
+    "priceCategory": "Moderate",
+
+    "averageCostForOne": "₹150–300",
+
+    "averageCostForTwo": "₹400–700"
+  },
+
+  "facilities": {
+
+    "dineIn": true,
+
+    "takeaway": true,
+
+    "parking": true,
+
+    "familySeating": true,
+
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+
+    "vegetarian": true,
+
+    "nonVegetarian": true,
+
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+
+    "googleRating": 4.0,
+
+    "totalReviews": 100
+  },
+
+  "nearbyPlaces": {
+
+    "temple": "Edupayala Vana Durga Bhavani Temple",
+
+    "busStand": "Medak Bus Stand",
+
+    "railwayStation": "Medak Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Family dining option for pilgrims travelling via Medak.",
+    "Provides wider food choices compared to temple-side eateries.",
+    "Suitable for groups and families."
+  ],
+
+  "dataReliability": {
+
+    "verifiedFields": [
+      "restaurantName",
+      "location",
+      "existence",
+      "restaurantCategory"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "priceInformation"
+    ],
+
+    "unknownFields": [
+      "phoneNumber",
+      "exactMenuDetails",
+      "workingHours",
+      "facilities"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile / Local Listings",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0009",
+  "temple_name": "Birla Mandir, Hyderabad",
+  "location": {
+    "district": "Hyderabad",
+    "state": "Telangana",
+    "latitude": 17.4062,
+    "longitude": 78.4691
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Gleneagles Hospital Lakdi Ka Pul",
+        "type": "Multi Speciality Hospital",
+        "address": "Lakdi Ka Pul, Hyderabad, Telangana 500004",
+        "latitude": 17.4048,
+        "longitude": 78.4628,
+        "distance_from_temple_km": 1.0,
+        "estimated_travel_time": "4 min",
+        "google_maps_url": "https://www.google.com/maps/search/Gleneagles+Hospital+Lakdikapul/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": true,
+        "icu_available": true,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "NIMS Hospital",
+        "type": "Government Super Speciality Hospital",
+        "address": "Punjagutta, Hyderabad, Telangana 500082",
+        "latitude": 17.4236,
+        "longitude": 78.4508,
+        "distance_from_temple_km": 3.2,
+        "estimated_travel_time": "10 min",
+        "google_maps_url": "https://www.google.com/maps/search/NIMS+Hospital+Hyderabad/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": true,
+        "icu_available": true,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Saifabad Police Station",
+        "type": "Police Station",
+        "address": "Saifabad, Hyderabad, Telangana 500004",
+        "latitude": 17.4015,
+        "longitude": 78.469,
+        "distance_from_temple": 0.8,
+        "travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Saifabad+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Saifabad",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Saifabad",
+        "address": "Saifabad, Hyderabad, Telangana 500004",
+        "coordinates": {
+          "latitude": 17.4028,
+          "longitude": 78.4675
+        },
+        "distance_from_temple": 1.1,
+        "travel_time": "4 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Saifabad/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Lakdi Ka Pul, Hyderabad, Telangana 500004",
+        "distance": 0.9,
+        "coordinates": {
+          "latitude": 17.4044,
+          "longitude": 78.4636
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Lakdikapul/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 11:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "MedPlus Pharmacy",
+        "address": "Lakdi Ka Pul, Hyderabad, Telangana 500004",
+        "distance": 1.0,
+        "coordinates": {
+          "latitude": 17.4041,
+          "longitude": 78.4629
+        },
+        "google_maps_url": "https://www.google.com/maps/search/MedPlus+Lakdikapul/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

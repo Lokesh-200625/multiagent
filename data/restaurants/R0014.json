@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+ "restaurantId": "R0014",
+ "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Vicky+Donalds+Bhadrachalam+Telangana",
+      "restaurantName": "Vicky Donald's Bhadrachalam",
+
+  "associatedTemple": {
+    "templeId": "T0002",
+    "templeName": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam"
+  },
+
+  "basicInformation": {
+    "category": "Fast Food Restaurant",
+    "cuisineType": [
+      "Fast Food",
+      "Burgers",
+      "Pizza",
+      "South Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A modern fast-food restaurant serving burgers, pizza, snacks, beverages, and Indian dishes near Sri Sita Ramachandra Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Bhadrachalam, Telangana, India",
+    "area": "Town Center",
+    "city": "Bhadrachalam",
+    "district": "Bhadradri Kothagudem",
+    "state": "Telangana",
+    "pincode": "507111",
+    "landmark": "Near Sri Sita Ramachandra Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 1.0,
+    "walkingTimeMinutes": 13,
+    "bikeTimeMinutes": 4,
+    "carTimeMinutes": 4,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [
+      "Veg Burger",
+      "Chicken Burger",
+      "Pizza"
+    ],
+    "dinner": [
+      "Pizza",
+      "Burgers",
+      "French Fries"
+    ],
+    "snacks": [
+      "French Fries",
+      "Garlic Bread"
+    ],
+    "beverages": [
+      "Soft Drinks",
+      "Milkshakes",
+      "Coffee"
+    ],
+    "specialDishes": [
+      "Chicken Burger",
+      "Veg Burger",
+      "Pizza"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Premium",
+    "averageCostForOne": "₹250–500",
+    "averageCostForTwo": "₹600–900"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Sita Ramachandra Swamy Temple",
+    "busStand": "Bhadrachalam Bus Station",
+    "railwayStation": "Bhadrachalam Road Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Modern fast-food restaurant.",
+    "Family-friendly seating.",
+    "Pizza and burgers available.",
+    "Suitable for younger pilgrims and families.",
+    "Dine-in and takeaway available."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Restaurant Guru",
+      "url": "https://restaurant-guru.in/Vicky-Donalds-Bhadrachalam-Bhadrachalam"
+    }
+  ]
+}

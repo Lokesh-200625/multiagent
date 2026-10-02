@@ -1,0 +1,90 @@
+{
+  "associated_temple": "Sri Kaleshwara Mukteswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Haritha Hotel Kaleshwaram",
+      "hotel_type": "Government Hotel",
+      "address": "Haritha Hotel, Kaleshwaram, Jayashankar Bhupalpally District, Telangana - 505504, India",
+      "contact_numbers": [
+        "+91 7036451451",
+        "1800-425-46464"
+      ],
+      "email": "info@tstdc.in",
+      "about": "Haritha Hotel Kaleshwaram is a government-operated hotel managed by Telangana Tourism Development Corporation (TGTDC). Located approximately 1 km from Sri Kaleshwara Mukteswara Swamy Temple, the hotel offers AC Deluxe and Suite rooms, an in-house restaurant, and modern amenities for pilgrims and tourists visiting Kaleshwaram. :contentReference[oaicite:3]{index=3}",
+      "google_map_link": "https://maps.google.com/?q=Haritha+Hotel+Kaleshwaram",
+      "official_website": "https://tourism.telangana.gov.in/",
+      "price_range": "Starting from ₹1,119 per night",
+      "check_in_time": "12:00 AM",
+      "check_out_time": "12:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Kaleshwaram Bus Stand – Approximately 600 m",
+        "railway_station": "Peddapalli Railway Station – Approximately 95 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 288 km"
+      },
+      "booking_links": {
+        "Official": "https://tourism.telangana.gov.in/hotel-list",
+        "Telangana Tourism": "https://telanganatourismhotels.in/kaleshwaram-hotel/",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.0/5"
+      },
+      "room_types": [
+        "Deluxe AC Room",
+        "Suite Room"
+      ],
+      "amenities": [
+        "Air Conditioning",
+        "Restaurant",
+        "LCD TV",
+        "Attached Bathroom",
+        "Free Parking",
+        "Power Backup",
+        "24-Hour Front Desk",
+        "Housekeeping"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Vegetarian and Multi-Cuisine",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Senior Citizens",
+        "Tourists",
+        "Group Pilgrims"
+      ],
+      "cancellation_policy": "Cancellation and refund policies are governed by Telangana Tourism booking terms and depend on the selected reservation. :contentReference[oaicite:4]{index=4}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Kaleshwara Mukteswara Swamy Temple",
+        "Pranahita River",
+        "Godavari River",
+        "Kaleshwaram Bus Stand"
+      ],
+      "temple_id": "T0007",
+      "hotel_id": "H0047"
+    }
+  ],
+  "temple_id": "T0007",
+  "hotel_id": "H0047"
+}

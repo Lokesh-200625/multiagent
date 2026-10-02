@@ -1,0 +1,96 @@
+{
+  "associated_temple": "Birla Mandir, Hyderabad",
+  "hotels": [
+    {
+      "hotel_name": "BEST WESTERN Ashoka",
+      "hotel_type": "3-Star Hotel",
+      "address": "6-1-70, Lakdikapul, Hyderabad, Telangana - 500004, India",
+      "contact_numbers": [
+        "+91 40 23220077"
+      ],
+      "email": "reservations@bestwesternashoka.com",
+      "about": "BEST WESTERN Ashoka is a centrally located 3-star hotel situated approximately 1.2 km from Birla Mandir. The hotel provides comfortable accommodation with modern amenities, a multi-cuisine restaurant, conference facilities, and easy access to Hyderabad's major tourist attractions. It is listed on MakeMyTrip and Goibibo and is suitable for pilgrims, families, business travelers, and tourists.",
+      "google_map_link": "https://maps.google.com/?q=BEST+WESTERN+Ashoka+Hyderabad",
+      "official_website": "https://www.bestwestern.com/",
+      "price_range": "₹3,200–₹6,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Lakdikapul Bus Stop – Approximately 250 m",
+        "railway_station": "Lakdikapul Railway Station – Approximately 900 m",
+        "airport": "Rajiv Gandhi International Airport – Approximately 29 km"
+      },
+      "booking_links": {
+        "Official": "https://www.bestwestern.com/",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/best_western_ashoka-details-hyderabad.html",
+        "Goibibo": "https://www.goibibo.com/hotels/best-western-ashoka-hotel-in-hyderabad/",
+        "Booking.com": "https://www.booking.com/"
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.2/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Superior Room",
+        "Executive Room",
+        "Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Room Service",
+        "Air Conditioning",
+        "Free Parking",
+        "Power Backup",
+        "Laundry Service",
+        "Business Centre",
+        "Conference Hall",
+        "Banquet Hall",
+        "24-Hour Front Desk",
+        "Elevator",
+        "Housekeeping"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Corporate Guests",
+        "Tourists"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Cancellation policies vary depending on the selected booking platform and room category.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Birla Mandir (Approx. 1.2 km)",
+        "Lakdikapul Metro Station",
+        "Lumbini Park",
+        "Hussain Sagar Lake",
+        "Telangana Secretariat"
+      ],
+      "temple_id": "T0009",
+      "hotel_id": "H0034"
+    }
+  ],
+  "temple_id": "T0009",
+  "hotel_id": "H0034"
+}

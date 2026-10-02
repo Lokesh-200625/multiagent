@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0022",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Haritha+Restaurant+Basara+Telangana",
+  "restaurantName": "Haritha Restaurant (Telangana Tourism)",
+
+  "associatedTemple": {
+    "templeId": "T0004",
+    "templeName": "Sri Gnana Saraswati Temple, Basara"
+  },
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A Telangana Tourism (Haritha) restaurant serving breakfast, meals, and Indian cuisine for pilgrims visiting Sri Gnana Saraswati Temple."
+  },
+
+  "location": {
+    "fullAddress": "Haritha Hotel परिसर, Basara, Nirmal District, Telangana, India",
+    "area": "Temple Area",
+    "city": "Basara",
+    "district": "Nirmal",
+    "state": "Telangana",
+    "pincode": "504101",
+    "landmark": "Near Sri Gnana Saraswati Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.5,
+    "walkingTimeMinutes": 7,
+    "bikeTimeMinutes": 2,
+    "carTimeMinutes": 2,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": "https://tourism.telangana.gov.in/",
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Vada",
+      "Poori"
+    ],
+    "lunch": [
+      "Vegetarian Meals",
+      "Chicken Biryani",
+      "Veg Biryani"
+    ],
+    "dinner": [
+      "Meals",
+      "Biryani",
+      "Curries"
+    ],
+    "snacks": [
+      "Samosa",
+      "Bonda"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks"
+    ],
+    "specialDishes": [
+      "Telangana Meals",
+      "Chicken Biryani",
+      "Veg Meals"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹200–350",
+    "averageCostForTwo": "₹500–700"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Gnana Saraswati Temple",
+    "busStand": "Basara Bus Stand",
+    "railwayStation": "Basar Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Operated by Telangana Tourism.",
+    "Suitable for families and pilgrims.",
+    "Parking facility available.",
+    "Breakfast, lunch and dinner served.",
+    "Located near Sri Gnana Saraswati Temple."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Telangana Tourism",
+      "url": "https://tourism.telangana.gov.in/"
+    }
+  ]
+}

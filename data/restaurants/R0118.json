@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0118",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Hotel+Sankalp+Bhuvanagiri+Telangana",
+  "restaurantName": "Hotel Sankalp - Bhuvanagiri",
+
+  "associatedTemple": {
+    "templeId": "T0023",
+    "templeName": "Swarnagiri Sree Venkateswara Swamy Devasthanam"
+  },
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A popular family restaurant on the Hyderabad-Warangal highway near Bhuvanagiri, suitable for pilgrims visiting Swarnagiri and nearby temples."
+  },
+
+  "location": {
+    "fullAddress": "Hyderabad-Warangal Highway, Raigiri, Bhuvanagiri, Telangana 508116, India",
+    "area": "Raigiri",
+    "city": "Bhuvanagiri",
+    "district": "Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "pincode": "508116",
+    "landmark": "Near Bhongir Fort / Swarnagiri route",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 5.8,
+      "source": "Estimated from verified restaurant and temple locations",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 70,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 14,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 12,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": 18,
+        "unit": "minutes",
+        "type": "Estimated"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+91 8885637777",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "06:00 AM",
+    "closingTime": "11:00 PM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Poori",
+      "Vada"
+    ],
+
+    "lunch": [
+      "Veg Meals",
+      "Non-Veg Meals",
+      "Biryani"
+    ],
+
+    "dinner": [
+      "Biryani",
+      "Butter Naan",
+      "Curries"
+    ],
+
+    "snacks": [
+      "South Indian Snacks"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks"
+    ],
+
+    "specialDishes": [
+      "Chicken Biryani",
+      "South Indian Meals"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹200–400",
+    "averageCostForTwo": "₹400–800"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 4.1,
+    "totalReviews": 8157
+  },
+
+  "nearbyPlaces": {
+    "temple": "Swarnagiri Sree Venkateswara Swamy Devasthanam",
+    "busStand": "Bhuvanagiri Bus Stand",
+    "railwayStation": "Bhongir Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Very popular highway restaurant.",
+    "Large number of customer reviews.",
+    "Suitable for family travellers.",
+    "Parking available.",
+    "Good stop for Yadadri-Swarnagiri route."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "address",
+      "phoneNumber",
+      "googleRating",
+      "totalReviews",
+      "workingHours"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation",
+      "priceInformation"
+    ],
+
+    "unknownFields": [
+      "officialWebsite",
+      "googleBusinessProfile"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "associated_temple": "Birla Mandir, Hyderabad",
+  "hotels": [
+    {
+      "hotel_name": "Hotel Rukmini Riviera",
+      "hotel_type": "3-Star Hotel",
+      "address": "6-1-79 & 80, Lakdikapul, Hyderabad, Telangana - 500004, India",
+      "contact_numbers": [
+        "+91 40 23231111"
+      ],
+      "email": "reservations@rukminiriviera.com",
+      "about": "Hotel Rukmini Riviera is a centrally located 3-star hotel situated approximately 1.5 km from Birla Mandir. The hotel offers comfortable accommodation with spacious rooms, a multi-cuisine restaurant, banquet facilities, conference halls, and modern amenities. It is a popular choice for pilgrims, families, business travelers, and tourists due to its proximity to major attractions and availability on leading booking platforms.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+Rukmini+Riviera+Hyderabad",
+      "official_website": "https://www.rukminiriviera.com/",
+      "price_range": "₹2,800–₹5,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Lakdikapul Bus Stop – Approximately 300 m",
+        "railway_station": "Lakdikapul Railway Station – Approximately 1 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 28 km"
+      },
+      "booking_links": {
+        "Official": "https://www.rukminiriviera.com/",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/hotel_rukmini_riviera-details-hyderabad.html",
+        "Goibibo": "https://www.goibibo.com/hotels/hotel-rukmini-riviera-hotel-in-hyderabad/",
+        "Booking.com": "https://www.booking.com/"
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Executive Room",
+        "Deluxe Room",
+        "Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Restaurant",
+        "Room Service",
+        "Free Parking",
+        "Power Backup",
+        "Elevator",
+        "24-Hour Front Desk",
+        "Housekeeping",
+        "Laundry Service",
+        "Conference Hall",
+        "Banquet Hall"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Couples",
+        "Tourists"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Cancellation policies vary depending on the selected booking platform and room category.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Birla Mandir (Approx. 1.5 km)",
+        "Lakdikapul Metro Station",
+        "Lumbini Park",
+        "Hussain Sagar Lake",
+        "Telangana Secretariat"
+      ],
+      "temple_id": "T0009",
+      "hotel_id": "H0035"
+    }
+  ],
+  "temple_id": "T0009",
+  "hotel_id": "H0035"
+}

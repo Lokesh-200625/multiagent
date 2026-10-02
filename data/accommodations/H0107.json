@@ -1,0 +1,88 @@
+{
+  "associated_temple": "Sri Chilkur Balaji Temple",
+  "hotels": [
+    {
+      "hotel_name": "FabHotel Latitude",
+      "hotel_type": "Budget Hotel",
+      "address": "Near Financial District, Gachibowli, Hyderabad, Telangana - 500075, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "FabHotel Latitude is a budget hotel located approximately 5 km from Sri Chilkur Balaji Temple. The hotel offers modern rooms with air conditioning, complimentary Wi-Fi, free parking, and 24-hour front desk services. It is listed on major online booking platforms, making it a convenient option for pilgrims and tourists visiting the temple while staying in western Hyderabad.",
+      "google_map_link": "https://maps.google.com/?q=FabHotel+Latitude+Hyderabad",
+      "official_website": "https://www.fabhotels.com/",
+      "price_range": "₹1,500–₹2,800 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Chilkur Bus Stop – Approximately 5 km",
+        "railway_station": "Lingampalli Railway Station – Approximately 13 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 24 km"
+      },
+      "booking_links": {
+        "Official": "https://www.fabhotels.com/",
+        "MakeMyTrip": "https://www.makemytrip.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "Booking.com": "https://www.booking.com/"
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.0/5"
+      },
+      "room_types": [
+        "Deluxe Room",
+        "Premium Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Free Parking",
+        "24-Hour Front Desk",
+        "Power Backup",
+        "Housekeeping",
+        "Elevator",
+        "Daily Housekeeping",
+        "Laundry Service"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Yes",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Couples",
+        "Solo Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Terms and conditions vary depending on the selected booking platform.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Chilkur Balaji Temple (Approx. 5 km)",
+        "Financial District",
+        "Gachibowli",
+        "Himayat Sagar Lake",
+        "Osman Sagar Lake"
+      ],
+      "temple_id": "T0008",
+      "hotel_id": "H0107"
+    }
+  ],
+  "temple_id": "T0008",
+  "hotel_id": "H0107"
+}

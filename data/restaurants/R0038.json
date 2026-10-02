@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+  "restaurantId": "R0038",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Om+Jonna+Roti+Bakshalu+Chapati+Curries+Point+Alampur+Telangana",
+ "restaurantName": "Om Jonna Roti, Bakshalu, Chapati, Curries Point",
+
+  "associatedTemple": {
+    "templeId": "T0006",
+    "templeName": "Sri Jogulamba Devi Temple, Alampur"
+  },
+
+
+  "basicInformation": {
+    "category": "Traditional Food Restaurant",
+    "cuisineType": [
+      "Telangana",
+      "South Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A small local eatery specializing in traditional Telangana homemade dishes such as jonna roti, bakshalu, chapatis and curries."
+  },
+
+  "location": {
+    "fullAddress": "Alampur, Jogulamba Gadwal District, Telangana, India",
+    "area": "Temple Area",
+    "city": "Alampur",
+    "district": "Jogulamba Gadwal",
+    "state": "Telangana",
+    "pincode": "509152",
+    "landmark": "Near Sri Jogulamba Devi Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.4,
+    "walkingTimeMinutes": 5,
+    "bikeTimeMinutes": 2,
+    "carTimeMinutes": 2,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": [
+      "Jonna Roti",
+      "Bakshalu",
+      "Chapati",
+      "Traditional Curries"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": null,
+    "averageCostForTwo": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": 4.5,
+    "totalReviews": 2
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Jogulamba Devi Temple",
+    "busStand": "Alampur Bus Stand",
+    "railwayStation": "Alampur Road Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Authentic Telangana cuisine.",
+    "Famous for Jonna Roti.",
+    "Homestyle food.",
+    "Budget-friendly.",
+    "Located near Sri Jogulamba Devi Temple."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

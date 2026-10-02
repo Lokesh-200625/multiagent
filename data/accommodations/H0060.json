@@ -1,0 +1,94 @@
+{
+  "associated_temple": "Sri Komuravelli Mallanna Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Hotel Lahari International",
+      "hotel_type": "3-Star Business Hotel",
+      "address": "Hyderabad Road, Siddipet, Siddipet District, Telangana - 502103, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Hotel Lahari International is a well-known business hotel located approximately 27 km from Sri Komuravelli Mallanna Swamy Temple. Situated in Siddipet, the hotel offers comfortable accommodation with modern amenities, making it an ideal choice for pilgrims, business travelers, families, and tourists visiting Komuravelli Temple and nearby attractions.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+Lahari+International+Siddipet",
+      "official_website": "",
+      "price_range": "₹2,200–₹4,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Siddipet RTC Bus Stand – Approximately 1 km",
+        "railway_station": "Jangaon Railway Station – Approximately 55 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 105 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": "https://www.makemytrip.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.2/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Deluxe Room",
+        "Executive Room",
+        "Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Restaurant",
+        "Room Service",
+        "Free Parking",
+        "24-Hour Front Desk",
+        "Power Backup",
+        "Housekeeping",
+        "Laundry Service",
+        "Conference Hall",
+        "Banquet Hall",
+        "Elevator"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Couples",
+        "Tourists",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room category.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Komuravelli Mallanna Swamy Temple (Approx. 27 km)",
+        "Siddipet RTC Bus Stand",
+        "Siddipet Clock Tower",
+        "Government Medical College Siddipet",
+        "Komuravelli Road"
+      ],
+      "temple_id": "T0015",
+      "hotel_id": "H0060"
+    }
+  ],
+  "temple_id": "T0015",
+  "hotel_id": "H0060"
+}

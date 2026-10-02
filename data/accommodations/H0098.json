@@ -1,0 +1,95 @@
+{
+  "associated_temple": "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+  "hotels": [
+    {
+      "hotel_name": "Hotel O Ekashila Lodge",
+      "hotel_type": "Hotel / Lodge",
+      "address": "2-32, Near Bus Stop, Yadagirigutta, Vadaigudem, Nalgonda, Telangana - 508115, India",
+      "contact_numbers": [
+        "+91 1246201464",
+        "+91 9247624262"
+      ],
+      "email": "",
+      "about": "Hotel O Ekashila Lodge is a budget-friendly hotel located near Sri Lakshmi Narasimha Swamy Temple, Yadadri. The hotel provides air-conditioned rooms with free Wi-Fi, room service, housekeeping, and private bathrooms. It is couple-friendly and suitable for pilgrims, families, and budget travelers due to its convenient location near the temple and bus stop. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Hotel+O+Ekashila+Lodge+Yadagirigutta",
+      "official_website": "",
+      "price_range": "₹800–₹1,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Yadadri Bus Stand – Approximately 500 m",
+        "railway_station": "Raigir Railway Station – Approximately 4 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 76 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/hotel_o_ekashila_lodge-details-bhuvanagri.html",
+        "Goibibo": "https://www.goibibo.com/hotels/budget-hotels-near-yadagirigutta-sri-lakshmi-narasimha-swamy-devasthanam_bhuvanagri-lc/",
+        "Booking.com": "https://www.booking.com/hotel/in/o-ekashila-lodge.html",
+        "Official": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "2.3/5"
+      },
+      "room_types": [
+        "Classic Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Room Service",
+        "Housekeeping",
+        "Private Bathroom",
+        "Flat-Screen TV",
+        "Cable TV",
+        "Work Desk",
+        "24-Hour Front Desk",
+        "Luggage Storage",
+        "Family Rooms",
+        "Free Toiletries"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Not Available",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Included",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Budget Travelers",
+        "Solo Travelers",
+        "Group Pilgrims"
+      ],
+      "cancellation_policy": "Free cancellation till check-in is available on eligible room plans. Book with ₹0 Payment is available on selected bookings. Cancellation policies may vary depending on the booking platform. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Lakshmi Narasimha Swamy Temple",
+        "Yadadri Bus Stand",
+        "Raigir Railway Station",
+        "S.R. Kalyana Mandapam",
+        "Lotus Temple",
+        "Vignana Bharathi Institute of Technology (VBIT)"
+      ],
+      "temple_id": "T0001",
+      "hotel_id": "H0098"
+    }
+  ],
+  "temple_id": "T0001",
+  "hotel_id": "H0098"
+}

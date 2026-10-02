@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+  "restaurantId": "R0029",
+  "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Sri+Balaji+Hotel+Kondagattu+Telangana",
+  "restaurantName": "Sri Balaji Hotel",
+
+  "associatedTemple": {
+    "templeId": "T0005",
+    "templeName": "Sri Kondagattu Anjaneya Swamy Temple"
+  },
+
+
+  "basicInformation": {
+    "category": "Hotel & Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A budget-friendly vegetarian hotel serving South Indian breakfast, meals and refreshments for pilgrims visiting Sri Kondagattu Anjaneya Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Kondagattu, Jagitial District, Telangana, India",
+    "area": "Temple Area",
+    "city": "Kondagattu",
+    "district": "Jagitial",
+    "state": "Telangana",
+    "pincode": "505452",
+    "landmark": "Near Sri Kondagattu Anjaneya Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.2,
+    "walkingTimeMinutes": 3,
+    "bikeTimeMinutes": 1,
+    "carTimeMinutes": 1,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹100–180",
+    "averageCostForTwo": "₹250–350"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Kondagattu Anjaneya Swamy Temple",
+    "busStand": "Kondagattu Bus Stand",
+    "railwayStation": "Jagitial Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Budget-friendly restaurant.",
+    "Pure vegetarian.",
+    "Suitable for breakfast and lunch.",
+    "Popular with pilgrims.",
+    "Located very close to the temple."
+  ],
+
+  "references": []
+}

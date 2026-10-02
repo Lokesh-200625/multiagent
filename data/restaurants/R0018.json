@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0018",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Rajadhani+Bar+%26+Family+Restaurant+Vemulawada+Telangana",
+      
+      "restaurantName": "Rajadhani Bar & Family Restaurant",
+
+  "associatedTemple": {
+    "templeId": "T0003",
+    "templeName": "Sri Raja Rajeshwara Swamy Temple, Vemulawada"
+  },
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A family restaurant in Vemulawada offering Indian and Chinese cuisine with vegetarian and non-vegetarian options."
+  },
+
+  "location": {
+    "fullAddress": "Vemulawada, Telangana, India",
+    "area": "Temple Area",
+    "city": "Vemulawada",
+    "district": "Rajanna Sircilla",
+    "state": "Telangana",
+    "pincode": "505302",
+    "landmark": "Near Sri Raja Rajeshwara Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.8,
+    "walkingTimeMinutes": 11,
+    "bikeTimeMinutes": 4,
+    "carTimeMinutes": 4,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [
+      "Veg Meals",
+      "Chicken Biryani",
+      "Mutton Biryani",
+      "Fried Rice"
+    ],
+    "dinner": [
+      "Biryani",
+      "Butter Chicken",
+      "Noodles",
+      "Curries"
+    ],
+    "snacks": [
+      "French Fries"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks",
+      "Fresh Lime Soda"
+    ],
+    "specialDishes": [
+      "Chicken Biryani",
+      "Mutton Biryani",
+      "Butter Chicken"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Premium",
+    "averageCostForOne": "₹250–500",
+    "averageCostForTwo": "₹600–900"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Raja Rajeshwara Swamy Temple",
+    "busStand": "Vemulawada Bus Station",
+    "railwayStation": "Kamareddi Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Premium family restaurant.",
+    "Vegetarian and non-vegetarian cuisine.",
+    "Chinese dishes available.",
+    "Air-conditioned dining.",
+    "Suitable for families and pilgrims."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Restaurant Guru",
+      "url": "https://restaurant-guru.in/Rajadhani-BAR-and-Restaurant-Vemulawada"
+    }
+  ]
+}

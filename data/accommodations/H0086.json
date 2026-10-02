@@ -1,0 +1,92 @@
+{
+  "associated_temple": "Surendrapuri (Kunda Satyanarayana Kaladham)",
+  "hotels": [
+    {
+      "hotel_name": "Sowbhagya Resorts",
+      "hotel_type": "Resort Hotel",
+      "address": "Plot No. 95, Sri Laxmi Narasimha Township, Mallapur Road, Yadagirigutta, Telangana - 508115, India",
+      "contact_numbers": [
+        "+91 98498 27512"
+      ],
+      "email": "",
+      "about": "Sowbhagya Resorts is a premium resort located near Yadagirigutta and within convenient driving distance of Surendrapuri. The resort offers spacious rooms, an outdoor swimming pool, restaurant, landscaped gardens, and family-friendly facilities, making it a preferred stay option for pilgrims and leisure travelers visiting Surendrapuri, Yadadri, and Swarnagiri.",
+      "google_map_link": "https://maps.google.com/?q=Sowbhagya+Resorts+Yadagirigutta",
+      "official_website": "",
+      "price_range": "₹2,500–₹4,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Yadagirigutta Bus Stand – Approximately 2 km",
+        "railway_station": "Raigir Railway Station – Approximately 4 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 74 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Google Hotels": "https://www.google.com/travel/hotels/",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.3/5"
+      },
+      "room_types": [
+        "Deluxe Room",
+        "Executive Room",
+        "Family Room"
+      ],
+      "amenities": [
+        "Swimming Pool",
+        "Restaurant",
+        "Free Wi-Fi",
+        "Free Parking",
+        "Air Conditioning",
+        "Room Service",
+        "Family Rooms",
+        "Spa",
+        "Garden",
+        "24-Hour Front Desk"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available",
+        "food_type": "Vegetarian and Multi-Cuisine",
+        "outside_food": "Not Specified"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Group Travelers",
+        "Weekend Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform or direct booking with the resort.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Surendrapuri (Kunda Satyanarayana Kaladham)",
+        "Yadadri Sri Lakshmi Narasimha Swamy Temple",
+        "Swarnagiri Sri Venkateswara Swamy Temple",
+        "Raigir Railway Station"
+      ],
+      "temple_id": "T0022",
+      "hotel_id": "H0086"
+    }
+  ],
+  "temple_id": "T0022",
+  "hotel_id": "H0086"
+}

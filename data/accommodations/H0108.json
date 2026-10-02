@@ -1,0 +1,97 @@
+{
+  "associated_temple": "Sri Chilkur Balaji Temple",
+  "hotels": [
+    {
+      "hotel_name": "Dream Valley Golf Resort & Spa",
+      "hotel_type": "Resort",
+      "address": "Vikarabad Road, Bakaram Jagir, Before Chilkur X Roads, Hyderabad, Telangana - 501504, India",
+      "contact_numbers": [
+        "+91 9100000131"
+      ],
+      "email": "reservations@dreamvalley.in",
+      "about": "Dream Valley Golf Resort & Spa is a premium resort located approximately 8 km from Sri Chilkur Balaji Temple. The resort offers luxury rooms, cottages, landscaped gardens, a swimming pool, spa, indoor and outdoor recreation facilities, and multiple dining options. It is a preferred stay for families, pilgrims, leisure travelers, and corporate guests visiting the Chilkur area.",
+      "google_map_link": "https://maps.google.com/?q=Dream+Valley+Golf+Resort+Hyderabad",
+      "official_website": "https://www.dreamvalleyresorts.com/",
+      "price_range": "₹5,500–₹10,000 per night (Approx.)",
+      "check_in_time": "02:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Chilkur Bus Stop – Approximately 8 km",
+        "railway_station": "Hyderabad Deccan (Nampally) Railway Station – Approximately 23 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 22 km"
+      },
+      "booking_links": {
+        "Official": "https://www.dreamvalleyresorts.com/",
+        "MakeMyTrip": "https://www.makemytrip.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "Booking.com": "https://www.booking.com/"
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "Deluxe Room",
+        "Executive Room",
+        "Luxury Cottage",
+        "Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Swimming Pool",
+        "Spa",
+        "Fitness Centre",
+        "Restaurant",
+        "Free Parking",
+        "Air Conditioning",
+        "Room Service",
+        "Power Backup",
+        "Conference Hall",
+        "Children's Play Area",
+        "Indoor Games",
+        "Outdoor Sports"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Yes",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Business Travelers",
+        "Group Travelers",
+        "Vacationers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Cancellation terms depend on the selected booking platform and tariff.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Chilkur Balaji Temple (Approx. 8 km)",
+        "Himayat Sagar Lake",
+        "Osman Sagar Lake",
+        "Mrugavani National Park",
+        "Rajiv Gandhi International Airport"
+      ],
+      "temple_id": "T0008",
+      "hotel_id": "H0108"
+    }
+  ],
+  "temple_id": "T0008",
+  "hotel_id": "H0108"
+}

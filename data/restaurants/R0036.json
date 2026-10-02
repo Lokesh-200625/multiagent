@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+  "restaurantId": "R0036",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Srija+Mess+Alampur+Telangana",
+    "restaurantName": "Srija Mess",
+
+  "associatedTemple": {
+    "templeId": "T0006",
+    "templeName": "Sri Jogulamba Devi Temple, Alampur"
+  },
+
+
+  "basicInformation": {
+    "category": "Mess & Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A popular local mess serving home-style South Indian meals for pilgrims, travelers and local residents."
+  },
+
+  "location": {
+    "fullAddress": "Alampur, Jogulamba Gadwal District, Telangana, India",
+    "area": "Temple Area",
+    "city": "Alampur",
+    "district": "Jogulamba Gadwal",
+    "state": "Telangana",
+    "pincode": "509152",
+    "landmark": "Near Sri Jogulamba Devi Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.5,
+    "walkingTimeMinutes": 7,
+    "bikeTimeMinutes": 2,
+    "carTimeMinutes": 2,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": null,
+    "averageCostForTwo": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 4.5,
+    "totalReviews": 33
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Jogulamba Devi Temple",
+    "busStand": "Alampur Bus Stand",
+    "railwayStation": "Alampur Road Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Popular local mess.",
+    "Home-style meals.",
+    "Budget-friendly.",
+    "Suitable for pilgrims and travelers.",
+    "Located near Sri Jogulamba Devi Temple."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

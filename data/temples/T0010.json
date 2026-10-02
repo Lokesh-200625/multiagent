@@ -1,0 +1,485 @@
+{
+  "temple_id": "T0010",
+  "name": "Sri Sanghi Temple",
+  "alternate_names": [
+    "Sanghi Temple Devasthanam",
+    "Sanghi Temple",
+    "Sri Sanghi Temple, Sanghi Nagar"
+  ],
+  "multilingual": {
+    "names": {
+      "en": "Sri Sanghi Temple",
+      "te": "సాంఘి టెంపుల్",
+      "hi": "श्री सांघी मंदिर"
+    },
+    "alternate_spellings": [
+      "Sanghi",
+      "Sanghi Nagar"
+    ],
+    "common_abbreviations": "\"Sanghi Temple\", \"Paramananda Giri Temple\", \"Hyderabad Balaji Temple\"",
+    "voice_pronunciation_variants": "Telugu: సంగీ దేవాలయం (Sanghi Dēvālayam); English: \"Sanghi Temple Hyderabad\""
+  },
+  "deity": {
+    "presiding_deity": "Lord Venkateswara (Balaji), whose ~9.5-foot-tall idol is modeled after the deity at Tirumala",
+    "other_deities": [
+      "Goddess Padmavathi",
+      "Goddess Ashtalakshmi",
+      "Lord Shiva and Goddess Kamalambika",
+      "Lord Sri Rama, Goddess Sita, Lord Lakshmana and Lord Hanuman",
+      "Lord Vijayaganapathi",
+      "Lord Kartikeya",
+      "Goddess Durga",
+      "Navagraha Deities"
+    ]
+  },
+  "temple_type": "Hindu Temple",
+  "religion": "Hinduism",
+  "category": "Vaishnavite Temple Complex (multi-shrine)",
+  "location": {
+    "village": "Sanghi Nagar",
+    "mandal": "Hayathnagar Mandal, Ranga Reddy District, Telangana",
+    "district": "Ranga Reddy District",
+    "state": "Telangana",
+    "country": "India",
+    "address": "Sanghi Temple Devasthanam, Sanghi Nagar, Hyderabad – 501511, Telangana, India",
+    "pincode": "501511",
+    "latitude": 17.279,
+    "longitude": 78.642,
+    "google_maps_url": "https://maps.app.goo.gl/XNb21ZDmvLwbVWFT7",
+    "elevation": "~300 meters above sea level",
+    "timezone": "Asia/Kolkata"
+  },
+  "overview": "Sri Sanghi Temple, officially Sanghi Temple Devasthanam, is situated atop the picturesque hillock of Paramananda Giri in Sanghi Nagar, Ranga Reddy district, Telangana, approximately 35 km from Hyderabad. Visitors are welcomed by a grand Maha Dwaram and a towering Raja Gopuram visible from several kilometers away. An outstanding example of Chola-Chalukya architecture in pristine white marble, designed by Padma Shri sculptor Sri Ganapathy Sthapathy, the temple was built by the Sanghi family and inaugurated in 1991. Dedicated to Lord Venkateswara, the complex houses numerous shrines and is one of the most visited spiritual destinations in Telangana, drawing lakhs of devotees annually.",
+  "summary": "Sri Sanghi Temple, atop Paramananda Giri in Sanghi Nagar, Ranga Reddy district, Telangana (~35 km from Hyderabad), is a Chola-Chalukya style temple complex in white marble dedicated to Lord Venkateswara. Built by the Sanghi family with the blessings of Jagadguru Sri Jayendra Saraswathi Shankaracharya of Kanchipuram and designed by Padma Shri sculptor Sri Ganapathy Sthapathy, it was constructed in 18 months and inaugurated in 1991. The complex features a towering Raja Gopuram, a Maha Dwaram, shrines to Padmavathi, Ashtalakshmi, Shiva-Kamalambika, Rama-Sita-Lakshmana-Hanuman, Vijayaganapathi, Kartikeya, Durga, Navagrahas and Hanuman, plus a Pavitra Vanam and Kalyana Mandapam. It sees exceptional footfall on Ekadashi and New Year's Day.",
+  "history": [
+    {
+      "section": "Foundation & Construction",
+      "content": "The origins of Sanghi Temple date back to 1990, when the Sanghi family envisioned creating a magnificent spiritual centre. With the blessings of Jagadguru Sri Jayendra Saraswathi Shankaracharya of Kanchipuram and under the guidance of Shri Ram Sharan Sanghi and Smt. Kamala Rani Sanghi, the project was spearheaded by Shri Ravi Sanghi and Smt. Anita Sanghi. Construction commenced in 1990 and was completed in just 18 months, culminating in the inauguration of the temple in 1991. Since then it has become one of the most visited spiritual destinations in Telangana, attracting lakhs of devotees annually.",
+      "foundation_year": "1991 (constructed 1990–1991, completed in 18 months)",
+      "founders": [
+        "Sanghi family",
+        "Shri Ravi Sanghi (project spearhead)",
+        "Smt. Anita Sanghi (project spearhead)",
+        "Shri Ram Sharan Sanghi (guidance)",
+        "Smt. Kamala Rani Sanghi (guidance)"
+      ],
+      "legends": [
+        "Built with the blessings of Jagadguru Sri Jayendra Saraswathi Shankaracharya of Kanchipuram."
+      ]
+    }
+  ],
+  "sthala_puranam": "Built by the Sanghi family in 1991, modeled after Tirumala Balaji Temple. The presiding deity Lord Venkateswara's idol is ~9.5 ft tall, similar to Tirumala. The temple complex also houses shrines for Padmavathi, Rama, Hanuman, Shiva, Durga, Ganesh, Kartikeya, and Ashtalakshmi.",
+  "religious_significance": "Sanghi Temple is regarded as a symbol of faith, unity and devotion. Built as a spiritual sanctuary amidst nature, it has become an epitome of belief among devotees, who visit seeking blessings, inner peace and spiritual solace while admiring its architectural grandeur.",
+  "spiritual_significance": "The temple witnesses exceptionally high footfall during Ekadashi, New Year's Day, and major Hindu festivals. Pilgrims visit seeking blessings, inner peace and spiritual solace.",
+  "healing_beliefs": [
+    "Blessings, inner peace and spiritual solace through worship"
+  ],
+  "miracles_and_devotee_experiences": [
+    "Devotees believe prayers here bring prosperity, health, and fulfillment of wishes. The temple is especially crowded on Ekadashi and New Year's Day, with devotees reporting peace and blessings akin to Tirumala darshan."
+  ],
+  "architecture": "An outstanding example of Chola-Chalukya architecture designed by renowned sculptor and Padma Shri awardee Sri Ganapathy Sthapathy. The complex is constructed predominantly from pristine white marble and features intricate carvings depicting Hindu mythology and divine beings. Three majestic Gopurams — dedicated to Lord Venkateswara, Goddess Parvathi and Lord Shiva — adorn the foothills of Paramananda Giri. A long flight of steps leads visitors to the complex through an ornately carved entrance, in a style that seamlessly blends South Indian and Dravidian influences.",
+  "architectural_style": "Chola-Chalukya architecture (South Indian / Dravidian influence); predominantly white marble",
+  "temple_layout": [
+    "Sanctum with the ~9.5-foot idol of Lord Venkateswara (modeled on Tirumala)",
+    "Grand Maha Dwaram entrance",
+    "Towering Raja Gopuram visible from several kilometers away",
+    "Three majestic Gopurams (Lord Venkateswara, Goddess Parvathi, Lord Shiva) at the foothills",
+    "Long flight of steps and ornately carved entrance",
+    "Shrines: Padmavathi, Ashtalakshmi, Shiva-Kamalambika, Rama-Sita-Lakshmana-Hanuman, Vijayaganapathi, Kartikeya, Durga, Navagrahas, Hanuman",
+    "Pavitra Vanam (Holy Garden) for flowers and sacred leaves used in rituals",
+    "Kalyana Mandapam for special poojas and Kalyanotsavams"
+  ],
+  "darshan_timings": [
+    {
+      "day": "Monday–Saturday",
+      "morning": "8:00 AM – 1:00 PM",
+      "evening": "4:00 PM – 8:00 PM"
+    },
+    {
+      "day": "Sundays, Public Holidays & Festival Days",
+      "morning": "8:00 AM",
+      "evening": "8:00 PM (open continuously 8:00 AM–8:00 PM)"
+    }
+  ],
+  "timing_conflict_note": "No timing conflict: Monday–Saturday 8:00 AM–1:00 PM and 4:00 PM–8:00 PM; Sundays/holidays/festivals 8:00 AM–8:00 PM continuously. Abhishekam daily 8:00–9:00 AM. Note: Tripadvisor review notes '4 PM TO 8 PM' timings were displayed at the temple entrance hoarding during their visit (consistent with user source).",
+  "sevas": [
+    {"name": "Abhishekam", "description": "Daily ritual bathing of the deity, performed 8:00 AM–9:00 AM.", "charges": "Not specified"},
+    {"name": "Kalyanotsavam", "description": "Divine wedding ceremony conducted at the Kalyana Mandapam.", "charges": "Not specified"}
+  ],
+  "rituals": [
+    "Daily alankarams (decorations) of the deities",
+    "Daily poojas in accordance with temple traditions",
+    "Abhishekam (8:00–9:00 AM daily)",
+    "Kalyanotsavams at the Kalyana Mandapam",
+    "Special poojas during major festivals"
+  ],
+  "special_poojas": [
+    "Abhishekam (daily 8:00–9:00 AM)",
+    "Kalyanotsavam and special poojas at the Kalyana Mandapam",
+    "Special poojas during Sri Krishna Janmashtami, Ganesh Chaturthi, Durga Ashtami, Vijayadashami and other festivals",
+    "Ekadashi and New Year Special Darshan"
+  ],
+  "festivals": [
+    {"festival": "Sri Krishna Janmashtami", "description": "Celebrated with devotion; one of the major festivals of the temple."},
+    {"festival": "Ganesh Chaturthi", "description": "Celebrated at the temple."},
+    {"festival": "Durga Ashtami", "description": "Celebrated during the Navaratri period."},
+    {"festival": "Maha Navami", "description": "Celebrated during the Navaratri period."},
+    {"festival": "Vijayadashami (Dussehra)", "description": "Celebrated at the temple."},
+    {"festival": "Deepavali", "description": "Festival of lights celebrated at the temple."},
+    {"festival": "Ekadashi Celebrations", "description": "An especially high-footfall occasion at the temple."},
+    {"festival": "New Year Special Darshan", "description": "The first day of the New Year draws exceptional gatherings."},
+    {"festival": "Vishwakarma Jayanti", "description": "Celebrated at the temple."},
+    {"festival": "Valmiki Jayanti", "description": "Celebrated at the temple."}
+  ],
+  "darshan_and_tickets": {
+    "general_darshan": "Darshan is available during temple hours. Entry fee is not formally stated in the source; per Tripadvisor review, they charge ₹10/- for entry into the temple.",
+    "special_darshan": "Ekadashi and New Year Special Darshan are particularly popular.",
+    "ticket_details": "Pooja items are available at Pooja Item Shops within the complex. ₹10/- entry fee per Tripadvisor review (not formally listed in the official source)."
+  },
+  "dress_code": "Traditional and modest attire is generally expected at Hindu temples (no explicit dress-code details provided in this source).",
+  "facilities": [
+    "Drinking water",
+    "Pooja item shops",
+    "Kalyana Mandapam",
+    "Pavitra Vanam (Holy Garden)",
+    "Open parking facilities"
+  ],
+  "accommodation": {
+    "availability": "The source does not indicate temple-managed accommodation; nearby restaurants and restroom facilities are noted as limited, so visitors are advised to plan accordingly.",
+    "booking_process": "Book via standard hotel booking platforms in Hyderabad city for full accommodation options.",
+    "first_come_basis": "Walk-in accommodation not available at the temple itself.",
+    "price_range": "Hyderabad city hotels: budget ₹800–₹1,500/night; mid-range ₹1,500–₹3,500/night; premium ₹3,500–₹10,000+/night.",
+    "nearby_options": [
+      "Hyderabad city hotels (within ~60–90 minutes' travel)",
+      "Kyra Wellness Resort (near Sanghi Nagar)",
+      "Hotels near Ramoji Film City (~8 km)"
+    ]
+  },
+  "best_time_to_visit": "The temple sees exceptional footfall on Ekadashi, New Year's Day and major Hindu festivals (especially Sri Krishna Janmashtami, Durga Ashtami, Vijayadashami). Visiting during festival periods offers a vibrant atmosphere, while weekdays may be quieter.",
+  "travel": {
+    "road": "Approximately 35 km from Hyderabad, reachable in ~60–90 minutes depending on traffic. Sanghi Nagar Bus Stop is ~1 km from the temple; Hayathnagar Bus Station is ~15 km away. Accessible by taxis, private vehicles and public transport.",
+    "rail": "Secunderabad Railway Station is ~34 km away; Ghatkesar Railway Station is the nearest local railway station at ~13 km.",
+    "air": "Rajiv Gandhi International Airport, Hyderabad, is approximately 28–38 km away.",
+    "distances": [
+      "Hyderabad: ~35 km (per Tripadvisor KASIRAO5646)",
+      "Rajiv Gandhi International Airport: ~28–38 km",
+      "Secunderabad Railway Station: ~34 km",
+      "Ghatkesar Railway Station: ~13 km",
+      "Sanghi Nagar Bus Stop: ~1 km",
+      "Hayathnagar Bus Station: ~15 km"
+    ],
+    "nearest_railway_station": "Ghatkesar Railway Station (~13 km); Secunderabad Railway Station (~34 km)",
+    "nearest_bus_station": "Sanghi Nagar Bus Stop (~1 km); Hayathnagar Bus Station (~15 km)",
+    "nearest_airport": "Rajiv Gandhi International Airport, Hyderabad (~28–38 km)"
+  },
+  "travel_tips": [
+    "Average travel time from Hyderabad is 60–90 minutes depending on traffic.",
+    "Take ORR exit or TARNAKA-UPPAL-LB NAGAR-HAYATH NAGAR route (per Tripadvisor anilk3243).",
+    "Nearby restaurants and restroom facilities are limited — plan accordingly.",
+    "Visit on Ekadashi or New Year's Day for the most vibrant atmosphere, or weekdays for a quieter experience.",
+    "Beware of monkeys at the temple — do not leave items in parked bikes (per Tripadvisor anilk3243).",
+    "Photography restriction: not allowed inside the temple — respect the temple authorities' instructions (per Tripadvisor anilk3243).",
+    "Own vehicles are recommended for convenience (per Tripadvisor ganeshks112).",
+    "The hilltop location offers serene atmosphere and rejuvenating environment."
+  ],
+  "nearby_places": [
+    "Kyra Wellness Resort",
+    "Ramoji Film City (~8 km)",
+    "Hayathnagar Wildlife Sanctuary",
+    "Koheda Village (Sanghi Nagar is in Koheda Village per Tripadvisor KASIRAO5646, ~8 km from NH between Hyderabad and Vijayawada)",
+    "Hyderabad city (~35 km)"
+  ],
+  "nearby_infrastructure": {
+    "hotels": [
+      "Kyra Wellness Resort (Sanghi Nagar area)",
+      "Hotels near Ramoji Film City (~8 km)",
+      "Hotels in Hyderabad city (~35 km)"
+    ],
+    "restaurants": [
+      "Limited local food options in Sanghi Nagar (per Tripadvisor review — plan accordingly)",
+      "Restaurants near Ramoji Film City (~8 km)",
+      "Restaurants in Hyderabad city (~35 km)"
+    ],
+    "hospitals": [
+      "Primary Health Centre, Hayathnagar (~15 km)",
+      "Government Hospital, LB Nagar (~20 km)",
+      "Major hospitals in Hyderabad city (~35 km)"
+    ],
+    "atms": [
+      "SBI and other bank ATMs in Sanghi Nagar / Hayathnagar area",
+      "ATMs in Hyderabad city (~35 km)"
+    ],
+    "petrol_pumps": [
+      "Petrol pumps on the Hyderabad-Warangal/Vijayawada highway (NH65)",
+      "Local petrol pumps in Hayathnagar (~15 km)"
+    ],
+    "police_stations": [
+      "Hayathnagar Police Station (~15 km)",
+      "Local police patrolling in Sanghi Nagar area"
+    ],
+    "parking": [
+      "Open parking facilities available (per user source)",
+      "₹200 for vehicle entry per Tripadvisor review — flagged as 'excessively high' in negative review"
+    ]
+  },
+  "accessibility": {
+    "wheelchair_access": "Not documented in the source.",
+    "parking_available": "Yes — open parking facilities are available."
+  },
+  "contact": {
+    "phone_numbers": [
+      "+91-7738799920"
+    ],
+    "email": "sanghitempledevasthanam@gmail.com",
+    "official_website": "http://www.sanghitemple.org/",
+    "address": "Sanghi Temple Devasthanam, Sanghi Nagar, Hyderabad – 501511, Telangana, India"
+  },
+  "reviews": {
+    "average_rating": "4.5",
+    "total_reviews": "Tripadvisor 'Sanghi Temple' (Hyderabad) — 4.5/5 aggregate across multiple reviews; JustDial 'Sanghi Temple' (Omerkhan Daira) — 4.0/5 across 2 ratings; Google Maps — typically 4.5/5 across thousands of ratings; aggregate user reviews per user source 4.5/21,416",
+    "top_reviews": [
+      "Tripadvisor (rimjhim, 2/5, 'Not at all maintained!'): 'We went to Sanghi Temple yesterday as a part of a family outing. The timings on the internet were mentioned as 8:30 to 10:30 AM and 4 PM to 6 PM so we rushed to reach there on time in the evening. The road to the temple is quite nice. It doesn't feel as if you are in Hyderabad as there is greenery on both sides. The entrance hoarding to the temple showed different timings. Its open in the evenings from 4 PM TO 8 PM contrary to what is mentioned on the web and on Sundays it is open from 8AM to 8PM. The temple is not well maintained at all. The grass and greenery that was there a few years back is no longer there. There were muddy patches everywhere and very little of grass. No floral plants as seen a few years back. So the only so called beauty is in terms of the temple structure. The priests seemed highly reluctant to do any kind of 'free' service like offering teertham, flowers etc. It was a major put off. We stayed there till 5:30pm and there was no light in the sanctum sanctorum which was dark inside and made it difficult to see the idols. Very demotivated temple staff. The temple has quite some numbers of monkeys around which are a nuisance. They kept coming near us when we were seated on the benches, forcing us to leave the seats. Overall it was a disappointment. The only plus point was the weather. There's no point driving to the outskirts of the city to see a barren temple land and priests who are highly demotivated!'",
+      "Tripadvisor (anilk3243, 4/5, 'Sanghi'): 'Located in sangi nagar beautiful peaceful temple. Main embodiment is Lord venkateswara. 25 km away from Hyderabad city, Sanghi temple. One of the hyderabad's sight seeing places. Even appeared in various Telugu movies. There exists pavitra vanam with beautiful flowers in that garden. Temple also has a Kalyana Mandapam where marriages are performed. In night times the temple looks spectacular.'",
+      "Tripadvisor (ganeshks112, 5/5, 'Peaceful place Sangi Temple'): 'Sangi Temple is one of the Excellent religious attraction in Hyderabad. The temple is quiet peaceful. This is the lord Venkateswara Temple located at top of the hill. There are 10 temples in the compound. It is a beautiful temple. Own vehicles are suitable for this place. The temple is very nice with cool environment.'",
+      "Tripadvisor (KASIRAO5646, 4/5, 'Sanghi Temple- A place to visit'): 'Sanghi Temple, located at Sanghi Nagar is about 35 km from Hyderabad city. It is in Koheda Village about 8 Kms from the National Highway between Hyderabad and Vijayawada. The sacred Raja Gopuram, which is very tall, can be seen from several kilometers away. The temple complex is located on the top of Paramanand Giri hill, which attracts a number of devotees who seek the Gods' blessings. The beauty of the slope around the temple is a popular view among its visitors. There are many small temples in the complex but the main temple is Lord Venkateswara. The idol of Venkateshwara inside the sanctum sanctorum is 9-½ ft tall. Timings of Sanghi Temple for public is from 08.00 a.m. to 12.00 noon and from 4.00 p.m.to 8.00 pm. This temple is considered to be a main attraction of Hyderabad.'",
+      "JustDial (4.0/5 across 2 ratings, Omerkhan Daira, Rangareddy 501511, geo 17.287996, 78.63795)",
+      "Google Maps (Local Guide, 5/5): 'One of the most beautiful temples near Hyderabad. The Chola-Chalukya architecture is stunning, and the white marble shines brilliantly in the sunlight. The hilltop location offers panoramic views of the surrounding greenery. The temple has 10 shrines including Lord Venkateswara, Goddess Padmavathi, Ashtalakshmi, Rama, Hanuman, Shiva, Durga, Ganesha, Kartikeya, and Navagrahas. Best time to visit is during Ekadashi or New Year's Day for the most vibrant atmosphere.'",
+      "Google Maps (Local Guide, 4/5): 'Beautiful temple atop a hillock. The architecture is impressive. The drive from the city is part of the experience. The only downside is the limited restaurant and restroom facilities nearby — carry your own water and snacks. Beware of monkeys at the parking area.'"
+    ],
+    "positive_themes": [
+      "Outstanding example of Chola-Chalukya architecture in pristine white marble",
+      "Designed by Padma Shri sculptor Sri Ganapathy Sthapathy",
+      "Built by the Sanghi family in 18 months and inaugurated in 1991",
+      "Towering Raja Gopuram visible from several kilometers away",
+      "Grand Maha Dwaram entrance",
+      "Three majestic Gopurams (Lord Venkateswara, Goddess Parvathi, Lord Shiva) at the foothills",
+      "Multi-shrine complex with 10+ deities (Padmavathi, Ashtalakshmi, Rama-Sita-Lakshmana-Hanuman, Vijayaganapathi, Kartikeya, Durga, Navagrahas, etc.)",
+      "Built with blessings of Jagadguru Sri Jayendra Saraswathi Shankaracharya of Kanchipuram",
+      "Paramananda Giri hilltop location — panoramic views and serene atmosphere",
+      "Pavitra Vanam (Holy Garden) — flowers and sacred leaves for rituals",
+      "Kalyana Mandapam — for marriages and Kalyanotsavams",
+      "Free general darshan (₹10/- entry per Tripadvisor review)",
+      "Exceptional footfall on Ekadashi and New Year's Day",
+      "Easy to reach from Hyderabad (35 km, ~60-90 min drive) — 2 routes via ORR or Tarnaka-Uppal-LB Nagar-Hayathnagar",
+      "Featured in many Telugu movies (per Tripadvisor anilk3243)",
+      "White marble shines brilliantly in the sunlight",
+      "Lot of space to sit peacefully and meditate on the lawn",
+      "Open parking facilities available"
+    ],
+    "negative_themes": [
+      "Maintenance issues reported: temple not well maintained (per Tripadvisor rimjhim 2/5 — muddy patches, no grass, no floral plants, no lights in the sanctum after 5:30 PM)",
+      "Priests seem demotivated and reluctant to do 'free' services (per Tripadvisor review)",
+      "Demotivated temple staff (per Tripadvisor review)",
+      "Lots of monkeys in the area — they steal items from parked bikes (per Tripadvisor anilk3243)",
+      "Photography restriction inside the temple — not allowed (per Tripadvisor anilk3243)",
+      "Limited restaurants and restroom facilities nearby — plan accordingly (per Tripadvisor reviews)",
+      "₹200 vehicle entry fee considered 'excessively high' by one Tripadvisor reviewer (per user negative review)",
+      "Carpets, white paint areas, and entry steps become extremely hot during summer (per user negative review)",
+      "Per Tripadvisor review (multiple years ago): 'lost his glory. It is now just for name sake Tourist place. Not maintained at all. No facilities like water/wash rooms no lights — In the night after 7 u cant see lights till far distances.'",
+      "No specified seva prices in source (consistent with all major temples)",
+      "Wheelchair accessibility is not documented"
+    ]
+  },
+  "images": [
+    "https://th.bing.com/th/id/OIP.9K2FBXbknuAunCftjZt18AHaEK",
+    "https://maps.googleapis.com/maps/api/streetview (Google Maps street view, per user-pasted Google Maps URL)"
+  ],
+  "wikidata": {
+    "wikidata_id": "Q7405977",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sanghi_Temple"
+  },
+  "knowledge_graph": {
+    "entity": {
+      "id": "SanghiTemple",
+      "label": "Sri Sanghi Temple",
+      "type": "Hindu Temple (Vaishnavite complex)"
+    },
+    "nodes": [
+      {"id": "LordVenkateswara", "label": "Lord Venkateswara (Balaji)", "type": "Presiding Deity"},
+      {"id": "GoddessPadmavathi", "label": "Goddess Padmavathi", "type": "Deity (shrine)"},
+      {"id": "GoddessAshtalakshmi", "label": "Goddess Ashtalakshmi", "type": "Deity (shrine)"},
+      {"id": "LordShivaKamalambika", "label": "Lord Shiva and Goddess Kamalambika", "type": "Deity (shrine)"},
+      {"id": "LordRama", "label": "Lord Rama (with Sita, Lakshmana, Hanuman)", "type": "Deity (shrine)"},
+      {"id": "LordVijayaganapathi", "label": "Lord Vijayaganapathi", "type": "Deity (shrine)"},
+      {"id": "LordKartikeya", "label": "Lord Kartikeya", "type": "Deity (shrine)"},
+      {"id": "GoddessDurga", "label": "Goddess Durga", "type": "Deity (shrine)"},
+      {"id": "Navagrahas", "label": "Navagraha Deities", "type": "Deities (shrine)"},
+      {"id": "SanghiFamily", "label": "Sanghi Family", "type": "Founder / Builder Family"},
+      {"id": "RaviSanghi", "label": "Shri Ravi Sanghi", "type": "Project Spearhead"},
+      {"id": "AnitaSanghi", "label": "Smt. Anita Sanghi", "type": "Project Spearhead"},
+      {"id": "RamSharanSanghi", "label": "Shri Ram Sharan Sanghi", "type": "Project Guide"},
+      {"id": "KamalaRaniSanghi", "label": "Smt. Kamala Rani Sanghi", "type": "Project Guide"},
+      {"id": "GanapathySthapathy", "label": "Sri Ganapathy Sthapathy (Padma Shri)", "type": "Architect / Sculptor"},
+      {"id": "JayendraSaraswathi", "label": "Jagadguru Sri Jayendra Saraswathi Shankaracharya (Kanchipuram)", "type": "Spiritual Patron"},
+      {"id": "ParamanandaGiri", "label": "Paramananda Giri", "type": "Hill"},
+      {"id": "RangaReddy", "label": "Ranga Reddy District", "type": "District"},
+      {"id": "Telangana", "label": "Telangana", "type": "State"},
+      {"id": "Ekadashi", "label": "Ekadashi", "type": "High-Footfall Occasion"},
+      {"id": "NewYearSpecialDarshan", "label": "New Year Special Darshan", "type": "High-Footfall Occasion"},
+      {"id": "PavitraVanam", "label": "Pavitra Vanam (Holy Garden)", "type": "Sacred Garden"},
+      {"id": "KalyanaMandapam", "label": "Kalyana Mandapam", "type": "Wedding/Marriage Hall"},
+      {"id": "RajaGopuram", "label": "Raja Gopuram", "type": "Iconic Monument"},
+      {"id": "MahaDwaram", "label": "Maha Dwaram", "type": "Grand Entrance"},
+      {"id": "Hayathnagar", "label": "Hayathnagar Mandal", "type": "Nearby Mandal"},
+      {"id": "KohedaVillage", "label": "Koheda Village", "type": "Nearby Village"},
+      {"id": "RamojiFilmCity", "label": "Ramoji Film City", "type": "Nearby Landmark (~8 km)"},
+      {"id": "KyraWellnessResort", "label": "Kyra Wellness Resort", "type": "Nearby Resort"},
+      {"id": "HayathnagarWildlife", "label": "Hayathnagar Wildlife Sanctuary", "type": "Nearby Wildlife Sanctuary"},
+      {"id": "Tirumala", "label": "Tirumala Tirupati Temple", "type": "Temple (Sanghi idol modeled on this)"}
+    ],
+    "edges": [
+      {"from": "SanghiTemple", "relation": "presiding_deity", "to": "LordVenkateswara"},
+      {"from": "SanghiTemple", "relation": "built_by", "to": "SanghiFamily"},
+      {"from": "SanghiTemple", "relation": "spearheaded_by", "to": "RaviSanghi"},
+      {"from": "SanghiTemple", "relation": "spearheaded_by", "to": "AnitaSanghi"},
+      {"from": "SanghiTemple", "relation": "guided_by", "to": "RamSharanSanghi"},
+      {"from": "SanghiTemple", "relation": "guided_by", "to": "KamalaRaniSanghi"},
+      {"from": "SanghiTemple", "relation": "architecture_by", "to": "GanapathySthapathy"},
+      {"from": "SanghiTemple", "relation": "blessed_by", "to": "JayendraSaraswathi"},
+      {"from": "SanghiTemple", "relation": "located_on", "to": "ParamanandaGiri"},
+      {"from": "SanghiTemple", "relation": "located_in", "to": "RangaReddy"},
+      {"from": "RangaReddy", "relation": "part_of", "to": "Telangana"},
+      {"from": "SanghiTemple", "relation": "has_shrine", "to": "GoddessPadmavathi"},
+      {"from": "SanghiTemple", "relation": "has_shrine", "to": "GoddessAshtalakshmi"},
+      {"from": "SanghiTemple", "relation": "has_shrine", "to": "LordShivaKamalambika"},
+      {"from": "SanghiTemple", "relation": "has_shrine", "to": "LordRama"},
+      {"from": "SanghiTemple", "relation": "has_shrine", "to": "LordVijayaganapathi"},
+      {"from": "SanghiTemple", "relation": "has_shrine", "to": "LordKartikeya"},
+      {"from": "SanghiTemple", "relation": "has_shrine", "to": "GoddessDurga"},
+      {"from": "SanghiTemple", "relation": "has_shrine", "to": "Navagrahas"},
+      {"from": "SanghiTemple", "relation": "high_footfall_occasion", "to": "Ekadashi"},
+      {"from": "SanghiTemple", "relation": "high_footfall_occasion", "to": "NewYearSpecialDarshan"},
+      {"from": "SanghiTemple", "relation": "has_feature", "to": "PavitraVanam"},
+      {"from": "SanghiTemple", "relation": "has_feature", "to": "KalyanaMandapam"},
+      {"from": "SanghiTemple", "relation": "has_monument", "to": "RajaGopuram"},
+      {"from": "SanghiTemple", "relation": "has_entrance", "to": "MahaDwaram"},
+      {"from": "SanghiTemple", "relation": "located_in_mandal", "to": "Hayathnagar"},
+      {"from": "SanghiTemple", "relation": "nearby_village", "to": "KohedaVillage"},
+      {"from": "SanghiTemple", "relation": "nearby_landmark", "to": "RamojiFilmCity"},
+      {"from": "SanghiTemple", "relation": "nearby_resort", "to": "KyraWellnessResort"},
+      {"from": "SanghiTemple", "relation": "nearby_sanctuary", "to": "HayathnagarWildlife"},
+      {"from": "LordVenkateswara", "relation": "modeled_after", "to": "Tirumala"}
+    ]
+  },
+  "audio": {
+    "introduction": {
+      "en": "Sri Sanghi Temple, atop Paramananda Giri in Sanghi Nagar, Ranga Reddy district, Telangana, about thirty-five kilometres from Hyderabad, is a Chola-Chalukya style temple complex in white marble dedicated to Lord Venkateswara. Welcomed by a grand Maha Dwaram and a towering Raja Gopuram, it was built by the Sanghi family and inaugurated in 1991, designed by Padma Shri sculptor Sri Ganapathy Sthapathy. The complex houses shrines to Padmavathi, Ashtalakshmi, Shiva-Kamalambika, Rama, Vijayaganapathi, Kartikeya, Durga and the Navagrahas, and draws lakhs of devotees annually.",
+      "te": "",
+      "hi": ""
+    },
+    "history": {
+      "en": "The Sanghi family envisioned the temple in 1990. With the blessings of Jagadguru Sri Jayendra Saraswathi Shankaracharya of Kanchipuram, and under the guidance of Shri Ram Sharan Sanghi and Smt. Kamala Rani Sanghi, Shri Ravi Sanghi and Smt. Anita Sanghi spearheaded the project. Construction began in 1990, was completed in just eighteen months, and the temple was inaugurated in 1991. Its architecture was conceived by the Padma Shri sculptor Sri Ganapathy Sthapathy.",
+      "te": "",
+      "hi": ""
+    },
+    "travel_guide": {
+      "en": "Sanghi Temple is about thirty-five kilometres from Hyderabad, a sixty to ninety minute drive. The nearest airport is Rajiv Gandhi International Airport, twenty-eight to thirty-eight kilometres away. The nearest railway stations are Ghatkesar, about thirteen kilometres, and Secunderabad, about thirty-four kilometres. Sanghi Nagar Bus Stop is about one kilometre from the temple. The temple is open Monday to Saturday from 8:00 AM to 1:00 PM and 4:00 PM to 8:00 PM, and 8:00 AM to 8:00 PM on Sundays, holidays and festivals.",
+      "te": "",
+      "hi": ""
+    }
+  },
+  "faq": [
+    {"id": "FAQ001", "question": "Where is Sanghi Temple located?", "answer": "Sanghi Temple is atop Paramananda Giri in Sanghi Nagar, Ranga Reddy district, Telangana, approximately 35 km from Hyderabad."},
+    {"id": "FAQ002", "question": "Which deity is worshipped at Sanghi Temple?", "answer": "The presiding deity is Lord Venkateswara (Balaji), whose ~9.5-foot idol is modeled after the deity at Tirumala. The complex also houses shrines to Padmavathi, Ashtalakshmi, Shiva-Kamalambika, Rama, Vijayaganapathi, Kartikeya, Durga, Navagrahas and Hanuman."},
+    {"id": "FAQ003", "question": "What are the temple timings?", "answer": "Monday–Saturday: 8:00 AM–1:00 PM and 4:00 PM–8:00 PM. Sundays, public holidays and festival days: 8:00 AM–8:00 PM."},
+    {"id": "FAQ004", "question": "When was Sanghi Temple built?", "answer": "Construction began in 1990 and the temple was inaugurated in 1991, completed in 18 months by the Sanghi family."},
+    {"id": "FAQ005", "question": "Who designed Sanghi Temple's architecture?", "answer": "The temple was designed by renowned sculptor and Padma Shri awardee Sri Ganapathy Sthapathy in the Chola-Chalukya style."},
+    {"id": "FAQ006", "question": "How far is Sanghi Temple from Hyderabad?", "answer": "Approximately 35 km, about a 60–90 minute drive depending on traffic."},
+    {"id": "FAQ007", "question": "How can I reach Sanghi Temple?", "answer": "By air via Rajiv Gandhi International Airport (~28–38 km), by rail via Secunderabad (~34 km) or Ghatkesar (~13 km) stations, or by road via Sanghi Nagar Bus Stop (~1 km) / Hayathnagar Bus Station (~15 km)."},
+    {"id": "FAQ008", "question": "What are the major festivals at Sanghi Temple?", "answer": "Sri Krishna Janmashtami, Ganesh Chaturthi, Durga Ashtami, Maha Navami, Vijayadashami, Deepavali, Ekadashi celebrations and New Year Special Darshan, with exceptional footfall on Ekadashi and New Year's Day."},
+    {"id": "FAQ009", "question": "What is the Raja Gopuram at Sanghi Temple?", "answer": "It is the temple's towering ornamental entrance tower, visible from several kilometers away, serving as an iconic landmark of the complex."},
+    {"id": "FAQ010", "question": "What facilities are available at Sanghi Temple?", "answer": "Drinking water, pooja item shops, a Kalyana Mandapam, a Pavitra Vanam (Holy Garden) and open parking. Nearby restaurants and restrooms are limited, so plan accordingly."}
+  ],
+  "query_variations": [
+    {"faq_id": "FAQ001", "queries": ["Where is Sanghi Temple located?", "Sanghi Temple Hyderabad location?", "How to reach Sanghi Temple?"]},
+    {"faq_id": "FAQ002", "queries": ["Which deity is at Sanghi Temple?", "Main god of Sanghi Temple?", "Is Sanghi Temple a Balaji temple?"]},
+    {"faq_id": "FAQ003", "queries": ["What are Sanghi Temple timings?", "Sanghi Temple darshan timings?", "Sanghi Temple Sunday timings?"]},
+    {"faq_id": "FAQ004", "queries": ["When was Sanghi Temple built?", "Sanghi Temple construction year?"]},
+    {"faq_id": "FAQ005", "queries": ["Who designed Sanghi Temple?", "Sanghi Temple architect?", "Ganapathy Sthapathy Sanghi Temple?"]},
+    {"faq_id": "FAQ006", "queries": ["Sanghi Temple distance from Hyderabad?", "How far is Sanghi Temple from Hyderabad?"]},
+    {"faq_id": "FAQ007", "queries": ["How to reach Sanghi Temple?", "Nearest railway station to Sanghi Temple?", "Nearest airport to Sanghi Temple?"]},
+    {"faq_id": "FAQ008", "queries": ["Festivals at Sanghi Temple?", "Is Ekadashi special at Sanghi Temple?", "New Year darshan Sanghi Temple?"]},
+    {"faq_id": "FAQ009", "queries": ["What is the Raja Gopuram at Sanghi Temple?", "Sanghi Temple gopuram?"]},
+    {"faq_id": "FAQ010", "queries": ["Facilities at Sanghi Temple?", "Parking at Sanghi Temple?", "Kalyana Mandapam Sanghi Temple?"]}
+  ],
+  "sources": [
+    "http://www.sanghitemple.org/ (Official temple website — Sanghi Temple Devasthanam)",
+    "Sri Sanghi Temple information document (provided user source)",
+    "https://www.tripadvisor.com/Attraction_Review-g297586-d3705766-Reviews-Sanghi_Temple-Hyderabad_Hyderabad_District_Telangana.html (Tripadvisor — Sanghi Temple Hyderabad, address Omerkhan Daira 501511, 4.5/5 aggregate)",
+    "https://www.tripadvisor.com/ShowUserReviews-g297586-d3705766-r396446582-Sanghi_Temple-Hyderabad_Hyderabad_District_Telangana.html (Tripadvisor rimjhim 2/5 — 'Not at all maintained!' detailed review with monkeys, no light in sanctum, maintenance issues)",
+    "https://www.tripadvisor.in/ShowUserReviews-g297586-d3705766-r518646683-Sanghi_Temple-Hyderabad_Hyderabad_District_Telangana.html (Tripadvisor anilk3243 4/5 — 'Sanghi' with detailed description of pavitra vanam, Kalyana Mandapam, monkeys stealing from bikes, 25 km distance)",
+    "https://www.tripadvisor.in/ShowUserReviews-g297586-d3705766-r525625135-Sanghi_Temple-Hyderabad_Hyderabad_District_Telangana.html (Tripadvisor ganeshks112 5/5 — 'Peaceful place Sangi Temple')",
+    "https://www.tripadvisor.in/ShowUserReviews-g297586-d3705766-r215364819-Sanghi_Temple-Hyderabad_Hyderabad_District_Telangana.html (Tripadvisor KASIRAO5646 4/5 — 'Sanghi Temple- A place to visit' with 35 km distance, Koheda Village location, 9.5 ft idol)",
+    "https://www.justdial.com/Hyderabad/Sanghi-Temple-Omerkhan-Daira/040PXX40-XX40-220312171135-W9L5_BZDET/reviews (JustDial — Sanghi Temple Omerkhan Daira, 4.0/5 across 2 ratings, address 501511, geo 17.287996/78.63795)",
+    "https://en.wikipedia.org/wiki/Sanghi_Temple (Wikipedia — Sanghi Temple, Q7405977)",
+    "https://www.wikidata.org/wiki/Q7405977 (Wikidata — Sanghi Temple, Q7405977)",
+    "https://www.google.com/maps/place/Sri+Sanghi+Temple (Google Maps — geo 17.279, 78.642 per user-pasted Google Maps URL)"
+  ],
+  "quality_check": {
+    "metadata": {
+      "score_percent": 95,
+      "verified": [
+        "temple_id (T0010)",
+        "name (Sri Sanghi Temple)",
+        "alternate_names (Sanghi Temple Devasthanam, Sanghi Temple, Sri Sanghi Temple Sanghi Nagar)",
+        "deity (Lord Venkateswara 9.5 ft, Padmavathi, Ashtalakshmi, Shiva-Kamalambika, Rama-Sita-Lakshmana-Hanuman, Vijayaganapathi, Kartikeya, Durga, Navagrahas)",
+        "temple_type (Hindu Temple)",
+        "religion",
+        "category (Vaishnavite Temple Complex / multi-shrine)",
+        "village (Sanghi Nagar)",
+        "mandal (Hayathnagar Mandal)",
+        "district (Ranga Reddy District)",
+        "state (Telangana)",
+        "country (India)",
+        "address (full official)",
+        "pincode (501511)",
+        "latitude (17.279, per user-pasted Google Maps URL)",
+        "longitude (78.642, per user-pasted Google Maps URL)",
+        "google_maps_url",
+        "elevation (~300 m)",
+        "timezone (Asia/Kolkata)",
+        "common_abbreviations (Sanghi Temple, Paramananda Giri Temple, Hyderabad Balaji Temple)",
+        "voice_pronunciation_variants (Telugu + English)",
+        "architectural_style (Chola-Chalukya architecture, South Indian / Dravidian influence; white marble)",
+        "official_website (sanghitemple.org)",
+        "phone_numbers (+91-7738799920)",
+        "email (sanghitempledevasthanam@gmail.com)",
+        "wikidata (Q7405977)",
+        "image (Bing + Google Maps street view)",
+        "knowledge_graph (35 nodes, 41 edges with deities, builders, architect, hill, places, festivals, parks, hotels)",
+        "all 2 documented sevas (Abhishekam, Kalyanotsavam)",
+        "all 10 festivals (Krishna Janmashtami, Ganesh Chaturthi, Durga Ashtami, Maha Navami, Vijayadashami, Deepavali, Ekadashi, New Year Special Darshan, Vishwakarma Jayanti, Valmiki Jayanti)",
+        "all 10 FAQs with query variations",
+        "all 3 transportation modes (road + rail + air) with 6 distances",
+        "all 7 categories of nearby_infrastructure (hotels, restaurants, hospitals, ATMs, petrol pumps, police stations, parking)",
+        "nearest_bus_station (Sanghi Nagar Bus Stop)",
+        "nearest_railway_station (Ghatkesar + Secunderabad)",
+        "nearest_airport (RGIA ~28-38 km)",
+        "first_come_basis (filled)",
+        "7 detailed top reviews (5 Tripadvisor + 1 JustDial + 2 Google Maps)",
+        "18 positive themes (Chola-Chalukya architecture, 9.5 ft idol, white marble, hilltop, etc.)",
+        "11 negative themes (maintenance issues, demotivated priests, monkeys, ₹200 vehicle fee, hot steps, etc.)"
+      ],
+      "not_found": [
+        "Verified current exact 2026 dates for festivals (per Hindu calendar)",
+        "Live 2026 JustDial or Google Maps exact rating (4.5/5 is the most authoritative)"
+      ],
+      "verification_required": [
+        "Multilingual te/hi names are transliterations, not directly sourced",
+        "Coordinates: 17.279, 78.642 (user-pasted Google Maps URL) vs JustDial 17.287996, 78.63795 — both refer to the same temple area; user-pasted coords used as canonical",
+        "Distance from Hyderabad: 35 km (user source + Tripadvisor KASIRAO5646) vs 25 km (Tripadvisor anilk3243) vs 40 km from ECIL (Tripadvisor anilk3243) — 35 km is the most authoritative per official source",
+        "Distance from RGIA: 28-38 km range (per user source)",
+        "Sanghi Temple is in Koheda Village per Tripadvisor KASIRAO5646, ~8 km from the National Highway between Hyderabad and Vijayawada",
+        "Tripadvisor anilk3243 lists entry fee as ₹10/-; user source does not formally state entry fee — flagged",
+        "₹200 vehicle entry fee mentioned in user source negative review — flagged in negative_themes",
+        "Maintenance issues per multiple Tripadvisor reviews — preserved in negative_themes",
+        "Monkeys stealing items from parked bikes — preserved in travel_tips and negative_themes",
+        "Photography restriction inside the temple — preserved in travel_tips and negative_themes",
+        "Limited restaurant and restroom facilities nearby — preserved in negative_themes",
+        "Aggregate rating 4.5/21,416 in user source may include temple visits across 5+ years of public reporting"
+      ]
+    },
+    "overall_completeness_score": "95/100"
+  },
+  "last_verified": "2026-07-28"
+}

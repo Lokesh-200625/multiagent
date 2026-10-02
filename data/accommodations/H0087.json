@@ -1,0 +1,83 @@
+{
+  "associated_temple": "Surendrapuri (Kunda Satyanarayana Kaladham)",
+  "hotels": [
+    {
+      "hotel_name": "Lakshmi Sri Family House",
+      "hotel_type": "Guest House",
+      "address": "Near Yadadri Temple Ghat Road, Yadagirigutta, Yadadri Bhuvanagiri District, Telangana - 508115, India",
+      "contact_numbers": [
+        "+91 94919 90333"
+      ],
+      "email": "",
+      "about": "Lakshmi Sri Family House is a family-friendly guest house located near Yadadri Temple Ghat Road and within a short driving distance of Surendrapuri. The property offers clean and comfortable rooms with basic amenities, making it suitable for pilgrims, families, and small groups visiting Surendrapuri, Yadadri, and Swarnagiri.",
+      "google_map_link": "https://maps.google.com/?q=Lakshmi+Sri+Family+House+Yadagirigutta",
+      "official_website": "",
+      "price_range": "₹1,200–₹2,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Yadagirigutta Bus Stand – Approximately 1.5 km",
+        "railway_station": "Raigir Railway Station – Approximately 4 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 75 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Google Maps": "https://maps.google.com/?q=Lakshmi+Sri+Family+House+Yadagirigutta",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "5.0/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Family Room"
+      ],
+      "amenities": [
+        "Free Parking",
+        "Family Rooms",
+        "Air Conditioning",
+        "Attached Bathroom",
+        "Free Wi-Fi",
+        "Housekeeping"
+      ],
+      "facilities_summary": {
+        "room_service": "No",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available Nearby",
+        "restaurant": "Nearby",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Not Included",
+        "food_type": "Vegetarian and Non-Vegetarian (Nearby)",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on direct booking with the property.",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Surendrapuri (Kunda Satyanarayana Kaladham)",
+        "Yadadri Sri Lakshmi Narasimha Swamy Temple",
+        "Swarnagiri Sri Venkateswara Swamy Temple",
+        "Raigir Railway Station"
+      ],
+      "temple_id": "T0022",
+      "hotel_id": "H0087"
+    }
+  ],
+  "temple_id": "T0022",
+  "hotel_id": "H0087"
+}

@@ -1,0 +1,88 @@
+{
+  "associated_temple": "Swarnagiri Sri Venkateswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Super OYO GK Grand",
+      "hotel_type": "Budget Hotel",
+      "address": "Next to SBI Bank, Warangal Highway Road, Bibi Nagar Road, Near AIIMS, Bibinagar, Telangana - 508126, India",
+      "contact_numbers": [
+        "+91 124 620 1614"
+      ],
+      "email": "",
+      "about": "Super OYO GK Grand is a budget hotel located on Warangal Highway near AIIMS Bibinagar. The hotel offers clean and comfortable rooms with essential amenities, making it a convenient stay option for pilgrims visiting Swarnagiri Sri Venkateswara Swamy Temple. The temple is approximately 19 minutes away by road. :contentReference[oaicite:2]{index=2}",
+      "google_map_link": "https://maps.google.com/?q=Super+OYO+GK+Grand+Bibinagar",
+      "official_website": "https://www.oyorooms.com/",
+      "price_range": "₹900–₹1,800 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Bibinagar Bus Stand – Approximately 2 km",
+        "railway_station": "Bibinagar Railway Station – Approximately 3 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 55 km"
+      },
+      "booking_links": {
+        "Official": "https://www.oyorooms.com/",
+        "Google Hotels": "https://www.google.com/travel/hotels/entity/ChkI_4m3zK69jPBoGg0vZy8xMXk1MGg5aHdmEAE",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "3.7/5"
+      },
+      "room_types": [
+        "Classic Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Parking",
+        "Room Service",
+        "24-Hour Front Desk",
+        "TV",
+        "Power Backup",
+        "Daily Housekeeping"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Included",
+        "food_type": "Not Specified",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Business Travelers",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected OYO booking plan.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Swarnagiri Sri Venkateswara Swamy Temple (Approx. 19 min)",
+        "AIIMS Bibinagar",
+        "Bibinagar Railway Station",
+        "Bhongir Fort"
+      ],
+      "temple_id": "T0023",
+      "hotel_id": "H0131"
+    }
+  ],
+  "temple_id": "T0023",
+  "hotel_id": "H0131"
+}

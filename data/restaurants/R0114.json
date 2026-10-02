@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0114",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Varevva+Restaurant+Yadagirigutta+Telangana",
+  "restaurantName": "Varevva Restaurant",
+
+  "associatedTemple": {
+    "templeId": "T0022",
+    "templeName": "Surendrapuri (Kunda Satyanarayana Kala Dhamam)"
+  },
+
+  "basicInformation": {
+    "category": "Restaurant",
+    "cuisineType": [
+      "Telangana",
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A family restaurant near Surendrapuri serving Telangana specialties along with South Indian and North Indian cuisine."
+  },
+
+  "location": {
+    "fullAddress": "Shop No. 1, Plot No. 11, Yadagirigutta, Telangana 508115, India",
+    "area": "Yadagirigutta",
+    "city": "Yadagirigutta",
+    "district": "Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "pincode": "508115",
+    "landmark": "Near Surendrapuri",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 2.7,
+      "source": "Estimated from verified business location",
+      "confidence": "High"
+    },
+    "travelTime": {
+      "walking": {
+        "value": 34,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 8,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 7,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": 10,
+        "unit": "minutes",
+        "type": "Estimated"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "11:00 AM",
+    "closingTime": "01:00 AM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [
+      "Veg Meals",
+      "Non-Veg Meals",
+      "Telangana Meals"
+    ],
+    "dinner": [
+      "Biryani",
+      "Curries",
+      "Tandoori Items"
+    ],
+    "snacks": [],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks"
+    ],
+    "specialDishes": [
+      "Telangana Special Meals",
+      "Chicken Biryani"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹200–400",
+    "averageCostForTwo": "₹400–800"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 3.9,
+    "totalReviews": 404
+  },
+
+  "nearbyPlaces": {
+    "temple": "Surendrapuri",
+    "busStand": "Yadagirigutta Bus Stand",
+    "railwayStation": "Raigir Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Popular family restaurant.",
+    "Serves Telangana cuisine.",
+    "Suitable for pilgrims and families.",
+    "Parking available.",
+    "Open until 1:00 AM."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "address",
+      "googleRating",
+      "totalReviews",
+      "workingHours"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation",
+      "priceInformation"
+    ],
+    "unknownFields": [
+      "phoneNumber",
+      "officialWebsite",
+      "googleBusinessProfile"
+    ]
+  }
+}

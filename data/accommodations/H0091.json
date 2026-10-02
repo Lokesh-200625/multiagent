@@ -1,0 +1,93 @@
+{
+  "associated_temple": "Sri Thousand Pillar Temple, Hanamkonda",
+  "hotels": [
+    {
+      "hotel_name": "Hotel Ashoka",
+      "hotel_type": "3-Star Business Hotel",
+      "address": "Nakkalagutta, Hanamkonda, Warangal, Telangana - 506001, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Hotel Ashoka is a well-established business hotel located approximately 900 metres from Sri Thousand Pillar Temple. The hotel offers comfortable accommodation with modern amenities including air-conditioned rooms, complimentary Wi-Fi, restaurant, banquet facilities, and conference halls. It is suitable for pilgrims, families, business travelers, and tourists exploring Hanamkonda and Warangal.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+Ashoka+Hanamkonda",
+      "official_website": "",
+      "price_range": "₹2,300–₹4,800 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Hanamkonda New Bus Stand – Approximately 900 m",
+        "railway_station": "Warangal Railway Station – Approximately 3.5 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 165 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": "https://www.makemytrip.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.2/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Deluxe Room",
+        "Executive Room",
+        "Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Restaurant",
+        "Room Service",
+        "Free Parking",
+        "24-Hour Front Desk",
+        "Power Backup",
+        "Housekeeping",
+        "Laundry Service",
+        "Conference Hall",
+        "Banquet Hall",
+        "Elevator"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Couples",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room category.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Thousand Pillar Temple (Approx. 900 m)",
+        "Bhadrakali Temple",
+        "Warangal Fort",
+        "Hanamkonda New Bus Stand",
+        "Kakatiya University"
+      ],
+      "temple_id": "T0013",
+      "hotel_id": "H0091"
+    }
+  ],
+  "temple_id": "T0013",
+  "hotel_id": "H0091"
+}

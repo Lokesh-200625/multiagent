@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-08",
+    "lastUpdated": "2026-08-08",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0044",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Udupi+Sri+Krishna+Grand+near+Chilkur+Balaji+Temple+Hyderabad",
+  "restaurantName": "Sri Venkateshwara Udipi Hotel",
+
+  "associatedTemple": {
+    "templeId": "T0008",
+    "templeName": "Chilkur Balaji Temple"
+  },
+
+  "businessStatus": "Operational",
+
+  "basicInformation": {
+    "category": "Vegetarian Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Udupi",
+      "Vegetarian"
+    ],
+    "shortDescription": "A nearby Udupi-style vegetarian hotel located on Chilkur Balaji Temple Road, serving pilgrims visiting Chilkur Balaji Temple."
+  },
+
+  "location": {
+    "fullAddress": "Chilkur Balaji Temple Road, Chilkur, Hyderabad, Telangana 501504, India",
+    "area": "Chilkur",
+    "city": "Hyderabad",
+    "district": "Ranga Reddy",
+    "state": "Telangana",
+    "pincode": "501504",
+    "landmark": "Near Chilkur Balaji Temple",
+    "plusCode": null,
+    "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Sri+Venkateshwara+Udipi+Hotel+Chilkur+Telangana"
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.12,
+    "walkingTimeMinutes": 2,
+    "bikeTimeMinutes": 1,
+    "carTimeMinutes": 1,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null,
+    "email": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": null,
+    "averageCostForTwo": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": null,
+    "parking": null,
+    "familySeating": null,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Chilkur Balaji Temple",
+    "busStand": "Chilkur Bus Stop",
+    "railwayStation": null
+  },
+
+  "restaurantHighlights": [
+    "Very close to Chilkur Balaji Temple.",
+    "Udupi-style vegetarian food.",
+    "Budget-friendly option.",
+    "Located on Chilkur Balaji Temple Road."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Mappls",
+      "url": "https://www.mappls.com/place-restaurants-near-chilkur+temple+parking%2C+chilkur+balaji+temple%2C+hyderabad%2C+telangana%2C+500075%2C+ljdpur",
+      "verificationNote": "Listed as Sri Venkateshwara Udipi Hotel approximately 122 metres from the Chilkur temple-area location."
+    }
+  ]
+}

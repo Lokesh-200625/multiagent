@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0002",
+  "temple_name": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam",
+  "location": {
+    "district": "Bhadradri Kothagudem",
+    "state": "Telangana",
+    "latitude": 17.6689,
+    "longitude": 80.8883
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Government Area Hospital, Bhadrachalam",
+        "type": "Government Hospital",
+        "address": "Bhadrachalam, Telangana 507111",
+        "latitude": 17.6725,
+        "longitude": 80.8866,
+        "distance_from_temple_km": 0.9,
+        "estimated_travel_time": "4 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Area+Hospital+Bhadrachalam/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Rohini Super Speciality Hospital",
+        "type": "Hospital",
+        "address": "Bhadrachalam, Telangana 507111",
+        "latitude": 17.671,
+        "longitude": 80.8915,
+        "distance_from_temple_km": 1.0,
+        "estimated_travel_time": "5 min",
+        "google_maps_url": "https://www.google.com/maps/search/Rohini+Super+Speciality+Hospital+Bhadrachalam/",
+        "emergency_department": null,
+        "24x7_emergency": null,
+        "ambulance_available": null,
+        "trauma_care": false,
+        "icu_available": null,
+        "pharmacy_available": null,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Bhadrachalam Town Police Station",
+        "type": "Police Station",
+        "address": "Bhadrachalam, Telangana 507111",
+        "latitude": 17.6694,
+        "longitude": 80.8896,
+        "distance_from_temple": 0.4,
+        "travel_time": "2 min",
+        "google_maps_url": "https://www.google.com/maps/search/Bhadrachalam+Town+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Bhadrachalam",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Bhadrachalam",
+        "address": "Ashok Nagar Colony, Bhadrachalam, Telangana 507111",
+        "coordinates": {
+          "latitude": 17.6748,
+          "longitude": 80.895
+        },
+        "distance_from_temple": 1.4,
+        "travel_time": "5 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Bhadrachalam/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Ground Floor, No. 8-1-103, Indira Market Rd, Near Tata Gudi Centre, Old Market, Bhadrachalam, Telangana 507111",
+        "distance": 0.7,
+        "coordinates": {
+          "latitude": 17.6705,
+          "longitude": 80.8921
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Bhadrachalam/",
+        "phone": "+91 79 4284 5748",
+        "opening_hours": "7:00 AM - 11:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Life Care Pharmacy",
+        "address": "Bridge Road, Opposite DGS Saloon, Ashok Nagar Colony, Bhadrachalam, Telangana 507111",
+        "distance": 1.0,
+        "coordinates": {
+          "latitude": 17.6732,
+          "longitude": 80.8943
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Life+Care+Pharmacy+Bhadrachalam/",
+        "phone": "+91 76619 82383",
+        "opening_hours": "7:00 AM - 11:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

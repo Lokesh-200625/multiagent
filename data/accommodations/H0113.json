@@ -1,0 +1,87 @@
+{
+  "associated_temple": "Sri Jogulamba Devi Temple, Alampur",
+  "hotels": [
+    {
+      "hotel_name": "Haritha Hotel Alampur",
+      "hotel_type": "Government Hotel",
+      "address": "Haritha Hotel, Alampur, Jogulamba Gadwal District, Telangana, India",
+      "contact_numbers": [
+        "+91 9705392100",
+        "1800-425-46464"
+      ],
+      "email": "info@tstdc.in",
+      "about": "Haritha Hotel Alampur is a government-operated hotel managed by Telangana Tourism Development Corporation (TGTDC). Located near the Jogulamba Temple and Nava Brahma Temples, the hotel offers comfortable AC accommodation, an in-house restaurant, and modern amenities for pilgrims and tourists visiting Alampur. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Haritha+Hotel+Alampur",
+      "official_website": "https://tourism.telangana.gov.in/",
+      "price_range": "A/C Rooms: ₹1,500 per night, A/C Suite: ₹3,000 per night (Approx.) :contentReference[oaicite:2]{index=2}",
+      "check_in_time": "12:00 AM",
+      "check_out_time": "12:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Alampur Bus Stand – Approximately 1 km",
+        "railway_station": "Jogulamba Halt – Approximately 12 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 199 km"
+      },
+      "booking_links": {
+        "Official": "https://tourism.telangana.gov.in/",
+        "Telangana Tourism": "https://telanganatourismhotels.in/alampur/",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "overall": "[]"
+      },
+      "room_types": [
+        "A/C Room",
+        "A/C Suite"
+      ],
+      "amenities": [
+        "Air Conditioning",
+        "Restaurant",
+        "Free Parking",
+        "Power Backup",
+        "Housekeeping",
+        "24-Hour Front Desk"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Not Mentioned"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Multi-Cuisine",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Senior Citizens",
+        "Tourists",
+        "Group Pilgrims"
+      ],
+      "cancellation_policy": "Cancellation and refund policies are governed by Telangana Tourism booking terms and depend on the selected reservation. :contentReference[oaicite:3]{index=3}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Jogulamba Devi Temple",
+        "Nava Brahma Temples",
+        "Tungabhadra River",
+        "Alampur Bus Stand"
+      ],
+      "temple_id": "T0006",
+      "hotel_id": "H0113"
+    }
+  ],
+  "temple_id": "T0006",
+  "hotel_id": "H0113"
+}

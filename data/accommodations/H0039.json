@@ -1,0 +1,93 @@
+{
+  "associated_temple": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+  "hotels": [
+    {
+      "hotel_name": "GreenAcres Farmstay Retreat",
+      "hotel_type": "Farmstay Retreat",
+      "address": "Kunor, Cheemalakondur Road, Cheemala Kondur, Telangana 508116, India",
+      "contact_numbers": [
+        "+91 98490 06968"
+      ],
+      "email": "",
+      "about": "GreenAcres Farmstay Retreat is an eco-friendly farmstay offering guests an authentic rural experience amidst lush greenery. The property focuses on sustainable living, traditional farming, farm-fresh food, and peaceful countryside stays. Guests can participate in farming activities, nature walks, and relax in a serene environment away from city life. It is suitable for families, couples, nature enthusiasts, and weekend getaways. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=GreenAcres+Farmstay+Retreat",
+      "official_website": "https://www.hyderabad-greenacres.com/",
+      "price_range": "Contact Property",
+      "check_in_time": "Contact Property",
+      "check_out_time": "Contact Property",
+      "nearest_transport": {
+        "bus_stand": "Bhongir Bus Stand – Approximately 15 km",
+        "railway_station": "Bhongir Railway Station – Approximately 16 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 75 km"
+      },
+      "booking_links": {
+        "Official": "https://www.hyderabad-greenacres.com/",
+        "Booking.com": null,
+        "MakeMyTrip": null,
+        "Goibibo": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.4/5 (65 reviews)"
+      },
+      "room_types": [
+        "Traditional Manduva House",
+        "Farmstay Rooms"
+      ],
+      "amenities": [
+        "Working Farm Experience",
+        "Farm-fresh Home-style Food",
+        "Traditional Accommodation",
+        "Nature Walks",
+        "Organic Farming Experience",
+        "Free Parking",
+        "Family Friendly",
+        "Outdoor Sitting Area",
+        "Bird Watching",
+        "Village Experience"
+      ],
+      "facilities_summary": {
+        "room_service": "No",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Available"
+      },
+      "food_facility": {
+        "availability": "Yes",
+        "restaurant": "Home-style Farm Kitchen",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Available",
+        "food_type": "Vegetarian & Traditional Telugu Cuisine",
+        "outside_food": "Contact Property"
+      },
+      "suitable_for": [
+        "Families",
+        "Couples",
+        "Nature Lovers",
+        "Weekend Getaways",
+        "Corporate Retreats",
+        "Children",
+        "Photography",
+        "Eco-tourism"
+      ],
+      "cancellation_policy": "Contact the property directly for cancellation and refund policy.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Yadadri Temple",
+        "Bhongir Fort",
+        "Kolanupaka Jain Temple",
+        "Rural Farming Villages"
+      ],
+      "temple_id": "T0017",
+      "hotel_id": "H0039"
+    }
+  ],
+  "temple_id": "T0017",
+  "hotel_id": "H0039"
+}

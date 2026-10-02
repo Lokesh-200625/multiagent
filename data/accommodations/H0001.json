@@ -1,0 +1,94 @@
+{
+  "associated_temple": "Sri Gnana Saraswati Temple, Basara",
+  "hotels": [
+    {
+      "hotel_name": "Sri Rama Lodge",
+      "hotel_type": "Budget Lodge",
+      "address": "Temple Rd, Opp. BSNL Office, Basar, Nirmal District, Telangana - 504101, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Sri Rama Lodge is a budget-friendly lodge located approximately 990 meters (about an 11-minute walk) from Sri Gnana Saraswati Temple, Basara. The property offers clean and comfortable accommodation with air-conditioned and non-AC room options. It is a popular choice among pilgrims and families due to its proximity to the temple, flexible booking policies, and essential amenities. :contentReference[oaicite:0]{index=0}",
+      "google_map_link": "https://maps.google.com/?q=Sri+Rama+Lodge+Basar",
+      "official_website": "",
+      "price_range": "₹750–₹1,100 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Basar Bus Stand – Approximately 700 m",
+        "railway_station": "Basar Railway Station – Approximately 2.3 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 210 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/sri_rama_lodge-details-bhainsa.html",
+        "Goibibo": "https://www.goibibo.com/hotels/sri-rama-lodge-hotel-in-bhainsa-2304293428907582357/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "3.7/5"
+      },
+      "room_types": [
+        "Standard Non AC Room",
+        "King Bed with City View"
+      ],
+      "amenities": [
+        "Wi-Fi",
+        "Parking",
+        "Room Service",
+        "Air Conditioning",
+        "Power Backup",
+        "Housekeeping",
+        "Caretaker",
+        "Multilingual Staff",
+        "Luggage Assistance",
+        "Railway Station Transfers",
+        "Bus Station Transfers",
+        "Balcony",
+        "Mineral Water",
+        "Toiletries",
+        "CCTV Security"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Not Mentioned"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Included",
+        "food_type": "Not Specified",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Budget Travelers",
+        "Solo Travelers",
+        "Senior Citizens"
+      ],
+      "cancellation_policy": "Free cancellation is available up to 24 hours before check-in on eligible room plans. Book @ ₹0 Payment is available on selected bookings. Cancellation terms vary by room plan. :contentReference[oaicite:1]{index=1}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Gnana Saraswati Temple – Approximately 990 m",
+        "Basar Railway Station",
+        "Basar Bus Stand",
+        "Godavari River"
+      ],
+      "temple_id": "T0004",
+      "hotel_id": "H0001"
+    }
+  ],
+  "temple_id": "T0004",
+  "hotel_id": "H0001"
+}

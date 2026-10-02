@@ -1,0 +1,91 @@
+{
+  "associated_temple": "Swarnagiri Sri Venkateswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "S.V Hotel & Lodge Bhongir",
+      "hotel_type": "Hotel & Lodge",
+      "address": "Bhuvanagiri Town Main Road, Near Vinayaka Chowrasta, Medikuntapally, Bhuvanagiri, Telangana - 508116, India",
+      "contact_numbers": [
+        "+91 99639 66814",
+        "+91 99593 76889"
+      ],
+      "email": "",
+      "about": "S.V Hotel & Lodge Bhongir is one of the well-known hotels in Bhuvanagiri, located about 4.7 km from Swarnagiri Sri Venkateswara Swamy Temple. The property offers AC and Non-AC rooms, a pure vegetarian restaurant, conference hall, and banquet facilities, making it a convenient stay option for pilgrims, families, and business travelers. :contentReference[oaicite:2]{index=2}",
+      "google_map_link": "https://maps.google.com/?q=S.V+Hotel+%26+Lodge+Bhongir",
+      "official_website": "https://svhotelbhongir.wixsite.com",
+      "price_range": "₹1,000–₹2,000 per night (Approx.)",
+      "check_in_time": "12:00 AM",
+      "check_out_time": "12:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Bhongir Bus Stand – Approximately 700 m",
+        "railway_station": "Bhongir Railway Station – Approximately 2 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 58 km"
+      },
+      "booking_links": {
+        "Official": "https://svhotelbhongir.wixsite.com",
+        "Google Hotels": "https://www.google.com/travel/hotels/entity/ChkIiO_IwJTOjr-iARoML2cvMWhqZ2o5aG15EAE",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Tripadvisor",
+        "rating": "3.0/5"
+      },
+      "room_types": [
+        "AC Room",
+        "Non-AC Room",
+        "Family Room"
+      ],
+      "amenities": [
+        "Free Parking",
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Restaurant",
+        "Room Service",
+        "Conference Hall",
+        "Banquet Hall",
+        "Housekeeping",
+        "24-Hour Front Desk",
+        "Cable TV"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available",
+        "food_type": "Pure Vegetarian",
+        "outside_food": "Not Specified"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform or direct booking with the hotel.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card"
+      ],
+      "nearby_landmarks": [
+        "Swarnagiri Sri Venkateswara Swamy Temple (Approx. 4.7 km)",
+        "Bhongir Fort",
+        "Bhongir Bus Stand",
+        "Bhongir Railway Station"
+      ],
+      "temple_id": "T0023",
+      "hotel_id": "H0129"
+    }
+  ],
+  "temple_id": "T0023",
+  "hotel_id": "H0129"
+}

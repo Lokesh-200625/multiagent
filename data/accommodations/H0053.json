@@ -1,0 +1,100 @@
+{
+  "associated_temple": "Sri Keesaragutta Ramalingeswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Aalankrita Resort & Convention",
+      "hotel_type": "4-Star Resort",
+      "address": "Thumkunta Village, Shamirpet Mandal, Medchal–Malkajgiri District, Telangana - 500078, India",
+      "contact_numbers": [
+        "+91 9246377777"
+      ],
+      "email": "reservations@aalankrita.com",
+      "about": "Aalankrita Resort & Convention is a premium resort located approximately 15 km from Sri Keesaragutta Ramalingeswara Swamy Temple. Spread across landscaped gardens, the resort offers luxurious accommodation, swimming pools, banquet and convention facilities, spa services, recreational activities, and multiple dining options. It is ideal for pilgrims seeking a comfortable stay, family vacations, destination events, and business gatherings.",
+      "google_map_link": "https://maps.google.com/?q=Aalankrita+Resort+Shamirpet",
+      "official_website": "https://aalankrita.com/",
+      "price_range": "₹5,000–₹9,500 per night (Approx.)",
+      "check_in_time": "02:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Shamirpet Bus Stop – Approximately 2.5 km",
+        "railway_station": "Secunderabad Junction – Approximately 25 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 62 km"
+      },
+      "booking_links": {
+        "Official": "https://aalankrita.com/",
+        "MakeMyTrip": "https://www.makemytrip.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "Booking.com": "https://www.booking.com/"
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.3/5"
+      },
+      "room_types": [
+        "Executive Room",
+        "Deluxe Cottage",
+        "Premium Cottage",
+        "Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Swimming Pool",
+        "Spa",
+        "Fitness Centre",
+        "Restaurant",
+        "Room Service",
+        "Free Parking",
+        "Conference Hall",
+        "Banquet Hall",
+        "Children's Play Area",
+        "Indoor Games",
+        "Outdoor Sports",
+        "Laundry Service",
+        "24-Hour Front Desk",
+        "Power Backup"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Complimentary on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Business Travelers",
+        "Luxury Travelers",
+        "Wedding Guests",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room plan.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Keesaragutta Ramalingeswara Swamy Temple (Approx. 15 km)",
+        "Shamirpet Lake",
+        "Jawahar Deer Park",
+        "Genome Valley",
+        "Leonia Holistic Destination"
+      ],
+      "temple_id": "T0011",
+      "hotel_id": "H0053"
+    }
+  ],
+  "temple_id": "T0011",
+  "hotel_id": "H0053"
+}

@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0007",
+  "temple_name": "Sri Kaleshwara Mukteswara Swamy Temple",
+  "location": {
+    "district": "Jayashankar Bhupalpally",
+    "state": "Telangana",
+    "latitude": 18.8114,
+    "longitude": 79.9068
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Primary Health Centre, Kaleshwaram",
+        "type": "Primary Health Centre",
+        "address": "Kaleshwaram, Jayashankar Bhupalpally, Telangana 505504",
+        "latitude": 18.8136,
+        "longitude": 79.9052,
+        "distance_from_temple_km": 0.7,
+        "estimated_travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Primary+Health+Centre+Kaleshwaram/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Government Area Hospital, Mahadevpur",
+        "type": "Government Hospital",
+        "address": "Mahadevpur, Jayashankar Bhupalpally, Telangana 505504",
+        "latitude": 18.7992,
+        "longitude": 79.8848,
+        "distance_from_temple_km": 5.4,
+        "estimated_travel_time": "10 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Area+Hospital+Mahadevpur/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Kaleshwaram Police Station",
+        "type": "Police Station",
+        "address": "Kaleshwaram, Jayashankar Bhupalpally, Telangana 505504",
+        "latitude": 18.8125,
+        "longitude": 79.9055,
+        "distance_from_temple": 0.5,
+        "travel_time": "2 min",
+        "google_maps_url": "https://www.google.com/maps/search/Kaleshwaram+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Kaleshwaram",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Mahadevpur",
+        "address": "Mahadevpur, Jayashankar Bhupalpally, Telangana",
+        "coordinates": {
+          "latitude": 18.7996,
+          "longitude": 79.8854
+        },
+        "distance_from_temple": 5.6,
+        "travel_time": "10 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Mahadevpur/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Near Bus Stand, Kaleshwaram, Telangana 505504",
+        "distance": 0.8,
+        "coordinates": {
+          "latitude": 18.813,
+          "longitude": 79.9048
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Kaleshwaram/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Sri Sai Medical & General Stores",
+        "address": "Godavari Road, Kaleshwaram, Telangana 505504",
+        "distance": 0.6,
+        "coordinates": {
+          "latitude": 18.8128,
+          "longitude": 79.9058
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Sai+Medical+Store+Kaleshwaram/",
+        "phone": "",
+        "opening_hours": "8:30 AM - 9:30 PM",
+        "24x7": false,
+        "home_delivery": false,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

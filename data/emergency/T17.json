@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0017",
+  "temple_name": "Dharmapuri Lakshmi Narasimha Swamy Temple",
+  "location": {
+    "district": "Jagtial",
+    "state": "Telangana",
+    "latitude": 18.9465,
+    "longitude": 79.0938
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Government Community Health Centre, Dharmapuri",
+        "type": "Government Hospital",
+        "address": "Dharmapuri, Jagtial District, Telangana 505425",
+        "latitude": 18.9478,
+        "longitude": 79.0956,
+        "distance_from_temple_km": 0.7,
+        "estimated_travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Community+Health+Centre+Dharmapuri/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Sri Sai Hospital",
+        "type": "Hospital",
+        "address": "Dharmapuri, Jagtial District, Telangana 505425",
+        "latitude": 18.9489,
+        "longitude": 79.0973,
+        "distance_from_temple_km": 0.9,
+        "estimated_travel_time": "4 min",
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Sai+Hospital+Dharmapuri/",
+        "emergency_department": null,
+        "24x7_emergency": null,
+        "ambulance_available": null,
+        "trauma_care": false,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Dharmapuri Police Station",
+        "type": "Police Station",
+        "address": "Dharmapuri, Jagtial District, Telangana 505425",
+        "latitude": 18.9473,
+        "longitude": 79.0949,
+        "distance_from_temple": 0.5,
+        "travel_time": "2 min",
+        "google_maps_url": "https://www.google.com/maps/search/Dharmapuri+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Dharmapuri",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Jagtial",
+        "address": "Jagtial, Telangana 505327",
+        "coordinates": {
+          "latitude": 18.7943,
+          "longitude": 78.9156
+        },
+        "distance_from_temple": 28.5,
+        "travel_time": "38 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Jagtial/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Dharmapuri Main Road, Telangana 505425",
+        "distance": 0.8,
+        "coordinates": {
+          "latitude": 18.9481,
+          "longitude": 79.0962
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Dharmapuri/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Sri Lakshmi Medical & General Stores",
+        "address": "Near Bus Stand, Dharmapuri, Telangana 505425",
+        "distance": 0.6,
+        "coordinates": {
+          "latitude": 18.9476,
+          "longitude": 79.0958
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Lakshmi+Medical+Store+Dharmapuri/",
+        "phone": "",
+        "opening_hours": "8:30 AM - 9:30 PM",
+        "24x7": false,
+        "home_delivery": false,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

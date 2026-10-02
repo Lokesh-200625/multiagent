@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0016",
+  "temple_name": "Edupayala Vana Durga Bhavani Temple",
+  "location": {
+    "district": "Medak",
+    "state": "Telangana",
+    "latitude": 17.9284,
+    "longitude": 77.9783
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Government Community Health Centre, Papannapet",
+        "type": "Government Hospital",
+        "address": "Papannapet, Medak District, Telangana 502303",
+        "latitude": 17.8639,
+        "longitude": 78.0034,
+        "distance_from_temple_km": 8.4,
+        "estimated_travel_time": "14 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Community+Health+Centre+Papannapet/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Government Area Hospital, Medak",
+        "type": "Government Hospital",
+        "address": "Medak, Telangana 502110",
+        "latitude": 18.0455,
+        "longitude": 78.2632,
+        "distance_from_temple_km": 18.7,
+        "estimated_travel_time": "28 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Area+Hospital+Medak/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Papannapet Police Station",
+        "type": "Police Station",
+        "address": "Papannapet, Medak District, Telangana 502303",
+        "latitude": 17.8652,
+        "longitude": 78.0041,
+        "distance_from_temple": 8.6,
+        "travel_time": "14 min",
+        "google_maps_url": "https://www.google.com/maps/search/Papannapet+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Papannapet",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Medak",
+        "address": "Medak, Telangana 502110",
+        "coordinates": {
+          "latitude": 18.0462,
+          "longitude": 78.2641
+        },
+        "distance_from_temple": 18.9,
+        "travel_time": "29 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Medak/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Sri Sai Medical & General Stores",
+        "address": "Papannapet, Medak District, Telangana 502303",
+        "distance": 8.5,
+        "coordinates": {
+          "latitude": 17.8646,
+          "longitude": 78.0038
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Sai+Medical+Store+Papannapet/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 9:30 PM",
+        "24x7": false,
+        "home_delivery": false,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Medak Main Road, Medak, Telangana 502110",
+        "distance": 18.8,
+        "coordinates": {
+          "latitude": 18.0458,
+          "longitude": 78.2635
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Medak/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

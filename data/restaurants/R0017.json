@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0017",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Annapurna+Hotel+Vemulawada+Telangana",
+      "restaurantName": "Annapurna Hotel",
+
+  "associatedTemple": {
+    "templeId": "T0003",
+    "templeName": "Sri Raja Rajeshwara Swamy Temple, Vemulawada"
+  },
+
+  "basicInformation": {
+    "category": "Vegetarian Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A budget-friendly vegetarian restaurant serving traditional South Indian tiffins and meals near Sri Raja Rajeshwara Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Vemulawada, Telangana, India",
+    "area": "Temple Area",
+    "city": "Vemulawada",
+    "district": "Rajanna Sircilla",
+    "state": "Telangana",
+    "pincode": "505302",
+    "landmark": "Near Sri Raja Rajeshwara Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.3,
+    "walkingTimeMinutes": 4,
+    "bikeTimeMinutes": 2,
+    "carTimeMinutes": 2,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Vada",
+      "Poori",
+      "Upma"
+    ],
+    "lunch": [
+      "Vegetarian Meals"
+    ],
+    "dinner": [
+      "Dosa",
+      "Meals"
+    ],
+    "snacks": [
+      "Bonda"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+    "specialDishes": [
+      "Vegetarian Meals",
+      "Masala Dosa"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹100–200",
+    "averageCostForTwo": "₹250–400"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Raja Rajeshwara Swamy Temple",
+    "busStand": "Vemulawada Bus Station",
+    "railwayStation": "Kamareddi Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Budget-friendly vegetarian restaurant.",
+    "Traditional South Indian breakfast.",
+    "Popular among pilgrims.",
+    "Pure vegetarian meals.",
+    "Located close to the temple."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Restaurant Guru",
+      "url": "https://restaurant-guru.in/vegetarian-Vemulawada-c93"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+ "restaurantId": "R0010",
+
+      "restaurantName": "Srirama Tiffin Center",
+      "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Srirama+Tiffin+Center+Bhadrachalam+Telangana",
+
+  "associatedTemple": {
+    "templeId": "T0002",
+    "templeName": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam"
+  },
+
+  "basicInformation": {
+    "category": "Tiffin Center",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A budget-friendly South Indian tiffin center serving fresh breakfast and vegetarian meals near Sri Sita Ramachandra Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Bhadrachalam, Telangana, India",
+    "area": "Temple Area",
+    "city": "Bhadrachalam",
+    "district": "Bhadradri Kothagudem",
+    "state": "Telangana",
+    "pincode": "507111",
+    "landmark": "Near Sri Sita Ramachandra Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.4,
+    "walkingTimeMinutes": 6,
+    "bikeTimeMinutes": 2,
+    "carTimeMinutes": 2,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Vada",
+      "Pesarattu",
+      "Poori"
+    ],
+    "lunch": [
+      "Vegetarian Meals"
+    ],
+    "dinner": [
+      "Dosa",
+      "Uttapam"
+    ],
+    "snacks": [
+      "Punugulu"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+    "specialDishes": [
+      "Pesarattu",
+      "Idli",
+      "Masala Dosa"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹100–200",
+    "averageCostForTwo": "₹250–400"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Sita Ramachandra Swamy Temple",
+    "busStand": "Bhadrachalam Bus Station",
+    "railwayStation": "Bhadrachalam Road Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Budget-friendly tiffin center.",
+    "Popular breakfast destination.",
+    "Pure vegetarian.",
+    "Located near the temple.",
+    "Quick service."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Restaurant Guru",
+      "url": "https://restaurant-guru.in/Srirama-Tiffin-Center-Bhadrachalam"
+    }
+  ]
+}

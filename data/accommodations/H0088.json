@@ -1,0 +1,90 @@
+{
+  "associated_temple": "Sri Thousand Pillar Temple, Hanamkonda",
+  "hotels": [
+    {
+      "hotel_name": "Hotel Shreya",
+      "hotel_type": "3-Star Hotel",
+      "address": "Beside Kalyan Jewellers, New Bus Stand Road, Hanamkonda, Warangal, Telangana - 506001, India",
+      "contact_numbers": [
+        "+91 7337509992"
+      ],
+      "email": "",
+      "about": "Hotel Shreya is a premium 3-star hotel located approximately 350 metres from the Thousand Pillar Temple. The hotel offers comfortable air-conditioned rooms, an in-house restaurant, free Wi-Fi, parking, and modern amenities. It is one of the closest hotels to the temple and is suitable for pilgrims, families, business travelers, and tourists. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Hotel+Shreya+Hanamkonda",
+      "official_website": "",
+      "price_range": "₹2,000–₹4,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Hanamkonda New Bus Stand – Approximately 150 m",
+        "railway_station": "Warangal Railway Station – Approximately 7.1 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 165 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/hotel_shreya-details-warangal.html",
+        "Goibibo": "https://www.goibibo.com/hotels/shreya-hotel-in-warangal-1681506220832276616/",
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.0/5"
+      },
+      "room_types": [
+        "Deluxe AC Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Bar",
+        "Free Parking",
+        "Air Conditioning",
+        "Room Service",
+        "Housekeeping",
+        "Caretaker",
+        "Doctor on Call",
+        "Luggage Assistance",
+        "Elevator"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Yes",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Couples",
+        "Tourists"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Book @ ₹0 Payment is available on selected plans. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Thousand Pillar Temple (Approx. 350 m)",
+        "Bhadrakali Temple",
+        "Warangal Fort",
+        "Hanamkonda New Bus Stand"
+      ],
+      "temple_id": "T0013",
+      "hotel_id": "H0088"
+    }
+  ],
+  "temple_id": "T0013",
+  "hotel_id": "H0088"
+}

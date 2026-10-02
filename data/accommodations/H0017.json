@@ -1,0 +1,94 @@
+{
+  "associated_temple": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam",
+  "hotels": [
+    {
+      "hotel_name": "Sri Bhavya Residency",
+      "hotel_type": "Hotel / Residency",
+      "address": "4-1-64, Dr. Narasimha Rao Street, Kalyanamandapam Road, Opposite SBI & HDFC ATM, Bhadrachalam - 507111, Telangana, India.",
+      "contact_numbers": [
+        "+91 9493747711"
+      ],
+      "email": "",
+      "about": "Sri Bhavya Residency is a budget-friendly hotel located within walking distance of Sri Sita Ramachandra Swamy Temple. It offers clean and comfortable AC rooms, family accommodation, free Wi-Fi, parking, and room service. Due to its convenient location near the temple, it is a popular choice among pilgrims and families visiting Bhadrachalam.",
+      "google_map_link": "https://maps.app.goo.gl/ (Search: Sri Bhavya Residency, Bhadrachalam)",
+      "official_website": "",
+      "price_range": "₹1,500–₹2,200 per night (Approx.)",
+      "check_in_time": "01:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Bhadrachalam Bus Stand – Approximately 1 km",
+        "railway_station": "Aswapuram Railway Station – Approximately 26 km",
+        "airport": "Rajahmundry Airport – Approximately 180 km"
+      },
+      "booking_links": {
+        "Goibibo": "https://www.goibibo.com/hotels/sri-bhavya-residency-hotel-in-bhadrachalam-6614875946352685775/",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/sri_bhavya_residency-details-bhadrachalam.html",
+        "Agoda": "https://www.agoda.com/sri-bhavya-residency/hotel/bhadrachalam-in.html"
+      },
+      "ratings": {
+        "platform": "Agoda",
+        "rating": "7.9/10"
+      },
+      "room_types": [
+        "Double Bed AC Room",
+        "Triple Room",
+        "Family Suite",
+        "Family Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Parking",
+        "Family Rooms",
+        "Room Service",
+        "24-Hour Front Desk",
+        "Power Backup",
+        "Housekeeping",
+        "Laundry Service",
+        "Luggage Storage",
+        "Tours/Travel Assistance",
+        "Elevator/Lift"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Couples",
+        "Pilgrims",
+        "Senior Citizens",
+        "Group Pilgrims",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible bookings up to 24 hours before check-in, depending on the selected room and booking platform.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Sita Ramachandra Swamy Temple – Approximately 200–300 m",
+        "Abhaya Anjaneya Swamy Temple",
+        "Godavari River",
+        "Bhadrachalam Bus Stand"
+      ],
+      "temple_id": "T0002",
+      "hotel_id": "H0017"
+    }
+  ],
+  "temple_id": "T0002",
+  "hotel_id": "H0017"
+}

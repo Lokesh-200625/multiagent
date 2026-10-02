@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0094",
+  "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=SN+Restaurant+and+Bar+Market+Yard+T0017rmapuri+Telangana",
+
+  "restaurantName": "SN Restaurant and Bar",
+
+  "associatedTemple": {
+    "templeId": "T0017",
+    "templeName": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri"
+  },
+
+  "basicInformation": {
+    "category": "Restaurant",
+    "cuisineType": [
+      "Indian",
+      "South Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A local restaurant in Dharmapuri town serving lunch and dinner options for visitors and pilgrims travelling to Sri Lakshmi Narasimha Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Market Yard Camp, Dharmapuri, Jagtial District, Telangana, India",
+    "area": "Market Yard Camp",
+    "city": "Dharmapuri",
+    "district": "Jagtial",
+    "state": "Telangana",
+    "pincode": "505425",
+    "landmark": "Market Yard Camp Area",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+
+    "distanceFromTempleKm": {
+      "value": 1.2,
+      "source": "Estimated based on Dharmapuri town locality",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+
+      "walking": {
+        "value": 15,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average walking speed of 4 km/hour",
+        "confidence": "Medium"
+      },
+
+      "bike": {
+        "value": 5,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Town internal roads",
+        "confidence": "Medium"
+      },
+
+      "car": {
+        "value": 5,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Town internal roads",
+        "confidence": "Medium"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+
+    "openingTime": "10:00 AM",
+    "closingTime": "11:00 PM",
+
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+
+    "breakfast": [],
+
+    "lunch": [
+      "Meals",
+      "Indian Cuisine"
+    ],
+
+    "dinner": [
+      "Indian Cuisine"
+    ],
+
+    "snacks": [
+      "Snacks"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ],
+
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+
+    "priceCategory": "Moderate",
+
+    "averageCostForOne": "₹200–400",
+
+    "averageCostForTwo": "₹400–800"
+  },
+
+  "facilities": {
+
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+
+    "googleRating": 4.0,
+
+    "totalReviews": 139
+  },
+
+  "nearbyPlaces": {
+
+    "temple": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+
+    "busStand": "Dharmapuri Bus Stand",
+
+    "railwayStation": "Jagtial Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located inside Dharmapuri town.",
+    "Suitable for lunch and dinner.",
+    "Good option for groups travelling by road.",
+    "Extended working hours compared with small eateries."
+  ],
+
+  "dataReliability": {
+
+    "verifiedFields": [
+      "restaurantName",
+      "location",
+      "rating",
+      "reviewCount",
+      "workingHours"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "priceInformation"
+    ],
+
+    "unknownFields": [
+      "phoneNumber",
+      "exactMenuDetails",
+      "parkingAvailability"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile / Local Listings",
+      "url": null
+    }
+  ]
+}

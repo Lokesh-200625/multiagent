@@ -1,0 +1,101 @@
+{
+  "associated_temple": "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+  "hotels": [
+    {
+      "hotel_name": "Spectra Pride Hotels and Resorts",
+      "hotel_type": "Resort Hotel",
+      "address": "Survey No. 151, Mairalgudem Village, Yadagirigutta Mandal, Yadadri Bhuvanagiri District, Telangana - 508286, India",
+      "contact_numbers": [
+        "+91 8988980011"
+      ],
+      "email": "reservations@spectrapride.com",
+      "about": "Spectra Pride Hotels and Resorts is a premium resort located near Sri Lakshmi Narasimha Swamy Temple, Yadadri. Surrounded by greenery, the resort offers luxurious accommodation with spacious rooms, a swimming pool, landscaped gardens, a multi-cuisine restaurant, banquet facilities, and recreational amenities. It is ideal for families, pilgrims, corporate events, weddings, and leisure travelers seeking a premium stay near the temple.",
+      "google_map_link": "https://maps.google.com/?q=Spectra+Pride+Hotels+and+Resorts+Yadagirigutta",
+      "official_website": "https://www.spectrapride.com",
+      "price_range": "₹4,000–₹6,500 per night (Approx.)",
+      "check_in_time": "02:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Yadadri Bus Stand – Approximately 5 km",
+        "railway_station": "Raigir Railway Station – Approximately 8 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 82 km"
+      },
+      "booking_links": {
+        "Official": "https://www.spectrapride.com",
+        "Booking.com": "Not Available",
+        "MakeMyTrip": "Not Available",
+        "Goibibo": "Not Available"
+      },
+      "ratings": {
+        "platform": "Tripadvisor",
+        "rating": "4.5/5"
+      },
+      "room_types": [
+        "Deluxe Room",
+        "Executive Room",
+        "Premium Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free Parking",
+        "Air Conditioning",
+        "Swimming Pool",
+        "Restaurant",
+        "Room Service",
+        "Banquet Hall",
+        "Conference Hall",
+        "Children's Play Area",
+        "Garden",
+        "24-Hour Front Desk",
+        "Laundry Service",
+        "Housekeeping",
+        "Power Backup",
+        "CCTV Security",
+        "Elevator",
+        "Fitness Centre"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available",
+        "food_type": "Multi-Cuisine, South Indian, North Indian, Chinese",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Luxury Travelers",
+        "Business Travelers",
+        "Corporate Events",
+        "Wedding Guests",
+        "Group Pilgrims"
+      ],
+      "cancellation_policy": "Cancellation and refund policies vary depending on the selected room type and booking platform.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Lakshmi Narasimha Swamy Temple – Approximately 5 km",
+        "Surendrapuri",
+        "Yadadri Bus Stand",
+        "Raigir Railway Station"
+      ],
+      "temple_id": "T0001",
+      "hotel_id": "H0102"
+    }
+  ],
+  "temple_id": "T0001",
+  "hotel_id": "H0102"
+}

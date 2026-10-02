@@ -1,0 +1,95 @@
+{
+  "associated_temple": "Birla Mandir, Hyderabad",
+  "hotels": [
+    {
+      "hotel_name": "Amrutha Castle",
+      "hotel_type": "3-Star Boutique Hotel",
+      "address": "5-9-16, Opposite Secretariat, Saifabad, Khairatabad, Hyderabad, Telangana - 500063, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Amrutha Castle is a medieval European castle-themed boutique hotel located approximately 520 metres from Birla Mandir. The hotel offers elegant rooms, a swimming pool, multi-cuisine restaurant, banquet facilities, and modern amenities, making it suitable for pilgrims, families, business travelers, and tourists visiting central Hyderabad. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Amrutha+Castle+Hyderabad",
+      "official_website": "",
+      "price_range": "₹2,400–₹7,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Saifabad Bus Stop – Approximately 1.4 km",
+        "railway_station": "Lakdikapul Railway Station – Approximately 1.7 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 25.4 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/amrutha_castle-details-hyderabad.html",
+        "Goibibo": "https://www.goibibo.com/hotels/amrutha-castle-hotel-in-hyderabad-6517737442088145904/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "2.7/5"
+      },
+      "room_types": [
+        "Superior Room",
+        "Deluxe Room",
+        "Castle Club Room",
+        "Luxury Suite",
+        "Presidential Suite"
+      ],
+      "amenities": [
+        "Swimming Pool",
+        "Restaurant",
+        "Free Wi-Fi",
+        "Power Backup",
+        "Elevator",
+        "Room Service",
+        "Laundry Service",
+        "Air Conditioning",
+        "Free Parking",
+        "Luggage Assistance",
+        "Doctor on Call",
+        "Wheelchair Access",
+        "Conference Hall"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Couples",
+        "Tourists"
+      ],
+      "cancellation_policy": "Free cancellation and Book @ ₹0 are available on eligible room plans. Cancellation terms depend on the selected booking option. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Birla Mandir (520 m)",
+        "Hussain Sagar Lake",
+        "Lumbini Park",
+        "Lakdikapul Metro Station",
+        "Secretariat"
+      ],
+      "temple_id": "T0009",
+      "hotel_id": "H0030"
+    }
+  ],
+  "temple_id": "T0009",
+  "hotel_id": "H0030"
+}

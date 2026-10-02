@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0116",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Sri+Vari+Palle+Ruchulu+Yadagirigutta+Telangana",
+  "restaurantName": "Sri Vari Palle Ruchulu",
+
+  "associatedTemple": {
+    "templeId": "T0022",
+    "templeName": "Surendrapuri (Kunda Satyanarayana Kala Dhamam)"
+  },
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Andhra",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A family restaurant near Surendrapuri serving Andhra-style meals, South Indian dishes and biryani for pilgrims and travelers."
+  },
+
+  "location": {
+    "fullAddress": "Yadagirigutta Main Road, Yadagirigutta, Telangana 508115, India",
+    "area": "Main Road",
+    "city": "Yadagirigutta",
+    "district": "Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "pincode": "508115",
+    "landmark": "Near Surendrapuri",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 3.2,
+      "source": "Estimated from verified business location",
+      "confidence": "High"
+    },
+    "travelTime": {
+      "walking": {
+        "value": 40,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 9,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 8,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": 12,
+        "unit": "minutes",
+        "type": "Estimated"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "07:00 AM",
+    "closingTime": "10:30 PM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Poori"
+    ],
+    "lunch": [
+      "Andhra Meals",
+      "Veg Meals",
+      "Non-Veg Meals"
+    ],
+    "dinner": [
+      "Chicken Biryani",
+      "Mutton Curry",
+      "Fried Rice"
+    ],
+    "snacks": [
+      "Mirchi Bajji",
+      "Vada"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ],
+    "specialDishes": [
+      "Andhra Meals",
+      "Chicken Biryani",
+      "Fish Curry"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹180–300",
+    "averageCostForTwo": "₹400–650"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Surendrapuri",
+    "busStand": "Yadagirigutta Bus Stand",
+    "railwayStation": "Raigir Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Family-friendly restaurant.",
+    "Popular Andhra-style meals.",
+    "Suitable for pilgrims.",
+    "Parking available.",
+    "Takeaway available."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation",
+      "priceInformation",
+      "workingHours"
+    ],
+    "unknownFields": [
+      "phoneNumber",
+      "officialWebsite",
+      "googleBusinessProfile",
+      "googleRating",
+      "totalReviews"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Listing",
+      "url": null
+    }
+  ]
+}

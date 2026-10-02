@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0034",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Haritha+Hotel+Alampur+Telangana",
+  "restaurantName": "Haritha Hotel Alampur",
+
+  "associatedTemple": {
+    "templeId": "T0006",
+    "templeName": "Sri Jogulamba Devi Temple, Alampur"
+  },
+
+  "basicInformation": {
+    "category": "Hotel & Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A Telangana Tourism Haritha Hotel with an in-house family restaurant serving pilgrims and tourists visiting Sri Jogulamba Devi Temple."
+  },
+
+  "location": {
+    "fullAddress": "Haritha Hotel, Alampur, Jogulamba Gadwal District, Telangana, India",
+    "area": "Alampur",
+    "city": "Alampur",
+    "district": "Jogulamba Gadwal",
+    "state": "Telangana",
+    "pincode": "509152",
+    "landmark": "Near Sri Jogulamba Devi Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 1.0,
+    "walkingTimeMinutes": 13,
+    "bikeTimeMinutes": 3,
+    "carTimeMinutes": 3,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": "https://tourism.telangana.gov.in/",
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": null,
+    "averageCostForTwo": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 3.6,
+    "totalReviews": 956
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Jogulamba Devi Temple",
+    "busStand": "Alampur Bus Stand",
+    "railwayStation": "Alampur Road Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Operated by Telangana Tourism.",
+    "Located near Sri Jogulamba Devi Temple.",
+    "Family-friendly restaurant.",
+    "Parking facility available.",
+    "Serves pilgrims and tourists."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Telangana Tourism",
+      "url": "https://tourism.telangana.gov.in/"
+    },
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

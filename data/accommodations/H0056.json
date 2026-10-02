@@ -1,0 +1,86 @@
+{
+  "associated_temple": "Sri Komuravelli Mallanna Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "The Hidden Castle Resort",
+      "hotel_type": "Resort",
+      "address": "Near Komuravelli Village, Cherial Mandal, Siddipet District, Telangana - 506355, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "The Hidden Castle Resort is a peaceful countryside resort located approximately 9 km from Sri Komuravelli Mallanna Swamy Temple. Surrounded by greenery, the resort offers comfortable accommodation for pilgrims, families, couples, and tourists seeking a relaxing stay near the temple. It is one of the very few verified commercial accommodations available within 10 km of the temple.",
+      "google_map_link": "https://maps.google.com/?q=The+Hidden+Castle+Komuravelli",
+      "official_website": "",
+      "price_range": "₹2,500–₹5,000 per night (Approx.)",
+      "check_in_time": "01:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Komuravelli Bus Stand – Approximately 9 km",
+        "railway_station": "Komuravelli Railway Station – Approximately 12 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 110 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.3/5"
+      },
+      "room_types": [
+        "Deluxe Room",
+        "Premium Cottage",
+        "Family Cottage"
+      ],
+      "amenities": [
+        "Free Parking",
+        "Garden",
+        "Air Conditioning",
+        "Family Rooms",
+        "Children's Play Area",
+        "Power Backup",
+        "Housekeeping",
+        "24-Hour Security"
+      ],
+      "facilities_summary": {
+        "room_service": "Limited",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Limited",
+        "in_room_dining": "No",
+        "breakfast": "Available",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Nature Lovers",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the booking method and the property's terms.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card"
+      ],
+      "nearby_landmarks": [
+        "Sri Komuravelli Mallanna Swamy Temple (Approx. 9 km)",
+        "Komuravelli Village",
+        "Cherial",
+        "Rural Nature Trails"
+      ],
+      "temple_id": "T0015",
+      "hotel_id": "H0056"
+    }
+  ],
+  "temple_id": "T0015",
+  "hotel_id": "H0056"
+}

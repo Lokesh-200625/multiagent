@@ -1,0 +1,80 @@
+{
+  "associated_temple": "Sri Beechupally Anjaneya Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Beechupally Temple Guest Rooms",
+      "hotel_type": "Temple Guest House",
+      "address": "Sri Beechupally Anjaneya Swamy Temple Premises, NH-44, Beechupally, Itikyal Mandal, Jogulamba Gadwal District, Telangana - 509125, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Beechupally Temple Guest Rooms are basic accommodation facilities provided by the temple management for pilgrims visiting Sri Beechupally Anjaneya Swamy Temple. The temple has a limited number of rooms available, generally allotted on a first-come, first-served basis. These rooms are mainly intended for devotees visiting the temple and the Krishna River ghats. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Beechupally+Anjaneya+Swamy+Temple",
+      "official_website": "",
+      "price_range": "Free / Nominal Charges (Subject to Temple Administration)",
+      "check_in_time": "Subject to room availability",
+      "check_out_time": "As per temple administration rules",
+      "nearest_transport": {
+        "bus_stand": "Beechupally Bus Stop – Approximately 200 m",
+        "railway_station": "Gadwal Railway Station – Approximately 15 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 180 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Temple": "Offline Allotment Only",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "overall": "[]"
+      },
+      "room_types": [
+        "Standard Pilgrim Room",
+        "Family Room"
+      ],
+      "amenities": [
+        "Basic Accommodation",
+        "Attached Bathroom (Selected Rooms)",
+        "Drinking Water",
+        "Temple Parking",
+        "24-Hour Electricity",
+        "Basic Furniture"
+      ],
+      "facilities_summary": {
+        "room_service": "No",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Limited"
+      },
+      "food_facility": {
+        "availability": "Available Nearby",
+        "restaurant": "Temple Canteen and Local Food Stalls",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Available Nearby",
+        "food_type": "Vegetarian",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Senior Citizens",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Rooms are allotted subject to availability by the temple administration. Advance online booking is generally not available. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Beechupally Anjaneya Swamy Temple",
+        "Krishna River Ghat",
+        "Beechupally Bus Stop",
+        "NH-44"
+      ],
+      "temple_id": "T0020",
+      "hotel_id": "H0010"
+    }
+  ],
+  "temple_id": "T0020",
+  "hotel_id": "H0010"
+}

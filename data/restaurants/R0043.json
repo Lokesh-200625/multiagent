@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0043",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=The+Fisherman's+Wharf+Gandipet+Hyderabad",
+  "restaurantName": "The Fisherman's Wharf Hyderabad",
+
+  "associatedTemple": {
+    "templeId": "T0008",
+    "templeName": "Chilkur Balaji Temple"
+  },
+
+  "businessStatus": "Operational",
+
+  "basicInformation": {
+    "category": "Fine Dining Restaurant",
+    "cuisineType": [
+      "Seafood",
+      "Goan",
+      "Continental",
+      "North Indian",
+      "Chinese"
+    ],
+    "shortDescription": "A premium waterfront family restaurant offering Goan seafood and multi-cuisine dining, popular among families visiting Chilkur and Osman Sagar."
+  },
+
+  "location": {
+    "fullAddress": "Near Ocean Park, Gandipet Road, Hyderabad, Telangana, India",
+    "area": "Gandipet",
+    "city": "Hyderabad",
+    "district": "Ranga Reddy",
+    "state": "Telangana",
+    "pincode": null,
+    "landmark": "Near Ocean Park",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 5.0,
+    "walkingTimeMinutes": null,
+    "bikeTimeMinutes": 10,
+    "carTimeMinutes": 10,
+    "busTimeMinutes": 20
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": "https://thefishermanswharf.in/",
+    "googleBusinessProfile": null,
+    "email": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": [
+      "Goan Fish Curry",
+      "Prawn Curry",
+      "Fish Fry",
+      "Crab Masala"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Premium",
+    "averageCostForOne": null,
+    "averageCostForTwo": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Chilkur Balaji Temple",
+    "busStand": "Gandipet Bus Stop",
+    "railwayStation": "Hyderabad Deccan Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Premium family dining.",
+    "Goan specialty cuisine.",
+    "Seafood restaurant.",
+    "Large parking area.",
+    "Popular destination near Chilkur."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Official Website",
+      "url": "https://thefishermanswharf.in/"
+    }
+  ]
+}

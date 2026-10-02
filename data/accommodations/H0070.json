@@ -1,0 +1,78 @@
+{
+  "associated_temple": "Sri Sammakka Saralamma Temple, Medaram",
+  "hotels": [
+    {
+      "hotel_name": "KVL Luxury Rooms Medaram",
+      "hotel_type": "Hotel",
+      "address": "Beside Mythri Wines, Reddyguddam Cross Road, Medaram, Telangana - 506347, India",
+      "contact_numbers": [
+        "+91 94415 50362"
+      ],
+      "email": "",
+      "about": "KVL Luxury Rooms Medaram is a mid-range hotel situated near Mythri Wines at Reddyguddam Cross Road, Medaram. The property offers clean and comfortable accommodation for pilgrims visiting Sri Sammakka Saralamma Temple. It is a popular choice for families and group travelers due to its modern rooms and convenient location. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=KVL+Luxury+Rooms+Medaram",
+      "official_website": "",
+      "price_range": "₹1,500–₹2,500 per night (Approx.)",
+      "check_in_time": "1:00 PM",
+      "check_out_time": "12:30 PM",
+      "nearest_transport": {
+        "bus_stand": "Medaram Bus Stand – Approximately 1 km",
+        "railway_station": "Warangal Railway Station – Approximately 50 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 190 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Google Maps": "https://maps.google.com/?q=KVL+Luxury+Rooms+Medaram",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.0/5"
+      },
+      "room_types": [],
+      "amenities": [
+        "Air Conditioning",
+        "Free Parking",
+        "Family Rooms",
+        "Attached Bathroom"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Specified",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Not Specified"
+      },
+      "food_facility": {
+        "availability": "Available Nearby",
+        "restaurant": "Nearby",
+        "room_service": "Not Specified",
+        "in_room_dining": "Not Available",
+        "breakfast": "Not Included",
+        "food_type": "Vegetarian and Non-Vegetarian (Nearby)",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Group Travelers",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation policy depends on direct booking with the property.",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Sammakka Saralamma Temple",
+        "Medaram Bus Stand",
+        "Jampanna Vagu",
+        "Haritha Grand Hotel"
+      ],
+      "temple_id": "T0021",
+      "hotel_id": "H0070"
+    }
+  ],
+  "temple_id": "T0021",
+  "hotel_id": "H0070"
+}

@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0107",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Che+Guevara+Food+Court+Beechupally+Telangana",
+  "restaurantName": "Che Guevara Food Court",
+
+  "associatedTemple": {
+    "templeId": "T0020",
+    "templeName": "Beechupally Sri Anjaneya Swamy Temple"
+  },
+
+  "basicInformation": {
+    "category": "Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A popular highway food court located on NH-44 near Beechupally Sri Anjaneya Swamy Temple, serving South Indian, North Indian and Chinese cuisine for pilgrims and highway travellers."
+  },
+
+  "location": {
+    "fullAddress": "5W5H+47G, NH 44, Beechupalli, Telangana 509133, India",
+    "area": "Beechupalli",
+    "city": "Beechupally",
+    "district": "Jogulamba Gadwal",
+    "state": "Telangana",
+    "pincode": "509133",
+    "landmark": "NH-44 Highway",
+    "plusCode": "5W5H+47G",
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 0.25,
+      "source": "Estimated from verified Google Business location",
+      "confidence": "High"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Approx. 250 m walking distance",
+        "confidence": "High"
+      },
+      "bike": {
+        "value": 1,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Temple approach road",
+        "confidence": "High"
+      },
+      "car": {
+        "value": 1,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Temple approach road",
+        "confidence": "High"
+      },
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Poori",
+      "Vada"
+    ],
+    "lunch": [
+      "Veg Meals",
+      "Non-Veg Meals",
+      "North Indian Meals"
+    ],
+    "dinner": [
+      "Biryani",
+      "Chinese",
+      "South Indian Meals"
+    ],
+    "snacks": [
+      "Bajji",
+      "Bonda"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks"
+    ],
+    "specialDishes": [
+      "Veg Meals",
+      "Chicken Biryani",
+      "Fried Rice"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹100–200",
+    "averageCostForTwo": "₹200–400"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 3.5,
+    "totalReviews": 1386
+  },
+
+  "nearbyPlaces": {
+    "temple": "Beechupally Sri Anjaneya Swamy Temple",
+    "busStand": "Beechupally Bus Stop",
+    "railwayStation": "Gadwal Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located very close to Beechupally Temple.",
+    "Popular stop for NH-44 travellers.",
+    "Large number of customer reviews.",
+    "Vegetarian and non-vegetarian options available.",
+    "Parking facility available."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "address",
+      "plusCode",
+      "googleRating",
+      "totalReviews",
+      "priceRange"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "workingHours",
+      "foodInformation"
+    ],
+    "unknownFields": [
+      "phoneNumber",
+      "officialWebsite",
+      "googleBusinessProfile"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

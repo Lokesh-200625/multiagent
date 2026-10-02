@@ -1,0 +1,81 @@
+{
+  "associated_temple": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+  "hotels": [
+    {
+      "hotel_name": "AmruthaVanam Agrifarm Resort",
+      "hotel_type": "Agrifarm Resort",
+      "address": "Near Dharmapuri, Jagtial District, Telangana, India",
+      "contact_numbers": [
+        "+91 63053 49229"
+      ],
+      "email": "",
+      "about": "AmruthaVanam Agrifarm Resort is a countryside agritourism resort located near the famous Sri Lakshmi Narasimha Swamy Temple in Dharmapuri. The property offers a peaceful natural environment suitable for families, pilgrims, and weekend visitors. It is primarily known as a farm-based getaway with open green spaces and event facilities. Detailed accommodation and booking information is currently not publicly available.",
+      "google_map_link": "Not Available",
+      "official_website": "",
+      "price_range": "Not Available",
+      "check_in_time": "Not Available",
+      "check_out_time": "Not Available",
+      "nearest_transport": {
+        "bus_stand": "Dharmapuri Bus Stand – Approximately 3 km",
+        "railway_station": "Mancherial Railway Station – Approximately 42 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 250 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Booking.com": null,
+        "MakeMyTrip": null,
+        "Goibibo": null
+      },
+      "ratings": {
+        "platform": "MakeMyTrip",
+        "rating": "Not Available"
+      },
+      "room_types": [],
+      "amenities": [
+        "Agrifarm Experience",
+        "Natural Greenery",
+        "Open Spaces",
+        "Family-Friendly Environment",
+        "Event & Group Gathering Area"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Available",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Not Available"
+      },
+      "food_facility": {
+        "availability": "Not Available",
+        "restaurant": "Not Available",
+        "room_service": "Not Available",
+        "in_room_dining": "Not Available",
+        "breakfast": "Not Available",
+        "food_type": "Not Available",
+        "outside_food": "Not Available"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Nature Lovers",
+        "Weekend Trips",
+        "Group Outings"
+      ],
+      "cancellation_policy": "Contact the resort directly for cancellation and refund policies.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "PhonePe",
+        "Google Pay"
+      ],
+      "nearby_landmarks": [
+        "Sri Lakshmi Narasimha Swamy Temple",
+        "Godavari River",
+        "Dharmapuri Bus Stand",
+        "Dharmapuri Town"
+      ],
+      "temple_id": "T0017",
+      "hotel_id": "H0038"
+    }
+  ],
+  "temple_id": "T0017",
+  "hotel_id": "H0038"
+}

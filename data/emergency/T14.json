@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0014",
+  "temple_name": "Ramappa (Rudreshwara) Temple",
+  "location": {
+    "district": "Mulugu",
+    "state": "Telangana",
+    "latitude": 18.2591,
+    "longitude": 79.9438
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Government Community Health Centre, Venkatapur",
+        "type": "Government Hospital",
+        "address": "Venkatapur, Mulugu District, Telangana 506164",
+        "latitude": 18.2786,
+        "longitude": 79.9312,
+        "distance_from_temple_km": 5.8,
+        "estimated_travel_time": "10 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Community+Health+Centre+Venkatapur/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Government District Hospital, Mulugu",
+        "type": "Government Hospital",
+        "address": "Mulugu, Telangana 506343",
+        "latitude": 18.1934,
+        "longitude": 79.9416,
+        "distance_from_temple_km": 8.6,
+        "estimated_travel_time": "14 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+District+Hospital+Mulugu/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Venkatapur Police Station",
+        "type": "Police Station",
+        "address": "Venkatapur, Mulugu District, Telangana 506164",
+        "latitude": 18.2789,
+        "longitude": 79.9298,
+        "distance_from_temple": 5.9,
+        "travel_time": "10 min",
+        "google_maps_url": "https://www.google.com/maps/search/Venkatapur+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Venkatapur",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Mulugu",
+        "address": "Mulugu, Telangana 506343",
+        "coordinates": {
+          "latitude": 18.1939,
+          "longitude": 79.9409
+        },
+        "distance_from_temple": 8.8,
+        "travel_time": "15 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Mulugu/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Mulugu Main Road, Mulugu, Telangana 506343",
+        "distance": 8.4,
+        "coordinates": {
+          "latitude": 18.1945,
+          "longitude": 79.9418
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Mulugu/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "MedPlus Pharmacy",
+        "address": "Mulugu, Telangana 506343",
+        "distance": 8.7,
+        "coordinates": {
+          "latitude": 18.1937,
+          "longitude": 79.9424
+        },
+        "google_maps_url": "https://www.google.com/maps/search/MedPlus+Mulugu/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

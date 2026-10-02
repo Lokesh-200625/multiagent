@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0120",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Aaharam+Restaurant+Bhuvanagiri+Telangana",
+  "restaurantName": "Aaharam Restaurant",
+
+  "associatedTemple": {
+    "templeId": "T0023",
+    "templeName": "Swarnagiri Sree Venkateswara Swamy Devasthanam"
+  },
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Andhra",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A family restaurant in the Bhuvanagiri area serving regular meals and refreshments for travellers and temple visitors."
+  },
+
+  "location": {
+    "fullAddress": "Bhuvanagiri, Yadadri Bhuvanagiri District, Telangana, India",
+    "area": "Bhuvanagiri",
+    "city": "Bhuvanagiri",
+    "district": "Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "pincode": "508116",
+    "landmark": "Bhuvanagiri town route",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 7.0,
+      "source": "Estimated from restaurant and temple locations",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 85,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 18,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 15,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": 20,
+        "unit": "minutes",
+        "type": "Estimated"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Poori"
+    ],
+    "lunch": [
+      "Veg Meals",
+      "Andhra Meals",
+      "Rice Items"
+    ],
+    "dinner": [
+      "Biryani",
+      "Curries",
+      "Fried Rice"
+    ],
+    "snacks": [
+      "South Indian Snacks"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹150–300",
+    "averageCostForTwo": "₹350–600"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Swarnagiri Sree Venkateswara Swamy Devasthanam",
+    "busStand": "Bhuvanagiri Bus Stand",
+    "railwayStation": "Bhongir Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Suitable stop for Swarnagiri visitors.",
+    "Family dining option.",
+    "Accessible from Bhuvanagiri route.",
+    "Parking facility available."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "location"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation",
+      "priceInformation"
+    ],
+
+    "unknownFields": [
+      "phoneNumber",
+      "googleRating",
+      "totalReviews",
+      "officialWebsite",
+      "workingHours"
+    ]
+  }
+}

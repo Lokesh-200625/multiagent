@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.2",
+    "status": "Partially Verified"
+  },
+
+  "restaurantId": "R0056",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Agrawals+Pure+Veg+Restaurant+Hyderabad",
+  "restaurantName": {
+    "value": "Agrawals Pure Veg Restaurant",
+    "verificationStatus": "Verified",
+    "confidence": "Medium"
+  },
+
+  "associatedTemple": {
+    "templeId": "T0010",
+    "templeName": "Sanghi Temple",
+    "relationshipStatus": "Verified"
+  },
+
+  "location": {
+    "address": {
+      "value": "NH-9, Hyderabad, Telangana 501505",
+      "verificationStatus": "Medium",
+      "confidence": "Medium"
+    },
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India"
+  },
+
+  "cuisine": {
+    "types": [
+      "North Indian",
+      "South Indian",
+      "Pure Vegetarian"
+    ],
+    "verificationStatus": "Estimated",
+    "confidence": "Medium"
+  },
+
+  "foodType": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVeg": true,
+    "verificationStatus": "Verified",
+    "confidence": "High"
+  },
+
+  "distanceFromTemple": {
+    "walkingDistance": {
+      "value": 5.0,
+      "unit": "km",
+      "confidence": "Medium"
+    },
+
+    "drivingDistance": {
+      "value": 5.8,
+      "unit": "km",
+      "confidence": "Medium"
+    },
+
+    "approxTravelTime": {
+      "walking": "60 minutes",
+      "vehicle": "10-12 minutes"
+    },
+
+    "calculationMethod": [
+      "Tripadvisor locality reference",
+      "Road estimation"
+    ],
+
+    "verificationStatus": "Estimated"
+  },
+
+  "proximityToTemple": {
+    "category": "Nearby Drive",
+    "priorityRank": 4
+  },
+
+  "restaurantCategory": [
+    "Pure Vegetarian",
+    "Family Restaurant"
+  ],
+
+  "recommendedFor": [
+    "Vegetarian pilgrims",
+    "Families",
+    "Lunch",
+    "Dinner"
+  ],
+
+  "popularItems": {
+    "items": [
+      "Veg Meals",
+      "North Indian Curry",
+      "South Indian Tiffins"
+    ],
+    "verificationStatus": "Estimated",
+    "confidence": "Low"
+  },
+
+  "facilities": {
+    "familySeating": {
+      "value": true,
+      "confidence": "Medium"
+    },
+    "takeaway": {
+      "value": true,
+      "confidence": "Medium"
+    },
+    "parking": {
+      "value": null,
+      "confidence": "Low"
+    }
+  },
+
+  "pilgrimSuitability": {
+    "rating": 4,
+    "reason": "Suitable for pilgrims looking for a pure vegetarian meal after visiting Sanghi Temple.",
+    "confidence": "Medium"
+  },
+
+  "verification": {
+    "restaurantExistence": {
+      "status": true,
+      "confidence": "Medium"
+    },
+
+    "addressVerified": {
+      "status": true,
+      "confidence": "Medium"
+    },
+
+    "distanceVerified": {
+      "status": "Estimated",
+      "confidence": "Medium"
+    },
+
+    "overallDataQuality": "Fair - Needs business profile verification"
+  }
+}

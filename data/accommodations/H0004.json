@@ -1,0 +1,95 @@
+{
+  "associated_temple": "Sri Gnana Saraswati Temple, Basara",
+  "hotels": [
+    {
+      "hotel_name": "Laxmi Grand Inn",
+      "hotel_type": "3-Star Hotel",
+      "address": "Near Sri Gnana Saraswati Temple, Basar, Nirmal District, Telangana - 504101, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Laxmi Grand Inn is a mid-range hotel located close to Sri Gnana Saraswati Temple, Basara. The property offers comfortable accommodation with modern amenities including air-conditioned rooms, Wi-Fi, parking, room service, housekeeping, and power backup. It is suitable for pilgrims, families, and leisure travelers seeking a comfortable stay near the temple.",
+      "google_map_link": "https://maps.google.com/?q=Laxmi+Grand+Inn+Basar",
+      "official_website": "",
+      "price_range": "₹1,500–₹2,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Basar Bus Stand – Approximately 650 m",
+        "railway_station": "Basar Railway Station – Approximately 2.2 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 210 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/laxmi_grand_inn-details-bhainsa.html",
+        "Goibibo": "https://www.goibibo.com/hotels/laxmi-grand-inn-hotel-in-bhainsa/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.2/5"
+      },
+      "room_types": [
+        "Standard AC Room",
+        "Deluxe Room",
+        "Family Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Parking",
+        "Room Service",
+        "Housekeeping",
+        "Power Backup",
+        "Elevator/Lift",
+        "24-Hour Front Desk",
+        "Doctor on Call",
+        "Laundry Service",
+        "Luggage Storage",
+        "Daily Housekeeping",
+        "LED TV",
+        "Mineral Water",
+        "Attached Bathroom"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Mentioned",
+        "food_type": "Vegetarian",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Senior Citizens",
+        "Business Travelers",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans up to the specified cancellation period. Book @ ₹0 Payment is available on selected bookings. Cancellation terms vary depending on the booking platform.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Gnana Saraswati Temple – Approximately 500 m",
+        "Godavari River",
+        "Basar Bus Stand",
+        "Basar Railway Station"
+      ],
+      "temple_id": "T0004",
+      "hotel_id": "H0004"
+    }
+  ],
+  "temple_id": "T0004",
+  "hotel_id": "H0004"
+}

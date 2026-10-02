@@ -1,0 +1,93 @@
+{
+  "associated_temple": "Birla Mandir, Hyderabad",
+  "hotels": [
+    {
+      "hotel_name": "Anmol Continental",
+      "hotel_type": "3-Star Hotel",
+      "address": "5-9-20, Opposite Secretariat, Saifabad, Hyderabad, Telangana - 500063, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Anmol Continental is a 3-star hotel located approximately 690 metres from Birla Mandir. Situated opposite the Telangana Secretariat, the hotel offers comfortable accommodation with modern amenities for pilgrims, families, business travelers, and tourists visiting central Hyderabad. The property is available on MakeMyTrip and Goibibo.",
+      "google_map_link": "https://maps.google.com/?q=Anmol+Continental+Hyderabad",
+      "official_website": "",
+      "price_range": "₹2,000–₹4,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Lakdikapul Bus Stop – Approximately 700 m",
+        "railway_station": "Lakdikapul Railway Station – Approximately 1 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 25 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/anmol_continental-details-hyderabad.html",
+        "Goibibo": "https://www.goibibo.com/hotels/anmol-continental-hotel-in-hyderabad/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "3.9/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Deluxe Room",
+        "Executive Room",
+        "Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Restaurant",
+        "Room Service",
+        "Power Backup",
+        "Elevator",
+        "Housekeeping",
+        "Free Parking",
+        "Laundry Service",
+        "24-Hour Front Desk",
+        "Conference Hall",
+        "Banquet Hall"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Couples",
+        "Tourists"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Cancellation terms depend on the selected booking platform and room plan.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Birla Mandir (690 m)",
+        "Telangana Secretariat",
+        "Lumbini Park",
+        "Hussain Sagar Lake",
+        "Lakdikapul Metro Station"
+      ],
+      "temple_id": "T0009",
+      "hotel_id": "H0032"
+    }
+  ],
+  "temple_id": "T0009",
+  "hotel_id": "H0032"
+}

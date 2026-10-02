@@ -1,0 +1,76 @@
+{
+  "associated_temple": "Sri Jogulamba Devi Temple, Alampur",
+  "hotels": [
+    {
+      "hotel_name": "Varahi Hotel",
+      "hotel_type": "Budget Hotel",
+      "address": "Near Sri Jogulamba Devi Temple, Bukkapur, Alampur, Jogulamba Gadwal District, Telangana - 509152, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Varahi Hotel is a budget-friendly hotel located directly opposite Sri Jogulamba Devi Temple, making it one of the nearest accommodations for pilgrims. The hotel is known for its clean rooms, hygienic environment, professional staff, and an in-house pure vegetarian restaurant. It is a preferred choice for families and devotees visiting the temple. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Varahi+Hotel+Alampur",
+      "official_website": "",
+      "price_range": "Not Available",
+      "check_in_time": "Not Mentioned",
+      "check_out_time": "Not Mentioned",
+      "nearest_transport": {
+        "bus_stand": "Alampur Bus Stand – Approximately 500 m",
+        "railway_station": "Alampur Road Railway Station – Approximately 10 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 215 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null,
+        "Justdial": "https://www.justdial.com/Alampur/Varahi-Hotel-Near-Jogulamba-Temple-Bukkapur/9999P8502-8502-241024201324-P5S2_BZDET"
+      },
+      "ratings": {
+        "platform": "Justdial",
+        "rating": "4.9/5"
+      },
+      "room_types": [
+        "Not Mentioned"
+      ],
+      "amenities": [
+        "Pure Vegetarian Restaurant",
+        "Accommodation",
+        "24-Hour Service"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Not Mentioned"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Pure Vegetarian",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Not Available",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Jogulamba Devi Temple (Opposite Hotel)",
+        "Nava Brahma Temples",
+        "Alampur Bus Stand"
+      ],
+      "temple_id": "T0006",
+      "hotel_id": "H0111"
+    }
+  ],
+  "temple_id": "T0006",
+  "hotel_id": "H0111"
+}

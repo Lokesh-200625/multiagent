@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Needs Verification"
+  },
+  "restaurantId": "R0033",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Sai+Krishna+Hotel+Kondagattu+Telangana",
+      "restaurantName": "Sai Krishna Hotel",
+
+  "associatedTemple": {
+    "templeId": "T0005",
+    "templeName": "Sri Kondagattu Anjaneya Swamy Temple"
+  },
+
+
+  "basicInformation": {
+    "category": "Hotel & Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "Restaurant information is pending public verification."
+  },
+
+  "location": {
+    "fullAddress": null,
+    "area": "Kondagattu",
+    "city": "Kondagattu",
+    "district": "Jagitial",
+    "state": "Telangana",
+    "pincode": null,
+    "landmark": "Near Sri Kondagattu Anjaneya Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": null,
+    "walkingTimeMinutes": null,
+    "bikeTimeMinutes": null,
+    "carTimeMinutes": null,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": null,
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": null,
+    "averageCostForTwo": null
+  },
+
+  "facilities": {
+    "dineIn": null,
+    "takeaway": null,
+    "parking": null,
+    "familySeating": null,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": null,
+    "nonVegetarian": null,
+    "pureVegetarian": null
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Kondagattu Anjaneya Swamy Temple",
+    "busStand": "Kondagattu Bus Stand",
+    "railwayStation": "Jagitial Railway Station"
+  },
+
+  "restaurantHighlights": [],
+
+  "references": []
+}

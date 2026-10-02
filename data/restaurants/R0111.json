@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0111",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=HARSHITA+REDDY+BOARING+AND+LODGING+Medaram+Telangana",
+  "restaurantName": "HARSHITA REDDY BOARING AND LODGING",
+
+  "associatedTemple": {
+    "templeId": "T0021",
+    "templeName": "Medaram (Sri Sammakka Saralamma Temple)"
+  },
+
+  "basicInformation": {
+    "category": "Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A restaurant with boarding and lodging facilities near Medaram Temple, serving meals for pilgrims and tourists."
+  },
+
+  "location": {
+    "fullAddress": "Medaram Village, Mulugu District, Telangana 506347, India",
+    "area": "Temple Road",
+    "city": "Medaram",
+    "district": "Mulugu",
+    "state": "Telangana",
+    "pincode": "506347",
+    "landmark": "Near Sri Sammakka Saralamma Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 0.40,
+      "source": "Estimated from verified business location",
+      "confidence": "High"
+    },
+    "travelTime": {
+      "walking": {
+        "value": 5,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 2,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 2,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Poori",
+      "Vada"
+    ],
+    "lunch": [
+      "Veg Meals",
+      "Non-Veg Meals"
+    ],
+    "dinner": [
+      "South Indian Meals",
+      "Chicken Curry"
+    ],
+    "snacks": [
+      "Bonda",
+      "Bajji"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ],
+    "specialDishes": [
+      "Veg Meals",
+      "Chicken Biryani"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹100–200",
+    "averageCostForTwo": "₹250–400"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "delivery": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 4.3,
+    "totalReviews": 6
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Sammakka Saralamma Temple",
+    "busStand": "Medaram Bus Stand",
+    "railwayStation": "Warangal Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Restaurant with boarding and lodging.",
+    "Near Medaram Temple.",
+    "Dine-in, takeaway and delivery available.",
+    "Suitable for pilgrims and families.",
+    "Parking available."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "googleRating",
+      "totalReviews",
+      "serviceOptions"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation",
+      "priceInformation"
+    ],
+    "unknownFields": [
+      "phoneNumber",
+      "officialWebsite",
+      "googleBusinessProfile"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Restaurant Guru / Google Business Listing",
+      "url": null
+    }
+  ]
+}

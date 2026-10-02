@@ -1,0 +1,456 @@
+[
+  {
+    "temple_id": "T0001",
+    "name": "Sri Lakshmi Narasimha Swamy Temple",
+    "aliases": [
+      "Yadadri Temple",
+      "Yadagirigutta Temple",
+      "Yadagirigutta",
+      "Yadadri",
+      "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+      "Sri Lakshmi Narasimha Swamy Devasthanam",
+      "Yadadri Devasthanam",
+      "Yadagirigutta Devasthanam",
+      "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri"
+    ]
+  },
+  {
+    "temple_id": "T0002",
+    "name": "Sri Sita Ramachandra Swamy Temple",
+    "aliases": [
+      "Bhadrachalam Temple",
+      "Dakshina Ayodhya",
+      "Sree Seetha Ramachandra Swamy Devasthanam",
+      "Bhadrachalam",
+      "Sri Sita Ramachandra Swamy Temple, Bhadrachalam",
+      "Sri Sita Ramachandra Swamy Devasthanam",
+      "Bhadrachalam Devasthanam",
+      "Sree Seetha Ramachandra Swamy Temple",
+      "Sri Sita Ramachandra Swamy Devasthanam, Bhadrachalam"
+    ]
+  },
+  {
+    "temple_id": "T0003",
+    "name": "Sri Raja Rajeshwara Swamy Devasthanam",
+    "aliases": [
+      "Sri Raja Rajeswara Swamy Temple",
+      "Vemulawada Temple",
+      "Rajanna Temple",
+      "Raja Rajeswara Swamy",
+      "Rajanna",
+      "Sri Raja Rajeshwara Swamy Temple, Vemulawada",
+      "Sri Raja Rajeshwara Swamy Temple",
+      "Sri Raja Rajeswara Swamy Devasthanam",
+      "Vemulawada Devasthanam",
+      "Rajanna Devasthanam",
+      "Sri Raja Rajeshwara Swamy Devasthanam, Vemulawada",
+      "Vemulawada"
+    ]
+  },
+  {
+    "temple_id": "T0004",
+    "name": "Sri Gnana Saraswathi Devasthanam",
+    "aliases": [
+      "Gnana Saraswathi Temple, Basara",
+      "Gnana Prasunamba Basara Saraswati Temple",
+      "Basara Temple",
+      "Basar",
+      "Vyasara",
+      "Vyasapuri",
+      "Sri Gnana Saraswathi Temple, Basara",
+      "Sri Gnana Saraswathi Temple",
+      "Sri Gnana Saraswati Temple",
+      "Sri Gnana Saraswati Devasthanam",
+      "Gnana Saraswati Devasthanam, Basara",
+      "Gnana Saraswati Temple, Basara",
+      "Gnana Saraswathi Devasthanam, Basara",
+      "Gnana Prasunamba Basara Saraswathi Temple",
+      "Gnana Prasunamba Basara Saraswati Devasthanam",
+      "Gnana Prasunamba Basara Saraswathi Devasthanam",
+      "Basara Devasthanam",
+      "Sri Gnana Saraswati Temple, Basara",
+      "Sri Gnana Saraswati Devasthanam, Basara",
+      "Sri Gnana Saraswathi Devasthanam, Basara",
+      "Basara"
+    ]
+  },
+  {
+    "temple_id": "T0005",
+    "name": "Sri Kondagattu Anjaneya Swamy Temple",
+    "aliases": [
+      "Kondagattu Temple",
+      "Sri Anjaneya Swamy Devasthanam, Kondagattu",
+      "Kondagattu",
+      "Muthyampet",
+      "Mutyampeta",
+      "Sri Kondagattu Anjaneya Swamy Devasthanam",
+      "Kondagattu Devasthanam",
+      "Sri Anjaneya Swamy Temple, Kondagattu",
+      "Muthyampet (Kondagattu)"
+    ]
+  },
+  {
+    "temple_id": "T0006",
+    "name": "Sri Jogulamba Devi Temple",
+    "aliases": [
+      "Jogulamba Temple",
+      "Jogulamba Shakti Peetham",
+      "Sri Jogulamba Bala Brahmeswara Devasthanams",
+      "Jogulamba",
+      "Yogulamba",
+      "Alampur",
+      "Sri Jogulamba Devi Temple, Alampur",
+      "Sri Jogulamba Devi Devasthanam",
+      "Jogulamba Devasthanam",
+      "Sri Jogulamba Devi Devasthanam, Alampur"
+    ]
+  },
+  {
+    "temple_id": "T0007",
+    "name": "Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "aliases": [
+      "Kaleshwaram Temple",
+      "Sri Kaleshwara Mukteswara Swamy Temple",
+      "Kaleshwaram",
+      "Kaleshwar",
+      "Mukteswara",
+      "Sri Kaleshwara Mukteswara Swamy Temple, Kaleshwaram",
+      "Kaleshwaram Devasthanam",
+      "Sri Kaleshwara Mukteswara Swamy Devasthanam, Kaleshwaram"
+    ]
+  },
+  {
+    "temple_id": "T0008",
+    "name": "Sri Balaji Venkateswara Swamy Temple",
+    "aliases": [
+      "Chilkur Balaji Temple",
+      "Chilkoor Balaji Temple",
+      "Visa Balaji Temple",
+      "Visa Temple",
+      "Chilkur",
+      "Chilkoor",
+      "Chilakur",
+      "Chilkur Balaji Temple (Sri Balaji Venkateswara Swamy Temple)",
+      "Sri Balaji Venkateswara Swamy Devasthanam",
+      "Chilkur Balaji Devasthanam",
+      "Chilkoor Balaji Devasthanam",
+      "Visa Balaji Devasthanam",
+      "Visa Devasthanam",
+      "Chilkur Balaji Devasthanam (Sri Balaji Venkateswara Swamy Devasthanam)"
+    ]
+  },
+  {
+    "temple_id": "T0009",
+    "name": "Birla Mandir Hyderabad",
+    "aliases": [
+      "Sri Venkateswara Swamy Temple, Birla Mandir",
+      "Birla Temple, Hyderabad",
+      "Birla Mandir",
+      "Naubat Pahad Temple",
+      "Sri Venkateswara Swamy Devasthanam, Birla Mandir",
+      "Birla Devasthanam, Hyderabad",
+      "Naubat Pahad Devasthanam",
+      "Adarsh Nagar locality, Hyderabad City"
+    ]
+  },
+  {
+    "temple_id": "T0010",
+    "name": "Sri Sanghi Temple",
+    "aliases": [
+      "Sanghi Temple Devasthanam",
+      "Sanghi Temple",
+      "Sri Sanghi Temple, Sanghi Nagar",
+      "Sanghi",
+      "Sanghi Nagar",
+      "Sri Sanghi Devasthanam",
+      "Sanghi Temple Temple",
+      "Sanghi Devasthanam Devasthanam",
+      "Sanghi Devasthanam",
+      "Sri Sanghi Devasthanam, Sanghi Nagar"
+    ]
+  },
+  {
+    "temple_id": "T0011",
+    "name": "Sri Ramalingeswara Swamy Temple",
+    "aliases": [
+      "Keesaragutta Temple",
+      "Kesaragiri Kshetram",
+      "Kesarigiri Temple",
+      "Dakshina Kailasam",
+      "Keesaragutta",
+      "Keesara",
+      "Kesaragiri",
+      "Kesarigiri",
+      "Keesara Gutta",
+      "Sri Ramalingeswara Swamy Temple, Keesaragutta",
+      "Sri Ramalingeswara Swamy Devasthanam",
+      "Keesaragutta Devasthanam",
+      "Kesarigiri Devasthanam",
+      "Sri Ramalingeswara Swamy Devasthanam, Keesaragutta"
+    ]
+  },
+  {
+    "temple_id": "T0012",
+    "name": "Sri Bhadrakali Temple",
+    "aliases": [
+      "Bhadrakali Devasthanam",
+      "Bhadrakali Temple, Warangal",
+      "Bhadrakali Amma Temple",
+      "Bhadra Kali Temple",
+      "Bhadrakali",
+      "Warangal",
+      "Hanamkonda",
+      "Hanmakonda",
+      "Tadkamalla",
+      "Sri Bhadrakali Temple, Warangal",
+      "Sri Bhadrakali Devasthanam",
+      "Bhadrakali Temple",
+      "Bhadrakali Devasthanam, Warangal",
+      "Bhadrakali Amma Devasthanam",
+      "Bhadra Kali Devasthanam",
+      "Sri Bhadrakali Devasthanam, Warangal",
+      "Tadkamalla Village, Hanamkonda, Warangal"
+    ]
+  },
+  {
+    "temple_id": "T0013",
+    "name": "Sri Rudreshwara Swamy Temple",
+    "aliases": [
+      "Thousand Pillar Temple",
+      "Veyyi Stambala Gudi",
+      "Veyi Stambhala Gudi",
+      "1000 Pillar Temple",
+      "Rudreswara",
+      "Hanamakonda",
+      "Hanumakonda",
+      "Hanamkonda",
+      "Thousand Pillar Temple (Sri Rudreshwara Swamy Temple)",
+      "Sri Rudreshwara Swamy Devasthanam",
+      "Thousand Pillar Devasthanam",
+      "1000 Pillar Devasthanam",
+      "Thousand Pillar Devasthanam (Sri Rudreshwara Swamy Devasthanam)",
+      "Hanamakonda (Hanamkonda)"
+    ]
+  },
+  {
+    "temple_id": "T0014",
+    "name": "Ramappa Temple",
+    "aliases": [
+      "Rudreshwara Temple",
+      "Kakatiya Rudreshwara (Ramappa) Temple",
+      "Ramappa Gudi",
+      "Ramalingeshwara Swamy Temple",
+      "Ramappa",
+      "Palampet Temple",
+      "Ramalingeshwara",
+      "Ramappa Devasthanam",
+      "Rudreshwara Devasthanam",
+      "Kakatiya Rudreshwara (Ramappa) Devasthanam",
+      "Ramalingeshwara Swamy Devasthanam",
+      "Palampet Devasthanam",
+      "Palampet"
+    ]
+  },
+  {
+    "temple_id": "T0015",
+    "name": "Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "aliases": [
+      "Komuravelli Mallanna Temple",
+      "Komuravelli Mallanna Swamy Temple",
+      "Komrelly Mallanna Temple",
+      "Sri Mallanna Temple",
+      "Komaravelli Mallanna",
+      "Komuravelli",
+      "Komrelly",
+      "Komaravelli",
+      "Komaravalli",
+      "Mallanna",
+      "Mallikarjuna",
+      "Komuravelli Mallanna Temple (Sri Mallikarjuna Swamy Temple)",
+      "Sri Mallikarjuna Swamy Devasthanam, Komuravelli",
+      "Komuravelli Mallanna Devasthanam",
+      "Komuravelli Mallanna Swamy Devasthanam",
+      "Komrelly Mallanna Devasthanam",
+      "Sri Mallanna Devasthanam",
+      "Komuravelli Mallanna Devasthanam (Sri Mallikarjuna Swamy Devasthanam)"
+    ]
+  },
+  {
+    "temple_id": "T0016",
+    "name": "Sri Edupayala Vana Durga Bhavani Temple",
+    "aliases": [
+      "Edupayala Temple",
+      "Sri Vana Durga Bhavani Temple",
+      "Edupayala Durga Bhavani Temple",
+      "Edupayalamma Temple",
+      "Edupayala Durgamma Devasthanam",
+      "Edupayala",
+      "Yedupayala",
+      "Edu Payalu",
+      "Vana Durga Bhavani",
+      "Edupayalamma",
+      "Nagasanpally / Nagasanipally",
+      "Sri Edupayala Vana Durga Bhavani Devasthanam",
+      "Edupayala Devasthanam",
+      "Sri Vana Durga Bhavani Devasthanam",
+      "Edupayala Durga Bhavani Devasthanam",
+      "Edupayalamma Devasthanam",
+      "Edupayala Durgamma Temple",
+      "Nagasanpally (also spelled Nagasanipally)"
+    ]
+  },
+  {
+    "temple_id": "T0017",
+    "name": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "aliases": [
+      "Dharmapuri Temple",
+      "Dharmapuri Narasimha Swamy Temple",
+      "Sri Lakshmi Narasimha Swamy Devasthanam, Dharmapuri",
+      "Dharmapuri Kshetram",
+      "Pata Narasimha Swamy Temple (Old)",
+      "Kottha Narasimha Swamy Temple (New) / Kotta Narasimha Swamy Temple",
+      "Dharmapuri",
+      "Dharmapura",
+      "Dakshina Kashi",
+      "Jagtial",
+      "Dharmapuri Devasthanam",
+      "Dharmapuri Narasimha Swamy Devasthanam",
+      "Pata Narasimha Swamy Devasthanam (Old)",
+      "Kottha Narasimha Swamy Devasthanam (New) / Kotta Narasimha Swamy Devasthanam",
+      "Dakshina Kasi"
+    ]
+  },
+  {
+    "temple_id": "T0018",
+    "name": "Sri Venkateswara Swamy Temple, Jamalapuram",
+    "aliases": [
+      "Jamalapuram Venkateswara Swamy Temple",
+      "Telangana Chinna Tirupati",
+      "Khammam Chinna Tirupati",
+      "Telangana Tirupati",
+      "Swayambhu Venkateswara Swamy Temple, Jamalapuram",
+      "Jamalapuram Balaji Temple",
+      "Jamalapuram",
+      "Yerrupalem",
+      "Errupalem",
+      "Yerupalem",
+      "Swayambhoo / Swayam Vyakta",
+      "Sri Venkateswara Swamy Devasthanam, Jamalapuram",
+      "Jamalapuram Venkateswara Swamy Devasthanam",
+      "Swayambhu Venkateswara Swamy Devasthanam, Jamalapuram",
+      "Jamalapuram Balaji Devasthanam"
+    ]
+  },
+  {
+    "temple_id": "T0019",
+    "name": "Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "aliases": [
+      "Manyamkonda Temple",
+      "Pedala Tirupati",
+      "Poor Man's Tirupati",
+      "Palamoor Tirupati",
+      "Telangana Tirupati",
+      "Sri Lakshmi Venkateshwara Swamy Temple, Manyamkonda",
+      "Manyamkonda",
+      "Mannemkonda",
+      "Munulakonda",
+      "Koilkonda Mandal",
+      "Oblaipalle",
+      "Manyamkonda Lakshmi Venkateswara Swamy Devasthanam",
+      "Manyamkonda Devasthanam",
+      "Sri Lakshmi Venkateshwara Swamy Devasthanam, Manyamkonda",
+      "Manyamkonda (also spelled Mannemkonda; earlier Munulakonda)"
+    ]
+  },
+  {
+    "temple_id": "T0020",
+    "name": "Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "aliases": [
+      "Beechupally Hanuman Temple",
+      "Sri Anjaneya Swamy Temple, Beechupally",
+      "Beechupally Anjaneya Swamy Temple",
+      "Beechupally Brahmana Satram (associated)",
+      "Dakshina Kashi",
+      "Gateway to Srisailam",
+      "Beechupalli Sri Anjaneya Swamy Devalayam",
+      "Beechupally",
+      "Bichupally",
+      "Beechupalli",
+      "Beechpally",
+      "Itikyala",
+      "Itikyal",
+      "Erravalli Chowrasta",
+      "Sri Abhaya Anjaneya Swamy Temple, Beechupally (Beechupally Hanuman Temple)",
+      "Sri Abhaya Anjaneya Swamy Devasthanam, Beechupally",
+      "Beechupally Hanuman Devasthanam",
+      "Sri Anjaneya Swamy Devasthanam, Beechupally",
+      "Beechupally Anjaneya Swamy Devasthanam",
+      "Dakshina Kasi",
+      "Sri Abhaya Anjaneya Swamy Devasthanam, Beechupally (Beechupally Hanuman Devasthanam)",
+      "Beechupally (Beechupalli)"
+    ]
+  },
+  {
+    "temple_id": "T0021",
+    "name": "Sri Sammakka Saralamma Temple (Medaram)",
+    "aliases": [
+      "Sammakka Saralamma Jatara",
+      "Medaram Jathara",
+      "Sammakka Sarakka Jatara",
+      "Medaram Maha Jathara",
+      "Medaram Tribal Jathara",
+      "Asia's largest tribal religious congregation",
+      "Medaram",
+      "Sammakka Sarakka",
+      "Sammakka Saralamma",
+      "Saralamma",
+      "Sarakka",
+      "Sri Sammakka Saralamma Temple, Medaram (Sammakka Saralamma Jatara / Medaram Jathara)",
+      "Sri Sammakka Saralamma Devasthanam (Medaram)",
+      "Sri Sammakka Saralamma Devasthanam, Medaram (Sammakka Saralamma Jatara / Medaram Jathara)"
+    ]
+  },
+  {
+    "temple_id": "T0022",
+    "name": "Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "aliases": [
+      "Surendrapuri Mythological Awareness Center",
+      "Kunda Satyanarayana Kaladhamam",
+      "Kunda Satyanarayana Kala Dhamam",
+      "Surendrapuri Mythological Theme Park",
+      "Surendrapuri Religious Complex",
+      "Surendrapuri Museum",
+      "Surendrapuri",
+      "Surendra Puri",
+      "Surendrapuri — Kunda Satyanarayana Kaladhamam (India's first mythological theme park)",
+      "Surendrapuri (Yadadri-Bhuvanagiri District)"
+    ]
+  },
+  {
+    "temple_id": "T0023",
+    "name": "Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "aliases": [
+      "Swarnagiri Temple",
+      "Swarnagiri Sri Venkateswara Swamy Temple",
+      "Yadadri Tirumala Devasthanam",
+      "Swarnagiri Balaji Temple",
+      "Swarnagiri Venkateswara Swamy Temple",
+      "Manepally Hills Temple",
+      "Golden Hill Temple",
+      "Swarnagiri Sree Venkateswara Swamy Devasthanam",
+      "Swarnagiri",
+      "Swarna Giri",
+      "Suvarnagiri",
+      "Swarnagiri Sri Venkateswara Swamy Devasthanam (also called Yadadri Tirumala Devasthanam)",
+      "Swarnagiri Devasthanam",
+      "Yadadri Tirumala Temple",
+      "Swarnagiri Balaji Devasthanam",
+      "Swarnagiri Venkateswara Swamy Devasthanam",
+      "Manepally Hills Devasthanam",
+      "Golden Hill Devasthanam",
+      "Swarnagiri Sree Venkateswara Swamy Temple",
+      "Swarnagiri Sri Venkateswara Swamy Temple (also called Yadadri Tirumala Temple)",
+      "Anantharam Rural (Pagidipalli per xploringdestinations)"
+    ]
+  }
+]

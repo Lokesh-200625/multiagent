@@ -1,0 +1,81 @@
+{
+  "associated_temple": "Swarnagiri Sri Venkateswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "East Green Farmhouse",
+      "hotel_type": "Farmstay",
+      "address": "Bibi Nagar, Chinaraval Palle, Telangana - 508126, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "East Green Farmhouse is a peaceful farmstay located in Chinaraval Palle near Bibinagar. The property offers a private farmhouse experience with a swimming pool and spacious outdoor areas, making it suitable for families, groups, and pilgrims seeking a relaxing stay while visiting Swarnagiri Sri Venkateswara Swamy Temple. It is approximately 15–18 km from the temple. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=East+Green+Farmhouse+Bibi+Nagar",
+      "official_website": "",
+      "price_range": "₹8,000–₹15,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "10:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Bibinagar Bus Stand – Approximately 6 km",
+        "railway_station": "Bibinagar Railway Station – Approximately 7 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 52 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Goibibo": "https://www.goibibo.com/hotels/east-green-farmhouse-hotel-in-bhuvanagri-2160250684656419348/",
+        "MakeMyTrip": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "overall": "[]"
+      },
+      "room_types": [
+        "Entire Farmhouse"
+      ],
+      "amenities": [
+        "Private Swimming Pool",
+        "Private Kitchen",
+        "Caretaker",
+        "Housekeeping",
+        "Garden",
+        "Free Parking",
+        "Air Conditioning"
+      ],
+      "facilities_summary": {
+        "room_service": "No",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Self-Catering",
+        "restaurant": "No",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Not Included",
+        "food_type": "Self-Cooking",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Group Travelers",
+        "Pilgrims",
+        "Weekend Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card"
+      ],
+      "nearby_landmarks": [
+        "Swarnagiri Sri Venkateswara Swamy Temple",
+        "Bibinagar Railway Station",
+        "AIIMS Bibinagar",
+        "Bhongir Fort"
+      ],
+      "temple_id": "T0023",
+      "hotel_id": "H0133"
+    }
+  ],
+  "temple_id": "T0023",
+  "hotel_id": "H0133"
+}

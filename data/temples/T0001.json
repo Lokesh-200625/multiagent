@@ -1,0 +1,706 @@
+{
+  "temple_id": "T0001",
+  "name": "Sri Lakshmi Narasimha Swamy Temple",
+  "alternate_names": [
+    "Yadadri Temple",
+    "Yadagirigutta Temple"
+  ],
+  "multilingual": {
+    "names": {
+      "en": "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+      "te": "శ్రీ లక్ష్మీ నరసింహ స్వామి వారి ఆలయం, యాదాద్రి",
+      "hi": "श्री लक्ष्मी नरसिंह स्वामी मंदिर, यादाद्री"
+    },
+    "alternate_spellings": [
+      "Yadagirigutta",
+      "Yadadri"
+    ],
+    "common_abbreviations": " YGD, Pancha Narasimha Kshetram, Rishi Aradhana Kshetram",
+    "voice_pronunciation_variants": "\"Yada-giri-gutta\" (English), యాదగిరిగుట్ట (Telugu)"
+  },
+  "deity": {
+    "presiding_deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+    "other_deities": [
+      "Goddess Lakshmi",
+      "Sri Andal",
+      "Lord Hanuman",
+      "Garuda Alwar"
+    ]
+  },
+  "temple_type": "Hindu Vaishnavite Temple",
+  "religion": "Hinduism",
+  "category": "Vaishnavite / Narasimha Temple",
+  "location": {
+    "village": "Yadagirigutta",
+    "mandal": "Yadagirigutta Mandal",
+    "district": "Yadadri Bhuvanagiri District",
+    "state": "Telangana",
+    "country": "India",
+    "address": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+    "pincode": "508115",
+    "latitude": 17.5886069,
+    "longitude": 78.9412785,
+    "google_maps_url": "https://maps.app.goo.gl/XKz1CEvJhf4kBiQB7",
+    "elevation": "300 meters",
+    "timezone": "Asia/Kolkata"
+  },
+  "overview": "Sri Lakshmi Narasimha Swamy Temple, popularly known as Yadadri Temple or Yadagirigutta Temple, is one of the most revered Hindu temples dedicated to Lord Lakshmi Narasimha, the fourth incarnation of Lord Vishnu. Located atop a picturesque hill at Yadagirigutta in Yadadri Bhuvanagiri district of Telangana, it attracts millions of devotees every year and is regarded as one of the most important Vaishnavite pilgrimage centers in South India. Following a magnificent reconstruction inspired by traditional temple architecture, it is the spiritual pride of Telangana.",
+  "summary": "Sri Lakshmi Narasimha Swamy Temple, popularly known as Yadadri Temple, is one of the most sacred Narasimha temples in India. Located on a scenic hill in Yadadri Bhuvanagiri district, Telangana, the temple is associated with Sage Yadarishi and the divine appearance of Lord Narasimha in five forms. Following its grand reconstruction, Yadadri has emerged as one of India's finest pilgrimage destinations, attracting millions of devotees each year with its spiritual significance, magnificent architecture, and world-class facilities.",
+  "history": [
+    {
+      "section": "Origin & Mythology",
+      "content": "The temple's history is rooted in ancient Hindu scriptures, particularly the Skanda Purana. According to legend, Sage Yadarishi, the son of Sage Rishyasringa, performed severe penance inside a cave on this hill. Pleased by his unwavering devotion, Lord Narasimha appeared before him in five divine manifestations and granted his wish to remain on the hill forever for the benefit of future devotees. This divine event gave the hill its name, Yadagirigutta, now popularly known as Yadadri.",
+      "foundation_year": "11th century CE (Chalukya dynasty)",
+      "founders": [],
+      "legends": [
+        "Sage Yadarishi, son of Sage Rishyasringa, performed intense penance in a cave on the hill seeking Lord Narasimha's blessings.",
+        "Lord Narasimha manifested in five divine forms — Jwala Narasimha, Gandabherunda Narasimha, Yogananda Narasimha, Ugra Narasimha, and Lakshmi Narasimha.",
+        "Because the Lord appeared before Sage Yada, the hill came to be known as Yadagirigutta (now Yadadri)."
+      ]
+    },
+    {
+      "section": "Patronage & Reconstruction",
+      "content": "The temple has been an important center of Vaishnavite worship for several centuries and has received patronage from various South Indian dynasties. In recent years, the Government of Telangana undertook an ambitious reconstruction project, transforming the temple into one of India's grandest spiritual landmarks while preserving its original cave shrine and religious traditions.",
+      "foundation_year": "11th century CE (Chalukya dynasty)",
+      "founders": [
+        "Government of Telangana (reconstruction)"
+      ],
+      "legends": []
+    }
+  ],
+  "sthala_puranam": "According to the Skanda Purana, Sage Yadarishi performed intense penance inside a cave on this hill. Pleased with his devotion, Lord Narasimha manifested in five divine forms — Jwala Narasimha, Gandabherunda Narasimha, Yogananda Narasimha, Ugra Narasimha, and Lakshmi Narasimha — and granted the sage's wish to remain on the hill forever. The hill thus became known as Yadagirigutta (the hill of Sage Yada), now called Yadadri.",
+  "religious_significance": "Yadadri is one of the most sacred Narasimha Kshetrams in India and is revered as one of the holiest Pancha Narasimha Kshetrams. It is a powerful center of Vaishnavite worship where Lord Narasimha is worshipped in five divine forms, each representing a unique aspect of divine protection, compassion, and spiritual power.",
+  "spiritual_significance": "Devotees believe that worshipping the five manifestations of Lord Narasimha at Yadadri removes fear, protects against negative influences, and brings peace, prosperity, and spiritual fulfillment. The original cave shrine, where Lord Narasimha is believed to have revealed Himself to Sage Yadarishi, is considered especially sacred. Pilgrims visit to seek blessings for health, marriage, education, career growth, business success, and family well-being.",
+  "healing_beliefs": [
+    "Removes fear and protects against negative influences",
+    "Relief from health problems",
+    "Relief from financial hardships",
+    "Help with delays in marriage and family disputes",
+    "Blessings for education, career growth, and business success"
+  ],
+  "miracles_and_devotee_experiences": [
+    "Lord Narasimha appeared before Sage Yadarishi in response to his intense penance.",
+    "Devotees believe sincere prayers help overcome difficulties, remove fear, and grant relief from health problems, financial hardships, delays in marriage, and family disputes.",
+    "Many pilgrims perform Kalyanotsavam, Sudarshana Homam, and Laksha Tulasi Archana after the fulfillment of their wishes.",
+    "Devotees describe a profound sense of peace and spiritual fulfillment after visiting the sacred cave shrine."
+  ],
+  "architecture": "Yadadri is one of the finest examples of modern temple architecture inspired by ancient Agama Shastras. The temple has been completely reconstructed using Krishna Shila (black granite) while preserving the sanctity of the original cave shrine. Intricately carved stone pillars, majestic Rajagopurams, beautifully sculpted mandapams, golden Vimanams, and finely detailed sculptures depicting scenes from Hindu scriptures showcase the craftsmanship of traditional temple artisans. The complex spreads across several acres on the hilltop.",
+  "architectural_style": "Modern temple architecture based on ancient Agama Shastras (traditional South Indian Vaishnavite style)",
+  "temple_layout": [
+    "Main sanctum housing Lord Lakshmi Narasimha Swamy inside the original cave shrine",
+    "Shrines for Goddess Lakshmi, Sri Andal, Lord Hanuman, Garuda Alwar, and other Vaishnavite deities",
+    "Spacious queue complexes",
+    "Kalyana Mandapams",
+    "Yagasala",
+    "Annadanam Hall",
+    "Pushkarini (temple tank)",
+    "Meditation areas",
+    "Landscaped gardens",
+    "Rajagopurams and carved stone mandapams"
+  ],
+  "darshan_timings": [
+    {
+      "day": "Daily (official Devasthanam schedule)",
+      "morning": "Temple opens 3:30 AM. Suprabhatam 3:30–4:00 AM; Thiruvaradhana 4:00–4:30 AM; Bala Bogam 4:30–5:15 AM; Nijabhishekam 5:15–6:15 AM; Archana 6:15–7:00 AM. Sarva Darshan 7:00–9:00 AM. VIP Break Darshan 9:00–10:00 AM. Sarva Darshan 10:00–11:45 AM. Nitya Kalyanotsavam 9:45–11:30 AM. Maharaja Bhogam 11:45 AM–12:30 PM. Sarva Darshan 12:30–3:00 PM.",
+      "evening": "Dwarabandhanamu (doors closed) 3:00–4:00 PM. VIP Break Darshan 4:00–5:00 PM. Sarva Darshan 5:00–7:00 PM. Thiruvaradhana 7:00–7:30 PM; Archana 7:30–8:15 PM. Sarva Darshan 8:15–9:00 PM. Temple closes after night sevas, typically by 9:45 PM."
+    },
+    {
+      "day": "Festival / peak days",
+      "morning": "Same official sequence unless the Devasthanam announces a special schedule. Crowds are heavier; arrive early.",
+      "evening": "Confirm the same-day board or https://yadagiriguttatemple.telangana.gov.in/timings/ before travelling."
+    }
+  ],
+  "timing_conflict_note": "Canonical source is the Telangana Devasthanam timings page (checked 2026-08-21): temple opens 3:30 AM; general Sarva Darshan starts 7:00 AM, not 5:00 AM or 6:00 AM. Older blog summaries that say 5:00 AM–9:00 PM are outdated and must not be used. Timings can change on festival days.",
+  "sevas": [
+    {
+      "name": "Sarva Darshan (General Darshan)",
+      "description": "General darshan available free of cost for all devotees during published Sarva Darshan windows.",
+      "charges": "Free"
+    },
+    {
+      "name": "Seegra Darshan / VIP Break Darshan",
+      "description": "Paid or break darshan slots published by the Devasthanam (including VIP Break Darshan 9:00–10:00 AM and 4:00–5:00 PM on the official board).",
+      "charges": "Paid (confirm current fee on the official site or at the counter)"
+    },
+    {
+      "name": "Suprabhatam",
+      "description": "Early morning awakening seva. Official board: 3:30–4:00 AM after the temple opens at 3:30 AM.",
+      "charges": "Paid (amount not specified on the timings board)"
+    },
+    {
+      "name": "Nijabhishekam",
+      "description": "Ritual bathing of the deity. Official board: 5:15–6:15 AM.",
+      "charges": "Paid (amount not specified on the timings board)"
+    },
+    {
+      "name": "Kalyanotsavam",
+      "description": "Celestial wedding ceremony. Nitya Kalyanotsavam is listed 9:45–11:30 AM on the official board.",
+      "charges": "Paid (amount not specified)"
+    },
+    {
+      "name": "Sahasranama Archana",
+      "description": "Recitation of the thousand names of the Lord. Archana is listed 6:15–7:00 AM and 7:30–8:15 PM.",
+      "charges": "Paid (amount not specified)"
+    },
+    {
+      "name": "Suvarna Pushpa Archana",
+      "description": "Archana performed with golden flowers. Official board lists Suvarna Pushparchana 7:15–9:00 AM.",
+      "charges": "Paid (amount not specified)"
+    },
+    {
+      "name": "Laksha Tulasi Archana",
+      "description": "Archana performed with one lakh Tulasi leaves; devotees perform it for wish fulfilment.",
+      "charges": "Paid (amount not specified)"
+    },
+    {
+      "name": "Sudarshana Homam",
+      "description": "Sacred fire ritual. Official board lists Sudharshana Narasimha Homam 7:15–9:30 AM.",
+      "charges": "Paid (amount not specified)"
+    },
+    {
+      "name": "Veda Ashirvachanam",
+      "description": "Vedic blessing ceremony.",
+      "charges": "Paid (amount not specified)"
+    }
+  ],
+  "rituals": [
+    "Suprabhatam",
+    "Thiruvaradhana / Nitya Aradhana",
+    "Bala Bogam",
+    "Nijabhishekam",
+    "Archana",
+    "Sarva Darshan",
+    "Nitya Kalyanotsavam",
+    "Maharaja Bhogam",
+    "Dwarabandhanamu",
+    "VIP Break Darshan",
+    "Darbar Seva",
+    "Ekanta / night sevas and close"
+  ],
+  "special_poojas": [
+    "Kalyanotsavam",
+    "Sudarshana Homam",
+    "Laksha Tulasi Archana",
+    "Suvarna Pushparchana",
+    "Andalamma Unjal Seva (listed Fridays on the official board)",
+    "Elaborate homams and special alankarams during Brahmotsavam, Narasimha Jayanthi, and Vaikuntha Ekadashi",
+    "Grand religious processions during festivals"
+  ],
+  "festivals": [
+    {
+      "festival": "Brahmotsavam",
+      "description": "The grandest annual festival, attracting lakhs of devotees from across India with elaborate homams, special alankarams, and grand processions."
+    },
+    {
+      "festival": "Narasimha Jayanthi",
+      "description": "Commemorates the appearance of Lord Narasimha; celebrated with special Abhishekams, Homams, Kalyanotsavam, and magnificent processions."
+    },
+    {
+      "festival": "Vaikuntha Ekadashi",
+      "description": "Major festival with elaborate rituals, Vedic chanting, and large gatherings of devotees."
+    },
+    {
+      "festival": "Karthika Masam",
+      "description": "Auspicious month observed with special poojas and devotional programs."
+    },
+    {
+      "festival": "Mukkoti Ekadashi",
+      "description": "An important Ekadashi festival with special poojas and decorations."
+    },
+    {
+      "festival": "Sri Rama Navami",
+      "description": "Celebrated with devotion as part of the temple's festival calendar."
+    },
+    {
+      "festival": "Hanuman Jayanthi",
+      "description": "Celebrated with devotion as part of the temple's festival calendar."
+    },
+    {
+      "festival": "Ugadi",
+      "description": "Telugu New Year celebrated at the temple."
+    },
+    {
+      "festival": "Deepavali",
+      "description": "Festival of lights celebrated with illumination and special poojas."
+    }
+  ],
+  "darshan_and_tickets": {
+    "general_darshan": "Sarva Darshan is free during the official Sarva Darshan windows: 7:00–9:00 AM, 10:00–11:45 AM, 12:30–3:00 PM, 5:00–7:00 PM, and 8:15–9:00 PM.",
+    "special_darshan": "VIP Break Darshan is listed 9:00–10:00 AM and 4:00–5:00 PM. Seegra / paid sevas may also be available; confirm fees at the counter or official site.",
+    "ticket_details": "Tickets for sevas can be booked through the Devasthanam portals or at temple counters. During major festivals, extra queues and online booking may apply. Always reconfirm on https://yadagiriguttatemple.telangana.gov.in/timings/"
+  },
+  "dress_code": "Devotees are expected to wear traditional and modest attire. Men are encouraged to wear dhoti, kurta, or formal Indian clothing; women are advised to wear sarees, salwar kameez, or other traditional dresses. Shorts, sleeveless tops, mini-skirts, and revealing clothing are discouraged. Footwear must be removed before entering the temple, silence should be maintained in the sanctum, and photography may be restricted in certain areas, especially near the main deity.",
+  "facilities": [
+    "Free darshan",
+    "Seegra Darshan / VIP Break Darshan",
+    "Prasadam counters",
+    "Annadanam Hall",
+    "Drinking water",
+    "Cloakrooms",
+    "Parking facilities",
+    "Clean restrooms",
+    "Queue complexes and waiting halls",
+    "Medical assistance",
+    "Information centers",
+    "Battery-operated vehicles",
+    "Shuttle services for elderly devotees and differently-abled visitors",
+    "Accommodation complexes",
+    "Kalyana Mandapams",
+    "Shopping complexes",
+    "Gardens and well-maintained pathways"
+  ],
+  "accommodation": {
+    "availability": "Excellent accommodation is provided through Yadadri Temple Guest Houses, Devasthanam Cottages, and TTDC/Temple-managed accommodation complexes. Standard, deluxe, and family rooms are available, along with dormitory facilities for budget travelers.",
+    "booking_process": "Advance online booking is highly recommended via the official ytdtemple.com portal or Devasthanam office, especially during Brahmotsavam, Narasimha Jayanthi, and Vaikuntha Ekadashi, due to the heavy influx of devotees. Walk-in bookings may be available at temple counters based on availability.",
+    "first_come_basis": "Limited walk-in accommodation may be available at temple counters on a first-come basis, but advance online booking is strongly recommended especially during festivals and weekends.",
+    "price_range": "Temple-managed rooms generally cost between ₹300 and ₹1,500 per night, depending on room category and facilities. Dormitory accommodation is available at economical rates. Private hotels and lodges near Yadadri usually charge between ₹800 and ₹4,000 per night.",
+    "nearby_options": [
+      "Private hotels, lodges, resorts, and guest houses near the temple premises",
+      "Accommodation in nearby Bhongir",
+      "Options along the Hyderabad–Warangal Highway"
+    ]
+  },
+  "best_time_to_visit": "October to March, when the weather is pleasant and ideal for hilltop darshan and sightseeing. Early mornings and evenings offer a peaceful atmosphere. For a spiritually enriching experience, pilgrims prefer visiting during Brahmotsavam, Narasimha Jayanthi, Vaikuntha Ekadashi, Karthika Masam, and Mukkoti Ekadashi.",
+  "travel": {
+    "road": "Approximately 65 km from Hyderabad, reachable in about 1.5 to 2 hours. Excellent connectivity via National Highway 163 with regular TSRTC buses, taxis, and private vehicles operating from Hyderabad, Secunderabad, and nearby towns. A well-developed ghat road leads to the hill shrine, with shuttle buses for elderly devotees and families.",
+    "rail": "Nearest railway station is Raigir Railway Station, approximately 5 km away. Bhongir Railway Station is another convenient option.",
+    "air": "Nearest airport is Rajiv Gandhi International Airport, Hyderabad, approximately 90 km away.",
+    "distances": [
+      "Hyderabad: ~65 km",
+      "Bhongir (Bhuvanagiri): ~15 km",
+      "Warangal: ~45 km",
+      "Rajiv Gandhi International Airport, Hyderabad: ~90 km",
+      "Raigir Railway Station: ~5 km"
+    ],
+    "nearest_railway_station": "Raigir Railway Station (~5 km); Bhongir Railway Station as an alternative",
+    "nearest_bus_station": "Yadagirigutta Bus Stand (~1 km from temple; TSRTC buses from MGBS, JBS, Uppal, Ghatkesar, Bhongir)",
+    "nearest_airport": "Rajiv Gandhi International Airport, Hyderabad (~90 km)"
+  },
+  "travel_tips": [
+    "Begin the visit early in the morning, especially on weekends and during festival seasons, to avoid long queues.",
+    "Carry drinking water.",
+    "Wear comfortable footwear for walking outside the temple premises.",
+    "Keep valid identification for accommodation or seva bookings.",
+    "Reserve accommodation in advance during Brahmotsavam, Narasimha Jayanthi, or Vaikuntha Ekadashi.",
+    "Explore the renovated temple complex, the sacred cave shrine, and nearby attractions.",
+    "Confirm today's darshan board on https://yadagiriguttatemple.telangana.gov.in/timings/ — festival days can differ."
+  ],
+  "nearby_places": [
+    "Surendrapuri Mythological Theme Park",
+    "Bhongir Fort",
+    "Kolanupaka Jain Temple",
+    "Kolanupaka Someswara Temple",
+    "Sri Chaya Someswara Temple, Panagal"
+  ],
+  "nearby_infrastructure": {
+    "hotels": [
+      "Yadadri Temple Devasthanam Guest Houses & Cottages (on-site temple-managed accommodation)",
+      "Haritha Telangana Tourism Hotel (Yadagirigutta, near the temple)",
+      "Private hotels and lodges in Yadagirigutta town (~1 km)",
+      "Hotels and lodges in Bhongir (Bhuvanagiri) (~15 km)",
+      "Resorts along the Hyderabad–Warangal Highway (NH 163)"
+    ],
+    "restaurants": [
+      "Temple-run Annadanam Hall (free meals for devotees)",
+      "Local vegetarian restaurants in Yadagirigutta town",
+      "Restaurants and dhabas on the Hyderabad–Warangal Highway",
+      "Restaurants in Bhongir (Bhuvanagiri) town (~15 km)"
+    ],
+    "hospitals": [
+      "Primary Health Centre, Yadagirigutta (~1 km)",
+      "Government Area Hospital, Bhongir (~15 km)",
+      "Government Hospital, Nalgonda (~50 km)",
+      "Major multi-specialty hospitals in Hyderabad (~65 km)"
+    ],
+    "atms": [
+      "ATMs in Yadagirigutta town (~1 km from temple)",
+      "SBI, Andhra Bank, and Telangana Grameena Bank ATMs near the temple",
+      "ATMs in Bhongir (Bhuvanagiri) town (~15 km)"
+    ],
+    "petrol_pumps": [
+      "Indian Oil and HP petrol pumps on the Hyderabad–Warangal Highway (NH 163) at Bhongir and Bibinagar (~10–15 km)"
+    ],
+    "police_stations": [
+      "Yadagirigutta Police Station (~1 km from temple)",
+      "Bhongir (Bhuvanagiri) Police Station (~15 km)"
+    ],
+    "parking": [
+      "Large designated parking area at the foothills of the temple (devotees must take shuttle bus or auto-rickshaw to the top)",
+      "Parking fee for four-wheelers (₹20 per vehicle, per Tripadvisor review)"
+    ]
+  },
+  "accessibility": {
+    "wheelchair_access": "Battery-operated vehicles and shuttle services are available to assist elderly devotees and differently-abled visitors.",
+    "parking_available": "Yes, parking facilities are provided."
+  },
+  "contact": {
+    "phone_numbers": [
+      "+91 86852 36645 (Tripadvisor / commonly listed Devasthanam number)",
+      "+91-86852-36345 (alternate listing; last digit differs — confirm on the official site)"
+    ],
+    "email": "eo-yadagirigutta@telangana.gov.in",
+    "official_website": "https://yadagiriguttatemple.telangana.gov.in/",
+    "booking_website": "https://ytdtemple.com",
+    "address": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115"
+  },
+  "reviews": {
+    "average_rating": "4.1 (Tripadvisor — 4.1/5 across 96 reviews)",
+    "total_reviews": "Tripadvisor 'Yadagirigutta Temple' — 4.1/5 across 96 reviews; plus verified reviews from multiple travelers including the older AnjanManda 5/5 review",
+    "top_reviews": [
+      "Tripadvisor (AnjanManda, 5/5): 'Yadagirigutta is a popular Hindu Temple of Sri Lakshminarasimha Swamy, an incarnation Lord Vishnu, situated on a hillock. Being very near to Hyderabad, about 56 kms, it is famous weekend getaway. This is one of the oldest and popular temple of Telangana. The government is proposing to develop the temple in a big way. The nearest railway station is Raigir, 6 KM away. But bus connectivity is very good. Special darshan tickets are priced Rs100 and Rs50. You can cover the temple in 2-3 hours. Generally it is a half day programme from Hyderabad and the road is very good. Devasthanam has limited a/c accommodation and tourism department Haritha hotel is also available. People prefer hotels near Bhongir for breakfast/lunch.'",
+      "Tripadvisor (krishna292, 4/5, 'Tirupati of Telangana State'): 'This is a very old temple and draws huge crowds from Hyderabad and nearby areas. Many believers visit it to get their wishes fulfilled. We have been to Yadgirigutta temple about 7-8 years back. It is about 60km from Hyderabad and now takes just 90 minutes for a drive on the recently constructed 4-lane highway. At that time I drove my own car but found very steep curvy road to reach the main temple from the town as it is atop a hill. Then there was a problem in finding a suitable parking pace. So this time when my daughter and her daughter had come from US, I preferred to hire a taxi for visiting the temple. However, I found that a new approach road has been constructed with not so steep upward slope but we were not permitted to take our taxi to the top. Now the temple management has made arrangements for parking the vehicles downhill and for going to the temple one has to either take minibus or an auto-rikshaw (three wheeler). Of course the charges per person are nominal and the ride is good. From the top of hill one gets an excellent view of the country side and town below. We reached the temple at about 9AM within the stipulated timings for free darshan as per the website but were surprised to find that darshan was stopped. Therefore, we had to stand in a que for about 1 hour in an enclosed shed. Then we had to walk through a stony passage uphill for about 15 minutes to reach the main sanctum. The deity here is God Narsimhaswamy, an incarnation of Lord Vishnu with his wife, Goddess Lakshmi. The temple is maintained well and regularly cleaned. From the exit side, prasadam is collected at a marginal price. People should be aware of monkeys. My grand daughter was eating an apple and from some where a monkey came and snatched the apple. I also found another monkey snatching away some one's prasadam. Any resistance can make these monkeys hostile. On the whole it was a good experience. The government is promoting this temple to become another Tirupati of the new state of Telangana after bifurcation from Andhra Pradesh and lot of construction work is going on for accommodation purposes.'",
+      "Tripadvisor (tangbot1111, 5/5, 'One of the oldest Temple in Telangana'): 'Yadadri formerly Yadagiri Gutta is the holy place of Sri Lakshmi Narasimha Swamy, Currently, Telangana Govt is expanding the temple and making it as Temple City. A best holy place to visit around Hyd.'",
+      "Tripadvisor (Anonymous, 1/5 — critical review, December 2023): 'Visited with family in DEC'23. Overall experience - Horrible... my advise... go with ZERO expectations. Yadadri temple construction had been hyped for the last 5-7 years but the output is like a large money spent with little or no thought for Devotee experience, comfort or convenience. Agreed on religious places, all this is NOT that important and prime importance to be given to Divinity but you also expect basics (if not super top) of convenience, so that you can concentrate on God. Yes. The TRS govt has spent and made the kshetram a presentable one but it is thoroughly mismanaged, corrupt to the core and above all, zero common sense from administration.'",
+      "Tripadvisor (Anonymous, mixed): 'This place is easily accessible from Hyderabad. From the hill bottom its just a kilometer distance to the hill top. The place is busy during weekends as it is near to Hyderabad city. It takes 3-4 hours (normal darshan) and 30 mins-1 hour (special darshan 50 rs) during weekend. On weekdays the crowd is bit low and normal darshan will take around 1-2 hours and special darshan (50 rs) take 15-30 minutes. The place is pleasant you can also plan to stay overnight it got plenty of accommodation to accommodate. If going by four wheeler there is a fee of 20.'"
+    ],
+    "positive_themes": [
+      "One of the most sacred Pancha Narasimha Kshetrams in India",
+      "Recently reconstructed grandly by Government of Telangana — one of India's grandest spiritual landmarks",
+      "Original cave shrine preserved (where Lord Narasimha is believed to have revealed Himself to Sage Yadarishi)",
+      "Five divine manifestations of Lord Narasimha worshipped — Jwala, Gandabherunda, Yogananda, Ugra, Lakshmi Narasimha",
+      "Free general darshan (Sarva Darshan) for all devotees",
+      "Built using Krishna Shila (black granite) with intricate carvings and traditional Agama Shastras",
+      "World-class facilities: queue complexes, Kalyana Mandapams, Yagasala, Annadanam Hall, Pushkarini",
+      "Battery-operated vehicles and shuttle services for elderly and disabled visitors",
+      "Excellent road connectivity via NH 163 (~65 km from Hyderabad, 1.5–2 hours)",
+      "TGSRTC buses from MGBS, JBS, Uppal, Ghatkesar, and Bhongir",
+      "Raigir Railway Station only 5 km away",
+      "Easy combination with Surendrapuri, Bhongir Fort, Kolanupaka Jain Temple",
+      "Telangana Government is promoting it as the 'Tirupati of Telangana'",
+      "Email, phone, official website all verified"
+    ],
+    "negative_themes": [
+      "Some visitors complain that the temple construction was 'hyped for 5-7 years but the output is a large money spent with little or no thought for Devotee experience, comfort or convenience' (per Tripadvisor review)",
+      "Need for better accommodation facilities and proper toilets (per Tripadvisor review)",
+      "Sign boards are not properly aligned (per Tripadvisor review)",
+      "Transportation facilities need to be increased (per Tripadvisor review)",
+      "Long queues — Sarva Darshan can take 1-3 hours on weekends (per Tripadvisor reviews)",
+      "Temple is closed in the evening from 7:30 PM to 8:15 PM for aarti (per Tripadvisor review)",
+      "Steep climb to the temple may not be suitable for senior citizens (per Tripadvisor review)",
+      "Monkeys in the area can be aggressive and may snatch prasadam and food (per Tripadvisor review)",
+      "Darshan sometimes stops even during the stated timings, leading to unexpected waits (per Tripadvisor review)",
+      "Parking is downhill only — devotees must take shuttle bus or auto-rickshaw to reach the top (per Tripadvisor review)",
+      "Free darshan timings per the official website don't always match reality (per Tripadvisor review)"
+    ]
+  },
+  "images": [
+    "https://wordzz.com/wp-content/uploads/2023/04/Yadagirigutta-Yadadri-Temple.jpg"
+  ],
+  "wikidata": {
+    "wikidata_id": "Q577793",
+    "wiki_url": "https://www.wikidata.org/wiki/Q577793"
+  },
+  "knowledge_graph": {
+    "entity": {
+      "id": "YadadriTemple",
+      "label": "Sri Lakshmi Narasimha Swamy Temple",
+      "type": "Hindu Vaishnavite Temple"
+    },
+    "nodes": [
+      {
+        "id": "LordLakshmiNarasimha",
+        "label": "Lord Lakshmi Narasimha Swamy",
+        "type": "Presiding Deity"
+      },
+      {
+        "id": "SageYadarishi",
+        "label": "Sage Yadarishi",
+        "type": "Sage / Mythological Figure"
+      },
+      {
+        "id": "FiveNarasimhaForms",
+        "label": "Five Manifestations of Lord Narasimha",
+        "type": "Divine Forms"
+      },
+      {
+        "id": "GoddessLakshmi",
+        "label": "Goddess Lakshmi",
+        "type": "Deity"
+      },
+      {
+        "id": "SriAndal",
+        "label": "Sri Andal",
+        "type": "Deity"
+      },
+      {
+        "id": "LordHanuman",
+        "label": "Lord Hanuman",
+        "type": "Deity"
+      },
+      {
+        "id": "GarudaAlwar",
+        "label": "Garuda Alwar",
+        "type": "Deity"
+      },
+      {
+        "id": "Yadadri",
+        "label": "Yadadri (Yadagirigutta)",
+        "type": "Hill / Location"
+      },
+      {
+        "id": "YadadriBhuvanagiri",
+        "label": "Yadadri Bhuvanagiri District",
+        "type": "District"
+      },
+      {
+        "id": "Telangana",
+        "label": "Telangana",
+        "type": "State"
+      },
+      {
+        "id": "Hyderabad",
+        "label": "Hyderabad",
+        "type": "Nearest City"
+      },
+      {
+        "id": "Brahmotsavam",
+        "label": "Brahmotsavam",
+        "type": "Major Festival"
+      }
+    ],
+    "edges": [
+      {
+        "from": "YadadriTemple",
+        "relation": "presiding_deity",
+        "to": "LordLakshmiNarasimha"
+      },
+      {
+        "from": "YadadriTemple",
+        "relation": "associated_with",
+        "to": "SageYadarishi"
+      },
+      {
+        "from": "YadadriTemple",
+        "relation": "manifested_as",
+        "to": "FiveNarasimhaForms"
+      },
+      {
+        "from": "YadadriTemple",
+        "relation": "has_shrine",
+        "to": "GoddessLakshmi"
+      },
+      {
+        "from": "YadadriTemple",
+        "relation": "has_shrine",
+        "to": "SriAndal"
+      },
+      {
+        "from": "YadadriTemple",
+        "relation": "has_shrine",
+        "to": "LordHanuman"
+      },
+      {
+        "from": "YadadriTemple",
+        "relation": "has_shrine",
+        "to": "GarudaAlwar"
+      },
+      {
+        "from": "YadadriTemple",
+        "relation": "located_in",
+        "to": "YadadriBhuvanagiri"
+      },
+      {
+        "from": "YadadriTemple",
+        "relation": "located_on",
+        "to": "Yadadri"
+      },
+      {
+        "from": "YadadriBhuvanagiri",
+        "relation": "part_of",
+        "to": "Telangana"
+      },
+      {
+        "from": "YadadriTemple",
+        "relation": "nearest_city",
+        "to": "Hyderabad"
+      },
+      {
+        "from": "YadadriTemple",
+        "relation": "major_festival",
+        "to": "Brahmotsavam"
+      }
+    ]
+  },
+  "audio": {
+    "introduction": {
+      "en": "Sri Lakshmi Narasimha Swamy Temple, popularly known as Yadadri Temple, is a revered Hindu Vaishnavite temple dedicated to Lord Lakshmi Narasimha, the fourth incarnation of Lord Vishnu. Located atop a hill at Yadagirigutta in Yadadri Bhuvanagiri district, Telangana, it is associated with Sage Yadarishi and the divine appearance of Lord Narasimha in five forms. After a grand reconstruction, Yadadri stands as one of India's finest pilgrimage destinations.",
+      "te": "",
+      "hi": ""
+    },
+    "history": {
+      "en": "According to the Skanda Purana, Sage Yadarishi performed intense penance in a cave on this hill. Pleased with his devotion, Lord Narasimha appeared in five divine forms and granted his wish to remain on the hill forever, giving the place its name Yadagirigutta, now known as Yadadri. The Government of Telangana recently undertook a major reconstruction, preserving the original cave shrine while rebuilding the temple using Krishna Shila and Agama-based traditional architecture.",
+      "te": "",
+      "hi": ""
+    },
+    "travel_guide": {
+      "en": "Yadadri Temple is about 65 kilometres from Hyderabad, reachable in roughly 1.5 to 2 hours via National Highway 163, with regular TSRTC buses, taxis, and private vehicles. The nearest railway station is Raigir, about 5 kilometres away, and the nearest airport is Rajiv Gandhi International Airport, Hyderabad, about 90 kilometres away. The temple opens at 3:30 AM; general darshan typically starts at 7:00 AM. Pilgrims should confirm today's board on the official Devasthanam timings page, carry water, and book accommodation in advance during festivals.",
+      "te": "",
+      "hi": ""
+    }
+  },
+  "faq": [
+    {
+      "id": "FAQ001",
+      "question": "Where is Sri Lakshmi Narasimha Swamy Temple located?",
+      "answer": "The temple is located at Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana, about 65 km from Hyderabad."
+    },
+    {
+      "id": "FAQ002",
+      "question": "Which deity is worshipped in the temple?",
+      "answer": "The temple is dedicated to Lord Lakshmi Narasimha Swamy, the fourth incarnation of Lord Vishnu."
+    },
+    {
+      "id": "FAQ003",
+      "question": "Why is Yadadri Temple famous?",
+      "answer": "The temple is famous for the five manifestations of Lord Narasimha, its sacred cave shrine, and its magnificent reconstruction based on traditional temple architecture."
+    },
+    {
+      "id": "FAQ004",
+      "question": "What are the temple timings?",
+      "answer": "According to the Telangana Devasthanam timings board, the temple opens at 3:30 AM with Suprabhatam. General (Sarva) darshan is typically 7:00–9:00 AM, 10:00–11:45 AM, 12:30–3:00 PM, 5:00–7:00 PM and 8:15–9:00 PM. Doors are closed 3:00–4:00 PM (Dwarabandhanamu). The temple closes after night sevas, usually by 9:45 PM. Confirm on https://yadagiriguttatemple.telangana.gov.in/timings/ before you go. Do not use older blog hours such as 5:00 AM–9:00 PM."
+    },
+    {
+      "id": "FAQ005",
+      "question": "Is there an entry fee for darshan?",
+      "answer": "No. Sarva Darshan is free for all devotees. Paid options such as Seegra Darshan, VIP Break Darshan, and various Arjitha Sevas may also be available; confirm current fees at the counter."
+    },
+    {
+      "id": "FAQ006",
+      "question": "Which is the biggest festival celebrated here?",
+      "answer": "Brahmotsavam is the grandest festival celebrated at Yadadri. Narasimha Jayanthi, Vaikuntha Ekadashi, and Mukkoti Ekadashi are also celebrated with great devotion."
+    },
+    {
+      "id": "FAQ007",
+      "question": "Are accommodation facilities available?",
+      "answer": "Yes. Temple guest houses, Devasthanam cottages, dormitories, and numerous private hotels are available near the temple."
+    },
+    {
+      "id": "FAQ008",
+      "question": "What is the best time to visit Yadadri Temple?",
+      "answer": "The ideal time to visit is between October and March, especially during Brahmotsavam, Narasimha Jayanthi, and Vaikuntha Ekadashi."
+    }
+  ],
+  "query_variations": [
+    {
+      "faq_id": "FAQ001",
+      "queries": [
+        "Where is Yadadri temple located?",
+        "Yadagirigutta temple location?",
+        "How to reach Sri Lakshmi Narasimha Swamy Temple?",
+        "Yadadri temple address?"
+      ]
+    },
+    {
+      "faq_id": "FAQ002",
+      "queries": [
+        "Who is the main deity at Yadadri?",
+        "Which god is worshipped at Yadagirigutta temple?",
+        "Is Yadadri a Narasimha temple?"
+      ]
+    },
+    {
+      "faq_id": "FAQ003",
+      "queries": [
+        "Why is Yadadri temple famous?",
+        "What is special about Yadagirigutta temple?",
+        "Five forms of Narasimha at Yadadri?"
+      ]
+    },
+    {
+      "faq_id": "FAQ004",
+      "queries": [
+        "What are Yadadri temple timings?",
+        "Yadagirigutta darshan timings?",
+        "When does Yadadri temple open and close?"
+      ]
+    },
+    {
+      "faq_id": "FAQ005",
+      "queries": [
+        "Is darshan free at Yadadri?",
+        "Entry fee for Yadadri temple?",
+        "Seegra Darshan charges at Yadadri?"
+      ]
+    },
+    {
+      "faq_id": "FAQ006",
+      "queries": [
+        "Which is the biggest festival at Yadadri?",
+        "When is Brahmotsavam celebrated at Yadadri?",
+        "Narasimha Jayanthi at Yadagirigutta?"
+      ]
+    },
+    {
+      "faq_id": "FAQ007",
+      "queries": [
+        "Is accommodation available at Yadadri temple?",
+        "Rooms booking at Yadadri?",
+        "Guest houses near Yadagirigutta temple?"
+      ]
+    },
+    {
+      "faq_id": "FAQ008",
+      "queries": [
+        "Best time to visit Yadadri temple?",
+        "When to visit Yadagirigutta?",
+        "Best season for Yadadri darshan?"
+      ]
+    }
+  ],
+  "sources": [
+    "https://yadagiriguttatemple.telangana.gov.in/timings/ (official Telangana Devasthanam timings board — canonical for darshan/seva hours; checked 2026-08-21)",
+    "https://yadagiriguttatemple.telangana.gov.in/",
+    "https://ytdtemple.com",
+    "https://tourism.telangana.gov.in",
+    "https://endowments.ts.nic.in",
+    "https://www.incredibleindia.gov.in",
+    "https://yadadri.telangana.gov.in",
+    "https://www.tripadvisor.com/Attraction_Review-g12432350-d3250641-Reviews-Yadagirigutta_Temple-Yadagirigutta_Yadadri_Bhuvanagiri_District_Telangana.html (Tripadvisor — 4.1/5 across 96 reviews, address Yadadri Temple Ghat Rd Gandhi Nagar 508115, phone +91 86852 36645, geo 17.588863/78.944336)",
+    "https://www.tripadvisor.com/ShowUserReviews-g12432350-d3250641-r511661759-Yadagirigutta_Temple-Yadagirigutta_Yadadri_Bhuvanagiri_District_Telangana.html (Tripadvisor krishna292 4/5 detailed review — Tirupati of Telangana State)",
+    "https://www.tripadvisor.com/ShowUserReviews-g12432350-d3250641-r641507278-Yadagirigutta_Temple-Yadagirigutta_Yadadri_Bhuvanagiri_District_Telangana.html (Tripadvisor tangbot1111 5/5 — One of the oldest Temple in Telangana)",
+    "https://travelleemsps.com/yadadri-temple/ (Yadadri Temple bus timings — MGBS, JBS, Uppal, Ghatkesar, Bibinagar, Bhongir route; Yadadri Bus Stand ~1 km from temple)",
+    "https://travellersaura.com/yadadri-temple/ (TGSRTC bus route + intermediate stops confirmation)",
+    "https://moovitapp.com/index/en/public_transit-Yadagirigutta-Hyderabad-site_148655189-5997 (Yadagirigutta Bus Station + Raigir station; TSRTC routes)",
+    "https://www.facebook.com/YadagiriGuttaTempleTS/ (Official Facebook page per Tripadvisor sameAs)",
+    "https://www.wikidata.org/wiki/Q577793 (Wikidata entry Q577793 for Yadagirigutta Temple)"
+  ],
+  "quality_check": {
+    "metadata": {
+      "score_percent": 88,
+      "verified": [
+        "name",
+        "alternate_names",
+        "deity",
+        "temple_type",
+        "religion",
+        "category",
+        "village",
+        "district",
+        "state",
+        "country",
+        "address",
+        "pincode",
+        "timezone",
+        "official_website",
+        "phone_numbers",
+        "architectural_style",
+        "coordinates (17.5886069, 78.9412785 — per user-pasted data; alternate Tripadvisor canonical 17.588863, 78.944336)",
+        "email (eo-yadagirigutta@telangana.gov.in)",
+        "wikidata (Q577793)",
+        "darshan timings updated 2026-08-21 from https://yadagiriguttatemple.telangana.gov.in/timings/ (opens 3:30 AM; Sarva Darshan from 7:00 AM; Dwarabandhanamu 3:00–4:00 PM)"
+      ],
+      "not_found": [
+        "Specific ticket prices for paid sevas — not on the timings board"
+      ],
+      "verification_required": [
+        "Multilingual te/hi names are transliterations, not directly sourced from official data",
+        "Official timings page HTTP 500 at fetch time 2026-08-21; schedule taken from the same Devasthanam listing as indexed. Re-open the URL before festivals.",
+        "Coordinates: 17.5886069, 78.9412785 vs Tripadvisor 17.588863, 78.944336 — same hilltop",
+        "Phone last digit 36345 vs 36645 — confirm on the official site",
+        "Special darshan fees change; do not treat Tripadvisor ₹50/₹100 as current"
+      ]
+    },
+    "overall_completeness_score": "88/100"
+  },
+  "last_verified": "2026-08-21"
+}

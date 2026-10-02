@@ -1,0 +1,96 @@
+{
+  "associated_temple": "Sri Kondagattu Anjaneya Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Hotel Shiva Residency",
+      "hotel_type": "Budget Hotel",
+      "address": "House Building No. 2-3-9/1 and 2-3-10, 11, 12, 13 (Kondaiah Complex), Tahasil Chowrasta, Jagtial, Telangana - 505327, India",
+      "contact_numbers": [
+        "+91 9515922033"
+      ],
+      "email": "",
+      "about": "Hotel Shiva Residency is a budget-friendly hotel located in Jagtial, approximately 32 km from Sri Kondagattu Anjaneya Swamy Temple. The hotel offers comfortable AC and Non-AC rooms with free Wi-Fi, housekeeping, room service, elevator access, and power backup. It is listed on both MakeMyTrip and Goibibo and is suitable for pilgrims, families, and business travelers visiting the Kondagattu region. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Hotel+Shiva+Residency+Jagtial",
+      "official_website": "",
+      "price_range": "₹850–₹1,700 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Jagtial Bus Stand – Approximately 500 m",
+        "railway_station": "Lingampet Jagityal Railway Station – Approximately 5.1 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 190 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/hotel_shiva_residency-details-jagtial.html",
+        "Goibibo": "https://www.goibibo.com/hotels/shiva-residency-hotel-in-jagtial-1039713317835081917/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "3.5/5"
+      },
+      "room_types": [
+        "Deluxe Non AC Room",
+        "Deluxe AC Room",
+        "Deluxe Triple AC"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Room Service",
+        "Housekeeping",
+        "Power Backup",
+        "Elevator/Lift",
+        "Parking",
+        "Caretaker",
+        "Luggage Assistance",
+        "Smoke Detector",
+        "CCTV Security",
+        "First Aid Services",
+        "Mineral Water",
+        "Toiletries",
+        "Work Desk",
+        "Newspaper"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Hot & Cold Water Available"
+      },
+      "food_facility": {
+        "availability": "Not Available",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Included",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Budget Travelers",
+        "Solo Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Book @ ₹0 Payment is available on selected bookings. Cancellation terms depend on the selected booking platform and room plan. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Jagtial Bus Stand",
+        "Lingampet Jagityal Railway Station",
+        "Sri Kondagattu Anjaneya Swamy Temple (Approx. 32 km)"
+      ],
+      "temple_id": "T0005",
+      "hotel_id": "H0119"
+    }
+  ],
+  "temple_id": "T0005",
+  "hotel_id": "H0119"
+}

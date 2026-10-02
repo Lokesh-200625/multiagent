@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+  "restaurantId": "R0039",
+ "restaurantName": "Sri Sai Hotel Tiffins & Meals",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Sri+Sai+Hotel+Tiffins+%26+Meals+Alampur+Telangana",
+  "associatedTemple": {
+    "templeId": "T0006",
+    "templeName": "Sri Jogulamba Devi Temple, Alampur"
+  },
+
+
+  "basicInformation": {
+    "category": "Tiffin Center",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A local tiffin center serving South Indian breakfast and meals. The business is currently marked as temporarily closed."
+  },
+
+  "businessStatus": "Temporarily Closed",
+
+  "location": {
+    "fullAddress": "Alampur, Jogulamba Gadwal District, Telangana, India",
+    "area": "Temple Area",
+    "city": "Alampur",
+    "district": "Jogulamba Gadwal",
+    "state": "Telangana",
+    "pincode": "509152",
+    "landmark": "Near Sri Jogulamba Devi Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.5,
+    "walkingTimeMinutes": 7,
+    "bikeTimeMinutes": 2,
+    "carTimeMinutes": 2,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": null,
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": null,
+    "averageCostForTwo": null
+  },
+
+  "facilities": {
+    "dineIn": null,
+    "takeaway": null,
+    "parking": null,
+    "familySeating": null,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": 4.0,
+    "totalReviews": 1
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Jogulamba Devi Temple",
+    "busStand": "Alampur Bus Stand",
+    "railwayStation": "Alampur Road Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Budget-friendly tiffin center.",
+    "Located near Sri Jogulamba Devi Temple.",
+    "Known for South Indian tiffins.",
+    "Currently marked as temporarily closed."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

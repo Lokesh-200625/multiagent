@@ -1,0 +1,85 @@
+{
+  "associated_temple": "Swarnagiri Sri Venkateswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Country Hills Resort",
+      "hotel_type": "Resort Hotel",
+      "address": "GV4X+FJ8, Bhuvanagiri, Telangana - 508116, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Country Hills Resort is a premium farm-style resort located in Bhuvanagiri, approximately 15 minutes by road from Swarnagiri Sri Venkateswara Swamy Temple. The resort offers a peaceful countryside stay with a private swimming pool, spacious accommodation, and modern facilities, making it suitable for families, groups, and weekend travelers. It is also close to Bhuvanagiri Fort and Yadagirigutta Temple. :contentReference[oaicite:2]{index=2}",
+      "google_map_link": "https://maps.google.com/?q=Country+Hills+Resort+Bhuvanagiri",
+      "official_website": "",
+      "price_range": "₹19,000–₹30,000 per night (Approx.)",
+      "check_in_time": "11:00 AM",
+      "check_out_time": "10:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Bhuvanagiri Bus Stand – Approximately 4 km",
+        "railway_station": "Bhongir Railway Station – Approximately 5 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 58 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/country_hills_resort-details-bhuvanagri.html",
+        "Google Hotels": "https://www.google.com/travel/hotels/entity/CgoIpe-JstrR18txEAE",
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.7/5"
+      },
+      "room_types": [
+        "Entire 3-Bedroom Farm House"
+      ],
+      "amenities": [
+        "Private Swimming Pool",
+        "Kitchenette",
+        "Private Parking",
+        "Air Conditioning",
+        "Family Rooms",
+        "Garden",
+        "Power Backup"
+      ],
+      "facilities_summary": {
+        "room_service": "No",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Meals Available",
+        "restaurant": "No",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Available on Request",
+        "food_type": "Self-Catering / Nearby Restaurants",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Group Travelers",
+        "Pilgrims",
+        "Weekend Travelers",
+        "Corporate Groups"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible booking plans. Terms depend on the selected booking platform. :contentReference[oaicite:3]{index=3}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Swarnagiri Sri Venkateswara Swamy Temple (Approx. 15 min)",
+        "Bhuvanagiri Fort",
+        "Yadagirigutta Temple",
+        "Bhongir Railway Station"
+      ],
+      "temple_id": "T0023",
+      "hotel_id": "H0130"
+    }
+  ],
+  "temple_id": "T0023",
+  "hotel_id": "H0130"
+}

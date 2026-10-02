@@ -1,0 +1,94 @@
+{
+  "associated_temple": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam",
+  "hotels": [
+    {
+      "hotel_name": "KML Grand Stay",
+      "hotel_type": "Hotel",
+      "address": "4-1-58, Kalyana Mandapam Road, Near Super Bazar Center, Bhadrachalam, Bhadradri Kothagudem, Telangana - 507111, India.",
+      "contact_numbers": [
+        "+91 6300837877"
+      ],
+      "email": "",
+      "about": "KML Grand Stay is a modern hotel located within walking distance of Sri Sita Ramachandra Swamy Temple. The hotel offers comfortable accommodation with AC family rooms, free Wi-Fi, private parking, room service, elevator, and 24-hour front desk services. Its convenient location and temple-view rooms make it a preferred stay for pilgrims and families visiting Bhadrachalam.",
+      "google_map_link": "https://maps.app.goo.gl/ (Search: KML Grand Stay, Bhadrachalam)",
+      "official_website": "",
+      "price_range": "₹2,200–₹4,500 per night (Approx.)",
+      "check_in_time": "11:00 AM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Bhadrachalam Bus Stand – Approximately 1 km",
+        "railway_station": "Aswapuram Railway Station – Approximately 26 km",
+        "airport": "Rajahmundry Airport – Approximately 180 km"
+      },
+      "booking_links": {
+        "Goibibo": "Search: KML Grand Stay Bhadrachalam",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/kml_grand_stay-details-bhadrachalam.html",
+        "Booking.com": "https://www.booking.com/hotel/in/kml-grand-stay-bhadrachalam1.html"
+      },
+      "ratings": {
+        "platform": "MakeMyTrip",
+        "rating": "3.9/5"
+      },
+      "room_types": [
+        "Standard Double Bed Room",
+        "Mini Family Room (Temple View)",
+        "Family Room with 2 Double Beds (Temple View)"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free Parking",
+        "Family Rooms",
+        "Elevator/Lift",
+        "Room Service",
+        "Housekeeping",
+        "Laundry Service",
+        "Power Backup",
+        "Air Conditioning",
+        "24-Hour Front Desk",
+        "CCTV Security",
+        "Full-Day Security",
+        "Temple View Rooms"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "Not Clearly Mentioned",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Families",
+        "Couples",
+        "Pilgrims",
+        "Senior Citizens",
+        "Group Pilgrims",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans up to 24 hours before check-in, depending on the selected booking option.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Sita Ramachandra Swamy Temple – Approximately 300–400 m",
+        "Godavari River – Approximately 500 m",
+        "Super Bazar Center",
+        "Bhadrachalam Bus Stand – Approximately 1 km"
+      ],
+      "temple_id": "T0002",
+      "hotel_id": "H0015"
+    }
+  ],
+  "temple_id": "T0002",
+  "hotel_id": "H0015"
+}

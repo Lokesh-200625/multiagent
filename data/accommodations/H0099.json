@@ -1,0 +1,107 @@
+{
+  "associated_temple": "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+  "hotels": [
+    {
+      "hotel_name": "Sannidhi Emerald",
+      "hotel_type": "Premium Hotel",
+      "address": "2-63/6, Old Gundlapally, Near Surendrapuri, Yadagirigutta, Yadadri Bhuvanagiri, Telangana - 508115, India",
+      "contact_numbers": [
+        "+91 9100039525",
+        "+91 9100039530",
+        "+91 9100039535"
+      ],
+      "email": "hotelsannidhiemerald@gmail.com",
+      "about": "Sannidhi Emerald is the first 3-star premium hotel near Sri Lakshmi Narasimha Swamy Temple, Yadadri. Located close to the temple and Surendrapuri, the hotel offers luxury accommodation with temple-view rooms, modern amenities, multiple restaurants, banquet facilities, high-speed Wi-Fi, and spacious parking. It caters to pilgrims, families, leisure travelers, and business guests seeking a comfortable stay in Yadadri.",
+      "google_map_link": "https://maps.google.com/?q=Sannidhi+Emerald+Yadagirigutta",
+      "official_website": "https://sannidhiemerald.com/",
+      "price_range": "₹2,500–₹4,500 per night (Approx.)",
+      "check_in_time": "Available 24 Hours",
+      "check_out_time": "10:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Yadadri Bus Stand – Approximately 1 km",
+        "railway_station": "Raigir Railway Station – Approximately 4 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 76 km"
+      },
+      "booking_links": {
+        "Official": "https://sannidhiemerald.com/",
+        "Booking.com": "https://www.booking.com/hotel/in/sannidhi-emerald.html",
+        "Google Hotels": "https://www.google.co.in/travel/hotels/entity/ChoIxY334K2dyYHdARoNL2cvMTFjbHljdDRycxAB"
+      },
+      "ratings": {
+        "platform": "Tripadvisor",
+        "rating": "5.0/5"
+      },
+      "room_types": [
+        "Privilege Room",
+        "A/C Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Free Parking",
+        "Room Service",
+        "Family Rooms",
+        "24-Hour Front Desk",
+        "Airport Shuttle",
+        "Temple View Rooms",
+        "Restaurant",
+        "Banquet Hall",
+        "Conference Hall",
+        "Garden",
+        "Children's Play Area",
+        "Coffee Maker",
+        "Flat Screen TV",
+        "Elevator",
+        "Housekeeping",
+        "Laundry Service",
+        "Concierge Service",
+        "High-Speed Fibre Internet",
+        "Sun Terrace",
+        "Outdoor Fireplace",
+        "Free Bicycles",
+        "Private Parking"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes (4 Restaurants)",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available (Vegetarian Buffet)",
+        "food_type": "Vegetarian, Multi-Cuisine, South Indian, Chinese, Indian, Thai, Barbecue",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Senior Citizens",
+        "Business Travelers",
+        "Group Pilgrims",
+        "Luxury Travelers"
+      ],
+      "cancellation_policy": "Cancellation and prepayment policies vary according to the selected room type and booking platform.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Lakshmi Narasimha Swamy Temple",
+        "Surendrapuri",
+        "Yadadri Bus Stand",
+        "Raigir Railway Station"
+      ],
+      "temple_id": "T0001",
+      "hotel_id": "H0099"
+    }
+  ],
+  "temple_id": "T0001",
+  "hotel_id": "H0099"
+}

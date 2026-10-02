@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0005",
+  "temple_name": "Sri Kondagattu Anjaneya Swamy Temple",
+  "location": {
+    "district": "Jagtial",
+    "state": "Telangana",
+    "latitude": 18.3389,
+    "longitude": 78.9063
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Government Area Hospital, Jagtial",
+        "type": "Government Hospital",
+        "address": "Tower Circle, Jagtial, Telangana 505327",
+        "latitude": 18.7948,
+        "longitude": 78.9168,
+        "distance_from_temple_km": 14.2,
+        "estimated_travel_time": "22 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Area+Hospital+Jagtial/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Apoorva Hospital",
+        "type": "Hospital",
+        "address": "Jagtial, Telangana 505327",
+        "latitude": 18.7929,
+        "longitude": 78.9144,
+        "distance_from_temple_km": 14.0,
+        "estimated_travel_time": "21 min",
+        "google_maps_url": "https://www.google.com/maps/search/Apoorva+Hospital+Jagtial/",
+        "emergency_department": null,
+        "24x7_emergency": null,
+        "ambulance_available": null,
+        "trauma_care": false,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Muthyampet Police Station",
+        "type": "Police Station",
+        "address": "Muthyampet, Jagtial District, Telangana",
+        "latitude": 18.3534,
+        "longitude": 78.9148,
+        "distance_from_temple": 5.2,
+        "travel_time": "10 min",
+        "google_maps_url": "https://www.google.com/maps/search/Muthyampet+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Muthyampet",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Jagtial",
+        "address": "Jagtial, Telangana 505327",
+        "coordinates": {
+          "latitude": 18.7943,
+          "longitude": 78.9156
+        },
+        "distance_from_temple": 14.3,
+        "travel_time": "22 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Jagtial/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Tower Circle, Jagtial, Telangana 505327",
+        "distance": 14.1,
+        "coordinates": {
+          "latitude": 18.7938,
+          "longitude": 78.915
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Jagtial/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "MedPlus Pharmacy",
+        "address": "Jagtial Main Road, Telangana 505327",
+        "distance": 14.3,
+        "coordinates": {
+          "latitude": 18.7945,
+          "longitude": 78.9161
+        },
+        "google_maps_url": "https://www.google.com/maps/search/MedPlus+Jagtial/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

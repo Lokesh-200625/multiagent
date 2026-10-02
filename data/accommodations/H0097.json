@@ -1,0 +1,84 @@
+{
+  "associated_temple": "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+  "hotels": [
+    {
+      "hotel_name": "Sri Lucky Grand Lodge & Function Hall",
+      "hotel_type": "Serviced Apartment / Lodge",
+      "address": "Sri Ram Nagar, Beside HP Petrol Bunk, Yadagirigutta, Yadadri Bhuvanagiri District, Telangana - 508115, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Sri Lucky Grand Lodge & Function Hall is a budget-friendly serviced apartment located near Sri Lakshmi Narasimha Swamy Temple, Yadadri. The property offers clean rooms with essential amenities and is suitable for pilgrims, families, and budget travelers. It provides free Wi-Fi, parking, elevator access, and power backup. The lodge is listed on major booking platforms and offers free cancellation on eligible bookings. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Sri+Lucky+Grand+Lodge+%26+Function+Hall+Yadagirigutta",
+      "official_website": "",
+      "price_range": "₹700–₹1,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Yadadri Bus Stand – Approximately 1 km",
+        "railway_station": "Raigir Railway Station – Approximately 4 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 85 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/area-budget-hotels-in-yadagirigutta-bhuvanagri.html",
+        "Goibibo": "https://www.goibibo.com/hotels/budget-hotels-near-yadagirigutta-sri-lakshmi-narasimha-swamy-devasthanam_bhuvanagri-lc/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "2.3/5"
+      },
+      "room_types": [
+        "Private Room in a Serviced Apartment"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Elevator/Lift",
+        "Parking",
+        "Power Backup",
+        "Couple Friendly",
+        "Free Cancellation",
+        "Book with ₹0 Payment"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Not Mentioned"
+      },
+      "food_facility": {
+        "availability": "Not Mentioned",
+        "restaurant": "Not Mentioned",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Budget Travelers",
+        "Group Pilgrims"
+      ],
+      "cancellation_policy": "Free cancellation till check-in is available on eligible bookings. Book with ₹0 Payment is available on selected room plans. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Lakshmi Narasimha Swamy Temple",
+        "HP Petrol Bunk",
+        "Yadadri Bus Stand",
+        "Raigir Railway Station"
+      ],
+      "temple_id": "T0001",
+      "hotel_id": "H0097"
+    }
+  ],
+  "temple_id": "T0001",
+  "hotel_id": "H0097"
+}

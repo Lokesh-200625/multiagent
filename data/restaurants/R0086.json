@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0086",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Athithi+Delight+Multi+Cuisine+Restaurant+Siddipet+Telangana",
+  "restaurantName": "Athithi Delight Multi Cuisine Restaurant",
+
+  "associatedTemple": {
+    "templeId": "T0015",
+    "templeName": "Komuravelli Mallanna Temple"
+  },
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Multi Cuisine",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A multi-cuisine family restaurant located in Siddipet, suitable for pilgrims travelling through the Siddipet route to Komuravelli Mallanna Temple."
+  },
+
+  "location": {
+    "fullAddress": "Above Reliance Trends, Hyderabad Road, Near New Bus Stand, Siddipet, Telangana, India",
+    "area": "Siddipet Town",
+    "city": "Siddipet",
+    "district": "Siddipet",
+    "state": "Telangana",
+    "pincode": "502103",
+    "landmark": "Near New Bus Stand, Siddipet",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+
+    "distanceFromTempleKm": {
+      "value": 35,
+      "source": "Calculated estimate based on Siddipet to Komuravelli route",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+
+      "walking": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Not_Applicable",
+        "calculationBasis": null,
+        "confidence": "Low"
+      },
+
+      "bike": {
+        "value": 60,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average highway/rural road speed",
+        "confidence": "Medium"
+      },
+
+      "car": {
+        "value": 55,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average road speed",
+        "confidence": "Medium"
+      },
+
+      "bus": {
+        "value": 90,
+        "unit": "Estimated",
+        "type": "Estimated",
+        "calculationBasis": "Public transport variation",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+919948944442",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "11:00 AM",
+    "closingTime": "10:30 PM",
+
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+
+    "breakfast": [],
+
+    "lunch": [
+      "South Indian Meals",
+      "North Indian Meals"
+    ],
+
+    "dinner": [
+      "Multi Cuisine Dishes"
+    ],
+
+    "snacks": [
+      "Fast Food Items"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ],
+
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+
+    "priceCategory": "Moderate",
+
+    "averageCostForOne": "₹200–400",
+
+    "averageCostForTwo": "₹400–800",
+
+    "source": "Local business listing"
+  },
+
+  "facilities": {
+
+    "dineIn": true,
+
+    "takeaway": true,
+
+    "parking": true,
+
+    "familySeating": true,
+
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+
+    "vegetarian": true,
+
+    "nonVegetarian": true,
+
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+
+    "googleRating": 4.0,
+
+    "totalReviews": 3328
+  },
+
+  "nearbyPlaces": {
+
+    "temple": "Komuravelli Mallanna Temple",
+
+    "busStand": "Siddipet New Bus Stand",
+
+    "railwayStation": "Siddipet Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Family restaurant option on Siddipet route.",
+    "Suitable for pilgrims travelling through Siddipet.",
+    "Provides multi-cuisine food options.",
+    "Useful for travellers preferring city restaurant facilities."
+  ],
+
+  "dataReliability": {
+
+    "verifiedFields": [
+      "restaurantName",
+      "location",
+      "phoneNumber",
+      "existence",
+      "customerRating",
+      "workingHours"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime.bike",
+      "travelTime.car",
+      "travelTime.bus"
+    ],
+
+    "unknownFields": [
+      "exactTempleRouteDistance",
+      "menuDetails"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile / Local Listings",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0113",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Ghatotkacha+Veg+Restaurant+Yadagirigutta+Telangana",
+  "restaurantName": "Ghatotkacha Veg Restaurant",
+
+  "associatedTemple": {
+    "templeId": "T0022",
+    "templeName": "Surendrapuri (Kunda Satyanarayana Kala Dhamam)"
+  },
+
+  "basicInformation": {
+    "category": "Vegetarian Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Pure Vegetarian"
+    ],
+    "shortDescription": "A pure vegetarian restaurant near Surendrapuri and Yadagirigutta, popular among pilgrims visiting nearby temples."
+  },
+
+  "location": {
+    "fullAddress": "HW8V+7F2, Yadagirigutta, Telangana 508115, India",
+    "area": "Yadagirigutta",
+    "city": "Yadagirigutta",
+    "district": "Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "pincode": "508115",
+    "landmark": "Near Surendrapuri",
+    "plusCode": "HW8V+7F2",
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 2.4,
+      "source": "Estimated from verified business location",
+      "confidence": "High"
+    },
+    "travelTime": {
+      "walking": {
+        "value": 30,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 7,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 6,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": 10,
+        "unit": "minutes",
+        "type": "Estimated"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "09:00 AM",
+    "closingTime": "08:00 PM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Poori"
+    ],
+    "lunch": [
+      "Veg Thali",
+      "Meals"
+    ],
+    "dinner": [
+      "Paneer Curry",
+      "Vegetable Curry",
+      "Naan",
+      "Rice"
+    ],
+    "snacks": [
+      "Bonda",
+      "Vada"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks"
+    ],
+    "specialDishes": [
+      "Veg Thali",
+      "Paneer Curry",
+      "Mixed Veg Curry",
+      "Tandoori Roti"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹200–400",
+    "averageCostForTwo": "₹400–800"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": 3.8,
+    "totalReviews": 203
+  },
+
+  "nearbyPlaces": {
+    "temple": "Surendrapuri",
+    "busStand": "Yadagirigutta Bus Stand",
+    "railwayStation": "Raigir Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Pure vegetarian restaurant.",
+    "Popular among Surendrapuri and Yadagirigutta pilgrims.",
+    "Known for veg thali and paneer dishes.",
+    "Outdoor seating available.",
+    "Takeaway facility available."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "address",
+      "plusCode",
+      "googleRating",
+      "totalReviews",
+      "workingHours",
+      "priceRange"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation"
+    ],
+    "unknownFields": [
+      "phoneNumber",
+      "officialWebsite",
+      "googleBusinessProfile"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

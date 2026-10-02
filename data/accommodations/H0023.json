@@ -1,0 +1,82 @@
+{
+  "associated_temple": "Sri Bhadrakali Temple, Warangal",
+  "hotels": [
+    {
+      "hotel_name": "Vijaya Lodge",
+      "hotel_type": "Budget Lodge",
+      "address": "JPN Road, Girmajipet, Warangal, Telangana - 506002, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Vijaya Lodge is a budget-friendly accommodation located approximately 2.3 km from Sri Bhadrakali Temple. Situated in the heart of Warangal, the lodge offers simple and comfortable rooms for pilgrims, families, and budget travelers. It provides easy access to the temple, Warangal Railway Station, local markets, and other historical attractions.",
+      "google_map_link": "https://maps.google.com/?q=Vijaya+Lodge+Warangal",
+      "official_website": "",
+      "price_range": "₹700–₹1,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Warangal Bus Station – Approximately 900 m",
+        "railway_station": "Warangal Railway Station – Approximately 1.5 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 165 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "3.9/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Non-AC Room",
+        "AC Room"
+      ],
+      "amenities": [
+        "Parking",
+        "24-Hour Front Desk",
+        "Room Service",
+        "Housekeeping",
+        "Family Rooms",
+        "Hot Water Facility"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Not Available",
+        "restaurant": "No",
+        "room_service": "Limited",
+        "in_room_dining": "No",
+        "breakfast": "Not Available",
+        "food_type": "Not Applicable",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Solo Travelers",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the mode of booking and the property management.",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Bhadrakali Temple (Approx. 2.3 km)",
+        "Warangal Railway Station",
+        "Warangal Fort",
+        "1000 Pillar Temple",
+        "Warangal Bus Station"
+      ],
+      "temple_id": "T0012",
+      "hotel_id": "H0023"
+    }
+  ],
+  "temple_id": "T0012",
+  "hotel_id": "H0023"
+}

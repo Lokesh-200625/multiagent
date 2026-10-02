@@ -1,0 +1,118 @@
+{
+  "temple_id": "T0021",
+  "temple_name": "Medaram Temple",
+  "location": {
+    "district": "Medaram",
+    "state": "Telangana",
+    "latitude": 18.318,
+    "longitude": 80.2435
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Hospital",
+        "type": "Hospital",
+        "address": "Tadvai - Medaram Rd, Medaram, Telangana",
+        "latitude": 18.3213,
+        "longitude": 80.2424,
+        "distance_from_temple_km": 0.4,
+        "estimated_travel_time": "5 min",
+        "google_maps_url": "https://www.google.com/maps/place/Hospital/@18.321169,80.2423967,17z/data=!4m6!3m5!1s0x3a33a5e7d9ccc3f1:0xd630aefd2926411b!8m2!3d18.321169!4d80.2423967!16s%2Fg%2F11frltmt2d?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": false,
+        "icu_available": false,
+        "pharmacy_available": true,
+        "phone": null,
+        "emergency_phone": "108",
+        "website": null,
+        "opening_hours": "Open 24 hours",
+        "source_url": "https://www.google.com/maps/place/Hospital/@18.321169,80.2423967,17z/data=!4m6!3m5!1s0x3a33a5e7d9ccc3f1:0xd630aefd2926411b!8m2!3d18.321169!4d80.2423967!16s%2Fg%2F11frltmt2d?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "108 Emergency Ambulance",
+        "phone": "108",
+        "coverage_area": "Medaram, Eturunagaram, Mulugu",
+        "availability": "24x7",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": "Verified"
+      },
+      {
+        "service_name": "102 Medical Transport",
+        "phone": "102",
+        "coverage_area": "Mulugu District",
+        "availability": "24x7",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": "Verified"
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Medaram Police Station",
+        "type": "Government office",
+        "address": "Medaram, Telangana 506347",
+        "latitude": 18.3183,
+        "longitude": 80.238,
+        "distance_from_temple": 0.8,
+        "travel_time": "11 min",
+        "google_maps_url": "https://www.google.com/maps/place/Medaram+Police+Station/@18.3183326,80.2354355,17z/data=!3m1!4b1!4m6!3m5!1s0x3a33a50010a1ff39:0xe8eaba2569794a4e!8m2!3d18.3183275!4d80.2380104!16s%2Fg%2F11yv83hl6f?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Medaram",
+        "source_url": "https://www.google.com/maps/place/Medaram+Police+Station/@18.3183326,80.2354355,17z/data=!3m1!4b1!4m6!3m5!1s0x3a33a50010a1ff39:0xe8eaba2569794a4e!8m2!3d18.3183275!4d80.2380104!16s%2Fg%2F11yv83hl6f?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": null,
+        "address": null,
+        "coordinates": {
+          "latitude": null,
+          "longitude": null
+        },
+        "distance_from_temple": null,
+        "travel_time": null,
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Bhagyalaxmi Medical Shop",
+        "address": "Shop No 2-66, Medaram Near Saralakka Gate, Telangana",
+        "distance": 0.55,
+        "coordinates": {
+          "latitude": 18.3221,
+          "longitude": 80.2411
+        },
+        "google_maps_url": "https://www.google.com/maps/place/Bhagyalaxmi+Medical+Shop/@18.3220589,80.2404328,19z/data=!3m1!4b1!4m6!3m5!1s0x3a33a5ae67dd0c23:0x1a22af7cb8a4b9e8!8m2!3d18.3220576!4d80.2410765!16s%2Fg%2F11sv1cfknm?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D",
+        "phone": "8332043323",
+        "opening_hours": null,
+        "24x7": false,
+        "home_delivery": false,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

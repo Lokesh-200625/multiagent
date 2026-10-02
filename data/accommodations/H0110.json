@@ -1,0 +1,78 @@
+{
+  "associated_temple": "Sri Jamalapuram Venkateswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Sri Venkateswara Mini AC Functional Hall & Rooms",
+      "hotel_type": "Lodge / Functional Hall",
+      "address": "Jamalapuram, Yerrupalem, Telangana 507201, India",
+      "contact_numbers": [
+        "+91 88863 13099"
+      ],
+      "email": "",
+      "about": "Sri Venkateswara Mini AC Functional Hall & Rooms is located in Jamalapuram village, within walking distance of Sri Jamalapuram Venkateswara Swamy Temple. The property offers air-conditioned rooms along with a mini function hall suitable for pilgrims, family gatherings, and small events. It is a convenient accommodation option for devotees visiting Telangana Chinna Tirupati.",
+      "google_map_link": "https://maps.google.com/?q=Sri+Venkateswara+Mini+AC+Functional+Hall+%26+Rooms+Jamalapuram",
+      "official_website": "",
+      "price_range": "Contact Property",
+      "check_in_time": "Contact Property",
+      "check_out_time": "Contact Property",
+      "nearest_transport": {
+        "bus_stand": "Jamalapuram Bus Stop – Approximately 300 m",
+        "railway_station": "Madhira Railway Station – Approximately 18 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 165 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Booking.com": null,
+        "MakeMyTrip": null,
+        "Goibibo": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.7/5 (27 reviews)"
+      },
+      "room_types": [
+        "AC Rooms",
+        "Family Rooms"
+      ],
+      "amenities": [
+        "Air-conditioned Rooms",
+        "Mini Function Hall",
+        "Parking",
+        "Family Accommodation"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Available",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Contact Property"
+      },
+      "food_facility": {
+        "availability": "Not Available",
+        "restaurant": "No",
+        "room_service": "Not Available",
+        "in_room_dining": "Not Available",
+        "breakfast": "Not Available",
+        "food_type": "Not Available",
+        "outside_food": "Contact Property"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Temple Visitors",
+        "Small Events"
+      ],
+      "cancellation_policy": "Contact the property directly.",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Jamalapuram Venkateswara Swamy Temple",
+        "Jamalapuram Bus Stop"
+      ],
+      "temple_id": "T0018",
+      "hotel_id": "H0110"
+    }
+  ],
+  "temple_id": "T0018",
+  "hotel_id": "H0110"
+}

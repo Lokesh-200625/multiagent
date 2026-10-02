@@ -1,0 +1,96 @@
+{
+  "associated_temple": "Sri Keesaragutta Ramalingeswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Oh Biz Executive",
+      "hotel_type": "Business Hotel",
+      "address": "Leonia Holistic Destination, Bommaraspet, Shamirpet, Hyderabad, Telangana - 500078, India",
+      "contact_numbers": [
+        "+91 40 66400000"
+      ],
+      "email": "stay@leonia.in",
+      "about": "Oh Biz Executive is a contemporary business hotel within Leonia Holistic Destination, situated approximately 11 km from Sri Keesaragutta Ramalingeswara Swamy Temple. The hotel offers comfortable accommodation with modern amenities, conference facilities, restaurants, swimming pools, and recreational options, making it suitable for pilgrims, business travelers, families, and leisure guests.",
+      "google_map_link": "https://maps.google.com/?q=Oh+Biz+Executive+Leonia+Shamirpet",
+      "official_website": "https://leonia.in/",
+      "price_range": "₹3,500–₹7,000 per night (Approx.)",
+      "check_in_time": "02:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Shamirpet Bus Stop – Approximately 3 km",
+        "railway_station": "Secunderabad Junction – Approximately 24 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 60 km"
+      },
+      "booking_links": {
+        "Official": "https://leonia.in/",
+        "MakeMyTrip": "https://www.makemytrip.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "Executive Room",
+        "Business Room",
+        "Premium Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Swimming Pool",
+        "Restaurant",
+        "Fitness Centre",
+        "Spa",
+        "Room Service",
+        "Conference Hall",
+        "Business Centre",
+        "Laundry Service",
+        "Free Parking",
+        "24-Hour Front Desk",
+        "Power Backup"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Complimentary on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Business Travelers",
+        "Families",
+        "Couples",
+        "Group Travelers",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room plan.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Keesaragutta Ramalingeswara Swamy Temple (Approx. 11 km)",
+        "Leonia Holistic Destination",
+        "Shamirpet Lake",
+        "Genome Valley",
+        "Leonia Adventure Park"
+      ],
+      "temple_id": "T0011",
+      "hotel_id": "H0052"
+    }
+  ],
+  "temple_id": "T0011",
+  "hotel_id": "H0052"
+}

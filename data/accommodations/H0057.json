@@ -1,0 +1,89 @@
+{
+  "associated_temple": "Sri Komuravelli Mallanna Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Haritha Hotel Gajwel",
+      "hotel_type": "Government Hotel",
+      "address": "Near RTC Bus Stand, Gajwel, Siddipet District, Telangana - 502278, India",
+      "contact_numbers": [
+        "1800-425-46464"
+      ],
+      "email": "info@tstdc.in",
+      "about": "Haritha Hotel Gajwel is a government-operated hotel managed by Telangana Tourism Development Corporation (TGTDC). Located approximately 22 km from Sri Komuravelli Mallanna Swamy Temple, the hotel offers clean and comfortable accommodation with an in-house restaurant, parking, and essential amenities. It is one of the preferred stay options for pilgrims visiting Komuravelli Temple due to its reliable services and official Telangana Tourism management.",
+      "google_map_link": "https://maps.google.com/?q=Haritha+Hotel+Gajwel",
+      "official_website": "https://tourism.telangana.gov.in/",
+      "price_range": "₹1,200–₹2,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Gajwel RTC Bus Stand – Approximately 500 m",
+        "railway_station": "Secunderabad Junction – Approximately 58 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 85 km"
+      },
+      "booking_links": {
+        "Official": "https://tourism.telangana.gov.in/",
+        "Telangana Tourism": "https://tourism.telangana.gov.in/",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.0/5"
+      },
+      "room_types": [
+        "Standard AC Room",
+        "Deluxe AC Room"
+      ],
+      "amenities": [
+        "Air Conditioning",
+        "Restaurant",
+        "Free Wi-Fi",
+        "Free Parking",
+        "24-Hour Front Desk",
+        "Power Backup",
+        "Housekeeping",
+        "Family Rooms"
+      ],
+      "facilities_summary": {
+        "room_service": "Limited",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Limited",
+        "in_room_dining": "No",
+        "breakfast": "Available",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Senior Citizens",
+        "Business Travelers",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation and refund policies are governed by Telangana Tourism booking terms.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Komuravelli Mallanna Swamy Temple (Approx. 22 km)",
+        "Gajwel RTC Bus Stand",
+        "Gajwel Town",
+        "Markook"
+      ],
+      "temple_id": "T0015",
+      "hotel_id": "H0057"
+    }
+  ],
+  "temple_id": "T0015",
+  "hotel_id": "H0057"
+}

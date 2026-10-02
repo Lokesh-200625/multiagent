@@ -1,0 +1,256 @@
+{
+  "counts": {
+    "temple_files": 23,
+    "accommodation_files": 142,
+    "restaurant_files": 120,
+    "emergency_files": 23,
+    "entities": 279,
+    "aliases": 639
+  },
+  "duplicate_ids": [],
+  "ambiguous_aliases": [
+    {
+      "normalized_alias": "dakshina kashi",
+      "candidates": [
+        {
+          "entity_id": "T0017",
+          "entity_type": "temple",
+          "canonical_name": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri"
+        },
+        {
+          "entity_id": "T0020",
+          "entity_type": "temple",
+          "canonical_name": "Sri Abhaya Anjaneya Swamy Temple, Beechupally"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "dakshina kasi",
+      "candidates": [
+        {
+          "entity_id": "T0017",
+          "entity_type": "temple",
+          "canonical_name": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri"
+        },
+        {
+          "entity_id": "T0020",
+          "entity_type": "temple",
+          "canonical_name": "Sri Abhaya Anjaneya Swamy Temple, Beechupally"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "flavor's inn",
+      "candidates": [
+        {
+          "entity_id": "R0001",
+          "entity_type": "restaurant",
+          "canonical_name": "Flavor's Inn"
+        },
+        {
+          "entity_id": "R0112",
+          "entity_type": "restaurant",
+          "canonical_name": "Flavor's Inn"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "hanamkonda",
+      "candidates": [
+        {
+          "entity_id": "T0012",
+          "entity_type": "temple",
+          "canonical_name": "Sri Bhadrakali Temple"
+        },
+        {
+          "entity_id": "T0013",
+          "entity_type": "temple",
+          "canonical_name": "Sri Rudreshwara Swamy Temple"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "haritha hotel alampur",
+      "candidates": [
+        {
+          "entity_id": "H0113",
+          "entity_type": "accommodation",
+          "canonical_name": "Haritha Hotel Alampur"
+        },
+        {
+          "entity_id": "R0034",
+          "entity_type": "restaurant",
+          "canonical_name": "Haritha Hotel Alampur"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "haritha hotel edupayala",
+      "candidates": [
+        {
+          "entity_id": "H0040",
+          "entity_type": "accommodation",
+          "canonical_name": "Haritha Hotel Edupayala"
+        },
+        {
+          "entity_id": "R0087",
+          "entity_type": "restaurant",
+          "canonical_name": "Haritha Hotel Edupayala"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "haritha hotel kaleshwaram",
+      "candidates": [
+        {
+          "entity_id": "H0047",
+          "entity_type": "accommodation",
+          "canonical_name": "Haritha Hotel Kaleshwaram"
+        },
+        {
+          "entity_id": "R0040",
+          "entity_type": "restaurant",
+          "canonical_name": "Haritha Hotel Kaleshwaram"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "hotel ashoka",
+      "candidates": [
+        {
+          "entity_id": "H0028",
+          "entity_type": "accommodation",
+          "canonical_name": "Hotel Ashoka"
+        },
+        {
+          "entity_id": "H0091",
+          "entity_type": "accommodation",
+          "canonical_name": "Hotel Ashoka"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "hotel grand gayathri",
+      "candidates": [
+        {
+          "entity_id": "H0026",
+          "entity_type": "accommodation",
+          "canonical_name": "Hotel Grand Gayathri"
+        },
+        {
+          "entity_id": "H0089",
+          "entity_type": "accommodation",
+          "canonical_name": "Hotel Grand Gayathri"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "hotel ratna",
+      "candidates": [
+        {
+          "entity_id": "H0029",
+          "entity_type": "accommodation",
+          "canonical_name": "Hotel Ratna"
+        },
+        {
+          "entity_id": "H0092",
+          "entity_type": "accommodation",
+          "canonical_name": "Hotel Ratna"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "hotel shreya",
+      "candidates": [
+        {
+          "entity_id": "H0027",
+          "entity_type": "accommodation",
+          "canonical_name": "Hotel Shreya"
+        },
+        {
+          "entity_id": "H0088",
+          "entity_type": "accommodation",
+          "canonical_name": "Hotel Shreya"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "kolas grand",
+      "candidates": [
+        {
+          "entity_id": "H0024",
+          "entity_type": "accommodation",
+          "canonical_name": "Kolas Grand"
+        },
+        {
+          "entity_id": "H0090",
+          "entity_type": "accommodation",
+          "canonical_name": "Kolas Grand"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "sahasra dla a c convention & a c rooms",
+      "candidates": [
+        {
+          "entity_id": "H0025",
+          "entity_type": "accommodation",
+          "canonical_name": "Sahasra DLA A/C Convention & A/C Rooms"
+        },
+        {
+          "entity_id": "H0093",
+          "entity_type": "accommodation",
+          "canonical_name": "Sahasra DLA A/C Convention & A/C Rooms"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "sri vari palle ruchulu",
+      "candidates": [
+        {
+          "entity_id": "R0007",
+          "entity_type": "restaurant",
+          "canonical_name": "Sri Vari Palle Ruchulu"
+        },
+        {
+          "entity_id": "R0116",
+          "entity_type": "restaurant",
+          "canonical_name": "Sri Vari Palle Ruchulu"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "telangana tirupati",
+      "candidates": [
+        {
+          "entity_id": "T0018",
+          "entity_type": "temple",
+          "canonical_name": "Sri Venkateswara Swamy Temple, Jamalapuram"
+        },
+        {
+          "entity_id": "T0019",
+          "entity_type": "temple",
+          "canonical_name": "Manyamkonda Lakshmi Venkateswara Swamy Temple"
+        }
+      ]
+    },
+    {
+      "normalized_alias": "varevva restaurant",
+      "candidates": [
+        {
+          "entity_id": "R0002",
+          "entity_type": "restaurant",
+          "canonical_name": "Varevva Restaurant"
+        },
+        {
+          "entity_id": "R0114",
+          "entity_type": "restaurant",
+          "canonical_name": "Varevva Restaurant"
+        }
+      ]
+    }
+  ],
+  "unknown_references": [],
+  "invalid_json": [],
+  "invalid_records": []
+}

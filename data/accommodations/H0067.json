@@ -1,0 +1,81 @@
+{
+  "associated_temple": "Sri Sammakka Saralamma Temple, Medaram",
+  "hotels": [
+    {
+      "hotel_name": "SS Rooms AC & NON-AC Medaram",
+      "hotel_type": "Homestay",
+      "address": "Haritha Hotel Road, Medaram, Mulugu District, Telangana - 506347, India",
+      "contact_numbers": [
+        "+91 63047 27691"
+      ],
+      "email": "",
+      "about": "SS Rooms AC & NON-AC Medaram is a budget-friendly homestay located on Haritha Hotel Road, close to Sri Sammakka Saralamma Temple. The property offers AC and Non-AC rooms with attached bathrooms and is a preferred accommodation for pilgrims due to its proximity to the temple and reasonable pricing. :contentReference[oaicite:2]{index=2}",
+      "google_map_link": "https://maps.google.com/?q=SS+Rooms+AC+and+NON-AC+Medaram",
+      "official_website": "",
+      "price_range": "₹800–₹1,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Medaram Bus Stand – Approximately 700 m",
+        "railway_station": "Warangal Railway Station – Approximately 50 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 190 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Google Maps": "https://maps.google.com/?q=SS+Rooms+AC+and+NON-AC+Medaram",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.0/5"
+      },
+      "room_types": [
+        "AC Room",
+        "Non-AC Room"
+      ],
+      "amenities": [
+        "Air Conditioning",
+        "Attached Bathroom",
+        "Parking",
+        "King Size Bed"
+      ],
+      "facilities_summary": {
+        "room_service": "No",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Not Specified"
+      },
+      "food_facility": {
+        "availability": "Available Nearby",
+        "restaurant": "Nearby",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Not Available",
+        "food_type": "Vegetarian and Non-Vegetarian (Nearby)",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Budget Travelers",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Depends on direct booking with the property.",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Sammakka Saralamma Temple",
+        "Haritha Grand Hotel",
+        "Medaram Bus Stand",
+        "Jampanna Vagu"
+      ],
+      "temple_id": "T0021",
+      "hotel_id": "H0067"
+    }
+  ],
+  "temple_id": "T0021",
+  "hotel_id": "H0067"
+}

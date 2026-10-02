@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+ "restaurantId": "R0012",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Pesaratla+Bhadhram+Hotel+Bhadrachalam+Telangana",
+      "restaurantName": "Pesaratla Bhadhram Hotel",
+
+  "associatedTemple": {
+    "templeId": "T0002",
+    "templeName": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam"
+  },
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A South Indian restaurant known for breakfast items, vegetarian meals, and traditional Andhra cuisine near Sri Sita Ramachandra Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Bhadrachalam, Telangana, India",
+    "area": "Temple Area",
+    "city": "Bhadrachalam",
+    "district": "Bhadradri Kothagudem",
+    "state": "Telangana",
+    "pincode": "507111",
+    "landmark": "Near Sri Sita Ramachandra Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.7,
+    "walkingTimeMinutes": 9,
+    "bikeTimeMinutes": 3,
+    "carTimeMinutes": 3,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Pesarattu",
+      "Idli",
+      "Dosa",
+      "Upma"
+    ],
+    "lunch": [
+      "Vegetarian Meals"
+    ],
+    "dinner": [
+      "Vegetarian Meals",
+      "Dosa"
+    ],
+    "snacks": [
+      "Vada"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+    "specialDishes": [
+      "Pesarattu",
+      "Andhra Vegetarian Meals"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹150–300",
+    "averageCostForTwo": "₹350–600"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Sita Ramachandra Swamy Temple",
+    "busStand": "Bhadrachalam Bus Station",
+    "railwayStation": "Bhadrachalam Road Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Popular for Pesarattu.",
+    "Traditional Andhra breakfast.",
+    "Pure vegetarian restaurant.",
+    "Suitable for pilgrims.",
+    "Near Sri Sita Ramachandra Swamy Temple."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Restaurant Guru",
+      "url": "https://restaurant-guru.in/"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "associated_temple": "Sri Bhadrakali Temple, Warangal",
+  "hotels": [
+    {
+      "hotel_name": "Sahasra DLA A/C Convention & A/C Rooms",
+      "hotel_type": "Convention Hotel",
+      "address": "Hunter Road, Hanamkonda, Warangal, Telangana - 506001, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Sahasra DLA A/C Convention & A/C Rooms is a modern accommodation and convention property located approximately 2.7 km from Sri Bhadrakali Temple. The hotel offers well-maintained air-conditioned rooms, banquet and convention facilities, free Wi-Fi, and ample parking. It is suitable for pilgrims, families, business travelers, wedding guests, and tourists visiting Warangal.",
+      "google_map_link": "https://maps.google.com/?q=Sahasra+DLA+AC+Convention+Warangal",
+      "official_website": "",
+      "price_range": "₹2,200–₹4,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Hanamkonda Bus Stand – Approximately 1.5 km",
+        "railway_station": "Warangal Railway Station – Approximately 3.5 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 165 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": "https://www.makemytrip.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.3/5"
+      },
+      "room_types": [
+        "Standard AC Room",
+        "Deluxe AC Room",
+        "Executive Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Restaurant",
+        "Room Service",
+        "Free Parking",
+        "Power Backup",
+        "24-Hour Front Desk",
+        "Housekeeping",
+        "Banquet Hall",
+        "Convention Hall",
+        "Elevator",
+        "Laundry Service"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Wedding Guests",
+        "Group Travelers",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room category.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Bhadrakali Temple (Approx. 2.7 km)",
+        "1000 Pillar Temple",
+        "Warangal Fort",
+        "Hanamkonda Bus Stand",
+        "Warangal Railway Station"
+      ],
+      "temple_id": "T0012",
+      "hotel_id": "H0025"
+    }
+  ],
+  "temple_id": "T0012",
+  "hotel_id": "H0025"
+}

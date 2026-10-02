@@ -1,0 +1,86 @@
+{
+  "associated_temple": "Sri Raja Rajeshwara Swamy Temple, Vemulawada",
+  "hotels": [
+    {
+      "hotel_name": "HOTEL SHANMUKHA A/C LODGE",
+      "hotel_type": "Hotel / Lodge",
+      "address": "Near Bemeshwara Temple, Vemulawada, Rajanna Sircilla District, Telangana - 505302, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "HOTEL SHANMUKHA A/C LODGE is a budget-friendly hotel located approximately a 6-minute walk from Sri Raja Rajeshwara Swamy Temple. The property offers Standard Non-AC rooms and basic facilities including free parking, power backup, kitchenette, and hot & cold water. It is suitable for pilgrims and budget travelers seeking accommodation close to the temple. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=HOTEL+SHANMUKHA+A%2FC+LODGE+Vemulawada",
+      "official_website": "",
+      "price_range": "₹1,900–₹2,400 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Vemulawada Bus Stand – Approximately 600 m",
+        "railway_station": "Karimnagar Railway Station – Approximately 36 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 200 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/hotel_shanmukha_a_c_lodge-details-sirsilla.html",
+        "Goibibo": "https://www.goibibo.com/hotels/shanmukha-a-c-lodge-hotel-in-sirsilla-1251738864374963738/",
+        "OYO": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "2.4/5"
+      },
+      "room_types": [
+        "Standard Non AC",
+        "Standard Non AC with Free Cancellation"
+      ],
+      "amenities": [
+        "Free Parking",
+        "Power Backup",
+        "Kitchenette",
+        "Air Conditioning",
+        "Hot & Cold Water",
+        "TV",
+        "Electronic Safe",
+        "Chair",
+        "Private Bathroom"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "No",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Available at Extra Charges",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Budget Travelers",
+        "Senior Citizens",
+        "Solo Travelers"
+      ],
+      "cancellation_policy": "Free cancellation till check-in is available on eligible room plans. Book @ ₹0 payment is available on selected bookings. Unmarried couples and local IDs are not allowed. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Raja Rajeshwara Swamy Temple – 6 minutes walk",
+        "Bemeshwara Temple",
+        "Vemulawada Bus Stand"
+      ],
+      "temple_id": "T0003",
+      "hotel_id": "H0136"
+    }
+  ],
+  "temple_id": "T0003",
+  "hotel_id": "H0136"
+}

@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0092",
+  "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Haritha+Hotel+T0017rmapuri+Guest+House+Road+Boyawada+Telangana",
+
+  "restaurantName": "Haritha Hotel Dharmapuri",
+
+  "associatedTemple": {
+    "templeId": "T0017",
+    "templeName": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri"
+  },
+
+  "basicInformation": {
+    "category": "Hotel & Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A pilgrim-friendly hotel and restaurant located in Dharmapuri town, providing food facilities for visitors of Sri Lakshmi Narasimha Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Guest House Road, Boyawada, Dharmapuri, Jagtial District, Telangana, India",
+    "area": "Boyawada",
+    "city": "Dharmapuri",
+    "district": "Jagtial",
+    "state": "Telangana",
+    "pincode": "505425",
+    "landmark": "Near Dharmapuri Temple Area",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+
+    "distanceFromTempleKm": {
+      "value": 0.8,
+      "source": "Estimated based on Dharmapuri temple town locality",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+
+      "walking": {
+        "value": 10,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average walking speed of 4 km/hour",
+        "confidence": "Medium"
+      },
+
+      "bike": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Town local road distance",
+        "confidence": "Medium"
+      },
+
+      "car": {
+        "value": 4,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Town local road distance",
+        "confidence": "Medium"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+918743231463",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+
+    "openingTime": null,
+    "closingTime": null,
+
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+
+    "breakfast": [
+      "South Indian Tiffins"
+    ],
+
+    "lunch": [
+      "Meals",
+      "Indian Cuisine"
+    ],
+
+    "dinner": [
+      "Indian Cuisine"
+    ],
+
+    "snacks": [
+      "Snacks"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ],
+
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+
+    "priceCategory": "Moderate",
+
+    "averageCostForOne": "₹150–300",
+
+    "averageCostForTwo": "₹400–600"
+  },
+
+  "facilities": {
+
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+
+    "googleRating": 3.8,
+    "totalReviews": 635
+  },
+
+  "nearbyPlaces": {
+
+    "temple": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "busStand": "Dharmapuri Bus Stand",
+    "railwayStation": "Jagtial Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located inside Dharmapuri temple town.",
+    "Suitable for pilgrims and family visitors.",
+    "Food and accommodation facility available.",
+    "Convenient stop near Sri Lakshmi Narasimha Swamy Temple."
+  ],
+
+  "dataReliability": {
+
+    "verifiedFields": [
+      "restaurantName",
+      "location",
+      "phoneNumber",
+      "rating",
+      "reviewCount"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "priceInformation",
+      "menuDetails"
+    ],
+
+    "unknownFields": [
+      "exactWorkingHours",
+      "officialWebsite"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

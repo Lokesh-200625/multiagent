@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+ "restaurantId": "R0015",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Hotel+Kinnerasani+Restaurant+Bhadrachalam+Telangana",
+      "restaurantName": "Hotel Kinnerasani Restaurant",
+
+  "associatedTemple": {
+    "templeId": "T0002",
+    "templeName": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam"
+  },
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A family restaurant in Bhadrachalam serving Indian and Chinese cuisine for pilgrims and tourists."
+  },
+
+  "location": {
+    "fullAddress": "Bhadrachalam, Telangana, India",
+    "area": "Town Center",
+    "city": "Bhadrachalam",
+    "district": "Bhadradri Kothagudem",
+    "state": "Telangana",
+    "pincode": "507111",
+    "landmark": "Near Sri Sita Ramachandra Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 1.1,
+    "walkingTimeMinutes": 15,
+    "bikeTimeMinutes": 5,
+    "carTimeMinutes": 5,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa"
+    ],
+    "lunch": [
+      "Veg Meals",
+      "Chicken Biryani",
+      "Fried Rice"
+    ],
+    "dinner": [
+      "Biryani",
+      "Curries",
+      "Noodles"
+    ],
+    "snacks": [],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks"
+    ],
+    "specialDishes": [
+      "Chicken Biryani",
+      "Veg Meals"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Premium",
+    "averageCostForOne": "₹250–500",
+    "averageCostForTwo": "₹600–900"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Sita Ramachandra Swamy Temple",
+    "busStand": "Bhadrachalam Bus Station",
+    "railwayStation": "Bhadrachalam Road Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Family restaurant.",
+    "Vegetarian and non-vegetarian food.",
+    "Chinese cuisine available.",
+    "Suitable for pilgrims and families.",
+    "Dine-in and takeaway available."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Restaurant Guru",
+      "url": "https://restaurant-guru.in/"
+    }
+  ]
+}

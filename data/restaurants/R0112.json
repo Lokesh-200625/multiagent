@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0112",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Flavor's+Inn+Yadagirigutta+Telangana",
+  "restaurantName": "Flavor's Inn",
+
+  "associatedTemple": {
+    "templeId": "T0022",
+    "templeName": "Surendrapuri (Kunda Satyanarayana Kala Dhamam)"
+  },
+
+  "basicInformation": {
+    "category": "Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A popular family restaurant near Surendrapuri and Yadagirigutta serving South Indian, North Indian and Chinese cuisine."
+  },
+
+  "location": {
+    "fullAddress": "2-120/B, Main Road, Gundlapally, Yadagirigutta, Telangana 508115, India",
+    "area": "Gundlapally",
+    "city": "Yadagirigutta",
+    "district": "Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "pincode": "508115",
+    "landmark": "Near Surendrapuri",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 2.1,
+      "source": "Estimated from verified business location",
+      "confidence": "High"
+    },
+    "travelTime": {
+      "walking": {
+        "value": 26,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 6,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 5,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": 8,
+        "unit": "minutes",
+        "type": "Estimated"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+91 81212 06658",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "05:00 AM",
+    "closingTime": "11:00 PM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Poori"
+    ],
+    "lunch": [
+      "Veg Meals",
+      "Chicken Meals"
+    ],
+    "dinner": [
+      "Biryani",
+      "North Indian Curry"
+    ],
+    "snacks": [
+      "Bonda",
+      "Bajji"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹200–300",
+    "averageCostForTwo": "₹400–600"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 4.4,
+    "totalReviews": 287
+  },
+
+  "nearbyPlaces": {
+    "temple": "Surendrapuri",
+    "busStand": "Yadagirigutta Bus Stand",
+    "railwayStation": "Raigir Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Popular family restaurant.",
+    "Near Surendrapuri.",
+    "Breakfast available from early morning.",
+    "Parking available.",
+    "Suitable for pilgrims and families."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "address",
+      "phoneNumber",
+      "workingHours",
+      "googleRating",
+      "totalReviews",
+      "priceRange"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation"
+    ]
+  }
+}

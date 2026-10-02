@@ -1,0 +1,92 @@
+{
+  "associated_temple": "Sri Jogulamba Devi Temple, Alampur",
+  "hotels": [
+    {
+      "hotel_name": "Hotel Partha Grand",
+      "hotel_type": "3-Star Hotel",
+      "address": "43/8, NH 44, Near APSRTC Bus Stand, Kurnool, Andhra Pradesh - 518004, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Hotel Partha Grand is a mid-range hotel in Kurnool offering comfortable accommodation for pilgrims, families, and business travelers. Located approximately 29 km from Sri Jogulamba Devi Temple, the hotel provides well-furnished AC rooms with modern amenities and is listed on both MakeMyTrip and Goibibo. The property offers free cancellation on eligible bookings and Book @ ₹0 on selected room plans.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+Partha+Grand+Kurnool",
+      "official_website": "",
+      "price_range": "₹1,600–₹2,800 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Kurnool APSRTC Bus Stand – Approximately 500 m",
+        "railway_station": "Kurnool City Railway Station – Approximately 2 km",
+        "airport": "Uyyalawada Narasimha Reddy Airport – Approximately 24 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/hotel_partha_grand-details-kurnool.html",
+        "Goibibo": "https://www.goibibo.com/hotels/partha-grand-hotel-in-kurnool/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Deluxe Room",
+        "Executive Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Room Service",
+        "Free Parking",
+        "Power Backup",
+        "Elevator/Lift",
+        "Housekeeping",
+        "24-Hour Front Desk",
+        "Laundry Service",
+        "Daily Housekeeping",
+        "Luggage Storage",
+        "CCTV Security"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on selected plans",
+        "food_type": "Vegetarian and Multi-Cuisine",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Couples",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Book @ ₹0 Payment is available on selected bookings. Cancellation policies vary depending on the selected room plan and booking platform.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Jogulamba Devi Temple (Approx. 29 km)",
+        "Kurnool APSRTC Bus Stand",
+        "Kurnool City Railway Station",
+        "Konda Reddy Fort",
+        "Orvakal Rock Garden"
+      ],
+      "temple_id": "T0006",
+      "hotel_id": "H0115"
+    }
+  ],
+  "temple_id": "T0006",
+  "hotel_id": "H0115"
+}

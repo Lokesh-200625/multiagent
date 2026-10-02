@@ -1,0 +1,88 @@
+{
+  "associated_temple": "Surendrapuri (Kunda Satyanarayana Kaladham)",
+  "hotels": [
+    {
+      "hotel_name": "Swastik Stay AC & Non-AC Rooms",
+      "hotel_type": "Hotel",
+      "address": "Plot No. 1, Main Road, Near Surendrapuri, Yadagirigutta, Yadadri Bhuvanagiri, Telangana - 508115, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Swastik Stay AC & Non-AC Rooms is a budget-friendly hotel located on the Yadagirigutta Main Road near Surendrapuri. The property offers AC and Non-AC rooms with free Wi-Fi, private parking, 24-hour front desk service, and family-friendly accommodation. It is within walking distance of Surendrapuri and provides convenient access to Yadadri and Swarnagiri temples. :contentReference[oaicite:3]{index=3}",
+      "google_map_link": "https://maps.google.com/?q=Swastik+Stay+AC+and+Non+AC+Rooms+Yadagirigutta",
+      "official_website": "",
+      "price_range": "₹1,000–₹1,800 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Yadagirigutta Bus Stand – Approximately 1 km",
+        "railway_station": "Raigir Railway Station – Approximately 3 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 76 km"
+      },
+      "booking_links": {
+        "Booking.com": "https://www.booking.com/hotel/in/swastik-stay-ac-and-non-ac-rooms.html",
+        "Justdial": "https://www.justdial.com/Nalgonda/Swastik-stay-Ac-non-ac-Luxury-rooms-Near-Surendrapuri-Surendrapuri-Yadagirigutta/9999P8682-8682-250820104247-A9B3_BZDET",
+        "Official": null,
+        "MakeMyTrip": null,
+        "Goibibo": null
+      },
+      "ratings": {
+        "platform": "Skyscanner",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "AC Room",
+        "Non-AC Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free Parking",
+        "Family Rooms",
+        "24-Hour Front Desk",
+        "Room Service",
+        "Air Conditioning",
+        "Private Bathroom",
+        "Balcony",
+        "Terrace",
+        "Electric Vehicle Charging"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available Nearby",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Specified",
+        "food_type": "Nearby Restaurants",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Budget Travelers",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room plan.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card"
+      ],
+      "nearby_landmarks": [
+        "Surendrapuri Mythological Theme Park",
+        "Yadadri Sri Lakshmi Narasimha Swamy Temple",
+        "Swarnagiri Sri Venkateswara Swamy Temple",
+        "Raigir Railway Station"
+      ],
+      "temple_id": "T0022",
+      "hotel_id": "H0083"
+    }
+  ],
+  "temple_id": "T0022",
+  "hotel_id": "H0083"
+}

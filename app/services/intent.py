@@ -7,11 +7,6 @@ from app.core.config import settings
 from app.models.understanding import QueryUnderstanding
 
 
-client = Groq(
-    api_key=settings.groq_api_key
-)
-
-
 SYSTEM_PROMPT = """
 You are the Query Understanding Engine for PilgrimAI.
 
@@ -451,9 +446,7 @@ def _make_groq_strict_schema(
         )
 
         schema["properties"] = {
-            key: _make_groq_strict_schema(
-                value
-            )
+            key: _make_groq_strict_schema(value)
             for key, value in properties.items()
         }
 
@@ -490,9 +483,7 @@ def _make_groq_strict_schema(
 
 
 def _strict_schema() -> dict[str, Any]:
-
     schema = QueryUnderstanding.model_json_schema()
-
     return _make_groq_strict_schema(schema)
 
 
@@ -557,12 +548,6 @@ def _remove_generic_entities(
 def _normalize_capabilities(
     result: QueryUnderstanding,
 ) -> QueryUnderstanding:
-    """
-    Deterministic guard for obvious capability/domain mappings.
-
-    The LLM remains responsible for semantic understanding.
-    This only prevents an obvious empty capability list.
-    """
 
     capability_map = {
         "temple": "temple_info",
@@ -602,7 +587,6 @@ def normalize_understanding(
 ) -> QueryUnderstanding:
 
     result = _remove_generic_entities(result)
-
     result = _normalize_capabilities(result)
 
     if not result.subqueries:
@@ -648,6 +632,39 @@ def normalize_understanding(
     return result
 
 
+def _trim_step_result(
+    result: Any,
+) -> Any:
+    """
+    Keep only small, useful metadata from previous execution.
+
+    Large agent outputs are intentionally excluded from the
+    query-understanding context.
+    """
+
+    if not isinstance(result, dict):
+        return result
+
+    allowed_keys = {
+        "step_id",
+        "status",
+        "agent",
+        "stub",
+        "entity_id",
+        "entity_type",
+        "name",
+        "source_tier",
+        "fetched_at",
+        "error",
+    }
+
+    return {
+        key: value
+        for key, value in result.items()
+        if key in allowed_keys
+    }
+
+
 def _build_session_context(
     conversation_state: dict | None,
 ) -> dict:
@@ -656,6 +673,56 @@ def _build_session_context(
         return {}
 
     state = conversation_state
+
+    execution_plan = state.get(
+        "execution_plan",
+        {},
+    ) or {}
+
+    steps = execution_plan.get(
+        "steps",
+        [],
+    ) or []
+
+    step_results = execution_plan.get(
+        "step_results",
+        {},
+    ) or {}
+
+    # Only the last two execution steps are relevant for
+    # resolving immediate references in the next turn.
+    recent_steps = steps[-2:]
+
+    recent_step_ids = {
+        step.get("step_id")
+        for step in recent_steps
+        if step.get("step_id")
+    }
+
+    compact_steps = []
+
+    for step in recent_steps:
+
+        compact_steps.append({
+            "step_id": step.get("step_id"),
+            "domain": step.get("domain"),
+            "intent": step.get("intent"),
+            "question": step.get("question"),
+            "entities": step.get("entities", []),
+            "locations": step.get("locations", []),
+            "depends_on": step.get("depends_on", []),
+        })
+
+    compact_results = {}
+
+    for step_id in recent_step_ids:
+
+        if step_id not in step_results:
+            continue
+
+        compact_results[step_id] = _trim_step_result(
+            step_results[step_id]
+        )
 
     return {
         "session_id": state.get("session_id"),
@@ -669,11 +736,107 @@ def _build_session_context(
             "resolved_entities",
             [],
         ),
-        "last_execution_plan": state.get(
-            "execution_plan",
-            {},
-        ),
+        "recent_execution_steps": compact_steps,
+        "recent_step_results": compact_results,
     }
+
+
+def _get_groq_clients() -> list[Groq]:
+
+    keys = [
+        settings.groq_api_key_1,
+        settings.groq_api_key_2,
+    ]
+
+    clients = []
+
+    for key in keys:
+
+        if key and key.strip():
+
+            clients.append(
+                Groq(
+                    api_key=key.strip()
+                )
+            )
+
+    return clients
+
+
+def _call_groq(
+    payload: dict[str, Any],
+) -> str:
+
+    clients = _get_groq_clients()
+
+    if not clients:
+
+        raise RuntimeError(
+            "LLM_UNAVAILABLE: no Groq API keys are configured."
+        )
+
+    last_error: Exception | None = None
+
+    for index, client in enumerate(clients, start=1):
+
+        try:
+
+            response = client.chat.completions.create(
+                model=settings.groq_model,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": SYSTEM_PROMPT,
+                    },
+                    {
+                        "role": "user",
+                        "content": json.dumps(
+                            payload,
+                            ensure_ascii=False,
+                        ),
+                    },
+                ],
+                temperature=0,
+                response_format={
+                    "type": "json_schema",
+                    "json_schema": {
+                        "name": "pilgrim_query_understanding",
+                        "strict": True,
+                        "schema": _strict_schema(),
+                    },
+                },
+            )
+
+            content = (
+                response
+                .choices[0]
+                .message
+                .content
+            )
+
+            if not content:
+
+                raise RuntimeError(
+                    "Groq returned an empty query understanding response"
+                )
+
+            return content
+
+        except Exception as exc:
+
+            last_error = exc
+
+            print(
+                f"Groq key {index} failed: "
+                f"{type(exc).__name__}: {exc}"
+            )
+
+            if index < len(clients):
+                continue
+
+    raise RuntimeError(
+        "LLM_UNAVAILABLE: all configured Groq keys failed."
+    ) from last_error
 
 
 def understand_query(
@@ -688,49 +851,16 @@ def understand_query(
         ),
     }
 
-    response = client.chat.completions.create(
-        model=settings.groq_model,
-        messages=[
-            {
-                "role": "system",
-                "content": SYSTEM_PROMPT,
-            },
-            {
-                "role": "user",
-                "content": json.dumps(
-                    payload,
-                    ensure_ascii=False,
-                ),
-            },
-        ],
-        temperature=0,
-        response_format={
-            "type": "json_schema",
-            "json_schema": {
-                "name": "pilgrim_query_understanding",
-                "strict": True,
-                "schema": _strict_schema(),
-            },
-        },
-    )
-
-    content = (
-        response
-        .choices[0]
-        .message
-        .content
-    )
-
-    if not content:
-        raise RuntimeError(
-            "Groq returned an empty query understanding response"
-        )
+    content = _call_groq(payload)
 
     try:
+
         result = QueryUnderstanding.model_validate_json(
             content
         )
+
     except Exception as exc:
+
         raise RuntimeError(
             "Groq returned invalid QueryUnderstanding"
         ) from exc

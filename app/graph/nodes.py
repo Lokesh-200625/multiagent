@@ -1,10 +1,14 @@
+from __future__ import annotations
+
+from typing import Any
+
 from app.graph.state import GraphState
+from app.services.temple_vector_store import similarity_search
 
 
 def initialize_graph(
     state: GraphState,
 ) -> GraphState:
-
     plan = state.get(
         "execution_plan",
         {},
@@ -25,7 +29,6 @@ def initialize_graph(
     if not steps:
         return {
             **state,
-            "current_step_index": 0,
             "current_step_id": None,
             "current_step": None,
             "dependency_results": {},
@@ -35,7 +38,6 @@ def initialize_graph(
 
     return {
         **state,
-        "current_step_index": 0,
         "current_step_id": None,
         "current_step": None,
         "dependency_results": {},
@@ -50,7 +52,6 @@ def initialize_graph(
 def supervisor(
     state: GraphState,
 ) -> GraphState:
-
     plan = state.get(
         "execution_plan",
         {},
@@ -77,14 +78,10 @@ def supervisor(
     completed_ids = {
         step_id
         for step_id, result in results.items()
-        if result.get("status") in {
-            "COMPLETED",
-            "STUB",
-        }
+        if result.get("status") == "COMPLETED"
     }
 
     for step in steps:
-
         step_id = step.get(
             "step_id"
         )
@@ -130,7 +127,6 @@ def supervisor(
     ]
 
     if not remaining_steps:
-
         return {
             **state,
             "current_step_id": None,
@@ -155,13 +151,11 @@ def supervisor(
 def route_step(
     state: GraphState,
 ) -> str:
-
     current_step = state.get(
         "current_step"
     )
 
     if not current_step:
-
         if state.get("status") == "COMPLETED":
             return "finish"
 
@@ -205,18 +199,123 @@ def route_step(
 def temple_agent(
     state: GraphState,
 ) -> GraphState:
-
-    return _complete_step(
-        state,
-        "temple",
+    current_step = state.get(
+        "current_step"
     )
+
+    current_step_id = state.get(
+        "current_step_id"
+    )
+
+    if not current_step or not current_step_id:
+        return {
+            **state,
+            "status": "ERROR",
+            "error": (
+                "No current temple step was selected "
+                "by the supervisor."
+            ),
+        }
+
+    query = _extract_step_query(
+        current_step
+    )
+
+    if not query:
+        return {
+            **state,
+            "status": "ERROR",
+            "error": (
+                "Temple step does not contain "
+                "a searchable question."
+            ),
+        }
+
+    # Resolve the expected canonical temple IDs BEFORE
+    # retrieval so vector search is scoped to the correct
+    # entity instead of competing with every temple.
+    expected_temple_ids = (
+        _extract_expected_temple_ids(
+            current_step
+        )
+    )
+
+    try:
+        documents = similarity_search(
+            query,
+            k=5,
+            temple_ids=sorted(
+                expected_temple_ids
+            ) if expected_temple_ids else None,
+        )
+    except Exception as exc:
+        return {
+            **state,
+            "status": "ERROR",
+            "error": (
+                "Temple retrieval failed: "
+                f"{type(exc).__name__}: {exc}"
+            ),
+        }
+
+    retrieved_evidence = [
+        _document_to_evidence(document)
+        for document in documents
+    ]
+
+    validated_evidence = _validate_evidence(
+        retrieved_evidence,
+        expected_temple_ids,
+    )
+
+    results = dict(
+        state.get(
+            "step_results",
+            {},
+        )
+    )
+
+    results[current_step_id] = {
+        "agent": "temple",
+        "status": "COMPLETED",
+        "stub": False,
+        "query": query,
+        "expected_temple_ids": sorted(
+            expected_temple_ids
+        ),
+        "retrieved_evidence_count": len(
+            retrieved_evidence
+        ),
+        "validated_evidence_count": len(
+            validated_evidence
+        ),
+        "evidence": validated_evidence,
+        "rejected_evidence": [
+            evidence
+            for evidence in retrieved_evidence
+            if evidence not in validated_evidence
+        ],
+        "step": current_step,
+        "dependency_results": dict(
+            state.get(
+                "dependency_results",
+                {},
+            )
+        ),
+    }
+
+    return {
+        **state,
+        "step_results": results,
+        "status": "RUNNING",
+        "error": None,
+    }
 
 
 def accommodation_agent(
     state: GraphState,
 ) -> GraphState:
-
-    return _complete_step(
+    return _complete_stub_step(
         state,
         "accommodation",
     )
@@ -225,8 +324,7 @@ def accommodation_agent(
 def restaurant_agent(
     state: GraphState,
 ) -> GraphState:
-
-    return _complete_step(
+    return _complete_stub_step(
         state,
         "restaurant",
     )
@@ -235,8 +333,7 @@ def restaurant_agent(
 def travel_agent(
     state: GraphState,
 ) -> GraphState:
-
-    return _complete_step(
+    return _complete_stub_step(
         state,
         "travel",
     )
@@ -245,7 +342,6 @@ def travel_agent(
 def unknown_agent(
     state: GraphState,
 ) -> GraphState:
-
     return {
         **state,
         "status": "ERROR",
@@ -256,11 +352,10 @@ def unknown_agent(
     }
 
 
-def _complete_step(
+def _complete_stub_step(
     state: GraphState,
     agent: str,
 ) -> GraphState:
-
     current_step = state.get(
         "current_step"
     )
@@ -270,7 +365,6 @@ def _complete_step(
     )
 
     if not current_step or not current_step_id:
-
         return {
             **state,
             "status": "ERROR",
@@ -297,9 +391,11 @@ def _complete_step(
     results[current_step_id] = {
         "agent": agent,
         "status": "STUB",
+        "stub": True,
         "message": (
             f"{agent} agent executed "
-            f"step {current_step_id}."
+            f"step {current_step_id} "
+            f"as a stub."
         ),
         "step": current_step,
         "dependency_results": dependency_results,
@@ -308,14 +404,170 @@ def _complete_step(
     return {
         **state,
         "step_results": results,
-        "status": "RUNNING",
+        "status": "STUB",
+    }
+
+
+def _extract_step_query(
+    step: dict[str, Any],
+) -> str | None:
+    candidates = [
+        step.get("question"),
+        step.get("query"),
+        step.get("user_query"),
+        step.get("text"),
+        step.get("description"),
+        step.get("task"),
+    ]
+
+    for candidate in candidates:
+        if isinstance(candidate, str):
+            value = candidate.strip()
+
+            if value:
+                return value
+
+    return None
+
+
+def _extract_expected_temple_ids(
+    step: dict[str, Any],
+) -> set[str]:
+    temple_ids: set[str] = set()
+
+    direct_keys = {
+        "temple_id",
+        "entity_id",
+    }
+
+    list_keys = {
+        "temple_ids",
+        "entity_ids",
+    }
+
+    for key in direct_keys:
+        value = step.get(key)
+
+        if isinstance(value, str) and value.strip():
+            temple_ids.add(value.strip())
+
+    for key in list_keys:
+        value = step.get(key)
+
+        if isinstance(value, list):
+            for item in value:
+                if (
+                    isinstance(item, str)
+                    and item.strip()
+                ):
+                    temple_ids.add(
+                        item.strip()
+                    )
+
+    entities = step.get(
+        "entities"
+    )
+
+    if isinstance(entities, list):
+        for entity in entities:
+            if not isinstance(entity, dict):
+                continue
+
+            entity_id = entity.get(
+                "entity_id",
+                entity.get("canonical_id"),
+            )
+
+            if (
+                isinstance(entity_id, str)
+                and entity_id.strip()
+                and (
+                    str(
+                        entity.get(
+                            "entity_type",
+                            entity.get(
+                                "type",
+                                "",
+                            ),
+                        )
+                    ).lower().strip()
+                    in {
+                        "temple",
+                        "person",
+                        "festival",
+                        "event",
+                        "landmark",
+                        "place",
+                    }
+                )
+            ):
+                temple_ids.add(
+                    entity_id.strip()
+                )
+
+    return temple_ids
+
+
+def _validate_evidence(
+    evidence: list[dict[str, Any]],
+    expected_temple_ids: set[str],
+) -> list[dict[str, Any]]:
+    if not expected_temple_ids:
+        return evidence
+
+    return [
+        item
+        for item in evidence
+        if item.get("temple_id")
+        in expected_temple_ids
+    ]
+
+
+def _document_to_evidence(
+    document: Any,
+) -> dict[str, Any]:
+    metadata = dict(
+        document.metadata
+    )
+
+    return {
+        "text": document.page_content,
+        "temple_id": metadata.get(
+            "temple_id"
+        ),
+        "name": metadata.get(
+            "name"
+        ),
+        "content_type": metadata.get(
+            "content_type"
+        ),
+        "field_name": metadata.get(
+            "field_name"
+        ),
+        "section": metadata.get(
+            "section"
+        ),
+        "chunk_index": metadata.get(
+            "chunk_index"
+        ),
+        "source_tier": metadata.get(
+            "source_tier"
+        ),
+        "fetched_at": metadata.get(
+            "fetched_at"
+        ),
+        "valid_to": metadata.get(
+            "valid_to"
+        ),
+        "last_verified": metadata.get(
+            "last_verified"
+        ),
     }
 
 
 def blocked_node(
     state: GraphState,
 ) -> GraphState:
-
     return {
         **state,
         "status": "BLOCKED",
@@ -325,6 +577,39 @@ def blocked_node(
 def finish_node(
     state: GraphState,
 ) -> GraphState:
+    results = state.get(
+        "step_results",
+        {},
+    )
+
+    has_errors = any(
+        result.get("status") == "ERROR"
+        for result in results.values()
+    )
+
+    if has_errors:
+        return {
+            **state,
+            "current_step_id": None,
+            "current_step": None,
+            "dependency_results": {},
+            "status": "ERROR",
+        }
+
+    has_stubs = any(
+        result.get("status") == "STUB"
+        or result.get("stub") is True
+        for result in results.values()
+    )
+
+    if has_stubs:
+        return {
+            **state,
+            "current_step_id": None,
+            "current_step": None,
+            "dependency_results": {},
+            "status": "STUB",
+        }
 
     return {
         **state,

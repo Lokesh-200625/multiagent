@@ -8,8 +8,6 @@ class GraphState(TypedDict, total=False):
 
     execution_plan: dict[str, Any]
 
-    current_step_index: int
-
     current_step_id: str | None
 
     current_step: dict[str, Any] | None

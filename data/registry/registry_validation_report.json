@@ -5,7 +5,8 @@
     "restaurant_files": 120,
     "emergency_files": 23,
     "entities": 279,
-    "aliases": 639
+    "aliases": 639,
+    "related_mentions": 657
   },
   "duplicate_ids": [],
   "ambiguous_aliases": [
@@ -40,7 +41,7 @@
       ]
     },
     {
-      "normalized_alias": "flavor's inn",
+      "normalized_alias": "flavors inn",
       "candidates": [
         {
           "entity_id": "R0001",
@@ -250,7 +251,3367 @@
       ]
     }
   ],
+  "ambiguous_related_mentions": [
+    {
+      "normalized_mention": "accommodation available at the temple",
+      "targets": [
+        "T0003",
+        "T0018"
+      ],
+      "records": [
+        {
+          "mention": "accommodation available at the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0003",
+          "source_file": "data\\temples\\T0003.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "accommodation available at the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0018",
+          "source_file": "data\\temples\\T0018.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "accommodation available near the temple",
+      "targets": [
+        "T0004",
+        "T0012"
+      ],
+      "records": [
+        {
+          "mention": "accommodation available near the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0004",
+          "source_file": "data\\temples\\T0004.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "accommodation available near the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "accommodation facilities available",
+      "targets": [
+        "T0001",
+        "T0007",
+        "T0011",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "accommodation facilities available",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "accommodation facilities available",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "accommodation facilities available",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "accommodation facilities available",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "accommodation facilities available near the temple",
+      "targets": [
+        "T0006",
+        "T0016",
+        "T0020"
+      ],
+      "records": [
+        {
+          "mention": "accommodation facilities available near the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "accommodation facilities available near the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "accommodation facilities available near the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0020",
+          "source_file": "data\\temples\\T0020.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "are accommodation facilities available near the temple?",
+      "targets": [
+        "T0006",
+        "T0016",
+        "T0020"
+      ],
+      "records": [
+        {
+          "mention": "Are accommodation facilities available near the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "Are accommodation facilities available near the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "Are accommodation facilities available near the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0020",
+          "source_file": "data\\temples\\T0020.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "are accommodation facilities available?",
+      "targets": [
+        "T0001",
+        "T0007",
+        "T0011",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "Are accommodation facilities available?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "Are accommodation facilities available?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "Are accommodation facilities available?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "Are accommodation facilities available?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "bathukamma",
+      "targets": [
+        "T0003",
+        "T0012",
+        "T0013"
+      ],
+      "records": [
+        {
+          "mention": "Bathukamma",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0003",
+          "source_file": "data\\temples\\T0003.json",
+          "source_field": "festivals.festival",
+          "source_section": "Bathukamma"
+        },
+        {
+          "mention": "Bathukamma",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "festivals.festival",
+          "source_section": "Bathukamma"
+        },
+        {
+          "mention": "Bathukamma",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0013",
+          "source_file": "data\\temples\\T0013.json",
+          "source_field": "festivals.festival",
+          "source_section": "Bathukamma"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "bonalu",
+      "targets": [
+        "T0003",
+        "T0006",
+        "T0012",
+        "T0013",
+        "T0016"
+      ],
+      "records": [
+        {
+          "mention": "Bonalu",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0003",
+          "source_file": "data\\temples\\T0003.json",
+          "source_field": "festivals.festival",
+          "source_section": "Bonalu"
+        },
+        {
+          "mention": "Bonalu",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "festivals.festival",
+          "source_section": "Bonalu"
+        },
+        {
+          "mention": "Bonalu",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "festivals.festival",
+          "source_section": "Bonalu"
+        },
+        {
+          "mention": "Bonalu",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0013",
+          "source_file": "data\\temples\\T0013.json",
+          "source_field": "festivals.festival",
+          "source_section": "Bonalu"
+        },
+        {
+          "mention": "Bonalu",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "festivals.festival",
+          "source_section": "Bonalu"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "brahmotsavam",
+      "targets": [
+        "T0001",
+        "T0002",
+        "T0008",
+        "T0009",
+        "T0015",
+        "T0017",
+        "T0018",
+        "T0023"
+      ],
+      "records": [
+        {
+          "mention": "Brahmotsavam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "festivals.festival",
+          "source_section": "Brahmotsavam"
+        },
+        {
+          "mention": "Brahmotsavam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "festivals.festival",
+          "source_section": "Brahmotsavam"
+        },
+        {
+          "mention": "Brahmotsavam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0008",
+          "source_file": "data\\temples\\T0008.json",
+          "source_field": "festivals.festival",
+          "source_section": "Brahmotsavam"
+        },
+        {
+          "mention": "Brahmotsavam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "festivals.festival",
+          "source_section": "Brahmotsavam"
+        },
+        {
+          "mention": "Brahmotsavam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0015",
+          "source_file": "data\\temples\\T0015.json",
+          "source_field": "festivals.festival",
+          "source_section": "Komuravelli Mallanna Jathara (Brahmotsavam)"
+        },
+        {
+          "mention": "Brahmotsavam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "festivals.festival",
+          "source_section": "Brahmotsavam (Dharmapuri Lakshmi Narasimha Swamy Aalaya Jatara)"
+        },
+        {
+          "mention": "Brahmotsavam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0018",
+          "source_file": "data\\temples\\T0018.json",
+          "source_field": "festivals.festival",
+          "source_section": "Brahmotsavam"
+        },
+        {
+          "mention": "Brahmotsavam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0023",
+          "source_file": "data\\temples\\T0023.json",
+          "source_field": "festivals.festival",
+          "source_section": "Brahmotsavam (annual grand celebration)"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "dasara",
+      "targets": [
+        "T0003",
+        "T0006",
+        "T0012",
+        "T0016"
+      ],
+      "records": [
+        {
+          "mention": "Dasara",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0003",
+          "source_file": "data\\temples\\T0003.json",
+          "source_field": "festivals.festival",
+          "source_section": "Dasara (Navaratri)"
+        },
+        {
+          "mention": "Dasara",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sharannavaratri (Dasara)"
+        },
+        {
+          "mention": "Dasara",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sharannavaratri (Dasara)"
+        },
+        {
+          "mention": "Dasara",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "festivals.festival",
+          "source_section": "Dasara"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "deepavali",
+      "targets": [
+        "T0001",
+        "T0002",
+        "T0006",
+        "T0007",
+        "T0009",
+        "T0010",
+        "T0011",
+        "T0012",
+        "T0014",
+        "T0017",
+        "T0019",
+        "T0023"
+      ],
+      "records": [
+        {
+          "mention": "Deepavali",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "festivals.festival",
+          "source_section": "Deepavali"
+        },
+        {
+          "mention": "Deepavali",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "festivals.festival",
+          "source_section": "Deepavali"
+        },
+        {
+          "mention": "Deepavali",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "festivals.festival",
+          "source_section": "Deepavali"
+        },
+        {
+          "mention": "Deepavali",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "festivals.festival",
+          "source_section": "Deepavali"
+        },
+        {
+          "mention": "Deepavali",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "festivals.festival",
+          "source_section": "Deepavali"
+        },
+        {
+          "mention": "Deepavali",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0010",
+          "source_file": "data\\temples\\T0010.json",
+          "source_field": "festivals.festival",
+          "source_section": "Deepavali"
+        },
+        {
+          "mention": "Deepavali",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "festivals.festival",
+          "source_section": "Deepavali"
+        },
+        {
+          "mention": "Deepavali",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "festivals.festival",
+          "source_section": "Deepavali"
+        },
+        {
+          "mention": "Deepavali",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "festivals.festival",
+          "source_section": "Deepavali"
+        },
+        {
+          "mention": "Deepavali",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "festivals.festival",
+          "source_section": "Deepavali"
+        },
+        {
+          "mention": "Deepavali",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "festivals.festival",
+          "source_section": "Deepavali"
+        },
+        {
+          "mention": "Deepavali",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0023",
+          "source_file": "data\\temples\\T0023.json",
+          "source_field": "festivals.festival",
+          "source_section": "Deepavali"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "deity is worshipped here",
+      "targets": [
+        "T0009",
+        "T0014",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "deity is worshipped here",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "deity is worshipped here",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "deity is worshipped here",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "deity is worshipped in the temple",
+      "targets": [
+        "T0001",
+        "T0006",
+        "T0007",
+        "T0011",
+        "T0012",
+        "T0016",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "deity is worshipped in the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "deity is worshipped in the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "deity is worshipped in the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "deity is worshipped in the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "deity is worshipped in the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "deity is worshipped in the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "deity is worshipped in the temple",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "durga ashtami",
+      "targets": [
+        "T0010",
+        "T0012"
+      ],
+      "records": [
+        {
+          "mention": "Durga Ashtami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0010",
+          "source_file": "data\\temples\\T0010.json",
+          "source_field": "festivals.festival",
+          "source_section": "Durga Ashtami"
+        },
+        {
+          "mention": "Durga Ashtami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "festivals.festival",
+          "source_section": "Durga Ashtami"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "dussehra",
+      "targets": [
+        "T0002",
+        "T0010"
+      ],
+      "records": [
+        {
+          "mention": "Dussehra",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "festivals.festival",
+          "source_section": "Dussehra"
+        },
+        {
+          "mention": "Dussehra",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0010",
+          "source_file": "data\\temples\\T0010.json",
+          "source_field": "festivals.festival",
+          "source_section": "Vijayadashami (Dussehra)"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "festivals are celebrated",
+      "targets": [
+        "T0009",
+        "T0014",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "festivals are celebrated",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[7]"
+        },
+        {
+          "mention": "festivals are celebrated",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[7]"
+        },
+        {
+          "mention": "festivals are celebrated",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "government of telangana",
+      "targets": [
+        "T0001",
+        "T0021"
+      ],
+      "records": [
+        {
+          "mention": "Government of Telangana",
+          "mention_type": "person",
+          "relation": "associated_person",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "history.founders",
+          "source_section": "Patronage & Reconstruction"
+        },
+        {
+          "mention": "Government of Telangana",
+          "mention_type": "person",
+          "relation": "associated_person",
+          "target_entity_id": "T0021",
+          "source_file": "data\\temples\\T0021.json",
+          "source_field": "history.founders",
+          "source_section": "Modern Era: 1946, 1955, 1998, 2026"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "hanuman jayanthi",
+      "targets": [
+        "T0001",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "Hanuman Jayanthi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "festivals.festival",
+          "source_section": "Hanuman Jayanthi"
+        },
+        {
+          "mention": "Hanuman Jayanthi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "festivals.festival",
+          "source_section": "Hanuman Jayanthi"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "hanuman jayanti",
+      "targets": [
+        "T0002",
+        "T0005",
+        "T0011",
+        "T0020",
+        "T0022",
+        "T0023"
+      ],
+      "records": [
+        {
+          "mention": "Hanuman Jayanti",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "festivals.festival",
+          "source_section": "Hanuman Jayanti"
+        },
+        {
+          "mention": "Hanuman Jayanti",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0005",
+          "source_file": "data\\temples\\T0005.json",
+          "source_field": "festivals.festival",
+          "source_section": "Hanuman Jayanti"
+        },
+        {
+          "mention": "Hanuman Jayanti",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "festivals.festival",
+          "source_section": "Hanuman Jayanti"
+        },
+        {
+          "mention": "Hanuman Jayanti",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0020",
+          "source_file": "data\\temples\\T0020.json",
+          "source_field": "festivals.festival",
+          "source_section": "Hanuman Jayanti"
+        },
+        {
+          "mention": "Hanuman Jayanti",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0022",
+          "source_file": "data\\temples\\T0022.json",
+          "source_field": "festivals.festival",
+          "source_section": "Hanuman Jayanti"
+        },
+        {
+          "mention": "Hanuman Jayanti",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0023",
+          "source_file": "data\\temples\\T0023.json",
+          "source_field": "festivals.festival",
+          "source_section": "Hanuman Jayanti"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "is accommodation available at the temple?",
+      "targets": [
+        "T0003",
+        "T0018"
+      ],
+      "records": [
+        {
+          "mention": "Is accommodation available at the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0003",
+          "source_file": "data\\temples\\T0003.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "Is accommodation available at the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0018",
+          "source_file": "data\\temples\\T0018.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "is accommodation available near the temple?",
+      "targets": [
+        "T0004",
+        "T0012"
+      ],
+      "records": [
+        {
+          "mention": "Is accommodation available near the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0004",
+          "source_file": "data\\temples\\T0004.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "Is accommodation available near the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "is parking available?",
+      "targets": [
+        "T0009",
+        "T0014",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "Is parking available?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[8]"
+        },
+        {
+          "mention": "Is parking available?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[9]"
+        },
+        {
+          "mention": "Is parking available?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "is photography allowed?",
+      "targets": [
+        "T0009",
+        "T0014"
+      ],
+      "records": [
+        {
+          "mention": "Is photography allowed?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "Is photography allowed?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[8]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "is there an entry fee for darshan?",
+      "targets": [
+        "T0001",
+        "T0005",
+        "T0006",
+        "T0007",
+        "T0012",
+        "T0016",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "Is there an entry fee for darshan?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "Is there an entry fee for darshan?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0005",
+          "source_file": "data\\temples\\T0005.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "Is there an entry fee for darshan?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "Is there an entry fee for darshan?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "Is there an entry fee for darshan?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "Is there an entry fee for darshan?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "Is there an entry fee for darshan?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "is there an entry fee?",
+      "targets": [
+        "T0013",
+        "T0018"
+      ],
+      "records": [
+        {
+          "mention": "Is there an entry fee?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0013",
+          "source_file": "data\\temples\\T0013.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "Is there an entry fee?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0018",
+          "source_file": "data\\temples\\T0018.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "is there any entry fee for darshan?",
+      "targets": [
+        "T0002",
+        "T0011"
+      ],
+      "records": [
+        {
+          "mention": "Is there any entry fee for darshan?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "Is there any entry fee for darshan?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "is there any entry fee?",
+      "targets": [
+        "T0009",
+        "T0014",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "Is there any entry fee?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "Is there any entry fee?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "Is there any entry fee?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "karthika masam",
+      "targets": [
+        "T0001",
+        "T0002",
+        "T0003",
+        "T0006",
+        "T0007",
+        "T0011",
+        "T0012",
+        "T0013",
+        "T0014",
+        "T0015",
+        "T0016",
+        "T0020",
+        "T0021",
+        "T0022"
+      ],
+      "records": [
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0003",
+          "source_file": "data\\temples\\T0003.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0013",
+          "source_file": "data\\temples\\T0013.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0015",
+          "source_file": "data\\temples\\T0015.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0020",
+          "source_file": "data\\temples\\T0020.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam (October–November)"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0021",
+          "source_file": "data\\temples\\T0021.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam (October–November)"
+        },
+        {
+          "mention": "Karthika Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0022",
+          "source_file": "data\\temples\\T0022.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "karthika masam october–november",
+      "targets": [
+        "T0020",
+        "T0021"
+      ],
+      "records": [
+        {
+          "mention": "Karthika Masam (October–November)",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0020",
+          "source_file": "data\\temples\\T0020.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam (October–November)"
+        },
+        {
+          "mention": "Karthika Masam (October–November)",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0021",
+          "source_file": "data\\temples\\T0021.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam (October–November)"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "krishna janmashtami",
+      "targets": [
+        "T0009",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "Krishna Janmashtami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "festivals.festival",
+          "source_section": "Krishna Janmashtami"
+        },
+        {
+          "mention": "Krishna Janmashtami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "festivals.festival",
+          "source_section": "Krishna Janmashtami"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "maha shivaratri",
+      "targets": [
+        "T0003",
+        "T0004",
+        "T0006",
+        "T0007",
+        "T0011",
+        "T0012",
+        "T0013",
+        "T0014",
+        "T0015",
+        "T0016",
+        "T0018",
+        "T0022"
+      ],
+      "records": [
+        {
+          "mention": "Maha Shivaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0003",
+          "source_file": "data\\temples\\T0003.json",
+          "source_field": "festivals.festival",
+          "source_section": "Maha Shivaratri (Shivaratri Jatara)"
+        },
+        {
+          "mention": "Maha Shivaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0004",
+          "source_file": "data\\temples\\T0004.json",
+          "source_field": "festivals.festival",
+          "source_section": "Maha Shivaratri (February–March)"
+        },
+        {
+          "mention": "Maha Shivaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "festivals.festival",
+          "source_section": "Maha Shivaratri"
+        },
+        {
+          "mention": "Maha Shivaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "festivals.festival",
+          "source_section": "Maha Shivaratri"
+        },
+        {
+          "mention": "Maha Shivaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "festivals.festival",
+          "source_section": "Maha Shivaratri"
+        },
+        {
+          "mention": "Maha Shivaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "festivals.festival",
+          "source_section": "Maha Shivaratri"
+        },
+        {
+          "mention": "Maha Shivaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0013",
+          "source_file": "data\\temples\\T0013.json",
+          "source_field": "festivals.festival",
+          "source_section": "Maha Shivaratri"
+        },
+        {
+          "mention": "Maha Shivaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "festivals.festival",
+          "source_section": "Maha Shivaratri"
+        },
+        {
+          "mention": "Maha Shivaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0015",
+          "source_file": "data\\temples\\T0015.json",
+          "source_field": "festivals.festival",
+          "source_section": "Maha Shivaratri"
+        },
+        {
+          "mention": "Maha Shivaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "festivals.festival",
+          "source_section": "Maha Shivaratri"
+        },
+        {
+          "mention": "Maha Shivaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0018",
+          "source_file": "data\\temples\\T0018.json",
+          "source_field": "festivals.festival",
+          "source_section": "Maha Shivaratri"
+        },
+        {
+          "mention": "Maha Shivaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0022",
+          "source_file": "data\\temples\\T0022.json",
+          "source_field": "festivals.festival",
+          "source_section": "Maha Shivaratri"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "makar sankranti",
+      "targets": [
+        "T0002",
+        "T0007"
+      ],
+      "records": [
+        {
+          "mention": "Makar Sankranti",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "festivals.festival",
+          "source_section": "Makar Sankranti"
+        },
+        {
+          "mention": "Makar Sankranti",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "festivals.festival",
+          "source_section": "Makar Sankranti"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "mukkoti ekadasi",
+      "targets": [
+        "T0002",
+        "T0009",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "Mukkoti Ekadasi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "festivals.festival",
+          "source_section": "Mukkoti Ekadasi"
+        },
+        {
+          "mention": "Mukkoti Ekadasi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "festivals.festival",
+          "source_section": "Mukkoti Ekadasi"
+        },
+        {
+          "mention": "Mukkoti Ekadasi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "festivals.festival",
+          "source_section": "Mukkoti Ekadasi"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "namesake",
+      "targets": [
+        "T0014",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "namesake",
+          "mention_type": "person",
+          "relation": "associated_person",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "history.founders",
+          "source_section": "Construction & Naming"
+        },
+        {
+          "mention": "namesake",
+          "mention_type": "person",
+          "relation": "associated_person",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "history.founders",
+          "source_section": "Origin & Dynastic Patronage"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "narasimha jayanthi",
+      "targets": [
+        "T0001",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "Narasimha Jayanthi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "festivals.festival",
+          "source_section": "Narasimha Jayanthi"
+        },
+        {
+          "mention": "Narasimha Jayanthi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "festivals.festival",
+          "source_section": "Narasimha Jayanthi"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "navaratri",
+      "targets": [
+        "T0003",
+        "T0007",
+        "T0016"
+      ],
+      "records": [
+        {
+          "mention": "Navaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0003",
+          "source_file": "data\\temples\\T0003.json",
+          "source_field": "festivals.festival",
+          "source_section": "Dasara (Navaratri)"
+        },
+        {
+          "mention": "Navaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "festivals.festival",
+          "source_section": "Navaratri"
+        },
+        {
+          "mention": "Navaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "festivals.festival",
+          "source_section": "Navaratri (Devi Navaratri)"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "october–november",
+      "targets": [
+        "T0020",
+        "T0021"
+      ],
+      "records": [
+        {
+          "mention": "October–November",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0020",
+          "source_file": "data\\temples\\T0020.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam (October–November)"
+        },
+        {
+          "mention": "October–November",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0021",
+          "source_file": "data\\temples\\T0021.json",
+          "source_field": "festivals.festival",
+          "source_section": "Karthika Masam (October–November)"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "parking available",
+      "targets": [
+        "T0009",
+        "T0014",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "parking available",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[8]"
+        },
+        {
+          "mention": "parking available",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[9]"
+        },
+        {
+          "mention": "parking available",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "photography allowed",
+      "targets": [
+        "T0009",
+        "T0014"
+      ],
+      "records": [
+        {
+          "mention": "photography allowed",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "photography allowed",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[8]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "pradosham",
+      "targets": [
+        "T0011",
+        "T0014"
+      ],
+      "records": [
+        {
+          "mention": "Pradosham",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "festivals.festival",
+          "source_section": "Pradosham"
+        },
+        {
+          "mention": "Pradosham",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "festivals.festival",
+          "source_section": "Pradosham"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "rama navami",
+      "targets": [
+        "T0020",
+        "T0022"
+      ],
+      "records": [
+        {
+          "mention": "Rama Navami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0020",
+          "source_file": "data\\temples\\T0020.json",
+          "source_field": "festivals.festival",
+          "source_section": "Rama Navami"
+        },
+        {
+          "mention": "Rama Navami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0022",
+          "source_file": "data\\temples\\T0022.json",
+          "source_field": "festivals.festival",
+          "source_section": "Rama Navami"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "sankranti",
+      "targets": [
+        "T0014",
+        "T0015"
+      ],
+      "records": [
+        {
+          "mention": "Sankranti",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sankranti"
+        },
+        {
+          "mention": "Sankranti",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0015",
+          "source_file": "data\\temples\\T0015.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sankranti (Makara Sankranti)"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "sharannavaratri",
+      "targets": [
+        "T0006",
+        "T0012"
+      ],
+      "records": [
+        {
+          "mention": "Sharannavaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sharannavaratri (Dasara)"
+        },
+        {
+          "mention": "Sharannavaratri",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sharannavaratri (Dasara)"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "sharannavaratri dasara",
+      "targets": [
+        "T0006",
+        "T0012"
+      ],
+      "records": [
+        {
+          "mention": "Sharannavaratri (Dasara)",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sharannavaratri (Dasara)"
+        },
+        {
+          "mention": "Sharannavaratri (Dasara)",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sharannavaratri (Dasara)"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "shravana masam",
+      "targets": [
+        "T0007",
+        "T0011"
+      ],
+      "records": [
+        {
+          "mention": "Shravana Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "festivals.festival",
+          "source_section": "Shravana Masam"
+        },
+        {
+          "mention": "Shravana Masam",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "festivals.festival",
+          "source_section": "Shravana Masam"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "sri krishna janmashtami",
+      "targets": [
+        "T0010",
+        "T0018",
+        "T0022",
+        "T0023"
+      ],
+      "records": [
+        {
+          "mention": "Sri Krishna Janmashtami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0010",
+          "source_file": "data\\temples\\T0010.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Krishna Janmashtami"
+        },
+        {
+          "mention": "Sri Krishna Janmashtami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0018",
+          "source_file": "data\\temples\\T0018.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Krishna Janmashtami"
+        },
+        {
+          "mention": "Sri Krishna Janmashtami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0022",
+          "source_file": "data\\temples\\T0022.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Krishna Janmashtami"
+        },
+        {
+          "mention": "Sri Krishna Janmashtami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0023",
+          "source_file": "data\\temples\\T0023.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Krishna Janmashtami"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "sri lakshmi narasimha swamy temple located",
+      "targets": [
+        "T0001",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "Sri Lakshmi Narasimha Swamy Temple located",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "faq.question",
+          "source_section": "faq[0]"
+        },
+        {
+          "mention": "Sri Lakshmi Narasimha Swamy Temple located",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "faq.question",
+          "source_section": "faq[0]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "sri rama navami",
+      "targets": [
+        "T0001",
+        "T0002",
+        "T0003",
+        "T0005",
+        "T0009",
+        "T0011",
+        "T0017",
+        "T0018",
+        "T0019",
+        "T0023"
+      ],
+      "records": [
+        {
+          "mention": "Sri Rama Navami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Rama Navami"
+        },
+        {
+          "mention": "Sri Rama Navami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Rama Navami"
+        },
+        {
+          "mention": "Sri Rama Navami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0003",
+          "source_file": "data\\temples\\T0003.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Rama Navami"
+        },
+        {
+          "mention": "Sri Rama Navami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0005",
+          "source_file": "data\\temples\\T0005.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Rama Navami"
+        },
+        {
+          "mention": "Sri Rama Navami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Rama Navami"
+        },
+        {
+          "mention": "Sri Rama Navami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Rama Navami"
+        },
+        {
+          "mention": "Sri Rama Navami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Rama Navami"
+        },
+        {
+          "mention": "Sri Rama Navami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0018",
+          "source_file": "data\\temples\\T0018.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Rama Navami"
+        },
+        {
+          "mention": "Sri Rama Navami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Rama Navami"
+        },
+        {
+          "mention": "Sri Rama Navami",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0023",
+          "source_file": "data\\temples\\T0023.json",
+          "source_field": "festivals.festival",
+          "source_section": "Sri Rama Navami"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "temple",
+      "targets": [
+        "T0006",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "temple",
+          "mention_type": "person",
+          "relation": "associated_person",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "history.founders",
+          "source_section": "Origin (7th Century CE)"
+        },
+        {
+          "mention": "temple",
+          "mention_type": "person",
+          "relation": "associated_person",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "history.founders",
+          "source_section": "Origin & Dynastic Patronage"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "the best time of year to visit",
+      "targets": [
+        "T0003",
+        "T0008",
+        "T0013"
+      ],
+      "records": [
+        {
+          "mention": "the best time of year to visit",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0003",
+          "source_file": "data\\temples\\T0003.json",
+          "source_field": "faq.question",
+          "source_section": "faq[8]"
+        },
+        {
+          "mention": "the best time of year to visit",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0008",
+          "source_file": "data\\temples\\T0008.json",
+          "source_field": "faq.question",
+          "source_section": "faq[11]"
+        },
+        {
+          "mention": "the best time of year to visit",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0013",
+          "source_file": "data\\temples\\T0013.json",
+          "source_field": "faq.question",
+          "source_section": "faq[9]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "the biggest festival celebrated here",
+      "targets": [
+        "T0001",
+        "T0002",
+        "T0006",
+        "T0007",
+        "T0011",
+        "T0012",
+        "T0016",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "the biggest festival celebrated here",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "the biggest festival celebrated here",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "the biggest festival celebrated here",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "the biggest festival celebrated here",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "the biggest festival celebrated here",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "the biggest festival celebrated here",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "the biggest festival celebrated here",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "the biggest festival celebrated here",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "the nearby attractions",
+      "targets": [
+        "T0009",
+        "T0014",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "the nearby attractions",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[9]"
+        },
+        {
+          "mention": "the nearby attractions",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[10]"
+        },
+        {
+          "mention": "the nearby attractions",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "faq.question",
+          "source_section": "faq[9]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "the temple timings",
+      "targets": [
+        "T0001",
+        "T0002",
+        "T0006",
+        "T0007",
+        "T0009",
+        "T0010",
+        "T0011",
+        "T0012",
+        "T0014",
+        "T0016",
+        "T0017",
+        "T0019",
+        "T0020"
+      ],
+      "records": [
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[0]"
+        },
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0010",
+          "source_file": "data\\temples\\T0010.json",
+          "source_field": "faq.question",
+          "source_section": "faq[2]"
+        },
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[0]"
+        },
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "faq.question",
+          "source_section": "faq[0]"
+        },
+        {
+          "mention": "the temple timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0020",
+          "source_file": "data\\temples\\T0020.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "the temples darshan timings",
+      "targets": [
+        "T0008",
+        "T0018"
+      ],
+      "records": [
+        {
+          "mention": "the temple's darshan timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0008",
+          "source_file": "data\\temples\\T0008.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "the temple's darshan timings",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0018",
+          "source_file": "data\\temples\\T0018.json",
+          "source_field": "faq.question",
+          "source_section": "faq[0]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "there an entry fee",
+      "targets": [
+        "T0013",
+        "T0018"
+      ],
+      "records": [
+        {
+          "mention": "there an entry fee",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0013",
+          "source_file": "data\\temples\\T0013.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "there an entry fee",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0018",
+          "source_file": "data\\temples\\T0018.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "there an entry fee for darshan",
+      "targets": [
+        "T0001",
+        "T0005",
+        "T0006",
+        "T0007",
+        "T0012",
+        "T0016",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "there an entry fee for darshan",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "there an entry fee for darshan",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0005",
+          "source_file": "data\\temples\\T0005.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "there an entry fee for darshan",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "there an entry fee for darshan",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "there an entry fee for darshan",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "there an entry fee for darshan",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "there an entry fee for darshan",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "there any entry fee",
+      "targets": [
+        "T0009",
+        "T0014",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "there any entry fee",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "there any entry fee",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "there any entry fee",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "there any entry fee for darshan",
+      "targets": [
+        "T0002",
+        "T0011"
+      ],
+      "records": [
+        {
+          "mention": "there any entry fee for darshan",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "there any entry fee for darshan",
+          "mention_type": "topic",
+          "relation": "faq_topic_phrase",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "tradition",
+      "targets": [
+        "T0016",
+        "T0018"
+      ],
+      "records": [
+        {
+          "mention": "tradition",
+          "mention_type": "person",
+          "relation": "associated_person",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "history.founders",
+          "source_section": "Origin & Parikshit / Janamejaya Legend"
+        },
+        {
+          "mention": "tradition",
+          "mention_type": "person",
+          "relation": "associated_person",
+          "target_entity_id": "T0018",
+          "source_file": "data\\temples\\T0018.json",
+          "source_field": "history.founders",
+          "source_section": "Historical Background & Royal Patronage"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "ugadi",
+      "targets": [
+        "T0001",
+        "T0002",
+        "T0006",
+        "T0007",
+        "T0009",
+        "T0011",
+        "T0012",
+        "T0014",
+        "T0015",
+        "T0016",
+        "T0017",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "Ugadi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "festivals.festival",
+          "source_section": "Ugadi"
+        },
+        {
+          "mention": "Ugadi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "festivals.festival",
+          "source_section": "Ugadi"
+        },
+        {
+          "mention": "Ugadi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "festivals.festival",
+          "source_section": "Ugadi"
+        },
+        {
+          "mention": "Ugadi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "festivals.festival",
+          "source_section": "Ugadi"
+        },
+        {
+          "mention": "Ugadi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "festivals.festival",
+          "source_section": "Ugadi"
+        },
+        {
+          "mention": "Ugadi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "festivals.festival",
+          "source_section": "Ugadi"
+        },
+        {
+          "mention": "Ugadi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "festivals.festival",
+          "source_section": "Ugadi"
+        },
+        {
+          "mention": "Ugadi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "festivals.festival",
+          "source_section": "Ugadi"
+        },
+        {
+          "mention": "Ugadi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0015",
+          "source_file": "data\\temples\\T0015.json",
+          "source_field": "festivals.festival",
+          "source_section": "Ugadi"
+        },
+        {
+          "mention": "Ugadi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "festivals.festival",
+          "source_section": "Ugadi"
+        },
+        {
+          "mention": "Ugadi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "festivals.festival",
+          "source_section": "Ugadi"
+        },
+        {
+          "mention": "Ugadi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "festivals.festival",
+          "source_section": "Ugadi"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "vaikunta ekadasi",
+      "targets": [
+        "T0002",
+        "T0005",
+        "T0009",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "Vaikunta Ekadasi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "festivals.festival",
+          "source_section": "Vaikunta Ekadasi"
+        },
+        {
+          "mention": "Vaikunta Ekadasi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0005",
+          "source_file": "data\\temples\\T0005.json",
+          "source_field": "festivals.festival",
+          "source_section": "Vaikunta Ekadasi"
+        },
+        {
+          "mention": "Vaikunta Ekadasi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "festivals.festival",
+          "source_section": "Vaikunta Ekadasi"
+        },
+        {
+          "mention": "Vaikunta Ekadasi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "festivals.festival",
+          "source_section": "Vaikunta Ekadasi"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "vaikuntha ekadashi",
+      "targets": [
+        "T0001",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "Vaikuntha Ekadashi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "festivals.festival",
+          "source_section": "Vaikuntha Ekadashi"
+        },
+        {
+          "mention": "Vaikuntha Ekadashi",
+          "mention_type": "festival",
+          "relation": "festival",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "festivals.festival",
+          "source_section": "Vaikuntha Ekadashi (Mokshada Ekadashi)"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "what are the nearby attractions?",
+      "targets": [
+        "T0009",
+        "T0014",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "What are the nearby attractions?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[9]"
+        },
+        {
+          "mention": "What are the nearby attractions?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[10]"
+        },
+        {
+          "mention": "What are the nearby attractions?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "faq.question",
+          "source_section": "faq[9]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "what are the temple timings?",
+      "targets": [
+        "T0001",
+        "T0002",
+        "T0006",
+        "T0007",
+        "T0009",
+        "T0010",
+        "T0011",
+        "T0012",
+        "T0014",
+        "T0016",
+        "T0017",
+        "T0019",
+        "T0020"
+      ],
+      "records": [
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[0]"
+        },
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0010",
+          "source_file": "data\\temples\\T0010.json",
+          "source_field": "faq.question",
+          "source_section": "faq[2]"
+        },
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[0]"
+        },
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        },
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "faq.question",
+          "source_section": "faq[0]"
+        },
+        {
+          "mention": "What are the temple timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0020",
+          "source_file": "data\\temples\\T0020.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "what are the temples darshan timings?",
+      "targets": [
+        "T0008",
+        "T0018"
+      ],
+      "records": [
+        {
+          "mention": "What are the temple's darshan timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0008",
+          "source_file": "data\\temples\\T0008.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "What are the temple's darshan timings?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0018",
+          "source_file": "data\\temples\\T0018.json",
+          "source_field": "faq.question",
+          "source_section": "faq[0]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "what is the best time of year to visit?",
+      "targets": [
+        "T0003",
+        "T0008",
+        "T0013"
+      ],
+      "records": [
+        {
+          "mention": "What is the best time of year to visit?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0003",
+          "source_file": "data\\temples\\T0003.json",
+          "source_field": "faq.question",
+          "source_section": "faq[8]"
+        },
+        {
+          "mention": "What is the best time of year to visit?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0008",
+          "source_file": "data\\temples\\T0008.json",
+          "source_field": "faq.question",
+          "source_section": "faq[11]"
+        },
+        {
+          "mention": "What is the best time of year to visit?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0013",
+          "source_file": "data\\temples\\T0013.json",
+          "source_field": "faq.question",
+          "source_section": "faq[9]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "where is sri lakshmi narasimha swamy temple located?",
+      "targets": [
+        "T0001",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "Where is Sri Lakshmi Narasimha Swamy Temple located?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "faq.question",
+          "source_section": "faq[0]"
+        },
+        {
+          "mention": "Where is Sri Lakshmi Narasimha Swamy Temple located?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "faq.question",
+          "source_section": "faq[0]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "which deity is worshipped here?",
+      "targets": [
+        "T0009",
+        "T0014",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "Which deity is worshipped here?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[6]"
+        },
+        {
+          "mention": "Which deity is worshipped here?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[4]"
+        },
+        {
+          "mention": "Which deity is worshipped here?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "faq.question",
+          "source_section": "faq[3]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "which deity is worshipped in the temple?",
+      "targets": [
+        "T0001",
+        "T0006",
+        "T0007",
+        "T0011",
+        "T0012",
+        "T0016",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "Which deity is worshipped in the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "Which deity is worshipped in the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "Which deity is worshipped in the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "Which deity is worshipped in the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "Which deity is worshipped in the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "Which deity is worshipped in the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        },
+        {
+          "mention": "Which deity is worshipped in the temple?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "faq.question",
+          "source_section": "faq[1]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "which festivals are celebrated?",
+      "targets": [
+        "T0009",
+        "T0014",
+        "T0019"
+      ],
+      "records": [
+        {
+          "mention": "Which festivals are celebrated?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0009",
+          "source_file": "data\\temples\\T0009.json",
+          "source_field": "faq.question",
+          "source_section": "faq[7]"
+        },
+        {
+          "mention": "Which festivals are celebrated?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0014",
+          "source_file": "data\\temples\\T0014.json",
+          "source_field": "faq.question",
+          "source_section": "faq[7]"
+        },
+        {
+          "mention": "Which festivals are celebrated?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0019",
+          "source_file": "data\\temples\\T0019.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        }
+      ]
+    },
+    {
+      "normalized_mention": "which is the biggest festival celebrated here?",
+      "targets": [
+        "T0001",
+        "T0002",
+        "T0006",
+        "T0007",
+        "T0011",
+        "T0012",
+        "T0016",
+        "T0017"
+      ],
+      "records": [
+        {
+          "mention": "Which is the biggest festival celebrated here?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0001",
+          "source_file": "data\\temples\\T0001.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "Which is the biggest festival celebrated here?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0002",
+          "source_file": "data\\temples\\T0002.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "Which is the biggest festival celebrated here?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0006",
+          "source_file": "data\\temples\\T0006.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "Which is the biggest festival celebrated here?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0007",
+          "source_file": "data\\temples\\T0007.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "Which is the biggest festival celebrated here?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0011",
+          "source_file": "data\\temples\\T0011.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "Which is the biggest festival celebrated here?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0012",
+          "source_file": "data\\temples\\T0012.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "Which is the biggest festival celebrated here?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0016",
+          "source_file": "data\\temples\\T0016.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        },
+        {
+          "mention": "Which is the biggest festival celebrated here?",
+          "mention_type": "topic",
+          "relation": "faq_topic",
+          "target_entity_id": "T0017",
+          "source_file": "data\\temples\\T0017.json",
+          "source_field": "faq.question",
+          "source_section": "faq[5]"
+        }
+      ]
+    }
+  ],
   "unknown_references": [],
+  "unknown_related_references": [],
   "invalid_json": [],
   "invalid_records": []
 }

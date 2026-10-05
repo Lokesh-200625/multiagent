@@ -161,25 +161,63 @@ def _resolve_entity(
         "canonical_name"
     )
 
+    status = result.get(
+        "status",
+        "UNRESOLVED",
+    )
+
+    match_type = result.get(
+        "match_type"
+    )
+
+    confidence = result.get(
+        "match_score",
+        0.0,
+    )
+
+    # IMPORTANT:
+    #
+    # The LLM entity_type describes the user's semantic mention.
+    # Once deterministic resolution succeeds, downstream planning
+    # must use the canonical registry entity type.
+    #
+    # Example:
+    #
+    #   user mention: Ramadasu
+    #   LLM type:     person
+    #   registry:     T0002
+    #   canonical:    temple
+    #
+    # Therefore the resolved entity becomes:
+    #
+    #   entity_type = temple
+    #
+    # This allows LangGraph to route the step to temple_agent.
+    resolved_entity_type = entity.entity_type
+
+    if (
+        status == "RESOLVED"
+        and resolved_entity
+        and resolved_entity.get("entity_type")
+    ):
+        resolved_entity_type = str(
+            resolved_entity["entity_type"]
+        )
+
     return ResolvedEntity(
         mention=entity.mention,
-        entity_type=entity.entity_type,
+        entity_type=resolved_entity_type,
         canonical_id=canonical_id,
         canonical_name=canonical_name,
-        status=result["status"],
-        confidence=result.get(
-            "match_score",
-            0.0,
-        ),
-        match_type=result.get(
-            "match_type"
-        ),
+        status=status,
+        confidence=confidence,
+        match_type=match_type,
         candidates=_normalize_candidates(
             result.get(
                 "candidates",
                 [],
             ),
-            entity.entity_type,
+            resolved_entity_type,
         ),
     )
 

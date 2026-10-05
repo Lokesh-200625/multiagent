@@ -1,4 +1,6 @@
 import json
+import re
+
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
@@ -20,12 +22,12 @@ OUTPUT_FILE = OUTPUT_DIR / "entity_registry.json"
 REPORT_FILE = OUTPUT_DIR / "registry_validation_report.json"
 
 
-def normalize_text(value: str) -> str:
-    """
-    Basic deterministic normalization.
+# =============================================================
+# NORMALIZATION
+# =============================================================
 
-    More advanced spelling/fuzzy matching will be added later.
-    """
+
+def normalize_text(value: str) -> str:
     if not isinstance(value, str):
         return ""
 
@@ -40,12 +42,21 @@ def normalize_text(value: str) -> str:
         "\\": " ",
         "(": " ",
         ")": " ",
+        "'": "",
+        '"': "",
+        ":": " ",
+        ";": " ",
     }
 
     for old, new in replacements.items():
         value = value.replace(old, new)
 
     return " ".join(value.split())
+
+
+# =============================================================
+# BASIC HELPERS
+# =============================================================
 
 
 def load_json(path: Path) -> Any:
@@ -66,10 +77,7 @@ def ensure_list(value: Any) -> list:
     return [value]
 
 
-def first_non_empty(
-    *values: Any,
-) -> Any:
-
+def first_non_empty(*values: Any) -> Any:
     for value in values:
         if value not in (
             None,
@@ -82,13 +90,697 @@ def first_non_empty(
     return None
 
 
+def add_alias(
+    aliases: dict[str, set[str]],
+    alias: Any,
+    entity_id: str,
+):
+    if not isinstance(alias, str):
+        return
+
+    normalized = normalize_text(alias)
+
+    if not normalized:
+        return
+
+    aliases[normalized].add(entity_id)
+
+
+def add_aliases(
+    aliases: dict[str, set[str]],
+    values: list[Any],
+    entity_id: str,
+):
+    for value in values:
+        if isinstance(value, str):
+            add_alias(
+                aliases,
+                value,
+                entity_id,
+            )
+
+
+# =============================================================
+# RELATED MENTION INDEX
+# =============================================================
+
+
+def add_related_mention(
+    related_mentions: dict[str, list[dict]],
+    mention: Any,
+    *,
+    mention_type: str,
+    relation: str,
+    target_entity_id: str,
+    source_file: str,
+    source_field: str,
+    source_section: str | None = None,
+):
+    """
+    Add a deterministic semantic/relationship mention.
+
+    Example:
+
+        Kancharla Gopanna (Bhakta Ramadasu)
+            -> person
+            -> associated_person
+            -> T0002
+
+        Ramadasu
+            -> person
+            -> associated_person
+            -> T0002
+
+        Komuravelli Mallanna Jathara
+            -> festival
+            -> festival
+            -> T0015
+
+        Komuravelli Jathara
+            -> festival
+            -> festival
+            -> T0015
+    """
+
+    if not isinstance(mention, str):
+        return
+
+    mention = mention.strip()
+
+    if not mention:
+        return
+
+    normalized = normalize_text(mention)
+
+    if not normalized:
+        return
+
+    record = {
+        "mention": mention,
+        "mention_type": mention_type,
+        "relation": relation,
+        "target_entity_id": target_entity_id,
+        "source_file": source_file,
+        "source_field": source_field,
+        "source_section": source_section,
+    }
+
+    existing = related_mentions[normalized]
+
+    identity = (
+        record["target_entity_id"],
+        record["relation"],
+        record["mention_type"],
+        record["source_file"],
+        record["source_field"],
+        record["source_section"],
+    )
+
+    for item in existing:
+        existing_identity = (
+            item.get("target_entity_id"),
+            item.get("relation"),
+            item.get("mention_type"),
+            item.get("source_file"),
+            item.get("source_field"),
+            item.get("source_section"),
+        )
+
+        if existing_identity == identity:
+            return
+
+    existing.append(record)
+
+
+def _clean_named_phrase(value: str) -> str:
+    if not isinstance(value, str):
+        return ""
+
+    value = value.strip()
+
+    while value.endswith(
+        (
+            ".",
+            ",",
+            ";",
+            ":",
+        )
+    ):
+        value = value[:-1].strip()
+
+    return value
+
+
+def _add_parenthetical_variants(
+    related_mentions: dict[str, list[dict]],
+    value: str,
+    *,
+    mention_type: str,
+    relation: str,
+    target_entity_id: str,
+    source_file: str,
+    source_field: str,
+    source_section: str | None = None,
+):
+    """
+    Extract deterministic variants from parenthetical names.
+
+    Example:
+
+        Kancharla Gopanna (Bhakta Ramadasu)
+
+    produces:
+
+        Kancharla Gopanna (Bhakta Ramadasu)
+        Kancharla Gopanna
+        Bhakta Ramadasu
+        Ramadasu
+
+    Example:
+
+        Komuravelli Mallanna Jathara (Brahmotsavam)
+
+    produces:
+
+        Komuravelli Mallanna Jathara (Brahmotsavam)
+        Komuravelli Mallanna Jathara
+        Brahmotsavam
+    """
+
+    value = _clean_named_phrase(value)
+
+    if not value:
+        return
+
+    # Always retain the complete source phrase.
+    add_related_mention(
+        related_mentions,
+        value,
+        mention_type=mention_type,
+        relation=relation,
+        target_entity_id=target_entity_id,
+        source_file=source_file,
+        source_field=source_field,
+        source_section=source_section,
+    )
+
+    match = re.match(
+        r"^(.*?)\s*\(([^()]+)\)\s*$",
+        value,
+    )
+
+    if not match:
+        return
+
+    main_name = _clean_named_phrase(
+        match.group(1)
+    )
+
+    parenthetical = _clean_named_phrase(
+        match.group(2)
+    )
+
+    if main_name:
+        add_related_mention(
+            related_mentions,
+            main_name,
+            mention_type=mention_type,
+            relation=relation,
+            target_entity_id=target_entity_id,
+            source_file=source_file,
+            source_field=source_field,
+            source_section=source_section,
+        )
+
+    if parenthetical:
+        add_related_mention(
+            related_mentions,
+            parenthetical,
+            mention_type=mention_type,
+            relation=relation,
+            target_entity_id=target_entity_id,
+            source_file=source_file,
+            source_field=source_field,
+            source_section=source_section,
+        )
+
+    # Deterministic short-name extraction for person variants.
+    #
+    # Example:
+    #
+    #     Bhakta Ramadasu -> Ramadasu
+    #
+    # This is intentionally applied only to person mentions
+    # extracted from a parenthetical name. It does not scan
+    # arbitrary prose for person names.
+    if mention_type == "person":
+        parenthetical_tokens = parenthetical.split()
+
+        if len(parenthetical_tokens) >= 2:
+            short_name = _clean_named_phrase(
+                parenthetical_tokens[-1]
+            )
+
+            if short_name:
+                add_related_mention(
+                    related_mentions,
+                    short_name,
+                    mention_type=mention_type,
+                    relation=relation,
+                    target_entity_id=target_entity_id,
+                    source_file=source_file,
+                    source_field=source_field,
+                    source_section=source_section,
+                )
+
+
+def _add_name_variants(
+    related_mentions: dict[str, list[dict]],
+    value: str,
+    *,
+    mention_type: str,
+    relation: str,
+    target_entity_id: str,
+    source_file: str,
+    source_field: str,
+    source_section: str | None = None,
+):
+    """
+    Generate deterministic variants for known named entities.
+
+    For festivals/events this additionally supports:
+
+        Komuravelli Mallanna Jathara
+        -> Komuravelli Jathara
+    """
+
+    value = _clean_named_phrase(value)
+
+    if not value:
+        return
+
+    _add_parenthetical_variants(
+        related_mentions,
+        value,
+        mention_type=mention_type,
+        relation=relation,
+        target_entity_id=target_entity_id,
+        source_file=source_file,
+        source_field=source_field,
+        source_section=source_section,
+    )
+
+    if mention_type not in {
+        "festival",
+        "event",
+    }:
+        return
+
+    base = re.sub(
+        r"\s*\([^()]*\)",
+        "",
+        value,
+    ).strip()
+
+    tokens = base.split()
+
+    if len(tokens) < 3:
+        return
+
+    event_tokens = {
+        "jathara",
+        "jatara",
+        "jatra",
+        "festival",
+        "brahmotsavam",
+        "utsavam",
+        "mahotsavam",
+    }
+
+    event_positions = [
+        index
+        for index, token in enumerate(tokens)
+        if token.lower().strip(".,;:")
+        in event_tokens
+    ]
+
+    for event_index in event_positions:
+        if event_index < 1:
+            continue
+
+        first_token = tokens[0]
+        event_token = tokens[event_index]
+
+        candidate = (
+            f"{first_token} {event_token}"
+        )
+
+        if (
+            normalize_text(candidate)
+            == normalize_text(value)
+        ):
+            continue
+
+        add_related_mention(
+            related_mentions,
+            candidate,
+            mention_type=mention_type,
+            relation=relation,
+            target_entity_id=target_entity_id,
+            source_file=source_file,
+            source_field=source_field,
+            source_section=source_section,
+        )
+
+
+def add_related_values(
+    related_mentions: dict[str, list[dict]],
+    values: Any,
+    *,
+    mention_type: str,
+    relation: str,
+    target_entity_id: str,
+    source_file: str,
+    source_field: str,
+    source_section: str | None = None,
+):
+    for value in ensure_list(values):
+        if not isinstance(value, str):
+            continue
+
+        _add_name_variants(
+            related_mentions,
+            value,
+            mention_type=mention_type,
+            relation=relation,
+            target_entity_id=target_entity_id,
+            source_file=source_file,
+            source_field=source_field,
+            source_section=source_section,
+        )
+
+
+def extract_related_mentions_from_temple(
+    data: dict,
+    temple_id: str,
+    source_file: str,
+    related_mentions: dict[str, list[dict]],
+):
+    """
+    Extract deterministic relationship mentions from known
+    semantic structures in the temple document.
+
+    This intentionally does not treat arbitrary prose as aliases.
+    """
+
+    # ---------------------------------------------------------
+    # FOUNDERS / ASSOCIATED PEOPLE
+    # ---------------------------------------------------------
+
+    add_related_values(
+        related_mentions,
+        data.get("founders"),
+        mention_type="person",
+        relation="associated_person",
+        target_entity_id=temple_id,
+        source_file=source_file,
+        source_field="founders",
+    )
+
+    # ---------------------------------------------------------
+    # HISTORY
+    # ---------------------------------------------------------
+
+    history = data.get(
+        "history",
+        [],
+    )
+
+    for index, item in enumerate(
+        ensure_list(history)
+    ):
+        if not isinstance(item, dict):
+            continue
+
+        section = first_non_empty(
+            item.get("section"),
+            item.get("title"),
+            f"history[{index}]",
+        )
+
+        section_name = str(section)
+
+        # Explicit people fields.
+        for field in (
+            "person",
+            "people",
+            "persons",
+            "founder",
+            "founders",
+            "associated_person",
+            "associated_people",
+        ):
+            add_related_values(
+                related_mentions,
+                item.get(field),
+                mention_type="person",
+                relation="associated_person",
+                target_entity_id=temple_id,
+                source_file=source_file,
+                source_field=f"history.{field}",
+                source_section=section_name,
+            )
+
+        # Explicit named person fields.
+        for field in (
+            "name",
+            "person_name",
+        ):
+            value = item.get(field)
+
+            if isinstance(value, str):
+                add_related_values(
+                    related_mentions,
+                    value,
+                    mention_type="person",
+                    relation="historical_person",
+                    target_entity_id=temple_id,
+                    source_file=source_file,
+                    source_field=f"history.{field}",
+                    source_section=section_name,
+                )
+
+    # ---------------------------------------------------------
+    # FESTIVALS
+    # ---------------------------------------------------------
+
+    festivals = data.get(
+        "festivals",
+        [],
+    )
+
+    for index, festival in enumerate(
+        ensure_list(festivals)
+    ):
+        if not isinstance(festival, dict):
+            continue
+
+        section = first_non_empty(
+            festival.get("festival"),
+            festival.get("name"),
+            festival.get("title"),
+            f"festivals[{index}]",
+        )
+
+        section_name = str(section)
+
+        for field in (
+            "festival",
+            "name",
+            "title",
+            "festival_name",
+            "event",
+            "event_name",
+        ):
+            value = festival.get(field)
+
+            if not isinstance(value, str):
+                continue
+
+            _add_name_variants(
+                related_mentions,
+                value,
+                mention_type="festival",
+                relation="festival",
+                target_entity_id=temple_id,
+                source_file=source_file,
+                source_field=f"festivals.{field}",
+                source_section=section_name,
+            )
+
+    # ---------------------------------------------------------
+    # FAQ
+    # ---------------------------------------------------------
+
+    faq = data.get(
+        "faq",
+        [],
+    )
+
+    for index, item in enumerate(
+        ensure_list(faq)
+    ):
+        if not isinstance(item, dict):
+            continue
+
+        question = first_non_empty(
+            item.get("question"),
+            item.get("query"),
+            item.get("title"),
+        )
+
+        answer = first_non_empty(
+            item.get("answer"),
+            item.get("response"),
+        )
+
+        section = f"faq[{index}]"
+
+        if isinstance(question, str):
+            add_related_mention(
+                related_mentions,
+                question,
+                mention_type="topic",
+                relation="faq_topic",
+                target_entity_id=temple_id,
+                source_file=source_file,
+                source_field="faq.question",
+                source_section=section,
+            )
+
+            # Also index the meaningful phrase after
+            # common interrogative/auxiliary words.
+            cleaned_question = re.sub(
+                r"^(what|who|where|when|why|how|which)\b",
+                "",
+                question.strip(),
+                flags=re.IGNORECASE,
+            )
+
+            cleaned_question = re.sub(
+                r"^(is|are|was|were|does|do|did|can|could|should)\b",
+                "",
+                cleaned_question.strip(),
+                flags=re.IGNORECASE,
+            )
+
+            cleaned_question = cleaned_question.rstrip(
+                " ?."
+            ).strip()
+
+            if cleaned_question:
+                add_related_mention(
+                    related_mentions,
+                    cleaned_question,
+                    mention_type="topic",
+                    relation="faq_topic_phrase",
+                    target_entity_id=temple_id,
+                    source_file=source_file,
+                    source_field="faq.question",
+                    source_section=section,
+                )
+
+        for field in (
+            "topic",
+            "subject",
+            "name",
+        ):
+            value = item.get(field)
+
+            if isinstance(value, str):
+                add_related_mention(
+                    related_mentions,
+                    value,
+                    mention_type="topic",
+                    relation="faq_topic",
+                    target_entity_id=temple_id,
+                    source_file=source_file,
+                    source_field=f"faq.{field}",
+                    source_section=section,
+                )
+
+        # Do not index arbitrary FAQ answers.
+        # Only short named answers are useful as topics.
+        if (
+            isinstance(answer, str)
+            and 1 <= len(answer.split()) <= 8
+        ):
+            add_related_mention(
+                related_mentions,
+                answer,
+                mention_type="topic",
+                relation="faq_answer_topic",
+                target_entity_id=temple_id,
+                source_file=source_file,
+                source_field="faq.answer",
+                source_section=section,
+            )
+
+    # ---------------------------------------------------------
+    # QUERY VARIATIONS
+    # ---------------------------------------------------------
+
+    query_variations = data.get(
+        "query_variations",
+        [],
+    )
+
+    for index, variation in enumerate(
+        ensure_list(query_variations)
+    ):
+        if isinstance(variation, str):
+            add_related_mention(
+                related_mentions,
+                variation,
+                mention_type="topic",
+                relation="query_variation",
+                target_entity_id=temple_id,
+                source_file=source_file,
+                source_field="query_variations",
+                source_section=f"query_variations[{index}]",
+            )
+            continue
+
+        if not isinstance(variation, dict):
+            continue
+
+        for field in (
+            "query",
+            "question",
+            "variation",
+            "text",
+        ):
+            value = variation.get(field)
+
+            if isinstance(value, str):
+                add_related_mention(
+                    related_mentions,
+                    value,
+                    mention_type="topic",
+                    relation="query_variation",
+                    target_entity_id=temple_id,
+                    source_file=source_file,
+                    source_field=f"query_variations.{field}",
+                    source_section=f"query_variations[{index}]",
+                )
+
+
+# =============================================================
+# TEMPLE REGISTRY
+# =============================================================
+
+
 def extract_temple_registry() -> dict[str, dict]:
-    """
-    Read data/temple_registry.json.
-
-    Supports the registry structure currently used by PilgrimAI.
-    """
-
     if not TEMPLE_REGISTRY_FILE.exists():
         return {}
 
@@ -138,41 +830,15 @@ def extract_temple_registry() -> dict[str, dict]:
     return result
 
 
-def add_alias(
-    aliases: dict[str, set[str]],
-    alias: Any,
-    entity_id: str,
-):
-    if not isinstance(alias, str):
-        return
-
-    normalized = normalize_text(alias)
-
-    if not normalized:
-        return
-
-    aliases[normalized].add(
-        entity_id
-    )
-
-
-def add_aliases(
-    aliases: dict[str, set[str]],
-    values: list[Any],
-    entity_id: str,
-):
-    for value in values:
-        if isinstance(value, str):
-            add_alias(
-                aliases,
-                value,
-                entity_id,
-            )
+# =============================================================
+# TEMPLE ENTITIES
+# =============================================================
 
 
 def build_temple_entities(
     entities: dict[str, dict],
     aliases: dict[str, set[str]],
+    related_mentions: dict[str, list[dict]],
     report: dict,
 ):
     registry_data = extract_temple_registry()
@@ -186,14 +852,17 @@ def build_temple_entities(
     )
 
     for path in files:
-
         try:
             data = load_json(path)
 
         except Exception as exc:
             report["invalid_json"].append(
                 {
-                    "file": str(path.relative_to(PROJECT_ROOT)),
+                    "file": str(
+                        path.relative_to(
+                            PROJECT_ROOT
+                        )
+                    ),
                     "error": str(exc),
                 }
             )
@@ -202,8 +871,14 @@ def build_temple_entities(
         if not isinstance(data, dict):
             report["invalid_records"].append(
                 {
-                    "file": str(path.relative_to(PROJECT_ROOT)),
-                    "reason": "Root JSON is not an object.",
+                    "file": str(
+                        path.relative_to(
+                            PROJECT_ROOT
+                        )
+                    ),
+                    "reason": (
+                        "Root JSON is not an object."
+                    ),
                 }
             )
             continue
@@ -240,11 +915,9 @@ def build_temple_entities(
         ):
             multilingual = {}
 
-        multilingual_names = (
-            multilingual.get(
-                "names",
-                {},
-            )
+        multilingual_names = multilingual.get(
+            "names",
+            {},
         )
 
         alternate_spellings = ensure_list(
@@ -307,7 +980,6 @@ def build_temple_entities(
         all_aliases.append(name)
 
         unique_aliases = []
-
         seen = set()
 
         for alias in all_aliases:
@@ -317,9 +989,7 @@ def build_temple_entities(
             ):
                 continue
 
-            normalized = normalize_text(
-                alias
-            )
+            normalized = normalize_text(alias)
 
             if not normalized:
                 continue
@@ -346,6 +1016,12 @@ def build_temple_entities(
             dict,
         ):
             location = {}
+
+        source_file = str(
+            path.relative_to(
+                PROJECT_ROOT
+            )
+        )
 
         entities[temple_id] = {
             "entity_id": temple_id,
@@ -375,17 +1051,25 @@ def build_temple_entities(
                     "longitude"
                 ),
             },
-            "source_file": str(
-                path.relative_to(
-                    PROJECT_ROOT
-                )
-            ),
+            "source_file": source_file,
             "relationships": {
                 "accommodations": [],
                 "restaurants": [],
                 "emergency": False,
             },
         }
+
+        extract_related_mentions_from_temple(
+            data=data,
+            temple_id=temple_id,
+            source_file=source_file,
+            related_mentions=related_mentions,
+        )
+
+
+# =============================================================
+# ACCOMMODATIONS
+# =============================================================
 
 
 def build_accommodation_entities(
@@ -402,14 +1086,17 @@ def build_accommodation_entities(
     ] = len(files)
 
     for path in files:
-
         try:
             data = load_json(path)
 
         except Exception as exc:
             report["invalid_json"].append(
                 {
-                    "file": str(path.relative_to(PROJECT_ROOT)),
+                    "file": str(
+                        path.relative_to(
+                            PROJECT_ROOT
+                        )
+                    ),
                     "error": str(exc),
                 }
             )
@@ -436,7 +1123,6 @@ def build_accommodation_entities(
         )
 
         for record in records:
-
             if not isinstance(
                 record,
                 dict,
@@ -474,9 +1160,7 @@ def build_accommodation_entities(
                 else None
             )
 
-            aliases_for_entity = [
-                name
-            ]
+            aliases_for_entity = [name]
 
             aliases_for_entity.extend(
                 ensure_list(
@@ -485,7 +1169,6 @@ def build_accommodation_entities(
             )
 
             unique_aliases = []
-
             seen = set()
 
             for alias in aliases_for_entity:
@@ -495,9 +1178,7 @@ def build_accommodation_entities(
                 ):
                     continue
 
-                normalized = normalize_text(
-                    alias
-                )
+                normalized = normalize_text(alias)
 
                 if (
                     not normalized
@@ -536,6 +1217,11 @@ def build_accommodation_entities(
             }
 
 
+# =============================================================
+# RESTAURANTS
+# =============================================================
+
+
 def build_restaurant_entities(
     entities: dict[str, dict],
     aliases: dict[str, set[str]],
@@ -550,14 +1236,17 @@ def build_restaurant_entities(
     ] = len(files)
 
     for path in files:
-
         try:
             data = load_json(path)
 
         except Exception as exc:
             report["invalid_json"].append(
                 {
-                    "file": str(path.relative_to(PROJECT_ROOT)),
+                    "file": str(
+                        path.relative_to(
+                            PROJECT_ROOT
+                        )
+                    ),
                     "error": str(exc),
                 }
             )
@@ -611,9 +1300,7 @@ def build_restaurant_entities(
             else None
         )
 
-        aliases_for_entity = [
-            name
-        ]
+        aliases_for_entity = [name]
 
         aliases_for_entity.extend(
             ensure_list(
@@ -622,7 +1309,6 @@ def build_restaurant_entities(
         )
 
         unique_aliases = []
-
         seen = set()
 
         for alias in aliases_for_entity:
@@ -632,9 +1318,7 @@ def build_restaurant_entities(
             ):
                 continue
 
-            normalized = normalize_text(
-                alias
-            )
+            normalized = normalize_text(alias)
 
             if (
                 not normalized
@@ -693,6 +1377,11 @@ def build_restaurant_entities(
         }
 
 
+# =============================================================
+# EMERGENCY
+# =============================================================
+
+
 def build_emergency_relationships(
     entities: dict[str, dict],
     report: dict,
@@ -706,14 +1395,17 @@ def build_emergency_relationships(
     ] = len(files)
 
     for path in files:
-
         try:
             data = load_json(path)
 
         except Exception as exc:
             report["invalid_json"].append(
                 {
-                    "file": str(path.relative_to(PROJECT_ROOT)),
+                    "file": str(
+                        path.relative_to(
+                            PROJECT_ROOT
+                        )
+                    ),
                     "error": str(exc),
                 }
             )
@@ -733,9 +1425,7 @@ def build_emergency_relationships(
         if not temple_id:
             continue
 
-        temple_id = str(
-            temple_id
-        )
+        temple_id = str(temple_id)
 
         if temple_id not in entities:
             report["unknown_references"].append(
@@ -756,12 +1446,16 @@ def build_emergency_relationships(
         ]["emergency"] = True
 
 
+# =============================================================
+# RELATIONSHIPS
+# =============================================================
+
+
 def connect_relationships(
     entities: dict[str, dict],
     report: dict,
 ):
     for entity in entities.values():
-
         entity_type = entity.get(
             "entity_type"
         )
@@ -794,14 +1488,11 @@ def connect_relationships(
             )
             continue
 
-        temple = entities[
-            temple_id
-        ]
+        temple = entities[temple_id]
 
         relationship_list = (
             "accommodations"
-            if entity_type
-            == "accommodation"
+            if entity_type == "accommodation"
             else "restaurants"
         )
 
@@ -810,6 +1501,11 @@ def connect_relationships(
         ][relationship_list].append(
             entity["entity_id"]
         )
+
+
+# =============================================================
+# VALIDATION
+# =============================================================
 
 
 def detect_duplicate_ids(
@@ -876,6 +1572,66 @@ def build_alias_report(
         )
 
 
+def build_related_mention_report(
+    related_mentions: dict[str, list[dict]],
+    entities: dict[str, dict],
+    report: dict,
+):
+    for normalized, records in sorted(
+        related_mentions.items()
+    ):
+        valid_records = []
+
+        for record in records:
+            target_id = record.get(
+                "target_entity_id"
+            )
+
+            if target_id not in entities:
+                report[
+                    "unknown_related_references"
+                ].append(
+                    {
+                        "mention": record.get(
+                            "mention"
+                        ),
+                        "target_entity_id": target_id,
+                        "source_file": record.get(
+                            "source_file"
+                        ),
+                        "source_field": record.get(
+                            "source_field"
+                        ),
+                    }
+                )
+                continue
+
+            valid_records.append(record)
+
+        target_ids = {
+            record["target_entity_id"]
+            for record in valid_records
+        }
+
+        if len(target_ids) > 1:
+            report[
+                "ambiguous_related_mentions"
+            ].append(
+                {
+                    "normalized_mention": normalized,
+                    "targets": sorted(
+                        target_ids
+                    ),
+                    "records": valid_records,
+                }
+            )
+
+
+# =============================================================
+# MAIN
+# =============================================================
+
+
 def main():
     OUTPUT_DIR.mkdir(
         parents=True,
@@ -889,6 +1645,11 @@ def main():
         set[str],
     ] = defaultdict(set)
 
+    related_mentions: dict[
+        str,
+        list[dict],
+    ] = defaultdict(list)
+
     report = {
         "counts": {
             "temple_files": 0,
@@ -897,30 +1658,28 @@ def main():
             "emergency_files": 0,
             "entities": 0,
             "aliases": 0,
+            "related_mentions": 0,
         },
         "duplicate_ids": [],
         "ambiguous_aliases": [],
+        "ambiguous_related_mentions": [],
         "unknown_references": [],
+        "unknown_related_references": [],
         "invalid_json": [],
         "invalid_records": [],
     }
 
     print()
-    print(
-        "=========================================="
-    )
-    print(
-        "PilgrimAI Entity Registry Builder"
-    )
-    print(
-        "=========================================="
-    )
+    print("==========================================")
+    print("PilgrimAI Entity Registry Builder")
+    print("==========================================")
     print()
 
     print("Reading temples...")
     build_temple_entities(
         entities,
         aliases,
+        related_mentions,
         report,
     )
 
@@ -963,6 +1722,13 @@ def main():
         report,
     )
 
+    print("Checking related mentions...")
+    build_related_mention_report(
+        related_mentions,
+        entities,
+        report,
+    )
+
     report["counts"]["entities"] = len(
         entities
     )
@@ -971,19 +1737,38 @@ def main():
         aliases
     )
 
+    report["counts"]["related_mentions"] = len(
+        related_mentions
+    )
+
     registry = {
         "metadata": {
-            "version": "1.0",
-            "generated_by": "PilgrimAI Entity Registry Builder",
+            "version": "2.2",
+            "generated_by": (
+                "PilgrimAI Entity Registry Builder"
+            ),
+            "features": [
+                "canonical_entities",
+                "aliases",
+                "related_mentions",
+                "parenthetical_name_variants",
+                "person_short_name_variants",
+                "festival_name_variants",
+                "faq_topic_variants",
+                "deterministic_relationship_resolution",
+            ],
         },
         "entities": entities,
         "aliases": {
-            alias: sorted(
-                entity_ids
-            )
+            alias: sorted(entity_ids)
             for alias, entity_ids
+            in sorted(aliases.items())
+        },
+        "related_mentions": {
+            mention: records
+            for mention, records
             in sorted(
-                aliases.items()
+                related_mentions.items()
             )
         },
     }
@@ -1011,53 +1796,60 @@ def main():
         )
 
     print()
-    print(
-        "=========================================="
-    )
+    print("==========================================")
     print("BUILD COMPLETE")
-    print(
-        "=========================================="
-    )
+    print("==========================================")
 
     print(
-        f"Temples:        "
+        f"Temples:            "
         f"{report['counts']['temple_files']}"
     )
 
     print(
-        f"Accommodations: "
+        f"Accommodations:     "
         f"{report['counts']['accommodation_files']}"
     )
 
     print(
-        f"Restaurants:    "
+        f"Restaurants:        "
         f"{report['counts']['restaurant_files']}"
     )
 
     print(
-        f"Emergency:      "
+        f"Emergency:          "
         f"{report['counts']['emergency_files']}"
     )
 
     print(
-        f"Total entities: "
+        f"Total entities:     "
         f"{report['counts']['entities']}"
     )
 
     print(
-        f"Total aliases:  "
+        f"Total aliases:      "
         f"{report['counts']['aliases']}"
     )
 
-    print()
     print(
-        f"Duplicate IDs:  "
+        f"Related mentions:   "
+        f"{report['counts']['related_mentions']}"
+    )
+
+    print()
+
+    print(
+        f"Duplicate IDs:      "
         f"{len(report['duplicate_ids'])}"
     )
 
     print(
-        f"Ambiguous aliases: "
+        f"Ambiguous aliases:  "
         f"{len(report['ambiguous_aliases'])}"
+    )
+
+    print(
+        f"Ambiguous related:  "
+        f"{len(report['ambiguous_related_mentions'])}"
     )
 
     print(
@@ -1066,11 +1858,12 @@ def main():
     )
 
     print(
-        f"Invalid JSON: "
+        f"Invalid JSON:       "
         f"{len(report['invalid_json'])}"
     )
 
     print()
+
     print(
         f"Registry: {OUTPUT_FILE}"
     )

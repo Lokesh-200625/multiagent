@@ -1,0 +1,205 @@
+Yes. Since you deleted the Redis image, recreate the container cleanly.
+
+### 1. Pull Redis image
+
+```powershell
+docker pull redis:7
+```
+
+### 2. Create and start Redis
+
+```powershell
+docker run -d `
+  --name pilgrimai-redis `
+  -p 6379:6379 `
+  redis:7
+```
+
+### 3. Check container is running
+
+```powershell
+docker ps
+```
+
+You should see something like:
+
+```text
+CONTAINER ID   IMAGE     PORTS
+xxxxxx         redis:7   0.0.0.0:6379->6379/tcp
+```
+
+So:
+
+```text
+Redis host = localhost
+Redis port = 6379
+```
+
+### 4. Test Redis
+
+```powershell
+docker exec pilgrimai-redis redis-cli ping
+```
+
+Expected:
+
+```text
+PONG
+```
+
+---
+
+## See Redis data
+
+Enter Redis CLI:
+
+```powershell
+docker exec -it pilgrimai-redis redis-cli
+```
+
+Then:
+
+### See all keys
+
+```redis
+KEYS *
+```
+
+For your PilgrimAI sessions:
+
+```redis
+KEYS session:*
+```
+
+### See one session
+
+```redis
+GET session:<session_id>
+```
+
+For example:
+
+```redis
+GET session:293d188d-28e7-4f6b-824b-44674eed0d36
+```
+
+You'll see the JSON containing things like:
+
+```text
+session_id
+previous_user_query
+previous_intent
+resolved_entities
+execution_plan
+step_results
+```
+
+---
+
+## See TTL
+
+Inside Redis CLI:
+
+```redis
+TTL session:<session_id>
+```
+
+Example:
+
+```text
+86340
+```
+
+That means approximately **86,340 seconds remaining**.
+
+Your current application sets:
+
+```text
+SESSION_TTL_SECONDS = 86400
+```
+
+which is **24 hours**.
+
+You can also see all session keys and their TTLs:
+
+```redis
+SCAN 0 MATCH session:* COUNT 100
+```
+
+Then:
+
+```redis
+TTL session:<id>
+```
+
+---
+
+## See Redis memory/cache information
+
+```redis
+INFO memory
+```
+
+Useful fields include:
+
+```text
+used_memory
+used_memory_human
+maxmemory
+```
+
+See database statistics:
+
+```redis
+INFO keyspace
+```
+
+---
+
+## Very useful: inspect your actual PilgrimAI session
+
+From PowerShell, without entering Redis CLI:
+
+```powershell
+docker exec pilgrimai-redis redis-cli --raw GET "session:<session_id>" |
+    ConvertFrom-Json |
+    ConvertTo-Json -Depth 20
+```
+
+Example:
+
+```powershell
+docker exec pilgrimai-redis redis-cli --raw GET "session:293d188d-28e7-4f6b-824b-44674eed0d36" |
+    ConvertFrom-Json |
+    ConvertTo-Json -Depth 20
+```
+
+This gives you nicely formatted JSON.
+
+---
+
+### One important thing
+
+Because you **deleted the Redis image/container**, the old Redis session data is probably gone unless you had a persistent Redis volume.
+
+Your application will recreate the session data automatically when you send the next `/chat` request.
+
+After starting Redis, run:
+
+```powershell
+docker exec pilgrimai-redis redis-cli ping
+```
+
+then start PilgrimAI:
+
+```powershell
+python -m uvicorn app.main:app --reload
+```
+
+and send one `/chat` request. Then:
+
+```powershell
+docker exec pilgrimai-redis redis-cli KEYS "session:*"
+```
+
+You should see your new session key.

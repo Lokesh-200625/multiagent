@@ -8,6 +8,14 @@ from app.models.resolved_query import (
 )
 
 
+SUPPORTED_EXECUTION_DOMAINS = {
+    "temple",
+    "accommodation",
+    "restaurant",
+    "travel",
+}
+
+
 def _entity_to_plan_entity(
     entity,
 ) -> PlanEntity:
@@ -28,6 +36,60 @@ def _entity_blocks_step(
         "AMBIGUOUS",
         "UNRESOLVED",
     }
+
+
+def _resolve_execution_domain(
+    domain: str,
+    entities,
+) -> str:
+
+    """
+    Convert semantic LLM domains into an executable domain when
+    deterministic entity resolution gives us a concrete canonical
+    entity type.
+
+    Example:
+
+        LLM:
+            domain = person
+            entity = Ramadasu / person
+
+        Registry:
+            Ramadasu -> T0002 / temple
+
+        Execution:
+            domain = temple
+
+    This is necessary because LangGraph routes by executable
+    capability/domain, not by the original semantic label.
+    """
+
+    normalized_domain = (
+        str(domain or "")
+        .strip()
+        .lower()
+    )
+
+    if normalized_domain in SUPPORTED_EXECUTION_DOMAINS:
+        return normalized_domain
+
+    resolved_types = {
+        str(entity.entity_type).strip().lower()
+        for entity in entities
+        if (
+            entity.status == "RESOLVED"
+            and entity.canonical_id
+            and entity.entity_type
+        )
+    }
+
+    if len(resolved_types) == 1:
+        resolved_type = next(iter(resolved_types))
+
+        if resolved_type in SUPPORTED_EXECUTION_DOMAINS:
+            return resolved_type
+
+    return normalized_domain
 
 
 def build_execution_plan(
@@ -58,10 +120,15 @@ def build_execution_plan(
                     entity.mention
                 )
 
+        execution_domain = _resolve_execution_domain(
+            domain=subquery.domain,
+            entities=subquery.entities,
+        )
+
         steps.append(
             PlanStep(
                 step_id=subquery.query_id,
-                domain=subquery.domain,
+                domain=execution_domain,
                 intent=subquery.intent,
                 question=subquery.question,
                 entities=plan_entities,
@@ -76,13 +143,6 @@ def build_execution_plan(
                 status=step_status,
             )
         )
-
-    # IMPORTANT:
-    #
-    # Do NOT validate dependencies here.
-    #
-    # A dependency may belong to a previous session turn.
-    # Dependency validation happens after session plans are merged.
 
     if blocked_mentions:
 
@@ -169,11 +229,6 @@ def validate_execution_plan(
         ] = "BLOCKED"
 
         return execution_plan
-
-    # Only preserve genuine entity blocks.
-    #
-    # Dependency validation succeeded, therefore steps
-    # which are not explicitly blocked can execute.
 
     for step in steps:
 

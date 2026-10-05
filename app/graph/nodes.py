@@ -3,7 +3,10 @@ from __future__ import annotations
 from typing import Any
 
 from app.graph.state import GraphState
-from app.services.temple_vector_store import similarity_search
+# from app.services.temple_vector_store import similarity_search
+from app.travel.projection import project_plan_step
+from app.travel.resolver import TravelResolverError, resolve_place
+from app.travel.providers.route_chain import route_with_fallbacks
 
 
 def initialize_graph(
@@ -199,6 +202,7 @@ def route_step(
 def temple_agent(
     state: GraphState,
 ) -> GraphState:
+    from app.services.temple_vector_store import similarity_search
     current_step = state.get(
         "current_step"
     )
@@ -231,9 +235,6 @@ def temple_agent(
             ),
         }
 
-    # Resolve the expected canonical temple IDs BEFORE
-    # retrieval so vector search is scoped to the correct
-    # entity instead of competing with every temple.
     expected_temple_ids = (
         _extract_expected_temple_ids(
             current_step
@@ -333,10 +334,140 @@ def restaurant_agent(
 def travel_agent(
     state: GraphState,
 ) -> GraphState:
-    return _complete_stub_step(
-        state,
-        "travel",
+    current_step = state.get(
+        "current_step"
     )
+
+    current_step_id = state.get(
+        "current_step_id"
+    )
+
+    if not current_step or not current_step_id:
+        return {
+            **state,
+            "status": "ERROR",
+            "error": (
+                "No current travel step was selected "
+                "by the supervisor."
+            ),
+        }
+
+    dependency_results = dict(
+        state.get(
+            "dependency_results",
+            {},
+        )
+    )
+
+    try:
+        travel_step = project_plan_step(
+            current_step,
+            dependency_results=dependency_results,
+        )
+    except Exception as exc:
+        return {
+            **state,
+            "status": "ERROR",
+            "error": (
+                "Travel step projection failed: "
+                f"{type(exc).__name__}: {exc}"
+            ),
+        }
+
+    if travel_step.origin is None:
+        return {
+            **state,
+            "status": "ERROR",
+            "error": (
+                "Travel step does not contain "
+                "an origin."
+            ),
+        }
+
+    if travel_step.destination is None:
+        return {
+            **state,
+            "status": "ERROR",
+            "error": (
+                "Travel step does not contain "
+                "a destination."
+            ),
+        }
+
+    try:
+        origin = resolve_place(
+            travel_step.origin
+        )
+
+        destination = resolve_place(
+            travel_step.destination
+        )
+    except TravelResolverError as exc:
+        return {
+            **state,
+            "status": "ERROR",
+            "error": (
+                f"Travel place resolution failed: {exc}"
+            ),
+        }
+    except Exception as exc:
+        return {
+            **state,
+            "status": "ERROR",
+            "error": (
+                "Travel place resolution failed: "
+                f"{type(exc).__name__}: {exc}"
+            ),
+        }
+
+    try:
+        route_result = route_with_fallbacks(
+            origin.coordinates,
+            destination.coordinates,
+        )
+    except Exception as exc:
+        return {
+            **state,
+            "status": "ERROR",
+            "error": (
+                "Travel routing failed: "
+                f"{type(exc).__name__}: {exc}"
+            ),
+        }
+
+    results = dict(
+        state.get(
+            "step_results",
+            {},
+        )
+    )
+
+    results[current_step_id] = {
+        "agent": "travel",
+        "status": "COMPLETED",
+        "stub": False,
+        "step": current_step,
+        "travel_step": travel_step.model_dump(
+            mode="json"
+        ),
+        "origin": origin.model_dump(
+            mode="json"
+        ),
+        "destination": destination.model_dump(
+            mode="json"
+        ),
+        "travel_result": route_result.model_dump(
+            mode="json"
+        ),
+        "dependency_results": dependency_results,
+    }
+
+    return {
+        **state,
+        "step_results": results,
+        "status": "RUNNING",
+        "error": None,
+    }
 
 
 def unknown_agent(

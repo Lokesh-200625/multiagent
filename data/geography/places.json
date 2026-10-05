@@ -1,0 +1,22 @@
+{
+  "places": [
+    {
+      "place_id": "P0001",
+      "canonical_name": "Hyderabad",
+      "place_type": "city",
+      "aliases": [
+        "Hyderabad",
+        "Hyderabad City",
+        "Hyderabad, Telangana"
+      ],
+      "location": {
+        "city": "Hyderabad",
+        "district": "Hyderabad",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.385,
+        "longitude": 78.4867
+      }
+    }
+  ]
+}

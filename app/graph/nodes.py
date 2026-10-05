@@ -3,30 +3,24 @@ from __future__ import annotations
 from typing import Any
 
 from app.graph.state import GraphState
-# from app.services.temple_vector_store import similarity_search
+
 from app.travel.projection import project_plan_step
-from app.travel.resolver import TravelResolverError, resolve_place
+from app.travel.resolver import (
+    TravelResolverClarificationError,
+    TravelResolverError,
+    resolve_place,
+)
 from app.travel.providers.route_chain import route_with_fallbacks
 
 
 def initialize_graph(
     state: GraphState,
 ) -> GraphState:
-    plan = state.get(
-        "execution_plan",
-        {},
-    )
-
-    steps = plan.get(
-        "steps",
-        [],
-    )
+    plan = state.get("execution_plan", {})
+    steps = plan.get("steps", [])
 
     existing_results = dict(
-        state.get(
-            "step_results",
-            {},
-        )
+        state.get("step_results", {})
     )
 
     if not steps:
@@ -55,20 +49,9 @@ def initialize_graph(
 def supervisor(
     state: GraphState,
 ) -> GraphState:
-    plan = state.get(
-        "execution_plan",
-        {},
-    )
-
-    steps = plan.get(
-        "steps",
-        [],
-    )
-
-    results = state.get(
-        "step_results",
-        {},
-    )
+    plan = state.get("execution_plan", {})
+    steps = plan.get("steps", [])
+    results = state.get("step_results", {})
 
     if not steps:
         return {
@@ -85,9 +68,7 @@ def supervisor(
     }
 
     for step in steps:
-        step_id = step.get(
-            "step_id"
-        )
+        step_id = step.get("step_id")
 
         if step_id in completed_ids:
             continue
@@ -95,10 +76,7 @@ def supervisor(
         if step.get("status") == "BLOCKED":
             continue
 
-        dependencies = step.get(
-            "depends_on",
-            [],
-        )
+        dependencies = step.get("depends_on", [])
 
         if not all(
             dependency in completed_ids
@@ -125,8 +103,7 @@ def supervisor(
     remaining_steps = [
         step
         for step in steps
-        if step.get("step_id")
-        not in completed_ids
+        if step.get("step_id") not in completed_ids
     ]
 
     if not remaining_steps:
@@ -154,9 +131,7 @@ def supervisor(
 def route_step(
     state: GraphState,
 ) -> str:
-    current_step = state.get(
-        "current_step"
-    )
+    current_step = state.get("current_step")
 
     if not current_step:
         if state.get("status") == "COMPLETED":
@@ -170,30 +145,18 @@ def route_step(
     if current_step.get("status") == "BLOCKED":
         return "blocked"
 
-    domain = current_step.get(
-        "domain",
-        "",
-    ).lower()
+    domain = current_step.get("domain", "").lower()
 
     if domain == "temple":
         return "temple"
 
-    if domain in {
-        "accommodation",
-        "hotel",
-    }:
+    if domain in {"accommodation", "hotel"}:
         return "accommodation"
 
-    if domain in {
-        "restaurant",
-        "food",
-    }:
+    if domain in {"restaurant", "food"}:
         return "restaurant"
 
-    if domain in {
-        "travel",
-        "transport",
-    }:
+    if domain in {"travel", "transport"}:
         return "travel"
 
     return "unknown"
@@ -203,13 +166,9 @@ def temple_agent(
     state: GraphState,
 ) -> GraphState:
     from app.services.temple_vector_store import similarity_search
-    current_step = state.get(
-        "current_step"
-    )
 
-    current_step_id = state.get(
-        "current_step_id"
-    )
+    current_step = state.get("current_step")
+    current_step_id = state.get("current_step_id")
 
     if not current_step or not current_step_id:
         return {
@@ -221,9 +180,7 @@ def temple_agent(
             ),
         }
 
-    query = _extract_step_query(
-        current_step
-    )
+    query = _extract_step_query(current_step)
 
     if not query:
         return {
@@ -235,19 +192,19 @@ def temple_agent(
             ),
         }
 
-    expected_temple_ids = (
-        _extract_expected_temple_ids(
-            current_step
-        )
+    expected_temple_ids = _extract_expected_temple_ids(
+        current_step
     )
 
     try:
         documents = similarity_search(
             query,
             k=5,
-            temple_ids=sorted(
-                expected_temple_ids
-            ) if expected_temple_ids else None,
+            temple_ids=(
+                sorted(expected_temple_ids)
+                if expected_temple_ids
+                else None
+            ),
         )
     except Exception as exc:
         return {
@@ -270,10 +227,7 @@ def temple_agent(
     )
 
     results = dict(
-        state.get(
-            "step_results",
-            {},
-        )
+        state.get("step_results", {})
     )
 
     results[current_step_id] = {
@@ -298,10 +252,7 @@ def temple_agent(
         ],
         "step": current_step,
         "dependency_results": dict(
-            state.get(
-                "dependency_results",
-                {},
-            )
+            state.get("dependency_results", {})
         ),
     }
 
@@ -334,13 +285,8 @@ def restaurant_agent(
 def travel_agent(
     state: GraphState,
 ) -> GraphState:
-    current_step = state.get(
-        "current_step"
-    )
-
-    current_step_id = state.get(
-        "current_step_id"
-    )
+    current_step = state.get("current_step")
+    current_step_id = state.get("current_step_id")
 
     if not current_step or not current_step_id:
         return {
@@ -353,10 +299,7 @@ def travel_agent(
         }
 
     dependency_results = dict(
-        state.get(
-            "dependency_results",
-            {},
-        )
+        state.get("dependency_results", {})
     )
 
     try:
@@ -398,10 +341,106 @@ def travel_agent(
         origin = resolve_place(
             travel_step.origin
         )
+    except TravelResolverClarificationError as exc:
+        results = dict(
+            state.get("step_results", {})
+        )
 
+        results[current_step_id] = {
+            "agent": "travel",
+            "status": "NEEDS_CLARIFICATION",
+            "stub": False,
+            "step": current_step,
+            "travel_step": travel_step.model_dump(
+                mode="json"
+            ),
+            "clarification_question": (
+                f"Which place do you mean by "
+                f"'{exc.query}'?"
+            ),
+            "candidates": [
+                candidate.model_dump(mode="json")
+                for candidate in exc.candidates
+            ],
+            "dependency_results": dependency_results,
+        }
+
+        blocked_step = dict(current_step)
+        blocked_step["status"] = "BLOCKED"
+
+        return {
+            **state,
+            "current_step": blocked_step,
+            "step_results": results,
+            "status": "BLOCKED",
+            "clarification_required": True,
+            "clarification_question": (
+                f"Which place do you mean by "
+                f"'{exc.query}'?"
+            ),
+            "error": None,
+        }
+    except TravelResolverError as exc:
+        return {
+            **state,
+            "status": "ERROR",
+            "error": (
+                f"Travel place resolution failed: {exc}"
+            ),
+        }
+    except Exception as exc:
+        return {
+            **state,
+            "status": "ERROR",
+            "error": (
+                "Travel place resolution failed: "
+                f"{type(exc).__name__}: {exc}"
+            ),
+        }
+
+    try:
         destination = resolve_place(
             travel_step.destination
         )
+    except TravelResolverClarificationError as exc:
+        results = dict(
+            state.get("step_results", {})
+        )
+
+        results[current_step_id] = {
+            "agent": "travel",
+            "status": "NEEDS_CLARIFICATION",
+            "stub": False,
+            "step": current_step,
+            "travel_step": travel_step.model_dump(
+                mode="json"
+            ),
+            "clarification_question": (
+                f"Which place do you mean by "
+                f"'{exc.query}'?"
+            ),
+            "candidates": [
+                candidate.model_dump(mode="json")
+                for candidate in exc.candidates
+            ],
+            "dependency_results": dependency_results,
+        }
+
+        blocked_step = dict(current_step)
+        blocked_step["status"] = "BLOCKED"
+
+        return {
+            **state,
+            "current_step": blocked_step,
+            "step_results": results,
+            "status": "BLOCKED",
+            "clarification_required": True,
+            "clarification_question": (
+                f"Which place do you mean by "
+                f"'{exc.query}'?"
+            ),
+            "error": None,
+        }
     except TravelResolverError as exc:
         return {
             **state,
@@ -424,6 +463,7 @@ def travel_agent(
         route_result = route_with_fallbacks(
             origin.coordinates,
             destination.coordinates,
+            mode=travel_step.mode,
         )
     except Exception as exc:
         return {
@@ -436,10 +476,7 @@ def travel_agent(
         }
 
     results = dict(
-        state.get(
-            "step_results",
-            {},
-        )
+        state.get("step_results", {})
     )
 
     results[current_step_id] = {
@@ -467,6 +504,8 @@ def travel_agent(
         "step_results": results,
         "status": "RUNNING",
         "error": None,
+        "clarification_required": False,
+        "clarification_question": None,
     }
 
 
@@ -487,13 +526,8 @@ def _complete_stub_step(
     state: GraphState,
     agent: str,
 ) -> GraphState:
-    current_step = state.get(
-        "current_step"
-    )
-
-    current_step_id = state.get(
-        "current_step_id"
-    )
+    current_step = state.get("current_step")
+    current_step_id = state.get("current_step_id")
 
     if not current_step or not current_step_id:
         return {
@@ -506,17 +540,11 @@ def _complete_stub_step(
         }
 
     results = dict(
-        state.get(
-            "step_results",
-            {},
-        )
+        state.get("step_results", {})
     )
 
     dependency_results = dict(
-        state.get(
-            "dependency_results",
-            {},
-        )
+        state.get("dependency_results", {})
     )
 
     results[current_step_id] = {
@@ -595,9 +623,7 @@ def _extract_expected_temple_ids(
                         item.strip()
                     )
 
-    entities = step.get(
-        "entities"
-    )
+    entities = step.get("entities")
 
     if isinstance(entities, list):
         for entity in entities:
@@ -657,42 +683,20 @@ def _validate_evidence(
 def _document_to_evidence(
     document: Any,
 ) -> dict[str, Any]:
-    metadata = dict(
-        document.metadata
-    )
+    metadata = dict(document.metadata)
 
     return {
         "text": document.page_content,
-        "temple_id": metadata.get(
-            "temple_id"
-        ),
-        "name": metadata.get(
-            "name"
-        ),
-        "content_type": metadata.get(
-            "content_type"
-        ),
-        "field_name": metadata.get(
-            "field_name"
-        ),
-        "section": metadata.get(
-            "section"
-        ),
-        "chunk_index": metadata.get(
-            "chunk_index"
-        ),
-        "source_tier": metadata.get(
-            "source_tier"
-        ),
-        "fetched_at": metadata.get(
-            "fetched_at"
-        ),
-        "valid_to": metadata.get(
-            "valid_to"
-        ),
-        "last_verified": metadata.get(
-            "last_verified"
-        ),
+        "temple_id": metadata.get("temple_id"),
+        "name": metadata.get("name"),
+        "content_type": metadata.get("content_type"),
+        "field_name": metadata.get("field_name"),
+        "section": metadata.get("section"),
+        "chunk_index": metadata.get("chunk_index"),
+        "source_tier": metadata.get("source_tier"),
+        "fetched_at": metadata.get("fetched_at"),
+        "valid_to": metadata.get("valid_to"),
+        "last_verified": metadata.get("last_verified"),
     }
 
 
@@ -708,10 +712,7 @@ def blocked_node(
 def finish_node(
     state: GraphState,
 ) -> GraphState:
-    results = state.get(
-        "step_results",
-        {},
-    )
+    results = state.get("step_results", {})
 
     has_errors = any(
         result.get("status") == "ERROR"

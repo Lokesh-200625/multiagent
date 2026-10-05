@@ -2,33 +2,26 @@ from __future__ import annotations
 
 import json
 import logging
+import time
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from typing import Any
 
 from app.core.config import settings
+from app.services.session import redis_client
+from app.travel.cache import increment_quota
 from app.travel.schemas import Coordinate, TravelFact
 
 logger = logging.getLogger(__name__)
-
-ORS_URL = (
-    "https://api.openrouteservice.org/v2/"
-    "directions/driving-car"
-)
-
-OSRM_URL = (
-    "https://router.project-osrm.org/route/v1/driving"
-)
 
 
 def _request_json(
     url: str,
     *,
     headers: dict[str, str] | None = None,
-    timeout_seconds: float = 5.0,
+    timeout_seconds: float,
 ) -> dict[str, Any]:
-
     request = urllib.request.Request(
         url,
         headers=headers or {},
@@ -47,163 +40,254 @@ def _timestamp() -> datetime:
     return datetime.now(timezone.utc)
 
 
+def _log_provider_latency(
+    provider: str,
+    kind: str,
+    started_at: float,
+    status: str,
+) -> None:
+    elapsed_ms = (time.monotonic() - started_at) * 1000.0
+    logger.info(
+        "provider=%s kind=%s ms=%.2f status=%s",
+        provider,
+        kind,
+        elapsed_ms,
+        status,
+    )
+
+
+def try_consume_ors_quota() -> bool:
+    date_key = date.today().isoformat()
+
+    count = increment_quota(
+        provider="ors",
+        date_key=date_key,
+        ttl_seconds=60 * 60 * 24,
+    )
+
+    if count is None:
+        return False
+
+    return count <= settings.ors_daily_quota
+
+
 def route_ors(
     origin: Coordinate,
     destination: Coordinate,
     *,
-    timeout_seconds: float = 5.0,
+    timeout_seconds: float | None = None,
 ) -> list[TravelFact]:
+    started_at = time.monotonic()
 
-    if not settings.ors_api_key:
-        raise RuntimeError(
-            "ORS_API_KEY is not configured."
-        )
+    try:
+        if not settings.ors_enabled:
+            raise RuntimeError("ORS provider is disabled.")
 
-    coordinates = [
-        [origin.longitude, origin.latitude],
-        [destination.longitude, destination.latitude],
-    ]
+        if not settings.ors_api_key:
+            raise RuntimeError(
+                "ORS_API_KEY is not configured."
+            )
 
-    payload = json.dumps(
-        {
-            "coordinates": coordinates,
-        }
-    ).encode("utf-8")
+        if not try_consume_ors_quota():
+            raise RuntimeError(
+                "ORS daily quota is exhausted or unavailable."
+            )
 
-    request = urllib.request.Request(
-        ORS_URL,
-        data=payload,
-        headers={
-            "Authorization": settings.ors_api_key,
-            "Content-Type": "application/json",
-            "Accept": "application/json",
-        },
-        method="POST",
-    )
+        coordinates = [
+            [origin.longitude, origin.latitude],
+            [destination.longitude, destination.latitude],
+        ]
 
-    with urllib.request.urlopen(
-        request,
-        timeout=timeout_seconds,
-    ) as response:
-        data = json.loads(
-            response.read().decode("utf-8")
-        )
+        payload = json.dumps(
+            {
+                "coordinates": coordinates,
+            }
+        ).encode("utf-8")
 
-    route = data["routes"][0]
-    summary = route["summary"]
-
-    fetched_at = _timestamp()
-
-    return [
-        TravelFact(
-            key="distance",
-            value=round(
-                float(summary["distance"]) / 1000.0,
-                2,
-            ),
-            unit="km",
-            provider="openrouteservice",
-            source_tier="open-data",
-            fetched_at=fetched_at,
-            confidence=0.8,
-        ),
-        TravelFact(
-            key="duration",
-            value=round(
-                float(summary["duration"]) / 60.0,
-                2,
-            ),
-            unit="minutes",
-            provider="openrouteservice",
-            source_tier="open-data",
-            fetched_at=fetched_at,
-            confidence=0.8,
-        ),
-        TravelFact(
-            key="route",
-            value=route.get("geometry"),
-            unit=None,
-            provider="openrouteservice",
-            source_tier="open-data",
-            fetched_at=fetched_at,
-            confidence=0.8,
-            metadata={
-                "format": "encoded_polyline",
+        request = urllib.request.Request(
+            settings.ors_url,
+            data=payload,
+            headers={
+                "Authorization": settings.ors_api_key,
+                "Content-Type": "application/json",
+                "Accept": "application/json",
             },
-        ),
-    ]
+            method="POST",
+        )
+
+        with urllib.request.urlopen(
+            request,
+            timeout=(
+                timeout_seconds
+                if timeout_seconds is not None
+                else settings.ors_timeout_s
+            ),
+        ) as response:
+            data = json.loads(
+                response.read().decode("utf-8")
+            )
+
+        route = data["routes"][0]
+        summary = route["summary"]
+        fetched_at = _timestamp()
+
+        facts = [
+            TravelFact(
+                key="distance",
+                value=round(
+                    float(summary["distance"]) / 1000.0,
+                    2,
+                ),
+                unit="km",
+                provider="openrouteservice",
+                source_tier="open-data",
+                fetched_at=fetched_at,
+                confidence=0.8,
+            ),
+            TravelFact(
+                key="duration",
+                value=round(
+                    float(summary["duration"]) / 60.0,
+                    2,
+                ),
+                unit="minutes",
+                provider="openrouteservice",
+                source_tier="open-data",
+                fetched_at=fetched_at,
+                confidence=0.8,
+            ),
+            TravelFact(
+                key="route",
+                value=route.get("geometry"),
+                unit=None,
+                provider="openrouteservice",
+                source_tier="open-data",
+                fetched_at=fetched_at,
+                confidence=0.8,
+                metadata={
+                    "format": "encoded_polyline",
+                },
+            ),
+        ]
+
+        _log_provider_latency(
+            "openrouteservice",
+            "route",
+            started_at,
+            "success",
+        )
+
+        return facts
+
+    except Exception:
+        _log_provider_latency(
+            "openrouteservice",
+            "route",
+            started_at,
+            "error",
+        )
+        raise
 
 
 def route_osrm(
     origin: Coordinate,
     destination: Coordinate,
     *,
-    timeout_seconds: float = 5.0,
+    timeout_seconds: float | None = None,
 ) -> list[TravelFact]:
+    started_at = time.monotonic()
 
-    coordinates = (
-        f"{origin.longitude},{origin.latitude};"
-        f"{destination.longitude},{destination.latitude}"
-    )
+    try:
+        if not settings.osrm_enabled:
+            raise RuntimeError("OSRM provider is disabled.")
 
-    params = urllib.parse.urlencode(
-        {
-            "overview": "false",
-        }
-    )
-
-    url = f"{OSRM_URL}/{coordinates}?{params}"
-
-    data = _request_json(
-        url,
-        headers={
-            "Accept": "application/json",
-            "User-Agent": "PilgrimAI/1.0",
-        },
-        timeout_seconds=timeout_seconds,
-    )
-
-    if data.get("code") != "Ok":
-        raise RuntimeError(
-            f"OSRM returned code={data.get('code')}"
+        coordinates = (
+            f"{origin.longitude},{origin.latitude};"
+            f"{destination.longitude},{destination.latitude}"
         )
 
-    route = data["routes"][0]
-    fetched_at = _timestamp()
+        params = urllib.parse.urlencode(
+            {
+                "overview": "false",
+            }
+        )
 
-    return [
-        TravelFact(
-            key="distance",
-            value=round(
-                float(route["distance"]) / 1000.0,
-                2,
+        url = (
+            f"{settings.osrm_url.rstrip('/')}"
+            f"/route/v1/driving/{coordinates}?{params}"
+        )
+
+        data = _request_json(
+            url,
+            headers={
+                "Accept": "application/json",
+                "User-Agent": "PilgrimAI/1.0",
+            },
+            timeout_seconds=(
+                timeout_seconds
+                if timeout_seconds is not None
+                else settings.osrm_timeout_s
             ),
-            unit="km",
-            provider="osrm",
-            source_tier="open-data",
-            fetched_at=fetched_at,
-            confidence=0.8,
-        ),
-        TravelFact(
-            key="duration",
-            value=round(
-                float(route["duration"]) / 60.0,
-                2,
+        )
+
+        if data.get("code") != "Ok":
+            raise RuntimeError(
+                f"OSRM returned code={data.get('code')}"
+            )
+
+        route = data["routes"][0]
+        fetched_at = _timestamp()
+
+        facts = [
+            TravelFact(
+                key="distance",
+                value=round(
+                    float(route["distance"]) / 1000.0,
+                    2,
+                ),
+                unit="km",
+                provider="osrm",
+                source_tier="open-data",
+                fetched_at=fetched_at,
+                confidence=0.8,
             ),
-            unit="minutes",
-            provider="osrm",
-            source_tier="open-data",
-            fetched_at=fetched_at,
-            confidence=0.8,
-        ),
-    ]
+            TravelFact(
+                key="duration",
+                value=round(
+                    float(route["duration"]) / 60.0,
+                    2,
+                ),
+                unit="minutes",
+                provider="osrm",
+                source_tier="open-data",
+                fetched_at=fetched_at,
+                confidence=0.8,
+            ),
+        ]
+
+        _log_provider_latency(
+            "osrm",
+            "route",
+            started_at,
+            "success",
+        )
+
+        return facts
+
+    except Exception:
+        _log_provider_latency(
+            "osrm",
+            "route",
+            started_at,
+            "error",
+        )
+        raise
 
 
 def route_haversine(
     origin: Coordinate,
     destination: Coordinate,
 ) -> list[TravelFact]:
-
     import math
 
     radius_km = 6371.0088

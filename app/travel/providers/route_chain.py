@@ -3,6 +3,7 @@ from __future__ import annotations
 import logging
 from typing import Callable
 
+from app.travel.cache import get_fact, set_fact, set_negative
 from app.travel.providers.routing import (
     route_haversine,
     route_ors,
@@ -17,7 +18,6 @@ from app.travel.schemas import (
 )
 
 logger = logging.getLogger(__name__)
-
 
 RouteProvider = Callable[
     [Coordinate, Coordinate],
@@ -40,12 +40,25 @@ def _build_evidence(
     ]
 
 
+def _cache_identifier(
+    origin: Coordinate,
+    destination: Coordinate,
+    mode: str,
+) -> tuple[str, str, str]:
+    return (
+        f"{origin.latitude:.6f},{origin.longitude:.6f}",
+        f"{destination.latitude:.6f},{destination.longitude:.6f}",
+        mode,
+    )
+
+
 def route_with_fallbacks(
     origin: Coordinate,
     destination: Coordinate,
     *,
-    use_ors: bool = True,
-    use_osrm: bool = True,
+    mode: str = "driving",
+    use_ors: bool | None = None,
+    use_osrm: bool | None = None,
     allow_haversine: bool = True,
 ) -> TravelResult:
     """
@@ -57,8 +70,40 @@ def route_with_fallbacks(
             ↓ failure
         Haversine
 
+    Cached successful results are returned before any provider call.
     Haversine provides approximate straight-line distance only.
     """
+
+    if use_ors is None:
+        use_ors = True
+
+    if use_osrm is None:
+        use_osrm = True
+
+    cache_parts = _cache_identifier(
+        origin,
+        destination,
+        mode,
+    )
+
+    cached = get_fact(
+        "route",
+        *cache_parts,
+    )
+
+    if cached is not None:
+        try:
+            result = TravelResult.model_validate(cached)
+            result.metadata = {
+                **result.metadata,
+                "cache_hit": True,
+            }
+            return result
+        except Exception as exc:
+            logger.warning(
+                "Invalid cached travel result: %s",
+                exc,
+            )
 
     errors: list[ProviderError] = []
 
@@ -92,7 +137,7 @@ def route_with_fallbacks(
                     "Provider returned no travel facts."
                 )
 
-            return TravelResult(
+            result = TravelResult(
                 status="COMPLETED",
                 facts=facts,
                 evidence=_build_evidence(facts),
@@ -103,8 +148,17 @@ def route_with_fallbacks(
                         error.provider
                         for error in errors
                     ],
+                    "cache_hit": False,
                 },
             )
+
+            set_fact(
+                "route",
+                *cache_parts,
+                payload=result.model_dump(mode="json"),
+            )
+
+            return result
 
         except Exception as exc:
             logger.warning(
@@ -130,7 +184,7 @@ def route_with_fallbacks(
                 destination,
             )
 
-            return TravelResult(
+            result = TravelResult(
                 status="PARTIAL",
                 facts=facts,
                 evidence=_build_evidence(facts),
@@ -143,8 +197,17 @@ def route_with_fallbacks(
                         error.provider
                         for error in errors
                     ],
+                    "cache_hit": False,
                 },
             )
+
+            set_fact(
+                "route",
+                *cache_parts,
+                payload=result.model_dump(mode="json"),
+            )
+
+            return result
 
         except Exception as exc:
             logger.warning(
@@ -162,7 +225,7 @@ def route_with_fallbacks(
                 )
             )
 
-    return TravelResult(
+    result = TravelResult(
         status="FAILED",
         facts=[],
         evidence=[],
@@ -173,5 +236,20 @@ def route_with_fallbacks(
                 error.provider
                 for error in errors
             ],
+            "cache_hit": False,
         },
     )
+
+    set_negative(
+        "route",
+        *cache_parts,
+        error={
+            "status": "FAILED",
+            "providers": [
+                error.provider
+                for error in errors
+            ],
+        },
+    )
+
+    return result

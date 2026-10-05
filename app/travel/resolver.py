@@ -4,12 +4,35 @@ from typing import Any
 
 from app.services.entity_registry import get_entity_registry
 from app.travel.geography import get_geography_registry
-from app.travel.providers.nominatim import resolve as nominatim_resolve
-from app.travel.schemas import Coordinate, ResolvedPlace
+from app.travel.providers.nominatim import (
+    resolve as nominatim_resolve,
+    search as nominatim_search,
+)
+from app.travel.schemas import (
+    Coordinate,
+    PlaceCandidate,
+    ResolvedPlace,
+)
 
 
 class TravelResolverError(RuntimeError):
     """Raised when a travel place cannot be resolved safely."""
+
+
+class TravelResolverClarificationError(TravelResolverError):
+    """Raised when a travel place has multiple plausible candidates."""
+
+    def __init__(
+        self,
+        query: str,
+        candidates: list[PlaceCandidate],
+    ) -> None:
+        self.query = query
+        self.candidates = candidates
+
+        super().__init__(
+            f"Ambiguous travel place: {query}"
+        )
 
 
 def _extract_entity_id(value: Any) -> str | None:
@@ -269,11 +292,41 @@ def resolve_place(
     if geographic_place is not None:
         return geographic_place
 
-    geocoded = nominatim_resolve(query)
+    candidates = nominatim_search(
+        query,
+        limit=5,
+    )
 
-    if geocoded is None:
+    if not candidates:
         raise TravelResolverError(
             f"Unable to resolve travel place: {query}"
         )
 
-    return geocoded
+    if len(candidates) > 1:
+        top = candidates[0]
+        second = candidates[1]
+
+        if (
+            top.importance is not None
+            and second.importance is not None
+            and abs(
+                top.importance - second.importance
+            ) < 0.05
+        ):
+            raise TravelResolverClarificationError(
+                query=query,
+                candidates=candidates,
+            )
+
+    top = candidates[0]
+
+    return ResolvedPlace(
+        query=query,
+        display_name=top.display_name,
+        coordinates=Coordinate(
+            latitude=top.latitude,
+            longitude=top.longitude,
+        ),
+        source="nominatim",
+        confidence=top.importance,
+    )

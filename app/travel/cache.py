@@ -12,69 +12,77 @@ from app.services.session import redis_client
 logger = logging.getLogger(__name__)
 
 TRAVEL_CACHE_PREFIX = "travel:"
-NEGATIVE_TTL_SECONDS = 30
 
 
-TTL_SECONDS = {
-    "geocode": 60 * 60 * 24 * 30,
-    "route": 60 * 60 * 24,
-    "matrix": 60 * 60 * 24,
-    "weather": 60 * 60 * 6,
-    "poi": 60 * 60 * 24 * 7,
-}
+def _normalize_part(value: Any) -> str:
+    return str(value).strip().lower().replace(" ", "_")
 
 
-def _cache_key(
-    operation: str,
-    provider: str,
-    identifier: str,
-) -> str:
-    return (
-        f"{TRAVEL_CACHE_PREFIX}"
-        f"{operation}:"
-        f"{provider}:"
-        f"{identifier}"
-    )
+def _cache_key(kind: str, *parts: Any) -> str:
+    normalized = ":".join(_normalize_part(part) for part in parts)
+    return f"{TRAVEL_CACHE_PREFIX}{kind}:{normalized}"
 
 
-def get_cached_fact(
-    operation: str,
-    provider: str,
-    identifier: str,
-) -> dict[str, Any] | None:
-    key = _cache_key(operation, provider, identifier)
+def _ttl_for_kind(kind: str) -> int:
+    ttl_map = {
+        "geocode": settings.ttl_geocode_s,
+        "route": settings.ttl_route_s,
+    }
+    return ttl_map.get(kind, settings.ttl_route_s)
+
+
+def get_fact(kind: str, *parts: Any) -> dict[str, Any] | None:
+    key = _cache_key(kind, *parts)
 
     try:
-        value = redis_client.get(key)
+        raw = redis_client.get(key)
     except RedisError as exc:
         logger.warning("Travel cache read failed: %s", exc)
         return None
 
-    if not value:
+    if not raw:
         return None
 
     try:
-        return json.loads(value)
+        payload = json.loads(raw)
     except json.JSONDecodeError:
         logger.warning("Invalid travel cache value: %s", key)
         return None
 
+    if not isinstance(payload, dict):
+        logger.warning("Invalid travel cache payload: %s", key)
+        return None
 
-def set_cached_fact(
-    operation: str,
-    provider: str,
-    identifier: str,
-    fact: dict[str, Any],
+    if payload.get("negative") is True:
+        return None
+
+    return payload
+
+
+def set_fact(
+    kind: str,
+    *parts: Any,
+    payload: dict[str, Any],
+    ttl: int | None = None,
 ) -> bool:
-    ttl = TTL_SECONDS.get(operation, 60 * 60)
+    if payload.get("status") == "FAILED":
+        return set_negative(
+            kind,
+            *parts,
+            error={
+                "status": "FAILED",
+                "reason": payload.get("metadata", {}).get("reason"),
+            },
+        )
 
-    key = _cache_key(operation, provider, identifier)
+    cache_ttl = ttl if ttl is not None else _ttl_for_kind(kind)
+    key = _cache_key(kind, *parts)
 
     try:
         redis_client.set(
             key,
-            json.dumps(fact, ensure_ascii=False),
-            ex=ttl,
+            json.dumps(payload, ensure_ascii=False),
+            ex=cache_ttl,
         )
         return True
     except RedisError as exc:
@@ -82,18 +90,12 @@ def set_cached_fact(
         return False
 
 
-def set_negative_cache(
-    operation: str,
-    provider: str,
-    identifier: str,
+def set_negative(
+    kind: str,
+    *parts: Any,
     error: dict[str, Any],
 ) -> bool:
-    """
-    Negative caching is intentionally short-lived.
-    Provider failures must never occupy the normal cache TTL.
-    """
-
-    key = _cache_key(operation, provider, identifier)
+    key = _cache_key(kind, *parts)
 
     try:
         redis_client.set(
@@ -105,7 +107,7 @@ def set_negative_cache(
                 },
                 ensure_ascii=False,
             ),
-            ex=NEGATIVE_TTL_SECONDS,
+            ex=settings.ttl_negative_s,
         )
         return True
     except RedisError as exc:

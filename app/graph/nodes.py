@@ -4,6 +4,7 @@ from typing import Any
 
 from app.graph.state import GraphState
 
+from app.travel.calculations import calculate_travel
 from app.travel.projection import project_plan_step
 from app.travel.resolver import (
     TravelResolverClarificationError,
@@ -53,6 +54,12 @@ def supervisor(
     steps = plan.get("steps", [])
     results = state.get("step_results", {})
 
+    completed_ids = {
+        step_id
+        for step_id, result in results.items()
+        if result.get("status") == "COMPLETED"
+    }
+
     if not steps:
         return {
             **state,
@@ -60,12 +67,6 @@ def supervisor(
             "current_step": None,
             "status": "COMPLETED",
         }
-
-    completed_ids = {
-        step_id
-        for step_id, result in results.items()
-        if result.get("status") == "COMPLETED"
-    }
 
     for step in steps:
         step_id = step.get("step_id")
@@ -475,6 +476,36 @@ def travel_agent(
             ),
         }
 
+    calculations = []
+
+    if route_result.status in {
+        "COMPLETED",
+        "PARTIAL",
+    }:
+        buffer_minutes = _extract_numeric_option(
+            travel_step.constraints,
+            travel_step.preferences,
+            "buffer_minutes",
+        )
+
+        cost_per_km = _extract_numeric_option(
+            travel_step.constraints,
+            travel_step.preferences,
+            "cost_per_km",
+        )
+
+        calculations = calculate_travel(
+            route_result.facts,
+            buffer_minutes=(
+                buffer_minutes
+                if buffer_minutes is not None
+                else 0.0
+            ),
+            cost_per_km=cost_per_km,
+        )
+
+        route_result.calculations = calculations
+
     results = dict(
         state.get("step_results", {})
     )
@@ -565,6 +596,30 @@ def _complete_stub_step(
         "step_results": results,
         "status": "STUB",
     }
+
+
+def _extract_numeric_option(
+    constraints: dict[str, Any],
+    preferences: dict[str, Any],
+    key: str,
+) -> float | None:
+    for source in (constraints, preferences):
+        value = source.get(key)
+
+        if value is None:
+            continue
+
+        try:
+            numeric_value = float(value)
+        except (TypeError, ValueError):
+            return None
+
+        if numeric_value < 0:
+            return None
+
+        return numeric_value
+
+    return None
 
 
 def _extract_step_query(

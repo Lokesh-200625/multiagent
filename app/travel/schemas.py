@@ -14,6 +14,13 @@ TravelStatus = Literal[
 ]
 
 
+CalculationStatus = Literal[
+    "COMPLETED",
+    "PARTIAL",
+    "UNAVAILABLE",
+]
+
+
 class Coordinate(BaseModel):
     latitude: float
     longitude: float
@@ -91,11 +98,29 @@ class TravelPlanStep(BaseModel):
     dependency_results: dict[str, Any] = Field(default_factory=dict)
 
 
+class TravelCalculation(BaseModel):
+    key: str
+    value: float | None = None
+    unit: str | None = None
+
+    status: CalculationStatus
+
+    method: str
+
+    estimated: bool = False
+    configurable: bool = False
+
+    inputs: dict[str, Any] = Field(default_factory=dict)
+    metadata: dict[str, Any] = Field(default_factory=dict)
+
+
 class TravelResult(BaseModel):
     status: TravelStatus
 
     facts: list[TravelFact] = Field(default_factory=list)
     evidence: list[TravelEvidence] = Field(default_factory=list)
+
+    calculations: list[TravelCalculation] = Field(default_factory=list)
 
     errors: list[ProviderError] = Field(default_factory=list)
 

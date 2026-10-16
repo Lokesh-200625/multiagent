@@ -90,10 +90,12 @@ def test_normal_chat_returns_slim_response():
         "reply",
         "clarification",
         "status",
+        "evidence",
     }
 
     assert data["intent"] == "search"
     assert data["reply"]
+    assert isinstance(data["evidence"], list)
 
 
 def test_stub_status_is_preserved():

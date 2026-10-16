@@ -742,7 +742,6 @@ def _build_session_context(
 
 
 def _get_groq_clients() -> list[Groq]:
-
     keys = [
         settings.groq_api_key_1,
         settings.groq_api_key_2,
@@ -751,16 +750,17 @@ def _get_groq_clients() -> list[Groq]:
     clients = []
 
     for key in keys:
-
         if key and key.strip():
-
             clients.append(
                 Groq(
-                    api_key=key.strip()
+                    api_key=key.strip(),
+                    timeout=20.0,
+                    max_retries=0,
                 )
             )
 
     return clients
+
 
 
 def _call_groq(

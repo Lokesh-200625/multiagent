@@ -127,7 +127,13 @@ def nearby_stops(
     radius_m: int = 1000,
     limit: int = 10,
 ) -> list[dict[str, Any]]:
-    """Find nearby stops and return their distance in meters."""
+    """
+    Find nearby stops without returning a station and its platforms
+    as separate results when the parent station is also nearby.
+
+    If the parent station is outside the radius, a nearby platform
+    can still be returned.
+    """
     latitude = float(latitude)
     longitude = float(longitude)
 
@@ -157,6 +163,8 @@ def nearby_stops(
                     s.zone_id,
                     s.location_type,
                     s.parent_station,
+                    COALESCE(s.parent_station, s.stop_id)
+                        AS station_group_id,
                     6371000.0 * 2 * asin(
                         sqrt(
                             least(
@@ -188,11 +196,41 @@ def nearby_stops(
                   AND s.stop_lon IS NOT NULL
                   AND s.stop_lat BETWEEN %s AND %s
                   AND s.stop_lon BETWEEN %s AND %s
+            ),
+            nearby AS (
+                SELECT *
+                FROM candidates
+                WHERE distance_m <= %s
+            ),
+            ranked AS (
+                SELECT
+                    nearby.*,
+                    ROW_NUMBER() OVER (
+                        PARTITION BY station_group_id
+                        ORDER BY
+                            CASE
+                                WHEN location_type = 1 THEN 0
+                                ELSE 1
+                            END,
+                            distance_m,
+                            stop_id
+                    ) AS station_rank
+                FROM nearby
             )
-            SELECT *
-            FROM candidates
-            WHERE distance_m <= %s
-            ORDER BY distance_m
+            SELECT
+                stop_id,
+                stop_code,
+                stop_name,
+                latitude,
+                longitude,
+                zone_id,
+                location_type,
+                parent_station,
+                distance_m,
+                provider_id
+            FROM ranked
+            WHERE station_rank = 1
+            ORDER BY distance_m, stop_name
             LIMIT %s
             """,
             (
@@ -267,14 +305,21 @@ def get_route_stops(
     provider_id: str,
     route_id: str,
     limit: int = 500,
+    direction_id: int | None = None,
 ) -> list[dict[str, Any]]:
     """
-    Return the ordered stops for one representative trip on a route.
+    Return ordered stops for one representative trip on a route.
 
-    A route can contain trips in opposite directions. Selecting one trip
-    prevents stops from unrelated trips being mixed together.
+    If direction_id is provided, select a trip for that direction.
+    The selected trip's direction_id and trip_headsign are included
+    in every returned stop.
     """
     limit = _limit(limit, default=100, maximum=2000)
+
+    if direction_id is not None:
+        direction_id = int(direction_id)
+        if direction_id not in (0, 1):
+            raise ValueError("direction_id must be 0, 1, or None")
 
     with get_connection() as connection:
         cursor = connection.execute(
@@ -290,7 +335,9 @@ def get_route_stops(
                 SELECT
                     t.feed_id,
                     t.trip_id,
-                    count(st.stop_id) AS stop_count
+                    t.direction_id,
+                    t.trip_headsign,
+                    COUNT(st.stop_id) AS stop_count
                 FROM selected_feed f
                 JOIN public.transit_trips t
                   ON t.feed_id = f.id
@@ -298,12 +345,22 @@ def get_route_stops(
                   ON st.feed_id = t.feed_id
                  AND st.trip_id = t.trip_id
                 WHERE t.route_id = %s
-                GROUP BY t.feed_id, t.trip_id
+                  AND (
+                      %s IS NULL
+                      OR t.direction_id = %s
+                  )
+                GROUP BY
+                    t.feed_id,
+                    t.trip_id,
+                    t.direction_id,
+                    t.trip_headsign
                 ORDER BY stop_count DESC, t.trip_id
                 LIMIT 1
             )
             SELECT
                 st.trip_id,
+                chosen.direction_id,
+                chosen.trip_headsign,
                 st.stop_sequence,
                 st.stop_id,
                 s.stop_name,
@@ -333,6 +390,8 @@ def get_route_stops(
             (
                 provider_id.strip().lower(),
                 route_id.strip(),
+                direction_id,
+                direction_id,
                 limit,
             ),
         )
@@ -384,8 +443,9 @@ def get_stop_departures(
                 st.stop_sequence,
                 st.arrival_seconds,
                 st.departure_seconds,
-                t.route_id,
+                t.direction_id,
                 t.trip_headsign,
+                t.route_id,
                 t.service_id,
                 r.route_short_name,
                 r.route_long_name,

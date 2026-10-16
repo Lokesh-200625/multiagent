@@ -21,7 +21,16 @@ def _json_default(value: Any) -> str:
     return str(value)
 
 
-def _cache_key(operation: str, arguments: dict[str, Any]) -> str:
+def _json_compatible(value: T) -> T:
+    """Return the same JSON-compatible types on cache misses and hits."""
+    return json.loads(json.dumps(value, default=_json_default))
+
+
+def _cache_key(
+    operation: str,
+    arguments: dict[str, Any],
+    feed_version: str,
+) -> str:
     encoded = json.dumps(
         arguments,
         sort_keys=True,
@@ -29,7 +38,27 @@ def _cache_key(operation: str, arguments: dict[str, Any]) -> str:
         default=_json_default,
     )
     digest = hashlib.sha256(encoded.encode("utf-8")).hexdigest()
-    return f"transit:query:v2:{operation}:{digest}"
+
+    return f"transit:query:v3:{feed_version}:{operation}:{digest}"
+
+
+def _get_current_feed_version(provider_id: str) -> str:
+    feed = repository.get_active_feed(provider_id.strip().lower())
+
+    if not feed:
+        return "no-active-feed"
+
+    content_hash = feed.get("content_sha256")
+    if content_hash:
+        return str(content_hash)
+
+    feed_id = feed.get("id")
+    if feed_id:
+        return str(feed_id)
+
+    raise RuntimeError(
+        "Active transit feed has neither a content hash nor an ID."
+    )
 
 
 def _cached(
@@ -37,7 +66,9 @@ def _cached(
     arguments: dict[str, Any],
     loader: Callable[[], T],
 ) -> T:
-    key = _cache_key(operation, arguments)
+    provider_id = str(arguments["provider_id"]).strip().lower()
+    feed_version = _get_current_feed_version(provider_id)
+    key = _cache_key(operation, arguments, feed_version)
 
     try:
         raw = redis_client.get(key)
@@ -46,9 +77,12 @@ def _cached(
                 raw = raw.decode("utf-8")
             return json.loads(raw)
     except Exception:
-        logger.warning("Transit cache read failed; using database", exc_info=True)
+        logger.warning(
+            "Transit cache read failed; using database",
+            exc_info=True,
+        )
 
-    result = loader()
+    result = _json_compatible(loader())
 
     try:
         ttl = max(1, int(settings.transit_cache_ttl_s))
@@ -58,25 +92,20 @@ def _cached(
             ex=ttl,
         )
     except Exception:
-        logger.warning("Transit cache write failed", exc_info=True)
+        logger.warning(
+            "Transit cache write failed",
+            exc_info=True,
+        )
 
     return result
 
 
-def active_feed(provider_id: str) -> dict[str, Any] | None:
-    arguments = {"provider_id": provider_id.strip().lower()}
-    return _cached(
-        "active-feed",
-        arguments,
-        lambda: repository.get_active_feed(provider_id),
-    )
+def active_feed(provider_id: str):
+    result = repository.get_active_feed(provider_id.strip().lower())
+    return _json_compatible(result)
 
 
-def find_stops(
-    provider_id: str,
-    query: str,
-    limit: int = 10,
-) -> list[dict[str, Any]]:
+def find_stops(provider_id: str, query: str, limit: int = 10):
     arguments = {
         "provider_id": provider_id.strip().lower(),
         "query": query.strip(),
@@ -95,7 +124,7 @@ def find_nearby_stops(
     longitude: float,
     radius_m: int = 1000,
     limit: int = 10,
-) -> list[dict[str, Any]]:
+):
     arguments = {
         "provider_id": provider_id.strip().lower(),
         "latitude": latitude,
@@ -116,7 +145,7 @@ def find_routes(
     provider_id: str,
     query: str = "",
     limit: int = 10,
-) -> list[dict[str, Any]]:
+):
     arguments = {
         "provider_id": provider_id.strip().lower(),
         "query": query.strip(),
@@ -133,16 +162,23 @@ def route_stops(
     provider_id: str,
     route_id: str,
     limit: int = 500,
-) -> list[dict[str, Any]]:
+    direction_id: int | None = None,
+):
     arguments = {
         "provider_id": provider_id.strip().lower(),
         "route_id": route_id.strip(),
         "limit": limit,
+        "direction_id": direction_id,
     }
     return _cached(
         "route-stops",
         arguments,
-        lambda: repository.get_route_stops(provider_id, route_id, limit),
+        lambda: repository.get_route_stops(
+            provider_id,
+            route_id,
+            limit,
+            direction_id=direction_id,
+        ),
     )
 
 
@@ -151,7 +187,7 @@ def stop_departures(
     stop_id: str,
     after_seconds: int = 0,
     limit: int = 20,
-) -> list[dict[str, Any]]:
+):
     arguments = {
         "provider_id": provider_id.strip().lower(),
         "stop_id": stop_id.strip(),

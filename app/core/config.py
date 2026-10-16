@@ -9,6 +9,8 @@ class Settings(BaseSettings):
     redis_host: str = "localhost"
     redis_port: int = 6379
 
+    database_url: str | None = None
+
     # --- Travel providers ---
     ors_enabled: bool = True
     ors_url: str = "https://api.openrouteservice.org/v2/directions/driving-car"
@@ -30,6 +32,7 @@ class Settings(BaseSettings):
     ttl_geocode_s: int = 2_592_000
     ttl_route_s: int = 86_400
     ttl_negative_s: int = 30
+    transit_cache_ttl_s: int = 21600
 
     model_config = SettingsConfigDict(
         env_file=".env",

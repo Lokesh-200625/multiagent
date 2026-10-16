@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import logging
+import time
 from typing import Any
 
 from app.graph.state import GraphState
@@ -12,6 +14,9 @@ from app.travel.resolver import (
     resolve_place,
 )
 from app.travel.providers.route_chain import route_with_fallbacks
+from app.travel.transit.agent import is_transit_request, plan_transit_journey
+
+logger = logging.getLogger(__name__)
 
 
 def initialize_graph(
@@ -50,6 +55,31 @@ def initialize_graph(
 def supervisor(
     state: GraphState,
 ) -> GraphState:
+    logger.info(
+        "graph_stage session_id=%s stage=supervisor status=%s current_step_id=%s completed_steps=%d",
+        state.get("session_id"),
+        state.get("status"),
+        state.get("current_step_id"),
+        sum(
+            result.get("status") == "COMPLETED"
+            for result in state.get("step_results", {}).values()
+            if isinstance(result, dict)
+        ),
+    )
+
+    # Stop immediately when an agent reports an error.
+    # Otherwise, the supervisor may select the same step repeatedly.
+    if state.get("status") == "ERROR":
+        return {
+            **state,
+            "current_step_id": None,
+            "current_step": None,
+            "dependency_results": {},
+            "clarification_required": False,
+            "clarification_question": None,
+            "status": "ERROR",
+        }
+
     plan = state.get("execution_plan", {})
     steps = plan.get("steps", [])
     results = state.get("step_results", {})
@@ -197,6 +227,12 @@ def temple_agent(
         current_step
     )
 
+    retrieval_started = time.perf_counter()
+    logger.info(
+        "graph_stage session_id=%s stage=temple_retrieval event=start step_id=%s",
+        state.get("session_id"),
+        current_step_id,
+    )
     try:
         documents = similarity_search(
             query,
@@ -208,6 +244,12 @@ def temple_agent(
             ),
         )
     except Exception as exc:
+        logger.exception(
+            "graph_stage session_id=%s stage=temple_retrieval event=error step_id=%s elapsed_ms=%.2f",
+            state.get("session_id"),
+            current_step_id,
+            (time.perf_counter() - retrieval_started) * 1000,
+        )
         return {
             **state,
             "status": "ERROR",
@@ -216,6 +258,13 @@ def temple_agent(
                 f"{type(exc).__name__}: {exc}"
             ),
         }
+    finally:
+        logger.info(
+            "graph_stage session_id=%s stage=temple_retrieval event=end step_id=%s elapsed_ms=%.2f",
+            state.get("session_id"),
+            current_step_id,
+            (time.perf_counter() - retrieval_started) * 1000,
+        )
 
     retrieved_evidence = [
         _document_to_evidence(document)
@@ -336,6 +385,39 @@ def travel_agent(
                 "Travel step does not contain "
                 "a destination."
             ),
+        }
+
+    if is_transit_request(travel_step):
+        try:
+            transit_result = plan_transit_journey(travel_step)
+        except Exception as exc:
+            return {
+                **state,
+                "status": "ERROR",
+                "error": (
+                    "Transit journey planning failed: "
+                    f"{type(exc).__name__}: {exc}"
+                ),
+            }
+
+        results = dict(state.get("step_results", {}))
+        results[current_step_id] = {
+            "agent": "travel",
+            "status": "COMPLETED",
+            "stub": False,
+            "step": current_step,
+            "travel_step": travel_step.model_dump(mode="json"),
+            "transit_result": transit_result,
+            "dependency_results": dependency_results,
+        }
+
+        return {
+            **state,
+            "step_results": results,
+            "status": "RUNNING",
+            "error": None,
+            "clarification_required": False,
+            "clarification_question": None,
         }
 
     try:
@@ -580,7 +662,7 @@ def _complete_stub_step(
 
     results[current_step_id] = {
         "agent": agent,
-        "status": "STUB",
+        "status": "COMPLETED",
         "stub": True,
         "message": (
             f"{agent} agent executed "
@@ -594,7 +676,7 @@ def _complete_stub_step(
     return {
         **state,
         "step_results": results,
-        "status": "STUB",
+        "status": "RUNNING",
     }
 
 
@@ -767,6 +849,17 @@ def blocked_node(
 def finish_node(
     state: GraphState,
 ) -> GraphState:
+
+    # Preserve errors that were returned without a step_results entry.
+    if state.get("status") == "ERROR":
+        return {
+            **state,
+            "current_step_id": None,
+            "current_step": None,
+            "dependency_results": {},
+            "status": "ERROR",
+        }
+
     results = state.get("step_results", {})
 
     has_errors = any(

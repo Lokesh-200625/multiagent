@@ -1,4 +1,5 @@
-﻿# Environment / secrets
+﻿
+# Environment and secrets
 .env
 .env.*
 !.env.example
@@ -14,7 +15,7 @@ __pycache__/
 venv/
 env/
 
-# Testing / coverage
+# Testing and coverage
 .pytest_cache/
 .coverage
 htmlcov/
@@ -30,6 +31,19 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Local runtime files
+# Local databases
 *.sqlite3
 *.db
+
+# GTFS archives and generated audit outputs
+*.zip
+/audit_*.csv
+/audit_*.json
+/transit_context*.txt
+
+# Local Supabase CLI state
+/supabase/.temp/
+
+# Local Qdrant vector database
+data/qdrant/
+

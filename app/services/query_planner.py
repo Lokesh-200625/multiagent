@@ -1,3 +1,4 @@
+
 from app.models.plan import (
     ExecutionPlan,
     PlanEntity,
@@ -16,10 +17,7 @@ SUPPORTED_EXECUTION_DOMAINS = {
 }
 
 
-def _entity_to_plan_entity(
-    entity,
-) -> PlanEntity:
-
+def _entity_to_plan_entity(entity) -> PlanEntity:
     return PlanEntity(
         entity_id=entity.canonical_id,
         entity_type=entity.entity_type,
@@ -28,48 +26,32 @@ def _entity_to_plan_entity(
     )
 
 
-def _entity_blocks_step(
-    entity,
-) -> bool:
-
-    return entity.status in {
-        "AMBIGUOUS",
-        "UNRESOLVED",
-    }
-
-
 def _resolve_execution_domain(
     domain: str,
     entities,
+    intent: str = "",
+    required_capabilities=None,
 ) -> str:
+    normalized_domain = str(domain or "").strip().lower()
+    normalized_intent = str(intent or "").strip().lower()
 
-    """
-    Convert semantic LLM domains into an executable domain when
-    deterministic entity resolution gives us a concrete canonical
-    entity type.
+    capabilities = {
+        str(capability).strip().lower()
+        for capability in (required_capabilities or [])
+    }
 
-    Example:
+    # Route intent/capabilities take priority over entity types.
+    if (
+        normalized_intent in {
+            "route_search",
+            "distance_calculation",
+        }
+        or "route_search" in capabilities
+        or "distance_calculation" in capabilities
+    ):
+        return "travel"
 
-        LLM:
-            domain = person
-            entity = Ramadasu / person
-
-        Registry:
-            Ramadasu -> T0002 / temple
-
-        Execution:
-            domain = temple
-
-    This is necessary because LangGraph routes by executable
-    capability/domain, not by the original semantic label.
-    """
-
-    normalized_domain = (
-        str(domain or "")
-        .strip()
-        .lower()
-    )
-
+    # Preserve a supported domain for non-route queries.
     if normalized_domain in SUPPORTED_EXECUTION_DOMAINS:
         return normalized_domain
 
@@ -85,45 +67,55 @@ def _resolve_execution_domain(
 
     if len(resolved_types) == 1:
         resolved_type = next(iter(resolved_types))
-
         if resolved_type in SUPPORTED_EXECUTION_DOMAINS:
             return resolved_type
 
     return normalized_domain
 
 
+def _entity_blocks_step(
+    entity,
+    domain: str | None = None,
+) -> bool:
+    normalized_domain = str(domain or "").strip().lower()
+
+    # Travel locations are resolved by the travel-specific resolver.
+    # An unresolved registry match alone should not block travel.
+    if normalized_domain == "travel":
+        return entity.status == "AMBIGUOUS"
+
+    return entity.status in {
+        "AMBIGUOUS",
+        "UNRESOLVED",
+    }
+
+
 def build_execution_plan(
     resolved_query: ResolvedQuery,
 ) -> ExecutionPlan:
-
     steps: list[PlanStep] = []
-
     blocked_mentions: list[str] = []
 
     for subquery in resolved_query.subqueries:
+        # Resolve the executable domain BEFORE checking entity status.
+        execution_domain = _resolve_execution_domain(
+            domain=subquery.domain,
+            entities=subquery.entities,
+            intent=subquery.intent,
+            required_capabilities=subquery.required_capabilities,
+        )
 
         step_status = "READY"
-
         plan_entities = []
 
         for entity in subquery.entities:
-
             plan_entities.append(
                 _entity_to_plan_entity(entity)
             )
 
-            if _entity_blocks_step(entity):
-
+            if _entity_blocks_step(entity, execution_domain):
                 step_status = "BLOCKED"
-
-                blocked_mentions.append(
-                    entity.mention
-                )
-
-        execution_domain = _resolve_execution_domain(
-            domain=subquery.domain,
-            entities=subquery.entities,
-        )
+                blocked_mentions.append(entity.mention)
 
         steps.append(
             PlanStep(
@@ -145,18 +137,13 @@ def build_execution_plan(
         )
 
     if blocked_mentions:
-
         return ExecutionPlan(
             intent=resolved_query.understanding.intent,
             steps=steps,
             requires_clarification=True,
             clarification_question=(
                 "I need clarification for: "
-                + ", ".join(
-                    dict.fromkeys(
-                        blocked_mentions
-                    )
-                )
+                + ", ".join(dict.fromkeys(blocked_mentions))
             ),
             status="BLOCKED",
         )
@@ -173,11 +160,7 @@ def build_execution_plan(
 def validate_execution_plan(
     execution_plan: dict,
 ) -> dict:
-
-    steps = execution_plan.get(
-        "steps",
-        [],
-    )
+    steps = execution_plan.get("steps", [])
 
     known_ids = {
         step.get("step_id")
@@ -185,67 +168,55 @@ def validate_execution_plan(
         if step.get("step_id")
     }
 
-    unknown_dependencies = []
+    validation_errors = []
 
     for step in steps:
+        step_id = step.get("step_id")
 
-        step_id = step.get(
-            "step_id"
-        )
-
-        for dependency in step.get(
-            "depends_on",
-            [],
-        ):
-
+        for dependency in step.get("depends_on", []):
             if dependency not in known_ids:
-
                 step["status"] = "BLOCKED"
-
-                unknown_dependencies.append(
-                    f"{step_id} depends on "
-                    f"unknown step {dependency}"
+                validation_errors.append(
+                    f"{step_id} depends on unknown step {dependency}"
                 )
 
-    if unknown_dependencies:
+    blocked_steps = [
+        step for step in steps
+        if step.get("status") == "BLOCKED"
+    ]
 
-        execution_plan[
-            "requires_clarification"
-        ] = True
+    if validation_errors or blocked_steps:
+        execution_plan["requires_clarification"] = True
 
-        execution_plan[
-            "clarification_question"
-        ] = (
-            "I need more information about: "
-            + "; ".join(
-                dict.fromkeys(
-                    unknown_dependencies
-                )
+        if validation_errors:
+            question = (
+                "I need more information about: "
+                + "; ".join(dict.fromkeys(validation_errors))
             )
-        )
+        else:
+            blocked_mentions = list(dict.fromkeys(
+                entity.get("mention", "")
+                for step in blocked_steps
+                for entity in step.get("entities", [])
+                if entity.get("mention")
+            ))
 
-        execution_plan[
-            "status"
-        ] = "BLOCKED"
+            question = (
+                "I need clarification for: "
+                + ", ".join(blocked_mentions)
+                if blocked_mentions
+                else "A required execution step is blocked."
+            )
 
+        execution_plan["clarification_question"] = question
+        execution_plan["status"] = "BLOCKED"
         return execution_plan
 
     for step in steps:
+        step["status"] = "READY"
 
-        if step.get("status") != "BLOCKED":
-
-            step["status"] = "READY"
-
-    execution_plan[
-        "requires_clarification"
-    ] = False
-
-    execution_plan[
-        "clarification_question"
-    ] = None
-
-    execution_plan[
-        "status"
-    ] = "READY"
+    execution_plan["requires_clarification"] = False
+    execution_plan["clarification_question"] = None
+    execution_plan["status"] = "READY"
 
     return execution_plan

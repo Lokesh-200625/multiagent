@@ -4,6 +4,7 @@ import pytest
 from fastapi.testclient import TestClient
 
 from app.main import app
+from app.api.chat import _build_grounded_reply
 from app.models.plan import ExecutionPlan
 from app.models.resolved_query import ResolvedQuery
 from app.models.understanding import QueryUnderstanding
@@ -97,6 +98,55 @@ def test_normal_chat_returns_slim_response():
     assert data["intent"] == "greeting"
     assert data["reply"]
     assert isinstance(data["evidence"], list)
+
+
+@pytest.mark.parametrize(
+    "message",
+    ["Hiiiii howww aree u", "heyyy bro"],
+)
+def test_stretched_and_casual_greetings_use_fast_path(message):
+    with patch("app.api.chat.understand_query") as mock_llm:
+        response = client.post("/chat", json={"message": message})
+
+    assert response.status_code == 200
+    assert response.json()["intent"] == "greeting"
+    assert response.json()["reply"].startswith("Hi!")
+    mock_llm.assert_not_called()
+
+
+def test_capability_query_uses_helpful_fast_path():
+    with patch("app.api.chat.understand_query") as mock_llm:
+        response = client.post(
+            "/chat",
+            json={"message": "What can you help me with?"},
+        )
+
+    assert response.status_code == 200
+    data = response.json()
+    assert data["intent"] == "capability_query"
+    assert "pilgrimage planning" in data["reply"]
+    assert data["evidence"] == []
+    mock_llm.assert_not_called()
+
+
+def test_grounded_reply_keeps_multiple_relevant_sentences():
+    reply = _build_grounded_reply(
+        [
+            {
+                "text": (
+                    "The temple is associated with spiritual renewal. "
+                    "Pilgrims visit for devotional practices. "
+                    "The annual festival draws many visitors."
+                ),
+                "content_type": "spiritual_significance",
+            }
+        ],
+        "What is the spiritual significance?",
+    )
+
+    assert reply.count(".") == 3
+    assert "spiritual renewal" in reply
+    assert "devotional practices" in reply
 
 
 def test_stub_status_is_preserved():

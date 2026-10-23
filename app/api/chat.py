@@ -57,6 +57,63 @@ def _persist_session(session_id: str, state: TripState) -> bool:
         )
 
 
+def _collapse_stretched_spelling(value: str) -> str:
+    return re.sub(r"(.)\1+", r"\1", value)
+
+
+def _is_greeting_message(message: str) -> bool:
+    normalized = re.sub(r"[^a-z0-9\s]", " ", message.lower())
+    normalized = _collapse_stretched_spelling(normalized)
+    normalized = re.sub(r"\bhelo\b", "hello", normalized)
+    tokens = normalized.split()
+    if not tokens or len(tokens) > 7:
+        return False
+
+    greeting_words = {
+        "hi",
+        "hello",
+        "hey",
+        "hii",
+        "heyy",
+        "how",
+        "are",
+        "you",
+        "u",
+        "good",
+        "morning",
+        "afternoon",
+        "evening",
+        "bro",
+        "friend",
+    }
+    if not set(tokens).issubset(greeting_words):
+        return False
+
+    return tokens[0] in {"hi", "hii", "hey", "heyy", "hello", "good"}
+
+
+def _is_capability_message(message: str) -> bool:
+    normalized = re.sub(r"[^a-z0-9\s]", " ", message.lower())
+    normalized = " ".join(normalized.split())
+    return bool(
+        re.search(
+            r"\b(what can you help(?: me)? with|what do you do|"
+            r"what services do you provide|how can you help)\b",
+            normalized,
+        )
+    )
+
+
+def _capability_reply() -> str:
+    return (
+        "I can help with Telangana pilgrimage planning, including temple "
+        "information grounded in the available sources, travel routes by "
+        "car or bike, scheduled TGSRTC bus and Hyderabad Metro journeys "
+        "where the active feed covers the stops, and comparisons when the "
+        "required fare, fuel, duration, and toll evidence is available."
+    )
+
+
 _TRANSIT_REQUEST_RE = re.compile(
 
     r"\b(metro|hmrl|tgsrtc|rtc bus|bus route|bus stop|public transport)\b",
@@ -725,9 +782,13 @@ def _build_grounded_reply(
             "to answer that safely."
         )
 
-    answer = _extract_answer_sentence(
-        _clean_text(best_evidence.get("text", ""))
-    )
+    answer_text = _clean_text(best_evidence.get("text", ""))
+    sentences = [
+        sentence.strip()
+        for sentence in re.split(r"(?<=[.!?])\s+", answer_text)
+        if sentence.strip()
+    ]
+    answer = " ".join(sentences[:3])
 
     return answer or (
         "I found evidence, but couldn't extract a usable answer."
@@ -1563,30 +1624,7 @@ def chat(request: ChatRequest):
     # SESSION CONTEXT
 
     # GREETING HANDLER
-    normalized_message = re.sub(
-        r"[,.!?]+",
-        " ",
-        request.message.strip().lower(),
-    )
-    normalized_message = " ".join(normalized_message.split())
-
-    greeting_phrases = {
-        "hi",
-        "hello",
-        "hey",
-        "hi there",
-        "hello there",
-        "hey there",
-        "how are you",
-        "hi how are you",
-        "hello how are you",
-        "hey how are you",
-        "good morning",
-        "good afternoon",
-        "good evening",
-    }
-
-    if normalized_message in greeting_phrases:
+    if _is_greeting_message(request.message):
         state.intent = "greeting"
         state.intent_confidence = 1.0
         state.validation = {
@@ -1603,6 +1641,23 @@ def chat(request: ChatRequest):
                 "Hi! I'm doing well, thanks for asking. "
                 "How can I help you plan your pilgrimage?"
             ),
+            "clarification": None,
+            "status": "COMPLETED",
+            "evidence": [],
+        }
+
+    if _is_capability_message(request.message):
+        state.intent = "capability_query"
+        state.intent_confidence = 1.0
+        state.validation = {
+            "status": "COMPLETED",
+            "llm_called": False,
+        }
+        _persist_session(session_id, state)
+        return {
+            "session_id": session_id,
+            "intent": "capability_query",
+            "reply": _capability_reply(),
             "clarification": None,
             "status": "COMPLETED",
             "evidence": [],

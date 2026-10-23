@@ -2,12 +2,14 @@
 from __future__ import annotations
 
 import re
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from app.travel.transit import query_service
 from app.travel.transit.journey_options import find_best_transfer_options
 from app.travel.transit.journey_planner import find_direct_journeys
+from app.travel.transit.providers import get_provider
 
 
 def _normalise(value: Any) -> str:
@@ -35,7 +37,12 @@ def _select_stop(query: str, stops: list[dict[str, Any]]) -> dict[str, Any]:
         if not name:
             continue
 
-        if name == wanted:
+        stop_identifiers = {
+            _normalise(stop.get("stop_id")),
+            _normalise(stop.get("stop_code")),
+        }
+
+        if name == wanted or wanted in stop_identifiers:
             score = 0
         elif wanted in name or name in wanted:
             score = 1
@@ -50,7 +57,14 @@ def _select_stop(query: str, stops: list[dict[str, Any]]) -> dict[str, Any]:
             "Try a nearby station or a more specific stop name."
         )
 
-    ranked.sort(key=lambda item: (item[0], item[1]))
+    ranked.sort(
+        key=lambda item: (
+            item[0],
+            0 if item[2].get("location_type") == 1 else 1,
+            0 if not item[2].get("parent_station") else 1,
+            item[1],
+        )
+    )
 
     best_score = ranked[0][0]
     best_matches = [item[2] for item in ranked if item[0] == best_score]
@@ -97,9 +111,9 @@ def _service_date(step: dict[str, Any]) -> date:
 
         relative = raw.lower()
         if "tomorrow" in relative:
-            return date.today() + timedelta(days=1)
+            return datetime.now(ZoneInfo("Asia/Kolkata")).date() + timedelta(days=1)
         if "today" in relative:
-            return date.today()
+            return datetime.now(ZoneInfo("Asia/Kolkata")).date()
 
     question = str(step.get("question") or "")
     match = re.search(r"\b(20\d{2}-\d{2}-\d{2})\b", question)
@@ -112,9 +126,9 @@ def _service_date(step: dict[str, Any]) -> date:
 
     lowered = question.lower()
     if "tomorrow" in lowered:
-        return date.today() + timedelta(days=1)
+        return datetime.now(ZoneInfo("Asia/Kolkata")).date() + timedelta(days=1)
 
-    return date.today()
+    return datetime.now(ZoneInfo("Asia/Kolkata")).date()
 
 
 def _provider_and_mode(step: Any) -> tuple[str, str]:
@@ -189,6 +203,7 @@ def plan_transit_journey(
         raise ValueError("limit must be between 1 and 20.")
 
     provider_id, mode = _provider_and_mode(step)
+    provider = get_provider(provider_id)
 
     origin_query = str(step.origin or "").strip()
     destination_query = str(step.destination or "").strip()
@@ -269,6 +284,19 @@ def plan_transit_journey(
         },
         "journey_count": len(journeys),
         "journeys": journeys,
+        "attribution": provider.attribution,
+        "fare": {
+            "status": "UNAVAILABLE",
+            "message": (
+                "Fare data is unavailable for the selected journey; "
+                "missing fare data does not mean free travel."
+            ),
+        },
+        "limitations": [
+            "Results are scheduled GTFS services, not live tracking.",
+            "Coverage depends on the currently active provider feed.",
+            "Only direct and one-transfer journeys are searched.",
+        ],
         "message": (
             "Scheduled services from the GTFS feed; "
             "these are not live vehicle arrival predictions."

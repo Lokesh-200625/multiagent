@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Any
+import math
 
 from app.travel.schemas import TravelCalculation, TravelFact
 
@@ -40,7 +40,7 @@ def calculate_eta(
             metadata={"reason": "invalid_duration"},
         )
 
-    if duration < 0:
+    if duration < 0 or not math.isfinite(duration):
         return TravelCalculation(
             key="eta",
             status="UNAVAILABLE",
@@ -48,7 +48,7 @@ def calculate_eta(
             metadata={"reason": "negative_duration"},
         )
 
-    if buffer_minutes < 0:
+    if buffer_minutes < 0 or not math.isfinite(buffer_minutes):
         return TravelCalculation(
             key="eta",
             status="UNAVAILABLE",
@@ -91,7 +91,7 @@ def calculate_distance_cost(
             metadata={"reason": "cost_per_km_not_supplied"},
         )
 
-    if cost_per_km < 0:
+    if not math.isfinite(cost_per_km) or cost_per_km < 0:
         return TravelCalculation(
             key="travel_cost",
             status="UNAVAILABLE",
@@ -119,7 +119,7 @@ def calculate_distance_cost(
             metadata={"reason": "invalid_distance"},
         )
 
-    if distance_km < 0:
+    if not math.isfinite(distance_km) or distance_km < 0:
         return TravelCalculation(
             key="travel_cost",
             status="UNAVAILABLE",
@@ -148,6 +148,99 @@ def calculate_distance_cost(
         },
     )
 
+def calculate_fuel_cost(
+    facts: list[TravelFact],
+    *,
+    mileage_km_per_litre: float | None = None,
+    fuel_price_per_litre: float | None = None,
+    vehicle_type: str = "vehicle",
+) -> TravelCalculation:
+    """Estimate fuel cost from routed distance, mileage and fuel price."""
+
+    if mileage_km_per_litre is None or fuel_price_per_litre is None:
+        return TravelCalculation(
+            key="fuel_cost",
+            status="UNAVAILABLE",
+            method="distance_divided_by_mileage_times_fuel_price",
+            metadata={"reason": "mileage_or_fuel_price_not_supplied"},
+        )
+
+    if (
+        not math.isfinite(mileage_km_per_litre)
+        or mileage_km_per_litre <= 0
+    ):
+        return TravelCalculation(
+            key="fuel_cost",
+            status="UNAVAILABLE",
+            method="distance_divided_by_mileage_times_fuel_price",
+            metadata={"reason": "mileage_must_be_positive"},
+        )
+
+    if (
+        not math.isfinite(fuel_price_per_litre)
+        or fuel_price_per_litre < 0
+    ):
+        return TravelCalculation(
+            key="fuel_cost",
+            status="UNAVAILABLE",
+            method="distance_divided_by_mileage_times_fuel_price",
+            metadata={"reason": "fuel_price_must_not_be_negative"},
+        )
+
+    distance_fact = _find_fact(facts, "distance")
+
+    if distance_fact is None:
+        return TravelCalculation(
+            key="fuel_cost",
+            status="UNAVAILABLE",
+            method="distance_divided_by_mileage_times_fuel_price",
+            metadata={"reason": "distance_fact_missing"},
+        )
+
+    try:
+        distance_km = float(distance_fact.value)
+    except (TypeError, ValueError):
+        return TravelCalculation(
+            key="fuel_cost",
+            status="UNAVAILABLE",
+            method="distance_divided_by_mileage_times_fuel_price",
+            metadata={"reason": "invalid_distance"},
+        )
+
+    if not math.isfinite(distance_km) or distance_km < 0:
+        return TravelCalculation(
+            key="fuel_cost",
+            status="UNAVAILABLE",
+            method="distance_divided_by_mileage_times_fuel_price",
+            metadata={"reason": "negative_distance"},
+        )
+
+    litres = distance_km / mileage_km_per_litre
+    cost = litres * fuel_price_per_litre
+
+    return TravelCalculation(
+        key="fuel_cost",
+        value=round(cost, 2),
+        unit="INR",
+        status="COMPLETED",
+        method="distance_divided_by_mileage_times_fuel_price",
+        estimated=True,
+        configurable=True,
+        inputs={
+            "distance_km": distance_km,
+            "mileage_km_per_litre": mileage_km_per_litre,
+            "fuel_price_per_litre": fuel_price_per_litre,
+            "estimated_litres": round(litres, 3),
+            "vehicle_type": vehicle_type,
+        },
+        metadata={
+            "provider": distance_fact.provider,
+            "source_tier": distance_fact.source_tier,
+            "distance_is_approximate": distance_fact.approximate,
+            "currency": "INR",
+            "excludes": ["tolls", "parking", "maintenance"],
+        },
+    )
 
 def calculate_travel(
     facts: list[TravelFact],

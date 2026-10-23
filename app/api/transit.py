@@ -2,7 +2,8 @@
 from __future__ import annotations
 
 import logging
-from datetime import date
+from datetime import date, datetime
+from zoneinfo import ZoneInfo
 from typing import Any
 
 from fastapi import APIRouter, HTTPException, Query
@@ -10,6 +11,7 @@ from fastapi import APIRouter, HTTPException, Query
 from app.travel.transit import query_service
 from app.travel.transit.journey_options import find_best_transfer_options
 from app.travel.transit.journey_planner import find_direct_journeys
+from app.travel.transit.providers import get_provider
 
 logger = logging.getLogger(__name__)
 
@@ -131,6 +133,7 @@ def search_transit_stops(
 ):
     """Search transit stops by station name, code, or stop ID."""
     provider = _validate_provider(provider_id)
+    provider_info = get_provider(provider)
 
     try:
         stops = query_service.find_stops(
@@ -163,7 +166,7 @@ def search_transit_journeys(
     destination: str = Query(min_length=1, max_length=100),
     service_date: date = Query(...),
     provider_id: str = Query(default="hmrl", min_length=1),
-    after_seconds: int = Query(default=0, ge=0, le=172800),
+    after_seconds: int | None = Query(default=None, ge=0, le=172800),
     min_transfer_minutes: int = Query(default=5, ge=0, le=60),
     limit: int = Query(default=10, ge=1, le=20),
 ):
@@ -173,6 +176,20 @@ def search_transit_journeys(
     Times are scheduled GTFS service-day times, not live predictions.
     """
     provider = _validate_provider(provider_id)
+
+    if after_seconds is None:
+        now_ist = datetime.now(ZoneInfo("Asia/Kolkata"))
+
+        if service_date == now_ist.date():
+            effective_after_seconds = (
+                now_ist.hour * 3600
+                + now_ist.minute * 60
+                + now_ist.second
+            )
+        else:
+            effective_after_seconds = 0
+    else:
+        effective_after_seconds = after_seconds
 
     if origin.strip().casefold() == destination.strip().casefold():
         raise HTTPException(
@@ -198,7 +215,7 @@ def search_transit_journeys(
             origin_stop_id=origin_id,
             destination_stop_id=destination_id,
             service_date=service_date,
-            after_seconds=after_seconds,
+            after_seconds=effective_after_seconds,
             limit=limit,
         )
 
@@ -208,7 +225,7 @@ def search_transit_journeys(
             destination_stop_id=destination_id,
             service_date=service_date,
             min_transfer_seconds=min_transfer_minutes * 60,
-            after_seconds=after_seconds,
+            after_seconds=effective_after_seconds,
             limit=limit,
         )
 
@@ -229,7 +246,7 @@ def search_transit_journeys(
             origin_id,
             destination_id,
             service_date,
-            after_seconds,
+            effective_after_seconds,
             min_transfer_minutes,
             limit,
         )
@@ -257,10 +274,13 @@ def search_transit_journeys(
 
     journeys.sort(
         key=lambda journey: (
-            journey["departure_seconds"],
             journey["arrival_seconds"],
+            journey["departure_seconds"],
+            0 if journey["journey_type"] == "direct" else 1,
         )
     )
+
+    journeys = journeys[:limit]
 
     return {
         "provider_id": provider,
@@ -276,11 +296,20 @@ def search_transit_journeys(
         "min_transfer_minutes": min_transfer_minutes,
         "count": len(journeys),
         "journeys": journeys,
+        "attribution": provider_info.attribution,
+        "fare": {
+            "status": "UNAVAILABLE",
+            "message": (
+                "Fare data is unavailable for the selected journey; "
+                "missing fare data does not mean free travel."
+            ),
+        },
         "limitations": [
             "Results are based on scheduled GTFS timetables.",
             "Live delays and cancellations are not included.",
             "Calendar exceptions and physical transfer walking "
             "times are not yet accounted for.",
             "Only direct and one-transfer journeys are searched.",
+            "Coverage depends on the currently active provider feed.",
         ],
     }

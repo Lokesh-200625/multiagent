@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import logging
+import math
 import time
 import urllib.parse
 import urllib.request
@@ -38,6 +39,18 @@ def _request_json(
 
 def _timestamp() -> datetime:
     return datetime.now(timezone.utc)
+
+
+def _route_metric(value: Any, name: str) -> float:
+    try:
+        metric = float(value)
+    except (TypeError, ValueError) as exc:
+        raise ValueError(f"Provider returned invalid {name}.") from exc
+
+    if not math.isfinite(metric) or metric < 0:
+        raise ValueError(f"Provider returned invalid {name}.")
+
+    return metric
 
 
 def _log_provider_latency(
@@ -135,7 +148,8 @@ def route_ors(
             TravelFact(
                 key="distance",
                 value=round(
-                    float(summary["distance"]) / 1000.0,
+                    _route_metric(summary["distance"], "distance")
+                    / 1000.0,
                     2,
                 ),
                 unit="km",
@@ -147,7 +161,8 @@ def route_ors(
             TravelFact(
                 key="duration",
                 value=round(
-                    float(summary["duration"]) / 60.0,
+                    _route_metric(summary["duration"], "duration")
+                    / 60.0,
                     2,
                 ),
                 unit="minutes",
@@ -242,7 +257,8 @@ def route_osrm(
             TravelFact(
                 key="distance",
                 value=round(
-                    float(route["distance"]) / 1000.0,
+                    _route_metric(route["distance"], "distance")
+                    / 1000.0,
                     2,
                 ),
                 unit="km",
@@ -254,7 +270,8 @@ def route_osrm(
             TravelFact(
                 key="duration",
                 value=round(
-                    float(route["duration"]) / 60.0,
+                    _route_metric(route["duration"], "duration")
+                    / 60.0,
                     2,
                 ),
                 unit="minutes",

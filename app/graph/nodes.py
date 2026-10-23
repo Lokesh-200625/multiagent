@@ -6,14 +6,22 @@ from typing import Any
 
 from app.graph.state import GraphState
 
-from app.travel.calculations import calculate_travel
+from app.travel.calculations import (
+    calculate_fuel_cost,
+    calculate_travel,
+)
 from app.travel.projection import project_plan_step
 from app.travel.resolver import (
     TravelResolverClarificationError,
     TravelResolverError,
     resolve_place,
 )
+from app.travel.providers.alternatives import (
+    build_toll_status,
+    get_osrm_alternative_routes,
+)
 from app.travel.providers.route_chain import route_with_fallbacks
+from app.travel.options import normalize_option, rank_options
 from app.travel.transit.agent import is_transit_request, plan_transit_journey
 
 logger = logging.getLogger(__name__)
@@ -196,7 +204,28 @@ def route_step(
 def temple_agent(
     state: GraphState,
 ) -> GraphState:
-    from app.services.temple_vector_store import similarity_search
+    # Importing temple_vector_store constructs the BGE embedding model.
+    # Log before the import so a slow model initialization is observable.
+    import_started = time.perf_counter()
+    logger.info(
+        "graph_stage session_id=%s stage=temple_module_import event=start",
+        state.get("session_id"),
+    )
+    try:
+        from app.services.temple_vector_store import similarity_search
+    except Exception:
+        logger.exception(
+            "graph_stage session_id=%s stage=temple_module_import event=error elapsed_ms=%.2f",
+            state.get("session_id"),
+            (time.perf_counter() - import_started) * 1000,
+        )
+        raise
+    finally:
+        logger.info(
+            "graph_stage session_id=%s stage=temple_module_import event=end elapsed_ms=%.2f",
+            state.get("session_id"),
+            (time.perf_counter() - import_started) * 1000,
+        )
 
     current_step = state.get("current_step")
     current_step_id = state.get("current_step_id")
@@ -332,26 +361,259 @@ def restaurant_agent(
     )
 
 
+def _request_text(step: Any) -> str:
+            values = [
+                step.question,
+                step.mode,
+                " ".join(str(value) for value in step.capabilities),
+                str(step.preferences),
+                str(step.constraints),
+            ]
+            return " ".join(values).lower()
+
+
+def _is_multimodal_request(step: Any) -> bool:
+            text = _request_text(step)
+            explicit_single_mode = (
+                any(term in text for term in ("bus only", "only bus", "bus route"))
+                or any(term in text for term in ("car only", "only car"))
+                or any(term in text for term in ("bike only", "only bike"))
+            )
+            comparison_terms = (
+                "compare",
+                "comparison",
+                "all travel options",
+                "best way",
+                "cheapest",
+                "fastest",
+                "balanced",
+                "bus, car",
+                "car and bike",
+                "public transport with",
+            )
+            return not explicit_single_mode and any(
+                term in text for term in comparison_terms
+            )
+
+
+def _ranking_preference(step: Any) -> str | None:
+            text = _request_text(step)
+            for preference in ("cheapest", "fastest", "balanced"):
+                if preference in text:
+                    return preference
+            return None
+
+
+def _road_option(
+            step: Any,
+            mode: str,
+            origin: Any,
+            destination: Any,
+) -> dict[str, Any]:
+            try:
+                result = route_with_fallbacks(
+                    origin.coordinates,
+                    destination.coordinates,
+                    mode=mode,
+                )
+            except Exception as exc:
+                return normalize_option(
+                    mode=mode,
+                    duration_minutes=None,
+                    provider=None,
+                    available=False,
+                    reason=f"routing failed: {type(exc).__name__}",
+                )
+
+            facts = result.facts
+            distance = next(
+                (fact.value for fact in facts if fact.key == "distance"),
+                None,
+            )
+            duration = next(
+                (fact.value for fact in facts if fact.key == "duration"),
+                None,
+            )
+            mileage = _extract_numeric_option(
+                step.constraints,
+                step.preferences,
+                "mileage_km_per_litre",
+            )
+            fuel_price = _extract_numeric_option(
+                step.constraints,
+                step.preferences,
+                "fuel_price_per_litre",
+            )
+            fuel = calculate_fuel_cost(
+                facts,
+                mileage_km_per_litre=mileage,
+                fuel_price_per_litre=fuel_price,
+                vehicle_type=mode,
+            )
+            option = normalize_option(
+                mode=mode,
+                duration_minutes=duration,
+                estimated_cost_inr=(
+                    fuel.value if fuel.status == "COMPLETED" else None
+                ),
+                provider=result.metadata.get("selected_provider"),
+                available=result.status in {"COMPLETED", "PARTIAL"},
+                reason=(
+                    None
+                    if result.status in {"COMPLETED", "PARTIAL"}
+                    else "no valid road route was returned"
+                ),
+                distance_km=distance,
+                estimated=True,
+                scheduled=False,
+                toll_status=result.metadata.get(
+                    "toll_status",
+                    {
+                        "status": "UNAVAILABLE",
+                        "message": (
+                            "Toll charges are unavailable from the current "
+                            "routing provider. This does not mean the route is toll-free."
+                        ),
+                    },
+                ),
+                fuel={
+                    "status": fuel.status,
+                    "cost_inr": fuel.value,
+                    "inputs": fuel.inputs,
+                    "message": (
+                        None
+                        if fuel.status == "COMPLETED"
+                        else "Mileage and fuel price are required for a fuel estimate."
+                    ),
+                },
+                profile_disclosure=(
+                    "Standard driving profile; not motorcycle-specific."
+                    if mode == "bike"
+                    else None
+                ),
+                alternatives=result.metadata.get("alternative_routes", []),
+            )
+            return option
+
+
+def _complete_multimodal_travel(
+            state: GraphState,
+            current_step: dict[str, Any],
+            current_step_id: str,
+            travel_step: Any,
+            dependency_results: dict[str, Any],
+) -> GraphState:
+            results = dict(state.get("step_results", {}))
+            try:
+                origin = resolve_place(travel_step.origin)
+                destination = resolve_place(travel_step.destination)
+            except Exception as exc:
+                return {
+                    **state,
+                    "status": "ERROR",
+                    "error": f"Travel place resolution failed: {exc}",
+                }
+
+            options = [
+                _road_option(travel_step, "car", origin, destination),
+                _road_option(travel_step, "bike", origin, destination),
+            ]
+
+            bus_step = travel_step.model_copy(
+                update={
+                    "mode": "bus",
+                    "capabilities": ["transit"],
+                    "question": f"{travel_step.question} TGSRTC bus",
+                }
+            )
+            try:
+                transit = plan_transit_journey(bus_step)
+                journeys = transit.get("journeys", [])
+                journey = journeys[0] if journeys else None
+                bus_option = normalize_option(
+                    mode="bus",
+                    duration_minutes=(
+                        journey.get("travel_minutes") if journey else None
+                    ),
+                    provider="tgsrtc",
+                    available=bool(journey),
+                    reason=(
+                        None
+                        if journey
+                        else (
+                            "No scheduled journey in the active feed. "
+                            "Try https://www.redbus.in/ for broader bus search."
+                        )
+                    ),
+                    scheduled=True,
+                    attribution=transit.get("attribution"),
+                    fare=transit.get("fare"),
+                    service_date=transit.get("service_date"),
+                    journeys=transit.get("journeys", []),
+                )
+            except Exception as exc:
+                transit = {
+                    "status": "UNAVAILABLE",
+                    "attribution": "Contains data provided by TGSRTC",
+                }
+                bus_option = normalize_option(
+                    mode="bus",
+                    duration_minutes=None,
+                    provider="tgsrtc",
+                    available=False,
+                    reason=f"scheduled bus planning failed: {type(exc).__name__}",
+                    scheduled=True,
+                    attribution=transit["attribution"],
+                )
+            options.insert(0, bus_option)
+
+            preference = _ranking_preference(travel_step)
+            ranking = (
+                rank_options(options, preference)
+                if preference
+                else None
+            )
+            comparison = {
+                "origin": origin.display_name,
+                "destination": destination.display_name,
+                "options": options,
+                "ranking": ranking,
+                "message": (
+                    "Road times are provider estimates; bus times are scheduled GTFS "
+                    "journeys. Fuel estimates exclude tolls and other costs."
+                ),
+            }
+            results[current_step_id] = {
+                "agent": "travel",
+                "status": "COMPLETED",
+                "stub": False,
+                "step": current_step,
+                "travel_step": travel_step.model_dump(mode="json"),
+                "multimodal_result": comparison,
+                "dependency_results": dependency_results,
+            }
+            return {
+                **state,
+                "step_results": results,
+                "status": "RUNNING",
+                "error": None,
+                "clarification_required": False,
+                "clarification_question": None,
+            }
+
 def travel_agent(
     state: GraphState,
 ) -> GraphState:
     current_step = state.get("current_step")
     current_step_id = state.get("current_step_id")
-
     if not current_step or not current_step_id:
         return {
             **state,
             "status": "ERROR",
-            "error": (
-                "No current travel step was selected "
-                "by the supervisor."
-            ),
+            "error": "No current travel step was selected by the supervisor.",
         }
 
-    dependency_results = dict(
-        state.get("dependency_results", {})
-    )
-
+    dependency_results = dict(state.get("dependency_results", {}))
     try:
         travel_step = project_plan_step(
             current_step,
@@ -361,31 +623,24 @@ def travel_agent(
         return {
             **state,
             "status": "ERROR",
-            "error": (
-                "Travel step projection failed: "
-                f"{type(exc).__name__}: {exc}"
-            ),
+            "error": f"Travel step projection failed: {type(exc).__name__}: {exc}",
         }
 
-    if travel_step.origin is None:
+    if travel_step.origin is None or travel_step.destination is None:
         return {
             **state,
             "status": "ERROR",
-            "error": (
-                "Travel step does not contain "
-                "an origin."
-            ),
+            "error": "Travel step requires both an origin and destination.",
         }
 
-    if travel_step.destination is None:
-        return {
-            **state,
-            "status": "ERROR",
-            "error": (
-                "Travel step does not contain "
-                "a destination."
-            ),
-        }
+    if _is_multimodal_request(travel_step):
+        return _complete_multimodal_travel(
+            state,
+            current_step,
+            current_step_id,
+            travel_step,
+            dependency_results,
+        )
 
     if is_transit_request(travel_step):
         try:
@@ -394,14 +649,9 @@ def travel_agent(
             return {
                 **state,
                 "status": "ERROR",
-                "error": (
-                    "Transit journey planning failed: "
-                    f"{type(exc).__name__}: {exc}"
-                ),
+                "error": f"Transit journey planning failed: {type(exc).__name__}: {exc}",
             }
-
-        results = dict(state.get("step_results", {}))
-        results[current_step_id] = {
+        result = {
             "agent": "travel",
             "status": "COMPLETED",
             "stub": False,
@@ -410,208 +660,81 @@ def travel_agent(
             "transit_result": transit_result,
             "dependency_results": dependency_results,
         }
+    else:
+        try:
+            origin = resolve_place(travel_step.origin)
+            destination = resolve_place(travel_step.destination)
+            route_result = route_with_fallbacks(
+                origin.coordinates,
+                destination.coordinates,
+                mode=travel_step.mode,
+            )
+        except Exception as exc:
+            return {
+                **state,
+                "status": "ERROR",
+                "error": f"Travel routing failed: {type(exc).__name__}: {exc}",
+            }
 
-        return {
-            **state,
-            "step_results": results,
-            "status": "RUNNING",
-            "error": None,
-            "clarification_required": False,
-            "clarification_question": None,
-        }
-
-    try:
-        origin = resolve_place(
-            travel_step.origin
-        )
-    except TravelResolverClarificationError as exc:
-        results = dict(
-            state.get("step_results", {})
-        )
-
-        results[current_step_id] = {
+        if route_result.status in {"COMPLETED", "PARTIAL"}:
+            route_result.calculations = calculate_travel(
+                route_result.facts,
+                cost_per_km=_extract_numeric_option(
+                    travel_step.constraints,
+                    travel_step.preferences,
+                    "cost_per_km",
+                ),
+            )
+            if travel_step.mode.lower() in {
+                "driving",
+                "car",
+                "bike",
+                "motorcycle",
+            }:
+                route_result.calculations.append(
+                    calculate_fuel_cost(
+                        route_result.facts,
+                        mileage_km_per_litre=_extract_numeric_option(
+                            travel_step.constraints,
+                            travel_step.preferences,
+                            "mileage_km_per_litre",
+                        ),
+                        fuel_price_per_litre=_extract_numeric_option(
+                            travel_step.constraints,
+                            travel_step.preferences,
+                            "fuel_price_per_litre",
+                        ),
+                        vehicle_type=travel_step.mode,
+                    )
+                )
+            route_result.metadata = {
+                **route_result.metadata,
+                "profile_disclosure": (
+                    "Bike routes use the provider's standard driving profile; "
+                    "they are not motorcycle-specific."
+                    if travel_step.mode.lower() in {"bike", "motorcycle"}
+                    else None
+                ),
+                "toll_status": build_toll_status(
+                    provider=route_result.metadata.get(
+                        "selected_provider", "unknown"
+                    )
+                ),
+            }
+        result = {
             "agent": "travel",
-            "status": "NEEDS_CLARIFICATION",
+            "status": "COMPLETED",
             "stub": False,
             "step": current_step,
-            "travel_step": travel_step.model_dump(
-                mode="json"
-            ),
-            "clarification_question": (
-                f"Which place do you mean by "
-                f"'{exc.query}'?"
-            ),
-            "candidates": [
-                candidate.model_dump(mode="json")
-                for candidate in exc.candidates
-            ],
+            "travel_step": travel_step.model_dump(mode="json"),
+            "origin": origin.model_dump(mode="json"),
+            "destination": destination.model_dump(mode="json"),
+            "travel_result": route_result.model_dump(mode="json"),
             "dependency_results": dependency_results,
         }
 
-        blocked_step = dict(current_step)
-        blocked_step["status"] = "BLOCKED"
-
-        return {
-            **state,
-            "current_step": blocked_step,
-            "step_results": results,
-            "status": "BLOCKED",
-            "clarification_required": True,
-            "clarification_question": (
-                f"Which place do you mean by "
-                f"'{exc.query}'?"
-            ),
-            "error": None,
-        }
-    except TravelResolverError as exc:
-        return {
-            **state,
-            "status": "ERROR",
-            "error": (
-                f"Travel place resolution failed: {exc}"
-            ),
-        }
-    except Exception as exc:
-        return {
-            **state,
-            "status": "ERROR",
-            "error": (
-                "Travel place resolution failed: "
-                f"{type(exc).__name__}: {exc}"
-            ),
-        }
-
-    try:
-        destination = resolve_place(
-            travel_step.destination
-        )
-    except TravelResolverClarificationError as exc:
-        results = dict(
-            state.get("step_results", {})
-        )
-
-        results[current_step_id] = {
-            "agent": "travel",
-            "status": "NEEDS_CLARIFICATION",
-            "stub": False,
-            "step": current_step,
-            "travel_step": travel_step.model_dump(
-                mode="json"
-            ),
-            "clarification_question": (
-                f"Which place do you mean by "
-                f"'{exc.query}'?"
-            ),
-            "candidates": [
-                candidate.model_dump(mode="json")
-                for candidate in exc.candidates
-            ],
-            "dependency_results": dependency_results,
-        }
-
-        blocked_step = dict(current_step)
-        blocked_step["status"] = "BLOCKED"
-
-        return {
-            **state,
-            "current_step": blocked_step,
-            "step_results": results,
-            "status": "BLOCKED",
-            "clarification_required": True,
-            "clarification_question": (
-                f"Which place do you mean by "
-                f"'{exc.query}'?"
-            ),
-            "error": None,
-        }
-    except TravelResolverError as exc:
-        return {
-            **state,
-            "status": "ERROR",
-            "error": (
-                f"Travel place resolution failed: {exc}"
-            ),
-        }
-    except Exception as exc:
-        return {
-            **state,
-            "status": "ERROR",
-            "error": (
-                "Travel place resolution failed: "
-                f"{type(exc).__name__}: {exc}"
-            ),
-        }
-
-    try:
-        route_result = route_with_fallbacks(
-            origin.coordinates,
-            destination.coordinates,
-            mode=travel_step.mode,
-        )
-    except Exception as exc:
-        return {
-            **state,
-            "status": "ERROR",
-            "error": (
-                "Travel routing failed: "
-                f"{type(exc).__name__}: {exc}"
-            ),
-        }
-
-    calculations = []
-
-    if route_result.status in {
-        "COMPLETED",
-        "PARTIAL",
-    }:
-        buffer_minutes = _extract_numeric_option(
-            travel_step.constraints,
-            travel_step.preferences,
-            "buffer_minutes",
-        )
-
-        cost_per_km = _extract_numeric_option(
-            travel_step.constraints,
-            travel_step.preferences,
-            "cost_per_km",
-        )
-
-        calculations = calculate_travel(
-            route_result.facts,
-            buffer_minutes=(
-                buffer_minutes
-                if buffer_minutes is not None
-                else 0.0
-            ),
-            cost_per_km=cost_per_km,
-        )
-
-        route_result.calculations = calculations
-
-    results = dict(
-        state.get("step_results", {})
-    )
-
-    results[current_step_id] = {
-        "agent": "travel",
-        "status": "COMPLETED",
-        "stub": False,
-        "step": current_step,
-        "travel_step": travel_step.model_dump(
-            mode="json"
-        ),
-        "origin": origin.model_dump(
-            mode="json"
-        ),
-        "destination": destination.model_dump(
-            mode="json"
-        ),
-        "travel_result": route_result.model_dump(
-            mode="json"
-        ),
-        "dependency_results": dependency_results,
-    }
-
+    results = dict(state.get("step_results", {}))
+    results[current_step_id] = result
     return {
         **state,
         "step_results": results,

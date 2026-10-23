@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from app.travel.calculations import (
     calculate_distance_cost,
     calculate_eta,
+    calculate_fuel_cost,
     calculate_travel,
 )
 from app.travel.schemas import TravelFact
@@ -123,3 +124,20 @@ def test_approximate_provider_fact_propagates_estimated():
     assert cost.status == "COMPLETED"
     assert cost.value == 800.0
     assert cost.estimated is True
+
+
+def test_non_finite_values_are_unavailable():
+    eta = calculate_eta(_facts(duration=float("nan")))
+    cost = calculate_distance_cost(
+        _facts(),
+        cost_per_km=float("inf"),
+    )
+    fuel = calculate_fuel_cost(
+        _facts(),
+        mileage_km_per_litre=float("nan"),
+        fuel_price_per_litre=100,
+    )
+
+    assert eta.status == "UNAVAILABLE"
+    assert cost.status == "UNAVAILABLE"
+    assert fuel.status == "UNAVAILABLE"

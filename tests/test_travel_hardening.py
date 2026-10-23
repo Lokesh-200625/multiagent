@@ -301,3 +301,19 @@ def test_negative_cache_ttl_and_latency_log(
     ]
 
     assert latency_lines
+
+
+def test_osrm_rejects_non_finite_primary_metrics(monkeypatch):
+    origin, destination = _coordinates()
+
+    monkeypatch.setattr(
+        routing,
+        "_request_json",
+        lambda *args, **kwargs: {
+            "code": "Ok",
+            "routes": [{"distance": float("nan"), "duration": 600}],
+        },
+    )
+
+    with pytest.raises(ValueError, match="invalid distance"):
+        routing.route_osrm(origin, destination)

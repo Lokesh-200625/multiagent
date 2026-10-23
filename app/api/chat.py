@@ -1,4 +1,5 @@
 import logging
+import math
 import re
 import time
 import uuid
@@ -645,67 +646,92 @@ def _extract_answer_sentence(text: str) -> str:
 
     return sentences[0]
 
+
 def _build_grounded_reply(
-
     evidence: list[dict],
-
     question: str = "",
-
 ) -> str:
-
     if not evidence:
-
         return (
-
             "I couldn't find enough verified evidence "
-
             "to answer that safely."
+        )
 
+    broad_query = bool(
+        re.search(
+            r"\b(tell me about|overview|describe|information about)\b",
+            question,
+            re.IGNORECASE,
+        )
+    )
+
+    candidates = [
+        item for item in evidence
+        if isinstance(item, dict) and _clean_text(item.get("text", ""))
+    ]
+
+    if broad_query:
+        preferred_types = {
+            "summary": 5,
+            "overview": 4,
+            "religious_significance": 3,
+            "spiritual_significance": 3,
+            "history": 2,
+        }
+
+        preferred = [
+            item for item in candidates
+            if str(item.get("content_type", "")).lower()
+            in preferred_types
+        ]
+
+        if preferred:
+            candidates = preferred
+            candidates.sort(
+                key=lambda item: (
+                    preferred_types.get(
+                        str(item.get("content_type", "")).lower(), 0
+                    ),
+                    _evidence_relevance_score(item, question),
+                ),
+                reverse=True,
+            )
+        else:
+            candidates.sort(
+                key=lambda item: _evidence_relevance_score(item, question),
+                reverse=True,
+            )
+
+        text = _clean_text(candidates[0].get("text", ""))
+        sentences = re.split(r"(?<=[.!?])\s+", text)
+        answer = " ".join(
+            sentence.strip()
+            for sentence in sentences[:3]
+            if sentence.strip()
+        )
+        return answer or (
+            "I found evidence, but couldn't extract a usable answer."
         )
 
     best_evidence = _select_best_evidence(
-
-        evidence=evidence,
-
+        evidence=candidates,
         question=question,
-
     )
 
     if not best_evidence:
-
         return (
-
             "I couldn't find enough verified evidence "
-
             "to answer that safely."
-
         )
 
-    text = _clean_text(best_evidence.get("text", ""))
+    answer = _extract_answer_sentence(
+        _clean_text(best_evidence.get("text", ""))
+    )
 
-    if not text:
+    return answer or (
+        "I found evidence, but couldn't extract a usable answer."
+    )
 
-        return (
-
-            "I found evidence for this request, "
-
-            "but it did not contain usable answer text."
-
-        )
-
-    answer = _extract_answer_sentence(text)
-
-    if not answer:
-
-        return (
-
-            "I found evidence for this request, "
-
-            "but it did not contain usable answer text."
-
-        )
-
-    return answer
 
 def _format_location(value, fallback: str) -> str:
 
@@ -740,8 +766,7 @@ def _format_leg_time(value) -> str:
     # Transit planner values may be seconds after midnight.
 
     if isinstance(value, (int, float)):
-
-        total_seconds = int(value) % (24 * 60 * 60)
+        total_seconds = int(value)
 
         hours = total_seconds // 3600
 
@@ -812,7 +837,6 @@ def _build_transit_reply(graph_result: dict) -> str | None:
     journeys = transit_result.get("journeys", [])
 
     if not isinstance(journeys, list) or not journeys:
-
         return (
 
             f"No scheduled {mode} journeys were found from "
@@ -822,9 +846,9 @@ def _build_transit_reply(graph_result: dict) -> str | None:
             "Try another date or departure time. "
 
             "This result reflects the available schedule data, "
-
-            "not live service availability."
-
+            "not live service availability. "
+            "The active feed may not cover this journey; try "
+            "https://www.redbus.in/ for broader bus-search options."
         )
 
     lines = [
@@ -1030,7 +1054,22 @@ def _build_transit_reply(graph_result: dict) -> str | None:
             "Note: These are scheduled journeys. "
 
             "Live delays and cancellations may not be reflected.",
+        ])
 
+    attribution = transit_result.get("attribution")
+    if attribution:
+        lines.extend(["", f"Source: {attribution}."])
+
+    fare = transit_result.get("fare")
+    if isinstance(fare, dict) and fare.get("status") != "AVAILABLE":
+        lines.extend([
+            "",
+            str(
+                fare.get(
+                    "message",
+                    "Fare data is unavailable; this does not mean free travel.",
+                )
+            ),
         ])
 
     return "\n".join(lines)
@@ -1115,9 +1154,42 @@ def _build_road_route_reply(graph_result: dict) -> str | None:
         if not isinstance(metadata, dict):
             metadata = {}
 
+        toll_status = metadata.get("toll_status", {})
+        if isinstance(toll_status, dict):
+            toll_message = toll_status.get("message")
+            if toll_message:
+                lines.append(str(toll_message))
+
+        calculations = travel_result.get("calculations", [])
+        if isinstance(calculations, list):
+            for calculation in calculations:
+                if not isinstance(calculation, dict):
+                    continue
+                if calculation.get("key") != "fuel_cost":
+                    continue
+                if calculation.get("status") == "COMPLETED":
+                    inputs = calculation.get("inputs", {})
+                    lines.append(
+                        "Estimated fuel cost: "
+                        f"INR {float(calculation['value']):.2f} "
+                        f"(based on {inputs.get('mileage_km_per_litre')} "
+                        "km/litre and "
+                        f"INR {inputs.get('fuel_price_per_litre')}/litre; "
+                        "fuel only)."
+                    )
+                else:
+                    lines.append(
+                        "Fuel cost unavailable: provide vehicle mileage "
+                        "and fuel price per litre for an estimate."
+                    )
+
         provider = metadata.get("selected_provider")
         if provider:
             lines.append(f"Routing provider: {str(provider).upper()}.")
+
+        profile_disclosure = metadata.get("profile_disclosure")
+        if profile_disclosure:
+            lines.append(f"Note: {profile_disclosure}")
 
         is_approximate = (
             route_status == "PARTIAL"
@@ -1125,6 +1197,49 @@ def _build_road_route_reply(graph_result: dict) -> str | None:
             or metadata.get("distance_type") == "straight_line"
             or distance.get("approximate")
         )
+        alternatives = metadata.get("alternative_routes", [])
+        if isinstance(alternatives, list):
+            valid_alternatives = []
+
+            for route in alternatives:
+                if not isinstance(route, dict):
+                    continue
+
+                try:
+                    route_km = float(route["distance_km"])
+                    route_minutes = float(route["duration_minutes"])
+                except (KeyError, TypeError, ValueError):
+                    continue
+
+                if (
+                    route_km < 0
+                    or route_minutes < 0
+                    or not math.isfinite(route_km)
+                    or not math.isfinite(route_minutes)
+                ):
+                    continue
+
+                valid_alternatives.append(
+                    (route, route_km, route_minutes)
+                )
+
+            if valid_alternatives:
+                lines.append("")
+                lines.append("Available alternative driving routes:")
+
+                for route, route_km, route_minutes in valid_alternatives:
+                    route_number = route.get("route_number", "?")
+                    lines.append(
+                        f"Route {route_number}: approximately "
+                        f"{route_km:g} km, "
+                        f"{round(route_minutes)} min "
+                        f"(OSRM estimate)."
+                    )
+
+                lines.append(
+                    "Alternative routes are provider-dependent; "
+                    "availability does not guarantee the fastest or cheapest route."
+                )
 
         if is_approximate:
             lines.append(
@@ -1149,6 +1264,115 @@ def _build_road_route_reply(graph_result: dict) -> str | None:
         return "\n".join(lines)
 
     return None
+
+
+def _build_multimodal_reply(graph_result: dict) -> str | None:
+    results = graph_result.get("step_results", {})
+    if not isinstance(results, dict):
+        return None
+
+    comparison = None
+    for result in reversed(list(results.values())):
+        if isinstance(result, dict):
+            candidate = result.get("multimodal_result")
+            if isinstance(candidate, dict):
+                comparison = candidate
+                break
+
+    if comparison is None:
+        return None
+
+    lines = [
+        (
+            f"Travel options: {comparison.get('origin', 'origin')} "
+            f"→ {comparison.get('destination', 'destination')}"
+        ),
+        "",
+    ]
+
+    for option in comparison.get("options", []):
+        if not isinstance(option, dict):
+            continue
+        mode = str(option.get("mode", "travel")).title()
+        if option.get("available") is not True:
+            lines.append(
+                f"{mode}: unavailable"
+                + (
+                    f" ({option['reason']})"
+                    if option.get("reason")
+                    else "."
+                )
+            )
+            continue
+
+        duration = option.get("duration_minutes")
+        detail = f"{float(duration):.1f} minutes" if duration is not None else "duration unavailable"
+        provider = option.get("provider") or "provider unavailable"
+        lines.append(f"{mode}: {detail} ({provider}).")
+
+        if option.get("distance_km") is not None:
+            lines.append(
+                f"  Distance: approximately {float(option['distance_km']):g} km."
+            )
+
+        if option.get("scheduled"):
+            journeys = option.get("journeys") or []
+            if journeys:
+                journey = journeys[0]
+                lines.append(
+                    f"  Scheduled departure: {journey.get('departure_time', 'unknown')}; "
+                    f"arrival: {journey.get('arrival_time', 'unknown')}."
+                )
+            lines.append("  Scheduled GTFS data; not live tracking.")
+            if option.get("attribution"):
+                lines.append(f"  Source: {option['attribution']}.")
+            fare = option.get("fare")
+            if isinstance(fare, dict) and fare.get("status") != "AVAILABLE":
+                lines.append(
+                    "  Fare unavailable; this does not mean free travel."
+                )
+        else:
+            fuel = option.get("fuel")
+            if isinstance(fuel, dict) and fuel.get("status") == "COMPLETED":
+                inputs = fuel.get("inputs", {})
+                lines.append(
+                    f"  Fuel estimate: INR {float(fuel['cost_inr']):.2f} "
+                    f"({inputs.get('mileage_km_per_litre')} km/litre, "
+                    f"INR {inputs.get('fuel_price_per_litre')}/litre)."
+                )
+            else:
+                lines.append(
+                    "  Fuel estimate unavailable: mileage and fuel price "
+                    "assumptions were not supplied."
+                )
+            lines.append(
+                "  Toll charges are unavailable from the current routing "
+                "provider. This does not mean the route is toll-free."
+            )
+            if option.get("profile_disclosure"):
+                lines.append(f"  Note: {option['profile_disclosure']}")
+
+    ranking = comparison.get("ranking")
+    if isinstance(ranking, dict):
+        lines.append("")
+        preference = str(ranking.get("preference", "")).title()
+        selected = ranking.get("selected")
+        if ranking.get("status") == "COMPLETED" and selected:
+            lines.append(
+                f"{preference} option based on available evidence: "
+                f"{str(selected.get('mode', 'travel')).title()}."
+            )
+        else:
+            lines.append(
+                f"{preference} comparison unavailable: "
+                f"{ranking.get('reason', 'insufficient comparable data')}."
+            )
+
+    message = comparison.get("message")
+    if message:
+        lines.extend(["", f"Note: {message}"])
+
+    return "\n".join(lines)
 
 
 def _build_reply(
@@ -1206,6 +1430,10 @@ def _build_reply(
             "temporarily unavailable. Please try again."
 
         )
+
+    multimodal_reply = _build_multimodal_reply(graph_result)
+    if multimodal_reply is not None:
+        return multimodal_reply
 
     transit_reply = _build_transit_reply(graph_result)
 

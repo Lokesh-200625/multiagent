@@ -24,6 +24,17 @@ def _stop_name(stop: dict[str, Any]) -> str:
     return str(stop.get("stop_name") or stop.get("name") or "")
 
 
+def _transit_query_alias(query: str) -> str:
+    normalized = re.sub(r"\s+", " ", query).strip()
+    if re.fullmatch(
+        r"(?:hyderabad\s+)?(?:mahatma gandhi bus station|mgbus|mgbs)",
+        normalized,
+        re.IGNORECASE,
+    ):
+        return "MGBS"
+    return normalized
+
+
 def _select_stop(query: str, stops: list[dict[str, Any]]) -> dict[str, Any]:
     wanted = _normalise(query)
 
@@ -42,9 +53,12 @@ def _select_stop(query: str, stops: list[dict[str, Any]]) -> dict[str, Any]:
             _normalise(stop.get("stop_code")),
         }
 
+        name_tokens = set(re.findall(r"[a-z0-9]+", name))
+        wanted_tokens = set(re.findall(r"[a-z0-9]+", wanted))
+
         if name == wanted or wanted in stop_identifiers:
             score = 0
-        elif wanted in name or name in wanted:
+        elif wanted_tokens and wanted_tokens.issubset(name_tokens):
             score = 1
         else:
             continue
@@ -216,18 +230,24 @@ def plan_transit_journey(
 
     origin_stops = query_service.find_stops(
         provider_id=provider_id,
-        query=origin_query,
+        query=_transit_query_alias(origin_query),
         limit=10,
     )
 
     destination_stops = query_service.find_stops(
         provider_id=provider_id,
-        query=destination_query,
+        query=_transit_query_alias(destination_query),
         limit=10,
     )
 
-    origin = _select_stop(origin_query, origin_stops)
-    destination = _select_stop(destination_query, destination_stops)
+    origin = _select_stop(
+        _transit_query_alias(origin_query),
+        origin_stops,
+    )
+    destination = _select_stop(
+        _transit_query_alias(destination_query),
+        destination_stops,
+    )
 
     service_date = _service_date(
         step.model_dump() if hasattr(step, "model_dump") else step
@@ -283,6 +303,9 @@ def plan_transit_journey(
             "stop_name": _stop_name(destination),
         },
         "journey_count": len(journeys),
+        "journey_status": (
+            "AVAILABLE" if journeys else "NO_SCHEDULED_JOURNEY"
+        ),
         "journeys": journeys,
         "attribution": provider.attribution,
         "fare": {

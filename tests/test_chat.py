@@ -1,9 +1,11 @@
-from unittest.mock import patch
+﻿from unittest.mock import patch
 
+import pytest
 from fastapi.testclient import TestClient
 
 from app.main import app
 from app.models.plan import ExecutionPlan
+from app.models.resolved_query import ResolvedQuery
 from app.models.understanding import QueryUnderstanding
 
 
@@ -65,7 +67,6 @@ def test_emergency_bypasses_llm():
 
     mock_llm.assert_not_called()
 
-
 def test_normal_chat_returns_slim_response():
     understanding = make_understanding()
 
@@ -93,7 +94,7 @@ def test_normal_chat_returns_slim_response():
         "evidence",
     }
 
-    assert data["intent"] == "search"
+    assert data["intent"] == "greeting"
     assert data["reply"]
     assert isinstance(data["evidence"], list)
 
@@ -205,6 +206,71 @@ def test_llm_unavailable_returns_503():
     )
 
 
+@pytest.mark.parametrize(
+    "provider_error",
+    [
+        "LLM_UNAVAILABLE: provider rate limited (429)",
+        "LLM_UNAVAILABLE: provider timeout",
+        "LLM_UNAVAILABLE: provider error",
+    ],
+)
+def test_llm_failure_uses_deterministic_travel_fallback(provider_error):
+    from app.services.travel_fallback import (
+        deterministic_travel_understanding,
+    )
+    from app.models.plan import PlanStep
+
+    fallback = deterministic_travel_understanding(
+        "Drive from Hyderabad to Bhongir"
+    )
+    assert fallback is not None
+    resolved = ResolvedQuery(understanding=fallback)
+    plan = ExecutionPlan(
+        intent="travel",
+        steps=[
+            PlanStep(
+                step_id="travel-1",
+                domain="travel",
+                intent="route_search",
+                question=fallback.subqueries[0].question,
+                locations=[
+                    {"mention": "Hyderabad", "role": "origin"},
+                    {"mention": "Bhongir", "role": "destination"},
+                ],
+                required_capabilities=["route_search"],
+            )
+        ],
+    )
+    graph_result = {
+        "status": "COMPLETED",
+        "step_results": {},
+    }
+
+    with patch(
+        "app.api.chat.understand_query",
+        side_effect=RuntimeError(provider_error),
+    ), patch(
+        "app.api.chat.resolve_understanding",
+        return_value=resolved,
+    ), patch(
+        "app.api.chat.build_execution_plan",
+        return_value=plan,
+    ), patch(
+        "app.api.chat.validate_execution_plan",
+        return_value=plan.model_dump(),
+    ), patch(
+        "app.api.chat.workflow.invoke",
+        return_value=graph_result,
+    ) as invoke:
+        response = client.post(
+            "/chat",
+            json={"message": "Drive from Hyderabad to Bhongir"},
+        )
+
+    assert response.status_code == 200
+    invoke.assert_called_once()
+
+
 def test_chat_survives_redis_unavailable():
     understanding = make_understanding()
 
@@ -230,7 +296,7 @@ def test_chat_survives_redis_unavailable():
     data = response.json()
 
     assert data["session_id"]
-    assert data["intent"] == "search"
+    assert data["intent"] == "greeting"
     assert data["reply"]
 
 

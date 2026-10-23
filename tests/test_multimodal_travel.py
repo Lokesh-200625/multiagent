@@ -146,6 +146,103 @@ def test_multimodal_agent_keeps_partial_provider_results():
     assert options[2]["available"] is False
 
 
+def test_multimodal_agent_keeps_two_successful_options_when_bus_fails():
+    travel_step = TravelPlanStep(
+        step_id="travel-1",
+        question="Compare bus, car and bike",
+        intent="route_search",
+        origin="A",
+        destination="B",
+    )
+    route_fact = TravelFact(
+        key="distance",
+        value=10,
+        unit="km",
+        provider="osrm",
+        source_tier="open-data",
+        fetched_at=datetime.now(timezone.utc),
+    )
+    duration_fact = route_fact.model_copy(
+        update={"key": "duration", "value": 60, "unit": "minutes"}
+    )
+    road = TravelResult(
+        status="COMPLETED",
+        facts=[route_fact, duration_fact],
+        metadata={"selected_provider": "osrm"},
+    )
+
+    with patch.object(
+        nodes,
+        "resolve_place",
+        side_effect=[_place("A"), _place("B")],
+    ), patch.object(nodes, "route_with_fallbacks", return_value=road), patch.object(
+        nodes,
+        "plan_transit_journey",
+        side_effect=RuntimeError("feed unavailable"),
+    ):
+        result = nodes._complete_multimodal_travel(
+            {"step_results": {}, "status": "RUNNING"},
+            {"step_id": "travel-1"},
+            "travel-1",
+            travel_step,
+            {},
+        )
+
+    options = result["step_results"]["travel-1"]["multimodal_result"]["options"]
+    assert [option["available"] for option in options] == [False, True, True]
+
+
+def test_multimodal_agent_reports_all_provider_failures():
+    travel_step = TravelPlanStep(
+        step_id="travel-1",
+        question="Compare bus, car and bike",
+        intent="route_search",
+        origin="A",
+        destination="B",
+    )
+
+    with patch.object(
+        nodes,
+        "resolve_place",
+        side_effect=[_place("A"), _place("B")],
+    ), patch.object(
+        nodes,
+        "route_with_fallbacks",
+        side_effect=RuntimeError("routing unavailable"),
+    ), patch.object(
+        nodes,
+        "plan_transit_journey",
+        side_effect=RuntimeError("feed unavailable"),
+    ):
+        result = nodes._complete_multimodal_travel(
+            {"step_results": {}, "status": "RUNNING"},
+            {"step_id": "travel-1"},
+            "travel-1",
+            travel_step,
+            {},
+        )
+
+    options = result["step_results"]["travel-1"]["multimodal_result"]["options"]
+    assert [option["available"] for option in options] == [False, False, False]
+
+
+def test_single_mode_requests_do_not_trigger_multimodal():
+    bus = TravelPlanStep(
+        step_id="travel-1",
+        question="Find a bus from A to B",
+        intent="route_search",
+        origin="A",
+        destination="B",
+        mode="bus",
+    )
+    car = bus.model_copy(
+        update={"question": "Drive from A to B by car", "mode": "car"}
+    )
+
+    assert nodes._is_multimodal_request(bus) is False
+    assert nodes._is_multimodal_request(car) is False
+
+
 def test_ambiguous_travel_place_returns_clarification():
     travel_step = TravelPlanStep(
         step_id="travel-1",

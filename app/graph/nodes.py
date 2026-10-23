@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import re
 import time
 from typing import Any
 
@@ -378,7 +379,8 @@ def _request_text(step: Any) -> str:
 def _is_multimodal_request(step: Any) -> bool:
             text = _request_text(step)
             explicit_single_mode = (
-                any(term in text for term in ("bus only", "only bus", "bus route"))
+                any(term in text for term in ("bus only", "only bus"))
+                or bool(re.search(r"\bbus\s+route(?:\s|$)", text))
                 or any(term in text for term in ("car only", "only car"))
                 or any(term in text for term in ("bike only", "only bike"))
             )

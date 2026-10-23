@@ -27,6 +27,7 @@ from app.services.query_resolution import resolve_understanding
 from app.services.safety import detect_emergency, emergency_response
 
 from app.services.session import get_session, save_session
+from app.services.travel_fallback import deterministic_travel_understanding
 
 logger = logging.getLogger(__name__)
 
@@ -1649,34 +1650,33 @@ def chat(request: ChatRequest):
         )
 
         if str(exc).startswith("LLM_UNAVAILABLE:"):
+            fallback_understanding = deterministic_travel_understanding(
+                request.message
+            )
+            if fallback_understanding is not None:
+                logger.warning(
+                    "Using deterministic travel understanding fallback "
+                    "after LLM unavailability."
+                )
+                understanding = fallback_understanding
+            else:
+                state.validation = {
+                    "status": "LLM_UNAVAILABLE",
+                    "llm_called": True,
+                    "error": str(exc),
+                }
+                _persist_session(session_id, state)
+                raise HTTPException(
+                    status_code=503,
+                    detail=(
+                        "Query understanding service "
+                        "is temporarily unavailable."
+                    ),
+                ) from exc
 
-            state.validation = {
+        else:
+            raise
 
-                "status": "LLM_UNAVAILABLE",
-
-                "llm_called": True,
-
-                "error": str(exc),
-
-            }
-
-            _persist_session(session_id, state)
-
-            raise HTTPException(
-
-                status_code=503,
-
-                detail=(
-
-                    "Query understanding service "
-
-                    "is temporarily unavailable."
-
-                ),
-
-            ) from exc
-
-        raise
     finally:
         logger.info(
             "chat_stage session_id=%s stage=query_understanding event=end elapsed_ms=%.2f",

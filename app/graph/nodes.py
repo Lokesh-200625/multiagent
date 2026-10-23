@@ -161,8 +161,11 @@ def supervisor(
         "status": "BLOCKED",
         "clarification_required": True,
         "clarification_question": (
-            "Execution is blocked because "
-            "required dependencies have not completed."
+            state.get("clarification_question")
+            or (
+                "Execution is blocked because "
+                "required dependencies have not completed."
+            )
         ),
     }
 
@@ -507,6 +510,15 @@ def _complete_multimodal_travel(
             try:
                 origin = resolve_place(travel_step.origin)
                 destination = resolve_place(travel_step.destination)
+            except TravelResolverClarificationError as exc:
+                return _travel_clarification_result(
+                    state=state,
+                    current_step=current_step,
+                    current_step_id=current_step_id,
+                    travel_step=travel_step,
+                    dependency_results=dependency_results,
+                    error=exc,
+                )
             except Exception as exc:
                 return {
                     **state,
@@ -601,6 +613,61 @@ def _complete_multimodal_travel(
                 "clarification_question": None,
             }
 
+
+def _travel_clarification_result(
+    *,
+    state: GraphState,
+    current_step: dict[str, Any],
+    current_step_id: str,
+    travel_step: Any,
+    dependency_results: dict[str, Any],
+    error: TravelResolverClarificationError,
+) -> GraphState:
+    results = dict(state.get("step_results", {}))
+    execution_plan = dict(state.get("execution_plan", {}))
+    plan_steps = []
+    for step in execution_plan.get("steps", []):
+        updated_step = dict(step)
+        if updated_step.get("step_id") == current_step_id:
+            updated_step["status"] = "BLOCKED"
+        plan_steps.append(updated_step)
+    execution_plan["steps"] = plan_steps
+    execution_plan["status"] = "BLOCKED"
+    execution_plan["requires_clarification"] = True
+    execution_plan["clarification_question"] = (
+        f"Which place do you mean by '{error.query}'?"
+    )
+    results[current_step_id] = {
+        "agent": "travel",
+        "status": "NEEDS_CLARIFICATION",
+        "stub": False,
+        "step": current_step,
+        "travel_step": travel_step.model_dump(mode="json"),
+        "clarification_question": (
+            f"Which place do you mean by '{error.query}'?"
+        ),
+        "candidates": [
+            candidate.model_dump(mode="json")
+            for candidate in error.candidates
+        ],
+        "dependency_results": dependency_results,
+    }
+    blocked_step = dict(current_step)
+    blocked_step["status"] = "BLOCKED"
+    return {
+        **state,
+        "execution_plan": execution_plan,
+        "current_step": blocked_step,
+        "step_results": results,
+        "status": "BLOCKED",
+        "error": None,
+        "clarification_required": True,
+        "clarification_question": (
+            f"Which place do you mean by '{error.query}'?"
+        ),
+    }
+
+
 def travel_agent(
     state: GraphState,
 ) -> GraphState:
@@ -668,6 +735,15 @@ def travel_agent(
                 origin.coordinates,
                 destination.coordinates,
                 mode=travel_step.mode,
+            )
+        except TravelResolverClarificationError as exc:
+            return _travel_clarification_result(
+                state=state,
+                current_step=current_step,
+                current_step_id=current_step_id,
+                travel_step=travel_step,
+                dependency_results=dependency_results,
+                error=exc,
             )
         except Exception as exc:
             return {

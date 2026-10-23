@@ -3,8 +3,11 @@ from datetime import datetime, timezone
 
 from app.api.chat import _build_multimodal_reply
 from app.graph import nodes
+from app.graph.workflow import workflow
+from app.travel.resolver import TravelResolverClarificationError
 from app.travel.schemas import (
     Coordinate,
+    PlaceCandidate,
     ResolvedPlace,
     TravelFact,
     TravelPlanStep,
@@ -141,3 +144,99 @@ def test_multimodal_agent_keeps_partial_provider_results():
     assert [option["mode"] for option in options] == ["bus", "car", "bike"]
     assert options[1]["available"] is True
     assert options[2]["available"] is False
+
+
+def test_ambiguous_travel_place_returns_clarification():
+    travel_step = TravelPlanStep(
+        step_id="travel-1",
+        question="Travel from Nalgonda to Yadadri",
+        intent="route_search",
+        origin="Nalgonda",
+        destination="Yadadri",
+    )
+    error = TravelResolverClarificationError(
+        "Nalgonda",
+        [
+            PlaceCandidate(
+                display_name="Nalgonda district",
+                latitude=17.05,
+                longitude=79.27,
+                source="test",
+            ),
+            PlaceCandidate(
+                display_name="Nalgonda municipality",
+                latitude=17.05,
+                longitude=79.27,
+                source="test",
+            ),
+        ],
+    )
+
+    with patch.object(nodes, "resolve_place", side_effect=error):
+        result = nodes.travel_agent(
+            {
+                "current_step_id": "travel-1",
+                "current_step": {
+                    "step_id": "travel-1",
+                    "origin": "Nalgonda",
+                    "destination": "Yadadri",
+                    "question": travel_step.question,
+                },
+                "execution_plan": {
+                    "steps": [
+                        {
+                            "step_id": "travel-1",
+                            "status": "READY",
+                        }
+                    ]
+                },
+                "step_results": {},
+                "status": "RUNNING",
+            }
+        )
+
+    assert result["status"] == "BLOCKED"
+    assert result["clarification_required"] is True
+    assert result["clarification_question"] == (
+        "Which place do you mean by 'Nalgonda'?"
+    )
+    assert result["step_results"]["travel-1"]["status"] == (
+        "NEEDS_CLARIFICATION"
+    )
+    assert result["execution_plan"]["steps"][0]["status"] == "BLOCKED"
+
+
+def test_ambiguous_workflow_terminates_with_specific_question():
+    error = TravelResolverClarificationError("Nalgonda", [])
+    state = {
+        "session_id": "test",
+        "execution_plan": {
+            "intent": "travel",
+            "status": "READY",
+            "requires_clarification": False,
+            "steps": [
+                {
+                    "step_id": "travel-1",
+                    "domain": "travel",
+                    "intent": "route_search",
+                    "question": "Travel from Nalgonda to Yadadri",
+                    "origin": "Nalgonda",
+                    "destination": "Yadadri",
+                    "mode": "driving",
+                    "status": "READY",
+                }
+            ],
+        },
+        "current_step_id": None,
+        "step_results": {},
+        "status": "PENDING",
+        "error": None,
+    }
+
+    with patch.object(nodes, "resolve_place", side_effect=error):
+        result = workflow.invoke(state)
+
+    assert result["status"] == "BLOCKED"
+    assert result["clarification_question"] == (
+        "Which place do you mean by 'Nalgonda'?"
+    )

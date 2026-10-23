@@ -1393,6 +1393,12 @@ def _build_reply(
 
         )
 
+    if graph_result.get("clarification_required"):
+        return (
+            graph_result.get("clarification_question")
+            or "I need a little more information."
+        )
+
     status = graph_result.get(
 
         "status",
@@ -1981,6 +1987,14 @@ def chat(request: ChatRequest):
                 False,
 
             )
+
+            else None
+
+        ) or (
+
+            graph_result.get("clarification_question")
+
+            if graph_result.get("clarification_required")
 
             else None
 

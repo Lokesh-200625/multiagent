@@ -28,6 +28,7 @@ def _entity_to_plan_entity(
     )
 
 
+<<<<<<< HEAD
 def _entity_blocks_step(
     entity,
 ) -> bool:
@@ -36,6 +37,13 @@ def _entity_blocks_step(
         "AMBIGUOUS",
         "UNRESOLVED",
     }
+=======
+def _entity_blocks_step(entity) -> bool:
+    # Don't block travel steps for city/location - they use geography registry, not entity registry
+    if entity.entity_type in {"city", "location", "place"}:
+        return False
+    return entity.status in {"AMBIGUOUS", "UNRESOLVED"}
+>>>>>>> 7577de7 (Fix travel agent: haversine duration, transit DB, cache v2, planner city handling, 25 places)
 
 
 def _resolve_execution_domain(

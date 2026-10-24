@@ -11,7 +11,11 @@ from app.services.session import redis_client
 
 logger = logging.getLogger(__name__)
 
+<<<<<<< HEAD
 TRAVEL_CACHE_PREFIX = "travel:"
+=======
+TRAVEL_CACHE_PREFIX = "travel:v2:"
+>>>>>>> 7577de7 (Fix travel agent: haversine duration, transit DB, cache v2, planner city handling, 25 places)
 
 
 def _normalize_part(value: Any) -> str:

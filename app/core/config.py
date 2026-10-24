@@ -30,6 +30,11 @@ class Settings(BaseSettings):
     ttl_geocode_s: int = 2_592_000
     ttl_route_s: int = 86_400
     ttl_negative_s: int = 30
+<<<<<<< HEAD
+=======
+    transit_cache_ttl_s: int = 86_400
+    transit_database_url: str | None = None
+>>>>>>> 7577de7 (Fix travel agent: haversine duration, transit DB, cache v2, planner city handling, 25 places)
 
     model_config = SettingsConfigDict(
         env_file=".env",

@@ -767,6 +767,11 @@ def chat(request: ChatRequest):
         )
     )
 
+<<<<<<< HEAD
+=======
+    
+
+>>>>>>> 7577de7 (Fix travel agent: haversine duration, transit DB, cache v2, planner city handling, 25 places)
     execution_plan_dict[
         "step_results"
     ] = previous_step_results
@@ -872,4 +877,8 @@ def chat(request: ChatRequest):
         ),
         "status": status,
         "evidence": evidence,
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 7577de7 (Fix travel agent: haversine duration, transit DB, cache v2, planner city handling, 25 places)

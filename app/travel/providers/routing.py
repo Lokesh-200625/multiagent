@@ -318,6 +318,7 @@ def route_haversine(
         )
     )
 
+<<<<<<< HEAD
     return [
         TravelFact(
             key="distance",
@@ -326,10 +327,41 @@ def route_haversine(
             provider="haversine",
             source_tier="approx",
             fetched_at=_timestamp(),
+=======
+    distance = round(distance, 2)
+    duration_min = round((distance / 40.0) * 60, 2) if distance > 0 else 0
+    now = _timestamp()
+
+    return [
+        TravelFact(
+            key="distance",
+            value=distance,
+            unit="km",
+            provider="haversine",
+            source_tier="approx",
+            fetched_at=now,
+>>>>>>> 7577de7 (Fix travel agent: haversine duration, transit DB, cache v2, planner city handling, 25 places)
             confidence=0.3,
             approximate=True,
             metadata={
                 "distance_type": "straight_line",
             },
+<<<<<<< HEAD
         )
+=======
+        ),
+        TravelFact(
+            key="duration",
+            value=duration_min,
+            unit="minutes",
+            provider="haversine",
+            source_tier="approx",
+            fetched_at=now,
+            confidence=0.3,
+            approximate=True,
+            metadata={
+                "estimated_speed_kmph": 40,
+            },
+        ),
+>>>>>>> 7577de7 (Fix travel agent: haversine duration, transit DB, cache v2, planner city handling, 25 places)
     ]

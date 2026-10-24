@@ -17,6 +17,488 @@
         "latitude": 17.385,
         "longitude": 78.4867
       }
+<<<<<<< HEAD
+=======
+    },
+    {
+      "place_id": "P0002",
+      "canonical_name": "Yadadri",
+      "place_type": "temple",
+      "aliases": [
+        "Yadadri",
+        "Yadadri Temple",
+        "Yadagirigutta",
+        "Yadagirigutta Temple"
+      ],
+      "location": {
+        "city": "Yadagirigutta",
+        "district": "Yadadri Bhuvanagiri",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.5886,
+        "longitude": 78.9412
+      }
+    },
+    {
+      "place_id": "T0001",
+      "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Yadadri Temple",
+        "Yadagirigutta Temple",
+        "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+        "శ్రీ లక్ష్మీ నరసింహ స్వామి వారి ఆలయం, యాదాద్రి"
+      ],
+      "location": {
+        "village": "Yadagirigutta",
+        "city": null,
+        "district": "Yadadri Bhuvanagiri District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.5886069,
+        "longitude": 78.9412785
+      }
+    },
+    {
+      "place_id": "T0002",
+      "canonical_name": "Sri Sita Ramachandra Swamy Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Bhadrachalam Temple",
+        "Dakshina Ayodhya",
+        "Sri Sita Ramachandra Swamy Temple, Bhadrachalam",
+        "శ్రీ సీతా రామచంద్ర స్వామి వారి ఆలయం, భద్రాచలం"
+      ],
+      "location": {
+        "village": "Bhadrachalam",
+        "city": null,
+        "district": "Bhadradri Kothagudem District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.6667891,
+        "longitude": 80.8826529
+      }
+    },
+    {
+      "place_id": "T0003",
+      "canonical_name": "Sri Raja Rajeshwara Swamy Devasthanam",
+      "place_type": "temple",
+      "aliases": [
+        "Sri Raja Rajeswara Swamy Temple",
+        "Vemulawada Temple",
+        "Rajanna Temple",
+        "Sri Raja Rajeshwara Swamy Temple, Vemulawada"
+      ],
+      "location": {
+        "village": "Vemulawada",
+        "city": null,
+        "district": "Rajanna Sircilla District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 18.514772,
+        "longitude": 78.861809
+      }
+    },
+    {
+      "place_id": "T0004",
+      "canonical_name": "Sri Gnana Saraswathi Devasthanam",
+      "place_type": "temple",
+      "aliases": [
+        "Gnana Saraswathi Temple, Basara",
+        "Gnana Prasunamba Basara Saraswati Temple",
+        "Basara Temple",
+        "Sri Gnana Saraswathi Temple, Basara"
+      ],
+      "location": {
+        "village": "Basara",
+        "city": null,
+        "district": "Nirmal District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 18.8761,
+        "longitude": 77.947
+      }
+    },
+    {
+      "place_id": "T0005",
+      "canonical_name": "Sri Kondagattu Anjaneya Swamy Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Kondagattu Temple",
+        "Sri Anjaneya Swamy Devasthanam, Kondagattu",
+        "Sri Kondagattu Anjaneya Swamy Temple",
+        "శ్రీ కొండగట్టు ఆంజనేయ స్వామి ఆలయం"
+      ],
+      "location": {
+        "village": "Muthyampet (Kondagattu)",
+        "city": null,
+        "district": "Jagtial District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 18.4045,
+        "longitude": 78.5521
+      }
+    },
+    {
+      "place_id": "T0006",
+      "canonical_name": "Sri Jogulamba Devi Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Jogulamba Temple",
+        "Jogulamba Shakti Peetham",
+        "Sri Jogulamba Bala Brahmeswara Devasthanams",
+        "Sri Jogulamba Devi Temple, Alampur"
+      ],
+      "location": {
+        "village": "Alampur",
+        "city": null,
+        "district": "Jogulamba Gadwal District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 15.8791,
+        "longitude": 78.1336
+      }
+    },
+    {
+      "place_id": "T0007",
+      "canonical_name": "Sri Kaleshwara Mukteswara Swamy Devasthanam",
+      "place_type": "temple",
+      "aliases": [
+        "Kaleshwaram Temple",
+        "Sri Kaleshwara Mukteswara Swamy Temple",
+        "Sri Kaleshwara Mukteswara Swamy Temple, Kaleshwaram",
+        "శ్రీ కాళేశ్వర ముక్తేశ్వర స్వామి ఆలయం, కాళేశ్వరం"
+      ],
+      "location": {
+        "village": "Kaleshwaram",
+        "city": null,
+        "district": "Jayashankar Bhupalpally District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 18.811821,
+        "longitude": 79.904026
+      }
+    },
+    {
+      "place_id": "T0008",
+      "canonical_name": "Sri Balaji Venkateswara Swamy Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Chilkur Balaji Temple",
+        "Chilkoor Balaji Temple",
+        "Visa Balaji Temple",
+        "Visa Temple"
+      ],
+      "location": {
+        "village": "Chilkur",
+        "city": null,
+        "district": "Ranga Reddy District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.3536,
+        "longitude": 78.301
+      }
+    },
+    {
+      "place_id": "T0009",
+      "canonical_name": "Birla Mandir Hyderabad",
+      "place_type": "temple",
+      "aliases": [
+        "Sri Venkateswara Swamy Temple, Birla Mandir",
+        "Birla Temple, Hyderabad",
+        "Birla Mandir Hyderabad",
+        "బిర్లా మందిర్ హైదరాబాద్"
+      ],
+      "location": {
+        "village": "Adarsh Nagar locality, Hyderabad City",
+        "city": null,
+        "district": "Hyderabad District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.4061,
+        "longitude": 78.469
+      }
+    },
+    {
+      "place_id": "T0010",
+      "canonical_name": "Sri Sanghi Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Sanghi Temple Devasthanam",
+        "Sanghi Temple",
+        "Sri Sanghi Temple, Sanghi Nagar",
+        "Sri Sanghi Temple"
+      ],
+      "location": {
+        "village": "Sanghi Nagar",
+        "city": null,
+        "district": "Ranga Reddy District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.279,
+        "longitude": 78.642
+      }
+    },
+    {
+      "place_id": "T0011",
+      "canonical_name": "Sri Ramalingeswara Swamy Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Keesaragutta Temple",
+        "Kesaragiri Kshetram",
+        "Kesarigiri Temple",
+        "Dakshina Kailasam"
+      ],
+      "location": {
+        "village": "Keesara",
+        "city": null,
+        "district": "Medchal–Malkajgiri District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.528954,
+        "longitude": 78.68872
+      }
+    },
+    {
+      "place_id": "T0012",
+      "canonical_name": "Sri Bhadrakali Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Bhadrakali Devasthanam",
+        "Bhadrakali Temple, Warangal",
+        "Bhadrakali Amma Temple",
+        "Bhadra Kali Temple"
+      ],
+      "location": {
+        "village": "Tadkamalla Village, Hanamkonda, Warangal",
+        "city": null,
+        "district": "Warangal (Hanumakonda) District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.95499,
+        "longitude": 79.61996
+      }
+    },
+    {
+      "place_id": "T0013",
+      "canonical_name": "Sri Rudreshwara Swamy Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Thousand Pillar Temple",
+        "Veyyi Stambala Gudi",
+        "Veyi Stambhala Gudi",
+        "1000 Pillar Temple"
+      ],
+      "location": {
+        "village": "Hanamakonda (Hanamkonda)",
+        "city": null,
+        "district": "Hanamakonda District (formerly part of Warangal Urban District)",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 18.003722,
+        "longitude": 79.57475
+      }
+    },
+    {
+      "place_id": "T0014",
+      "canonical_name": "Ramappa Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Rudreshwara Temple",
+        "Kakatiya Rudreshwara (Ramappa) Temple",
+        "Ramappa Gudi",
+        "Ramalingeshwara Swamy Temple"
+      ],
+      "location": {
+        "village": "Palampet",
+        "city": null,
+        "district": "Mulugu District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 18.25913,
+        "longitude": 79.94321
+      }
+    },
+    {
+      "place_id": "T0015",
+      "canonical_name": "Sri Mallikarjuna Swamy Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Komuravelli Mallanna Temple",
+        "Komuravelli Mallanna Swamy Temple",
+        "Komrelly Mallanna Temple",
+        "Sri Mallanna Temple"
+      ],
+      "location": {
+        "village": "Komuravelli",
+        "city": null,
+        "district": "Siddipet District (formerly part of Warangal District before the 2022 Telangana district re-organisation)",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.93,
+        "longitude": 78.8963
+      }
+    },
+    {
+      "place_id": "T0016",
+      "canonical_name": "Sri Edupayala Vana Durga Bhavani Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Edupayala Temple",
+        "Sri Vana Durga Bhavani Temple",
+        "Edupayala Durga Bhavani Temple",
+        "Edupayalamma Temple"
+      ],
+      "location": {
+        "village": "Nagasanpally (also spelled Nagasanipally)",
+        "city": null,
+        "district": "Medak District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 18.002963,
+        "longitude": 78.190078
+      }
+    },
+    {
+      "place_id": "T0017",
+      "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Dharmapuri Temple",
+        "Dharmapuri Narasimha Swamy Temple",
+        "Sri Lakshmi Narasimha Swamy Devasthanam, Dharmapuri",
+        "Dharmapuri Kshetram"
+      ],
+      "location": {
+        "village": "Dharmapuri",
+        "city": null,
+        "district": "Jagtial District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 18.9504,
+        "longitude": 79.0973
+      }
+    },
+    {
+      "place_id": "T0018",
+      "canonical_name": "Sri Venkateswara Swamy Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Jamalapuram Venkateswara Swamy Temple",
+        "Telangana Chinna Tirupati",
+        "Khammam Chinna Tirupati",
+        "Telangana Tirupati"
+      ],
+      "location": {
+        "village": "Jamalapuram",
+        "city": null,
+        "district": "Khammam District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 16.8317,
+        "longitude": 80.5198
+      }
+    },
+    {
+      "place_id": "T0019",
+      "canonical_name": "Manyamkonda Lakshmi Venkateswara Swamy Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Manyamkonda Temple",
+        "Pedala Tirupati",
+        "Poor Man's Tirupati",
+        "Palamoor Tirupati"
+      ],
+      "location": {
+        "village": "Manyamkonda (also spelled Mannemkonda; earlier Munulakonda)",
+        "city": null,
+        "district": "Mahabubnagar District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 16.6506267,
+        "longitude": 77.8873667
+      }
+    },
+    {
+      "place_id": "T0020",
+      "canonical_name": "Sri Abhaya Anjaneya Swamy Temple",
+      "place_type": "temple",
+      "aliases": [
+        "Beechupally Hanuman Temple",
+        "Sri Anjaneya Swamy Temple, Beechupally",
+        "Beechupally Anjaneya Swamy Temple",
+        "Beechupally Brahmana Satram (associated)"
+      ],
+      "location": {
+        "village": "Beechupally (Beechupalli)",
+        "city": null,
+        "district": "Jogulamba Gadwal District (post-2022; previously part of Mahabubnagar District)",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 16.1527,
+        "longitude": 78.1494
+      }
+    },
+    {
+      "place_id": "T0021",
+      "canonical_name": "Sri Sammakka Saralamma Temple (Medaram)",
+      "place_type": "temple",
+      "aliases": [
+        "Sammakka Saralamma Jatara",
+        "Medaram Jathara",
+        "Sammakka Sarakka Jatara",
+        "Medaram Maha Jathara"
+      ],
+      "location": {
+        "village": "Medaram",
+        "city": null,
+        "district": "Mulugu District (formed 17 February 2019, bifurcated from Jayashankar Bhupalpally District, which was previously part of Warangal District)",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 18.3206072,
+        "longitude": 80.2416967
+      }
+    },
+    {
+      "place_id": "T0022",
+      "canonical_name": "Surendrapuri — Kunda Satyanarayana Kaladhamam",
+      "place_type": "temple",
+      "aliases": [
+        "Surendrapuri Mythological Awareness Center",
+        "Kunda Satyanarayana Kaladhamam",
+        "Kunda Satyanarayana Kala Dhamam",
+        "Surendrapuri Mythological Theme Park"
+      ],
+      "location": {
+        "village": "Surendrapuri (Yadadri-Bhuvanagiri District)",
+        "city": null,
+        "district": "Yadadri-Bhuvanagiri District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.565022,
+        "longitude": 78.945335
+      }
+    },
+    {
+      "place_id": "T0023",
+      "canonical_name": "Swarnagiri Sri Venkateswara Swamy Devasthanam",
+      "place_type": "temple",
+      "aliases": [
+        "Swarnagiri Temple",
+        "Swarnagiri Sri Venkateswara Swamy Temple",
+        "Yadadri Tirumala Devasthanam",
+        "Swarnagiri Balaji Temple"
+      ],
+      "location": {
+        "village": "Anantharam Rural (Pagidipalli per xploringdestinations)",
+        "city": null,
+        "district": "Yadadri-Bhuvanagiri District",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.493816,
+        "longitude": 78.85106
+      }
+>>>>>>> 7577de7 (Fix travel agent: haversine duration, transit DB, cache v2, planner city handling, 25 places)
     }
   ]
 }

@@ -36,30 +36,40 @@ For every user message you do ALL of these, in one pass:
         * temple information from verified temple documents (timings, history,
           festivals, significance, travel info)
         * travel help: distance, duration, fastest routes, directions, transit/bus
-          options when available, nearby attractions, temples, hotels and food
+          options when available, nearby attractions and temples
+        * stay & food: hotels/lodges with booking links, restaurants near a
+          temple or city (curated dataset + live map results, clearly labeled)
         * safety guidance in emergencies
-        Ask nothing else. Be brief and clear.
+     Ask nothing else. Be brief and clear.
    - temple_info: questions about a temple/person/festival answered from temple
      records (timings, history, darshan, pooja, festivals, significance, how to
      reach mentioned as info).
    - travel_route: getting from an origin to a destination (distance, duration,
      fastest route, directions, by bus / transit / public transport, walking,
      driving, compare modes).
-   - travel_nearby: things near a place (nearby temples, attractions, hotels,
-     restaurants, parking, things to do around X).
+   - accommodation: WHERE TO STAY - hotels, lodges, rooms, guest houses, stays
+     near a temple or in a city ("hotels near Yadadri", "where to stay in
+     Warangal", "budget rooms near Bhadrachalam").
+   - restaurant: WHERE TO EAT - restaurants, tiffin centers, cafes, veg food
+     near a temple or city ("pure veg restaurants near Yadadri", "good food
+     near Bhadrachalam").
+   - travel_nearby: things near a place that are NOT stay/food questions
+     (nearby temples, attractions, parking, things to do around X).
    - smalltalk: chitchat, jokes, thanks, or anything outside the capabilities
      above -> fill direct_reply politely and briefly, in the user's language,
      saying what you CAN help with. Never invent facts.
    - emergency: clearly urgent safety requests.
    - multi: when the message contains MORE THAN ONE distinct task.
      In that case classify subqueries normally (each gets its real category
-     among temple_info / travel_route / travel_nearby) but category = multi.
+     among temple_info / travel_route / travel_nearby / accommodation /
+     restaurant) but category = multi.
 
 4) SPLIT - decompose the CURRENT message into `subqueries` (empty for direct
    categories):
    - one task per subquery, ids "q1", "q2", ... in natural reading order
    - `question` must be standalone (no pronouns)
-   - `category` per subquery: temple_info | travel_route | travel_nearby
+   - `category` per subquery: temple_info | travel_route | travel_nearby |
+     accommodation | restaurant
    - travel_route subqueries MUST fill `origin` and `destination` with the user's
      place names (keep original spellings), and `mode`: "driving" (default),
      "walking" (walk/foot/pedal), or "transit" (bus/train/metro/public transport).
@@ -83,9 +93,10 @@ For every user message you do ALL of these, in one pass:
 Rules:
 - Do NOT answer agent-backed questions yourself; use direct_reply ONLY for
   greeting / help_meta / smalltalk / emergency.
-- HARD RULE: if category is temple_info, travel_route, travel_nearby, or multi,
-  you MUST output at least ONE subquery. NEVER an empty subqueries list for
-  those categories. Only greeting/help_meta/smalltalk/emergency use [].
+- HARD RULE: if category is temple_info, travel_route, travel_nearby,
+  accommodation, restaurant, or multi, you MUST output at least ONE subquery.
+  NEVER an empty subqueries list for those categories. Only
+  greeting/help_meta/smalltalk/emergency use [].
 - recent_history is context only; never repeat previous tasks unless the user
   refers to them.
 - Output ONLY the JSON object matching the schema.
@@ -102,6 +113,15 @@ Message: "yadadri temple timings"
 
 Message: "hyderabad to warangal by bus"
 {"language":"en","category":"travel_route","rewritten_query":"How do I travel from Hyderabad to Warangal by bus?","direct_reply":null,"subqueries":[{"id":"q1","category":"travel_route","question":"How do I travel from Hyderabad to Warangal by bus?","entities":[],"origin":"Hyderabad","destination":"Warangal","mode":"transit","depends_on":[]}]}
+
+Message: "hotels near yadadri temple"
+{"language":"en","category":"accommodation","rewritten_query":"Which hotels are near Yadadri Temple?","direct_reply":null,"subqueries":[{"id":"q1","category":"accommodation","question":"Which hotels are near Yadadri Temple?","entities":[{"mention":"Yadadri","entity_type":"temple"}],"origin":null,"destination":null,"mode":null,"depends_on":[]}]}
+
+Message: "pure veg restaurants near bhadrachalam"
+{"language":"en","category":"restaurant","rewritten_query":"Which pure vegetarian restaurants are near Bhadrachalam?","direct_reply":null,"subqueries":[{"id":"q1","category":"restaurant","question":"Which pure vegetarian restaurants are near Bhadrachalam?","entities":[{"mention":"Bhadrachalam","entity_type":"city"}],"origin":null,"destination":null,"mode":null,"depends_on":[]}]}
+
+Message: "tell me about yadadri and where to stay there"
+{"language":"en","category":"multi","rewritten_query":"Tell me about Yadadri Temple and where to stay near it.","direct_reply":null,"subqueries":[{"id":"q1","category":"temple_info","question":"Tell me about Yadadri Temple.","entities":[{"mention":"Yadadri","entity_type":"temple"}],"origin":null,"destination":null,"mode":null,"depends_on":[]},{"id":"q2","category":"accommodation","question":"Where to stay near Yadadri Temple?","entities":[{"mention":"Yadadri","entity_type":"temple"}],"origin":null,"destination":null,"mode":null,"depends_on":[]}]}
 
 Message: "tell me about yadadri and how to reach there from hyderabad"
 {"language":"en","category":"multi","rewritten_query":"Tell me about Yadadri Temple and how to reach it from Hyderabad.","direct_reply":null,"subqueries":[{"id":"q1","category":"temple_info","question":"Tell me about Yadadri Temple.","entities":[{"mention":"Yadadri","entity_type":"temple"}],"origin":null,"destination":null,"mode":null,"depends_on":[]},{"id":"q2","category":"travel_route","question":"How do I reach Yadadri Temple from Hyderabad?","entities":[],"origin":"Hyderabad","destination":"Yadadri","mode":"driving","depends_on":[]}]}
@@ -135,7 +155,13 @@ class BrainSubquery(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     id: str
-    category: Literal["temple_info", "travel_route", "travel_nearby"]
+    category: Literal[
+        "temple_info",
+        "travel_route",
+        "travel_nearby",
+        "accommodation",
+        "restaurant",
+    ]
     question: str
     entities: list[BrainEntity] = Field(default_factory=list)
     origin: str | None = None
@@ -154,6 +180,8 @@ class BrainResult(BaseModel):
         "temple_info",
         "travel_route",
         "travel_nearby",
+        "accommodation",
+        "restaurant",
         "smalltalk",
         "emergency",
         "multi",
@@ -232,7 +260,14 @@ def _postprocess(result: BrainResult) -> BrainResult:
     # zero subqueries (models occasionally drop the list). Synthesize one
     # from the rewritten query; never let this become a 503.
     if (
-        result.category in {"temple_info", "travel_route", "travel_nearby"}
+        result.category
+        in {
+            "temple_info",
+            "travel_route",
+            "travel_nearby",
+            "accommodation",
+            "restaurant",
+        }
         and not result.subqueries
     ):
         result.subqueries = [

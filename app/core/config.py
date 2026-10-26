@@ -31,9 +31,24 @@ class Settings(BaseSettings):
     nominatim_timeout_s: float = 5.0
     nominatim_min_interval_s: float = 1.1
 
+    # --- OpenStreetMap Overpass (keyless nearby search, failover list) ---
+    overpass_urls: str = (
+        "https://overpass-api.de/api/interpreter,"
+        "https://overpass.kumi.systems/api/interpreter,"
+        "https://overpass.private.coffee/api/interpreter"
+    )
+    overpass_timeout_s: float = 6.0
+    overpass_radius_m: int = 5000
+    overpass_food_radius_m: int = 3000
+    overpass_max_pois: int = 6
+
     # --- Estimates / links (config, not code) ---
     fuel_cost_per_km: float = 6.0
     fallback_transit_link: str = "https://www.redbus.in/"
+
+    # --- Search deep-link templates ({query} is replaced at runtime) ---
+    hotel_search_link: str = "https://www.booking.com/searchresults.html?ss={query}"
+    food_search_link: str = "https://www.google.com/maps/search/?api=1&query={query}"
 
     # --- Cache TTLs (seconds) ---
     ttl_geocode_s: int = 2_592_000

@@ -13,6 +13,7 @@ from __future__ import annotations
 
 from typing import Any, Callable
 
+from app.agents import accommodation as _accommodation
 from app.agents import temple as _temple
 from app.agents import travel as _travel
 
@@ -39,14 +40,42 @@ def _run_travel(subquery: Any, context: dict) -> dict:
     )
 
 
+def _mentions(subquery: Any) -> list[str]:
+    return [
+        str(getattr(entity, "mention", entity) or "")
+        for entity in (getattr(subquery, "entities", None) or [])
+        if str(getattr(entity, "mention", entity) or "").strip()
+    ]
+
+
+def _run_accommodation(subquery: Any, context: dict) -> dict:
+    return _accommodation.run(
+        question=subquery.question,
+        entities=_mentions(subquery),
+        temple_ids=context.get("temple_ids") or None,
+        kind="hotel",
+    )
+
+
+def _run_restaurant(subquery: Any, context: dict) -> dict:
+    return _accommodation.run(
+        question=subquery.question,
+        entities=_mentions(subquery),
+        temple_ids=context.get("temple_ids") or None,
+        kind="restaurant",
+    )
+
+
 AGENT_REGISTRY: dict[str, AgentFn] = {
     "temple_info": _run_temple,
     "travel_route": _run_travel,
     "travel_nearby": _run_travel,
+    "accommodation": _run_accommodation,
+    "restaurant": _run_restaurant,
 }
 
 # Categories that need registry entity-id resolution before running.
-REGISTRY_RESOLVED_CATEGORIES = {"temple_info"}
+REGISTRY_RESOLVED_CATEGORIES = {"temple_info", "accommodation", "restaurant"}
 
 
 def get_agent(category: str) -> AgentFn:

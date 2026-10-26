@@ -11,9 +11,6 @@ from app.services.session import redis_client
 
 logger = logging.getLogger(__name__)
 
-
-TRAVEL_CACHE_PREFIX = "travel:"
-
 TRAVEL_CACHE_PREFIX = "travel:v2:"
 
 
@@ -30,6 +27,7 @@ def _ttl_for_kind(kind: str) -> int:
     ttl_map = {
         "geocode": settings.ttl_geocode_s,
         "route": settings.ttl_route_s,
+        "places": settings.ttl_places_s,
     }
     return ttl_map.get(kind, settings.ttl_route_s)
 
@@ -84,7 +82,7 @@ def set_fact(
     try:
         redis_client.set(
             key,
-            json.dumps(payload, ensure_ascii=False),
+            json.dumps(payload, ensure_ascii=False, default=str),
             ex=cache_ttl,
         )
         return True
@@ -103,40 +101,10 @@ def set_negative(
     try:
         redis_client.set(
             key,
-            json.dumps(
-                {
-                    "negative": True,
-                    "error": error,
-                },
-                ensure_ascii=False,
-            ),
+            json.dumps({"negative": True, "error": error}, ensure_ascii=False),
             ex=settings.ttl_negative_s,
         )
         return True
     except RedisError as exc:
         logger.warning("Travel negative-cache write failed: %s", exc)
         return False
-
-
-def quota_key(provider: str, date_key: str) -> str:
-    return f"quota:{provider}:{date_key}"
-
-
-def increment_quota(
-    provider: str,
-    date_key: str,
-    ttl_seconds: int,
-) -> int | None:
-    key = quota_key(provider, date_key)
-
-    try:
-        count = redis_client.incr(key)
-
-        if count == 1:
-            redis_client.expire(key, ttl_seconds)
-
-        return int(count)
-
-    except RedisError as exc:
-        logger.warning("Travel quota counter failed: %s", exc)
-        return None

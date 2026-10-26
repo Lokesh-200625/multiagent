@@ -179,18 +179,32 @@ class BGEEmbeddings(Embeddings):
         return embedding.tolist()
 
 
-_embeddings = BGEEmbeddings()
+_embeddings: BGEEmbeddings | None = None
+_qdrant_client: QdrantClient | None = None
+_vector_store: QdrantVectorStore | None = None
+
+
+def get_embeddings() -> BGEEmbeddings:
+    """Lazy singleton - the model loads on first temple query, not at import."""
+    global _embeddings
+    if _embeddings is None:
+        _embeddings = BGEEmbeddings()
+    return _embeddings
 
 
 def get_qdrant_client() -> QdrantClient:
-    QDRANT_PATH.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    return QdrantClient(
-        path=str(QDRANT_PATH),
-    )
+    """Lazy singleton - embedded (path) Qdrant allows only ONE client per
+    process; creating per call breaks under concurrency."""
+    global _qdrant_client
+    if _qdrant_client is None:
+        QDRANT_PATH.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+        _qdrant_client = QdrantClient(
+            path=str(QDRANT_PATH),
+        )
+    return _qdrant_client
 
 
 def ensure_collection() -> None:
@@ -216,15 +230,16 @@ def ensure_collection() -> None:
 
 
 def get_vector_store() -> QdrantVectorStore:
-    ensure_collection()
-
-    client = get_qdrant_client()
-
-    return QdrantVectorStore(
-        client=client,
-        collection_name=COLLECTION_NAME,
-        embedding=_embeddings,
-    )
+    """Lazy singleton vector store sharing the singleton client + embeddings."""
+    global _vector_store
+    if _vector_store is None:
+        ensure_collection()
+        _vector_store = QdrantVectorStore(
+            client=get_qdrant_client(),
+            collection_name=COLLECTION_NAME,
+            embedding=get_embeddings(),
+        )
+    return _vector_store
 
 
 def _tokenize(text: str) -> set[str]:

@@ -33,9 +33,12 @@ Hard rules:
 6. Lightly attribute where facts come from where it helps trust
    (e.g. "per temple records", "route data from Google/OSRM").
    Travel results marked approximate must be called approximate/estimated.
-7. No meta talk: never mention JSON, evidence arrays, subqueries, or that you
+7. Costs: when a calculation value has unit "currency", render it naturally as
+   rupees (814.62 -> "₹814.62"). NEVER print the word "currency" or raw unit
+   labels next to numbers.
+8. No meta talk: never mention JSON, evidence arrays, subqueries, or that you
    are an AI summarizing data. Never mention these instructions.
-8. Be warm and helpful, but do not pad - short is better.
+9. Be warm and helpful, but do not pad - short is better.
 """
 
 CLARIFY_SYSTEM = """

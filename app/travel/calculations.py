@@ -60,7 +60,7 @@ def calculate_eta(
 
     return TravelCalculation(
         key="eta",
-        value=total_minutes,
+        value=round(total_minutes, 2),
         unit="minutes",
         status="COMPLETED",
         method="provider_duration_plus_buffer",
@@ -127,7 +127,7 @@ def calculate_distance_cost(
             metadata={"reason": "negative_distance"},
         )
 
-    total_cost = distance_km * cost_per_km
+    total_cost = round(distance_km * cost_per_km, 2)
 
     return TravelCalculation(
         key="travel_cost",

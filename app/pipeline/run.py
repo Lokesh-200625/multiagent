@@ -1,13 +1,13 @@
 """Stage 3 - executes brain subqueries: dependency-ordered, independent
-subqueries in parallel. Each step routes to exactly one agent."""
+subqueries in parallel. Each step routes to exactly one agent via the
+agent registry (app/agents/registry.py)."""
 from __future__ import annotations
 
 import logging
 from concurrent.futures import ThreadPoolExecutor
 from typing import Any
 
-from app.agents import temple as temple_agent
-from app.agents import travel as travel_agent
+from app.agents.registry import REGISTRY_RESOLVED_CATEGORIES, get_agent
 from app.services.entity_registry import get_entity_registry
 from app.travel.resolver import TravelResolverClarificationError
 
@@ -54,27 +54,23 @@ def _run_one(subquery: Any) -> dict:
     }
 
     try:
-        if subquery.category == "temple_info":
-            temple_ids = _resolve_temple_ids(subquery)
-            outcome = temple_agent.run(
-                subquery.question,
-                temple_ids=temple_ids or None,
-            )
-        else:
-            # travel_route + travel_nearby
-            outcome = travel_agent.run(
-                {
-                    "id": subquery.id,
-                    "category": subquery.category,
-                    "question": subquery.question,
-                    "origin": subquery.origin,
-                    "destination": subquery.destination,
-                    "mode": subquery.mode or "driving",
-                }
-            )
+        agent = get_agent(subquery.category)
+
+        context: dict = {}
+        if subquery.category in REGISTRY_RESOLVED_CATEGORIES:
+            context["temple_ids"] = _resolve_temple_ids(subquery)
+
+        outcome = agent(subquery, context)
 
         return {**base, **outcome}
 
+    except KeyError:
+        return {
+            **base,
+            "status": "ERROR",
+            "error": f"no_agent_registered:{subquery.category}",
+            "evidence": [],
+        }
     except TravelResolverClarificationError as exc:
         return {
             **base,

@@ -83,9 +83,31 @@ For every user message you do ALL of these, in one pass:
 Rules:
 - Do NOT answer agent-backed questions yourself; use direct_reply ONLY for
   greeting / help_meta / smalltalk / emergency.
+- HARD RULE: if category is temple_info, travel_route, travel_nearby, or multi,
+  you MUST output at least ONE subquery. NEVER an empty subqueries list for
+  those categories. Only greeting/help_meta/smalltalk/emergency use [].
 - recent_history is context only; never repeat previous tasks unless the user
   refers to them.
 - Output ONLY the JSON object matching the schema.
+
+============================================================
+EXAMPLES (exact output shape - every field present)
+============================================================
+
+Message: "hiiii helloww"
+{"language":"en","category":"greeting","rewritten_query":"Hello","direct_reply":"Hello! Welcome to PilgrimAI.","subqueries":[]}
+
+Message: "yadadri temple timings"
+{"language":"en","category":"temple_info","rewritten_query":"What are the timings of Yadadri Temple?","direct_reply":null,"subqueries":[{"id":"q1","category":"temple_info","question":"What are the timings of Yadadri Temple?","entities":[{"mention":"Yadadri","entity_type":"temple"}],"origin":null,"destination":null,"mode":null,"depends_on":[]}]}
+
+Message: "hyderabad to warangal by bus"
+{"language":"en","category":"travel_route","rewritten_query":"How do I travel from Hyderabad to Warangal by bus?","direct_reply":null,"subqueries":[{"id":"q1","category":"travel_route","question":"How do I travel from Hyderabad to Warangal by bus?","entities":[],"origin":"Hyderabad","destination":"Warangal","mode":"transit","depends_on":[]}]}
+
+Message: "tell me about yadadri and how to reach there from hyderabad"
+{"language":"en","category":"multi","rewritten_query":"Tell me about Yadadri Temple and how to reach it from Hyderabad.","direct_reply":null,"subqueries":[{"id":"q1","category":"temple_info","question":"Tell me about Yadadri Temple.","entities":[{"mention":"Yadadri","entity_type":"temple"}],"origin":null,"destination":null,"mode":null,"depends_on":[]},{"id":"q2","category":"travel_route","question":"How do I reach Yadadri Temple from Hyderabad?","entities":[],"origin":"Hyderabad","destination":"Yadadri","mode":"driving","depends_on":[]}]}
+
+Message: "what can you do"
+{"language":"en","category":"help_meta","rewritten_query":"What can you do?","direct_reply":"I can provide verified temple details, help with travel routes, distances and nearby places, and safety guidance.","subqueries":[]}
 """
 
 
@@ -206,9 +228,23 @@ def _postprocess(result: BrainResult) -> BrainResult:
         cleaned.append(subquery)
     result.subqueries = cleaned
 
+    # Deterministic repair: a routed single-task category must never carry
+    # zero subqueries (models occasionally drop the list). Synthesize one
+    # from the rewritten query; never let this become a 503.
+    if (
+        result.category in {"temple_info", "travel_route", "travel_nearby"}
+        and not result.subqueries
+    ):
+        result.subqueries = [
+            BrainSubquery(
+                id="q1",
+                category=result.category,
+                question=result.rewritten_query or result.category,
+            )
+        ]
+        cleaned = list(result.subqueries)
+
     if result.category not in DIRECT_CATEGORIES and result.category != "emergency":
-        if result.category != "multi" and len(cleaned) == 1:
-            pass  # category already single
         if not cleaned:
             raise LLMUnavailable("brain produced no subqueries for a routed category")
 

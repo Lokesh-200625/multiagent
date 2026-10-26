@@ -17,8 +17,6 @@
         "latitude": 17.385,
         "longitude": 78.4867
       }
-<<<<<<< HEAD
-=======
     },
     {
       "place_id": "P0002",
@@ -47,7 +45,7 @@
         "Yadadri Temple",
         "Yadagirigutta Temple",
         "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
-        "శ్రీ లక్ష్మీ నరసింహ స్వామి వారి ఆలయం, యాదాద్రి"
+        "à°¶à±à°°à±€ à°²à°•à±à°·à±à°®à±€ à°¨à°°à°¸à°¿à°‚à°¹ à°¸à±à°µà°¾à°®à°¿ à°µà°¾à°°à°¿ à°†à°²à°¯à°‚, à°¯à°¾à°¦à°¾à°¦à±à°°à°¿"
       ],
       "location": {
         "village": "Yadagirigutta",
@@ -67,7 +65,7 @@
         "Bhadrachalam Temple",
         "Dakshina Ayodhya",
         "Sri Sita Ramachandra Swamy Temple, Bhadrachalam",
-        "శ్రీ సీతా రామచంద్ర స్వామి వారి ఆలయం, భద్రాచలం"
+        "à°¶à±à°°à±€ à°¸à±€à°¤à°¾ à°°à°¾à°®à°šà°‚à°¦à±à°° à°¸à±à°µà°¾à°®à°¿ à°µà°¾à°°à°¿ à°†à°²à°¯à°‚, à°­à°¦à±à°°à°¾à°šà°²à°‚"
       ],
       "location": {
         "village": "Bhadrachalam",
@@ -127,7 +125,7 @@
         "Kondagattu Temple",
         "Sri Anjaneya Swamy Devasthanam, Kondagattu",
         "Sri Kondagattu Anjaneya Swamy Temple",
-        "శ్రీ కొండగట్టు ఆంజనేయ స్వామి ఆలయం"
+        "à°¶à±à°°à±€ à°•à±Šà°‚à°¡à°—à°Ÿà±à°Ÿà± à°†à°‚à°œà°¨à±‡à°¯ à°¸à±à°µà°¾à°®à°¿ à°†à°²à°¯à°‚"
       ],
       "location": {
         "village": "Muthyampet (Kondagattu)",
@@ -167,7 +165,7 @@
         "Kaleshwaram Temple",
         "Sri Kaleshwara Mukteswara Swamy Temple",
         "Sri Kaleshwara Mukteswara Swamy Temple, Kaleshwaram",
-        "శ్రీ కాళేశ్వర ముక్తేశ్వర స్వామి ఆలయం, కాళేశ్వరం"
+        "à°¶à±à°°à±€ à°•à°¾à°³à±‡à°¶à±à°µà°° à°®à±à°•à±à°¤à±‡à°¶à±à°µà°° à°¸à±à°µà°¾à°®à°¿ à°†à°²à°¯à°‚, à°•à°¾à°³à±‡à°¶à±à°µà°°à°‚"
       ],
       "location": {
         "village": "Kaleshwaram",
@@ -207,7 +205,7 @@
         "Sri Venkateswara Swamy Temple, Birla Mandir",
         "Birla Temple, Hyderabad",
         "Birla Mandir Hyderabad",
-        "బిర్లా మందిర్ హైదరాబాద్"
+        "à°¬à°¿à°°à±à°²à°¾ à°®à°‚à°¦à°¿à°°à± à°¹à±ˆà°¦à°°à°¾à°¬à°¾à°¦à±"
       ],
       "location": {
         "village": "Adarsh Nagar locality, Hyderabad City",
@@ -252,7 +250,7 @@
       "location": {
         "village": "Keesara",
         "city": null,
-        "district": "Medchal–Malkajgiri District",
+        "district": "Medchalâ€“Malkajgiri District",
         "state": "Telangana",
         "country": "India",
         "latitude": 17.528954,
@@ -461,7 +459,7 @@
     },
     {
       "place_id": "T0022",
-      "canonical_name": "Surendrapuri — Kunda Satyanarayana Kaladhamam",
+      "canonical_name": "Surendrapuri â€” Kunda Satyanarayana Kaladhamam",
       "place_type": "temple",
       "aliases": [
         "Surendrapuri Mythological Awareness Center",
@@ -498,7 +496,6 @@
         "latitude": 17.493816,
         "longitude": 78.85106
       }
->>>>>>> 7577de7 (Fix travel agent: haversine duration, transit DB, cache v2, planner city handling, 25 places)
     }
   ]
 }

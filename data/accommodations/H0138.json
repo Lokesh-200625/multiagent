@@ -1,0 +1,88 @@
+{
+  "associated_temple": "Sri Raja Rajeshwara Swamy Temple, Vemulawada",
+  "hotels": [
+    {
+      "hotel_name": "Hotel O Nandhi Inn",
+      "hotel_type": "2-Star Hotel",
+      "address": "5-65A/4, Beside Nandhishwara Cement & Steel Shop, Nandhi Kaman Circle, Vemulawada, Rajanna Sircilla District, Telangana - 505302, India",
+      "contact_numbers": [
+        "+91 1246201464"
+      ],
+      "email": "",
+      "about": "Hotel O Nandhi Inn is a budget-friendly hotel situated near Sri Raja Rajeshwara Swamy Temple in Vemulawada. The property provides comfortable air-conditioned accommodation with free Wi-Fi, housekeeping, room service, power backup, and parking. It is listed on OYO, MakeMyTrip, and Goibibo, making it a suitable choice for pilgrims and families seeking affordable accommodation.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+O+Nandhi+Inn+Vemulawada",
+      "official_website": "https://www.oyorooms.com/",
+      "price_range": "₹1,500–₹1,700 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Vemulawada Bus Stand – Approximately 1 km",
+        "railway_station": "Karimnagar Railway Station – Approximately 36 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 200 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/hotels-nearby-hotel_o_vemulawada_temple_formerly_kamakshi_bliss-sirsilla.html",
+        "Goibibo": "https://www.goibibo.com/hotels/",
+        "OYO": "https://www.oyorooms.com/"
+      },
+      "ratings": {
+        "platform": "MakeMyTrip",
+        "rating": "4.0/5"
+      },
+      "room_types": [
+        "Classic Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Room Service",
+        "Housekeeping",
+        "Power Backup",
+        "Parking",
+        "Private Bathroom",
+        "LED TV",
+        "24-Hour Front Desk",
+        "Free Toiletries"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Included",
+        "food_type": "Not Specified",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Budget Travelers",
+        "Senior Citizens"
+      ],
+      "cancellation_policy": "Free cancellation till check-in is available on eligible bookings. Book @ ₹0 Payment is available on selected room plans.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Raja Rajeshwara Swamy Temple",
+        "Nandhi Kaman Circle",
+        "Vemulawada Bus Stand",
+        "Nampally Gutta Lakshmi Narasimha Swamy Temple"
+      ],
+      "temple_id": "T0003",
+      "hotel_id": "H0138"
+    }
+  ],
+  "temple_id": "T0003",
+  "hotel_id": "H0138"
+}

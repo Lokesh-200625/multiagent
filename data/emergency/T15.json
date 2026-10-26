@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0015",
+  "temple_name": "Komuravelli Mallanna Temple",
+  "location": {
+    "district": "Siddipet",
+    "state": "Telangana",
+    "latitude": 17.9808,
+    "longitude": 78.8853
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Government Community Health Centre, Komuravelli",
+        "type": "Government Hospital",
+        "address": "Komuravelli, Siddipet District, Telangana 502336",
+        "latitude": 17.9819,
+        "longitude": 78.8872,
+        "distance_from_temple_km": 0.8,
+        "estimated_travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Community+Health+Centre+Komuravelli/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Government Area Hospital, Cherial",
+        "type": "Government Hospital",
+        "address": "Cherial, Siddipet District, Telangana 506223",
+        "latitude": 17.9289,
+        "longitude": 78.8416,
+        "distance_from_temple_km": 9.6,
+        "estimated_travel_time": "16 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Area+Hospital+Cherial/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Komuravelli Police Station",
+        "type": "Police Station",
+        "address": "Komuravelli, Siddipet District, Telangana 502336",
+        "latitude": 17.9812,
+        "longitude": 78.8863,
+        "distance_from_temple": 0.7,
+        "travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Komuravelli+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Komuravelli",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Cherial",
+        "address": "Cherial, Siddipet District, Telangana 506223",
+        "coordinates": {
+          "latitude": 17.9295,
+          "longitude": 78.8424
+        },
+        "distance_from_temple": 9.8,
+        "travel_time": "16 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Cherial/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Sri Mallanna Medical & General Stores",
+        "address": "Temple Road, Komuravelli, Telangana 502336",
+        "distance": 0.4,
+        "coordinates": {
+          "latitude": 17.981,
+          "longitude": 78.8858
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Mallanna+Medical+Store+Komuravelli/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 9:30 PM",
+        "24x7": false,
+        "home_delivery": false,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Cherial Main Road, Cherial, Telangana 506223",
+        "distance": 9.5,
+        "coordinates": {
+          "latitude": 17.9286,
+          "longitude": 78.8418
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Cherial/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

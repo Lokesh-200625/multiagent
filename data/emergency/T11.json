@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0011",
+  "temple_name": "Keesaragutta Ramalingeswara Swamy Temple",
+  "location": {
+    "district": "Medchal–Malkajgiri",
+    "state": "Telangana",
+    "latitude": 17.5287,
+    "longitude": 78.6685
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Government Community Health Centre, Keesara",
+        "type": "Government Hospital",
+        "address": "Keesara, Medchal–Malkajgiri, Telangana 501301",
+        "latitude": 17.5246,
+        "longitude": 78.6647,
+        "distance_from_temple_km": 1.3,
+        "estimated_travel_time": "4 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Community+Health+Centre+Keesara/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "RR Hospital, Ghatkesar",
+        "type": "Multi Speciality Hospital",
+        "address": "Ghatkesar, Hyderabad, Telangana 501301",
+        "latitude": 17.4452,
+        "longitude": 78.6858,
+        "distance_from_temple_km": 9.8,
+        "estimated_travel_time": "18 min",
+        "google_maps_url": "https://www.google.com/maps/search/RR+Hospital+Ghatkesar/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": true,
+        "icu_available": true,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Keesara Police Station",
+        "type": "Police Station",
+        "address": "Keesara, Medchal–Malkajgiri, Telangana 501301",
+        "latitude": 17.5239,
+        "longitude": 78.6651,
+        "distance_from_temple": 1.5,
+        "travel_time": "5 min",
+        "google_maps_url": "https://www.google.com/maps/search/Keesara+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Keesara",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Ghatkesar",
+        "address": "Ghatkesar, Medchal–Malkajgiri, Telangana 501301",
+        "coordinates": {
+          "latitude": 17.4481,
+          "longitude": 78.6842
+        },
+        "distance_from_temple": 10.2,
+        "travel_time": "19 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Ghatkesar/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Keesara Main Road, Telangana 501301",
+        "distance": 1.6,
+        "coordinates": {
+          "latitude": 17.5235,
+          "longitude": 78.6642
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Keesara/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "MedPlus Pharmacy",
+        "address": "Keesara Main Road, Telangana 501301",
+        "distance": 1.8,
+        "coordinates": {
+          "latitude": 17.5231,
+          "longitude": 78.664
+        },
+        "google_maps_url": "https://www.google.com/maps/search/MedPlus+Keesara/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0004",
+  "temple_name": "Sri Gnana Saraswati Temple, Basara",
+  "location": {
+    "district": "Nirmal",
+    "state": "Telangana",
+    "latitude": 18.8806,
+    "longitude": 77.9535
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Government Community Health Centre, Basar",
+        "type": "Government Hospital",
+        "address": "Basar, Nirmal District, Telangana 504101",
+        "latitude": 18.8818,
+        "longitude": 77.9562,
+        "distance_from_temple_km": 0.7,
+        "estimated_travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Community+Health+Centre+Basar/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Sri Sai Hospital",
+        "type": "Hospital",
+        "address": "Basar, Telangana 504101",
+        "latitude": 18.8826,
+        "longitude": 77.9581,
+        "distance_from_temple_km": 1.0,
+        "estimated_travel_time": "4 min",
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Sai+Hospital+Basar/",
+        "emergency_department": null,
+        "24x7_emergency": null,
+        "ambulance_available": null,
+        "trauma_care": false,
+        "icu_available": null,
+        "pharmacy_available": null,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Basar Police Station",
+        "type": "Police Station",
+        "address": "Main Road, Basar, Telangana 504101",
+        "latitude": 18.8815,
+        "longitude": 77.9554,
+        "distance_from_temple": 0.4,
+        "travel_time": "2 min",
+        "google_maps_url": "https://www.google.com/maps/search/Basar+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Basar",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Bhainsa",
+        "address": "Bhainsa, Nirmal District, Telangana",
+        "coordinates": {
+          "latitude": 19.108,
+          "longitude": 77.9768
+        },
+        "distance_from_temple": 31.0,
+        "travel_time": "40 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Bhainsa/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Temple Road, Basar, Telangana 504101",
+        "distance": 0.5,
+        "coordinates": {
+          "latitude": 18.8812,
+          "longitude": 77.955
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Basar/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Sri Rama Pharmacy",
+        "address": "Basar, Telangana 504101",
+        "distance": 0.6,
+        "coordinates": {
+          "latitude": 18.8818,
+          "longitude": 77.9559
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Rama+Pharmacy+Basar/",
+        "phone": "",
+        "opening_hours": "8:30 AM - 9:30 PM",
+        "24x7": false,
+        "home_delivery": false,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

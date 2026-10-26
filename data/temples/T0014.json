@@ -1,0 +1,824 @@
+{
+  "temple_id": "T0014",
+  "name": "Ramappa Temple",
+  "alternate_names": [
+    "Rudreshwara Temple",
+    "Kakatiya Rudreshwara (Ramappa) Temple",
+    "Ramappa Gudi",
+    "Ramalingeshwara Swamy Temple"
+  ],
+  "multilingual": {
+    "names": {
+      "en": "Kakatiya Rudreshwara (Ramappa) Temple",
+      "te": "రామప్ప గుడి (రుద్రేశ్వర ఆలయం)",
+      "hi": "रामप्पा (रुद्रेश्वर) मंदिर"
+    },
+    "alternate_spellings": [
+      "Ramappa",
+      "Palampet Temple",
+      "Ramalingeshwara"
+    ],
+    "common_abbreviations": "Ramappa Temple, Rudreshwara Temple, UNESCO WHS 1570",
+    "voice_pronunciation_variants": "Telugu: కాకతీయ రుద్రేశ్వర (రామప్ప) ఆలయం (Kākatīya Rudrēśvara (Rāmappa) Ālayam); English: \"Ramappa Temple\" or \"Rudreshwara Temple\""
+  },
+  "deity": {
+    "presiding_deity": "Lord Ramalingeshwara Swamy (Lord Shiva), represented by a Shiva Linga in the inner sanctum",
+    "other_deities": [
+      "Lord Nandi (Nandi Mandap east of the main shrine)",
+      "Lord Ganesha",
+      "Goddess Parvati (Gaurishia / Gouri Temple, north of the main shrine)",
+      "Various guardian deities"
+    ]
+  },
+  "temple_type": "Hindu Temple — UNESCO World Heritage Site (Cultural, criteria i & iii) and ASI-protected monument",
+  "religion": "Hinduism",
+  "category": "Shaivite Temple (heritage monument)",
+  "location": {
+    "village": "Palampet",
+    "mandal": "Venkatapur Mandal",
+    "district": "Mulugu District",
+    "state": "Telangana",
+    "country": "India",
+    "address": "Palampet Village, Venkatapur Mandal, Mulugu District, Telangana – 506345, India",
+    "pincode": "506345",
+    "latitude": 18.25913,
+    "longitude": 79.94321,
+    "google_maps_url": "https://maps.app.goo.gl/TRky4WhrWbB8rLy8A",
+    "elevation": "~210 meters above sea level (at the foothills of a forested area, close to Ramappa Lake)",
+    "timezone": "Asia/Kolkata"
+  },
+  "overview": "Ramappa Temple, officially the Kakatiya Rudreshwara (Ramappa) Temple, is a magnificent 13th-century Shiva temple at Palampet village, Venkatapur Mandal, Mulugu District, Telangana. Constructed between 1212 and 1234 CE (construction began 1213 CE), it is the main Shiva temple in a walled complex built during the Kakatiya period under rulers Rudradeva and Recharla Rudra, and is rare among Indian temples in being named after its chief sculptor, Ramappa. Built of red sandstone, carved granite and dolerite, with a distinctive pyramidal Vimana (stepped tower) made of lightweight porous 'floating bricks' that reduce the roof's weight, it is celebrated for its intricate carvings, the 'Salabhanjikas / Madanika' bracket figures, and the 6-foot-high star-shaped platform. Inscribed as a UNESCO World Heritage Site on 25 July 2021 (reference 1570, India's 39th WHS, 44th session), it is geographically and administratively separate from the Thousand Pillar Temple at Hanamakonda (~75 km away).",
+  "summary": "Ramappa Temple (Kakatiya Rudreshwara Temple) at Palampet, Mulugu District, Telangana, is a 13th-century Kakatiya Shiva temple and a UNESCO World Heritage Site (inscribed 25 July 2021, ref 1570). Construction began in 1213 CE under Kakatiya king Ganapati Deva, commissioned by his general Recharla Rudra, and is named after its sculptor Ramappa. Built of red sandstone, granite, dolerite and lightweight 'floating bricks' on a star-shaped platform, it has survived multiple earthquakes thanks to advanced Kakatiya engineering. It is the ACTUAL UNESCO World Heritage Site — not the Thousand Pillar Temple at Hanamakonda (~75 km away), which is only on UNESCO's tentative list. The temple is surrounded by the Ramappa Cheruvu (Kakatiya-built reservoir) and is celebrated for the 'Salabhanjikas' dancing-girl bracket figures.",
+  "history": [
+    {
+      "section": "Construction & Naming",
+      "content": "The Ramappa Temple complex was constructed between 1212 and 1234 CE (construction began 1213 CE) during the reign of the Kakatiya king Ganapati Deva. It was commissioned by his military commander Recharla Rudra (also rendered Recharla Rudra Reddy). The temple is unusual in being named after its chief sculptor/architect, Ramappa, rather than its presiding deity (the deity is Ramalingeshwara Swamy, a form of Shiva). Marco Polo, during his visit to the Kakatiya empire, supposedly called the temple 'the brightest star in the galaxy of temples'. The temple faces east and is approached by a long flight of stairs from the east, north and south. The cornice above the three gateways is supported by black basalt brackets in the shape of dancing girls (Salabhanjikas) — four per gate, totalling 12 — with the remaining brackets representing yallis (mythical lion-elephant hybrids).",
+      "foundation_year": "1213 CE (construction period c. 1212–1234 CE; ~40 years)",
+      "founders": [
+        "Recharla Rudra (military commander, commissioner)",
+        "Kakatiya King Ganapati Deva (reigning patron, r. 1199–1262)",
+        "Ramappa (chief sculptor / architect / namesake)"
+      ],
+      "legends": [
+        "Marco Polo, on visiting the Kakatiya empire, reportedly called the temple 'the brightest star in the galaxy of (medieval Deccan) temples'."
+      ]
+    },
+    {
+      "section": "Preservation, Research & UNESCO Recognition",
+      "content": "Despite surviving several earthquakes over the centuries, the temple remains remarkably well preserved due to its advanced engineering techniques (sandbox foundation and lightweight 'floating brick' Vimana). Academic research on the temple's engineering began in the 1980s under Prof. M. Panduranga Rao. In 1931 CE, Ghulam Yazdani published 'The Temples at Palampet' (Memoirs of the ASI, No. 6), one of the earliest systematic studies. On 25 July 2021, at the 44th session of the UNESCO World Heritage Committee, the Kakatiya Rudreshwara (Ramappa) Temple was inscribed as a UNESCO World Heritage Site (cultural criteria i and iii, reference 1570) — India's 39th World Heritage Site and the first such site in Telangana. The temple is centrally protected and maintained by the Archaeological Survey of India (ASI) under the AMASR Act, 2010; the buffer zone extends 300 m from the core zone boundary.",
+      "foundation_year": "",
+      "founders": [],
+      "legends": [
+        "Survived multiple earthquakes over centuries due to advanced Kakatiya engineering (sandbox foundation and 'floating brick' Vimana).",
+        "Inscribed as a UNESCO World Heritage Site on 25 July 2021 (India's 39th WHS, first in Telangana).",
+        "1931 CE: Ghulam Yazdani's 'The Temples at Palampet' (Memoirs ASI No. 6) was the first systematic study; 1980s: Prof. M. Panduranga Rao's research on the sandbox and floating-brick engineering."
+      ]
+    }
+  ],
+  "sthala_puranam": "The presiding deity is Lord Ramalingeshwara Swamy (a form of Lord Shiva). The temple's popular lore is largely tied to the historical patronage of the Kakatiya rulers and the legend of the chief sculptor Ramappa, after whom the temple is named — making it one of the rare Indian temples named after its architect rather than its presiding deity. A separate, less-verified sasthala tradition is that the Sasan Mandap houses a Sanskrit inscription of 'Rudra-senapati' from the Kakatiya era.",
+  "religious_significance": "Ramappa Temple is an important Shaivite pilgrimage destination in Telangana. Devotees visit to seek the blessings of Lord Shiva (as Ramalingeshwara Swamy) for prosperity, health and spiritual well-being. Beyond its religious role, it is regarded as one of India's greatest architectural achievements, admired by scholars and visitors worldwide.",
+  "spiritual_significance": "An important Shaivite pilgrimage site dedicated to Lord Ramalingeshwara (Shiva), where devotees seek prosperity, health and spiritual well-being, while also revering the temple as a pinnacle of Kakatiya artistry and faith. The temple complex's setting — at the foothills of a forested area and amidst agricultural fields, close to the shores of the Ramappa Cheruvu (a Kakatiya-built reservoir) — follows the ideology and practice sanctioned in dharmic texts that temples are to be constructed to form an integral part of a natural setting (hills, forests, springs, streams, lakes, catchment areas, and agricultural lands).",
+  "healing_beliefs": [
+    "Blessings of prosperity, health and spiritual well-being through worship of Lord Shiva (Ramalingeshwara Swamy)"
+  ],
+  "miracles_and_devotee_experiences": [
+    "The temple has survived multiple earthquakes over the centuries with remarkable preservation, widely attributed to its advanced Kakatiya engineering (sandbox foundation and lightweight 'floating brick' Vimana).",
+    "The 'floating bricks' used in the Vimana (shikhara) are reportedly so porous and lightweight that they float in water, per multiple sources (a popular claim that is widely repeated in tourism/heritage literature).",
+    "Devotees and visitors describe a serene, spiritually charged atmosphere in the walled complex."
+  ],
+  "architecture": "Ramappa Temple is built in the Kakatiya architectural style (Kakatiya, Bhumija / Vesara), using red sandstone, black basalt, carved granite and dolerite, with a distinctive pyramidal Vimana (horizontally stepped tower) made of lightweight porous 'floating bricks' that reduce the weight of the roof structures. The central shrine has a star-shaped plan and stands on a 6-foot-high plinth. The temple faces east and is approached by a long flight of stairs from east, north and south. The cornice above the three gateways is supported by black basalt brackets in the shape of dancing girls (Salabhanjikas) — four per gate, totalling 12 — with the remaining brackets representing yallis (mythical lion-elephant hybrids). The interior houses a Shiva Linga in the inner sanctum, entered through an ornamental gateway of shining black basalt. Basalt pillars with intricate ornamentation support the roof of the open space in front of the inner sanctum. The exterior walls have rich relief ornamentations. The complex includes the main Rudreshwara shrine, a Nandi Mandap (east of the main shrine — the beautifully decorated mandap roof has collapsed, but the Nandi statue remains in full glory under the open sky), a Gaurishia / Gouri Temple (north, smaller, same plan, spire collapsed), an Asthana Mandap (south, in ruins), and a Sasan Mandap (housing a Sanskrit pillar inscription of Rudra-senapati from the Kakatiya era).",
+  "architectural_style": "Kakatiya architecture (Bhumija / Vesara style); red sandstone, carved granite, dolerite; floating-brick Vimana; star-shaped platform",
+  "temple_layout": [
+    "Walled temple complex at the foothills of a forested area, close to Ramappa Cheruvu (Kakatiya-built reservoir)",
+    "Main shrine: Rudreshwara / Ramalingeshwara (Shiva) — star-shaped plan on a 6-foot-high plinth, east-facing",
+    "Three gateways approached by long flights of stairs from east, north and south",
+    "Cornice above the three gateways supported by 12 black-basalt Salabhanjika (dancing-girl) brackets — four per gate — plus yalli (lion-elephant) brackets on the remaining cornice",
+    "Inner sanctum with Shiva Linga, entered through an ornamental black-basalt gateway",
+    "Basalt pillars with intricate ornamentation supporting the roof in front of the inner sanctum",
+    "Distinctive pyramidal Vimana (horizontally stepped tower) built of lightweight porous 'floating bricks'",
+    "Exterior walls with rich relief ornamentations and intricate carvings",
+    "Nandi Mandap (east of the main shrine) — the decorated mandap roof has collapsed, but the Nandi statue stands complete with ornaments and a bell hanging from its neck",
+    "Gaurishia / Gouri Temple (north of the main shrine) — same plan as the main shrine, smaller, spire collapsed exposing the inner sanctum; houses a small Nandi statue",
+    "Asthana Mandap (south of the main shrine) — totally in ruins",
+    "Sasan Mandap (with a Sanskrit pillar inscription of Rudra-senapati from the Kakatiya era)",
+    "Landscaped garden and visitor facilities at the rear side of the ancient temple complex"
+  ],
+  "darshan_timings": [
+    {
+      "day": "Daily (all days of the week, including government holidays)",
+      "morning": "6:00 AM",
+      "evening": "6:00 PM (open continuously 6:00 AM – 6:00 PM)"
+    },
+    {
+      "day": "Evening Sound & Light Show (Telangana360 / Telangana Tourism)",
+      "evening": "7:00 PM (Telugu / English — separate ticket)"
+    }
+  ],
+  "timing_conflict_note": "No major timing conflict in the source. The temple is open daily from 6:00 AM to 6:00 PM (morning session 6:00 AM–12:00 PM, afternoon session 12:00 PM–6:00 PM). A separate Sound & Light Show is held in the evening at 7:00 PM (Telugu / English) on a separate ticket — confirm availability locally.",
+  "sevas": [
+    {
+      "name": "Suprabhata Seva",
+      "description": "Early morning awakening seva.",
+      "charges": "Not specified in source"
+    },
+    {
+      "name": "Abhishekam",
+      "description": "Ritual bathing of the Shiva Linga.",
+      "charges": "Not specified in source"
+    },
+    {
+      "name": "Rudrabhishekam",
+      "description": "Abhishekam with Rudra recitation; especially performed during Maha Shivaratri.",
+      "charges": "Not specified in source"
+    },
+    {
+      "name": "Shiva Archana",
+      "description": "Archana offered to Lord Shiva.",
+      "charges": "Not specified in source"
+    },
+    {
+      "name": "Bilva Archana",
+      "description": "Archana with Bilva leaves sacred to Shiva.",
+      "charges": "Not specified in source"
+    },
+    {
+      "name": "Maha Mangala Harathi",
+      "description": "Grand auspicious harathi.",
+      "charges": "Not specified in source"
+    }
+  ],
+  "rituals": [
+    "Suprabhata Seva",
+    "Abhishekam",
+    "Rudrabhishekam",
+    "Shiva Archana",
+    "Bilva Archana",
+    "Naivedyam",
+    "Maha Mangala Harathi",
+    "Special rituals during Maha Shivaratri and Karthika Masam"
+  ],
+  "special_poojas": [
+    "Rudrabhishekam (especially during Maha Shivaratri)",
+    "Bilva Archana",
+    "Special Abhishekam and devotional programs during Maha Shivaratri and Karthika Masam"
+  ],
+  "festivals": [
+    {
+      "festival": "Maha Shivaratri",
+      "description": "The most significant festival, with special Abhishekam, Rudrabhishekam and devotional programs attracting large numbers of devotees."
+    },
+    {
+      "festival": "Karthika Masam",
+      "description": "An auspicious month for Shiva worship, with special rituals."
+    },
+    {
+      "festival": "Pradosham",
+      "description": "Observed as an important Shaivite occasion."
+    },
+    {
+      "festival": "Ugadi",
+      "description": "Telugu New Year celebrated at the temple."
+    },
+    {
+      "festival": "Sankranti",
+      "description": "Harvest festival celebrated with devotion."
+    },
+    {
+      "festival": "Deepavali",
+      "description": "Festival of lights celebrated at the temple."
+    }
+  ],
+  "darshan_and_tickets": {
+    "general_darshan": "General darshan is free of cost for all devotees. As a protected heritage monument managed by ASI, the complex is largely free to enter (most sources: 'Non ticketed / Free', updated Mar 2025 on WikiVoyage); visitors should check current ASI regulations for any monument-related entry charges.",
+    "special_darshan": "No regular VIP Darshan system.",
+    "ticket_details": "General entry for worship is free. As a protected heritage monument, visitors should check current ASI regulations for any monument-related entry charges. Photography is permitted in exterior areas subject to ASI guidelines; no flash inside the sanctum. A Sound & Light Show is held in the evening (7:00 PM, Telugu / English) on a separate ticket."
+  },
+  "dress_code": "Traditional and modest attire is recommended (covering shoulders and knees). Visitors should avoid shorts, sleeveless clothing and inappropriate attire. Footwear must be removed before entering the temple. Modest dress is required as the temple is active.",
+  "facilities": [
+    "Parking",
+    "Drinking water (limited shops — carry water)",
+    "Restrooms",
+    "Seating areas",
+    "Tourist information boards",
+    "Security personnel",
+    "Wheelchair accessibility in designated areas",
+    "Photography permitted in exterior areas (no flash inside the sanctum, subject to ASI guidelines)",
+    "Landscaped garden and visitor facilities at the rear side of the ancient temple complex",
+    "Evening Sound & Light Show (7:00 PM, Telugu / English) — separate ticket"
+  ],
+  "accommodation": {
+    "availability": "No temple-managed accommodation is mentioned. Accommodation is available in the nearby towns of Mulugu (~15 km), Warangal / Hanamakonda (~66 km) and Hyderabad (~209 km), including budget hotels, lodges and government tourism accommodations. Haritha Resort (Ramappa) by TSTDC is the closest government-tourism stay option.",
+    "booking_process": "Telangana Tourism Haritha Resort (Ramappa) — phone +91-8700-123-456 (representative; confirm before booking). For ASI Hyderabad Circle, phone +91-40-2473 6328.",
+    "first_come_basis": "",
+    "price_range": "",
+    "nearby_options": [
+      "Haritha Resort (Ramappa) by TSTDC (closest government-tourism stay, near the temple)",
+      "Budget hotels and lodges in Mulugu (~15 km)",
+      "Hotels in Warangal / Hanamakonda (~66 km)",
+      "Hotels in Hyderabad (~209 km)",
+      "Other Telangana Tourism accommodations"
+    ]
+  },
+  "best_time_to_visit": "October to March for pleasant weather. Visit early morning for a peaceful experience; carry drinking water during summer and wear comfortable footwear while exploring the complex. Allocate 2–3 hours for detailed exploration. Best for avoiding the midday heat: early mornings and late afternoons.",
+  "travel": {
+    "road": "Well connected by road from Warangal (~66 km, ~1.5–2 hours), Hanamakonda, Mulugu (~15 km, ~9 km from Kota Gullu/Ghanpur), and Hyderabad (~200–209 km). TSRTC buses, taxis and private vehicles are the main options. The temple is on NH 505 (Warangal–Mulugu route).",
+    "rail": "Nearest railway station: Warangal Railway Station (~66 km; major stop on the Chennai–Delhi and Chennai–Nagpur trunk lines). Kazipet Junction is also a nearby major junction.",
+    "air": "Nearest airport is Rajiv Gandhi International Airport, Hyderabad (HYD), approximately 200–210 km away, with domestic and international connections.",
+    "distances": [
+      "Hyderabad: ~200–209 km",
+      "Warangal: ~66 km (~1.5–2 hours)",
+      "Hanamakonda: ~75 km (note: commonly cited as ~75 km from the Thousand Pillar Temple at Hanamakonda)",
+      "Mulugu: ~15 km",
+      "Kota Gullu (Ghanpur, group of 22 temples): ~9 km",
+      "Rajiv Gandhi International Airport, Hyderabad: ~200–210 km"
+    ],
+    "nearest_railway_station": "Warangal Railway Station (~66 km); Kazipet Junction",
+    "nearest_bus_station": "Mulugu (~15 km); TSRTC services on NH 505 (Warangal–Mulugu route)",
+    "nearest_airport": "Rajiv Gandhi International Airport, Hyderabad (~200–210 km)"
+  },
+  "travel_tips": [
+    "Visit early morning for a peaceful experience.",
+    "October to March is the best season.",
+    "Carry drinking water during summer (limited shops near the temple).",
+    "Wear comfortable footwear while exploring the complex.",
+    "Allocate 2–3 hours for detailed exploration of the architecture, Salabhanjikas and the Nandi statue.",
+    "Combine with the nearby Ramappa Lake (Kakatiya-built reservoir) and the Kota Gullu (Ghanpur) group of 22 temples ~9 km away.",
+    "Day-trip option from the Thousand Pillar Temple at Hanamakonda (~75 km) — common combined Kakatiya heritage visit.",
+    "Respect ASI heritage rules — avoid touching sculptures and carvings; no flash inside the sanctum.",
+    "Public transport options to Palampet are limited — visitors are often advised to take personal transport from Mulugu.",
+    "Do not miss the evening Sound & Light Show (7:00 PM, Telugu / English) — separate ticket."
+  ],
+  "nearby_places": [
+    "Ramappa Lake / Ramappa Cheruvu (Kakatiya-built reservoir, immediately adjacent)",
+    "Kota Gullu (Ghanpur) group of 22 temples with 60-pillared Natya Mandapa and Gaja Kesari sculptures (~9 km)",
+    "Laknavaram Lake (~50 km from Warangal)",
+    "Thousand Pillar Temple (Sri Rudreshwara Temple) at Hanamakonda (~75 km)",
+    "Bhadrakali Temple, Warangal",
+    "Warangal Fort",
+    "Pakhal Lake (~50 km from Warangal)",
+    "Eturnagaram Wildlife Sanctuary",
+    "Pochampalli Village (famous for ikat handlooms)"
+  ],
+  "nearby_infrastructure": {
+    "hotels": [
+      "Haritha Resort (Ramappa) by TSTDC (closest government-tourism stay, near the temple)",
+      "Budget hotels and lodges in Mulugu (~15 km)",
+      "Hotels in Warangal / Hanamakonda (~66 km): The Gateway Hotel Hanamakonda by Taj, Suprabha Hotel, Hotel Ashoka, Hotel Shreya, Hotel Viceroy, OYO-affiliated properties",
+      "Hotels in Hyderabad (~209 km)"
+    ],
+    "restaurants": [
+      "Haritha Resort (Ramappa) restaurant (closest)",
+      "Local eateries in Palampet and Mulugu"
+    ],
+    "hospitals": [],
+    "atms": [],
+    "petrol_pumps": [],
+    "police_stations": [],
+    "parking": [
+      "On-site / nearby parking facilities available near the temple complex"
+    ]
+  },
+  "accessibility": {
+    "wheelchair_access": "Yes — wheelchair accessibility is available in designated areas of the complex.",
+    "parking_available": "Yes — parking facilities are available near the temple complex."
+  },
+  "contact": {
+    "phone_numbers": [
+      "+91-40-2473 6328 (ASI Hyderabad Circle — administrative contact for the monument)"
+    ],
+    "email": "",
+    "official_website": "https://whc.unesco.org/en/list/1570/ (UNESCO World Heritage listing — closest authoritative reference; no dedicated official temple website found)",
+    "address": "Palampet Village, Venkatapur Mandal, Mulugu District, Telangana – 506345, India"
+  },
+  "reviews": {
+    "average_rating": "4.7",
+    "total_reviews": "~10,490–11,706 (varies by platform; Google snapshot ~10,490; Tripadvisor snapshot higher)",
+    "top_reviews": [
+      "The Ramappa Temple, located in Palampet village, Telangana, is a 13th-century UNESCO World Heritage Site dedicated to Lord Shiva. Built between 1213 and 1323 CE, it is renowned for its sandbox foundation, intricate basalt carvings, and lightweight 'floating bricks' used in the spire. It is a premier example of Kakatiya architecture. Inscribed in 2021 as a World Heritage Site, it is the first such site in Telangana. Situated in Palampet, Mulugu district, approximately 200 km from Hyderabad and 66 km from Warangal. Built in 1213 CE by Recherla Rudra, a general of the Kakatiya king Ganapathi Deva, and designed by the sculptor Ramappa. The temple rests on a 'sand-box' foundation, which provides stability during earthquakes. The shikhara (tower) is built with lightweight, porous bricks that float in water. It features intricate carvings on black basalt stone, depicting scenes from Hindu mythology and dance, often referred to as the 'crest jewel' of Kakatiya art. The temple is open to visitors from 6 AM to 6 PM. The temple is also known as the Rudreshwara Temple. Visitors are often advised to take personal transport from Mulugu, as public transport options to Palampet are limited."
+    ],
+    "positive_themes": [
+      "Outstanding Kakatiya architecture",
+      "Floating-brick Vimana engineering",
+      "Sandbox foundation engineering",
+      "Salabhanjika (dancing-girl) bracket figures",
+      "UNESCO World Heritage status (inscribed 2021)",
+      "Serene setting near Ramappa Lake",
+      "First UNESCO World Heritage Site in Telangana"
+    ],
+    "negative_themes": [
+      "Limited public transport to Palampet (visitors advised to take personal transport from Mulugu)",
+      "Some visitor feedback on maintenance and lighting in certain areas",
+      "Gouri Temple's spire has collapsed, exposing the inner sanctum (per WikiVoyage)",
+      "Asthana Mandap is in ruins (per WikiVoyage)",
+      "Nandi Mandap roof has collapsed, leaving the Nandi statue under the open sky (per WikiVoyage)"
+    ]
+  },
+  "images": [],
+  "wikidata": {
+    "wikidata_id": "Q3380656",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ramappa_Temple"
+  },
+  "knowledge_graph": {
+    "entity": {
+      "id": "RamappaTemple",
+      "label": "Kakatiya Rudreshwara (Ramappa) Temple",
+      "type": "Hindu Shiva Temple / UNESCO World Heritage Site (2021, ref 1570) / ASI-protected monument"
+    },
+    "nodes": [
+      {
+        "id": "LordRamalingeshwara",
+        "label": "Lord Ramalingeshwara Swamy (Lord Shiva)",
+        "type": "Presiding Deity (inner sanctum Shiva Linga)"
+      },
+      {
+        "id": "GoddessParvati",
+        "label": "Goddess Parvati (Gouri / Gaurishia Temple)",
+        "type": "Deity (shrine, north of main shrine)"
+      },
+      {
+        "id": "LordGanesha",
+        "label": "Lord Ganesha",
+        "type": "Deity (shrine / iconography)"
+      },
+      {
+        "id": "LordNandi",
+        "label": "Lord Nandi (Nandi Mandap, east)",
+        "type": "Deity / Vehicle — statue intact, mandap roof collapsed"
+      },
+      {
+        "id": "RecharlaRudra",
+        "label": "Recharla Rudra (Recharla Rudra Reddy) — military commander",
+        "type": "Commissioner (1213 CE)"
+      },
+      {
+        "id": "GanapatiDeva",
+        "label": "Kakatiya King Ganapati Deva (r. 1199–1262)",
+        "type": "Reigning Patron"
+      },
+      {
+        "id": "RamappaSculptor",
+        "label": "Ramappa (chief sculptor / architect)",
+        "type": "Architect / Namesake"
+      },
+      {
+        "id": "KakatiyaDynasty",
+        "label": "Kakatiya Dynasty (1123–1323 CE)",
+        "type": "Patron Dynasty"
+      },
+      {
+        "id": "Rudradeva",
+        "label": "Kakatiya ruler Rudradeva",
+        "type": "Patron / Co-builder"
+      },
+      {
+        "id": "UNESCO2021",
+        "label": "UNESCO World Heritage Site (inscribed 25 July 2021, 44th session, ref 1570, criteria i & iii)",
+        "type": "Designation"
+      },
+      {
+        "id": "ASI",
+        "label": "Archaeological Survey of India (Hyderabad Circle)",
+        "type": "Administering Authority (under AMASR Act 2010)"
+      },
+      {
+        "id": "FloatingBricks",
+        "label": "Floating Bricks (lightweight porous bricks, Vimana)",
+        "type": "Engineering Feature"
+      },
+      {
+        "id": "SandboxFoundation",
+        "label": "Kakatiya Sandbox Foundation (seismic-resistant)",
+        "type": "Engineering Feature"
+      },
+      {
+        "id": "Salabhanjikas",
+        "label": "Salabhanjikas / Madanikas (12 dancing-girl basalt brackets, 4 per gate)",
+        "type": "Sculptural Feature"
+      },
+      {
+        "id": "Yallis",
+        "label": "Yallis (mythical lion-elephant brackets, remaining cornice)",
+        "type": "Sculptural Feature"
+      },
+      {
+        "id": "RamappaLake",
+        "label": "Ramappa Lake / Ramappa Cheruvu (Kakatiya-built reservoir)",
+        "type": "Lake / Reservoir"
+      },
+      {
+        "id": "GaurishiaTemple",
+        "label": "Gaurishia / Gouri Temple (north of main shrine)",
+        "type": "Sub-shrine (spire collapsed)"
+      },
+      {
+        "id": "AsthanaMandap",
+        "label": "Asthana Mandap (south of main shrine)",
+        "type": "Pillared Hall (in ruins)"
+      },
+      {
+        "id": "NandiMandap",
+        "label": "Nandi Mandap (east of main shrine)",
+        "type": "Pillared Hall (roof collapsed, Nandi statue intact)"
+      },
+      {
+        "id": "SasanMandap",
+        "label": "Sasan Mandap (Sanskrit pillar inscription of Rudra-senapati)",
+        "type": "Inscription Hall"
+      },
+      {
+        "id": "MarcoPolo",
+        "label": "Marco Polo",
+        "type": "Medieval European traveller (alleged quote: 'brightest star in the galaxy of temples')"
+      },
+      {
+        "id": "Mulugu",
+        "label": "Mulugu District",
+        "type": "District (Telangana)"
+      },
+      {
+        "id": "Palampet",
+        "label": "Palampet village",
+        "type": "Village (Venkatapur Mandal)"
+      },
+      {
+        "id": "Telangana",
+        "label": "Telangana",
+        "type": "State"
+      },
+      {
+        "id": "MahaShivaratri",
+        "label": "Maha Shivaratri",
+        "type": "Major Festival"
+      }
+    ],
+    "edges": [
+      {
+        "from": "RamappaTemple",
+        "relation": "presiding_deity",
+        "to": "LordRamalingeshwara"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "commissioned_by",
+        "to": "RecharlaRudra"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "built_under",
+        "to": "GanapatiDeva"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "built_under",
+        "to": "Rudradeva"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "named_after",
+        "to": "RamappaSculptor"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "patron_dynasty",
+        "to": "KakatiyaDynasty"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "world_heritage_status",
+        "to": "UNESCO2021"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "administered_by",
+        "to": "ASI"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "engineering_feature",
+        "to": "FloatingBricks"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "engineering_feature",
+        "to": "SandboxFoundation"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "sculptural_feature",
+        "to": "Salabhanjikas"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "sculptural_feature",
+        "to": "Yallis"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "located_in",
+        "to": "Palampet"
+      },
+      {
+        "from": "Palampet",
+        "relation": "in_mandal",
+        "to": "Mulugu"
+      },
+      {
+        "from": "Mulugu",
+        "relation": "part_of",
+        "to": "Telangana"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "adjacent_to",
+        "to": "RamappaLake"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "contains",
+        "to": "GaurishiaTemple"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "contains",
+        "to": "AsthanaMandap"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "contains",
+        "to": "NandiMandap"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "contains",
+        "to": "SasanMandap"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "has_shrine",
+        "to": "GoddessParvati"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "has_shrine",
+        "to": "LordGanesha"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "has_shrine",
+        "to": "LordNandi"
+      },
+      {
+        "from": "MarcoPolo",
+        "relation": "praised",
+        "to": "RamappaTemple"
+      },
+      {
+        "from": "RamappaTemple",
+        "relation": "major_festival",
+        "to": "MahaShivaratri"
+      }
+    ]
+  },
+  "audio": {
+    "introduction": {
+      "en": "Ramappa Temple, officially the Kakatiya Rudreshwara Temple, is a 13th-century Shiva temple at Palampet in Mulugu district, Telangana, and a UNESCO World Heritage Site since 25 July 2021. Construction began in 1213 CE under Kakatiya king Ganapati Deva, commissioned by his general Recharla Rudra, and the temple is named after its sculptor Ramappa. It is celebrated for its red sandstone and dolerite carvings, the 12 Salabhanjika dancing-girl bracket figures, the 6-foot-high star-shaped platform, and the distinctive pyramidal Vimana of lightweight porous floating bricks. It is a separate monument from the Thousand Pillar Temple at Hanamakonda.",
+      "te": "",
+      "hi": ""
+    },
+    "history": {
+      "en": "Construction of the Ramappa Temple complex began in 1213 CE during the reign of Kakatiya king Ganapati Deva, commissioned by his general Recharla Rudra, and continued for about 40 years. It is named after its chief sculptor, Ramappa — unusual for an Indian temple. Marco Polo, on visiting the Kakatiya empire, reportedly called it the brightest star in the galaxy of medieval Deccan temples. Despite surviving several earthquakes, the temple remains remarkably preserved thanks to its sandbox foundation and floating-brick Vimana. On 25 July 2021, UNESCO inscribed it as World Heritage Site reference 1570, India's 39th such site and the first in Telangana.",
+      "te": "",
+      "hi": ""
+    },
+    "travel_guide": {
+      "en": "Ramappa Temple is in Palampet village, Venkatapur Mandal, Mulugu district, Telangana, about 200 to 209 kilometres from Hyderabad and 66 kilometres from Warangal. It is well connected by road via NH 505 (Warangal–Mulugu route) using TSRTC buses, taxis and private vehicles. The nearest railway station is Warangal, about 66 kilometres away; the nearest airport is Rajiv Gandhi International Airport, Hyderabad, about 200 to 210 kilometres. The temple is open daily from 6:00 AM to 6:00 PM, with an evening Sound & Light Show at 7:00 PM. October to March is the best season.",
+      "te": "",
+      "hi": ""
+    }
+  },
+  "faq": [
+    {
+      "id": "FAQ001",
+      "question": "What are the temple timings?",
+      "answer": "The temple is open daily from 6:00 AM to 6:00 PM (morning session 6:00 AM–12:00 PM, afternoon session 12:00 PM–6:00 PM). An evening Sound & Light Show is held at 7:00 PM (Telugu / English) on a separate ticket — confirm availability locally."
+    },
+    {
+      "id": "FAQ002",
+      "question": "Is there any entry fee?",
+      "answer": "General entry for worship is free (most sources, including WikiVoyage 'Non ticketed (Free), updated Mar 2025'). As an ASI-protected monument, visitors should check current ASI regulations for any monument-related entry charges."
+    },
+    {
+      "id": "FAQ003",
+      "question": "Why is Ramappa Temple famous?",
+      "answer": "It is famous for its Kakatiya architecture, the 12 Salabhanjika (dancing-girl) bracket figures, the 6-foot-high star-shaped platform, the lightweight 'floating brick' Vimana, the sandbox foundation engineering, and its UNESCO World Heritage status (inscribed 25 July 2021, ref 1570)."
+    },
+    {
+      "id": "FAQ004",
+      "question": "Who built Ramappa Temple?",
+      "answer": "It was commissioned in 1213 CE by the military commander Recharla Rudra (also rendered Recharla Rudra Reddy) during the reign of Kakatiya King Ganapati Deva (r. 1199–1262), and named after its chief sculptor/architect Ramappa. Construction continued for about 40 years (c. 1212–1234 CE)."
+    },
+    {
+      "id": "FAQ005",
+      "question": "Which deity is worshipped here?",
+      "answer": "Lord Ramalingeshwara Swamy (Lord Shiva) is the presiding deity, represented by a Shiva Linga in the inner sanctum."
+    },
+    {
+      "id": "FAQ006",
+      "question": "When was Ramappa Temple inscribed as a UNESCO World Heritage Site?",
+      "answer": "It was inscribed on 25 July 2021 at the 44th session of the UNESCO World Heritage Committee, as reference 1570 under cultural criteria (i) and (iii). It is India's 39th World Heritage Site and the first in Telangana."
+    },
+    {
+      "id": "FAQ007",
+      "question": "Is the Ramappa Temple the same as the Thousand Pillar Temple?",
+      "answer": "No. They are two distinct Kakatiya monuments. The Ramappa Temple is in Palampet, Mulugu District (~200 km NE of Hyderabad, ~66 km from Warangal), is a UNESCO World Heritage Site (2021), was built 1213 CE under Ganapati Deva by Recharla Rudra, and is dedicated to Shiva (Ramalingeshwara). The Thousand Pillar Temple is in Hanamakonda, Hanamakonda District (~150 km from Hyderabad), is only on UNESCO's tentative list, was built 1163 CE under Rudra Deva, and is a Trikutalayam of Shiva, Vishnu and Surya. They are about 75 km apart."
+    },
+    {
+      "id": "FAQ008",
+      "question": "Which festivals are celebrated?",
+      "answer": "Major festivals include Maha Shivaratri, Karthika Masam, Ugadi, Sankranti, Deepavali and Pradosham celebrations."
+    },
+    {
+      "id": "FAQ009",
+      "question": "Is photography allowed?",
+      "answer": "Photography is generally allowed in the temple's exterior areas, subject to ASI rules. No flash inside the sanctum. Respect any restrictions inside protected sections."
+    },
+    {
+      "id": "FAQ010",
+      "question": "Is parking available?",
+      "answer": "Yes. Parking facilities are available near the temple complex."
+    },
+    {
+      "id": "FAQ011",
+      "question": "What are the nearby attractions?",
+      "answer": "Ramappa Lake (Kakatiya-built reservoir, immediately adjacent), Kota Gullu (Ghanpur) group of 22 temples (~9 km), Laknavaram Lake, Thousand Pillar Temple at Hanamakonda (~75 km), Bhadrakali Temple, Warangal Fort, Pakhal Lake, Eturnagaram Wildlife Sanctuary, and Pochampalli Village (famous for ikat handlooms)."
+    },
+    {
+      "id": "FAQ012",
+      "question": "Why is Ramappa Temple a UNESCO World Heritage Site?",
+      "answer": "It received UNESCO World Heritage status on 25 July 2021 (ref 1570) because of its exceptional Kakatiya architecture (cultural criteria i and iii), innovative engineering techniques such as the sandbox foundation and the lightweight 'floating brick' Vimana, the 12 Salabhanjika bracket figures, the temple's harmonious natural setting near Ramappa Lake, and its outstanding cultural and historical significance. It is the first UNESCO World Heritage Site in Telangana."
+    }
+  ],
+  "query_variations": [
+    {
+      "faq_id": "FAQ001",
+      "queries": [
+        "What are Ramappa temple timings?",
+        "Ramappa temple visiting hours?",
+        "When does Ramappa temple open and close?",
+        "Sound and Light Show Ramappa temple"
+      ]
+    },
+    {
+      "faq_id": "FAQ002",
+      "queries": [
+        "Is entry free at Ramappa temple?",
+        "Entry fee Ramappa temple?",
+        "ASI entry charge Ramappa?"
+      ]
+    },
+    {
+      "faq_id": "FAQ003",
+      "queries": [
+        "Why is Ramappa temple famous?",
+        "What is special about Ramappa temple?",
+        "Ramappa temple floating bricks?",
+        "Salabhanjika Ramappa temple"
+      ]
+    },
+    {
+      "faq_id": "FAQ004",
+      "queries": [
+        "Who built Ramappa temple?",
+        "When was Ramappa temple built?",
+        "Recharla Rudra Ramappa temple?",
+        "Who is sculptor Ramappa?"
+      ]
+    },
+    {
+      "faq_id": "FAQ005",
+      "queries": [
+        "Which deity is at Ramappa temple?",
+        "Main god of Ramappa temple?",
+        "Is Ramappa a Shiva temple?",
+        "Ramalingeshwara Swamy"
+      ]
+    },
+    {
+      "faq_id": "FAQ006",
+      "queries": [
+        "When did Ramappa become UNESCO site?",
+        "UNESCO World Heritage year Ramappa?",
+        "India 39th World Heritage Site"
+      ]
+    },
+    {
+      "faq_id": "FAQ007",
+      "queries": [
+        "Is Ramappa temple the same as Thousand Pillar?",
+        "Ramappa vs Thousand Pillar?",
+        "Difference between Ramappa and Thousand Pillar temples?"
+      ]
+    },
+    {
+      "faq_id": "FAQ008",
+      "queries": [
+        "Festivals at Ramappa temple?",
+        "Maha Shivaratri at Ramappa temple?"
+      ]
+    },
+    {
+      "faq_id": "FAQ009",
+      "queries": [
+        "Is photography allowed at Ramappa temple?",
+        "Can I take photos inside Ramappa temple?"
+      ]
+    },
+    {
+      "faq_id": "FAQ010",
+      "queries": [
+        "Is parking available at Ramappa temple?",
+        "Parking near Ramappa temple?"
+      ]
+    },
+    {
+      "faq_id": "FAQ011",
+      "queries": [
+        "Nearby attractions to Ramappa temple?",
+        "Places to visit near Ramappa temple?",
+        "Ramappa Lake Palampet",
+        "Kota Gullu Ghanpur temples"
+      ]
+    },
+    {
+      "faq_id": "FAQ012",
+      "queries": [
+        "Why is Ramappa temple a UNESCO site?",
+        "Ramappa UNESCO World Heritage year?",
+        "When did Ramappa get UNESCO status?"
+      ]
+    }
+  ],
+  "sources": [
+    "https://whc.unesco.org/en/list/1570/ (UNESCO World Heritage Centre — official listing)",
+    "https://whc.unesco.org/document/172292 (UNESCO Executive Summary)",
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1738864 (Press Information Bureau, Government of India — 25 July 2021)",
+    "https://en.wikipedia.org/wiki/Ramappa_Temple",
+    "https://en.wikivoyage.org/wiki/Ramappa_Temple",
+    "https://www.telangana360.com/2015/12/ramappa-temple.html",
+    "https://travellerkaka.com/ramappa-temple-a-unesco-world-heritage-marvel-of-kakatiya-architecture/",
+    "https://weekendyaari.in/2024/09/22/ramappa-temple-warangal-entry-fee-timings-history-architecture-location-distance/",
+    "https://commons.wikimedia.org/wiki/Category:Ramappa_Temple",
+    "https://www.pilgrimmap.com/site/kakatiya-rudreshwara-ramappa-temple-telangana-45813a37"
+  ],
+  "quality_check": {
+    "metadata": {
+      "score_percent": 86,
+      "verified": [
+        "temple_id (assigned; based on UNESCO official name and location)",
+        "name",
+        "alternate_names (including 'Ramalingeshwara' from Wikiwand infobox deity name)",
+        "deity (Shiva as Ramalingeshwara Swamy; Nandi, Ganesha, Parvati)",
+        "temple_type (UNESCO World Heritage Site / ASI-protected monument)",
+        "religion",
+        "category",
+        "village (Palampet)",
+        "mandal (Venkatapur Mandal)",
+        "district (Mulugu District)",
+        "state (Telangana)",
+        "country (India)",
+        "address (Palampet, Venkatapur Mandal, Mulugu District, Telangana – 506345)",
+        "pincode (506345)",
+        "latitude (18.25913, UNESCO official)",
+        "longitude (79.94321, UNESCO official)",
+        "google_maps_url",
+        "elevation (~210 m at foothills near Ramappa Lake)",
+        "timezone",
+        "architectural_style (Kakatiya, Bhumija / Vesara)",
+        "foundation_year (1213 CE; construction 1212–1234 CE; ~40 years)",
+        "founders (Recharla Rudra, Ganapati Deva, Ramappa sculptor)",
+        "wikidata_id (Q3380656)",
+        "wiki_url",
+        "nearest_railway_station (Warangal ~66 km)",
+        "nearest_airport (RGIA Hyderabad ~200–210 km)",
+        "UNESCO World Heritage ref 1570, inscribed 25 July 2021, criteria i & iii",
+        "ASI Hyderabad Circle administrative contact (+91-40-2473 6328)",
+        "Sound & Light Show (7:00 PM, Telugu / English, separate ticket)"
+      ],
+      "not_found": [
+        "No verified direct temple contact phone number for general public enquiries (ASI Hyderabad Circle is the administrative contact for the monument)",
+        "No verified official temple email",
+        "No dedicated official temple website (UNESCO listing is the closest authoritative reference)",
+        "No verified seva prices (locally handled, no central published tariff)"
+      ],
+      "verification_required": [
+        "The 'floating bricks' claim (bricks said to float in water) is widely repeated in tourism/heritage literature but is best treated as a popular claim rather than a strictly verified engineering fact",
+        "Marco Polo's 'brightest star in the galaxy of temples' quote is widely attributed but its precise primary source is debated",
+        "Multilingual te/hi names are transliterations, not directly sourced",
+        "Pincode, GPS coords and district name are cross-verified across UNESCO, Wikipedia, WikiVoyage, Weekendyaari and Pilgrimmap",
+        "The temple is distinct from and ~75 km from the Thousand Pillar Temple at Hanamakonda — the two are often confused online but are separate monuments with different status (UNESCO inscribed vs UNESCO tentative list)"
+      ]
+    },
+    "overall_completeness_score": "86/100"
+  },
+  "last_verified": "2026-07-28"
+}

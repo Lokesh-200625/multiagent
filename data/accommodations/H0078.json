@@ -1,0 +1,87 @@
+{
+  "associated_temple": "Ramappa (Rudreshwara) Temple",
+  "hotels": [
+    {
+      "hotel_name": "HOTEL ROYAL PLAZA - MULUGU",
+      "hotel_type": "Business Hotel",
+      "address": "H.No. 7-107/F/1, Main Road, Opposite DLR Function Hall, Laxmi Nagar, Mulugu, Telangana - 506343, India",
+      "contact_numbers": [
+        "+91 81216 85411"
+      ],
+      "email": "",
+      "about": "HOTEL ROYAL PLAZA - MULUGU is a business hotel located in Mulugu town, approximately 18 minutes (about 11.5 km) from Ramappa (Rudreshwara) Temple. The hotel offers comfortable accommodation for pilgrims and tourists visiting Ramappa Temple, Laknavaram Lake, and other attractions in the Mulugu region. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=HOTEL+ROYAL+PLAZA+MULUGU",
+      "official_website": "https://www.thehotelroyalplaza.com",
+      "price_range": "₹1,500–₹3,000 per night (Approx.)",
+      "check_in_time": "11:00 AM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Mulugu Bus Stand – Approximately 1 km",
+        "railway_station": "Warangal Railway Station – Approximately 42 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 205 km"
+      },
+      "booking_links": {
+        "Official": "https://www.thehotelroyalplaza.com",
+        "Google Hotels": "https://www.google.com/travel/hotels/entity/ChoIl8iU4dLQ3oDQARoNL2cvMTF2eXg1c3lwZhAB",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.2/5"
+      },
+      "room_types": [
+        "AC Room",
+        "Non-AC Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Free Parking",
+        "Room Service",
+        "24-Hour Front Desk",
+        "Power Backup",
+        "Housekeeping",
+        "Family Rooms"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the booking platform or direct booking terms.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card"
+      ],
+      "nearby_landmarks": [
+        "Ramappa (Rudreshwara) Temple (Approx. 11.5 km)",
+        "Laknavaram Lake",
+        "Ramappa Lake",
+        "Mulugu Bus Stand"
+      ],
+      "temple_id": "T0014",
+      "hotel_id": "H0078"
+    }
+  ],
+  "temple_id": "T0014",
+  "hotel_id": "H0078"
+}

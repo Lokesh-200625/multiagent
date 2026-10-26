@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.2",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0073",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Sri+Geetha+Bhavan+AC+Udipi+Vegetarian+Restaurant+Warangal",
+  "restaurantName": {
+    "value": "Sri Geetha Bhavan A/C Udipi Vegetarian Restaurant",
+    "verificationStatus": "Verified",
+    "confidence": "High"
+  },
+
+  "associatedTemple": {
+    "templeId": "T0013",
+    "templeName": "Thousand Pillar Temple",
+    "relationshipStatus": "Verified"
+  },
+
+  "location": {
+    "address": {
+      "value": "Ground Floor, Beside Raymond Showroom, Supreme Lodge Complex, Chowrastha, Hanamkonda, Telangana 506011, India",
+      "verificationStatus": "Verified",
+      "confidence": "High"
+    },
+    "city": "Hanamkonda",
+    "state": "Telangana",
+    "country": "India"
+  },
+
+  "cuisine": {
+    "types": [
+      "South Indian",
+      "North Indian",
+      "Udipi",
+      "Vegetarian"
+    ],
+    "verificationStatus": "Verified",
+    "confidence": "High"
+  },
+
+  "foodType": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVeg": true,
+    "verificationStatus": "Verified",
+    "confidence": "High"
+  },
+
+  "distanceFromTemple": {
+    "walkingDistance": {
+      "value": 1.5,
+      "unit": "km",
+      "confidence": "Medium"
+    },
+    "drivingDistance": {
+      "value": 1.9,
+      "unit": "km",
+      "confidence": "Medium"
+    },
+    "approxTravelTime": {
+      "walking": "18-20 minutes",
+      "vehicle": "5 minutes"
+    },
+    "calculationMethod": [
+      "Verified business location",
+      "Verified temple location",
+      "Road distance estimation"
+    ],
+    "verificationStatus": "Estimated"
+  },
+
+  "proximityToTemple": {
+    "category": "Walkable / Short Drive",
+    "priorityRank": 2
+  },
+
+  "restaurantCategory": [
+    "Pure Vegetarian Restaurant",
+    "Udipi Restaurant",
+    "Family Restaurant"
+  ],
+
+  "recommendedFor": [
+    "Pilgrims",
+    "Families",
+    "Breakfast",
+    "Lunch",
+    "Dinner"
+  ],
+
+  "popularItems": {
+    "items": [
+      "Masala Dosa",
+      "Idli",
+      "Sambar",
+      "Paneer Curry",
+      "Veg Meals"
+    ],
+    "verificationStatus": "Partially Verified",
+    "confidence": "High"
+  },
+
+  "facilities": {
+    "familySeating": {
+      "value": true,
+      "confidence": "High"
+    },
+    "takeaway": {
+      "value": true,
+      "confidence": "High"
+    },
+    "homeDelivery": {
+      "value": true,
+      "confidence": "Medium"
+    },
+    "parking": {
+      "value": null,
+      "confidence": "Low"
+    },
+    "wheelchairFriendly": {
+      "value": null,
+      "confidence": "Low"
+    }
+  },
+
+  "businessInformation": {
+    "rating": 3.7,
+    "reviewCount": 3954,
+    "priceRange": "₹1–200",
+    "isOpen": true
+  },
+
+  "contact": {
+    "phone": "+91 78935 51181"
+  },
+
+  "pilgrimSuitability": {
+    "rating": 5,
+    "reason": "One of the most popular pure vegetarian restaurants near Thousand Pillar Temple, offering affordable Udipi-style meals ideal for pilgrims.",
+    "confidence": "High"
+  },
+
+  "verification": {
+    "restaurantExistence": {
+      "status": true,
+      "confidence": "High"
+    },
+    "addressVerified": {
+      "status": true,
+      "confidence": "High"
+    },
+    "distanceVerified": {
+      "status": "Estimated",
+      "confidence": "Medium"
+    },
+    "businessListingVerified": {
+      "status": true,
+      "confidence": "High"
+    },
+    "overallDataQuality": "Excellent"
+  }
+}

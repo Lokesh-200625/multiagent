@@ -1,0 +1,90 @@
+{
+  "associated_temple": "Sri Keesaragutta Ramalingeswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Hotel Sai Palace",
+      "hotel_type": "Business Hotel",
+      "address": "ECIL–Kapra Road, Kapra, Hyderabad, Telangana - 500062, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Hotel Sai Palace is a mid-range business hotel located approximately 16 km from Sri Keesaragutta Ramalingeswara Swamy Temple. The hotel offers comfortable accommodation with modern amenities, making it suitable for pilgrims, business travelers, families, and tourists visiting Keesaragutta and the eastern part of Hyderabad. The property is available on major online booking platforms.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+Sai+Palace+Kapra+Hyderabad",
+      "official_website": "",
+      "price_range": "₹2,000–₹3,800 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Kapra Bus Stop – Approximately 500 m",
+        "railway_station": "Charlapalli Railway Station – Approximately 8 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 48 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": "https://www.makemytrip.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Deluxe Room",
+        "Executive Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Restaurant",
+        "Room Service",
+        "Free Parking",
+        "Power Backup",
+        "24-Hour Front Desk",
+        "Housekeeping",
+        "Laundry Service",
+        "Elevator"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Budget Travelers",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room plan.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Keesaragutta Ramalingeswara Swamy Temple (Approx. 16 km)",
+        "Kapra",
+        "ECIL Cross Roads",
+        "Charlapalli",
+        "Shamirpet"
+      ],
+      "temple_id": "T0011",
+      "hotel_id": "H0054"
+    }
+  ],
+  "temple_id": "T0011",
+  "hotel_id": "H0054"
+}

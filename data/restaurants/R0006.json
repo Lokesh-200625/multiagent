@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0006",
+  "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Dharshitha+Caterings+Yadagirigutta+Telangana",
+  "restaurantName": "Dharshitha Caterings",
+
+  "associatedTemple": {
+    "templeId": "T0001",
+    "templeName": "Sri Lakshmi Narasimha Swamy Temple, Yadadri"
+  },
+
+  "basicInformation": {
+    "category": "Catering Service / Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian",
+      "Traditional Meals"
+    ],
+    "shortDescription": "A catering service near Yadagirigutta providing traditional food services suitable for pilgrims, groups and family functions."
+  },
+
+  "location": {
+    "fullAddress": "Yadagirigutta, Yadadri Bhuvanagiri District, Telangana 508115, India",
+    "area": "Yadagirigutta",
+    "city": "Yadagirigutta",
+    "district": "Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "pincode": "508115",
+    "landmark": "Near Yadadri Temple area",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 2.5,
+      "source": "Estimated from business and temple locations",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 30,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 7,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 6,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": 10,
+        "unit": "minutes",
+        "type": "Estimated"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Poori"
+    ],
+
+    "lunch": [
+      "Traditional Meals",
+      "Veg Meals",
+      "Rice Items"
+    ],
+
+    "dinner": [
+      "Traditional Dinner Items"
+    ],
+
+    "snacks": [
+      "Snacks Items"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+
+    "specialDishes": [
+      "Traditional Telangana Meals"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹150–300",
+    "averageCostForTwo": "₹300–600"
+  },
+
+  "facilities": {
+    "dineIn": false,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": null,
+    "airConditioning": null,
+    "cateringAvailable": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": null,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+    "busStand": "Yadagirigutta Bus Stand",
+    "railwayStation": "Raigir Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Useful for pilgrim groups.",
+    "Traditional food service.",
+    "Suitable for family events and gatherings.",
+    "Near Yadadri pilgrimage area."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "businessCategory",
+      "location"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation",
+      "priceInformation"
+    ],
+
+    "unknownFields": [
+      "phoneNumber",
+      "googleRating",
+      "totalReviews",
+      "officialWebsite",
+      "workingHours"
+    ]
+  }
+}

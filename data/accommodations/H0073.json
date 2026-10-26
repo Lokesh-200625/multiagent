@@ -1,0 +1,75 @@
+{
+  "associated_temple": "Sri Sammakka Saralamma Temple, Medaram",
+  "hotels": [
+    {
+      "hotel_name": "Devudu Sammanna Rooms",
+      "hotel_type": "Lodge",
+      "address": "86CQ+F6W, Medaram, Telangana - 506347, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Devudu Sammanna Rooms is a budget-friendly lodge located in Medaram, offering basic and comfortable accommodation for pilgrims visiting Sri Sammakka Saralamma Temple. The property is known for its affordable pricing and convenient location near the temple, making it suitable for families and budget travelers. ",
+      "google_map_link": "https://maps.google.com/?q=Devudu+Sammanna+Rooms+Medaram",
+      "official_website": "",
+      "price_range": "₹800–₹1,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Medaram Bus Stand – Approximately 700 m",
+        "railway_station": "Warangal Railway Station – Approximately 50 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 190 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Google Maps": "https://maps.google.com/?q=Devudu+Sammanna+Rooms+Medaram",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.0/5"
+      },
+      "room_types": [],
+      "amenities": [
+        "Family Rooms",
+        "Parking",
+        "Attached Bathroom"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Specified",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Not Specified"
+      },
+      "food_facility": {
+        "availability": "Available Nearby",
+        "restaurant": "Nearby",
+        "room_service": "Not Specified",
+        "in_room_dining": "Not Available",
+        "breakfast": "Not Included",
+        "food_type": "Vegetarian and Non-Vegetarian (Nearby)",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Budget Travelers",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on direct booking with the property.",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Sammakka Saralamma Temple",
+        "Jampanna Vagu",
+        "Medaram Bus Stand",
+        "Haritha Grand Hotel"
+      ],
+      "temple_id": "T0021",
+      "hotel_id": "H0073"
+    }
+  ],
+  "temple_id": "T0021",
+  "hotel_id": "H0073"
+}

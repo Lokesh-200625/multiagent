@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0101",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Raghvendra+Swamy+Hotel+Raichur+Road+Manyamkonda+Mahabubnagar+Telangana",
+  "restaurantName": "Raghvendra Swamy Hotel",
+
+  "associatedTemple": {
+    "templeId": "T0019",
+    "templeName": "Manyamkonda Sri Lakshmi Venkateswara Swamy Temple"
+  },
+
+  "basicInformation": {
+    "category": "Fast Food Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A small fast-food restaurant located on Raichur Road near Manyamkonda Temple, serving breakfast and vegetarian tiffins for pilgrims."
+  },
+
+  "location": {
+    "fullAddress": "Shop No-1, Raichur Rd, Manyamkonda, Mahbubnagar, Oblaipalle, Telangana 509204, India",
+    "area": "Raichur Road",
+    "city": "Manyamkonda",
+    "district": "Mahabubnagar",
+    "state": "Telangana",
+    "pincode": "509204",
+    "landmark": "Near Manyamkonda Temple Road",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 0.45,
+      "source": "Estimated from verified Google Business location",
+      "confidence": "High"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 6,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average walking speed (4–5 km/h)",
+        "confidence": "High"
+      },
+
+      "bike": {
+        "value": 2,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Temple approach road",
+        "confidence": "High"
+      },
+
+      "car": {
+        "value": 2,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Temple approach road",
+        "confidence": "High"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+917997810516",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Vada",
+      "Poori"
+    ],
+
+    "lunch": [],
+
+    "dinner": [],
+
+    "snacks": [
+      "Bonda",
+      "Bajji"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+
+    "specialDishes": [
+      "South Indian Tiffins"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹50–120",
+    "averageCostForTwo": "₹120–250"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": false,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": 5.0,
+    "totalReviews": 1
+  },
+
+  "nearbyPlaces": {
+    "temple": "Manyamkonda Sri Lakshmi Venkateswara Swamy Temple",
+    "busStand": "Manyamkonda Bus Stop",
+    "railwayStation": "Mahabubnagar Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located on Raichur Road near the temple.",
+    "Budget-friendly tiffin restaurant.",
+    "Suitable for pilgrims.",
+    "Quick takeaway available."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "address",
+      "phoneNumber",
+      "googleRating",
+      "totalReviews"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "workingHours",
+      "priceInformation",
+      "foodInformation"
+    ],
+    "unknownFields": [
+      "officialWebsite",
+      "googleBusinessProfile"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

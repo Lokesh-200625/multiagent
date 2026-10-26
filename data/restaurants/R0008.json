@@ -1,0 +1,138 @@
+ {
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0008",
+  "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Karivena+Vaari+Sathram+Bhadrachalam+Telangana",
+
+  "restaurantName": "Karivena Vaari Sathram",
+
+  "associatedTemple": {
+    "templeId": "T0002",
+    "templeName": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam"
+  },
+
+  "basicInformation": {
+    "category": "Vegetarian Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A traditional vegetarian restaurant serving South Indian meals near Sri Sita Ramachandra Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Bhadrachalam, Telangana, India",
+    "area": "Temple Area",
+    "city": "Bhadrachalam",
+    "district": "Bhadradri Kothagudem",
+    "state": "Telangana",
+    "pincode": "507111",
+    "landmark": "Near Sri Sita Ramachandra Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.2,
+    "walkingTimeMinutes": 3,
+    "bikeTimeMinutes": 2,
+    "carTimeMinutes": 2,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa"
+    ],
+    "lunch": [
+      "Vegetarian Meals"
+    ],
+    "dinner": [
+      "Vegetarian Meals"
+    ],
+    "snacks": [
+      "Vada"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+    "specialDishes": [
+      "Traditional Andhra Meals"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹100–200",
+    "averageCostForTwo": "₹250–400"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Sita Ramachandra Swamy Temple",
+    "busStand": "Bhadrachalam Bus Station",
+    "railwayStation": "Bhadrachalam Road Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located near Sri Sita Ramachandra Swamy Temple.",
+    "Traditional vegetarian meals.",
+    "Popular among pilgrims.",
+    "Budget-friendly dining."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Restaurant Guru",
+      "url": "https://restaurant-guru.in/karivena-vaari-sathram-Bhadrachalam"
+    }
+  ]
+}

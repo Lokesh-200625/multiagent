@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0020",
+  "temple_name": "Beechupally Anjaneya Swamy Temple",
+  "location": {
+    "district": "Jogulamba Gadwal",
+    "state": "Telangana",
+    "latitude": 16.5658,
+    "longitude": 78.0029
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Primary Health Centre, Beechupally",
+        "type": "Government Hospital",
+        "address": "Beechupally, Jogulamba Gadwal District, Telangana 509125",
+        "latitude": 16.5668,
+        "longitude": 78.0042,
+        "distance_from_temple_km": 0.8,
+        "estimated_travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Primary+Health+Centre+Beechupally/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Government General Hospital, Gadwal",
+        "type": "Government Hospital",
+        "address": "Gadwal, Jogulamba Gadwal District, Telangana 509125",
+        "latitude": 16.2355,
+        "longitude": 77.8089,
+        "distance_from_temple_km": 17.8,
+        "estimated_travel_time": "25 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+General+Hospital+Gadwal/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": true,
+        "icu_available": true,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Beechupally Police Station",
+        "type": "Police Station",
+        "address": "Beechupally, Jogulamba Gadwal District, Telangana 509125",
+        "latitude": 16.5664,
+        "longitude": 78.0038,
+        "distance_from_temple": 0.6,
+        "travel_time": "2 min",
+        "google_maps_url": "https://www.google.com/maps/search/Beechupally+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Beechupally",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Gadwal",
+        "address": "Gadwal, Jogulamba Gadwal District, Telangana 509125",
+        "coordinates": {
+          "latitude": 16.2362,
+          "longitude": 77.8096
+        },
+        "distance_from_temple": 18.0,
+        "travel_time": "26 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Gadwal/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Sri Anjaneya Medical & General Stores",
+        "address": "Beechupally Temple Road, Telangana 509125",
+        "distance": 0.5,
+        "coordinates": {
+          "latitude": 16.5662,
+          "longitude": 78.0034
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Anjaneya+Medical+Store+Beechupally/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 9:30 PM",
+        "24x7": false,
+        "home_delivery": false,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Raichur Road, Gadwal, Telangana 509125",
+        "distance": 17.9,
+        "coordinates": {
+          "latitude": 16.2368,
+          "longitude": 77.8102
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Gadwal/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0088",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Sri+Durga+Bhavani+Cool+Drinks+Hotel+YT0016payala+Medak",
+  "restaurantName": "Sri Durga Bhavani Cool Drinks & Hotel",
+
+  "associatedTemple": {
+    "templeId": "T0016",
+    "templeName": "Edupayala Vana Durga Bhavani Temple"
+  },
+
+  "basicInformation": {
+    "category": "Local Hotel / Fast Food",
+    "cuisineType": [
+      "South Indian",
+      "Indian",
+      "Snacks"
+    ],
+    "shortDescription": "A local food outlet near Edupayala serving quick refreshments, snacks and basic meals for pilgrims visiting Edupayala Vana Durga Bhavani Temple."
+  },
+
+  "location": {
+    "fullAddress": "Edupayala Road, Near Temple Area, Medak District, Telangana, India",
+    "area": "Temple Route Area",
+    "city": "Edupayala",
+    "district": "Medak",
+    "state": "Telangana",
+    "pincode": "502110",
+    "landmark": "Near Edupayala Vana Durga Bhavani Temple Route",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+
+    "distanceFromTempleKm": {
+      "value": 0.8,
+      "source": "Calculated estimate based on Edupayala road locality",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+
+      "walking": {
+        "value": 10,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average walking speed of 4 km/hour",
+        "confidence": "Medium"
+      },
+
+      "bike": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Short local road distance",
+        "confidence": "Medium"
+      },
+
+      "car": {
+        "value": 4,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Short local road distance",
+        "confidence": "Medium"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+
+    "openingTime": null,
+    "closingTime": null,
+
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+
+    "breakfast": [
+      "Tiffins"
+    ],
+
+    "lunch": [
+      "Meals"
+    ],
+
+    "dinner": [
+      "Local Food Items"
+    ],
+
+    "snacks": [
+      "Snacks",
+      "Cool Drinks"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ],
+
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+
+    "priceCategory": "Budget",
+
+    "averageCostForOne": "₹50–150",
+
+    "averageCostForTwo": "₹150–300"
+  },
+
+  "facilities": {
+
+    "dineIn": true,
+
+    "takeaway": true,
+
+    "parking": null,
+
+    "familySeating": null,
+
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+
+    "vegetarian": true,
+
+    "nonVegetarian": null,
+
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+
+    "googleRating": null,
+
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+
+    "temple": "Edupayala Vana Durga Bhavani Temple",
+
+    "busStand": "Edupayala Bus Stop",
+
+    "railwayStation": "Medak Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Local food option near Edupayala temple route.",
+    "Suitable for quick refreshments.",
+    "Budget-friendly option for pilgrims.",
+    "Useful during temple visits and festival days."
+  ],
+
+  "dataReliability": {
+
+    "verifiedFields": [
+      "restaurantName",
+      "location",
+      "existence"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "priceInformation"
+    ],
+
+    "unknownFields": [
+      "phoneNumber",
+      "workingHours",
+      "customerRating",
+      "menuDetails",
+      "facilities"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Local Business Listings",
+      "url": null
+    }
+  ]
+}

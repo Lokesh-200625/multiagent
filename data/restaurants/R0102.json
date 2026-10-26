@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0102",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=HEALTHY+FOOD+COURT+Oblaipalle+Mahabubnagar+Telangana",
+  "restaurantName": "HEALTHY FOOD COURT",
+
+  "associatedTemple": {
+    "templeId": "T0019",
+    "templeName": "Manyamkonda Sri Lakshmi Venkateswara Swamy Temple"
+  },
+
+  "basicInformation": {
+    "category": "Vegetarian Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A vegetarian restaurant located at Oblaipalle on the Manyamkonda approach road, serving meals, tiffins and North Indian dishes for pilgrims and travellers."
+  },
+
+  "location": {
+    "fullAddress": "Oblaipalle, Telangana 509001, India",
+    "area": "Oblaipalle",
+    "city": "Manyamkonda",
+    "district": "Mahabubnagar",
+    "state": "Telangana",
+    "pincode": "509001",
+    "landmark": "Raichur Road",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 0.8,
+      "source": "Estimated from verified Google Business location",
+      "confidence": "High"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 10,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average walking speed (4–5 km/h)",
+        "confidence": "High"
+      },
+
+      "bike": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Temple approach road",
+        "confidence": "High"
+      },
+
+      "car": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Temple approach road",
+        "confidence": "High"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+918653116116",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "12:00 AM",
+    "closingTime": "11:59 PM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": "Open 24 Hours"
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Poori"
+    ],
+    "lunch": [
+      "Veg Meals",
+      "North Indian Meals"
+    ],
+    "dinner": [
+      "North Indian",
+      "Chinese"
+    ],
+    "snacks": [
+      "Veg Snacks"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks"
+    ],
+    "specialDishes": [
+      "Paneer Tikka",
+      "Veg Fried Rice",
+      "Soups"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹100–200",
+    "averageCostForTwo": "₹200–400"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": 3.6,
+    "totalReviews": 1386
+  },
+
+  "nearbyPlaces": {
+    "temple": "Manyamkonda Sri Lakshmi Venkateswara Swamy Temple",
+    "busStand": "Manyamkonda Bus Stop",
+    "railwayStation": "Mahabubnagar Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Vegetarian restaurant.",
+    "Open 24 hours.",
+    "Large number of Google reviews.",
+    "Suitable for pilgrims visiting Manyamkonda Temple.",
+    "Located on the Raichur Road approach."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "address",
+      "googleRating",
+      "totalReviews",
+      "workingHours",
+      "priceRange"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation"
+    ],
+    "unknownFields": [
+      "officialWebsite"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    },
+    {
+      "sourceName": "Zomato",
+      "url": "https://www.zomato.com/mahbubnagar/healthy-food-court-mahbubnagar-locality"
+    }
+  ]
+}

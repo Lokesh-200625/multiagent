@@ -1,0 +1,89 @@
+{
+  "associated_temple": "Surendrapuri (Kunda Satyanarayana Kaladham)",
+  "hotels": [
+    {
+      "hotel_name": "Palette Hotel & Resort Surendrapuri Temple Yadadri (Formerly Hotel Sunshine)",
+      "hotel_type": "3-Star Hotel",
+      "address": "Survey No. 122/1E, Yadagirigutta, Yadadri Bhuvanagiri District, Telangana - 508115, India",
+      "contact_numbers": [
+        "+91 124 620 1614"
+      ],
+      "email": "",
+      "about": "Palette Hotel & Resort Surendrapuri Temple Yadadri (formerly Hotel Sunshine) is a 3-star hotel located near Surendrapuri and Yadadri Temple. The hotel provides comfortable accommodation with modern amenities, making it suitable for pilgrims, families, couples, and business travelers visiting the region. It is approximately 3 km from Surendrapuri and offers easy access to Swarnagiri and Yadadri temples. :contentReference[oaicite:2]{index=2}",
+      "google_map_link": "https://maps.google.com/?q=Palette+Hotel+and+Resort+Surendrapuri+Temple+Yadadri",
+      "official_website": "https://www.oyorooms.com/353264/",
+      "price_range": "₹1,500–₹2,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Yadagirigutta Bus Terminal – Approximately 1.2 km",
+        "railway_station": "Raigir Railway Station – Approximately 2.4 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 76 km"
+      },
+      "booking_links": {
+        "OYO": "https://www.oyorooms.com/353264/",
+        "Booking.com": "https://www.booking.com/hotel/in/collection-o-surendrapuri-temple-yadadri-formerly-sunshine.html",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/collection_o_surendrapuri_temple_yadadri_formerly_hotel_sunshine-details-bhuvanagri.html",
+        "Goibibo": "https://www.goibibo.com/hotels/collection-o-surendrapuri-temple-yadadri-formerly-sunshine-hotel-in-bhuvanagri-3459626327000765630/",
+        "Official": null
+      },
+      "ratings": {
+        "platform": "MakeMyTrip",
+        "rating": "3.3/5"
+      },
+      "room_types": [
+        "Classic Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Room Service",
+        "Power Backup",
+        "Family Rooms",
+        "24-Hour Front Desk",
+        "TV",
+        "Housekeeping",
+        "Private Bathroom"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available",
+        "food_type": "Not Specified",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Business Travelers",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room plan. Free cancellation is available on eligible plans. :contentReference[oaicite:3]{index=3}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Surendrapuri (Approx. 3 km)",
+        "Yadadri Sri Lakshmi Narasimha Swamy Temple",
+        "Swarnagiri Sri Venkateswara Swamy Temple",
+        "Raigir Railway Station"
+      ],
+      "temple_id": "T0022",
+      "hotel_id": "H0081"
+    }
+  ],
+  "temple_id": "T0022",
+  "hotel_id": "H0081"
+}

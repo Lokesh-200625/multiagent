@@ -1,0 +1,88 @@
+{
+  "associated_temple": "Sanghi Temple, Hyderabad",
+  "hotels": [
+    {
+      "hotel_name": "Hotel O Film City Hyderabad (Formerly RJ Residency)",
+      "hotel_type": "3-Star Hotel",
+      "address": "Near Ramoji Film City Main Entrance, Abdullapurmet, Hyderabad, Telangana - 501512, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Hotel O Film City Hyderabad (Formerly RJ Residency) is a budget-friendly hotel located approximately 4.7 km from Sanghi Temple. The hotel provides clean and comfortable accommodation with air-conditioned rooms, complimentary Wi-Fi, daily housekeeping, and 24-hour front desk service. It is a convenient stay for pilgrims visiting Sanghi Temple and tourists exploring Ramoji Film City.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+O+Film+City+Hyderabad",
+      "official_website": "https://www.oyorooms.com/",
+      "price_range": "₹1,200–₹2,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Sanghi Nagar Bus Stop – Approximately 4 km",
+        "railway_station": "Ghatkesar Railway Station – Approximately 14 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 34 km"
+      },
+      "booking_links": {
+        "Official": "https://www.oyorooms.com/",
+        "OYO": "https://www.oyorooms.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "MakeMyTrip": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.2/5"
+      },
+      "room_types": [
+        "Classic Room",
+        "Deluxe Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Room Service",
+        "Daily Housekeeping",
+        "Power Backup",
+        "24-Hour Front Desk",
+        "Parking",
+        "Television",
+        "Attached Bathroom"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Not Mentioned",
+        "restaurant": "Not Mentioned",
+        "room_service": "Yes",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Budget Travelers",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room plan.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sanghi Temple (Approx. 4.7 km)",
+        "Ramoji Film City",
+        "Sanghi Nagar",
+        "Abdullapurmet"
+      ],
+      "temple_id": "T0010",
+      "hotel_id": "H0125"
+    }
+  ],
+  "temple_id": "T0010",
+  "hotel_id": "H0125"
+}

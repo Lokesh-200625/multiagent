@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-08",
+    "lastUpdated": "2026-08-08",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0046",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Vetro+Near+Treasure+Island+Gokarting+Track+Gandipet+Hyderabad",
+  "restaurantName": "Vetro",
+
+  "associatedTemple": {
+    "templeId": "T0008",
+    "templeName": "Chilkur Balaji Temple"
+  },
+
+  "businessStatus": "Operational",
+
+  "basicInformation": {
+    "category": "Fine Dining Restaurant",
+    "cuisineType": [
+      "Italian",
+      "Indian"
+    ],
+    "shortDescription": "A premium restaurant in Gandipet offering Italian and Indian cuisine, located approximately 3.9 km from Chilkur Balaji Temple."
+  },
+
+  "location": {
+    "fullAddress": "Near Treasure Island Gokarting Track, Gandipet, Hyderabad, Telangana 500075, India",
+    "area": "Gandipet",
+    "city": "Hyderabad",
+    "district": "Ranga Reddy",
+    "state": "Telangana",
+    "pincode": "500075",
+    "landmark": "Near Treasure Island Gokarting Track",
+    "plusCode": "98Q8+QFW",
+    "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Vetro+Near+Treasure+Island+Gokarting+Track+Gandipet+Hyderabad"
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 3.9,
+    "walkingTimeMinutes": null,
+    "bikeTimeMinutes": null,
+    "carTimeMinutes": null,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+914030696969",
+    "officialWebsite": null,
+    "googleBusinessProfile": null,
+    "email": null
+  },
+
+  "workingHours": {
+    "openingTime": "11:00",
+    "closingTime": "23:00",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Premium",
+    "averageCostForOne": null,
+    "averageCostForTwo": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": null,
+    "parking": null,
+    "familySeating": null,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 3.9,
+    "totalReviews": 171
+  },
+
+  "nearbyPlaces": {
+    "temple": "Chilkur Balaji Temple",
+    "busStand": null,
+    "railwayStation": null
+  },
+
+  "restaurantHighlights": [
+    "Approximately 3.9 km from Chilkur Balaji Temple.",
+    "Premium dining option.",
+    "Italian and Indian cuisine.",
+    "Located in Gandipet.",
+    "Near Treasure Island Gokarting Track."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null,
+      "verificationNote": "Current business listing identifies Vetro at Near Treasure Island Gokarting Track, Gandipet."
+    },
+    {
+      "sourceName": "Tripadvisor",
+      "url": "https://www.tripadvisor.in/RestaurantsNear-g297586-d1740848-Chilkur_Balaji_Temple-Hyderabad_Hyderabad_District_Telangana.html",
+      "verificationNote": "Lists Vetro approximately 3.9 km from Chilkur Balaji Temple."
+    }
+  ]
+}

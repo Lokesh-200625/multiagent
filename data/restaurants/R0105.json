@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0105",
+  "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Mahadev+Rajasthani+Dhaba+Beechupally+Telangana",
+
+  "restaurantName": "Mahadev Rajasthani Dhaba",
+
+  "associatedTemple": {
+    "templeId": "T0020",
+    "templeName": "Beechupally Sri Anjaneya Swamy Temple"
+  },
+
+  "basicInformation": {
+    "category": "Dhaba",
+    "cuisineType": [
+      "Rajasthani",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A popular highway dhaba on Kurnool Road near Beechupally Temple, serving North Indian and Rajasthani cuisine for pilgrims and NH-44 travellers."
+  },
+
+  "location": {
+    "fullAddress": "Kurnool Rd, Beechupally, Telangana 509125, India",
+    "area": "Beechupally",
+    "city": "Beechupally",
+    "district": "Jogulamba Gadwal",
+    "state": "Telangana",
+    "pincode": "509125",
+    "landmark": "Kurnool Road (NH-44)",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 1.1,
+      "source": "Estimated from verified Google Business location",
+      "confidence": "High"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 14,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average walking speed (4–5 km/h)",
+        "confidence": "High"
+      },
+      "bike": {
+        "value": 4,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "NH-44 service road",
+        "confidence": "High"
+      },
+      "car": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "NH-44 service road",
+        "confidence": "High"
+      },
+      "bus": {
+        "value": 6,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Local bus on NH-44",
+        "confidence": "Medium"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "11:00 AM",
+    "closingTime": "12:00 AM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [
+      "North Indian Meals",
+      "Rajasthani Thali"
+    ],
+    "dinner": [
+      "Paneer Curry",
+      "Dal Fry",
+      "Tandoori Roti",
+      "Chicken Curry"
+    ],
+    "snacks": [],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks",
+      "Lassi"
+    ],
+    "specialDishes": [
+      "Dal Tadka",
+      "Paneer Butter Masala",
+      "Tandoori Roti"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹200–300",
+    "averageCostForTwo": "₹400–600"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 4.0,
+    "totalReviews": 305
+  },
+
+  "nearbyPlaces": {
+    "temple": "Beechupally Sri Anjaneya Swamy Temple",
+    "busStand": "Beechupally Bus Stop",
+    "railwayStation": "Gadwal Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Popular NH-44 highway dhaba.",
+    "Serves Rajasthani and North Indian cuisine.",
+    "Suitable for families and pilgrims.",
+    "Open daily from 11:00 AM to 12:00 AM.",
+    "Parking available."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "address",
+      "googleRating",
+      "totalReviews",
+      "workingHours",
+      "priceRange"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation"
+    ],
+    "unknownFields": [
+      "phoneNumber",
+      "officialWebsite",
+      "googleBusinessProfile"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

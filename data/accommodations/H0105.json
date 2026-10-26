@@ -1,0 +1,79 @@
+{
+  "associated_temple": "Sri Chilkur Balaji Temple",
+  "hotels": [
+    {
+      "hotel_name": "Chilkur Balaji Lake View Villa",
+      "hotel_type": "Villa / Homestay",
+      "address": "Near Chilkur Balaji Temple, Chilkur Village, Moinabad Mandal, Hyderabad, Telangana - 501504, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Chilkur Balaji Lake View Villa is a private villa located approximately 2 km from Sri Chilkur Balaji Temple. The property offers a peaceful stay overlooking the lake and is suitable for families, pilgrims, and groups seeking a quiet environment near the temple. The villa is verified through Google Business listings but is not available on major online hotel booking platforms.",
+      "google_map_link": "https://maps.google.com/?q=Chilkur+Balaji+Lake+View+Villa",
+      "official_website": "",
+      "price_range": "Not Available",
+      "check_in_time": "Not Mentioned",
+      "check_out_time": "Not Mentioned",
+      "nearest_transport": {
+        "bus_stand": "Chilkur Bus Stop – Approximately 1.5 km",
+        "railway_station": "Hyderabad Deccan (Nampally) Railway Station – Approximately 23 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 27 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "Not Available"
+      },
+      "room_types": [
+        "Villa",
+        "Entire Property"
+      ],
+      "amenities": [
+        "Free Parking",
+        "Garden",
+        "Lake View",
+        "Air Conditioning",
+        "Private Stay"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Not Mentioned"
+      },
+      "food_facility": {
+        "availability": "Not Available",
+        "restaurant": "No",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Group Travelers",
+        "Couples"
+      ],
+      "cancellation_policy": "Not Available",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Chilkur Balaji Temple (Approx. 2 km)",
+        "Himayat Sagar Lake",
+        "Osman Sagar Lake",
+        "Mrugavani National Park"
+      ],
+      "temple_id": "T0008",
+      "hotel_id": "H0105"
+    }
+  ],
+  "temple_id": "T0008",
+  "hotel_id": "H0105"
+}

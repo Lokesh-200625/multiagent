@@ -1,0 +1,77 @@
+{
+  "associated_temple": "Sri Kaleshwara Mukteswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Praveen Reddy Residency/Lodge",
+      "hotel_type": "Lodge",
+      "address": "RW63+6R3, Kaleshwaram, Majeedpalle, Telangana - 505504, India",
+      "contact_numbers": [
+        "+91 9701663268"
+      ],
+      "email": "",
+      "about": "Praveen Reddy Residency/Lodge is a budget-friendly lodge located within Kaleshwaram village near Sri Kaleshwara Mukteswara Swamy Temple. The property offers clean and comfortable rooms with parking facilities and is suitable for pilgrims, families, and budget travelers. It is known for its peaceful atmosphere and proximity to the temple.",
+      "google_map_link": "https://maps.google.com/?q=Praveen+Reddy+Residency+Kaleshwaram",
+      "official_website": "",
+      "price_range": "Not Available",
+      "check_in_time": "Not Mentioned",
+      "check_out_time": "Not Mentioned",
+      "nearest_transport": {
+        "bus_stand": "Kaleshwaram Bus Stand – Approximately 400 m",
+        "railway_station": "Peddapalli Railway Station – Approximately 95 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 270 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.9/5"
+      },
+      "room_types": [
+        "Not Mentioned"
+      ],
+      "amenities": [
+        "Parking",
+        "Basic Accommodation"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Not Mentioned"
+      },
+      "food_facility": {
+        "availability": "Not Mentioned",
+        "restaurant": "Not Mentioned",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Budget Travelers",
+        "Senior Citizens"
+      ],
+      "cancellation_policy": "Not Available",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Kaleshwara Mukteswara Swamy Temple",
+        "Godavari River",
+        "Pranahita Sangamam",
+        "Kaleshwaram Bus Stand"
+      ],
+      "temple_id": "T0007",
+      "hotel_id": "H0046"
+    }
+  ],
+  "temple_id": "T0007",
+  "hotel_id": "H0046"
+}

@@ -1,0 +1,93 @@
+{
+  "associated_temple": "Sri Beechupally Anjaneya Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Hotel Suraj Grand",
+      "hotel_type": "Business Hotel",
+      "address": "Near RTC Bus Stand, Gadwal, Jogulamba Gadwal District, Telangana - 509125, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Hotel Suraj Grand is a business-class hotel located approximately 17 km from Sri Beechupally Anjaneya Swamy Temple. Situated in Gadwal town, the hotel offers comfortable accommodation with modern amenities, making it a convenient stay option for pilgrims, families, business travelers, and tourists visiting Beechupally Temple and nearby attractions.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+Suraj+Grand+Gadwal",
+      "official_website": "",
+      "price_range": "₹1,800–₹3,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Gadwal RTC Bus Stand – Approximately 500 m",
+        "railway_station": "Gadwal Railway Station – Approximately 2 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 185 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Deluxe Room",
+        "Executive Room",
+        "Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Restaurant",
+        "Room Service",
+        "Free Parking",
+        "24-Hour Front Desk",
+        "Power Backup",
+        "Housekeeping",
+        "Laundry Service",
+        "Conference Hall",
+        "Elevator"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Couples",
+        "Tourists",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room category.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Beechupally Anjaneya Swamy Temple (Approx. 17 km)",
+        "Gadwal RTC Bus Stand",
+        "Gadwal Railway Station",
+        "Gadwal Fort",
+        "Krishna River"
+      ],
+      "temple_id": "T0020",
+      "hotel_id": "H0013"
+    }
+  ],
+  "temple_id": "T0020",
+  "hotel_id": "H0013"
+}

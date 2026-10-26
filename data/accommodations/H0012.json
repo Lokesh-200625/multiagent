@@ -1,0 +1,90 @@
+{
+  "associated_temple": "Sri Beechupally Anjaneya Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Hotel Sri Balaji Residency",
+      "hotel_type": "Business Hotel",
+      "address": "Near RTC Bus Stand, Gadwal, Jogulamba Gadwal District, Telangana - 509125, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Hotel Sri Balaji Residency is a budget-friendly business hotel located approximately 16 km from Sri Beechupally Anjaneya Swamy Temple. Situated near the Gadwal RTC Bus Stand, the hotel offers comfortable accommodation with essential amenities, making it a suitable choice for pilgrims, families, business travelers, and tourists visiting Beechupally Temple and Gadwal.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+Sri+Balaji+Residency+Gadwal",
+      "official_website": "",
+      "price_range": "₹1,500–₹3,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Gadwal RTC Bus Stand – Approximately 300 m",
+        "railway_station": "Gadwal Railway Station – Approximately 2 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 185 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.0/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Deluxe Room",
+        "Executive Room",
+        "Family Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Room Service",
+        "Free Parking",
+        "24-Hour Front Desk",
+        "Housekeeping",
+        "Laundry Service",
+        "Power Backup",
+        "Family Rooms"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available Nearby",
+        "restaurant": "Nearby Restaurants",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available Nearby",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Budget Travelers",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the booking platform or direct booking terms.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Beechupally Anjaneya Swamy Temple (Approx. 16 km)",
+        "Gadwal RTC Bus Stand",
+        "Gadwal Railway Station",
+        "Gadwal Fort",
+        "NH-44"
+      ],
+      "temple_id": "T0020",
+      "hotel_id": "H0012"
+    }
+  ],
+  "temple_id": "T0020",
+  "hotel_id": "H0012"
+}

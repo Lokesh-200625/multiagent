@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0078",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Ravali+Hotel+Palampet+Ramappa+Temple+Telangana",
+  "restaurantName": "Ravali Hotel",
+
+  "associatedTemple": {
+    "templeId": "T0014",
+    "templeName": "Ramappa Temple"
+  },
+
+  "basicInformation": {
+    "category": "Local Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Indian"
+    ],
+    "shortDescription": "A local restaurant near Ramappa Temple area serving basic meals, tiffins and refreshments for visitors and pilgrims."
+  },
+
+  "location": {
+    "fullAddress": "Palampet, Mulugu District, Telangana, India",
+    "area": "Ramappa Temple Area",
+    "city": "Palampet",
+    "district": "Mulugu",
+    "state": "Telangana",
+    "pincode": "506345",
+    "landmark": "Near Ramappa Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+
+    "distanceFromTempleKm": {
+      "value": 1.4,
+      "source": "Local location reference",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+
+      "walking": {
+        "value": 20,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average walking speed of 4 km/hour",
+        "confidence": "Medium"
+      },
+
+      "bike": {
+        "value": 4,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average rural road speed",
+        "confidence": "Medium"
+      },
+
+      "car": {
+        "value": 5,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average rural road speed",
+        "confidence": "Medium"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+919603185239",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Tiffins"
+    ],
+    "lunch": [
+      "Meals"
+    ],
+    "dinner": [],
+    "snacks": [
+      "Local Snacks"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": null,
+    "averageCostForOne": null,
+    "averageCostForTwo": null,
+    "source": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": null,
+    "parking": null,
+    "familySeating": null,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": null,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 4.0,
+    "totalReviews": 22
+  },
+
+  "nearbyPlaces": {
+    "temple": "Ramappa Temple",
+    "busStand": "Palampet Bus Stop",
+    "railwayStation": "Warangal Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located near Ramappa Temple tourist area.",
+    "Suitable for quick meals after temple visit.",
+    "Useful option for pilgrims looking for local food."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "location",
+      "phoneNumber",
+      "existence"
+    ],
+
+    "estimatedFields": [
+      "travelTime.walking",
+      "travelTime.bike",
+      "travelTime.car"
+    ],
+
+    "unknownFields": [
+      "priceInformation",
+      "workingHours",
+      "facilities",
+      "menuDetails"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile / Local Listings",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0012",
+  "temple_name": "Bhadrakali Temple, Warangal",
+  "location": {
+    "district": "Hanamkonda",
+    "state": "Telangana",
+    "latitude": 17.9958,
+    "longitude": 79.5734
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "MGM Hospital",
+        "type": "Government Teaching Hospital",
+        "address": "MGM Hospital Road, Warangal, Telangana 506007",
+        "latitude": 17.9837,
+        "longitude": 79.5945,
+        "distance_from_temple_km": 2.8,
+        "estimated_travel_time": "8 min",
+        "google_maps_url": "https://www.google.com/maps/search/MGM+Hospital+Warangal/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": true,
+        "icu_available": true,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Prashanthi Hospital",
+        "type": "Multi Speciality Hospital",
+        "address": "Balasamudram, Hanamkonda, Telangana 506001",
+        "latitude": 18.0038,
+        "longitude": 79.5679,
+        "distance_from_temple_km": 1.4,
+        "estimated_travel_time": "5 min",
+        "google_maps_url": "https://www.google.com/maps/search/Prashanthi+Hospital+Hanamkonda/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": true,
+        "icu_available": true,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Subedari Police Station",
+        "type": "Police Station",
+        "address": "Subedari, Hanamkonda, Telangana 506001",
+        "latitude": 18.0015,
+        "longitude": 79.5796,
+        "distance_from_temple": 1.1,
+        "travel_time": "4 min",
+        "google_maps_url": "https://www.google.com/maps/search/Subedari+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Hanamkonda",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Hanamkonda",
+        "address": "Hanamkonda, Telangana 506001",
+        "coordinates": {
+          "latitude": 18.0032,
+          "longitude": 79.5696
+        },
+        "distance_from_temple": 1.6,
+        "travel_time": "5 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Hanamkonda/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Balasamudram, Hanamkonda, Telangana 506001",
+        "distance": 1.5,
+        "coordinates": {
+          "latitude": 18.0035,
+          "longitude": 79.5684
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Hanamkonda/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 11:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "MedPlus Pharmacy",
+        "address": "Subedari, Hanamkonda, Telangana 506001",
+        "distance": 1.7,
+        "coordinates": {
+          "latitude": 18.0029,
+          "longitude": 79.5701
+        },
+        "google_maps_url": "https://www.google.com/maps/search/MedPlus+Hanamkonda/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

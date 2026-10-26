@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0041",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Sri+Annapurna+Hotel+Kaleshwaram+Telangana",
+  "restaurantName": "Sri Annapurna Hotel",
+
+  "associatedTemple": {
+    "templeId": "T0007",
+    "templeName": "Sri Kaleshwara Mukteswara Swamy Temple"
+  },
+
+  "businessStatus": "Operational",
+
+  "basicInformation": {
+    "category": "Vegetarian Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A local vegetarian restaurant serving tiffins and traditional South Indian meals for pilgrims visiting Kaleshwaram."
+  },
+
+  "location": {
+    "fullAddress": "Main Road, Kaleshwaram, Jayashankar Bhupalpally District, Telangana, India",
+    "area": "Temple Area",
+    "city": "Kaleshwaram",
+    "district": "Jayashankar Bhupalpally",
+    "state": "Telangana",
+    "pincode": "505504",
+    "landmark": "Near Sri Kaleshwara Mukteswara Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.3,
+    "walkingTimeMinutes": 4,
+    "bikeTimeMinutes": 2,
+    "carTimeMinutes": 2,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null,
+    "email": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": null,
+    "averageCostForTwo": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Kaleshwara Mukteswara Swamy Temple",
+    "busStand": "Kaleshwaram Bus Stand",
+    "railwayStation": null
+  },
+
+  "restaurantHighlights": [
+    "Budget-friendly.",
+    "Pure vegetarian.",
+    "Popular among pilgrims.",
+    "Near temple.",
+    "Dine-in and takeaway available."
+  ],
+
+  "references": []
+}

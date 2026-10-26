@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0087",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Haritha+Hotel+T0016payala+Vana+Durga+Temple+Telangana",
+  "restaurantName": "Haritha Hotel Edupayala",
+
+  "associatedTemple": {
+    "templeId": "T0016",
+    "templeName": "Edupayala Vana Durga Bhavani Temple"
+  },
+
+  "basicInformation": {
+    "category": "Tourism Restaurant & Hotel",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A Telangana Tourism Haritha Hotel located near Edupayala Vana Durga Bhavani Temple, providing restaurant facilities and accommodation for pilgrims and tourists."
+  },
+
+  "location": {
+    "fullAddress": "Near Edupayala Temple, Medak District, Telangana, India",
+    "area": "Temple Area",
+    "city": "Edupayala",
+    "district": "Medak",
+    "state": "Telangana",
+    "pincode": "502110",
+    "landmark": "Near Edupayala Vana Durga Bhavani Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+
+    "distanceFromTempleKm": {
+      "value": 0.2,
+      "source": "Calculated estimate based on temple proximity",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+
+      "walking": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Very close temple-area location",
+        "confidence": "Medium"
+      },
+
+      "bike": {
+        "value": 1,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Temple area local road",
+        "confidence": "Medium"
+      },
+
+      "car": {
+        "value": 2,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Temple area local road",
+        "confidence": "Medium"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "1800-425-46464",
+    "officialWebsite": "https://tourism.telangana.gov.in/",
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+
+    "breakfast": [
+      "South Indian Tiffins"
+    ],
+
+    "lunch": [
+      "Meals",
+      "Indian Cuisine"
+    ],
+
+    "dinner": [
+      "Indian Cuisine"
+    ],
+
+    "snacks": [
+      "Snacks"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ],
+
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹200–400",
+    "averageCostForTwo": "₹500–800"
+  },
+
+  "facilities": {
+
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+
+    "googleRating": 3.9,
+    "totalReviews": 607
+  },
+
+  "nearbyPlaces": {
+
+    "temple": "Edupayala Vana Durga Bhavani Temple",
+    "busStand": "Edupayala Bus Stop",
+    "railwayStation": "Medak Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located near Edupayala Temple.",
+    "Operated by Telangana Tourism.",
+    "Suitable for family pilgrims.",
+    "Provides food and accommodation facilities.",
+    "Best nearby organized dining option."
+  ],
+
+  "dataReliability": {
+
+    "verifiedFields": [
+      "restaurantName",
+      "location",
+      "contactInformation",
+      "existence",
+      "restaurantType",
+      "customerRating"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "priceInformation"
+    ],
+
+    "unknownFields": [
+      "exactMenuItems",
+      "workingHours"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Telangana Tourism / Medak District Website",
+      "url": "https://medak.telangana.gov.in/accommodation/haritha-hotel-edupayala/"
+    }
+  ]
+}

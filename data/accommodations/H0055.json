@@ -1,0 +1,84 @@
+{
+  "associated_temple": "Sri Komuravelli Mallanna Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Sri Komuravelli Mallanna Swamy Temple Guest Rooms",
+      "hotel_type": "Temple Guest House",
+      "address": "Sri Komuravelli Mallanna Swamy Temple परिसर, Komuravelli Village, Cherial Mandal, Siddipet District, Telangana - 506355, India",
+      "contact_numbers": [
+        "+91 87102 26201"
+      ],
+      "email": "[email protected]",
+      "about": "Sri Komuravelli Mallanna Swamy Temple provides basic guest rooms for devotees visiting the temple. The accommodation is managed by the temple administration and is located within the temple premises, making it the closest stay option for pilgrims. The rooms are simple and intended primarily for devotees visiting for darshan and festivals. More than 200 rooms are available, but demand is very high during Jatara and weekends. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Komuravelli+Mallanna+Temple+Guest+Rooms",
+      "official_website": "",
+      "price_range": "₹300–₹800 per room (Approx.)",
+      "check_in_time": "Subject to room availability",
+      "check_out_time": "Same day / Next morning (Temple Rules Apply)",
+      "nearest_transport": {
+        "bus_stand": "Komuravelli Bus Stop – Approximately 300 m",
+        "railway_station": "Komuravelli Railway Station – Approximately 3 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 115 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Temple": "Offline Booking Only",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "3.9/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Family Room"
+      ],
+      "amenities": [
+        "Attached Bathroom",
+        "24-Hour Water",
+        "Hot Water (Limited)",
+        "Temple Parking",
+        "Basic Furniture",
+        "Electricity",
+        "Temple Security"
+      ],
+      "facilities_summary": {
+        "room_service": "No",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Limited"
+      },
+      "food_facility": {
+        "availability": "Available Near Temple",
+        "restaurant": "Temple Canteen & Local Eateries",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Available Nearby",
+        "food_type": "Vegetarian",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Senior Citizens",
+        "Group Pilgrims"
+      ],
+      "cancellation_policy": "Rooms are allotted subject to availability. Online advance booking is generally not available; accommodation is primarily allotted on a first-come, first-served basis by the temple administration. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Komuravelli Mallanna Swamy Temple",
+        "Temple Prasadam Counter",
+        "Vehicle Pooja Area",
+        "Temple Bus Stand"
+      ],
+      "temple_id": "T0015",
+      "hotel_id": "H0055"
+    }
+  ],
+  "temple_id": "T0015",
+  "hotel_id": "H0055"
+}

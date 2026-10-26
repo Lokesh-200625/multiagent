@@ -1,0 +1,89 @@
+{
+  "associated_temple": "Sanghi Temple, Hyderabad",
+  "hotels": [
+    {
+      "hotel_name": "Hotel Shantiniketan",
+      "hotel_type": "3-Star Hotel",
+      "address": "Near Ramoji Film City, Abdullapurmet, Hyderabad, Telangana - 501512, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Hotel Shantiniketan is a comfortable mid-range hotel located approximately 3.1 km from Sanghi Temple. Situated close to Ramoji Film City, the hotel offers well-furnished rooms, free Wi-Fi, air-conditioned accommodation, room service, and parking facilities. It is suitable for pilgrims, families, tourists, and business travelers visiting the Sanghi Temple and Ramoji Film City area.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+Shantiniketan+Ramoji+Film+City",
+      "official_website": "",
+      "price_range": "₹1,800–₹3,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Sanghi Nagar Bus Stop – Approximately 2.8 km",
+        "railway_station": "Ghatkesar Railway Station – Approximately 13 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 35 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": "https://www.makemytrip.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "Booking.com": null,
+        "OYO": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.2/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Deluxe Room",
+        "Executive Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Restaurant",
+        "Room Service",
+        "Free Parking",
+        "24-Hour Front Desk",
+        "Power Backup",
+        "Housekeeping",
+        "Laundry Service"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Tourists",
+        "Couples"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room plan.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sanghi Temple (Approx. 3.1 km)",
+        "Ramoji Film City",
+        "Sanghi Nagar",
+        "Abdullapurmet"
+      ],
+      "temple_id": "T0010",
+      "hotel_id": "H0123"
+    }
+  ],
+  "temple_id": "T0010",
+  "hotel_id": "H0123"
+}

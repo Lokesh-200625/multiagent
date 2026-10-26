@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0040",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Haritha+Hotel+Kaleshwaram+Telangana",
+  "restaurantName": "Haritha Hotel Kaleshwaram",
+
+  "associatedTemple": {
+    "templeId": "T0007",
+    "templeName": "Sri Kaleshwara Mukteswara Swamy Temple"
+  },
+
+  "businessStatus": "Operational",
+
+  "basicInformation": {
+    "category": "Hotel & Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A Telangana Tourism Haritha Hotel with an in-house restaurant serving pilgrims and tourists visiting Sri Kaleshwara Mukteswara Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Haritha Hotel, Kaleshwaram, Jayashankar Bhupalpally District, Telangana 505504, India",
+    "area": "Kaleshwaram",
+    "city": "Kaleshwaram",
+    "district": "Jayashankar Bhupalpally",
+    "state": "Telangana",
+    "pincode": "505504",
+    "landmark": "About 1 km from Sri Kaleshwara Mukteswara Swamy Temple",
+    "plusCode": "RW34+QWH",
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 1.0,
+    "walkingTimeMinutes": 13,
+    "bikeTimeMinutes": 3,
+    "carTimeMinutes": 3,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+91-7036451451",
+    "officialWebsite": "https://tourism.telangana.gov.in/",
+    "googleBusinessProfile": null,
+    "email": "info@tstdc.in"
+  },
+
+  "workingHours": {
+    "openingTime": "06:00 AM",
+    "closingTime": "10:00 PM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": null,
+    "averageCostForTwo": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Kaleshwara Mukteswara Swamy Temple",
+    "busStand": "Kaleshwaram Bus Stand",
+    "railwayStation": null
+  },
+
+  "restaurantHighlights": [
+    "Official Telangana Tourism property.",
+    "In-house restaurant.",
+    "18 guest rooms available.",
+    "Parking available.",
+    "Approximately 1 km from the temple."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Telangana Tourism",
+      "url": "https://tourism.telangana.gov.in/"
+    },
+    {
+      "sourceName": "Haritha Hotels",
+      "url": "https://telanganatourismhotels.in/kaleshwaram-hotel/"
+    }
+  ]
+}

@@ -1,0 +1,1565 @@
+Yes. **Day 1 is completed.** Before touching GitHub, let's document exactly what we built and why.
+
+I’ll keep this as the **Day 1 engineering notes / handoff document**. No GitHub cleanup yet.
+
+# PilgrimAI — Day 1 Engineering Notes
+
+## 0. Day 1 objective
+
+The goal was **not** to build the actual temple/hotel/travel agents yet.
+
+The goal was to build the **orchestration foundation** that can reliably take:
+
+> User → understand request → resolve entities → build execution plan → handle dependencies → execute through LangGraph → preserve session state.
+
+Final architecture:
+
+```text
+USER
+  ↓
+QUERY GATEWAY
+  ↓
+SAFETY + INTENT
+  ↓
+REDIS SESSION
+  ↓
+ONE LLM QUERY UNDERSTANDING
+  ↓
+ENTITY REGISTRY / DETERMINISTIC RESOLUTION
+  ↓
+QUERY PLANNER
+  ↓
+LANGGRAPH SUPERVISOR
+  ↓
+SPECIALIZED AGENTS
+  ↓
+EVIDENCE / TRUST
+  ↓
+DETERMINISTIC PLANNER
+  ↓
+VALIDATOR
+  ↓
+RESPONSE
+```
+
+Day 1 stopped at the **typed execution/orchestration layer**. Specialized agents are currently stubs.
+
+---
+
+# 1. Why we chose this architecture
+
+The main design requirement was:
+
+**Do not make the whole application one giant LLM prompt.**
+
+An LLM is good at:
+
+- understanding natural language
+- identifying intent
+- extracting entities
+- understanding constraints
+- understanding preferences
+- decomposing complex requests
+- understanding relationships between questions
+
+But an LLM should **not** be trusted as the source of truth for:
+
+- canonical entity IDs
+- deterministic calculations
+- dependency validation
+- schedule arithmetic
+- identity resolution
+- final feasibility checks
+
+Therefore we separated:
+
+```text
+SEMANTIC WORK
+        ↓
+LLM
+
+DETERMINISTIC WORK
+        ↓
+Python / Registry / Planner / Graph
+```
+
+That separation is one of the most important architectural decisions in PilgrimAI.
+
+---
+
+# 2. Project initialization
+
+We created the project around:
+
+```text
+C:\Users\lokes\Desktop\multiagent
+```
+
+Python:
+
+```text
+Python 3.12
+```
+
+Main backend:
+
+```text
+FastAPI
+```
+
+Execution orchestration:
+
+```text
+LangGraph
+```
+
+LLM:
+
+```text
+Groq
+```
+
+Session state:
+
+```text
+Redis
+```
+
+Data validation:
+
+```text
+Pydantic
+```
+
+---
+
+# 3. FastAPI application
+
+We created:
+
+```text
+app/main.py
+```
+
+Responsibilities:
+
+- create FastAPI application
+- configure UTF-8 JSON responses
+- register `/chat`
+- expose `/health`
+
+The important point is that `main.py` stays very small.
+
+It should not contain business logic.
+
+---
+
+# 4. Health endpoint
+
+We created:
+
+```text
+GET /health
+```
+
+Response:
+
+```json
+{
+  "status": "ok"
+}
+```
+
+Why?
+
+Because production systems need a cheap endpoint to determine:
+
+```text
+Is the application process alive?
+```
+
+It should not require:
+
+- LLM
+- Redis session
+- agents
+- external APIs
+
+---
+
+# 5. Configuration
+
+Created:
+
+```text
+app/core/config.py
+```
+
+Configuration includes:
+
+```text
+GROQ_API_KEY
+GROQ_MODEL
+```
+
+We used:
+
+```text
+pydantic-settings
+```
+
+Why?
+
+Because configuration should come from environment variables rather than being hard-coded into Python.
+
+---
+
+# 6. `.env`
+
+Secrets such as the Groq API key belong in:
+
+```text
+.env
+```
+
+and eventually:
+
+```text
+.env
+```
+
+must be included in `.gitignore`.
+
+We should **never push API keys to GitHub**.
+
+---
+
+# 7. Redis
+
+We started Redis with Docker:
+
+```powershell
+docker run -d --name pilgrimai-redis -p 6379:6379 redis:7
+```
+
+Verified:
+
+```powershell
+docker exec pilgrimai-redis redis-cli ping
+```
+
+Result:
+
+```text
+PONG
+```
+
+---
+
+# 8. Why Redis exists
+
+Redis is being used for:
+
+```text
+SESSION STATE
+```
+
+not as the application's permanent source of truth.
+
+For example:
+
+```text
+User:
+Find a hotel near Yadadri.
+
+Next turn:
+Find a restaurant near that hotel.
+```
+
+The second request needs context from the first.
+
+Redis stores that context.
+
+---
+
+# 9. Session service
+
+Created:
+
+```text
+app/services/session.py
+```
+
+Functions include:
+
+```text
+save_session()
+get_session()
+delete_session()
+session_exists()
+touch_session()
+```
+
+Sessions are stored with:
+
+```text
+session:<session_id>
+```
+
+and have a TTL.
+
+This prevents old session data from remaining forever.
+
+---
+
+# 10. Typed query request
+
+Created:
+
+```text
+app/models/query.py
+```
+
+The API accepts:
+
+```text
+message
+session_id
+```
+
+`session_id` is optional for a new conversation.
+
+If omitted:
+
+```python
+uuid.uuid4()
+```
+
+creates one.
+
+---
+
+# 11. Typed application state
+
+Created:
+
+```text
+app/models/state.py
+```
+
+`TripState` represents the application's persistent conversational state.
+
+It contains things such as:
+
+```text
+session_id
+user_query
+intent
+entities
+resolved_entities
+constraints
+preferences
+dates_times
+locations
+group
+required_capabilities
+understanding
+resolved_query
+execution_plan
+temple
+transport
+hotels
+places
+evidence
+itinerary
+validation
+```
+
+Why?
+
+Because we don't want random dictionaries scattered throughout the application.
+
+We want a predictable state contract.
+
+---
+
+# 12. One LLM call principle
+
+This became a major Day 1 design rule.
+
+For each user message:
+
+```text
+ONE LLM QUERY UNDERSTANDING CALL
+```
+
+That call understands the request.
+
+It can determine:
+
+```text
+intent
+language
+entities
+constraints
+preferences
+dates/times
+locations
+group information
+required capabilities
+subqueries
+dependencies
+clarification requirements
+```
+
+---
+
+# 13. Why only one understanding call
+
+We explicitly rejected:
+
+```text
+LLM call 1 → understand
+LLM call 2 → resolve entities
+LLM call 3 → split queries
+LLM call 4 → determine dependencies
+```
+
+That would cause:
+
+- higher latency
+- higher cost
+- more failure points
+- inconsistent interpretations
+- unnecessary model dependence
+
+Instead:
+
+```text
+ONE LLM
+   ↓
+structured QueryUnderstanding
+   ↓
+deterministic processing
+```
+
+---
+
+# 14. Query understanding model
+
+Created:
+
+```text
+app/models/understanding.py
+```
+
+This contains typed models for:
+
+```text
+QueryEntity
+QueryConstraint
+QueryPreference
+QueryDateTime
+QueryLocation
+QueryGroup
+SubQuery
+QueryDependency
+QueryUnderstanding
+```
+
+---
+
+# 15. Entity extraction
+
+The LLM identifies an entity mention such as:
+
+```text
+Yadadri
+Hotel Ashoka
+that hotel
+restaurant
+```
+
+But the LLM does **not** decide the canonical database ID.
+
+For example:
+
+```text
+Yadadri
+```
+
+may later resolve to:
+
+```text
+T0001
+```
+
+That mapping is deterministic.
+
+---
+
+# 16. Entity types
+
+Entities carry types.
+
+Examples:
+
+```text
+temple
+accommodation
+restaurant
+location
+place
+```
+
+This matters because:
+
+```text
+Hotel Ashoka
+```
+
+should not be resolved against a temple registry entry.
+
+---
+
+# 17. Constraints
+
+We introduced:
+
+```text
+QueryConstraint
+```
+
+with:
+
+```text
+name
+value
+constraint_type
+hard
+```
+
+This separates:
+
+```text
+MUST HAVE
+```
+
+from softer preferences.
+
+Example:
+
+```text
+must be near temple
+```
+
+can be a hard constraint.
+
+---
+
+# 18. Preferences
+
+Preferences are separate from constraints.
+
+Example:
+
+```text
+prefer vegetarian food
+prefer budget hotel
+prefer morning travel
+```
+
+Why?
+
+Because:
+
+```text
+constraint != preference
+```
+
+A hard constraint can invalidate a plan.
+
+A preference normally changes ranking or selection.
+
+---
+
+# 19. Dates and times
+
+We capture semantic date/time expressions:
+
+```text
+tomorrow
+next Saturday
+tomorrow morning
+```
+
+The LLM identifies the semantic expression.
+
+We deliberately did **not** build ad-hoc date arithmetic into Day 1.
+
+Later orchestration will normalize relative dates using a proper calendar/date mechanism.
+
+---
+
+# 20. Locations
+
+We created:
+
+```text
+QueryLocation
+```
+
+Example:
+
+```text
+Yadadri
+role = near
+```
+
+This allows the system to distinguish:
+
+```text
+origin
+destination
+near
+pickup
+dropoff
+```
+
+instead of treating every location as the same thing.
+
+---
+
+# 21. Group information
+
+We created:
+
+```text
+QueryGroup
+```
+
+for:
+
+```text
+adults
+children
+seniors
+count
+```
+
+This becomes important later for:
+
+- hotel rooms
+- transportation
+- temple visits
+- restaurant seating
+- itinerary feasibility
+
+---
+
+# 22. Required capabilities
+
+The LLM can produce requirements such as:
+
+```text
+hotel_search
+restaurant_search
+temple_search
+travel_route
+```
+
+This is important because the planner should eventually route capabilities to agents.
+
+Example:
+
+```text
+hotel_search
+```
+
+→ accommodation agent.
+
+---
+
+# 23. Multi-query decomposition
+
+This was one of the most important Day 1 features.
+
+A request such as:
+
+```text
+Find a hotel near Yadadri and then find a restaurant near that hotel.
+```
+
+is not one atomic task.
+
+It becomes:
+
+```text
+q1 → find hotel near Yadadri
+
+q2 → find restaurant near q1
+```
+
+---
+
+# 24. Why decomposition matters
+
+Without decomposition, the system might try to execute everything simultaneously.
+
+But:
+
+```text
+restaurant near hotel
+```
+
+cannot be correctly executed until:
+
+```text
+hotel
+```
+
+is known.
+
+Therefore we represent the relationship explicitly.
+
+---
+
+# 25. Dependencies
+
+Every subquery can contain:
+
+```text
+dependencies
+```
+
+Example:
+
+```json
+{
+  "query_id": "q2",
+  "dependencies": ["q1"]
+}
+```
+
+Meaning:
+
+```text
+q2 cannot execute until q1 has completed.
+```
+
+---
+
+# 26. Dependency example
+
+The actual Day 1 test was:
+
+```text
+Find a hotel near Yadadri.
+```
+
+Then:
+
+```text
+Also find a restaurant near that hotel.
+```
+
+The resulting logical structure:
+
+```text
+q1
+└── hotel near Yadadri
+
+q2
+└── restaurant near q1
+```
+
+---
+
+# 27. Entity Registry
+
+Created:
+
+```text
+app/services/entity_registry.py
+```
+
+and generated:
+
+```text
+data/registry/entity_registry.json
+```
+
+The registry is the deterministic identity layer.
+
+---
+
+# 28. Why canonical registry exists
+
+Suppose the user says:
+
+```text
+Yadadri
+```
+
+The system should not blindly trust the LLM to produce:
+
+```text
+T0001
+```
+
+Instead:
+
+```text
+LLM
+ ↓
+"Yadadri"
+ ↓
+Entity Registry
+ ↓
+T0001
+```
+
+This prevents hallucinated IDs.
+
+---
+
+# 29. Registry resolution
+
+The registry supports deterministic resolution using things such as:
+
+```text
+normalization
+aliases
+exact matches
+fuzzy matches
+entity type
+context
+```
+
+The system can therefore handle variations in user wording.
+
+---
+
+# 30. Ambiguity handling
+
+We tested:
+
+```text
+Find Hotel Ashoka.
+```
+
+The registry found multiple candidates.
+
+Instead of arbitrarily selecting one, the system returned:
+
+```text
+AMBIGUOUS
+```
+
+and provided candidates.
+
+This is important.
+
+**Ambiguity should result in clarification, not guessing.**
+
+---
+
+# 31. Unresolved entities
+
+If something cannot be resolved:
+
+```text
+UNRESOLVED
+```
+
+The execution plan can block that step and request clarification.
+
+Again:
+
+```text
+unknown ≠ guess
+```
+
+---
+
+# 32. ResolvedQuery
+
+Created:
+
+```text
+app/models/resolved_query.py
+```
+
+This represents the output of:
+
+```text
+Query Understanding
+        +
+Deterministic Entity Resolution
+```
+
+It contains:
+
+```text
+resolved entities
+resolved subqueries
+unresolved mentions
+ambiguous mentions
+clarification information
+```
+
+---
+
+# 33. Critical architectural distinction
+
+We now have:
+
+```text
+QueryEntity
+```
+
+meaning:
+
+> What did the user mention?
+
+and:
+
+```text
+ResolvedEntity
+```
+
+meaning:
+
+> What canonical thing does that mention refer to?
+
+This separation is extremely important.
+
+---
+
+# 34. ExecutionPlan
+
+Created:
+
+```text
+app/models/plan.py
+```
+
+The execution plan contains:
+
+```text
+ExecutionPlan
+PlanStep
+PlanEntity
+```
+
+This is the contract passed into orchestration.
+
+---
+
+# 35. PlanStep
+
+A plan step contains:
+
+```text
+step_id
+domain
+intent
+question
+entities
+constraints
+preferences
+dates_times
+locations
+required_capabilities
+depends_on
+status
+```
+
+Example:
+
+```text
+step_id = q1
+domain = accommodation
+intent = search
+required_capabilities = hotel_search
+```
+
+---
+
+# 36. Why execution plan is separate from understanding
+
+The LLM says:
+
+> what the user means.
+
+The planner says:
+
+> what the system needs to execute.
+
+Those are different responsibilities.
+
+```text
+LLM
+ ↓
+Understanding
+ ↓
+Resolver
+ ↓
+Execution Plan
+```
+
+---
+
+# 37. LangGraph
+
+We installed and implemented:
+
+```text
+app/graph/
+```
+
+with:
+
+```text
+state.py
+nodes.py
+workflow.py
+```
+
+---
+
+# 38. Graph state
+
+Created:
+
+```text
+GraphState
+```
+
+It tracks:
+
+```text
+execution_plan
+current_step
+step_results
+dependency_results
+status
+errors
+clarification
+```
+
+This allows LangGraph to execute the plan incrementally.
+
+---
+
+# 39. Supervisor
+
+The supervisor looks at the plan and determines:
+
+```text
+Which step can execute next?
+```
+
+It checks:
+
+```text
+completed steps
+dependencies
+blocked steps
+```
+
+---
+
+# 40. Dependency-aware execution
+
+If:
+
+```text
+q2 depends_on q1
+```
+
+and:
+
+```text
+q1 not completed
+```
+
+the supervisor does not execute q2.
+
+Once:
+
+```text
+q1 = completed
+```
+
+q2 becomes executable.
+
+---
+
+# 41. Conditional routing
+
+The graph routes based on domain:
+
+```text
+temple
+    ↓
+Temple Agent
+
+accommodation
+    ↓
+Accommodation Agent
+
+restaurant
+    ↓
+Restaurant Agent
+
+travel
+    ↓
+Travel Agent
+```
+
+Unknown domains are handled separately.
+
+---
+
+# 42. Agents are currently stubs
+
+Day 1 deliberately did **not** implement real agent logic.
+
+Current agents:
+
+```text
+temple_agent
+accommodation_agent
+restaurant_agent
+travel_agent
+```
+
+currently return stub results.
+
+That was intentional.
+
+We wanted to prove:
+
+```text
+planning
+dependency handling
+routing
+session continuity
+```
+
+before adding external systems.
+
+---
+
+# 43. Dependency results
+
+When q2 executes after q1, the graph passes:
+
+```text
+dependency_results
+```
+
+to q2.
+
+Eventually this will contain actual information such as:
+
+```text
+selected hotel
+hotel coordinates
+hotel ID
+hotel name
+```
+
+Then the restaurant agent can search relative to that hotel.
+
+---
+
+# 44. Session-aware plans
+
+A major Day 1 requirement was:
+
+```text
+previous turn + current turn
+```
+
+must be understood together.
+
+Therefore Redis stores the execution plan and step results.
+
+Example:
+
+```text
+Turn 1
+q1 = hotel
+
+Turn 2
+q2 = restaurant near q1
+```
+
+The second turn can access q1.
+
+---
+
+# 45. Session reference resolution
+
+We initially tried phrase-based references such as:
+
+```text
+"that hotel" → q1
+```
+
+That failed because the LLM could rewrite the mention as:
+
+```text
+"hotel near Yadadri"
+```
+
+Therefore we changed the architecture.
+
+---
+
+# 46. Dependency-driven references
+
+Now reference resolution uses:
+
+```text
+subquery dependencies
++
+previous session steps
++
+entity/domain compatibility
+```
+
+So:
+
+```text
+q2 depends_on q1
+q1 domain = accommodation
+q2 entity_type = accommodation
+```
+
+means:
+
+```text
+q2 entity
+→ reference to q1
+```
+
+regardless of whether the LLM writes:
+
+```text
+that hotel
+```
+
+or:
+
+```text
+hotel near Yadadri
+```
+
+This is much more robust than a growing phrase dictionary.
+
+---
+
+# 47. `RESOLVED_REFERENCE`
+
+We introduced:
+
+```text
+RESOLVED_REFERENCE
+```
+
+with:
+
+```text
+reference_step_id
+```
+
+Example:
+
+```text
+status = RESOLVED_REFERENCE
+reference_step_id = q1
+```
+
+This is different from normal entity resolution.
+
+We don't yet have the actual hotel canonical ID because the hotel agent hasn't returned one.
+
+So:
+
+```text
+canonical_id = null
+reference_step_id = q1
+```
+
+is correct at this stage.
+
+---
+
+# 48. The major planner bug we found
+
+We encountered a subtle dependency bug.
+
+Current-turn plan:
+
+```text
+q2 depends_on q1
+```
+
+but q1 belonged to the previous session turn.
+
+If dependency validation happened **before merging session steps**, the planner saw:
+
+```text
+current plan:
+q2
+```
+
+and concluded:
+
+```text
+q1 doesn't exist
+→ BLOCKED
+```
+
+That was incorrect.
+
+---
+
+# 49. Correct dependency validation order
+
+We fixed the architecture to:
+
+```text
+Current understanding
+        ↓
+Current resolution
+        ↓
+Current execution plan
+        ↓
+MERGE WITH SESSION PLAN
+        ↓
+COMPLETE PLAN
+        ↓
+VALIDATE DEPENDENCIES
+        ↓
+LANGGRAPH
+```
+
+This is the correct order.
+
+---
+
+# 50. Final Day 1 validation
+
+We successfully tested:
+
+```text
+Turn 1:
+Find a hotel near Yadadri.
+```
+
+Then:
+
+```text
+Turn 2:
+Also find a restaurant near that hotel.
+```
+
+Final result:
+
+```text
+COMPLETED
+```
+
+The architecture successfully demonstrated:
+
+```text
+LLM understanding
+        ↓
+multi-query decomposition
+        ↓
+dependency
+        ↓
+session persistence
+        ↓
+deterministic reference resolution
+        ↓
+execution-plan merge
+        ↓
+dependency validation
+        ↓
+LangGraph supervisor
+        ↓
+q1
+        ↓
+q2
+        ↓
+COMPLETED
+```
+
+---
+
+# Why this foundation matters for Day 2
+
+We now have a clean place to plug in real capabilities.
+
+Instead of changing the entire architecture, we can replace:
+
+```text
+accommodation_agent = STUB
+```
+
+with:
+
+```text
+Accommodation Agent
+    ↓
+hotel search
+    ↓
+structured results
+    ↓
+evidence
+```
+
+Likewise:
+
+```text
+Temple Agent
+    ↓
+LangChain RAG
+```
+
+and:
+
+```text
+Travel Agent
+    ↓
+Maps provider
+```
+
+and later:
+
+```text
+Restaurant Agent
+    ↓
+local search/provider
+```
+
+The orchestration layer remains stable.
+
+---
+
+# Day 1 final architecture
+
+```text
+                    USER
+                      │
+                      ▼
+              ┌──────────────┐
+              │ FastAPI /chat│
+              └──────┬───────┘
+                     │
+                     ▼
+              ┌──────────────┐
+              │ Session Redis│
+              └──────┬───────┘
+                     │
+                     ▼
+             ┌─────────────────┐
+             │ One LLM Call    │
+             │ Understanding   │
+             └────────┬────────┘
+                      │
+                      ▼
+             QueryUnderstanding
+                      │
+                      ▼
+             ┌─────────────────┐
+             │ Entity Registry │
+             │ Deterministic   │
+             └────────┬────────┘
+                      │
+                      ▼
+                ResolvedQuery
+                      │
+                      ▼
+             ExecutionPlan
+                      │
+                      ▼
+             Session Plan Merge
+                      │
+                      ▼
+             Dependency Validator
+                      │
+                      ▼
+                LangGraph
+                      │
+             ┌────────┼─────────┐
+             ▼        ▼         ▼
+          Temple   Travel   Local Agents
+          STUB     STUB      STUB
+             │        │         │
+             └────────┼─────────┘
+                      ▼
+                 Step Results
+                      │
+                      ▼
+                 Redis State
+```
+
+## Day 1 design rules to preserve
+
+1. **One LLM understanding call per user turn.**
+2. **LLM does not assign canonical IDs.**
+3. **Entity resolution is deterministic.**
+4. **Ambiguity must not be guessed.**
+5. **Unresolved entities can block execution.**
+6. **Dependencies are explicit.**
+7. **Session state lives in Redis, not the source-of-truth registry.**
+8. **Current and previous execution plans must be merged before dependency validation.**
+9. **LangGraph controls execution flow, not semantic understanding.**
+10. **Agents should return structured results.**
+11. **External evidence/provenance will be added to agent outputs.**
+12. **Deterministic planning/validation remains outside the LLM.**
+13. **Relative dates are understood first and normalized later.**
+14. **Real agents come after orchestration is stable.**
+15. **Do not solve every problem with another LLM call.**
+
+### What we have now
+
+The Day 1 deliverable is therefore **not merely a FastAPI demo**.
+
+It is a working:
+
+> **session-aware, multi-query, dependency-aware execution orchestration foundation**
+
+with the real agent implementations intentionally deferred to Day 2.
+
+---
+
+### Next: GitHub cleanup
+
+Now that the notes are captured, **I would not push yet**.
+
+Before GitHub, we'll do this in order:
+
+```text
+1. Inspect complete project tree
+2. Identify genuinely required files
+3. Remove obsolete/test/debug files
+4. Decide which test scripts stay
+5. Create proper .gitignore
+6. Keep requirements.txt
+7. Check .env is excluded
+8. Check secrets are not present
+9. Check generated registry files
+10. Run final local test
+11. git init/status
+12. first commit
+13. create/push GitHub repo
+```
+
+For the cleanup step, **I need to inspect the actual current tree/files rather than guessing**, especially because we've created several iterations of files during Day 1.

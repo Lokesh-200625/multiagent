@@ -1,0 +1,93 @@
+{
+  "associated_temple": "Sri Kondagattu Anjaneya Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "HOTEL L G RAM",
+      "hotel_type": "Lodge",
+      "address": "2-5-60, Near New Bus Stand, Ram Bazar, Puranipet, Jagtial, Telangana - 505327, India",
+      "contact_numbers": [
+        "+91 87242 22111"
+      ],
+      "email": "",
+      "about": "HOTEL L G RAM is a budget-friendly lodge in Jagtial offering AC and Non-AC rooms. The property provides convenient accommodation for travelers visiting Sri Kondagattu Anjaneya Swamy Temple and other attractions in the region. It offers free cancellation on eligible bookings and Book @ ₹0 on selected plans.",
+      "google_map_link": "https://maps.google.com/?q=HOTEL+L+G+RAM+Jagtial",
+      "official_website": "",
+      "price_range": "₹1,100–₹2,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Jagtial New Bus Stand – Approximately 100 m",
+        "railway_station": "Lingampet Jagityal Railway Station – Approximately 4.3 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 190 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/jagtial-hotels.html",
+        "Goibibo": "https://www.goibibo.com/hotels/l-g-ram-hotel-in-jagtial-305968708316750588/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "MakeMyTrip",
+        "rating": "3.7/5"
+      },
+      "room_types": [
+        "Deluxe Non AC",
+        "Deluxe AC Room",
+        "Super Deluxe AC"
+      ],
+      "amenities": [
+        "Wi-Fi",
+        "Air Conditioning",
+        "Room Service",
+        "Power Backup",
+        "Housekeeping",
+        "Parking",
+        "Caretaker",
+        "Multilingual Staff",
+        "Railway Station Transfers",
+        "Bus Station Transfers",
+        "Toiletries",
+        "CCTV Security",
+        "Newspaper"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Heater Available"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Not Mentioned",
+        "room_service": "Yes",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Available on selected plans",
+        "food_type": "Not Specified",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Budget Travelers",
+        "Business Travelers",
+        "Solo Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Book @ ₹0 Payment is available on selected bookings.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Jagtial New Bus Stand",
+        "Lingampet Jagityal Railway Station",
+        "Sri Kondagattu Anjaneya Swamy Temple (Approx. 32 km)"
+      ],
+      "temple_id": "T0005",
+      "hotel_id": "H0118"
+    }
+  ],
+  "temple_id": "T0005",
+  "hotel_id": "H0118"
+}

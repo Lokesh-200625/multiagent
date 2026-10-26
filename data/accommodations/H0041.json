@@ -1,0 +1,84 @@
+{
+  "associated_temple": "Sri Edupayala Vana Durga Bhavani Temple",
+  "hotels": [
+    {
+      "hotel_name": "Sri Durga Bhavani Rooms",
+      "hotel_type": "Private Guest House",
+      "address": "Edupayala Temple Bridge 1, Nagsanpally, Medak District, Telangana - 502331, India",
+      "contact_numbers": [
+        "+91 7032990668"
+      ],
+      "email": "",
+      "about": "Sri Durga Bhavani Rooms is a private guest house located approximately 600–800 metres from Sri Edupayala Vana Durga Bhavani Temple. It is one of the closest private accommodations available for pilgrims visiting the temple and offers simple, budget-friendly rooms for families and devotees. The property is primarily available through direct booking rather than online travel platforms. ",
+      "google_map_link": "https://maps.google.com/?q=Sri+Durga+Bhavani+Rooms+Edupayala",
+      "official_website": "",
+      "price_range": "₹600–₹1,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Edupayala Bus Stop – Approximately 500 m",
+        "railway_station": "Kamareddy Railway Station – Approximately 42 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 115 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Direct Booking": "Phone Booking",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.4/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Family Room"
+      ],
+      "amenities": [
+        "Attached Bathroom",
+        "Family Rooms",
+        "Parking",
+        "24-Hour Water",
+        "Hot Water",
+        "Basic Furniture",
+        "Electricity"
+      ],
+      "facilities_summary": {
+        "room_service": "No",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Nearby",
+        "restaurant": "Nearby Local Restaurants",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Available Nearby",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Budget Travelers",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the property owner and booking method.",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Edupayala Vana Durga Bhavani Temple (Approx. 700 m)",
+        "Edupayala Temple Bridge",
+        "Manjeera River",
+        "Temple Parking Area"
+      ],
+      "temple_id": "T0016",
+      "hotel_id": "H0041"
+    }
+  ],
+  "temple_id": "T0016",
+  "hotel_id": "H0041"
+}

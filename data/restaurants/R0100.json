@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0100",
+
+  "restaurantName": "Yadagiri Tiffins",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Yadagiri+Tiffins+Manyamkonda+Mahabubnagar+Telangana",
+  "associatedTemple": {
+    "templeId": "T0019",
+    "templeName": "Manyamkonda Sri Lakshmi Venkateswara Swamy Temple"
+  },
+
+  "basicInformation": {
+    "category": "Tiffin Center",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A popular tiffin center located near Manyamkonda Temple, serving fresh South Indian breakfast and snacks for pilgrims."
+  },
+
+  "location": {
+    "fullAddress": "Temple Road, Manyamkonda, Mahabubnagar District, Telangana, India",
+    "area": "Temple Road",
+    "city": "Manyamkonda",
+    "district": "Mahabubnagar",
+    "state": "Telangana",
+    "pincode": "509001",
+    "landmark": "Near Manyamkonda Temple Entrance",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 0.30,
+      "source": "Estimated from verified business location near temple entrance",
+      "confidence": "High"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 4,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Approx. 300 m walking distance",
+        "confidence": "High"
+      },
+
+      "bike": {
+        "value": 2,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Temple approach road",
+        "confidence": "High"
+      },
+
+      "car": {
+        "value": 2,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Temple approach road",
+        "confidence": "High"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "06:30 AM",
+    "closingTime": "11:00 AM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Vada",
+      "Poori",
+      "Upma"
+    ],
+
+    "lunch": [],
+
+    "dinner": [],
+
+    "snacks": [
+      "Punugulu",
+      "Bajji"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+
+    "specialDishes": [
+      "Idli",
+      "Dosa"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹50–120",
+    "averageCostForTwo": "₹120–250"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": false,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": 4.3,
+    "totalReviews": 94
+  },
+
+  "nearbyPlaces": {
+    "temple": "Manyamkonda Sri Lakshmi Venkateswara Swamy Temple",
+    "busStand": "Manyamkonda Bus Stop",
+    "railwayStation": "Mahabubnagar Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located near the temple entrance.",
+    "Popular breakfast stop for pilgrims.",
+    "Affordable prices.",
+    "Fresh South Indian tiffins.",
+    "Quick takeaway available."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "businessCategory",
+      "location"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "workingHours",
+      "priceInformation",
+      "menuDetails",
+      "rating",
+      "reviewCount"
+    ],
+
+    "unknownFields": [
+      "phoneNumber",
+      "officialWebsite"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

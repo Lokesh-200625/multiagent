@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+  "restaurantId": "R0032",
+ "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Kondagattu+Family+Restaurant+Telangana",
+      "restaurantName": "Kondagattu Family Restaurant",
+
+  "associatedTemple": {
+    "templeId": "T0005",
+    "templeName": "Sri Kondagattu Anjaneya Swamy Temple"
+  },
+
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A spacious family restaurant near Sri Kondagattu Anjaneya Swamy Temple serving Indian and Chinese cuisine for pilgrims and tourists."
+  },
+
+  "location": {
+    "fullAddress": "Kondagattu, Jagitial District, Telangana, India",
+    "area": "Temple Area",
+    "city": "Kondagattu",
+    "district": "Jagitial",
+    "state": "Telangana",
+    "pincode": "505452",
+    "landmark": "Near Sri Kondagattu Anjaneya Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.8,
+    "walkingTimeMinutes": 10,
+    "bikeTimeMinutes": 3,
+    "carTimeMinutes": 3,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Premium",
+    "averageCostForOne": "₹250–450",
+    "averageCostForTwo": "₹600–900"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Kondagattu Anjaneya Swamy Temple",
+    "busStand": "Kondagattu Bus Stand",
+    "railwayStation": "Jagitial Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Premium family restaurant.",
+    "Vegetarian and non-vegetarian dishes.",
+    "Comfortable family seating.",
+    "Parking available.",
+    "Located close to Sri Kondagattu Anjaneya Swamy Temple."
+  ],
+
+  "references": []
+}

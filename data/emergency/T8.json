@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0008",
+  "temple_name": "Chilkur Balaji Temple",
+  "location": {
+    "district": "Ranga Reddy",
+    "state": "Telangana",
+    "latitude": 17.3587,
+    "longitude": 78.2984
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Gowthami First Aid Centre",
+        "type": "Clinic",
+        "address": "Chilkur Village Road, Chilkur, Hyderabad, Telangana 500075",
+        "latitude": 17.3583,
+        "longitude": 78.299,
+        "distance_from_temple_km": 0.1,
+        "estimated_travel_time": "1 min",
+        "google_maps_url": "https://www.google.com/maps/search/Gowthami+First+Aid+Centre+Chilkur/",
+        "emergency_department": false,
+        "24x7_emergency": null,
+        "ambulance_available": null,
+        "trauma_care": false,
+        "icu_available": null,
+        "pharmacy_available": null,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Bhaskar General Hospital",
+        "type": "Hospital",
+        "address": "Yenkapally Village, Moinabad Mandal, Hyderabad, Telangana 500075",
+        "latitude": 17.3688,
+        "longitude": 78.2825,
+        "distance_from_temple_km": 2.2,
+        "estimated_travel_time": "6 min",
+        "google_maps_url": "https://www.google.com/maps/search/Bhaskar+General+Hospital+Moinabad/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": true,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Moinabad Police Station",
+        "type": "Police Station",
+        "address": "Moinabad, Ranga Reddy, Telangana 501504",
+        "latitude": 17.3366,
+        "longitude": 78.2772,
+        "distance_from_temple": 4.5,
+        "travel_time": "10 min",
+        "google_maps_url": "https://www.google.com/maps/search/Moinabad+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Moinabad",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Rajendranagar",
+        "address": "Rajendranagar, Hyderabad, Telangana",
+        "coordinates": {
+          "latitude": 17.3219,
+          "longitude": 78.4016
+        },
+        "distance_from_temple": 14.5,
+        "travel_time": "25 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Rajendranagar/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Moinabad Road, Hyderabad, Telangana 500075",
+        "distance": 2.5,
+        "coordinates": {
+          "latitude": 17.3689,
+          "longitude": 78.2829
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Moinabad/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "MedPlus Pharmacy",
+        "address": "Moinabad, Hyderabad, Telangana 501504",
+        "distance": 4.7,
+        "coordinates": {
+          "latitude": 17.3362,
+          "longitude": 78.2778
+        },
+        "google_maps_url": "https://www.google.com/maps/search/MedPlus+Moinabad/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

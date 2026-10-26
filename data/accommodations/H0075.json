@@ -1,0 +1,93 @@
+{
+  "associated_temple": "Sri Ramappa (Rudreshwara) Temple",
+  "hotels": [
+    {
+      "hotel_name": "Haritha Lake View Resorts Ramappa",
+      "hotel_type": "Government Resort",
+      "address": "APTDC Road, Palampet, Mulugu District, Telangana - 506343, India",
+      "contact_numbers": [
+        "+91 9948100450",
+        "1800-425-46464"
+      ],
+      "email": "info@tstdc.in",
+      "about": "Haritha Lake View Resorts Ramappa is a Telangana Tourism (TGTDC) resort situated beside the scenic Ramappa Lake and close to the UNESCO-listed Sri Ramappa (Rudreshwara) Temple. The resort offers lake-view accommodation, AC rooms, landscaped surroundings, and an in-house restaurant, making it one of the best government-operated stays for pilgrims and tourists visiting the temple and Ramappa Lake. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Haritha+Lake+View+Resorts+Ramappa",
+      "official_website": "https://www.tourism.telangana.gov.in/",
+      "price_range": "₹900–₹2,000 per night (Approx., depending on room type)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Palampet Bus Stop – Approximately 1 km",
+        "railway_station": "Warangal Railway Station – Approximately 70 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 210 km"
+      },
+      "booking_links": {
+        "Official": "https://www.tourism.telangana.gov.in/all-hotels",
+        "Telangana Tourism": "https://telanganatourismhotels.in/",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.0/5"
+      },
+      "room_types": [
+        "AC Deluxe Room",
+        "AC Standard Room",
+        "Non-AC Room"
+      ],
+      "amenities": [
+        "Lake View",
+        "Air Conditioning",
+        "Restaurant",
+        "Free Parking",
+        "Garden",
+        "24-Hour Front Desk",
+        "Family Rooms",
+        "Housekeeping",
+        "Power Backup"
+      ],
+      "facilities_summary": {
+        "room_service": "Limited",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Limited",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Available",
+        "food_type": "Vegetarian and South Indian",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Senior Citizens",
+        "Nature Lovers",
+        "History Enthusiasts",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation and refund policies are governed by Telangana Tourism booking terms. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Ramappa (Rudreshwara) Temple (Approx. 900 m)",
+        "Ramappa Lake",
+        "Ramappa Lake Boating",
+        "Palampet Village"
+      ],
+      "temple_id": "T0014",
+      "hotel_id": "H0075"
+    }
+  ],
+  "temple_id": "T0014",
+  "hotel_id": "H0075"
+}

@@ -1,0 +1,99 @@
+{
+  "associated_temple": "Sri Chilkur Balaji Temple",
+  "hotels": [
+    {
+      "hotel_name": "The Greenfields Resort & Convention",
+      "hotel_type": "Resort",
+      "address": "Chevella Road, Moinabad, Hyderabad, Telangana - 501504, India",
+      "contact_numbers": [
+        "+91 7702209999"
+      ],
+      "email": "info@thegreenfieldsresort.com",
+      "about": "The Greenfields Resort & Convention is a premium resort located approximately 13 km from Sri Chilkur Balaji Temple. The resort offers spacious rooms, banquet and convention facilities, landscaped gardens, a swimming pool, indoor and outdoor recreational activities, and an in-house multi-cuisine restaurant. It is suitable for pilgrims, families, leisure travelers, weddings, and corporate events.",
+      "google_map_link": "https://maps.google.com/?q=The+Greenfields+Resort+Convention+Hyderabad",
+      "official_website": "https://www.thegreenfieldsresort.com/",
+      "price_range": "₹4,500–₹8,500 per night (Approx.)",
+      "check_in_time": "02:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Moinabad Bus Stand – Approximately 6 km",
+        "railway_station": "Hyderabad Deccan (Nampally) Railway Station – Approximately 27 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 25 km"
+      },
+      "booking_links": {
+        "Official": "https://www.thegreenfieldsresort.com/",
+        "MakeMyTrip": "https://www.makemytrip.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "Booking.com": "https://www.booking.com/"
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.2/5"
+      },
+      "room_types": [
+        "Deluxe Room",
+        "Executive Room",
+        "Premium Cottage",
+        "Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Swimming Pool",
+        "Restaurant",
+        "Free Parking",
+        "Air Conditioning",
+        "Room Service",
+        "Power Backup",
+        "Conference Hall",
+        "Banquet Hall",
+        "Children's Play Area",
+        "Indoor Games",
+        "Outdoor Sports",
+        "24-Hour Front Desk",
+        "Housekeeping"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Yes",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Business Travelers",
+        "Corporate Events",
+        "Wedding Guests",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Cancellation terms depend on the selected booking platform and tariff.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Chilkur Balaji Temple (Approx. 13 km)",
+        "Himayat Sagar Lake",
+        "Osman Sagar Lake",
+        "Mrugavani National Park",
+        "Moinabad"
+      ],
+      "temple_id": "T0008",
+      "hotel_id": "H0109"
+    }
+  ],
+  "temple_id": "T0008",
+  "hotel_id": "H0109"
+}

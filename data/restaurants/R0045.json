@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-08",
+    "lastUpdated": "2026-08-08",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0045",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Jewel+of+Nizam+The+Minar+Gandipet+Hyderabad",
+  "restaurantName": "Jewel of Nizam - The Minar",
+
+  "associatedTemple": {
+    "templeId": "T0008",
+    "templeName": "Chilkur Balaji Temple"
+  },
+
+  "businessStatus": "Operational",
+
+  "basicInformation": {
+    "category": "Fine Dining Restaurant",
+    "cuisineType": [
+      "Indian",
+      "Hyderabadi",
+      "North Indian",
+      "Mughlai"
+    ],
+    "shortDescription": "A premium fine-dining restaurant at The Golkonda Resort in Gandipet, located approximately 3.8 km from Chilkur Balaji Temple."
+  },
+
+  "location": {
+    "fullAddress": "The Golkonda Resort, Gandipet, Hyderabad, Telangana, India",
+    "area": "Gandipet",
+    "city": "Hyderabad",
+    "district": "Ranga Reddy",
+    "state": "Telangana",
+    "pincode": null,
+    "landmark": "The Golkonda Resort",
+    "plusCode": null,
+    "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Jewel+of+Nizam+The+Minar+Gandipet+Hyderabad"
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 3.8,
+    "walkingTimeMinutes": null,
+    "bikeTimeMinutes": null,
+    "carTimeMinutes": null,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null,
+    "email": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Premium",
+    "averageCostForOne": null,
+    "averageCostForTwo": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": null,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 4.8,
+    "totalReviews": 1477
+  },
+
+  "nearbyPlaces": {
+    "temple": "Chilkur Balaji Temple",
+    "busStand": null,
+    "railwayStation": null
+  },
+
+  "restaurantHighlights": [
+    "Approximately 3.8 km from Chilkur Balaji Temple.",
+    "Premium fine-dining restaurant.",
+    "Located at The Golkonda Resort.",
+    "Indian and Hyderabadi cuisine.",
+    "Suitable for premium family dining."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Tripadvisor",
+      "url": "https://en.tripadvisor.com.hk/RestaurantsNear-g297586-d1740848-Chilkur_Balaji_Temple-Hyderabad_Hyderabad_District_Telangana.html",
+      "verificationNote": "Listed as Jewel of Nizam - The Minar approximately 3.8 km from Chilkur Balaji Temple."
+    }
+  ]
+}

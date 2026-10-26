@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.2",
+    "status": "Partially Verified"
+  },
+
+  "restaurantId": "R0051",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Three+Cheers+Restaurant+Hyderabad",
+  "restaurantName": {
+    "value": "Three Cheers Restaurant",
+    "verificationStatus": "Verified",
+    "confidence": "Medium"
+  },
+
+  "associatedTemple": {
+    "templeId": "T0009",
+    "templeName": "Birla Mandir Hyderabad",
+    "relationshipStatus": "Verified"
+  },
+
+  "location": {
+    "address": {
+      "value": "Birla Planetarium Road area, Hyderabad, Telangana",
+      "verificationStatus": "Partially Verified",
+      "confidence": "Medium"
+    },
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India"
+  },
+
+  "cuisine": {
+    "types": [
+      "Chinese",
+      "Indian",
+      "Fast Food"
+    ],
+    "verificationStatus": "Partially Verified",
+    "confidence": "Medium"
+  },
+
+  "foodType": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVeg": false,
+    "verificationStatus": "Partially Verified",
+    "confidence": "Medium"
+  },
+
+  "distanceFromTemple": {
+    "walkingDistance": {
+      "value": 0.8,
+      "unit": "km",
+      "confidence": "Medium"
+    },
+
+    "drivingDistance": {
+      "value": 1.2,
+      "unit": "km",
+      "confidence": "Medium"
+    },
+
+    "approxTravelTime": {
+      "walking": "10-12 minutes",
+      "vehicle": "5 minutes"
+    },
+
+    "calculationMethod": [
+      "Restaurant locality information",
+      "Birla Mandir location reference",
+      "Area-based route estimation"
+    ],
+
+    "verificationStatus": "Estimated",
+    "note": "Exact distance depends on confirmed restaurant coordinates"
+  },
+
+  "restaurantCategory": [
+    "Casual Dining",
+    "Family Restaurant",
+    "Budget Friendly"
+  ],
+
+  "recommendedFor": [
+    "Quick meals after darshan",
+    "Small groups",
+    "Families",
+    "Visitors around Birla Planetarium area"
+  ],
+
+  "popularItems": {
+    "items": [
+      "Chinese dishes",
+      "Indian meals",
+      "Snacks",
+      "Fast food items"
+    ],
+    "verificationStatus": "Partially Verified",
+    "confidence": "Medium"
+  },
+
+  "facilities": {
+    "familySeating": {
+      "value": true,
+      "confidence": "Medium"
+    },
+
+    "takeaway": {
+      "value": true,
+      "confidence": "Medium"
+    },
+
+    "parking": {
+      "value": null,
+      "confidence": "Low"
+    },
+
+    "wheelchairFriendly": {
+      "value": null,
+      "confidence": "Low"
+    }
+  },
+
+  "pilgrimSuitability": {
+    "rating": 3,
+    "reason": "Convenient casual dining option near the Birla Mandir area for visitors looking for quick food",
+    "confidence": "Medium"
+  },
+
+  "verification": {
+    "restaurantExistence": {
+      "status": true,
+      "confidence": "Medium"
+    },
+
+    "addressVerified": {
+      "status": "Partial",
+      "confidence": "Medium"
+    },
+
+    "distanceVerified": {
+      "status": "Estimated",
+      "confidence": "Medium"
+    },
+
+    "cuisineVerified": {
+      "status": "Partial",
+      "confidence": "Medium"
+    },
+
+    "overallDataQuality": "Requires stronger source validation before final production approval"
+  }
+}

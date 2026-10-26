@@ -1,0 +1,75 @@
+{
+  "associated_temple": "Sri Kaleshwara Mukteswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "G.M.R Residency Kaleshwaram",
+      "hotel_type": "Hotel",
+      "address": "3-115/C, Near Bus Stand, Kaleshwaram, Telangana - 505504, India",
+      "contact_numbers": [
+        "+91 7396633935"
+      ],
+      "email": "",
+      "about": "G.M.R Residency Kaleshwaram is a budget-friendly hotel located near the Kaleshwaram Bus Stand and within walking distance of Sri Kaleshwara Mukteswara Swamy Temple. The property offers basic accommodation suitable for pilgrims and families visiting the temple. It is known for its convenient location and clean rooms. :contentReference[oaicite:2]{index=2}",
+      "google_map_link": "https://maps.google.com/?q=G.M.R+Residency+Kaleshwaram",
+      "official_website": "",
+      "price_range": "Not Available",
+      "check_in_time": "Not Mentioned",
+      "check_out_time": "Not Mentioned",
+      "nearest_transport": {
+        "bus_stand": "Kaleshwaram Bus Stand – Approximately 100 m",
+        "railway_station": "Peddapalli Railway Station – Approximately 95 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 270 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.2/5"
+      },
+      "room_types": [
+        "Not Mentioned"
+      ],
+      "amenities": [
+        "Parking",
+        "Basic Accommodation"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Not Mentioned"
+      },
+      "food_facility": {
+        "availability": "Not Mentioned",
+        "restaurant": "Not Mentioned",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Not Available",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Kaleshwara Mukteswara Swamy Temple",
+        "Kaleshwaram Bus Stand",
+        "Godavari River"
+      ],
+      "temple_id": "T0007",
+      "hotel_id": "H0044"
+    }
+  ],
+  "temple_id": "T0007",
+  "hotel_id": "H0044"
+}

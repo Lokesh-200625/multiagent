@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0042",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Haritha+Restaurant+Chilkur+Telangana",
+  "restaurantName": "Haritha Restaurant (Mrugavani)",
+
+  "associatedTemple": {
+    "templeId": "T0008",
+    "templeName": "Chilkur Balaji Temple"
+  },
+
+  "businessStatus": "Operational",
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A Telangana Tourism operated family restaurant located near Mrugavani National Park, serving pilgrims and tourists visiting Chilkur Balaji Temple."
+  },
+
+  "location": {
+    "fullAddress": "Haritha Restaurant, Mrugavani National Park, Chilkur Road, Hyderabad, Telangana, India",
+    "area": "Mrugavani",
+    "city": "Hyderabad",
+    "district": "Ranga Reddy",
+    "state": "Telangana",
+    "pincode": null,
+    "landmark": "Near Mrugavani National Park",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 2.5,
+    "walkingTimeMinutes": 30,
+    "bikeTimeMinutes": 6,
+    "carTimeMinutes": 6,
+    "busTimeMinutes": 12
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": "https://tourism.telangana.gov.in/",
+    "googleBusinessProfile": null,
+    "email": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": null,
+    "averageCostForTwo": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Chilkur Balaji Temple",
+    "busStand": "Chilkur Bus Stop",
+    "railwayStation": "Hyderabad Deccan Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Telangana Tourism restaurant.",
+    "Near Mrugavani National Park.",
+    "Suitable for families.",
+    "Parking available.",
+    "Close to Chilkur Balaji Temple."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Telangana Tourism",
+      "url": "https://tourism.telangana.gov.in/"
+    }
+  ]
+}

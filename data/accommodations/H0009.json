@@ -1,0 +1,80 @@
+{
+  "associated_temple": "Sri Beechupally Anjaneya Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Sagaar Function Hall & Rooms",
+      "hotel_type": "Function Hall with Guest Rooms",
+      "address": "Behind Anjaneya Swamy Temple, Beechupally, Gadwal Road, Jogulamba Gadwal District, Telangana - 509133, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Sagaar Function Hall & Rooms is one of the closest accommodations to Sri Beechupally Anjaneya Swamy Temple. Located directly behind the temple, it offers guest rooms primarily for pilgrims and visitors attending temple events and family functions. The property is within walking distance of the temple and is a convenient stay option for devotees. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Sagaar+Function+Hall+Beechupally",
+      "official_website": "",
+      "price_range": "₹800–₹2,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Beechupally Bus Stop – Approximately 300 m",
+        "railway_station": "Gadwal Railway Station – Approximately 16 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 185 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.0/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Family Room"
+      ],
+      "amenities": [
+        "Guest Rooms",
+        "Free Parking",
+        "Attached Bathroom",
+        "24-Hour Water",
+        "Power Backup",
+        "Family Accommodation"
+      ],
+      "facilities_summary": {
+        "room_service": "Limited",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available Nearby",
+        "restaurant": "Nearby Local Eateries",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Available Nearby",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Group Travelers",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on direct booking with the property.",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Beechupally Anjaneya Swamy Temple (Approx. 300–500 m)",
+        "Krishna River",
+        "Beechupally Ghat",
+        "NH-44"
+      ],
+      "temple_id": "T0020",
+      "hotel_id": "H0009"
+    }
+  ],
+  "temple_id": "T0020",
+  "hotel_id": "H0009"
+}

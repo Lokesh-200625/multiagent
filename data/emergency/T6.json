@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0006",
+  "temple_name": "Sri Jogulamba Devi Temple, Alampur",
+  "location": {
+    "district": "Jogulamba Gadwal",
+    "state": "Telangana",
+    "latitude": 15.877,
+    "longitude": 78.1346
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Government Hospital, Alampur",
+        "type": "Government Hospital",
+        "address": "Alampur, Jogulamba Gadwal, Telangana 509152",
+        "latitude": 15.8813,
+        "longitude": 78.1318,
+        "distance_from_temple_km": 0.7,
+        "estimated_travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Hospital+Alampur/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Community Health Centre, Alampur",
+        "type": "Community Health Centre",
+        "address": "Alampur, Jogulamba Gadwal, Telangana 509152",
+        "latitude": 15.8815,
+        "longitude": 78.1315,
+        "distance_from_temple_km": 0.8,
+        "estimated_travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Community+Health+Centre+Alampur/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Alampur Police Station",
+        "type": "Police Station",
+        "address": "Alampur, Jogulamba Gadwal, Telangana 509152",
+        "latitude": 15.8792,
+        "longitude": 78.1329,
+        "distance_from_temple": 0.6,
+        "travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Alampur+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Alampur",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Gadwal",
+        "address": "Gadwal, Jogulamba Gadwal, Telangana",
+        "coordinates": {
+          "latitude": 16.2356,
+          "longitude": 77.8083
+        },
+        "distance_from_temple": 34.5,
+        "travel_time": "40 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Gadwal/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Alampur Main Road, Alampur, Telangana 509152",
+        "distance": 0.8,
+        "coordinates": {
+          "latitude": 15.8808,
+          "longitude": 78.1323
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Alampur/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Sri Lakshmi Medical & General Stores",
+        "address": "Near Bus Stand, Alampur, Telangana 509152",
+        "distance": 0.9,
+        "coordinates": {
+          "latitude": 15.881,
+          "longitude": 78.132
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Lakshmi+Medical+Store+Alampur/",
+        "phone": "",
+        "opening_hours": "8:30 AM - 9:30 PM",
+        "24x7": false,
+        "home_delivery": false,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

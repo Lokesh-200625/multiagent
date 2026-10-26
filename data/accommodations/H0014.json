@@ -1,0 +1,91 @@
+{
+  "associated_temple": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam",
+  "hotels": [
+    {
+      "hotel_name": "Srinidhi Residency",
+      "hotel_type": "Residency",
+      "address": "H.No: 3-1-24, Near Ramalayam, Raajaveedhi, Bhadrachalam - 507111, Telangana, India.",
+      "contact_numbers": [
+        "08743-232277",
+        "9966463391"
+      ],
+      "email": "info@srinidhiresidency.in",
+      "about": "Srinidhi Residency is a hotel located about 350 meters from Sri Sita Ramachandra Swamy Temple. It offers AC and Non-AC rooms, parking, lift, room service, power backup, and a solar water heater. The hotel is suitable for families, pilgrims, and senior citizens due to its proximity to the temple and comfortable facilities.",
+      "google_map_link": "https://maps.app.goo.gl/GiL63w2y4QX9gxAU9",
+      "official_website": "https://www.srinidhiresidency.in/photo-gallery/",
+      "price_range": "₹1,000–₹2,000 per night (Approx.)",
+      "check_in_time": "08:00 AM",
+      "check_out_time": "08:00 AM (24 Hours)",
+      "nearest_transport": {
+        "bus_stand": "Bhadrachalam Bus Stand – Approximately 1.2 km",
+        "railway_station": "Bhadrachalam Road Railway Station (Kothagudem) – Approximately 40 km",
+        "airport": "Rajahmundry Airport – Approximately 180 km"
+      },
+      "booking_links": {
+        "Goibibo": "https://www.goibibo.com/hotels/hotel-details/?checkin=20260801&checkout=20260802&roomString=1-2-0&searchText=Srinidhi%20Residency",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/srinidhi_residency-details-bhadrachalam.html"
+      },
+      "ratings": {
+        "platform": "MakeMyTrip",
+        "rating": "3.9/5"
+      },
+      "room_types": [
+        "Non AC Deluxe Room",
+        "AC Deluxe Room"
+      ],
+      "amenities": [
+        "Parking",
+        "Lift",
+        "Power Backup",
+        "Solar Water Heater",
+        "Room Service",
+        "LED TV",
+        "Laundry",
+        "Doctor on Call",
+        "Travel Desk",
+        "Temple View",
+        "River View"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes (Solar Water Heater)"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Couples",
+        "Pilgrims",
+        "Senior Citizens",
+        "Group Pilgrims",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible bookings up to 24 hours before check-in, depending on the selected room and booking platform.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Sita Ramachandra Swamy Temple – Approximately 350 m",
+        "Godavari River – Approximately 500 m",
+        "Ramalayam",
+        "Bhadrachalam Bus Stand – Approximately 1.2 km"
+      ],
+      "temple_id": "T0002",
+      "hotel_id": "H0014"
+    }
+  ],
+  "temple_id": "T0002",
+  "hotel_id": "H0014"
+}

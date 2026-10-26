@@ -1,0 +1,87 @@
+{
+  "associated_temple": "Swarnagiri Sri Venkateswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "OYO Akruthi Grand",
+      "hotel_type": "Budget Hotel",
+      "address": "Near Tollgate, Gudur, Bibinagar, Telangana - 508126, India",
+      "contact_numbers": [
+        "+91 124 620 1614"
+      ],
+      "email": "",
+      "about": "OYO Akruthi Grand is a budget-friendly hotel located near the Bibinagar Tollgate in Gudur, Telangana. The hotel offers comfortable accommodation with modern amenities and serves as a convenient stay option for pilgrims visiting Swarnagiri Sri Venkateswara Swamy Temple, which is approximately 8–10 km away. It is suitable for families, couples, and business travelers. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=OYO+Akruthi+Grand+Bibinagar",
+      "official_website": "",
+      "price_range": "₹900–₹1,800 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Bibinagar Bus Stand – Approximately 2 km",
+        "railway_station": "Bibinagar Railway Station – Approximately 3 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 55 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "OYO": "https://www.oyorooms.com/",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.3/5"
+      },
+      "room_types": [
+        "Classic Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Parking",
+        "TV",
+        "Attached Bathroom",
+        "Power Backup",
+        "24-Hour Front Desk"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Included",
+        "food_type": "Not Specified",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Business Travelers",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected OYO booking plan.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Swarnagiri Sri Venkateswara Swamy Temple",
+        "Bibinagar Toll Plaza",
+        "Bibinagar Railway Station",
+        "AIIMS Bibinagar"
+      ],
+      "temple_id": "T0023",
+      "hotel_id": "H0128"
+    }
+  ],
+  "temple_id": "T0023",
+  "hotel_id": "H0128"
+}

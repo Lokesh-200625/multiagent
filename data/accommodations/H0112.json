@@ -1,0 +1,79 @@
+{
+  "associated_temple": "Sri Jogulamba Devi Temple, Alampur",
+  "hotels": [
+    {
+      "hotel_name": "Pavanaputra Residency",
+      "hotel_type": "Lodging / Residency",
+      "address": "Temple Road, Behind Sri Jogulamba Ammavari Temple, Bukkapur, Alampur, Jogulamba Gadwal District, Telangana - 509152, India",
+      "contact_numbers": [
+        "+91 9985999460"
+      ],
+      "email": "",
+      "about": "Pavanaputra Residency is a budget-friendly lodging located behind Sri Jogulamba Devi Temple in Alampur. The property operates 24 hours and is one of the nearest accommodations for pilgrims visiting the temple. It offers basic lodging facilities and is known for its convenient location within walking distance of the temple. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Pavanaputra+Residency+Alampur",
+      "official_website": "",
+      "price_range": "Not Available",
+      "check_in_time": "Not Mentioned",
+      "check_out_time": "Not Mentioned",
+      "nearest_transport": {
+        "bus_stand": "Alampur Bus Stand – Approximately 500 m",
+        "railway_station": "Alampur Road Railway Station – Approximately 10 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 215 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null,
+        "Justdial": "https://www.justdial.com/Alampur/Pavanaputra-Residency-Behind-Jogulamba-Temple-Alampur-Ho/9999P8502-8502-170922071350-Q5M4_BZDET"
+      },
+      "ratings": {
+        "platform": "Justdial",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "Not Mentioned"
+      ],
+      "amenities": [
+        "24-Hour Service",
+        "Lodging",
+        "Basic Accommodation"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Not Mentioned"
+      },
+      "food_facility": {
+        "availability": "Not Mentioned",
+        "restaurant": "Not Mentioned",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Budget Travelers",
+        "Senior Citizens"
+      ],
+      "cancellation_policy": "Not Available",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Jogulamba Devi Temple (Behind Temple, 1–2 minutes walk)",
+        "Nava Brahma Temples",
+        "Alampur Bus Stand",
+        "Tungabhadra River"
+      ],
+      "temple_id": "T0006",
+      "hotel_id": "H0112"
+    }
+  ],
+  "temple_id": "T0006",
+  "hotel_id": "H0112"
+}

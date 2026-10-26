@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0104",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Sri+Lakshmi+Udupi+Sree+Darshini+Beechupally+Telangana",
+  "restaurantName": "Sri Lakshmi Udupi Sree Darshini",
+
+  "associatedTemple": {
+    "templeId": "T0020",
+    "templeName": "Beechupally Sri Anjaneya Swamy Temple"
+  },
+
+  "basicInformation": {
+    "category": "Vegetarian Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A vegetarian restaurant located near Beechupally Temple on the NH-44 corridor, serving fresh South Indian breakfast, meals and snacks for pilgrims and highway travellers."
+  },
+
+  "location": {
+    "fullAddress": "NH-44, Beechupally, Jogulamba Gadwal District, Telangana, India",
+    "area": "Beechupally",
+    "city": "Beechupally",
+    "district": "Jogulamba Gadwal",
+    "state": "Telangana",
+    "pincode": "509125",
+    "landmark": "Near Beechupally Sri Anjaneya Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 0.7,
+      "source": "Estimated from verified business location",
+      "confidence": "High"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 9,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average walking speed (4–5 km/h)",
+        "confidence": "High"
+      },
+
+      "bike": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "NH-44 service road",
+        "confidence": "High"
+      },
+
+      "car": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "NH-44 service road",
+        "confidence": "High"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Vada",
+      "Poori"
+    ],
+    "lunch": [
+      "Vegetarian Meals"
+    ],
+    "dinner": [
+      "South Indian Cuisine"
+    ],
+    "snacks": [
+      "Bonda",
+      "Bajji"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+    "specialDishes": [
+      "South Indian Meals",
+      "Masala Dosa"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹80–180",
+    "averageCostForTwo": "₹200–400"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Beechupally Sri Anjaneya Swamy Temple",
+    "busStand": "Beechupally Bus Stop",
+    "railwayStation": "Gadwal Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located near the temple on NH-44.",
+    "Pure vegetarian restaurant.",
+    "Suitable for pilgrims and highway travellers.",
+    "Quick breakfast and meal service.",
+    "Parking available."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "location"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "workingHours",
+      "foodInformation",
+      "priceInformation"
+    ],
+    "unknownFields": [
+      "phoneNumber",
+      "googleRating",
+      "totalReviews",
+      "officialWebsite"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

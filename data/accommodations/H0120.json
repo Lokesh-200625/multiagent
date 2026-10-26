@@ -1,0 +1,85 @@
+{
+  "associated_temple": "Sanghi Temple, Hyderabad",
+  "hotels": [
+    {
+      "hotel_name": "Collection O Sanghi Temple Hyderabad (Formerly Hotel Jhansi)",
+      "hotel_type": "3-Star Hotel",
+      "address": "Plot No. 9-53/4, 8-117, Umarkhanguda, Sanghinagar, Hyderabad, Telangana - 501511, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Collection O Sanghi Temple Hyderabad (Formerly Hotel Jhansi) is a 3-star hotel located close to Sanghi Temple and Ramoji Film City. The hotel offers modern rooms with air conditioning, complimentary Wi-Fi, attached bathrooms, and 24-hour assistance. It is suitable for pilgrims, families, couples, and tourists visiting Sanghi Temple and nearby attractions. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Collection+O+Sanghi+Temple+Hyderabad",
+      "official_website": "https://www.oyorooms.com/323202/",
+      "price_range": "Starting from ₹750–₹1,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Sanghi Nagar Bus Stop – Approximately 500 m",
+        "railway_station": "Ghatkesar Railway Station – Approximately 12 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 35 km"
+      },
+      "booking_links": {
+        "Official": "https://www.oyorooms.com/323202/",
+        "OYO": "https://www.oyorooms.com/323202/",
+        "Goibibo": "https://www.goibibo.com/hotels/spot-on-jhansi-family-restaurants-luxury-rooms-hotel-in-hyderabad-5858946757053274184/",
+        "MakeMyTrip": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.9/5"
+      },
+      "room_types": [
+        "Deluxe Room with Balcony"
+      ],
+      "amenities": [
+        "Air Conditioning",
+        "Free Wi-Fi",
+        "Attached Bathroom",
+        "Television",
+        "24x7 Facility Manager",
+        "24-Hour Front Desk",
+        "Daily Housekeeping"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Not Mentioned",
+        "restaurant": "Not Mentioned",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Budget Travelers",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking plan available on OYO or Goibibo. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sanghi Temple",
+        "Ramoji Film City",
+        "Sanghi Nagar",
+        "Anajpur"
+      ],
+      "temple_id": "T0010",
+      "hotel_id": "H0120"
+    }
+  ],
+  "temple_id": "T0010",
+  "hotel_id": "H0120"
+}

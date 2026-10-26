@@ -1,0 +1,91 @@
+{
+  "associated_temple": "Sri Jogulamba Devi Temple, Alampur",
+  "hotels": [
+    {
+      "hotel_name": "Sai Krishna Residency",
+      "hotel_type": "3-Star Hotel",
+      "address": "Opp. TGV City Square Mall, Bangarpet, River View Colony, Kurnool, Andhra Pradesh - 518004, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Sai Krishna Residency is a 3-star hotel in Kurnool offering comfortable accommodation for pilgrims, families, and business travelers visiting Sri Jogulamba Devi Temple. The hotel provides Standard Non AC, Deluxe AC, and Luxury AC rooms with modern amenities including Wi-Fi, room service, air conditioning, and free parking. It is approximately 23 km from the temple and is listed on both MakeMyTrip and Goibibo with free cancellation on eligible room plans. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Sai+Krishna+Residency+Kurnool",
+      "official_website": "",
+      "price_range": "₹1,264–₹2,400 per night (Approx.)",
+      "check_in_time": "02:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Kurnool Bus Stand – Approximately 1.4 km",
+        "railway_station": "Kurnool City Railway Station – Approximately 1.9 km",
+        "airport": "Uyyalawada Narasimha Reddy Airport – Approximately 23.6 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/sai_krishna_residency-details-kurnool.html",
+        "Goibibo": "https://www.goibibo.com/hotels/sai-krishna-residency-hotel-in-kurnool-3680607279804662109/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "Standard Non AC",
+        "Deluxe AC",
+        "Luxury AC"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Room Service",
+        "Power Backup",
+        "Elevator/Lift",
+        "Housekeeping",
+        "Free Parking",
+        "Laundry Service",
+        "Daily Housekeeping",
+        "Mineral Water",
+        "24-Hour Front Desk"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Not Mentioned"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "Not Mentioned",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Budget Travelers",
+        "Solo Travelers"
+      ],
+      "cancellation_policy": "Free cancellation till 24 hours before check-in is available on eligible room plans. Book @ ₹0 Payment is available on selected bookings. Unmarried couples, local IDs, pets, and outside food are not allowed. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Jogulamba Devi Temple (Approx. 23 km)",
+        "Kurnool Bus Stand",
+        "Kurnool City Railway Station",
+        "TGV City Square Mall",
+        "Medicover Hospitals"
+      ],
+      "temple_id": "T0006",
+      "hotel_id": "H0114"
+    }
+  ],
+  "temple_id": "T0006",
+  "hotel_id": "H0114"
+}

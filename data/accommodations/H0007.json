@@ -1,0 +1,107 @@
+{
+  "associated_temple": "Sri Gnana Saraswati Temple, Basara",
+  "hotels": [
+    {
+      "hotel_name": "Lords Hrim Akshara Resort",
+      "hotel_type": "4-Star Resort",
+      "address": "Near HP Petrol Pump, Survey No. 489, National Highway 161BB, Basar, Telangana - 504101, India",
+      "contact_numbers": [
+        "+91 73777 34777",
+        "+91 70667 20777"
+      ],
+      "email": "gmlharb@lordshotels.com",
+      "about": "Lords Hrim Akshara Resort is a premium 4-star resort located about 2.5 km from Sri Gnana Saraswati Temple, Basara. The resort offers spacious rooms, modern amenities, swimming pool, gym, pure vegetarian restaurant, lounge bar, banquet facilities, indoor games, and landscaped gardens. It is suitable for pilgrims, families, business travelers, destination events, and leisure stays. :contentReference[oaicite:0]{index=0}",
+      "google_map_link": "https://maps.google.com/?q=Lords+Hrim+Akshara+Resort+Basar",
+      "official_website": "https://www.lordshotels.com/resort-hrim-akshara-basar/",
+      "price_range": "₹4,000–₹5,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Basara Bus Stand – Approximately 2 km",
+        "railway_station": "Basar Railway Station – Approximately 2 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 210 km"
+      },
+      "booking_links": {
+        "Official": "https://www.lordshotels.com/resort-hrim-akshara-basar/",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/lords_hrim_akshara_resort-details-bhainsa.html",
+        "Goibibo": "https://www.goibibo.com/hotels/lords-hrim-akshara-resort-hotel-in-bhainsa-4733182971581809784/",
+        "EaseMyTrip": "https://www.easemytrip.com/hotels/lords-hrim-akshara-resort-5687527/"
+      },
+      "ratings": {
+        "platform": "MakeMyTrip",
+        "rating": "3.2/5"
+      },
+      "room_types": [
+        "Deluxe Room",
+        "Premium Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Swimming Pool",
+        "Gym",
+        "Restaurant",
+        "Lounge",
+        "Bar",
+        "Free Parking",
+        "Room Service",
+        "Laundry Service",
+        "Airport Transfer",
+        "Luggage Assistance",
+        "Indoor Games",
+        "Banquet Hall",
+        "Garden",
+        "Balcony",
+        "Tea/Coffee Maker",
+        "Minibar",
+        "Hair Dryer",
+        "Television",
+        "Power Backup",
+        "CCTV Security"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes (8:00 AM – 11:00 PM)",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on selected plans",
+        "food_type": "Pure Vegetarian Restaurant, Multi-Cuisine",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Business Travelers",
+        "Luxury Travelers",
+        "Group Pilgrims",
+        "Wedding Guests"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans before the specified cancellation deadline. Book @ ₹0 Payment is available on selected bookings. Cancellation terms vary depending on the selected room plan and booking platform. :contentReference[oaicite:1]{index=1}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Gnana Saraswati Temple",
+        "Godavari River",
+        "Vyasa Maharshi Cave",
+        "Basar Railway Station",
+        "Basara Bus Stand",
+        "Ali Sagar Dam"
+      ],
+      "temple_id": "T0004",
+      "hotel_id": "H0007"
+    }
+  ],
+  "temple_id": "T0004",
+  "hotel_id": "H0007"
+}

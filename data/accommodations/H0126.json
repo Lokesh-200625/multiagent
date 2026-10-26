@@ -1,0 +1,96 @@
+{
+  "associated_temple": "Sanghi Temple, Hyderabad",
+  "hotels": [
+    {
+      "hotel_name": "Hotel Sitara",
+      "hotel_type": "4-Star Luxury Hotel",
+      "address": "Ramoji Film City, Anaspur Village, Abdullapurmet Mandal, Hyderabad, Telangana - 501512, India",
+      "contact_numbers": [
+        "+91 9392173131"
+      ],
+      "email": "info@ramojifilmcity.com",
+      "about": "Hotel Sitara is the flagship luxury hotel inside Ramoji Film City, located approximately 0.8 km from Sanghi Temple. The hotel offers premium accommodation with elegant rooms, a swimming pool, spa, fitness centre, multiple dining options, banquet facilities, and modern amenities. It is ideal for pilgrims seeking luxury as well as tourists visiting Sanghi Temple and Ramoji Film City.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+Sitara+Ramoji+Film+City",
+      "official_website": "https://www.ramojifilmcity.com/stay/hotel-sitara",
+      "price_range": "₹7,500–₹15,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "10:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Ramoji Film City Bus Stop – Approximately 300 m",
+        "railway_station": "Ghatkesar Railway Station – Approximately 14 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 36 km"
+      },
+      "booking_links": {
+        "Official": "https://www.ramojifilmcity.com/stay/hotel-sitara",
+        "MakeMyTrip": "https://www.makemytrip.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.4/5"
+      },
+      "room_types": [
+        "Deluxe Room",
+        "Executive Room",
+        "Luxury Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Swimming Pool",
+        "Spa",
+        "Fitness Centre",
+        "Restaurant",
+        "Room Service",
+        "Free Parking",
+        "Power Backup",
+        "24-Hour Front Desk",
+        "Laundry Service",
+        "Conference Hall",
+        "Banquet Hall",
+        "Children's Play Area"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Luxury Travelers",
+        "Couples",
+        "Business Travelers",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room plan.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sanghi Temple (Approx. 0.8 km)",
+        "Ramoji Film City",
+        "Eureka Theme Park",
+        "Fundustan",
+        "Movie Magic Park"
+      ],
+      "temple_id": "T0010",
+      "hotel_id": "H0126"
+    }
+  ],
+  "temple_id": "T0010",
+  "hotel_id": "H0126"
+}

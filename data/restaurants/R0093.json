@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0093",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Ambika+Home+Foods+Veg+Restaurant+Temple+Road+T0017rmapuri+Telangana",
+  "restaurantName": "Ambika Home Foods Veg Restaurant",
+
+  "associatedTemple": {
+    "templeId": "T0017",
+    "templeName": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri"
+  },
+
+  "basicInformation": {
+    "category": "Pure Vegetarian Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian",
+      "Home Food"
+    ],
+    "shortDescription": "A vegetarian restaurant located on Temple Road, Dharmapuri, serving home-style vegetarian food suitable for pilgrims visiting Sri Lakshmi Narasimha Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Temple Road, Opposite Municipal Office, Boyawada, Dharmapuri, Jagtial District, Telangana, India",
+    "area": "Boyawada",
+    "city": "Dharmapuri",
+    "district": "Jagtial",
+    "state": "Telangana",
+    "pincode": "505425",
+    "landmark": "Opposite Municipal Office",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+
+    "distanceFromTempleKm": {
+      "value": 0.5,
+      "source": "Estimated based on Temple Road location",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+
+      "walking": {
+        "value": 6,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average walking speed of 4 km/hour",
+        "confidence": "Medium"
+      },
+
+      "bike": {
+        "value": 2,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Local temple road distance",
+        "confidence": "Medium"
+      },
+
+      "car": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Local temple road distance",
+        "confidence": "Medium"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+919014323050",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+
+    "openingTime": "09:00 AM",
+    "closingTime": "09:30 PM",
+
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Tiffins"
+    ],
+
+    "lunch": [
+      "Vegetarian Meals"
+    ],
+
+    "dinner": [
+      "South Indian Food"
+    ],
+
+    "snacks": [
+      "Snacks"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+
+    "specialDishes": [
+      "Home Style Vegetarian Meals"
+    ]
+  },
+
+  "priceInformation": {
+
+    "priceCategory": "Budget",
+
+    "averageCostForOne": "₹80–200",
+
+    "averageCostForTwo": "₹200–400"
+  },
+
+  "facilities": {
+
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+
+    "googleRating": 4.5,
+    "totalReviews": 12
+  },
+
+  "nearbyPlaces": {
+
+    "temple": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "busStand": "Dharmapuri Bus Stand",
+    "railwayStation": "Jagtial Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Pure vegetarian option near temple area.",
+    "Suitable for elderly pilgrims and families.",
+    "Located on Temple Road.",
+    "Budget-friendly home-style food."
+  ],
+
+  "dataReliability": {
+
+    "verifiedFields": [
+      "restaurantName",
+      "location",
+      "phoneNumber",
+      "rating",
+      "reviewCount"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "priceInformation",
+      "menuDetails"
+    ],
+
+    "unknownFields": [
+      "officialWebsite",
+      "parkingAvailability"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

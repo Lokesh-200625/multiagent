@@ -1,0 +1,83 @@
+{
+  "associated_temple": "Sri Edupayala Vana Durga Bhavani Temple",
+  "hotels": [
+    {
+      "hotel_name": "KSR Guest House",
+      "hotel_type": "Private Guest House",
+      "address": "Near Edupayala Temple Road, Nagsanpally Village, Papannapet Mandal, Medak District, Telangana - 502331, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "KSR Guest House is a private budget accommodation located approximately 2–3 km from Sri Edupayala Vana Durga Bhavani Temple. The guest house offers clean and comfortable rooms for pilgrims and families visiting the temple. It is one of the nearest private stay options after the temple guest houses and is generally available through direct/offline booking.",
+      "google_map_link": "https://maps.google.com/?q=KSR+Guest+House+Edupayala",
+      "official_website": "",
+      "price_range": "₹800–₹1,800 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Edupayala Bus Stop – Approximately 2 km",
+        "railway_station": "Kamareddy Railway Station – Approximately 43 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 116 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Direct Booking": "Offline / Phone Booking",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.2/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Deluxe Room",
+        "Family Room"
+      ],
+      "amenities": [
+        "Family Rooms",
+        "Attached Bathroom",
+        "Parking",
+        "24-Hour Water",
+        "Hot Water Facility",
+        "Power Backup",
+        "Housekeeping"
+      ],
+      "facilities_summary": {
+        "room_service": "Limited",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Nearby",
+        "restaurant": "Nearby Local Restaurants",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Available Nearby",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Budget Travelers",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the property owner and booking method.",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Edupayala Vana Durga Bhavani Temple (Approx. 2–3 km)",
+        "Edupayala River Confluence",
+        "Temple Entrance",
+        "Nagsanpally Village"
+      ],
+      "temple_id": "T0016",
+      "hotel_id": "H0043"
+    }
+  ],
+  "temple_id": "T0016",
+  "hotel_id": "H0043"
+}

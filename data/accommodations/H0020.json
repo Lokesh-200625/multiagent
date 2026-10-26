@@ -1,0 +1,94 @@
+{
+  "associated_temple": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam",
+  "hotels": [
+    {
+      "hotel_name": "Varnika Residency",
+      "hotel_type": "Hotel / Residency",
+      "address": "7-1-45/1, Opposite Bhadram Hotel, Thathagudi Center, Market Road, Bhadrachalam, Bhadradri Kothagudem, Telangana - 507111, India.",
+      "contact_numbers": [
+        "+91 9440028057"
+      ],
+      "email": "",
+      "about": "Varnika Residency is a budget-friendly hotel located near Sri Sita Ramachandra Swamy Temple in Bhadrachalam. The hotel offers comfortable AC and Non-AC rooms with modern amenities including Wi-Fi, elevator, parking, power backup, and room service. Due to its convenient location near the temple and market area, it is a suitable accommodation option for pilgrims, families, and budget travelers.",
+      "google_map_link": "https://maps.app.goo.gl/ (Search: Varnika Residency, Bhadrachalam)",
+      "official_website": "",
+      "price_range": "₹1,000–₹2,200 per night (Approx.)",
+      "check_in_time": "06:00 AM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Bhadrachalam Bus Stand – Approximately 1 km",
+        "railway_station": "Aswapuram Railway Station – Approximately 26.6 km",
+        "airport": "Rajahmundry Airport – Approximately 180 km"
+      },
+      "booking_links": {
+        "Goibibo": "https://www.goibibo.com/hotels/varnika-residency-hotel-in-bhadrachalam-8091223175957132446/",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/varnika_residency-details-bhadrachalam.html"
+      },
+      "ratings": {
+        "platform": "MakeMyTrip",
+        "rating": "3.9/5"
+      },
+      "room_types": [
+        "Budget Double Room",
+        "Deluxe AC Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Parking",
+        "Elevator / Lift",
+        "Power Backup",
+        "Air Conditioning",
+        "Room Service",
+        "Housekeeping",
+        "Newspaper",
+        "Caretaker",
+        "CCTV Security",
+        "Fire Extinguishers",
+        "Toiletries",
+        "Mineral Water",
+        "Work Desk"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Not Specifically Mentioned",
+        "hot_water_facility": "Yes (Hot & Cold Water Available)"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "Not Mentioned",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Families",
+        "Couples",
+        "Pilgrims",
+        "Senior Citizens",
+        "Budget Travelers",
+        "Solo Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans up to check-in time, depending on the selected booking option. Book @ ₹0 payment is available on selected room plans.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Sita Ramachandra Swamy Temple – Approximately 500–700 m",
+        "Abhaya Anjaneya Swamy Temple",
+        "Amba Satram Temple",
+        "Bhadram Hotel",
+        "Bhadrachalam Bus Stand – Approximately 1 km"
+      ],
+      "temple_id": "T0002",
+      "hotel_id": "H0020"
+    }
+  ],
+  "temple_id": "T0002",
+  "hotel_id": "H0020"
+}

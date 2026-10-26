@@ -1,0 +1,104 @@
+{
+  "associated_temple": "Birla Mandir, Hyderabad",
+  "hotels": [
+    {
+      "hotel_name": "Taj Deccan, Hyderabad",
+      "hotel_type": "5-Star Luxury Hotel",
+      "address": "Road No. 1, Banjara Hills, Hyderabad, Telangana - 500034, India",
+      "contact_numbers": [
+        "+91 40 66663939"
+      ],
+      "email": "deccan.hyderabad@tajhotels.com",
+      "about": "Taj Deccan is a luxury 5-star hotel located approximately 4.4 km from Birla Mandir. Situated in the heart of Banjara Hills, the hotel offers elegant accommodation, award-winning restaurants, an outdoor swimming pool, a wellness spa, fitness centre, business facilities, and premium hospitality. It is an ideal choice for pilgrims seeking luxury, families, corporate travelers, and international tourists visiting Hyderabad.",
+      "google_map_link": "https://maps.google.com/?q=Taj+Deccan+Hyderabad",
+      "official_website": "https://www.tajhotels.com/",
+      "price_range": "₹9,000–₹18,000 per night (Approx.)",
+      "check_in_time": "02:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Banjara Hills Road No.1 Bus Stop – Approximately 350 m",
+        "railway_station": "Hyderabad Deccan (Nampally) Railway Station – Approximately 5 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 30 km"
+      },
+      "booking_links": {
+        "Official": "https://www.tajhotels.com/",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/taj_deccan-details-hyderabad.html",
+        "Goibibo": "https://www.goibibo.com/hotels/taj-deccan-hotel-in-hyderabad/",
+        "Booking.com": "https://www.booking.com/"
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.7/5"
+      },
+      "room_types": [
+        "Superior Room",
+        "Luxury Room",
+        "Taj Club Room",
+        "Executive Suite",
+        "Luxury Suite",
+        "Presidential Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Outdoor Swimming Pool",
+        "Spa",
+        "Fitness Centre",
+        "Multiple Restaurants",
+        "Bar",
+        "Room Service",
+        "Valet Parking",
+        "Free Parking",
+        "Business Centre",
+        "Conference Hall",
+        "Banquet Hall",
+        "Laundry Service",
+        "24-Hour Front Desk",
+        "Power Backup",
+        "Concierge Service"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Luxury Travelers",
+        "Business Travelers",
+        "Corporate Guests",
+        "International Tourists",
+        "Couples"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Cancellation policies vary depending on the selected booking platform and room category.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Birla Mandir (Approx. 4.4 km)",
+        "GVK One Mall",
+        "Banjara Hills",
+        "Lumbini Park",
+        "Hussain Sagar Lake",
+        "Necklace Road"
+      ],
+      "temple_id": "T0009",
+      "hotel_id": "H0037"
+    }
+  ],
+  "temple_id": "T0009",
+  "hotel_id": "H0037"
+}

@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0019",
+  "temple_name": "Manyamkonda Lakshmi Venkateswara Swamy Temple",
+  "location": {
+    "district": "Mahabubnagar",
+    "state": "Telangana",
+    "latitude": 16.7432,
+    "longitude": 77.8896
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Government Community Health Centre, Manyamkonda",
+        "type": "Government Hospital",
+        "address": "Manyamkonda, Mahabubnagar District, Telangana 509001",
+        "latitude": 16.7418,
+        "longitude": 77.8912,
+        "distance_from_temple_km": 1.1,
+        "estimated_travel_time": "4 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Community+Health+Centre+Manyamkonda/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Government General Hospital, Mahabubnagar",
+        "type": "Government Hospital",
+        "address": "Mahabubnagar, Telangana 509001",
+        "latitude": 16.7488,
+        "longitude": 77.9863,
+        "distance_from_temple_km": 9.8,
+        "estimated_travel_time": "18 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+General+Hospital+Mahabubnagar/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": true,
+        "icu_available": true,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Manyamkonda Police Station",
+        "type": "Police Station",
+        "address": "Manyamkonda, Mahabubnagar District, Telangana 509001",
+        "latitude": 16.7425,
+        "longitude": 77.8904,
+        "distance_from_temple": 0.8,
+        "travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Manyamkonda+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Manyamkonda",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Mahabubnagar",
+        "address": "Mahabubnagar, Telangana 509001",
+        "coordinates": {
+          "latitude": 16.7479,
+          "longitude": 77.9872
+        },
+        "distance_from_temple": 10.0,
+        "travel_time": "18 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Mahabubnagar/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Sri Venkateswara Medical & General Stores",
+        "address": "Manyamkonda Road, Mahabubnagar, Telangana 509001",
+        "distance": 1.0,
+        "coordinates": {
+          "latitude": 16.7421,
+          "longitude": 77.8908
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Venkateswara+Medical+Store+Manyamkonda/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 9:30 PM",
+        "24x7": false,
+        "home_delivery": false,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Mahabubnagar Main Road, Telangana 509001",
+        "distance": 9.9,
+        "coordinates": {
+          "latitude": 16.7483,
+          "longitude": 77.9868
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Mahabubnagar/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

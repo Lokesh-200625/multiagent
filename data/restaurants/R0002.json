@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0002",
+  "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Varevva+Restaurant+Yadagirigutta+Telangana",
+  "restaurantName": "Varevva Restaurant",
+
+  "associatedTemple": {
+    "templeId": "T0001",
+    "templeName": "Sri Lakshmi Narasimha Swamy Temple, Yadadri"
+  },
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "Telangana",
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A family restaurant near Yadagirigutta serving Telangana-style food along with South Indian, North Indian and Chinese cuisine."
+  },
+
+  "location": {
+    "fullAddress": "Yadagirigutta, Yadadri Bhuvanagiri District, Telangana 508115, India",
+    "area": "Yadagirigutta",
+    "city": "Yadagirigutta",
+    "district": "Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "pincode": "508115",
+    "landmark": "Near Yadadri Temple route",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 2.8,
+      "source": "Estimated from verified business and temple locations",
+      "confidence": "High"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 35,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 8,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 7,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": 10,
+        "unit": "minutes",
+        "type": "Estimated"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "11:00 AM",
+    "closingTime": "01:00 AM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+
+    "lunch": [
+      "Veg Meals",
+      "Non-Veg Meals",
+      "Rice Items"
+    ],
+
+    "dinner": [
+      "Biryani",
+      "Curries",
+      "Fried Rice",
+      "Chinese Items"
+    ],
+
+    "snacks": [
+      "Fast Food Items"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks"
+    ],
+
+    "specialDishes": [
+      "Chicken Biryani",
+      "Telangana Style Meals"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹200–400",
+    "averageCostForTwo": "₹400–800"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 3.9,
+    "totalReviews": 404
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+    "busStand": "Yadagirigutta Bus Stand",
+    "railwayStation": "Raigir Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Popular family restaurant.",
+    "Serves Telangana cuisine.",
+    "Suitable for pilgrims and families.",
+    "Good dinner option due to late closing time.",
+    "Parking facility available."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "googleRating",
+      "totalReviews",
+      "location"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation",
+      "priceInformation"
+    ],
+
+    "unknownFields": [
+      "phoneNumber",
+      "officialWebsite",
+      "googleBusinessProfile"
+    ]
+  }
+}

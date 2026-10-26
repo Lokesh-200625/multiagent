@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0085",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Mallikarjuna+Hotel+Komuravelli+Telangana",
+  "restaurantName": "Mallikarjuna Hotel",
+
+  "associatedTemple": {
+    "templeId": "T0015",
+    "templeName": "Komuravelli Mallanna Temple"
+  },
+
+  "basicInformation": {
+    "category": "Local Food Court",
+    "cuisineType": [
+      "South Indian",
+      "Indian"
+    ],
+    "shortDescription": "A local food outlet located on Main Road, Komuravelli, serving food options for pilgrims visiting Komuravelli Mallanna Temple."
+  },
+
+  "location": {
+    "fullAddress": "5-85, Main Road, Komuravelle, Siddipet District, Telangana, India",
+    "area": "Main Road",
+    "city": "Komuravelli",
+    "district": "Siddipet",
+    "state": "Telangana",
+    "pincode": "506355",
+    "landmark": "Near Komuravelli Mallanna Temple Area",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+
+    "distanceFromTempleKm": {
+      "value": 0.6,
+      "source": "Calculated estimate based on Main Road locality",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+
+      "walking": {
+        "value": 8,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average walking speed of 4 km/hour",
+        "confidence": "Medium"
+      },
+
+      "bike": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Short village road distance",
+        "confidence": "Medium"
+      },
+
+      "car": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Short village road distance",
+        "confidence": "Medium"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+919502443461",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+
+    "breakfast": [
+      "Tiffins"
+    ],
+
+    "lunch": [
+      "Meals"
+    ],
+
+    "dinner": [],
+
+    "snacks": [
+      "Snacks"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": null,
+    "averageCostForOne": null,
+    "averageCostForTwo": null,
+    "source": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": null,
+    "parking": null,
+    "familySeating": null,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": null,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 5.0,
+    "totalReviews": 1
+  },
+
+  "nearbyPlaces": {
+    "temple": "Komuravelli Mallanna Temple",
+    "busStand": "Komuravelli Bus Stop",
+    "railwayStation": "Cheriyal Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located on Main Road, Komuravelli.",
+    "Suitable for pilgrims looking for local food options.",
+    "Convenient stop near the temple village area."
+  ],
+
+  "dataReliability": {
+
+    "verifiedFields": [
+      "restaurantName",
+      "location",
+      "phoneNumber",
+      "existence",
+      "customerRating"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime.walking",
+      "travelTime.bike",
+      "travelTime.car"
+    ],
+
+    "unknownFields": [
+      "priceInformation",
+      "workingHours",
+      "facilities",
+      "menuDetails"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile / Local Listings",
+      "url": null
+    }
+  ]
+}

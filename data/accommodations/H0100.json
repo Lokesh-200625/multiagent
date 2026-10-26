@@ -1,0 +1,91 @@
+{
+  "associated_temple": "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+  "hotels": [
+    {
+      "hotel_name": "Mani Residency & AC Convention Hall",
+      "hotel_type": "Hotel / Convention Hall",
+      "address": "HWMP+654, Patagutta Road, Yadagiripally, Yadagirigutta, Telangana - 508115, India",
+      "contact_numbers": [
+        "+91 9989131401"
+      ],
+      "email": "",
+      "about": "Mani Residency & AC Convention Hall is a 4-star hotel located near Sri Lakshmi Narasimha Swamy Temple, Yadadri. The property offers air-conditioned rooms with balconies, a convention hall, private parking, fitness centre, swimming pool, spa, sauna, and children's play area. It is suitable for pilgrims, families, and guests attending events or functions.",
+      "google_map_link": "https://maps.google.com/?q=Mani+Residency+%26+AC+Convention+Hall+Yadagirigutta",
+      "official_website": "",
+      "price_range": "₹1,500–₹2,500 per night (Approx.)",
+      "check_in_time": "12:00 AM – 11:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Yadadri Bus Stand – Approximately 2 km",
+        "railway_station": "Raigir Railway Station – Approximately 4 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 81 km"
+      },
+      "booking_links": {
+        "Booking.com": "https://www.booking.com/hotel/in/mani-residency-and-ac-convention-hall.html",
+        "Google Hotels": "https://www.google.com/travel/hotels/entity/CgoI5qnFy6yElYodEAE",
+        "Tripadvisor": "https://www.tripadvisor.in/Hotel_Review-g12432350-d34229169-Reviews-Mani_Residency_and_AC_Convention_hall-Yadagirigutta_Yadadri_Bhuvanagiri_District_Te.html"
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "3.9/5"
+      },
+      "room_types": [
+        "Single Room"
+      ],
+      "amenities": [
+        "Free Parking",
+        "Air Conditioning",
+        "Private Bathroom",
+        "Balcony",
+        "Mountain View",
+        "Flat Screen TV",
+        "Work Desk",
+        "Fitness Centre",
+        "Swimming Pool",
+        "Spa",
+        "Sauna",
+        "Children's Play Area",
+        "Convention Hall"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Not Mentioned",
+        "restaurant": "Not Mentioned",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Business Travelers",
+        "Event Guests",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Free cancellation available on eligible room plans before the specified cancellation deadline. No prepayment required on selected bookings.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card"
+      ],
+      "nearby_landmarks": [
+        "Sri Lakshmi Narasimha Swamy Temple – Approximately 1.8 km",
+        "Surendrapuri – Approximately 3.6 km",
+        "Yadadri Bus Stand",
+        "Raigir Railway Station"
+      ],
+      "temple_id": "T0001",
+      "hotel_id": "H0100"
+    }
+  ],
+  "temple_id": "T0001",
+  "hotel_id": "H0100"
+}

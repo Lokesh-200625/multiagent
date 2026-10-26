@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0077",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Haritha+Restaurant+Ramappa+Temple+Palampet+Telangana",
+  "restaurantName": "Haritha Restaurant",
+
+  "associatedTemple": {
+    "templeId": "T0014",
+    "templeName": "Ramappa Temple"
+  },
+
+  "basicInformation": {
+    "category": "Tourist Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A Telangana Tourism Haritha restaurant facility serving visitors and pilgrims near Ramappa Temple, Palampet."
+  },
+
+  "location": {
+    "fullAddress": "Haritha Restaurant, Palampet, Mulugu District, Telangana, India",
+    "area": "Ramappa Temple Tourist Area",
+    "city": "Palampet",
+    "district": "Mulugu",
+    "state": "Telangana",
+    "pincode": null,
+    "landmark": "Near Ramappa Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+
+    "distanceFromTempleKm": {
+      "value": 2.3,
+      "source": "Location reference / Map verification",
+      "confidence": "High"
+    },
+
+    "travelTime": {
+
+      "walking": {
+        "value": 35,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average walking speed of 4 km/hour",
+        "confidence": "Medium"
+      },
+
+      "bike": {
+        "value": 5,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average rural road speed of 25-30 km/hour",
+        "confidence": "Medium"
+      },
+
+      "car": {
+        "value": 6,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average rural road speed of 25-30 km/hour",
+        "confidence": "Medium"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": "https://tourism.telangana.gov.in/",
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": null,
+    "averageCostForOne": null,
+    "averageCostForTwo": null,
+    "source": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": null,
+    "parking": null,
+    "familySeating": null,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": null,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Ramappa Temple",
+    "busStand": "Palampet Bus Stop",
+    "railwayStation": "Warangal Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Operated under Telangana Tourism facilities.",
+    "Suitable for pilgrims visiting Ramappa Temple.",
+    "Located in the Ramappa heritage tourism zone.",
+    "Preferred option for visitors due to tourism infrastructure."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "associatedTemple",
+      "location",
+      "tourismAssociation"
+    ],
+
+    "estimatedFields": [
+      "travelTime.walking",
+      "travelTime.bike",
+      "travelTime.car"
+    ],
+
+    "unknownFields": [
+      "priceInformation",
+      "workingHours",
+      "contactInformation",
+      "facilities",
+      "customerRatings"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Telangana Tourism",
+      "url": "https://tourism.telangana.gov.in/"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+ {
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0095",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Annapurna+Mess+Home+Food+T0017rmapuri+Telangana",
+  "restaurantName": "Annapurna Mess Home Food Available Here",
+
+  "associatedTemple": {
+    "templeId": "T0017",
+    "templeName": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri"
+  },
+
+  "basicInformation": {
+    "category": "Mess / Home Food Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian",
+      "Home Food"
+    ],
+    "shortDescription": "A local home-food mess in Dharmapuri Camp serving simple South Indian meals suitable for pilgrims looking for budget-friendly food."
+  },
+
+  "location": {
+    "fullAddress": "W3WQ+94J, Dharmapuri Camp, Dharmapuri, Jagtial District, Telangana, India",
+    "area": "Dharmapuri Camp",
+    "city": "Dharmapuri",
+    "district": "Jagtial",
+    "state": "Telangana",
+    "pincode": "505425",
+    "landmark": "Dharmapuri Camp Area",
+    "plusCode": "W3WQ+94J",
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+
+    "distanceFromTempleKm": {
+      "value": 1.9,
+      "source": "Local listing distance information",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+
+      "walking": {
+        "value": 25,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Average walking speed",
+        "confidence": "Medium"
+      },
+
+      "bike": {
+        "value": 6,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Dharmapuri town roads",
+        "confidence": "Medium"
+      },
+
+      "car": {
+        "value": 7,
+        "unit": "Estimated",
+        "calculationBasis": "Dharmapuri town roads",
+        "confidence": "Medium"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+919640409611",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+
+    "openingTime": "08:00 AM",
+    "closingTime": "05:00 PM",
+
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+
+    "breakfast": [
+      "Tiffins"
+    ],
+
+    "lunch": [
+      "Meals",
+      "Home Food"
+    ],
+
+    "dinner": [],
+
+    "snacks": [],
+
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+
+    "specialDishes": [
+      "Home Style Meals"
+    ]
+  },
+
+  "priceInformation": {
+
+    "priceCategory": "Budget",
+
+    "averageCostForOne": "₹80–150",
+
+    "averageCostForTwo": "₹150–300"
+  },
+
+  "facilities": {
+
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": false,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+
+    "googleRating": 3.7,
+
+    "totalReviews": 22
+  },
+
+  "nearbyPlaces": {
+
+    "temple": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+
+    "busStand": "Dharmapuri Bus Stand",
+
+    "railwayStation": "Jagtial Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Budget-friendly home food option.",
+    "Suitable for pilgrims wanting simple meals.",
+    "Takeaway facility available.",
+    "Located within Dharmapuri town limits."
+  ],
+
+  "dataReliability": {
+
+    "verifiedFields": [
+      "restaurantName",
+      "location",
+      "phoneNumber",
+      "rating",
+      "reviewCount",
+      "workingHours"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "priceInformation"
+    ],
+
+    "unknownFields": [
+      "exactMenuDetails",
+      "parkingAvailability"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile / Local Listings",
+      "url": null
+    }
+  ]
+}

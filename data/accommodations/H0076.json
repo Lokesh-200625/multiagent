@@ -1,0 +1,87 @@
+{
+  "associated_temple": "Sri Ramappa (Rudreshwara) Temple",
+  "hotels": [
+    {
+      "hotel_name": "Hotel O RKS Grand",
+      "hotel_type": "3-Star Hotel",
+      "address": "Mulugu Main Road, Mulugu, Mulugu District, Telangana - 506343, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Hotel O RKS Grand is a budget-friendly hotel located approximately 13 km from Sri Ramappa (Rudreshwara) Temple. Situated in Mulugu town, the hotel offers comfortable accommodation with modern amenities and convenient access to Ramappa Temple, Laknavaram Lake, and other tourist attractions. It is suitable for pilgrims, families, business travelers, and tourists exploring Mulugu district.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+O+RKS+Grand+Mulugu",
+      "official_website": "https://www.oyorooms.com/",
+      "price_range": "₹1,200–₹2,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Mulugu Bus Station – Approximately 500 m",
+        "railway_station": "Warangal Railway Station – Approximately 48 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 205 km"
+      },
+      "booking_links": {
+        "Official": "https://www.oyorooms.com/",
+        "OYO": "https://www.oyorooms.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "MakeMyTrip": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "Classic Room",
+        "Deluxe Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Television",
+        "Room Service",
+        "24-Hour Front Desk",
+        "Housekeeping",
+        "Power Backup",
+        "Free Parking"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Yes",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Budget Travelers",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room category.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Ramappa (Rudreshwara) Temple (Approx. 13 km)",
+        "Mulugu Bus Station",
+        "Laknavaram Lake",
+        "Eturnagaram Wildlife Sanctuary"
+      ],
+      "temple_id": "T0014",
+      "hotel_id": "H0076"
+    }
+  ],
+  "temple_id": "T0014",
+  "hotel_id": "H0076"
+}

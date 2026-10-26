@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0019",
+ "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=TFC+Tasty+Food+Court+Vemulawada+Telangana",
+      
+      "restaurantName": "T F C (Tasty Food Court)",
+
+  "associatedTemple": {
+    "templeId": "T0003",
+    "templeName": "Sri Raja Rajeshwara Swamy Temple, Vemulawada"
+  },
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Fast Food",
+      "Chinese",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A casual family restaurant serving South Indian meals, Chinese dishes, fast food, and biryani near Sri Raja Rajeshwara Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Vemulawada, Telangana, India",
+    "area": "Temple Area",
+    "city": "Vemulawada",
+    "district": "Rajanna Sircilla",
+    "state": "Telangana",
+    "pincode": "505302",
+    "landmark": "Near Sri Raja Rajeshwara Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.6,
+    "walkingTimeMinutes": 8,
+    "bikeTimeMinutes": 3,
+    "carTimeMinutes": 3,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Poori"
+    ],
+    "lunch": [
+      "Veg Meals",
+      "Chicken Biryani",
+      "Fried Rice"
+    ],
+    "dinner": [
+      "Biryani",
+      "Noodles",
+      "Manchurian"
+    ],
+    "snacks": [
+      "French Fries",
+      "Spring Rolls"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks"
+    ],
+    "specialDishes": [
+      "Chicken Biryani",
+      "Fried Rice",
+      "Noodles"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹150–300",
+    "averageCostForTwo": "₹350–600"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Raja Rajeshwara Swamy Temple",
+    "busStand": "Vemulawada Bus Station",
+    "railwayStation": "Kamareddi Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Family-friendly restaurant.",
+    "South Indian and Chinese cuisine.",
+    "Vegetarian and non-vegetarian dishes.",
+    "Good option for lunch and dinner.",
+    "Located close to the temple."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Restaurant Guru",
+      "url": "https://restaurant-guru.in/vegetarian-Vemulawada-c93"
+    }
+  ]
+}

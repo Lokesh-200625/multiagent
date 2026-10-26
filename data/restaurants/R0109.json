@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0109",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Samakka+Sarakka+Fast+Food+Medaram+Telangana",
+  "restaurantName": "Samakka Sarakka Fast Food",
+
+  "associatedTemple": {
+    "templeId": "T0021",
+    "templeName": "Medaram (Sri Sammakka Saralamma Temple)"
+  },
+
+  "basicInformation": {
+    "category": "Fast Food Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Fast Food",
+      "Vegetarian"
+    ],
+    "shortDescription": "A fast food restaurant located close to Sri Sammakka Saralamma Temple, serving breakfast, tiffins and quick vegetarian snacks for pilgrims."
+  },
+
+  "location": {
+    "fullAddress": "1-21, Medaram, Telangana 506347, India",
+    "area": "Temple Road",
+    "city": "Medaram",
+    "district": "Mulugu",
+    "state": "Telangana",
+    "pincode": "506347",
+    "landmark": "Near Sri Sammakka Saralamma Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 0.25,
+      "source": "Estimated from verified Google Business location",
+      "confidence": "High"
+    },
+    "travelTime": {
+      "walking": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 1,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 1,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+919515399867",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Vada",
+      "Poori"
+    ],
+    "lunch": [
+      "Vegetarian Meals"
+    ],
+    "dinner": [
+      "South Indian Meals"
+    ],
+    "snacks": [
+      "Bajji",
+      "Bonda"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ],
+    "specialDishes": [
+      "Masala Dosa",
+      "Mini Meals"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹80–150",
+    "averageCostForTwo": "₹180–300"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": 4.6,
+    "totalReviews": 7
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Sammakka Saralamma Temple",
+    "busStand": "Medaram Bus Stand",
+    "railwayStation": "Warangal Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located very close to the temple.",
+    "Quick fast-food service.",
+    "Budget-friendly.",
+    "Suitable for pilgrims.",
+    "Takeaway available."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "address",
+      "phoneNumber",
+      "googleRating",
+      "totalReviews"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation",
+      "priceInformation"
+    ],
+    "unknownFields": [
+      "officialWebsite",
+      "googleBusinessProfile",
+      "workingHours"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

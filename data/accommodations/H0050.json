@@ -1,0 +1,97 @@
+{
+  "associated_temple": "Sri Keesaragutta Ramalingeswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Leonia Holistic Destination",
+      "hotel_type": "5-Star Resort",
+      "address": "Bommaraspet, Shamirpet, Hyderabad, Telangana - 500078, India",
+      "contact_numbers": [
+        "+91 40 66400000"
+      ],
+      "email": "stay@leonia.in",
+      "about": "Leonia Holistic Destination is a luxury 5-star integrated resort located approximately 10.7 km from Sri Keesaragutta Ramalingeswara Swamy Temple. Spread across landscaped grounds, the resort features multiple hotels, themed suites, restaurants, spa & wellness facilities, swimming pools, conference venues, and recreational activities. It is suitable for pilgrims seeking premium accommodation as well as families, business travelers, and leisure tourists. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Leonia+Holistic+Destination+Shamirpet",
+      "official_website": "https://leonia.in/",
+      "price_range": "₹5,000–₹15,000 per night (Approx.)",
+      "check_in_time": "02:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Shamirpet Bus Stop – Approximately 3 km",
+        "railway_station": "Secunderabad Junction – Approximately 24 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 60 km"
+      },
+      "booking_links": {
+        "Official": "https://leonia.in/",
+        "MakeMyTrip": "https://www.makemytrip.com/",
+        "Goibibo": "https://www.goibibo.com/",
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "Celestia Suites",
+        "Lagoon Bay",
+        "Oh Biz Premier",
+        "Oh Biz Executive",
+        "Luxury Suites"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Outdoor Swimming Pool",
+        "Spa & Wellness Centre",
+        "Fitness Centre",
+        "Multiple Restaurants",
+        "Bar",
+        "Room Service",
+        "Free Parking",
+        "Conference Hall",
+        "Banquet Hall",
+        "Laundry Service",
+        "24-Hour Front Desk",
+        "Airport Shuttle"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Complimentary",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Luxury Travelers",
+        "Business Travelers",
+        "Couples",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy varies depending on the selected booking platform and room plan.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Keesaragutta Ramalingeswara Swamy Temple (Approx. 10.7 km)",
+        "Shamirpet Lake",
+        "Leonia Adventure Park",
+        "Genome Valley"
+      ],
+      "temple_id": "T0011",
+      "hotel_id": "H0050"
+    }
+  ],
+  "temple_id": "T0011",
+  "hotel_id": "H0050"
+}

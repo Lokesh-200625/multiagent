@@ -1,0 +1,96 @@
+{
+  "associated_temple": "Surendrapuri (Kunda Satyanarayana Kaladham)",
+  "hotels": [
+    {
+      "hotel_name": "Hotel Sannidhi Emerald",
+      "hotel_type": "Luxury Hotel",
+      "address": "2-63/6, Old Gundlapally, Yadagirigutta, Telangana - 508115, India",
+      "contact_numbers": [
+        "+91 91000 39525",
+        "+91 91000 39530",
+        "+91 91000 39535"
+      ],
+      "email": "hotelsannidhiemerald@gmail.com",
+      "about": "Hotel Sannidhi Emerald is a premium luxury hotel located near Surendrapuri and Yadadri Temple. The hotel offers a peaceful environment, modern rooms, high-speed Wi-Fi, in-house vegetarian and multi-cuisine restaurants, ample parking, and banquet facilities. It is one of the closest premium accommodations for pilgrims visiting Surendrapuri and Swarnagiri. :contentReference[oaicite:3]{index=3}",
+      "google_map_link": "https://maps.google.com/?q=Hotel+Sannidhi+Emerald+Yadagirigutta",
+      "official_website": "https://sannidhiemerald.com/",
+      "price_range": "₹2,500–₹4,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Yadagirigutta Bus Stand – Approximately 1 km",
+        "railway_station": "Raigir Railway Station – Approximately 4 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 75 km"
+      },
+      "booking_links": {
+        "Official": "https://sannidhiemerald.com/",
+        "Google Hotels": "https://www.google.com/travel/hotels/entity/ChoIxY334K2dyYHdARoNL2cvMTFjbHljdDRycxAB",
+        "Booking.com": "https://www.booking.com/hotel/in/sannidhi-emerald.html",
+        "MakeMyTrip": null,
+        "Goibibo": null
+      },
+      "ratings": {
+        "platform": "Booking.com",
+        "rating": "8.5/10"
+      },
+      "room_types": [
+        "Privilege Room",
+        "A/C Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Restaurant",
+        "Multi-Cuisine Restaurant",
+        "Pure Vegetarian Restaurant",
+        "24-Hour Front Desk",
+        "Room Service",
+        "Parking",
+        "Banquet Hall",
+        "Conference Facilities",
+        "Family Rooms",
+        "Power Backup",
+        "High-Speed Internet"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available",
+        "food_type": "Vegetarian and Multi-Cuisine",
+        "outside_food": "Not Specified"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Couples",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform or direct booking with the hotel. :contentReference[oaicite:4]{index=4}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Surendrapuri Mythological Theme Park (Walking Distance)",
+        "Yadadri Sri Lakshmi Narasimha Swamy Temple",
+        "Swarnagiri Sri Venkateswara Swamy Temple",
+        "Raigir Railway Station"
+      ],
+      "temple_id": "T0022",
+      "hotel_id": "H0080"
+    }
+  ],
+  "temple_id": "T0022",
+  "hotel_id": "H0080"
+}

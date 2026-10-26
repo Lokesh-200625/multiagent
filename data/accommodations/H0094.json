@@ -1,0 +1,90 @@
+{
+  "associated_temple": "Sri Thousand Pillar Temple, Hanamkonda",
+  "hotels": [
+    {
+      "hotel_name": "FabHotel Lake View Castle",
+      "hotel_type": "3-Star Hotel",
+      "address": "H.No. 23-6-131/2/1, Sayampet, Shyampet, Hanamkonda, Telangana - 506001, India",
+      "contact_numbers": [
+        "+91 11246907102"
+      ],
+      "email": "",
+      "about": "FabHotel Lake View Castle is a modern 3-star hotel located approximately 2.8 km from Sri Thousand Pillar Temple. The hotel provides comfortable air-conditioned rooms with complimentary Wi-Fi, room service, parking, and modern amenities. It is a preferred stay for pilgrims, families, business travelers, and tourists visiting the historical attractions of Warangal.",
+      "google_map_link": "https://maps.google.com/?q=FabHotel+Lake+View+Castle+Hanamkonda",
+      "official_website": "https://www.fabhotels.com/",
+      "price_range": "₹1,400–₹3,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Hanamkonda New Bus Stand – Approximately 2 km",
+        "railway_station": "Warangal Railway Station – Approximately 4 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 165 km"
+      },
+      "booking_links": {
+        "Official": "https://www.fabhotels.com/",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/fabhotel_lake_view_castle-details-warangal.html",
+        "Goibibo": "https://www.goibibo.com/hotels/fabhotel-lake-view-castle-hotel-in-warangal-5000838592667353368/",
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "2.7/5"
+      },
+      "room_types": [
+        "Deluxe Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Room Service",
+        "Free Parking",
+        "Power Backup",
+        "Elevator",
+        "Housekeeping",
+        "24-Hour Front Desk",
+        "Laundry Service",
+        "Doctor on Call"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Yes",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Couples",
+        "Tourists"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Cancellation policies vary depending on the selected booking platform and tariff.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Thousand Pillar Temple (Approx. 2.8 km)",
+        "Bhadrakali Temple",
+        "Warangal Fort",
+        "Hanamkonda New Bus Stand",
+        "Warangal Railway Station"
+      ],
+      "temple_id": "T0013",
+      "hotel_id": "H0094"
+    }
+  ],
+  "temple_id": "T0013",
+  "hotel_id": "H0094"
+}

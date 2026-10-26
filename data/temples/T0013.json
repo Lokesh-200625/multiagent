@@ -1,0 +1,759 @@
+{
+  "temple_id": "T0013",
+  "name": "Sri Rudreshwara Swamy Temple",
+  "alternate_names": [
+    "Thousand Pillar Temple",
+    "Veyyi Stambala Gudi",
+    "Veyi Stambhala Gudi",
+    "1000 Pillar Temple"
+  ],
+  "multilingual": {
+    "names": {
+      "en": "Thousand Pillar Temple (Sri Rudreshwara Swamy Temple)",
+      "te": "వెయ్యి స్తంభాల గుడి (శ్రీ రుద్రేశ్వర స్వామి ఆలయం)",
+      "hi": "थाउज़ंड पिलर टेंपल (श्री रुद्रेश्वर स्वामी मंदिर)"
+    },
+    "alternate_spellings": [
+      "Rudreswara",
+      "Hanamakonda",
+      "Hanumakonda",
+      "Hanamkonda"
+    ],
+    "common_abbreviations": "TPT, Rudreshwara Temple, Kakatiya Temple (Hanamakonda)",
+    "voice_pronunciation_variants": "Telugu: శ్రీ రుద్రేశ్వర స్వామి దేవాలయం (Śrī Rudrēśvara Swāmi Dēvālayam); English: \"Thousand Pillar Temple\""
+  },
+  "deity": {
+    "presiding_deity": "Lord Shiva, worshipped as Rudreshwara (east-facing shrine)",
+    "other_deities": [
+      "Lord Vishnu / Vasudeva (south-facing shrine)",
+      "Surya Deva / Sun God (west-facing shrine)"
+    ]
+  },
+  "temple_type": "Hindu Temple (Trikutalayam) — ASI-protected heritage monument",
+  "religion": "Hinduism",
+  "category": "Shaivite Temple with Trimurti-adjacent grouping (Shiva, Vishnu, Surya)",
+  "location": {
+    "village": "Hanamakonda (Hanamkonda)",
+    "mandal": "Hanamakonda",
+    "district": "Hanamakonda District (formerly part of Warangal Urban District)",
+    "state": "Telangana",
+    "country": "India",
+    "address": "1000 Pillar Temple Road / Hyderabad–Warangal Highway (NH-163), Brahmanawada, near Raganna Darwaja, Hanamakonda, Telangana – 506011, India",
+    "pincode": "506011",
+    "latitude": 18.003722,
+    "longitude": 79.57475,
+    "google_maps_url": "https://maps.app.goo.gl/kLP894ndEoeUqeE36",
+    "elevation": "~280 meters above sea level (low hillock at base of Hanamakonda Hill)",
+    "timezone": "Asia/Kolkata"
+  },
+  "overview": "The Thousand Pillar Temple, officially the Sri Rudreshwara Swamy Temple and locally called 'Veyyi Stambala Gudi', is a star-shaped Trikutalayam (triple-shrine complex) at the base of Hanamakonda Hill in Hanamakonda, Telangana. Built in 1163 CE by the Kakatiya king Rudra Deva, it took roughly 72 years to complete and is one of the earliest surviving masterpieces of Kakatiya art, architecture and sculpture. The complex, dedicated to Lord Shiva (Rudreshwara, east), Lord Vishnu (south) and Surya Deva (west), features close to 1,000 intricately carved pillars, a monolithic dolerite Nandi, perforated stone screens, rock-cut elephants and a restored Kalyana Mandapam. Centrally protected by the Archaeological Survey of India since 2001, it is on India's UNESCO tentative World Heritage list as part of 'The Glorious Kakatiya Temples and Gateways'. It is geographically and administratively distinct from the Ramappa Temple (UNESCO World Heritage Site 2021) at Palampet in Mulugu District, ~75 km away.",
+  "summary": "The Thousand Pillar Temple (Sri Rudreshwara Swamy Temple) is a 1163 CE Kakatiya Trikutalayam at Hanamakonda, Warangal, Telangana, dedicated to Shiva (Rudreshwara), Vishnu and Surya. Built by Kakatiya king Rudra Deva in late Chalukyan / early Kakatiya (Vesara) style using dolerite and granite, it is famed for its ~1,000 carved pillars, monolithic Nandi, and the earthquake-resistant 'sandbox' foundation. It is NOT a UNESCO World Heritage Site — only the Ramappa Temple (Palampet, ~75 km away) carries that designation since 2021. The Thousand Pillar is on UNESCO's tentative list alongside Warangal Fort and Kakatiya Kala Thoranam, and is centrally protected by the ASI.",
+  "history": [
+    {
+      "section": "Construction & Kakatiya Patronage",
+      "content": "The temple was built in 1163 CE under the patronage of the Kakatiya king Rudra Deva (Rudradeva I), and construction is generally reported to have taken about 72 years (sources commonly cite c. 1175–1324 CE as the broader build/expansion window). It is named after its builder-king as Sri Rudreshwara Swamy Temple, with the presiding Shiva deity known as Rudreshwara. Successive Kakatiya rulers — Ganapati Deva, Rudrama Devi and Prataparudra — patronised and expanded the complex over the 12th–14th centuries. Per popular temple lore, King Rudra Deva had a divine vision in which Lord Shiva directed him to build a temple with a thousand pillars, each symbolically representing a lingam (this account is recorded in popular/tourism sources rather than a verifiable primary religious text).",
+      "foundation_year": "1163 CE (broad build/expansion window: c. 1175–1324 CE)",
+      "founders": [
+        "Kakatiya king Rudra Deva (Rudradeva I)",
+        "Subsequent Kakatiya patrons: Ganapati Deva, Rudrama Devi, Prataparudra"
+      ],
+      "legends": [
+        "Per popular temple lore, Lord Shiva directed King Rudra Deva in a vision to build a temple with a thousand pillars, each symbolically a lingam."
+      ]
+    },
+    {
+      "section": "Invasion, Restoration & Protection",
+      "content": "In the 14th century the temple complex — particularly the Kalyana Mandapam — suffered significant damage during the Deccan invasions of the Delhi Sultanate's Tughlaq dynasty; the core shrines survived due to their massive stone foundations and the Kakatiya 'sandbox' foundation technique. In the early 20th century, Mir Osman Ali Khan, the seventh Nizam of Hyderabad, contributed a grant (~₹1 lakh) toward reconstruction. The temple was declared a protected monument by the Archaeological Survey of India in 2001 and renovated by the Government of India in 2004. It is on India's UNESCO World Heritage tentative list under 'The Glorious Kakatiya Temples and Gateways' (alongside Warangal Fort and Kakatiya Kala Thoranam). In the 2020s, the ASI completed a long-running restoration of the fallen Kalyana Mandapam, rebuilding it stone-by-stone using the original Kakatiya 'sandbox' foundation technique. ASI has reportedly spent ~₹9.90 crore on restoration. The temple is NOT (and has never been) inscribed as a UNESCO World Heritage Site — only the Ramappa Temple at Palampet (~75 km away) carries that designation (inscribed 25 July 2021, UNESCO ref 1570).",
+      "foundation_year": "",
+      "founders": [],
+      "legends": [
+        "14th-century Tughlaq invasions damaged the Kalyana Mandapam; the core shrines survived thanks to stone foundations and sandbox engineering.",
+        "7th Nizam Mir Osman Ali Khan granted ~₹1 lakh for reconstruction in the early 20th century.",
+        "ASI declared it a protected monument in 2001; Government of India renovated it in 2004; ASI completed Kalyana Mandapam restoration in the 2020s (work resumed November 2021 after a 15-year funding delay)."
+      ]
+    }
+  ],
+  "sthala_puranam": "According to popular temple legend, King Rudra Deva had a divine vision in which Lord Shiva directed him to build a temple with a thousand pillars, each symbolically representing a lingam. The king is said to have undertaken the construction in fulfilment of this divine command. (This account is recorded in popular/tourism sources rather than a verifiable primary religious text and should be treated as traditional temple lore.)",
+  "religious_significance": "The temple holds importance as a Trikutalayam housing the grouping of Shiva, Vishnu and Surya (Surya replacing Brahma in this particular grouping) within one interconnected complex — an arrangement considered relatively distinctive among South Indian temples. Trimurti Puja performed here is regarded as symbolic of unified worship of the three deities.",
+  "spiritual_significance": "Devotees traditionally believe the temple's orientation was deliberately designed so that the first rays of the morning sun fall directly upon the Shiva lingam in the sanctum, reflecting the Kakatiya rulers' devotion to Shiva and their astronomical/architectural planning. The temple is popularly regarded as a symbol of the artistic and spiritual zenith of Kakatiya civilisation in Telangana.",
+  "healing_beliefs": [
+    "Devotees believe the temple's serene environment and sacred vibrations promote mental peace and spiritual healing.",
+    "Pilgrimage associated with general welfare and relief from planetary afflictions through worship of the Shiva-Vishnu-Surya triad."
+  ],
+  "miracles_and_devotee_experiences": [
+    "The core shrines survived 14th-century Tughlaq invasions despite damage to the Kalyana Mandapam, widely attributed to the Kakatiya 'sandbox' foundation technique (sand-filled pit absorbing seismic shocks).",
+    "The temple has remained standing through multiple earthquakes over the centuries, again attributed to advanced Kakatiya engineering.",
+    "Devotees report a sense of divine energy and tranquility; the temple's floating-brick-free (stone) construction and intricate carvings are considered feats of medieval engineering."
+  ],
+  "architecture": "The temple reflects late Chalukyan and early Kakatiya architectural traditions (broadly Vesara style), built primarily of dolerite/black basalt and granite. It is a 'Trikutalayam' — a star-shaped, triple-shrine complex where the Shiva shrine faces east and the Vishnu and Surya shrines face south and west, all connected to a central mandapam so that no pillar obstructs the view of any deity. It features close to 1,000 intricately carved stone pillars, a ~6-foot monolithic Nandi carved from a single block of black basalt/dolerite facing the Shiva shrine, a restored Kalyana Mandapam (dance/marriage hall, ASI-restored in the 2020s using the original 'sandbox' foundation technique), the natya mandapam (dance hall) at the front, rock-cut elephant sculptures, perforated stone screens, finely carved doorways, and inscriptions. The structure is elevated on a 1-metre platform that slopes gently toward Hanamakonda Hill.",
+  "architectural_style": "Late Chalukyan / early Kakatiya (Vesara) — dolerite/black basalt and granite",
+  "temple_layout": [
+    "Star-shaped Trikutalayam (triple-shrine complex) at the base of Hanamakonda Hill",
+    "Shiva (Rudreshwara) shrine facing east (main sanctum)",
+    "Vishnu / Vasudeva shrine facing south",
+    "Surya Deva shrine facing west",
+    "Central mandapam with close to 1,000 intricately carved pillars (unobstructed sightlines)",
+    "~6-foot monolithic Nandi of black basalt/dolerite facing the Shiva shrine",
+    "Natya mandapam (front dance hall) supported by four intricately carved pillars",
+    "Kalyana Mandapam (pillared dance/marriage hall, restored by ASI in 2020s)",
+    "Rock-cut elephant sculptures, perforated stone screens and carved doorways",
+    "Kakatiya 'sandbox' foundation (sand-filled pit absorbing seismic shocks)",
+    "1-metre platform sloping gently toward Hanamakonda Hill",
+    "Surrounding garden with smaller Shiva lingams"
+  ],
+  "darshan_timings": [
+    {
+      "day": "Monday–Sunday (most sources, e.g. Tripadvisor, Inheritage, Outlook Traveller)",
+      "morning": "6:00 AM",
+      "evening": "8:00 PM (20:00)"
+    },
+    {
+      "day": "Daily (Mahashivratri.org, some visitor blogs)",
+      "morning": "5:00 AM",
+      "evening": "9:00 PM (extended hours during major festivals)"
+    }
+  ],
+  "timing_conflict_note": "Visiting hours are reported inconsistently across sources: most sources (Tripadvisor, Inheritage, Outlook Traveller) give ~6:00 AM–8:00 PM, while some (Mahashivratri.org, minority of blogs) cite 5:00 AM–9:00 PM with extended hours during festivals. ASI/temple hours can vary seasonally — confirm locally before visiting. Other unresolved points: entry fee (free per most sources, vs nominal ₹15 Indian / ₹200 foreign per a minority of travel blogs) and construction date (1163 CE single year vs c. 1175–1324 CE as the ~72-year build/expansion window).",
+  "sevas": [
+    {
+      "name": "Abhishekam",
+      "description": "Ceremonial holy bath offered to the presiding Shiva deity.",
+      "charges": "Information not available from verified sources (ASI monument; no published central tariff)"
+    },
+    {
+      "name": "Archana",
+      "description": "Ritual chanting of the deity's names accompanying an offering.",
+      "charges": "Information not available from verified sources"
+    },
+    {
+      "name": "Aarti / Deeparadhana",
+      "description": "Ceremonial waving of lit lamps before the deity.",
+      "charges": "Information not available from verified sources"
+    },
+    {
+      "name": "Kumkuma Puja",
+      "description": "Offering of vermilion (kumkum) to the deity; specifically noted as a festive highlight by Incredible India (Government of India).",
+      "charges": "Information not available from verified sources"
+    },
+    {
+      "name": "Trimurti Puja",
+      "description": "A puja symbolically honouring the three presiding deities (Shiva, Vishnu, Surya) together.",
+      "charges": "Information not available from verified sources"
+    }
+  ],
+  "rituals": [
+    "Abhishekam",
+    "Archana",
+    "Aarti / Deeparadhana",
+    "Kumkuma Puja (a noted festive highlight per Incredible India)",
+    "Trimurti Puja (symbolic unified worship of Shiva, Vishnu, Surya)",
+    "Deepotsavam during Karthika Masam",
+    "Overnight vigils and special rituals during Maha Shivaratri and Karthika Pournami"
+  ],
+  "special_poojas": [
+    "Kumkuma Puja (noted by government tourism sources as a major festive draw)",
+    "Trimurti Puja",
+    "Maha Shivaratri overnight vigils and special rituals",
+    "Karthika Masam deepotsavam"
+  ],
+  "festivals": [
+    {
+      "festival": "Maha Shivaratri",
+      "description": "The most significant festival, drawing large numbers of pilgrims for overnight vigils and special rituals (Feb/Mar)."
+    },
+    {
+      "festival": "Karthika Masam",
+      "description": "Special deepotsavam (lamp-lighting) observances held through this holy month (Oct/Nov)."
+    },
+    {
+      "festival": "Karthika Pournami",
+      "description": "Full-moon day in Karthika Masam, with major festive observance at the temple."
+    },
+    {
+      "festival": "Sravana Masam",
+      "description": "Special pujas dedicated to Lord Shiva (Jul/Aug)."
+    },
+    {
+      "festival": "Maghamasam",
+      "description": "Grand celebrations reported during this period."
+    },
+    {
+      "festival": "Kunkuma Puja celebrations",
+      "description": "Noted by government tourism sources as a major festive draw."
+    },
+    {
+      "festival": "Bathukamma",
+      "description": "Regional Telangana festival celebrated with cultural performances in the wider Hanamakonda/Warangal area."
+    },
+    {
+      "festival": "Bonalu",
+      "description": "Regional Telangana festival celebrated in the wider temple/city precinct."
+    }
+  ],
+  "darshan_and_tickets": {
+    "general_darshan": "Most sources (Tripadvisor, Inheritage, Outlook Traveller) indicate free general entry. A minority of travel blogs mention a nominal fee (~₹15 Indian / ~₹200 foreign nationals), which may apply only to adjoining ASI facilities or during specific periods — unresolved from official sources; confirm on-site or via ASI/Telangana Tourism.",
+    "special_darshan": "",
+    "ticket_details": "No verified official online seva/puja booking portal or centralised booking procedure exists (ASI-protected monument with locally handled worship). Mobile photography is commonly allowed; videography/professional photography may require permission and a possible nominal charge."
+  },
+  "dress_code": "Not explicitly documented in the source; modest attire is generally expected at active places of worship (covering shoulders and knees per standard temple etiquette).",
+  "facilities": [
+    "Free general entry (per most sources)",
+    "On-site parking for private vehicles and two-wheelers; can get congested during peak seasons",
+    "Restrooms",
+    "Photography allowed in most areas (subject to ASI rules)",
+    "Guided tours available",
+    "Surrounding landscaped garden with smaller Shiva lingams",
+    "Wheelchair accessibility: not explicitly documented for the heritage structure; confirm on-site",
+    "Open to visitors of all faiths"
+  ],
+  "accommodation": {
+    "availability": "No temple-managed guest houses, choultries or official lodging exist (consistent with its status as an ASI-protected monument). Visitors rely on hotels and lodges in Hanamakonda/Warangal city.",
+    "booking_process": "",
+    "first_come_basis": "",
+    "price_range": "Budget ~₹500–₹1,500/night; mid-range ~₹1,500–₹3,500/night; premium/business ~₹3,500–₹7,000+/night (aggregated from booking platforms; not official tariffs).",
+    "nearby_options": [
+      "Luxury: The Gateway Hotel Hanamakonda by Taj",
+      "Mid-range: Suprabha Hotel, Hotel Ashoka",
+      "Budget: Hotel Shreya, Hotel Viceroy, OYO-affiliated properties, Hotel Grand Inn, Sri Karthik Lodge",
+      "Nature: Haritha Hotel Laknavaram (~50 km from Warangal, for those combining with Laknavaram Lake visit)",
+      "Premium: Hotel Sahasra DLA and larger 3-star properties in Warangal/Hanamakonda"
+    ]
+  },
+  "best_time_to_visit": "October to March for cooler weather (~15–25°C); Warangal summers (March–June) are extremely hot. Maha Shivaratri (Feb/Mar) and Karthika Pournami are the most festive but also the most crowded. Weekday mornings are quieter than weekends and festival days.",
+  "travel": {
+    "road": "On the Hyderabad–Warangal Highway (NH-163) in Brahmanawada, Hanamakonda. ~150 km from Hyderabad (~3-hour drive). Well connected by TSRTC buses and private taxis from Hyderabad, Karimnagar and Khammam. Local auto-rickshaws from the bus stand or railway station typically cost ₹100–200 for the short trip to the temple.",
+    "rail": "Nearest stations: Warangal Railway Station (~5–6 km; major stop on the Chennai–Delhi and Chennai–Nagpur trunk lines) and Kazipet Junction (~7–10 km; another major junction).",
+    "air": "Nearest airport is Rajiv Gandhi International Airport, Hyderabad (HYD), approximately 150–170 km away, with domestic and international connections.",
+    "distances": [
+      "Hyderabad: ~150 km (~3 hours by road via NH-163)",
+      "Warangal Railway Station: ~5–6 km",
+      "Kazipet Junction: ~7–10 km",
+      "Hanamakonda Bus Stand: ~2 km",
+      "Rajiv Gandhi International Airport, Hyderabad: ~150–170 km",
+      "Ramappa Temple (UNESCO site, Palampet): ~75 km — a common combined heritage visit"
+    ],
+    "nearest_railway_station": "Warangal Railway Station (~5–6 km); Kazipet Junction (~7–10 km)",
+    "nearest_bus_station": "Hanamakonda Bus Stand (~2 km)",
+    "nearest_airport": "Rajiv Gandhi International Airport, Hyderabad (~150–170 km)"
+  },
+  "travel_tips": [
+    "Visit between October and March for comfortable weather.",
+    "Confirm current visiting hours and any entry fee locally with ASI/Telangana Tourism before visiting.",
+    "Allow 2–3 hours to fully explore the main sanctum, pillared halls and intricate carvings.",
+    "Combine with nearby Kakatiya heritage in the tri-city area: Warangal Fort, Kakatiya Kala Thoranam, Bhadrakali Temple, Padmakshi Temple, and Kakatiya Musical Garden.",
+    "Day-trip option: Ramappa Temple (UNESCO World Heritage Site 2021) at Palampet, ~75 km away.",
+    "Dress modestly (shoulders and knees covered) and remove footwear before entering sanctum areas.",
+    "Photography is generally allowed in exterior areas; respect restrictions inside protected sections."
+  ],
+  "nearby_places": [
+    "Bhadrakali Temple (Warangal)",
+    "Warangal Fort (UNESCO tentative list)",
+    "Kakatiya Kala Thoranam (UNESCO tentative list)",
+    "Padmakshi Temple (Hanamakonda)",
+    "Kakatiya Musical Garden (Warangal)",
+    "Pakhal Lake (~50 km from Warangal)",
+    "Laknavaram Lake (with Haritha Hotel Laknavaram)",
+    "Ramappa Temple (UNESCO World Heritage Site 2021) at Palampet, ~75 km"
+  ],
+  "nearby_infrastructure": {
+    "hotels": [
+      "The Gateway Hotel Hanamakonda by Taj (luxury)",
+      "Suprabha Hotel (mid-range)",
+      "Hotel Ashoka (mid-range)",
+      "Hotel Shreya (budget)",
+      "Hotel Viceroy (budget)",
+      "Hotel Grand Inn (budget)",
+      "Sri Karthik Lodge (budget)",
+      "Venkateshwara Mitra Residency (mid-range)",
+      "City Grand Hotel (mid-range)",
+      "Hotel Sahasra DLA (premium)",
+      "Haritha Hotel Laknavaram (~50 km, nature-stay)"
+    ],
+    "restaurants": [],
+    "hospitals": [],
+    "atms": [],
+    "petrol_pumps": [],
+    "police_stations": [],
+    "parking": [
+      "On-site / nearby parking for private vehicles and two-wheelers (capacity unconfirmed; can get congested during peak seasons)"
+    ]
+  },
+  "accessibility": {
+    "wheelchair_access": "Not explicitly documented in the source; confirm on-site for heritage areas.",
+    "parking_available": "Yes — on-site / nearby parking for private vehicles, two-wheelers and tour buses is reported, though exact capacity and any fee are unconfirmed."
+  },
+  "contact": {
+    "phone_numbers": [],
+    "email": "",
+    "official_website": "",
+    "address": "1000 Pillar Temple Road / Hyderabad–Warangal Highway (NH-163), Brahmanawada, near Raganna Darwaja, Hanamakonda, Telangana – 506011, India"
+  },
+  "reviews": {
+    "average_rating": "4.1",
+    "total_reviews": "233 (Tripadvisor snapshot, variable across platforms)",
+    "top_reviews": [],
+    "positive_themes": [
+      "Kakatiya architecture and intricate pillar carvings",
+      "Monolithic Nandi",
+      "Historical and heritage value",
+      "Star-shaped Trikutalayam layout",
+      "Free general entry"
+    ],
+    "negative_themes": [
+      "Restoration maintenance concerns in some visitor accounts",
+      "Three shrines have lost their superstructures over time",
+      "Exterior walls with moulded basements and wall niches have lost their sculptures",
+      "Lack of lighting inside some areas per a Tripadvisor reviewer"
+    ]
+  },
+  "images": [],
+  "wikidata": {
+    "wikidata_id": "Q7285777",
+    "wiki_url": "https://en.wikipedia.org/wiki/Thousand_Pillar_Temple"
+  },
+  "knowledge_graph": {
+    "entity": {
+      "id": "ThousandPillarTemple",
+      "label": "Sri Rudreshwara Swamy Temple (Thousand Pillar Temple)",
+      "type": "Hindu Temple (Trikutalayam) / ASI-protected monument (UNESCO tentative list)"
+    },
+    "nodes": [
+      {
+        "id": "LordShiva",
+        "label": "Lord Shiva (Rudreshwara)",
+        "type": "Presiding Deity (east shrine)"
+      },
+      {
+        "id": "LordVishnu",
+        "label": "Lord Vishnu / Vasudeva",
+        "type": "Deity (south shrine)"
+      },
+      {
+        "id": "SuryaDeva",
+        "label": "Surya Deva (Sun God)",
+        "type": "Deity (west shrine)"
+      },
+      {
+        "id": "RudraDeva",
+        "label": "Kakatiya King Rudra Deva (Rudradeva I)",
+        "type": "Builder / Patron (1163 CE)"
+      },
+      {
+        "id": "KakatiyaDynasty",
+        "label": "Kakatiya Dynasty (Ganapati Deva, Rudrama Devi, Prataparudra)",
+        "type": "Patron Dynasty"
+      },
+      {
+        "id": "TughlaqDynasty",
+        "label": "Tughlaq Dynasty (Delhi Sultanate)",
+        "type": "14th-century Invaders"
+      },
+      {
+        "id": "MirOsmanAliKhan",
+        "label": "Mir Osman Ali Khan (7th Nizam of Hyderabad)",
+        "type": "Restoration Patron (early 20th c.)"
+      },
+      {
+        "id": "ASI",
+        "label": "Archaeological Survey of India",
+        "type": "Administering Authority (since 2001)"
+      },
+      {
+        "id": "MonolithicNandi",
+        "label": "Monolithic Nandi (~6 ft, black basalt/dolerite)",
+        "type": "Iconic Sculpture"
+      },
+      {
+        "id": "KalyanaMandapam",
+        "label": "Kalyana Mandapam (restored 2020s)",
+        "type": "Pillared Dance/Marriage Hall"
+      },
+      {
+        "id": "NatyaMandapam",
+        "label": "Natya Mandapam (front dance hall)",
+        "type": "Pillared Hall"
+      },
+      {
+        "id": "SandboxFoundation",
+        "label": "Kakatiya Sandbox Foundation",
+        "type": "Seismic-resistant Engineering Feature"
+      },
+      {
+        "id": "RamappaTemple",
+        "label": "Ramappa Temple (Palampet, Mulugu)",
+        "type": "Related UNESCO World Heritage Site (2021) — ~75 km away"
+      },
+      {
+        "id": "Hanamakonda",
+        "label": "Hanamakonda / Hanamkonda",
+        "type": "City (in Warangal tri-city area)"
+      },
+      {
+        "id": "HanamakondaDistrict",
+        "label": "Hanamakonda District",
+        "type": "District (Telangana)"
+      },
+      {
+        "id": "Telangana",
+        "label": "Telangana",
+        "type": "State"
+      },
+      {
+        "id": "MahaShivaratri",
+        "label": "Maha Shivaratri",
+        "type": "Major Festival"
+      },
+      {
+        "id": "KarthikaPournami",
+        "label": "Karthika Pournami",
+        "type": "Major Festival"
+      }
+    ],
+    "edges": [
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "presiding_deity",
+        "to": "LordShiva"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "built_by",
+        "to": "RudraDeva"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "patron_dynasty",
+        "to": "KakatiyaDynasty"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "has_shrine",
+        "to": "LordVishnu"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "has_shrine",
+        "to": "SuryaDeva"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "located_in",
+        "to": "Hanamakonda"
+      },
+      {
+        "from": "Hanamakonda",
+        "relation": "part_of",
+        "to": "HanamakondaDistrict"
+      },
+      {
+        "from": "HanamakondaDistrict",
+        "relation": "part_of",
+        "to": "Telangana"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "administered_by",
+        "to": "ASI"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "damaged_by",
+        "to": "TughlaqDynasty"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "restoration_grant",
+        "to": "MirOsmanAliKhan"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "iconic_sculpture",
+        "to": "MonolithicNandi"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "contains",
+        "to": "KalyanaMandapam"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "contains",
+        "to": "NatyaMandapam"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "engineering_feature",
+        "to": "SandboxFoundation"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "related_unesco_heritage_site",
+        "to": "RamappaTemple"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "major_festival",
+        "to": "MahaShivaratri"
+      },
+      {
+        "from": "ThousandPillarTemple",
+        "relation": "major_festival",
+        "to": "KarthikaPournami"
+      }
+    ]
+  },
+  "audio": {
+    "introduction": {
+      "en": "The Thousand Pillar Temple, officially the Sri Rudreshwara Swamy Temple and locally called Veyyi Stambala Gudi, is a 1163 CE Kakatiya Trikutalayam at the base of Hanamakonda Hill in Hanamakonda, Telangana. A triple-shrine complex, it houses Shiva as Rudreshwara, Vishnu and Surya connected by a central mandapam of close to a thousand carved pillars, with a monolithic Nandi and a restored Kalyana Mandapam. Built by Kakatiya king Rudra Deva, it is now an ASI-protected monument on India's UNESCO tentative list. It is a separate monument from the Ramappa Temple UNESCO site at Palampet, about 75 kilometres away.",
+      "te": "",
+      "hi": ""
+    },
+    "history": {
+      "en": "Built in 1163 CE by Kakatiya king Rudra Deva, with construction spanning about 72 years, the Thousand Pillar Temple was expanded by his successors Ganapati Deva, Rudrama Devi and Prataparudra. In the 14th century Tughlaq invasions damaged the Kalyana Mandapam, though the core shrines survived. The seventh Nizam, Mir Osman Ali Khan, granted funds for reconstruction in the early twentieth century. The ASI declared it a protected monument in 2001, renovated it in 2004, and recently completed a stone-by-stone restoration of the Kalyana Mandapam using the original sandbox foundation technique, spending about 9.9 crore rupees. It is on UNESCO's tentative list, not a World Heritage Site.",
+      "te": "",
+      "hi": ""
+    },
+    "travel_guide": {
+      "en": "The Thousand Pillar Temple is on the Hyderabad-Warangal Highway, NH-163, in Brahmanawada, Hanamakonda, about 150 kilometres from Hyderabad, roughly a three hour drive. The nearest railway stations are Warangal, about five to six kilometres away, and Kazipet Junction, about seven to ten kilometres. The nearest airport is Rajiv Gandhi International Airport, Hyderabad, 150 to 170 kilometres away. Visiting hours are generally 6:00 AM to 8:00 PM, though some sources cite 5:00 AM to 9:00 PM. October to March is the best season.",
+      "te": "",
+      "hi": ""
+    }
+  },
+  "faq": [
+    {
+      "id": "FAQ001",
+      "question": "Where is the Thousand Pillar Temple located?",
+      "answer": "It is located at the base of Hanamakonda Hill in Hanamakonda (Hanamkonda), part of the Warangal tri-city area in Telangana, India, on the Hyderabad–Warangal Highway (NH-163), Brahmanawada. Pincode 506011."
+    },
+    {
+      "id": "FAQ002",
+      "question": "Who built the Thousand Pillar Temple, and when?",
+      "answer": "It was built in 1163 CE by the Kakatiya king Rudra Deva (Rudradeva I); construction is generally reported to have taken about 72 years (c. 1175–1324 CE build/expansion window per multiple sources)."
+    },
+    {
+      "id": "FAQ003",
+      "question": "Which deities are worshipped at the temple?",
+      "answer": "It is a Trikutalayam dedicated to Lord Shiva (Rudreshwara, east-facing), Lord Vishnu (south-facing) and Surya Deva (Sun God, west-facing)."
+    },
+    {
+      "id": "FAQ004",
+      "question": "What is the temple's other/official name?",
+      "answer": "It is officially the Sri Rudreshwara Swamy Temple and is locally called 'Veyyi Stambala Gudi' (Thousand Pillar Temple in Telugu)."
+    },
+    {
+      "id": "FAQ005",
+      "question": "What are the temple's visiting hours?",
+      "answer": "Most sources report approximately 6:00 AM to 8:00 PM daily (e.g. Tripadvisor, Inheritage, Outlook Traveller); a few sources cite 5:00 AM to 9:00 PM with extended hours during festivals. Confirm current timings locally before visiting."
+    },
+    {
+      "id": "FAQ006",
+      "question": "Is there an entry fee?",
+      "answer": "Most sources indicate free general entry; a few travel blogs mention a nominal fee (~₹15 Indian / ~₹200 foreign), possibly for adjoining ASI facilities. Unresolved from official sources — confirm on-site."
+    },
+    {
+      "id": "FAQ007",
+      "question": "Who currently manages/maintains the temple?",
+      "answer": "It is a centrally protected monument under the Archaeological Survey of India (ASI), with religious administration / day-to-day worship coordinated through Telangana state authorities (Endowments Department)."
+    },
+    {
+      "id": "FAQ008",
+      "question": "Is the Thousand Pillar Temple a UNESCO World Heritage Site?",
+      "answer": "No — it is on India's UNESCO tentative list (as part of 'The Glorious Kakatiya Temples and Gateways') but is not yet inscribed as a World Heritage Site. The nearby Ramappa Temple at Palampet, Mulugu district (~75 km away) was inscribed as a UNESCO World Heritage Site on 25 July 2021 (UNESCO reference 1570). They are two separate monuments."
+    },
+    {
+      "id": "FAQ009",
+      "question": "Is the Thousand Pillar Temple the same as the Ramappa Temple?",
+      "answer": "No. They are two distinct Kakatiya monuments: the Thousand Pillar Temple is in Hanamakonda, Hanamakonda District, Telangana, and is an ASI-protected monument on the UNESCO tentative list. The Ramappa Temple is in Palampet, Mulugu District, Telangana (~75 km from Hanamakonda), and is the actual UNESCO World Heritage Site (inscribed 2021). Both share Kakatiya architectural style but differ in date (1163 CE vs 1213 CE), layout, presiding deity grouping, and protection status."
+    },
+    {
+      "id": "FAQ010",
+      "question": "What is the best time of year to visit?",
+      "answer": "October to March (cooler, ~15–25°C). Maha Shivaratri (Feb/Mar) and Karthika Pournami are the most festive times but also the most crowded."
+    },
+    {
+      "id": "FAQ011",
+      "question": "How do I reach the temple from Hyderabad?",
+      "answer": "By road ~150 km (~3 hours) via NH-163; by rail via Warangal Railway Station (~5–6 km) or Kazipet Junction (~7–10 km); by air via Rajiv Gandhi International Airport, Hyderabad (~150–170 km), then onward road transport."
+    },
+    {
+      "id": "FAQ012",
+      "question": "Can people of all faiths visit?",
+      "answer": "Yes — multiple sources note the temple is open to visitors of all faiths, being both an active place of worship and a protected heritage/tourist site."
+    },
+    {
+      "id": "FAQ013",
+      "question": "Are photography and videography allowed?",
+      "answer": "Mobile photography is generally allowed in most areas; videography or professional photography may require permission and could involve a nominal charge in certain areas — confirm on-site with ASI/temple staff."
+    }
+  ],
+  "query_variations": [
+    {
+      "faq_id": "FAQ001",
+      "queries": [
+        "Where is Thousand Pillar Temple located?",
+        "Thousand Pillar Temple Hanamakonda location?",
+        "How to reach Thousand Pillar Temple?",
+        "Veyyi Stambala Gudi address"
+      ]
+    },
+    {
+      "faq_id": "FAQ002",
+      "queries": [
+        "Who built Thousand Pillar Temple?",
+        "When was Thousand Pillar Temple built?",
+        "Rudra Deva Kakatiya Thousand Pillar Temple?"
+      ]
+    },
+    {
+      "faq_id": "FAQ003",
+      "queries": [
+        "Which deities are at Thousand Pillar Temple?",
+        "Is Thousand Pillar Temple a Trikutalayam?",
+        "Shiva Vishnu Surya Hanamakonda temple?"
+      ]
+    },
+    {
+      "faq_id": "FAQ004",
+      "queries": [
+        "What is the official name of Thousand Pillar Temple?",
+        "Veyyi Stambala Gudi meaning?",
+        "Rudreshwara Swamy temple?"
+      ]
+    },
+    {
+      "faq_id": "FAQ005",
+      "queries": [
+        "Thousand Pillar Temple timings?",
+        "Thousand Pillar Temple visiting hours?",
+        "When does Thousand Pillar Temple open?"
+      ]
+    },
+    {
+      "faq_id": "FAQ006",
+      "queries": [
+        "Is entry free at Thousand Pillar Temple?",
+        "Entry fee Thousand Pillar Temple?",
+        "ASI ticket Thousand Pillar Temple?"
+      ]
+    },
+    {
+      "faq_id": "FAQ007",
+      "queries": [
+        "Who maintains Thousand Pillar Temple?",
+        "Is Thousand Pillar Temple ASI protected?"
+      ]
+    },
+    {
+      "faq_id": "FAQ008",
+      "queries": [
+        "Is Thousand Pillar Temple a UNESCO site?",
+        "Thousand Pillar Temple UNESCO World Heritage?"
+      ]
+    },
+    {
+      "faq_id": "FAQ009",
+      "queries": [
+        "Is Thousand Pillar Temple the same as Ramappa Temple?",
+        "Thousand Pillar vs Ramappa Temple?",
+        "Difference between Thousand Pillar and Ramappa?"
+      ]
+    },
+    {
+      "faq_id": "FAQ010",
+      "queries": [
+        "Best time to visit Thousand Pillar Temple?",
+        "Best season Warangal temples?"
+      ]
+    },
+    {
+      "faq_id": "FAQ011",
+      "queries": [
+        "Hyderabad to Thousand Pillar Temple distance?",
+        "How to reach Hanamakonda from Hyderabad?"
+      ]
+    },
+    {
+      "faq_id": "FAQ012",
+      "queries": [
+        "Can non-Hindus visit Thousand Pillar Temple?",
+        "All faiths allowed Thousand Pillar Temple?"
+      ]
+    },
+    {
+      "faq_id": "FAQ013",
+      "queries": [
+        "Photography Thousand Pillar Temple?",
+        "Videography ASI Warangal temple?"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Thousand_Pillar_Temple",
+    "https://telanganatourism.gov.in/partials/destinations/divine-destinations/warangal-urban/thousand-pillars-temple.html",
+    "https://tourism.telangana.gov.in/attractions/thousand-pillars-temple",
+    "https://hanumakonda.telangana.gov.in/tourist-place/thousand-pillar-temple/",
+    "https://www.incredibleindia.gov.in/en/telangana/warangal/thousand-pillar-temple",
+    "https://kakatiyaheritagetrust.org/thousand-pillar-temple.php",
+    "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=134061",
+    "https://warangaltourism.in/thousand-1000-pillar-temple-warangal-hanamkonda",
+    "https://www.tripadvisor.in/Attraction_Review-g20404693-d3161445-Reviews-or10-Thousand_Pillar_Temple-Hanamkonda_Warangal_Urban_District_Telangana.html",
+    "https://www.inheritage.foundation/heritage/thousand-pillar-temple",
+    "https://www.outlooktraveller.com/experiences/heritage/did-you-know-about-the-thousand-pillar-temple-of-telangana",
+    "https://www.mahashivratri.org/shiva-temples/thousand-pillar-temple.html"
+  ],
+  "quality_check": {
+    "metadata": {
+      "score_percent": 80,
+      "verified": [
+        "temple_id (assigned; based on 'Sri Rudreshwara Swamy Temple' official name and location)",
+        "name",
+        "alternate_names",
+        "deity (Trikutalayam: Shiva, Vishnu, Surya)",
+        "temple_type",
+        "religion",
+        "category",
+        "village (Hanamakonda)",
+        "mandal",
+        "district (Hanamakonda District — formerly Warangal Urban District)",
+        "state",
+        "country",
+        "address (NH-163, Brahmanawada, Hanamakonda)",
+        "pincode (506011 per multiple sources including Tripadvisor and Inheritage)",
+        "latitude (18.003722, Wikipedia)",
+        "longitude (79.574750, Wikipedia)",
+        "google_maps_url",
+        "elevation (~280 m, low hillock at base of Hanamakonda Hill)",
+        "timezone",
+        "multilingual Telugu name 'Veyyi Stambala Gudi' is sourced",
+        "architectural_style",
+        "foundation_year (1163 CE; 72-year build window c. 1175–1324 CE)",
+        "founders (Kakatiya king Rudra Deva)",
+        "wikidata_id (Q7285777)",
+        "wiki_url",
+        "nearest_railway_station (Warangal ~5–6 km; Kazipet ~7–10 km)",
+        "nearest_bus_station (Hanamakonda Bus Stand ~2 km)",
+        "nearest_airport (RGIA Hyderabad ~150–170 km)"
+      ],
+      "not_found": [
+        "No verified official temple contact phone number — temple is ASI-protected; religious administration via Telangana Endowments Department but no published direct helpline",
+        "No verified official temple email",
+        "No verified official temple website (Telangana Tourism and Hanamakonda district government pages are the closest official references)",
+        "No verified seva prices (ASI-protected monument with locally handled worship; no central published tariff)",
+        "Average rating and total reviews on most platforms fluctuate; Tripadvisor snapshot at 4.1/233 used"
+      ],
+      "verification_required": [
+        "Entry fee is unresolved: free (most sources) vs nominal ~₹15 Indian / ~₹200 foreign (minority of travel blogs) — confirm on-site or via ASI/Telangana Tourism",
+        "Visiting hours vary: ~6:00 AM–8:00 PM (most sources) vs 5:00 AM–9:00 PM (some sources, extended during festivals)",
+        "Construction date: 1163 CE single year vs c. 1175–1324 CE as the ~72-year build/expansion window — both are sourced; treat 1163 CE as the foundation year and c. 1175–1324 CE as the broader build/expansion window",
+        "Pincode corrected from 506001 (original) to 506011 (multiple sources including Tripadvisor, Inheritage, Outlook Traveller)",
+        "District is Hanamakonda District (after the 2022 Telangana district re-organisation); was previously Warangal Urban District — both names valid depending on the source's publication date",
+        "Multilingual te/hi names are transliterations, not directly sourced; Telugu name 'Veyyi Stambala Gudi' IS sourced (Wikipedia and Telangana Tourism)",
+        "The Thousand Pillar Temple is on UNESCO's TENTATIVE list only — it is NOT a World Heritage Site. The Ramappa Temple at Palampet (~75 km away) is the actual UNESCO World Heritage Site (inscribed 25 July 2021, ref 1570).",
+        "ASI has spent ~₹9.90 crore on restoration per Outlook Traveller; restoration work resumed November 2021 after a 15-year delay",
+        "Address cited in sources is both '1000 Pillar Temple Road' and 'Hyderabad–Warangal Highway (NH-163), Brahmanawada' — these refer to the same site"
+      ]
+    },
+    "overall_completeness_score": "78/100"
+  },
+  "last_verified": "2026-07-28"
+}

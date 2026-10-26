@@ -1,0 +1,93 @@
+{
+  "associated_temple": "Sri Gnana Saraswati Temple, Basara",
+  "hotels": [
+    {
+      "hotel_name": "Hotel TJ RAO INN",
+      "hotel_type": "3-Star Hotel",
+      "address": "Near Sri Gnana Saraswati Temple, Basar, Nirmal District, Telangana - 504101, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Hotel TJ RAO INN is a mid-range hotel located near Sri Gnana Saraswati Temple, Basara. The hotel offers comfortable accommodation with air-conditioned rooms, free Wi-Fi, parking, housekeeping, and room service. It is a suitable choice for pilgrims, families, and leisure travelers looking for a comfortable stay close to the temple.",
+      "google_map_link": "https://maps.google.com/?q=Hotel+TJ+RAO+INN+Basar",
+      "official_website": "",
+      "price_range": "₹1,800–₹2,800 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Basar Bus Stand – Approximately 800 m",
+        "railway_station": "Basar Railway Station – Approximately 2.5 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 210 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/hotel_tj_rao_inn-details-bhainsa.html",
+        "Goibibo": "https://www.goibibo.com/hotels/hotel-tj-rao-inn-hotel-in-bhainsa/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.2/5"
+      },
+      "room_types": [
+        "Deluxe Room",
+        "Executive Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Parking",
+        "Room Service",
+        "Housekeeping",
+        "Power Backup",
+        "24-Hour Front Desk",
+        "Elevator/Lift",
+        "Laundry Service",
+        "Luggage Storage",
+        "LED TV",
+        "Attached Bathroom",
+        "Daily Housekeeping",
+        "CCTV Security"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Mentioned",
+        "food_type": "Vegetarian",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Business Travelers",
+        "Senior Citizens",
+        "Group Pilgrims"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Book @ ₹0 Payment is available on selected bookings. Cancellation policies vary depending on the booking platform.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Gnana Saraswati Temple",
+        "Godavari River",
+        "Basar Bus Stand",
+        "Basar Railway Station"
+      ],
+      "temple_id": "T0004",
+      "hotel_id": "H0006"
+    }
+  ],
+  "temple_id": "T0004",
+  "hotel_id": "H0006"
+}

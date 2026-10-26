@@ -1,0 +1,84 @@
+{
+  "associated_temple": "Sri Keesaragutta Ramalingeswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Haritha Hotel Keesaragutta",
+      "hotel_type": "Government Hotel",
+      "address": "Haritha Hotel Keesaragutta, Keesaragutta, Medchal–Malkajgiri District, Telangana - 501301, India",
+      "contact_numbers": [
+        "+91 9010077395",
+        "1800-425-46464"
+      ],
+      "email": "info@tstdc.in",
+      "about": "Haritha Hotel Keesaragutta is a government-operated hotel managed by Telangana Tourism Development Corporation (TGTDC). Located near Sri Keesaragutta Ramalingeswara Swamy Temple, the hotel offers AC accommodation, an in-house restaurant, and a peaceful environment for pilgrims and tourists visiting the temple.",
+      "google_map_link": "https://maps.google.com/?q=Haritha+Hotel+Keesaragutta",
+      "official_website": "https://www.tourism.telangana.gov.in/",
+      "price_range": "Starting from ₹1,050 per night",
+      "check_in_time": "12:00 AM",
+      "check_out_time": "12:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Keesaragutta Bus Stop – Approximately 500 m",
+        "railway_station": "Ghatkesar Railway Station – Approximately 11 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 40 km"
+      },
+      "booking_links": {
+        "Official": "https://www.tourism.telangana.gov.in/hotel-list",
+        "Telangana Tourism": "https://telanganatourismhotels.in/keesaragutta-hotel/",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.0/5"
+      },
+      "room_types": [
+        "AC Room"
+      ],
+      "amenities": [
+        "Air Conditioning",
+        "Restaurant",
+        "Free Parking",
+        "24-Hour Front Desk",
+        "Housekeeping"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Vegetarian and Multi-Cuisine",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Senior Citizens",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation and refund policies are governed by Telangana Tourism booking terms.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Keesaragutta Ramalingeswara Swamy Temple",
+        "Keesaragutta Hill",
+        "Keesaragutta Bus Stop"
+      ],
+      "temple_id": "T0011",
+      "hotel_id": "H0049"
+    }
+  ],
+  "temple_id": "T0011",
+  "hotel_id": "H0049"
+}

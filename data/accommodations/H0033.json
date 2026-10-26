@@ -1,0 +1,95 @@
+{
+  "associated_temple": "Birla Mandir, Hyderabad",
+  "hotels": [
+    {
+      "hotel_name": "The Central Court Hotel",
+      "hotel_type": "4-Star Hotel",
+      "address": "6-1-71, Lakdikapul, Hyderabad, Telangana - 500004, India",
+      "contact_numbers": [
+        "+91 40 23237979"
+      ],
+      "email": "reservations@centralcourt.in",
+      "about": "The Central Court Hotel is a premium business hotel situated approximately 1.2 km from Birla Mandir. Located in Lakdikapul, the hotel offers spacious rooms, modern business facilities, conference halls, a multi-cuisine restaurant, and easy access to major tourist attractions in Hyderabad. It is listed on MakeMyTrip and Goibibo, making it a preferred choice for pilgrims, business travelers, and families.",
+      "google_map_link": "https://maps.google.com/?q=The+Central+Court+Hotel+Hyderabad",
+      "official_website": "https://www.centralcourt.in/",
+      "price_range": "₹3,000–₹6,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Lakdikapul Bus Stop – Approximately 200 m",
+        "railway_station": "Lakdikapul Railway Station – Approximately 800 m",
+        "airport": "Rajiv Gandhi International Airport – Approximately 29 km"
+      },
+      "booking_links": {
+        "Official": "https://www.centralcourt.in/",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/the_central_court_hotel-details-hyderabad.html",
+        "Goibibo": "https://www.goibibo.com/hotels/the-central-court-hotel-in-hyderabad/",
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "Executive Room",
+        "Premium Room",
+        "Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Room Service",
+        "Business Centre",
+        "Conference Hall",
+        "Banquet Hall",
+        "Air Conditioning",
+        "Laundry Service",
+        "Free Parking",
+        "Elevator",
+        "24-Hour Front Desk",
+        "Power Backup",
+        "Housekeeping"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available on Selected Plans",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Corporate Guests",
+        "Tourists"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans. Cancellation policies vary depending on the selected booking platform and room category.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Birla Mandir (Approx. 1.2 km)",
+        "Lakdikapul Metro Station",
+        "Lumbini Park",
+        "Hussain Sagar Lake",
+        "Telangana Secretariat"
+      ],
+      "temple_id": "T0009",
+      "hotel_id": "H0033"
+    }
+  ],
+  "temple_id": "T0009",
+  "hotel_id": "H0033"
+}

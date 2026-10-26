@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0117",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=The+Fort+Food+Court+Bhongir+Telangana",
+  "restaurantName": "The Fort Food Court",
+
+  "associatedTemple": {
+    "templeId": "T0023",
+    "templeName": "Swarnagiri Sree Venkateswara Swamy Devasthanam"
+  },
+
+  "basicInformation": {
+    "category": "Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Fast Food",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A highway-side family restaurant near Bhongir serving multiple cuisines, suitable for pilgrims travelling to Swarnagiri Temple and nearby attractions."
+  },
+
+  "location": {
+    "fullAddress": "Sy. No. 27/B, Hyderabad-Warangal Bypass Road, Bhongiri, Telangana 508116, India",
+    "area": "Bhongir Bypass Road",
+    "city": "Bhuvanagiri",
+    "district": "Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "pincode": "508116",
+    "landmark": "Hyderabad-Warangal Highway",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 6.5,
+      "source": "Estimated from verified restaurant and temple locations",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 80,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 15,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 12,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": 20,
+        "unit": "minutes",
+        "type": "Estimated"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+91 9494073335",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "06:00 AM",
+    "closingTime": "11:30 PM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Poori",
+      "Vada"
+    ],
+
+    "lunch": [
+      "Veg Meals",
+      "Non-Veg Meals",
+      "North Indian Meals"
+    ],
+
+    "dinner": [
+      "Biryani",
+      "Fried Rice",
+      "Curries"
+    ],
+
+    "snacks": [
+      "Fast Food Items",
+      "Bajji"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks"
+    ],
+
+    "specialDishes": [
+      "Biryani",
+      "South Indian Meals"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹200–400",
+    "averageCostForTwo": "₹400–800"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 4.2,
+    "totalReviews": 1236
+  },
+
+  "nearbyPlaces": {
+    "temple": "Swarnagiri Sree Venkateswara Swamy Devasthanam",
+    "busStand": "Bhuvanagiri Bus Stand",
+    "railwayStation": "Bhongir Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located on Hyderabad-Warangal highway.",
+    "Suitable stop for temple visitors and highway travellers.",
+    "Large seating capacity.",
+    "Parking available.",
+    "Multiple cuisine options."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "address",
+      "phoneNumber",
+      "workingHours",
+      "googleRating",
+      "totalReviews",
+      "priceRange"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation"
+    ],
+
+    "unknownFields": [
+      "officialWebsite",
+      "googleBusinessProfile"
+    ]
+  }
+}

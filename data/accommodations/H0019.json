@@ -1,0 +1,97 @@
+{
+  "associated_temple": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam",
+  "hotels": [
+    {
+      "hotel_name": "Katyayani Serenity - Your Premium Homestay",
+      "hotel_type": "Premium Homestay / Apartment",
+      "address": "6-1-84/1, Pothulavari Veedhi, Near Head Post Office, Bhadrachalam - 507111, Telangana, India.",
+      "contact_numbers": [
+        "+91 9948559559"
+      ],
+      "email": "",
+      "about": "Katyayani Serenity - Your Premium Homestay is a recently renovated premium homestay located within walking distance of Sri Sita Ramachandra Swamy Temple. The property offers spacious family accommodation with air-conditioned rooms, free Wi-Fi, private parking, a fully equipped kitchen, balconies, and modern amenities. It is highly rated for cleanliness, comfort, and its peaceful location, making it an excellent choice for families and groups visiting Bhadrachalam.",
+      "google_map_link": "https://maps.app.goo.gl/ (Search: Katyayani Serenity - Your Premium Homestay, Bhadrachalam)",
+      "official_website": "",
+      "price_range": "₹3,000–₹5,500 per night (Approx.)",
+      "check_in_time": "12:00 PM – 06:00 PM",
+      "check_out_time": "11:00 AM – 12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Bhadrachalam Bus Stand – Approximately 1 km",
+        "railway_station": "Bhadrachalam Road Railway Station (Kothagudem) – Approximately 40 km",
+        "airport": "Rajahmundry Airport – Approximately 180 km"
+      },
+      "booking_links": {
+        "Booking.com": "https://www.booking.com/hotel/in/katyayani-serenity.html",
+        "Airbnb": "https://www.airbnb.co.in/rooms/1327575419874518953"
+      },
+      "ratings": {
+        "platform": "Booking.com",
+        "rating": "9.7/10"
+      },
+      "room_types": [
+        "Two-Bedroom Apartment",
+        "Ground Floor Apartment",
+        "First Floor Apartment",
+        "Penthouse Apartment"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free Private Parking",
+        "Family Rooms",
+        "Air Conditioning",
+        "Fully Equipped Kitchen",
+        "Refrigerator",
+        "Dining Area",
+        "Washing Machine",
+        "Balcony",
+        "Terrace",
+        "Smart TV",
+        "Streaming Services",
+        "City View",
+        "Covered Parking",
+        "Non-Smoking Rooms"
+      ],
+      "facilities_summary": {
+        "room_service": "No",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "No In-house Restaurant",
+        "restaurant": "No",
+        "room_service": "No",
+        "in_room_dining": "Self-Cooking Facility Available",
+        "breakfast": "Not Included / Not Mentioned",
+        "food_type": "Self-Catering",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Senior Citizens",
+        "Group Pilgrims",
+        "Friends",
+        "Long-Stay Guests"
+      ],
+      "cancellation_policy": "Cancellation and prepayment policies vary depending on the apartment type and booking plan. Please verify the selected booking option before confirming the reservation.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Sita Ramachandra Swamy Temple – Approximately 300 m",
+        "Head Post Office",
+        "Godavari River – Approximately 400 m",
+        "Bhadrachalam Bus Stand – Approximately 1 km"
+      ],
+      "temple_id": "T0002",
+      "hotel_id": "H0019"
+    }
+  ],
+  "temple_id": "T0002",
+  "hotel_id": "H0019"
+}

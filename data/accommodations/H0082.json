@@ -1,0 +1,89 @@
+{
+  "associated_temple": "Surendrapuri (Kunda Satyanarayana Kaladham)",
+  "hotels": [
+    {
+      "hotel_name": "FabHotel Sunshine Residency",
+      "hotel_type": "3-Star Hotel",
+      "address": "Survey No. 122/1E, Yadagirigutta, Yadadri Bhuvanagiri District, Telangana - 508115, India",
+      "contact_numbers": [
+        "+91 70424 24242"
+      ],
+      "email": "",
+      "about": "FabHotel Sunshine Residency is a 3-star hotel located near Surendrapuri and Yadadri Temple. The hotel offers air-conditioned family rooms with free Wi-Fi, daily housekeeping, room service, and a 24-hour front desk. It is a convenient accommodation choice for pilgrims visiting Surendrapuri, Yadadri, and nearby Swarnagiri Temple. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=FabHotel+Sunshine+Residency+Yadagirigutta",
+      "official_website": "https://www.fabhotels.com/",
+      "price_range": "₹1,500–₹2,200 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Yadagirigutta Bus Stand – Approximately 1 km",
+        "railway_station": "Raigir Railway Station – Approximately 2.5 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 76 km"
+      },
+      "booking_links": {
+        "FabHotels": "https://www.fabhotels.com/",
+        "Booking.com": "https://www.booking.com/hotel/in/collection-o-surendrapuri-temple-yadadri-formerly-sunshine.en-gb.html",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Official": null
+      },
+      "ratings": {
+        "platform": "Booking.com",
+        "rating": "4.8/10"
+      },
+      "room_types": [
+        "Deluxe Room",
+        "Family Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "24-Hour Front Desk",
+        "Room Service",
+        "Daily Housekeeping",
+        "Family Rooms",
+        "TV",
+        "Wardrobe"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Breakfast Available",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available",
+        "food_type": "Not Specified",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Business Travelers",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room plan. Eligible plans may include free cancellation. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Surendrapuri Mythological Theme Park",
+        "Yadadri Sri Lakshmi Narasimha Swamy Temple",
+        "Swarnagiri Sri Venkateswara Swamy Temple",
+        "Raigir Railway Station"
+      ],
+      "temple_id": "T0022",
+      "hotel_id": "H0082"
+    }
+  ],
+  "temple_id": "T0022",
+  "hotel_id": "H0082"
+}

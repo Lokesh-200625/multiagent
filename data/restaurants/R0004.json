@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0004",
+  "googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Udipi's+Kitchen+Yadagiri+Gutta+Telangana",
+  "restaurantName": "Udipi's Kitchen Yadagiri Gutta (Yadadri)",
+
+  "associatedTemple": {
+    "templeId": "T0001",
+    "templeName": "Sri Lakshmi Narasimha Swamy Temple, Yadadri"
+  },
+
+  "basicInformation": {
+    "category": "Pure Vegetarian Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Udupi",
+      "Vegetarian"
+    ],
+    "shortDescription": "A pure vegetarian Udupi-style restaurant near Yadadri serving tiffins, South Indian meals and beverages for temple visitors."
+  },
+
+  "location": {
+    "fullAddress": "HWCV+7MC, Yadagirigutta Road, Gundlapally, Yadagirigutta, Telangana 508115, India",
+    "area": "Gundlapally",
+    "city": "Yadagirigutta",
+    "district": "Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "pincode": "508115",
+    "landmark": "Yadagirigutta Road",
+    "plusCode": "HWCV+7MC",
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 2.0,
+      "source": "Estimated from verified business and temple locations",
+      "confidence": "High"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 25,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 5,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 5,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": 8,
+        "unit": "minutes",
+        "type": "Estimated"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+91 8340063000",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "07:00 AM",
+    "closingTime": "10:30 PM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Vada",
+      "Poori"
+    ],
+
+    "lunch": [
+      "Veg Meals",
+      "South Indian Meals",
+      "Rice Items"
+    ],
+
+    "dinner": [
+      "Dosa",
+      "Chapati",
+      "Meals"
+    ],
+
+    "snacks": [
+      "Vada",
+      "Bajji"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Filter Coffee"
+    ],
+
+    "specialDishes": [
+      "Udupi Tiffins",
+      "South Indian Meals"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Cheap",
+    "averageCostForOne": "₹100–200",
+    "averageCostForTwo": "₹200–400"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": 3.3,
+    "totalReviews": 700
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+    "busStand": "Yadagirigutta Bus Stand",
+    "railwayStation": "Raigir Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Pure vegetarian option.",
+    "Budget-friendly for pilgrims.",
+    "Good breakfast and tiffin option.",
+    "Located on Yadagirigutta Road.",
+    "Suitable for families."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "address",
+      "phoneNumber",
+      "workingHours",
+      "googleRating",
+      "totalReviews",
+      "category"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation"
+    ],
+
+    "unknownFields": [
+      "officialWebsite",
+      "googleBusinessProfile"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0021",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Monginis+Vemulawada+Telangana",
+      "restaurantName": "Monginis Vemulawada",
+
+  "associatedTemple": {
+    "templeId": "T0003",
+    "templeName": "Sri Raja Rajeshwara Swamy Temple, Vemulawada"
+  },
+
+  "basicInformation": {
+    "category": "Cake Shop & Cafe",
+    "cuisineType": [
+      "Bakery",
+      "Cakes",
+      "Desserts",
+      "Snacks",
+      "Beverages",
+      "Vegetarian"
+    ],
+    "shortDescription": "A Monginis cake shop offering fresh cakes, pastries, bakery products, snacks and beverages near Sri Raja Rajeshwara Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Vemulawada, Telangana, India",
+    "area": "Temple Area",
+    "city": "Vemulawada",
+    "district": "Rajanna Sircilla",
+    "state": "Telangana",
+    "pincode": "505302",
+    "landmark": "Near Sri Raja Rajeshwara Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.7,
+    "walkingTimeMinutes": 9,
+    "bikeTimeMinutes": 3,
+    "carTimeMinutes": 3,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": "https://www.monginis.net",
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [
+      "Veg Puff",
+      "Pizza Slice",
+      "Burger",
+      "Sandwich",
+      "Cookies"
+    ],
+    "beverages": [
+      "Coffee",
+      "Tea",
+      "Cold Drinks"
+    ],
+    "specialDishes": [
+      "Birthday Cakes",
+      "Black Forest Cake",
+      "Chocolate Cake",
+      "Pastries",
+      "Cup Cakes"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹100–250",
+    "averageCostForTwo": "₹250–500"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Raja Rajeshwara Swamy Temple",
+    "busStand": "Vemulawada Bus Station",
+    "railwayStation": "Kamareddi Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Popular branded cake shop.",
+    "Fresh cakes and pastries.",
+    "Ideal for snacks and desserts.",
+    "Pure vegetarian bakery.",
+    "Suitable for families and pilgrims."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Official Website",
+      "url": "https://www.monginis.net"
+    },
+    {
+      "sourceName": "Restaurant Guru",
+      "url": "https://restaurant-guru.in/vegetarian-Vemulawada-c93"
+    }
+  ]
+}

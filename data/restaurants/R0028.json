@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0028",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Haritha+Hotel+Kondagattu+Telangana",
+  "restaurantName": "Haritha Hotel Kondagattu",
+
+  "associatedTemple": {
+    "templeId": "T0005",
+    "templeName": "Sri Kondagattu Anjaneya Swamy Temple"
+  },
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A Telangana Tourism Haritha restaurant located near Sri Kondagattu Anjaneya Swamy Temple, serving breakfast, meals and Indian cuisine."
+  },
+
+  "location": {
+    "fullAddress": "Haritha Hotel, Kondagattu, Jagitial District, Telangana, India",
+    "area": "Temple Area",
+    "city": "Kondagattu",
+    "district": "Jagitial",
+    "state": "Telangana",
+    "pincode": "505452",
+    "landmark": "Near Sri Kondagattu Anjaneya Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.4,
+    "walkingTimeMinutes": 6,
+    "bikeTimeMinutes": 2,
+    "carTimeMinutes": 2,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": "https://tourism.telangana.gov.in/",
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹200–350",
+    "averageCostForTwo": "₹500–700"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Kondagattu Anjaneya Swamy Temple",
+    "busStand": "Kondagattu Bus Stand",
+    "railwayStation": "Jagitial Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Operated by Telangana Tourism.",
+    "Family-friendly restaurant.",
+    "Parking facility available.",
+    "Suitable for pilgrims and tourists.",
+    "Located close to Sri Kondagattu Anjaneya Swamy Temple."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Telangana Tourism",
+      "url": "https://tourism.telangana.gov.in/"
+    }
+  ]
+}

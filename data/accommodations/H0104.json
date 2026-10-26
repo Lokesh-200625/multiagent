@@ -1,0 +1,86 @@
+{
+  "associated_temple": "Sri Chilkur Balaji Temple",
+  "hotels": [
+    {
+      "hotel_name": "The Stylish Bunker Lounge Chilkur",
+      "hotel_type": "Entire 2-Bedroom Homestay",
+      "address": "Near Sri Chilkur Balaji Temple, Chilkur Village, Moinabad Mandal, Hyderabad, Telangana - 501504, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "The Stylish Bunker Lounge Chilkur is a premium 2-bedroom homestay located approximately 240 metres from Sri Chilkur Balaji Temple. The property offers a private swimming pool, spacious air-conditioned rooms, free Wi-Fi, free parking, and modern amenities, making it ideal for families, pilgrims, and small groups.",
+      "google_map_link": "https://maps.google.com/?q=The+Stylish+Bunker+Lounge+Chilkur",
+      "official_website": "",
+      "price_range": "₹5,600–₹8,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "10:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Chilkur Bus Stop – Approximately 300 m",
+        "railway_station": "Hyderabad Deccan (Nampally) Railway Station – Approximately 22 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 28 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/the_stylish_bunker_lounge_chilkur-details-chevella.html",
+        "Goibibo": "https://www.goibibo.com/hotels/the-stylish-bunker-lounge-chilkur-hotel-in-chevella/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "Not Available"
+      },
+      "room_types": [
+        "Entire 2-Bedroom Homestay",
+        "2 King Bedroom Villa"
+      ],
+      "amenities": [
+        "Private Swimming Pool",
+        "Free Wi-Fi",
+        "Private Parking",
+        "Air Conditioning",
+        "Power Backup",
+        "Caretaker",
+        "Luggage Assistance",
+        "First Aid Services",
+        "Private Living Room"
+      ],
+      "facilities_summary": {
+        "room_service": "No",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Not Available",
+        "restaurant": "No",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Not Included",
+        "food_type": "Not Applicable",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible bookings up to 24 hours before check-in. Book @ ₹0 Payment is available on selected room plans.",
+      "payment_modes": [
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Chilkur Balaji Temple (240 m)",
+        "Himayat Sagar Lake",
+        "Osman Sagar Lake",
+        "JBIET",
+        "ICFAI University"
+      ],
+      "temple_id": "T0008",
+      "hotel_id": "H0104"
+    }
+  ],
+  "temple_id": "T0008",
+  "hotel_id": "H0104"
+}

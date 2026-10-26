@@ -1,0 +1,74 @@
+{
+  "associated_temple": "Sri Kaleshwara Mukteswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Vishweshwar Lodge & Hotel",
+      "hotel_type": "Lodge",
+      "address": "H No. 8-3-40/2, Near Interstate Bridge, Near Laxmi Pumphouse, Kaleshwaram, Jayashankar Bhupalpally District, Telangana - 505504, India",
+      "contact_numbers": [
+        "+91 9666124102"
+      ],
+      "email": "",
+      "about": "Vishweshwar Lodge & Hotel is a budget accommodation situated near the Interstate Bridge in Kaleshwaram. The lodge offers basic lodging facilities for pilgrims visiting Sri Kaleshwara Mukteswara Swamy Temple and is conveniently located within Kaleshwaram village.",
+      "google_map_link": "https://maps.google.com/?q=Vishweshwar+Lodge+Hotel+Kaleshwaram",
+      "official_website": "",
+      "price_range": "Not Available",
+      "check_in_time": "Not Mentioned",
+      "check_out_time": "Not Mentioned",
+      "nearest_transport": {
+        "bus_stand": "Kaleshwaram Bus Stand – Approximately 700 m",
+        "railway_station": "Peddapalli Railway Station – Approximately 95 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 288 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "overall": "[]"
+      },
+      "room_types": [
+        "Not Mentioned"
+      ],
+      "amenities": [
+        "Basic Accommodation"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Not Mentioned"
+      },
+      "food_facility": {
+        "availability": "Not Mentioned",
+        "restaurant": "Not Mentioned",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Not Available",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Kaleshwara Mukteswara Swamy Temple",
+        "Interstate Bridge",
+        "Godavari River",
+        "Pranahita Sangamam"
+      ],
+      "temple_id": "T0007",
+      "hotel_id": "H0048"
+    }
+  ],
+  "temple_id": "T0007",
+  "hotel_id": "H0048"
+}

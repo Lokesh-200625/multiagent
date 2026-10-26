@@ -1,0 +1,87 @@
+{
+  "associated_temple": "Birla Mandir, Hyderabad",
+  "hotels": [
+    {
+      "hotel_name": "Deccan Comfort Guest House",
+      "hotel_type": "Budget Guest House",
+      "address": "Lakdikapul, Hyderabad, Telangana - 500004, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Deccan Comfort Guest House is a budget accommodation located approximately 560 metres from Birla Mandir. The property offers clean and affordable rooms with essential amenities, making it suitable for pilgrims, solo travelers, families, and business visitors. It is listed on Goibibo and is one of the closest budget stays to Birla Mandir.",
+      "google_map_link": "https://maps.google.com/?q=Deccan+Comfort+Guest+House+Hyderabad",
+      "official_website": "",
+      "price_range": "₹900–₹2,000 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Lakdikapul Bus Stop – Approximately 300 m",
+        "railway_station": "Lakdikapul Railway Station – Approximately 800 m",
+        "airport": "Rajiv Gandhi International Airport – Approximately 25 km"
+      },
+      "booking_links": {
+        "MakeMyTrip": null,
+        "Goibibo": "https://www.goibibo.com/",
+        "Official": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "3.8/5"
+      },
+      "room_types": [
+        "Standard Room",
+        "Deluxe Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Room Service",
+        "Housekeeping",
+        "Power Backup",
+        "24-Hour Front Desk",
+        "Parking",
+        "Daily Housekeeping"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "No",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Included",
+        "food_type": "Not Specified",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Solo Travelers",
+        "Business Travelers",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking plan available on Goibibo.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Birla Mandir (560 m)",
+        "Lakdikapul Metro Station",
+        "Lumbini Park",
+        "Hussain Sagar Lake",
+        "Telangana Secretariat"
+      ],
+      "temple_id": "T0009",
+      "hotel_id": "H0031"
+    }
+  ],
+  "temple_id": "T0009",
+  "hotel_id": "H0031"
+}

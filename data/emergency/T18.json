@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0018",
+  "temple_name": "Jamalapuram Sri Venkateswara Swamy Temple",
+  "location": {
+    "district": "Khammam",
+    "state": "Telangana",
+    "latitude": 17.3742,
+    "longitude": 80.1558
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Primary Health Centre, Jamalapuram",
+        "type": "Government Hospital",
+        "address": "Jamalapuram, Khammam District, Telangana 507201",
+        "latitude": 17.3754,
+        "longitude": 80.1573,
+        "distance_from_temple_km": 0.8,
+        "estimated_travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Primary+Health+Centre+Jamalapuram/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Government Area Hospital, Yellandu",
+        "type": "Government Hospital",
+        "address": "Yellandu, Bhadradri Kothagudem, Telangana 507123",
+        "latitude": 17.5963,
+        "longitude": 80.3215,
+        "distance_from_temple_km": 9.5,
+        "estimated_travel_time": "16 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Area+Hospital+Yellandu/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Jamalapuram Police Station",
+        "type": "Police Station",
+        "address": "Jamalapuram, Khammam District, Telangana 507201",
+        "latitude": 17.3749,
+        "longitude": 80.1566,
+        "distance_from_temple": 0.5,
+        "travel_time": "2 min",
+        "google_maps_url": "https://www.google.com/maps/search/Jamalapuram+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Jamalapuram",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Yellandu",
+        "address": "Yellandu, Telangana 507123",
+        "coordinates": {
+          "latitude": 17.5982,
+          "longitude": 80.3238
+        },
+        "distance_from_temple": 9.8,
+        "travel_time": "17 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Yellandu/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Sri Venkateswara Medical & General Stores",
+        "address": "Temple Road, Jamalapuram, Telangana 507201",
+        "distance": 0.4,
+        "coordinates": {
+          "latitude": 17.3748,
+          "longitude": 80.1561
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Venkateswara+Medical+Store+Jamalapuram/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 9:30 PM",
+        "24x7": false,
+        "home_delivery": false,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Yellandu Main Road, Telangana 507123",
+        "distance": 9.6,
+        "coordinates": {
+          "latitude": 17.5972,
+          "longitude": 80.3221
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Yellandu/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

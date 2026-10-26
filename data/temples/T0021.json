@@ -1,0 +1,672 @@
+{
+  "temple_id": "T0021",
+  "name": "Sri Sammakka Saralamma Temple (Medaram)",
+  "alternate_names": [
+    "Sammakka Saralamma Jatara",
+    "Medaram Jathara",
+    "Sammakka Sarakka Jatara",
+    "Medaram Maha Jathara",
+    "Medaram Tribal Jathara",
+    "Asia's largest tribal religious congregation"
+  ],
+  "multilingual": {
+    "names": {
+      "en": "Sri Sammakka Saralamma Temple, Medaram (Sammakka Saralamma Jatara / Medaram Jathara)",
+      "te": "మేడారం సమ్మక్క సారలమ్మ జాతర",
+      "hi": "मेडारम सम्मक्का सारलम्मा जातरा"
+    },
+    "alternate_spellings": [
+      "Medaram",
+      "Sammakka Sarakka",
+      "Sammakka Saralamma",
+      "Saralamma",
+      "Sarakka",
+      "Medaram Jathara"
+    ],
+    "common_abbreviations": "Medaram Jathara, Sammakka Sarakka, Asia's largest tribal fair",
+    "voice_pronunciation_variants": "Telugu: మేడారం సమ్మక్క సారలమ్మ జాతర (Mēḍāram Sammakka Sāralamma Jātara); English: \"Medaram Sammakka Saralamma Jathara\""
+  },
+  "deity": {
+    "presiding_deity": "Goddess Sammakka (Sammakka Ammavaru) and her daughter Goddess Saralamma (Sarakka / Saralamma Ammavaru) — the tribal mother-daughter duo revered as forest goddesses (Devathas). Goddess Sammakka is the primary presiding deity; her idol is at Chilakala Gutta in the form of a 'Kumkuma Bharina' (a vermilion-form deity).",
+    "other_deities": [
+      "Goddess Saralamma (Sarakka) — daughter of Sammakka, installed at Kannepally village",
+      "Pagididda Raju — Sammakka's husband and a feudatory tribal chief of the Kakatiyas",
+      "Govindaraju (Govinda Raju) — associated deity taken back to the forest after the Jathara",
+      "Jampanna — Sammakka's son, the tribal warrior who died fighting the Kakatiyan Army at Jampanna Vagu"
+    ]
+  },
+  "temple_type": "Tribal Hindu Temple (Koya tribe priestly tradition; non-Vedic / non-Brahmanic; biennial Jathara — State Festival of Telangana)",
+  "religion": "Hinduism (Tribal/Koya tradition — no Vedic or Brahmanic influence)",
+  "category": "Tribal Goddess Temple / Sakti Kshetram (Koya Devi temple; largest tribal religious congregation in Asia; State Festival of Telangana)",
+  "location": {
+    "village": "Medaram",
+    "mandal": "Tadvai Mandal (also referenced as S.S. Tadvai Mandal)",
+    "district": "Mulugu District (formed 17 February 2019, bifurcated from Jayashankar Bhupalpally District, which was previously part of Warangal District)",
+    "state": "Telangana",
+    "country": "India",
+    "address": "Sammakka Saralamma Temple, Medaram Village, Tadvai Mandal, Mulugu District, Telangana – 506344, India (within the Eturnagaram Wildlife Sanctuary / Dandakaranya forest belt, ~90 km from Warangal city)",
+    "pincode": "506344",
+    "latitude": 18.3206072,
+    "longitude": 80.2416967,
+    "google_maps_url": "https://maps.app.goo.gl/medaram-jathara",
+    "elevation": "~115 meters above sea level (in the dense Dandakaranya / Eturnagaram forest belt, Mulugu district)",
+    "timezone": "Asia/Kolkata"
+  },
+  "overview": "Sri Sammakka Saralamma Temple at Medaram, in the heart of the Eturnagaram Wildlife Sanctuary (Dandakaranya forest belt), Tadvai Mandal, Mulugu District, Telangana, is the site of Asia's largest tribal religious congregation — the Sammakka Saralamma Jatara (Medaram Jathara), held biennially in honour of the tribal mother-daughter duo Sammakka and Saralamma. Declared a State Festival in 1998, the Jathara draws 1.5–3 crore devotees over four days (next: 28–31 January 2028, with 2026 having just concluded), making it the largest gathering in India after the Kumbh Mela. The rituals are performed entirely by Koya tribe priests in accordance with their customs (no Vedic or Brahmanic influence). Devotees offer 'Bangaram' (jaggery, equal to their weight in some traditions), 'Odi Biyyam' (sacred rice) and take a holy dip in the red waters of Jampanna Vagu (named after the tribal warrior Jampanna, who died fighting the Kakatiyan Army in that stream). The temple complex is administered by a non-hereditary chairman board, with MLA Santosh Chakravarthy having served as the first chairman (appointed 27 April 1968). The Telangana government reconstructed the altars of the deities (Sammakka, Saralamma, Govindaraju, Pagididda Raju) at a cost of ~₹101 crore ahead of the 2026 Jathara, with additional ₹150 crore in development works.",
+  "summary": "Sri Sammakka Saralamma Temple at Medaram (Tadvai Mandal, Mulugu District, Telangana) is the site of Asia's largest tribal religious congregation, the Sammakka Saralamma Jatara — a biennial State Festival in honour of the tribal mother-daughter goddesses Sammakka and Saralamma. Held every two years in late January (next: 28–31 January 2028), the four-day Jathara draws 1.5–3 crore devotees, making it the largest gathering in India after the Kumbh Mela. Rituals are performed entirely by Koya tribe priests (no Vedic/Brahmanic influence). Devotees offer Bangaram (jaggery), take a holy dip in the red waters of Jampanna Vagu (named after the tribal warrior Jampanna), and worship the forest goddesses. The Telangana government spent ~₹101 crore on altar reconstruction and ₹150 crore on development works for 2026, deploying 21 departments, 42,000+ personnel, ~9,000 police, and ~500 NSS volunteers. Until 1955 only ~2,000 people attended, mostly Koya tribals; today the Koya community represents just 2% of the 1.3+ crore pilgrims.",
+  "history": [
+    {
+      "section": "13th-century Origin & the Kakatiya Revolt",
+      "content": "Per tribal tradition, the goddess Sammakka and her daughter Saralamma were tribal leaders who lived in the 12th–13th centuries and led a revolt against the Kakatiya rulers' unjust tax on the tribal populace during a prolonged drought. Sammakka was married to Pagididda Raju, a feudatory tribal chief of the Kakatiyas (who ruled the country of Andhra from Warangal City between 1000 AD and 1380 AD). She was blessed with 2 daughters and 1 son: Sarakka, Nagulamma and Jampanna respectively. Jampanna was a tribal warrior who died fighting the Kakatiyan Army at a stream (now named Jampanna Vagu after him; the water is reportedly red in colour — scientifically attributed to the soil composition, but tribally believed to be marked with Jampanna's blood). Per tribal legend, it was Sammakka's curse which caused the gradual decline and death of the Kakatiya rule. The Jathara commemorates their sacrifice and is the largest repeating tribal religious congregation in the world.",
+      "foundation_year": "13th century (per tribal tradition; legend dates back ~700 years)",
+      "founders": [],
+      "legends": [
+        "Sammakka was born ~6–7 centuries ago (13th century), when tribal leaders on a hunt found a newborn girl emitting enormous light playing amidst tigers; the head of the tribe adopted and raised her as a chieftain.",
+        "Sammakka married Pagididda Raju, a feudatory tribal chief of the Kakatiyas, and had 2 daughters (Sarakka/Saralamma, Nagulamma) and 1 son (Jampanna).",
+        "Sammakka led a tribal revolt against the unjust Kakatiya tax on tribals during a drought.",
+        "Her son Jampanna died fighting the Kakatiyan Army at a stream (now Jampanna Vagu); the water is still reddish — tribally believed to be marked with his blood.",
+        "Sammakka's curse is said to have caused the gradual decline and death of the Kakatiya rule.",
+        "Saralamma is installed in a temple at Kannepally, a small village near Medaram; Sammakka is at Chilakala Gutta in the form of a 'Kumkuma Bharina' (vermilion form).",
+        "The tribal goddesses are believed to 'visit' their devotees during the Jathara period; after 4 days, the goddesses return to the forest (Vana Pravesham)."
+      ]
+    },
+    {
+      "section": "Modern Era: 1946, 1955, 1998, 2026",
+      "content": "Until 1955, only about 2,000 people visited Medaram, of whom the majority (1,500) belonged to the Koya tribe. In 1946, the Jatara was held with greater fervour and attendance than ever before under the supervision of Subedar Amir Ali Khan, who instituted multiple water stations, first-aid posts, mobile medical units, traffic regulation, sanitation, and crowd management — widely cited as a precedent-setting public welfare effort. Until 1998, the only way to reach Medaram was by bullock cart; in that year, the state government declared the 1,000-year-old festival as official (a State Festival) and laid down a motorable road. MLA Santosh Chakravarthy was appointed as the first chairman of the Sammakka Sarakka Temple on 27 April 1968. In 2008, ~8 million people attended; today attendance is ~10 million+ per cycle. The 2012 Jathara attracted ~1 crore people. The 2026 Jathara (28–31 January 2026) was the largest yet: an estimated 80 lakh devotees on the first two days alone, with the full 4-day total estimated at nearly 3 crore; the Telangana government deployed 21 government departments, 42,027 personnel, ~9,000 police officers, hundreds of CCTV cameras and 2 drone cameras, and ~500 NSS volunteers from Kakatiya University, Warangal. The government reconstructed the altars of Sammakka, Saralamma, Govindaraju and Pagididda Raju at a cost of ~₹101 crore, with additional ₹150 crore in development works (parking, water stations, sanitation, medical camps, temporary bridges). The 2026 Jathara concluded at 7:55 PM on 31 January 2026 with Vana Pravesham (return to the forest).",
+      "foundation_year": "Recognized as State Festival in 1998; motorable road laid in 1998; altar reconstruction completed for 2026",
+      "founders": [
+        "Koya tribe (traditional custodians and priests)",
+        "Subedar Amir Ali Khan (1946 — pioneer of modern public welfare arrangements)",
+        "MLA Santosh Chakravarthy (first chairman of the Sammakka Sarakka Temple board, appointed 27 April 1968)",
+        "Government of Telangana (since 1998 — State Festival status, infrastructure)"
+      ],
+      "legends": [
+        "1946: Subedar Amir Ali Khan's stewardship of the Jathara set a precedent for public welfare (water stations, medical camps, traffic, sanitation).",
+        "1998: State Festival declared; motorable road laid; the festival took a modern shape.",
+        "1968: MLA Santosh Chakravarthy appointed first chairman of the Sammakka Sarakka Temple board.",
+        "2008: ~8 million attendees; 2012: ~1 crore attendees.",
+        "2026: ~80 lakh on days 1–2, nearly 3 crore total; ₹101 crore altar reconstruction + ₹150 crore development works; 21 government departments, 42,000+ personnel, ~9,000 police, 2 drone cameras, ~500 NSS volunteers; concluded at 7:55 PM on 31 Jan 2026."
+      ]
+    }
+  ],
+  "sthala_puranam": "Per tribal tradition, goddess Sammakka was born in the 13th century, found as a newborn emitting enormous light amid tigers, and was adopted by the head of the Koya tribe. She married Pagididda Raju, a feudatory tribal chief of the Kakatiyas, and had 2 daughters (Sarakka/Saralamma and Nagulamma) and 1 son (Jampanna). When the Kakatiya rulers imposed an unjust tax on the tribals during a prolonged drought, Sammakka and her daughter Saralamma led a tribal revolt. Jampanna, Sammakka's son and a tribal warrior, died fighting the Kakatiyan Army at a stream (now Jampanna Vagu after him; the water is still reddish — tribally believed to be marked with his blood). Sammakka's curse is said to have caused the gradual decline and death of the Kakatiya rule. The forest goddesses are believed to 'visit' their devotees during the biennial Jathara, after which they return to the forest (Vana Pravesham) — the focal point of the four-day festival. The rituals are entirely performed by Koya tribe priests in accordance with their customs, with no Vedic or Brahmanic influence.",
+  "religious_significance": "Sammakka Saralamma Temple at Medaram is the site of Asia's largest tribal religious congregation and a State Festival of Telangana (since 1998). It is the largest gathering in India after the Kumbh Mela. The temple is a non-Vedic, non-Brahmanic shrine entirely administered by Koya tribe priests in accordance with their customs. It is a major centre for tribal religious identity, drawing 1.5–3 crore devotees from Telangana, Andhra Pradesh, Odisha, Maharashtra, Madhya Pradesh, Chhattisgarh, Karnataka and Jharkhand. Devotees offer Bangaram (jaggery), Odi Biyyam (sacred rice), turmeric, vermilion, rice and cloth; women offer sarees; and pilgrims take a holy dip in the red waters of Jampanna Vagu. The temple is revered as a symbol of tribal resistance, women's leadership (Sammakka as a female warrior-chieftain) and forest-deity devotion. The 2026 Jathara was inaugurated by the Telangana Chief Minister A. Revanth Reddy on 19 January 2026 (reconstructed shrine inauguration).",
+  "spiritual_significance": "Devotees believe Sammakka and Saralamma are forest goddesses (Devathas) who 'visit' their devotees during the Jathara period and return to the forest after four days (Vana Pravesham). The rituals performed at the gaddelu (sacred altar) are believed to bestow protection, fulfilment of vows (Mokubadulu), and ancestral blessings. Devotees come seeking solutions to personal and family problems, court cases, marital issues, child-related concerns, and protection of tribal lands and forests. The red water of Jampanna Vagu is believed to remind tribals of the sacrifice of their gods and to induce courage in their souls. The festival is a major assertion of tribal cultural identity and continuity, and the journey to Medaram itself is considered a sacred pilgrimage.",
+  "healing_beliefs": [
+    "Holy dip in the red waters of Jampanna Vagu — believed to instil courage and remind pilgrims of the gods' sacrifice",
+    "Fulfilment of vows (Mokubadulu) at the gaddelu",
+    "Solutions to personal and family problems, court cases, marital issues, child-related concerns",
+    "Protection of tribal lands and forests (per Sammakka's legacy)",
+    "General protection, ancestral blessings and tribal identity affirmation",
+    "Mental peace and removal of fear — particularly for tribal devotees"
+  ],
+  "miracles_and_devotee_experiences": [
+    "Tribal devotees report that the red colour of Jampanna Vagu is attributed to the blood of Jampanna, the tribal warrior who died fighting the Kakatiyan Army in that stream — a story that has been transmitted for ~700 years.",
+    "Devotees report that prayers offered at the gaddelu (sacred altar) are answered in the form of fulfilment of vows (Mokubadulu).",
+    "Pilgrims describe the 'spiritual atmosphere, traditional offerings' and 'devotional atmosphere' as 'strong' even with lakhs of devotees attending (per Siasat 30 Jan 2026).",
+    "Sammakka's curse is said to have caused the gradual decline and death of the Kakatiya rule — a long-standing tribal narrative.",
+    "The first chairman of the Sammakka Sarakka Temple was MLA Santosh Chakravarthy (appointed 27 April 1968), a fact recorded on the official commemorative board inside the temple premises."
+  ],
+  "architecture": "The Sammakka Saralamma Temple at Medaram has a distinct tribal-Shaivite architecture, blending folk-tribal elements with simple South Indian temple features. The gaddelu (sacred altar) is the focal point of the four-day Jathara, where the deities are ceremonially installed. Saralamma is installed in a temple at Kannepally (a small village near Medaram), and Sammakka is at Chilakala Gutta in the form of a 'Kumkuma Bharina' (a vermilion-form deity — i.e. the goddess is represented by a mound of vermilion rather than a stone or metal idol). The complex is in the heart of the Eturnagaram Wildlife Sanctuary (Dandakaranya forest belt). The Telangana government reconstructed the altars of the deities (Sammakka, Saralamma, Govindaraju, Pagididda Raju) at a cost of ~₹101 crore ahead of the 2026 Jathara. The Jampanna Vagu (a tributary of the Godavari) flows through the forest region, with a bridge constructed on top of it (Jampanna Vagu bridge). The complex includes Forest Tents (100 tents set up by the Forest Department; up to 5 persons per tent; 24-hour/12-hour rentals), Kalyana Katta, Ballon No. 5, and 21 government department-managed facilities.",
+  "architectural_style": "Tribal-Shaivite architecture with simple South Indian elements; the deity Sammakka is a 'Kumkuma Bharina' (vermilion-form deity) rather than a stone or metal idol — a unique tribal feature. The altars were reconstructed for 2026.",
+  "temple_layout": [
+    "Gaddelu (sacred altar) — the focal point of the Jathara where Sammakka and Saralamma are ceremonially installed; reconstructed for 2026",
+    "Saralamma temple at Kannepally (a small village near Medaram; the idol is brought to Medaram gaddelu on Day 1)",
+    "Chilakala Gutta — site of Sammakka's 'Kumkuma Bharina' (vermilion-form deity); the idol is brought to Medaram gaddelu on Day 2 with official police and government homage (SP fires three gunshots in the air to inaugurate the bali)",
+    "Jampanna Vagu — a tributary of the Godavari, named after the tribal warrior Jampanna; the water is reddish and considered holy for a dip; Jampanna Vagu bridge crosses it",
+    "Pagididda Raju shrine (associated deity; brought back to forest after Jathara)",
+    "Govindaraju shrine (associated deity; brought back to forest after Jathara)",
+    "Forest Tents (100 tents by the Forest Department, ~5 persons/tent, ₹2,000/24h, ₹1,000/12h)",
+    "Kalyana Katta (behind the tents; facility)",
+    "Ballon No. 5 area (where the Forest Tents are pitched)",
+    "21 government department-managed facilities (8 zones, 42 sectors for crowd regulation)",
+    "Jampanna Vagu bridge (constructed over the Jampanna Vagu)"
+  ],
+  "darshan_timings": [
+    {
+      "day": "Biennial Jathara — Day 1 (Wednesday) — 2026 example: 28 January 2026",
+      "morning": "Morning — secret pujas at Kannepally by pujaris (Saralamma's temple); unmarried men and women, those wanting children and those suffering from diseases perform special pujas to Saralamma",
+      "evening": "Evening (6:00 PM) — Saralamma brought from Kannepally to Medaram Gaddhe via Jampanna Vaagu; special pujas and worship; over 3 million devotees visit Saralamma on this day"
+    },
+    {
+      "day": "Biennial Jathara — Day 2 (Thursday) — 2026 example: 29 January 2026",
+      "morning": "Morning — bamboo sticks placed on the gaddhe; Edurukolla Ghattam ritual",
+      "evening": "Evening (6:00 PM) — Sammakka brought from Chilakala Gutta to gaddhe amid police and government homage; SP fires 3 gunshots to inaugurate the bali"
+    },
+    {
+      "day": "Biennial Jathara — Day 3 (Friday) — 2026 example: 30 January 2026",
+      "morning": "Day-long — devotees take punya snanams in Jampanna Vaagu; main Sammakka Saralamma darshanam; busiest day of the 4-day festival",
+      "evening": "Day-long — devotees offer Bangaram (jaggery), Odi Biyyam (sacred rice), sarees, vermilion, turmeric, rice, cloth; main offerings day"
+    },
+    {
+      "day": "Biennial Jathara — Day 4 (Saturday) — 2026 example: 31 January 2026 (concluded at 7:55 PM)",
+      "morning": "Morning — final darshan of Sammakka and Saralamma; millions offer prayers",
+      "evening": "Afternoon Ammavarlu Vana Pravesham — Sammakka, Saralamma, Govindaraju and Pagididda Raju return to the forest at ~6:00 PM; the Jathara concludes with religious chants"
+    },
+    {
+      "day": "Non-Jathara period (every 2 years in between)",
+      "morning": "JustDial lists 06:00 AM",
+      "evening": "Closed to general public (the site is in the Eturnagaram Wildlife Sanctuary; non-tribal visitors may need forest permits)"
+    }
+  ],
+  "timing_conflict_note": "The Sammakka Saralamma Jathara is held BIENNIALLY (every 2 years) — the 2026 cycle was 28–31 January 2026, the next cycle is January 2028 (expected 26–29 January 2028). Outside the Jathara period, the temple is in the deep Eturnagaram Wildlife Sanctuary and is not a typical daily-darshan shrine. JustDial lists '06:00 AM' opening hours for the temple listing (perhaps reflecting the Jathara's morning start). The 2026 Jathara was inaugurated by CM A. Revanth Reddy on 19 January 2026 (reconstructed shrine), with the main 4-day festival 28–31 January 2026, concluding at 7:55 PM on 31 January 2026. Each day of the Jathara has a distinct program (see 'darshan_timings' above).",
+  "sevas": [
+    {
+      "name": "Mokubadulu (vow fulfilment)",
+      "description": "Devotees fulfil vows (Mokubadulu) by offering Bangaram (jaggery), Odi Biyyam (sacred rice), sarees, turmeric, vermilion and cloth to the goddesses. This is the principal offering at the Jathara.",
+      "charges": "Voluntary; bangaram (jaggery) of a quantity equal to the devotee's weight is the most auspicious offering"
+    },
+    {
+      "name": "Bangaram Offering (Jaggery equal to body weight)",
+      "description": "The most important offering in the Sammakka Sarakka Jathara — devotees offer jaggery (bellam, called Bangaram) equal to their body weight to the goddesses. Symbolic of gold.",
+      "charges": "Voluntary; quantity depends on devotee's choice"
+    },
+    {
+      "name": "Odi Biyyam (Sacred Rice)",
+      "description": "Women offer 'Odi Biyyam' (sacred rice) to the goddesses on Day 3 (the main offerings day).",
+      "charges": "Voluntary"
+    },
+    {
+      "name": "Saree Offering",
+      "description": "Women offer sarees (combination of necessary items) to the goddesses on Day 3.",
+      "charges": "Voluntary"
+    },
+    {
+      "name": "Punya Snanam (Holy Bath)",
+      "description": "Devotees take a holy dip in the red waters of Jampanna Vagu, believed to be marked with the blood of the tribal warrior Jampanna. Considered central to the spiritual experience.",
+      "charges": "Free"
+    },
+    {
+      "name": "Forest Tent Stay (pilgrim accommodation)",
+      "description": "100 Forest Tents set up by the Forest Department for the 4-day Jathara; up to 5 persons per tent; with Kalyana Katta behind and a fresh-water toilet van for every 10 tents; fire extinguishers available.",
+      "charges": "₹2,000 for 24 hours; ₹1,000 for 12 hours; contact: +91 95531 42346 (A. Venkat)"
+    },
+    {
+      "name": "Asthi Visarjan / Astikalu Nimajjan",
+      "description": "Some devotees perform ancestral ash-immersion rituals at the Jampanna Vagu (less formalized than at Varanasi or other major sites).",
+      "charges": "Not specified"
+    }
+  ],
+  "rituals": [
+    "Day 1: Saralamma brought from Kannepally to Medaram gaddelu via Jampanna Vaagu (~6:00 PM)",
+    "Day 1: Unmarried men and women, those wanting children and those suffering from diseases perform special pujas to Saralamma",
+    "Day 1: Villages of Kannepally perform 'Aarti' and grand farewell to Saralamma",
+    "Day 2: Bamboo sticks placed on the gaddhe (Edurukolla Ghattam ritual)",
+    "Day 2: Sammakka brought from Chilakala Gutta to gaddhe amid police and government homage",
+    "Day 2: SP fires 3 gunshots in the air to inaugurate the bali (offering) to please Sammakka",
+    "Day 3 (main day): Devotees take Punya Snanams in Jampanna Vaagu (holy dip in red water)",
+    "Day 3: Main darshan of Sammakka and Saralamma; offerings of Bangaram, Odi Biyyam, sarees, turmeric, vermilion, rice, cloth",
+    "Day 4: Final darshan; afternoon Ammavarlu Vana Pravesham (return to forest at ~6:00 PM)",
+    "Day 4: Sammakka, Saralamma, Govindaraju and Pagididda Raju return to the forest with the same police and government homage as the arrival",
+    "All 4 days: Lakhs of pilgrims take a holy dip in the red water of Jampanna Vagu",
+    "All 4 days: Continuous jaggery (Bangaram) offerings to the goddesses",
+    "Continuous queue management and crowd regulation (8 administrative zones, 42 sectors in 2026)",
+    "Volunteer service by ~500 NSS volunteers from Kakatiya University, Warangal",
+    "Medical camps, bike ambulances and emergency response teams"
+  ],
+  "special_poojas": [
+    "Mokubadulu (vow fulfilment) at the gaddelu",
+    "Bangaram offering (jaggery = gold, equal to body weight)",
+    "Odi Biyyam (sacred rice) offering by women",
+    "Saree offering by women",
+    "Punya Snanam (holy dip) in Jampanna Vagu",
+    "Special pujas to Saralamma on Day 1 (unmarried men and women, those wanting children, those suffering from diseases)",
+    "Edurukolla Ghattam (Day 2 bamboo-stick ritual)",
+    "SP's 3-gunshot inauguration of the bali (Day 2)"
+  ],
+  "festivals": [
+    {
+      "festival": "Sammakka Saralamma Jatara (Medaram Maha Jathara)",
+      "description": "The principal and most significant festival — held biennially over 4 days in late January. The 2026 cycle was 28–31 January 2026; the next cycle is expected January 2028. Asia's largest tribal religious congregation, drawing 1.5–3 crore devotees over the 4-day period — the largest gathering in India after the Kumbh Mela. The CM of Telangana (A. Revanth Reddy) inaugurated the reconstructed shrine on 19 January 2026; the 4-day festival itself was 28–31 January 2026, concluding at 7:55 PM on 31 January with Vana Pravesham. The 2026 Jathara deployed 21 government departments, 42,027 personnel, ~9,000 police, hundreds of CCTV cameras, 2 drone cameras, and ~500 NSS volunteers from Kakatiya University."
+    },
+    {
+      "festival": "Karthika Masam (October–November)",
+      "description": "Tribal devotees perform small-scale pujas at the Kannepally and Chilakala Gutta shrines during Karthika Masam (off-Jathara period)."
+    },
+    {
+      "festival": "Magh Purnima / Full Moon days",
+      "description": "Per local tradition, the Jathara was historically associated with the full moon (Shuddha Purnima) day, though the modern 4-day Jathara runs Wednesday-to-Saturday in late January."
+    }
+  ],
+  "darshan_and_tickets": {
+    "general_darshan": "Free entry to Medaram and the gaddelu during the Jathara period. No entry ticket is required for the 4-day festival. Outside the Jathara period, the site is in the Eturnagaram Wildlife Sanctuary and is generally closed to non-tribal visitors (forest permits may be required for general visits).",
+    "special_darshan": "No special darshan or VIP system is documented — the gaddelu is a shared, open platform where all devotees queue for darshan.",
+    "ticket_details": "Forest Tent accommodation: ₹2,000 for 24 hours / ₹1,000 for 12 hours (contact: +91 95531 42346 — A. Venkat). All other offerings (Bangaram, Odi Biyyam, sarees, holy dip in Jampanna Vagu) are voluntary. The 2026 government spent ~₹101 crore on altar reconstruction and ₹150 crore on development works."
+  },
+  "dress_code": "Tribal devotees wear traditional Koya attire. For general pilgrims: traditional and modest attire is recommended — men often wear dhoti (and may remove the shirt at the inner sanctum / gaddelu per Telugu tribal convention); women wear sarees (which is also one of the principal offerings at the Jathara). Footwear is removed at the gaddelu and at the temple area. Pilgrims are advised to wear light, weather-appropriate clothing and to carry water during the crowded 4-day Jathara.",
+  "facilities": [
+    "100 Forest Tents (₹2,000/24h, ₹1,000/12h; up to 5 persons/tent; with Kalyana Katta, fresh-water toilet van per 10 tents, fire extinguishers)",
+    "Medical camps throughout the Jathara area",
+    "Bike ambulances for emergencies",
+    "Emergency response teams at all key locations (temple premises, gaddelu, Jampanna Vagu, RTC bus stand, Urattam, Shivaram Sagar, Narlapur, Padigapur)",
+    "Control rooms and missing persons camps",
+    "Drinking water stations along principal routes",
+    "Sanitation and cleaning parties",
+    "8 administrative zones and 42 sectors for crowd regulation",
+    "Hundreds of CCTV cameras and 2 drone cameras",
+    "9,000 police officers and security personnel",
+    "42,000+ government personnel (21 departments)",
+    "~500 NSS volunteers from Kakatiya University, Warangal",
+    "2,000 tribal volunteers",
+    "Parking areas (massive, per 2026 arrangements)",
+    "~4,000 TSRTC buses daily (per 2026 arrangements)",
+    "Temporary bridges to handle peak crowds",
+    "Wheel Chair Accessible Entrance and Exit (per JustDial listing)",
+    "Airbnb / private accommodation options (per medaramjathara.com)"
+  ],
+  "accommodation": {
+    "availability": "Accommodation is severely limited even on Jathara days — most pilgrims stay in Warangal, Hyderabad, or other nearby towns and travel in for the day. On-site: 100 Forest Tents (5 persons/tent); Airbnb options (per medaramjathara.com). The 2026 arrangements emphasised day-pilgrimage with massive bus operations rather than overnight stays at Medaram.",
+    "booking_process": "Forest Tent booking: contact +91 95531 42346 (A. Venkat) on the day or in advance. Airbnb: book via airbnb.co.in (specific Medaram listings exist). Most pilgrims travel from Warangal (~90 km) or Hyderabad (~300 km) for the day.",
+    "first_come_basis": "Forest Tents are on a first-come, first-served basis during the Jathara.",
+    "price_range": "Forest Tents: ₹2,000 for 24 hours / ₹1,000 for 12 hours (per 2026 official rates). Airbnb: variable, typically ₹1,500–₹5,000 per night for private homes around Medaram. Hotels in Warangal (the closest city, ~90 km): ₹800–₹4,000 per night for budget-mid-range.",
+    "nearby_options": [
+      "100 Forest Tents (Forest Department, Medaram) — ₹1,000–₹2,000",
+      "Airbnb private homes around Medaram (per medaramjathara.com)",
+      "Hotels and lodges in Warangal (~90 km) — full range from budget to premium",
+      "Hotels in Hyderabad (~300 km) — for pilgrims travelling from afar",
+      "Tadvai Forest Huts (~15.4 km from Medaram, per medaramjathara.com 'Nearby Attractions')"
+    ]
+  },
+  "best_time_to_visit": "The 4-day Sammakka Saralamma Jatara in late January is the only time most pilgrims visit — next cycle January 2028 (expected 26–29 January 2028). For off-season visitors, October to February is the most pleasant weather window, though the temple is in the deep Eturnagaram Wildlife Sanctuary and may be closed to non-tribal visitors outside the Jathara. Avoid peak days (Day 3 — Friday) if you dislike crowds (up to 40 lakh on the busiest day per 2026 arrangements). Pilgrims are advised to arrive early in the morning, carry water, wear light traditional clothing, and be prepared for significant walking and queueing.",
+  "travel": {
+    "road": "Medaram is ~90 km from Warangal city. Until 1998, the only way to reach Medaram was by bullock cart; in 1998, the state government laid down a motorable road. For the 2026 Jathara, TSRTC ran nearly 4,000 buses daily to move around 21 lakh people, with 30 bus points to Medaram. Special buses run from all areas of Telangana. From Hyderabad, the route is via Warangal; from Warangal, local buses and special Jathara buses. Buses also connect from Bhupalpally, Kothagudem, Mancherial, Karimnagar, and the surrounding districts. Massive parking areas are set up for the 4-day festival. The official website lists TGSRTC fares (e.g., Godavarikhani 175 km ₹400; Peddapalli 185 km ₹420; Manthani 150 km ₹350; B-Incline 175 km ₹400).",
+    "rail": "Nearest major railway station is Warangal (~90 km). Kazipet Junction is also a major railhead (~95 km). The Hyderabad + Greater Hyderabad regions together accounted for more than 5.18 lakh bus passengers during the 2026 Jathara, while Warangal zones and Karimnagar region also contributed significantly.",
+    "air": "Nearest airport is Rajiv Gandhi International Airport, Hyderabad (~300 km, 5–6 hours by road).",
+    "distances": [
+      "Hyderabad: ~300 km (~5–6 hours by road)",
+      "Warangal: ~90 km (the closest major city, base for many pilgrims)",
+      "Bhupalpally (Jayashankar Bhupalpally): ~30 km",
+      "Kothagudem: ~120 km",
+      "Mancherial: ~150 km",
+      "Karimnagar: ~150 km",
+      "Eturnagaram Wildlife Sanctuary: at the temple site",
+      "Ramappa Temple: ~50 km",
+      "Laknavaram Lake: ~35 km"
+    ],
+    "nearest_railway_station": "Warangal Railway Station (~90 km)",
+    "nearest_bus_station": "Medaram village bus stop (on the 1998 motorable road; 30+ TSRTC bus points to Medaram during the Jathara)",
+    "nearest_airport": "Rajiv Gandhi International Airport, Hyderabad (~300 km)"
+  },
+  "travel_tips": [
+    "The 4-day Jathara is held biennially in late January — the next cycle is expected January 2028 (likely 26–29 January 2028). Plan well in advance.",
+    "Day 3 (Friday) is the busiest day (up to 40 lakh visitors on the busiest day per 2026 arrangements). Choose Day 1 or Day 2 for shorter queues.",
+    "Wear traditional attire — men in dhoti (often shirtless at the gaddelu per tribal convention), women in sarees (which is also a principal offering).",
+    "Carry water, light food, comfortable footwear (which you'll remove at the gaddelu and Jampanna Vagu), and a towel for the holy dip.",
+    "Bring Bangaram (jaggery) of a quantity equal to your body weight for the principal offering — this is the most auspicious offering.",
+    "If you plan to take a holy dip in Jampanna Vagu, do so on Day 3 (the main day for snanams).",
+    "Avoid the area in the afternoon of Day 4 (Vana Pravesham) unless you specifically want to witness the return-to-forest procession.",
+    "Do not enter Medaram without a forest permit outside the Jathara period — it is in the Eturnagaram Wildlife Sanctuary (Dandakaranya forest belt).",
+    "Use the TSRTC special buses (4,000 daily) rather than private vehicles during the Jathara; the traffic jam can extend up to 60 km on the Warangal highway.",
+    "Take personal responsibility for your belongings — the crowds are massive (up to 3 crore over 4 days).",
+    "Use the missing persons camps at key locations if you get separated from family.",
+    "Be aware that there are no ATMs or banks at Medaram — carry sufficient cash."
+  ],
+  "nearby_places": [
+    "Ramappa Temple (~49.4 km from Medaram) — UNESCO World Heritage Site (2021)",
+    "Ghanpur Kota Gullu (~58.9 km) — group of 22 temples from Kakatiya period",
+    "Laknavaram Lake (~35.1 km) — hanging bridge, scenic lake",
+    "Pandavula Guhalu (~62.6 km) — historic caves",
+    "Malluru (~53.4 km)",
+    "Kaleshwaram (~93.1 km) — Sri Kaleshwara Mukteshwara Swamy Temple",
+    "Bogatha Waterfall (~54.6 km)",
+    "Damarvai Dolmens (~31.1 km) — prehistoric burial sites",
+    "Tadvai Forest Huts (~15.4 km) — forest rest houses",
+    "Eturnagaram Wildlife Sanctuary — at the temple site; rich in biodiversity",
+    "Warangal Fort (~90 km) — Kakatiya-era fort",
+    "Bhadrakali Temple, Warangal (~90 km)",
+    "Eturnagaram Project — at the site"
+  ],
+  "nearby_infrastructure": {
+    "hotels": [
+      "Forest Tents (100 tents at Medaram, ₹1,000–₹2,000) — for the 4-day Jathara only",
+      "Airbnb private homes around Medaram (per medaramjathara.com)",
+      "Tadvai Forest Huts (~15.4 km from Medaram)",
+      "Hotels in Warangal (~90 km) — full range from budget (₹800) to premium (₹5,000+)",
+      "Hotels in Bhupalpally (~30 km)",
+      "Hotels in Hyderabad (~300 km) — for pilgrims travelling from afar"
+    ],
+    "restaurants": [
+      "Telangana tribal and village cuisine in and around Medaram — Sarva pindi, Gongura, Pulusu, tamarind-based gravies, Kobbari Payasam (coconut payasam), Garijalu (sweet)",
+      "Restaurants in Warangal (~90 km)",
+      "Food stalls at the Jathara (4-day period only)"
+    ],
+    "hospitals": [
+      "Medical camps throughout the Jathara area (per Telangana government arrangements)",
+      "Bike ambulances for emergencies (2026 arrangements)",
+      "Primary Health Centre, Tadvai",
+      "Government Hospital, Warangal (~90 km) — for serious cases"
+    ],
+    "atms": [
+      "No reliable ATM at Medaram itself; carry sufficient cash",
+      "ATMs in Tadvai (~15 km)",
+      "ATMs in Warangal (~90 km)"
+    ],
+    "petrol_pumps": [
+      "Petrol pumps on the Warangal–Medaram road",
+      "Petrol pumps in Tadvai",
+      "Petrol pumps in Warangal"
+    ],
+    "police_stations": [
+      "Medaram Jathara Police Control Room (during the 4-day Jathara)",
+      "Tadvai Police Station",
+      "Warangal Police (~90 km)"
+    ],
+    "parking": [
+      "Massive parking areas set up for the 4-day Jathara (per 2026 government arrangements)",
+      "The official website notes 'huge parking lots' as part of the 2026 setup"
+    ]
+  },
+  "accessibility": {
+    "wheelchair_access": "Yes — per the JustDial listing, the Sammakka Saralamma Temple has 'Wheel Chair Accessible Entrance And Exit'. The 2026 government arrangements included comprehensive accessibility considerations.",
+    "parking_available": "Yes — massive parking lots are set up for the 4-day Jathara; permanent parking is not really applicable outside the Jathara period since the site is in the Eturnagaram Wildlife Sanctuary."
+  },
+  "contact": {
+    "phone_numbers": [
+      "+91 95531 42346 (A. Venkat, Forest Tent bookings, per medaramjathara.com)",
+      "TSTDC Haritha / Telangana Tourism (for general enquiries)",
+      "TGSRTC helpline (for bus bookings — 30 bus points to Medaram)"
+    ],
+    "email": [
+      "collector.mulugu@gmail.com (District Collector, Mulugu, per medaramjathara.com)",
+      "subcollector.rdo@gmail.com (Sub-Collector, RDO, per medaramjathara.com)",
+      "districteerwssjayashankar@gmail.com (per medaramjathara.com)"
+    ],
+    "official_website": "https://www.medaramjathara.com/",
+    "address": "Sammakka Saralamma Temple, Medaram Village, Tadvai Mandal, Mulugu District, Telangana – 506344, India"
+  },
+  "reviews": {
+    "average_rating": "4.7",
+    "total_reviews": "JustDial 'Sammakka Saralamma Temple, Medaram' — 4.7/5 across 10,829 ratings; yappe.in — 4.7/5 across 9,172 votes; warangaltourism.in — 4/5 across 34 reviews",
+    "top_reviews": [
+      "JustDial (Sumanth Chintamaneni, 32 months ago, quoted in yappe.in): 'Sammakka Saralamma Jathara is the time for the largest tribal religious congregation in the world, held every two years (biennually), with approximately ten million people converging on the place, over a period of four days, which is 90km from Warangal city. The vermilion jar is brought to Medaram and washed in Jampanna Vaagu, followed by an offering of jaggery to Sammakka and Saralamma.'",
+      "Siasat 30 January 2026: 'The world-famous Medaram Sammakka–Saralamma Maha Jatara is witnessing an unprecedented surge in devotee footfall as the grand tribal festival moves toward its conclusion. The gathering continues peacefully, reaffirming its position as one of the largest tribal religious congregations globally. Devotees from across Telangana and other parts of the country are arriving in large numbers to offer prayers to Sammakka and Saralamma, the revered forest deities. Pilgrims are presenting traditional offerings such as turmeric, vermilion, jaggery, rice, and cloth, reflecting the cultural heritage and simplicity associated with the festival. Even with lakhs of devotees attending the event, darshan is proceeding in an orderly and peaceful manner. Systematic queue management and efficient crowd regulation have ensured the smooth movement of pilgrims across the jatara premises. The devotional atmosphere remains strong as devotees patiently wait to participate in rituals. Pilgrims have expressed satisfaction with the facilities provided during the jatara. Many devotees stated that darshan has been quicker and better organised compared to previous editions. Improvements in sanitation, security, healthcare services, and volunteer coordination have been widely appreciated.'",
+      "Devdiscourse 31 January 2026: 'The four-day Maha Jathara Grand festival of tribal goddesses Sammakka and Saralamma in this district, attended by lakhs of devotees, concluded on Saturday. Devotees from Telangana and neighbouring Chattisgarh, Andhra Pradesh and Odisha offered prayers during the biennial mega tribal festival held at Medaram. Tribal goddesses Sammakka and Saralamma returned to the forests as per the custom at 7:55 PM on Saturday marking the end of the Maha Jathara, amid religious chants of thousands of devotees. The Adivasi priests also took other deities Pagididdaraju and Govindaraju to their respective abodes as per the customs. The Maha Jathara often hailed as the largest tribal festival in Asia began on January 28 with the deities being installed at the gaddelu altar at Medaram. An estimated 80 lakh devotees visited the Maha Jathara on January 28 and 29, state Revenue Minister Ponguleti Srinivas Reddy had said. The Telangana government made elaborate arrangements for the mega festival. Chief Minister A Revanth Reddy inaugurated the renovated shrine of Sammakka and Saralamma on January 19. The government reconstructed the altars of the deities Sammakka Saralamma Govindaraju and Pagididda Raju at a cost of about Rs 101 crore. Additional development works worth Rs 150 crore were undertaken to improve facilities for devotees attending the 2026 festival. About 21 government departments and 42000 personnel were involved in managing the event by way of crowd control security cleanliness medical services and other arrangements. Medical camps, ambulances and bike ambulances were deployed to handle emergencies. The Maha Jathara is celebrated in Medaram located in the remote Eturnagaram Wildlife Sanctuary part of the Dandakaranya forest belt.'",
+      "Hyderabad Mail 2 July 2025 (date announcement): 'The dates for the 2026 Sammakka Saralamma Jatara, considered Asia's largest tribal fair, have been officially announced. The four-day festival will be held from January 28 to 31, 2026, at Medaram Village in S.S. Tadvai Mandal, Mulugu District, Telangana. The schedule was finalized by the Pujari Association and conveyed to the Executive Officer of the Jatara. The event will begin on January 28 (Wednesday) with the arrival of the tribal goddess Saralamma at the Gadde (sacred altar) at 6:00 p.m., accompanied by Govinda Raju and Pagididda Raju. On January 29 (Thursday), goddess Sammakka will arrive at the Gadde at 6:00 p.m. January 30 (Friday) will be marked by devotees offering prayers and fulfilling vows (Mokubadulu). The Jatara will conclude on January 31 (Saturday), when Sammakka and Saralamma, along with Govinda Raju and Pagididda Raju, return to the forest (Vanapravesham) at 6:00 p.m.'"
+    ],
+    "positive_themes": [
+      "Asia's largest tribal religious congregation",
+      "Largest gathering in India after the Kumbh Mela (1.5–3 crore over 4 days)",
+      "State Festival of Telangana (since 1998)",
+      "Koya tribe tradition — no Vedic or Brahmanic influence",
+      "Powerful tribal legends (Sammakka's curse, Jampanna's sacrifice, red water of Jampanna Vagu)",
+      "Government's massive infrastructure support (₹101 crore altar reconstruction + ₹150 crore development works for 2026)",
+      "Comprehensive crowd management (8 zones, 42 sectors, 42,000+ personnel, ~9,000 police, 2 drone cameras)",
+      "Volunteer support (~500 NSS volunteers from Kakatiya University)",
+      "Wheelchair accessible (per JustDial)",
+      "Free entry to the Jathara",
+      "Bangaram (jaggery) offering — central to the Jathara experience",
+      "Cultural identity assertion for tribal communities"
+    ],
+    "negative_themes": [
+      "Held only biennially (every 2 years) — not a year-round destination",
+      "Massive crowds (up to 40 lakh on Day 3) — overwhelming for some",
+      "Limited on-site accommodation (100 Forest Tents, mostly day-pilgrimage)",
+      "No ATMs at Medaram — must carry cash",
+      "Long wait times for darshan during peak days",
+      "Traffic jam on Warangal highway can extend up to 60 km (per Wikipedia)",
+      "Inadequate public transport reported by some devotees (per Devdiscourse 31 Jan 2026)",
+      "Site is in the Eturnagaram Wildlife Sanctuary — restricted access outside the Jathara",
+      "Koya tribe now represents just 2% of total worshippers (per Wikipedia) — loss of tribal exclusivity"
+    ]
+  },
+  "images": [],
+  "wikidata": {
+    "wikidata_id": "Q3380584",
+    "wiki_url": "https://en.wikipedia.org/wiki/Sammakka_Saralamma_Jatara"
+  },
+  "knowledge_graph": {
+    "entity": {
+      "id": "MedaramJathara",
+      "label": "Sammakka Saralamma Temple / Medaram Maha Jathara",
+      "type": "Tribal Hindu Temple (Koya tribe priestly tradition) / Asia's largest tribal religious congregation / State Festival of Telangana"
+    },
+    "nodes": [
+      {"id": "GoddessSammakka", "label": "Goddess Sammakka (Sammakka Ammavaru) — presiding deity; 'Kumkuma Bharina' (vermilion form) at Chilakala Gutta", "type": "Presiding Deity"},
+      {"id": "GoddessSaralamma", "label": "Goddess Saralamma / Sarakka — daughter of Sammakka; installed at Kannepally", "type": "Presiding Deity (co-equal)"},
+      {"id": "LordPagididdaRaju", "label": "Pagididda Raju — Sammakka's husband; Kakatiya feudatory tribal chief", "type": "Associated Deity (revered)"},
+      {"id": "LordJampanna", "label": "Jampanna — Sammakka's son; tribal warrior who died fighting the Kakatiyan Army", "type": "Associated Deity / Tribal Hero"},
+      {"id": "LordGovindaraju", "label": "Govindaraju (Govinda Raju) — associated deity", "type": "Associated Deity"},
+      {"id": "GoddessNagulamma", "label": "Nagulamma — Sammakka's second daughter", "type": "Associated Deity"},
+      {"id": "KakatiyaDynasty", "label": "Kakatiya Dynasty (1000–1380 AD, Warangal)", "type": "Historical Adversary Dynasty"},
+      {"id": "KoyaTribe", "label": "Koya tribe (traditional priests and custodians; now 2% of total worshippers)", "type": "Priesthood / Custodian Tribe"},
+      {"id": "JampannaVagu", "label": "Jampanna Vagu (a tributary of the Godavari; red-coloured water; holy dip site)", "type": "Sacred River / Stream"},
+      {"id": "GodavariRiver", "label": "River Godavari (Jampanna Vagu is a tributary)", "type": "Sacred River"},
+      {"id": "EturnagaramWLS", "label": "Eturnagaram Wildlife Sanctuary (Dandakaranya forest belt)", "type": "Protected Forest / Wildlife Sanctuary"},
+      {"id": "Dandakaranya", "label": "Dandakaranya — the largest surviving forest belt in the Mulugu region", "type": "Forest Belt"},
+      {"id": "Gaddelu", "label": "Gaddelu (sacred altar at Medaram — focal point of the Jathara)", "type": "Sacred Altar"},
+      {"id": "ChilakalaGutta", "label": "Chilakala Gutta — site of Sammakka's 'Kumkuma Bharina'", "type": "Sacred Site"},
+      {"id": "Kannepally", "label": "Kannepally — village with Saralamma's temple; idol is brought to Medaram on Day 1", "type": "Sacred Village"},
+      {"id": "TadvaiMandal", "label": "Tadvai Mandal (S.S. Tadvai Mandal, Mulugu District)", "type": "Administrative Mandal"},
+      {"id": "Mulugu", "label": "Mulugu District (formed 17 Feb 2019, bifurcated from Jayashankar Bhupalpally)", "type": "District"},
+      {"id": "Warangal", "label": "Warangal (~90 km from Medaram)", "type": "Nearby Major City"},
+      {"id": "MedaramVillage", "label": "Medaram village (~3,000 population; 'Hong Kong of Telangana' per Wikipedia)", "type": "Village"},
+      {"id": "MuluguITDA", "label": "Eturunagaram ITDA (Integrated Tribal Development Agency) — Mulugu", "type": "Government Body (ITDA)"},
+      {"id": "EndowmentsDept", "label": "Telangana Endowments Department (Endowments Minister Konda Surekha in 2026)", "type": "Government Body (Endowments)"},
+      {"id": "SantoshChakravarthy", "label": "MLA Santosh Chakravarthy (first chairman of the Sammakka Sarakka Temple, appointed 27 April 1968)", "type": "First Chairman (Temple Board)"},
+      {"id": "SubedarAmirAliKhan", "label": "Subedar Amir Ali Khan (1946 — pioneer of public welfare arrangements at the Jathara)", "type": "Historical Administrator"},
+      {"id": "RevanthReddy", "label": "A. Revanth Reddy (Telangana Chief Minister, inaugurated reconstructed shrine 19 Jan 2026)", "type": "Current Chief Minister (inaugurated 2026 shrine)"},
+      {"id": "Telangana", "label": "Telangana", "type": "State"},
+      {"id": "SammakkaSaralammaJatara", "label": "Sammakka Saralamma Jatara (Medaram Maha Jathara, biennial State Festival)", "type": "Principal Festival"},
+      {"id": "KumbhMela", "label": "Kumbh Mela (larger religious gathering in India; Medaram is the 2nd largest)", "type": "Comparison Reference"},
+      {"id": "RamappaTemple", "label": "Ramappa Temple (UNESCO World Heritage Site, ~49 km from Medaram)", "type": "Nearby Major Heritage Site"},
+      {"id": "KotaGullu", "label": "Kota Gullu (Ghanpur; group of 22 Kakatiya temples, ~59 km)", "type": "Nearby Major Heritage Site"},
+      {"id": "LaknavaramLake", "label": "Laknavaram Lake (hanging bridge, ~35 km)", "type": "Nearby Tourist Attraction"},
+      {"id": "TadvaiForestHuts", "label": "Tadvai Forest Huts (~15 km)", "type": "Nearby Accommodation"}
+    ],
+    "edges": [
+      {"from": "MedaramJathara", "relation": "presiding_deity", "to": "GoddessSammakka"},
+      {"from": "MedaramJathara", "relation": "presiding_deity", "to": "GoddessSaralamma"},
+      {"from": "GoddessSammakka", "relation": "installed_at", "to": "ChilakalaGutta"},
+      {"from": "GoddessSaralamma", "relation": "installed_at", "to": "Kannepally"},
+      {"from": "MedaramJathara", "relation": "focal_point", "to": "Gaddelu"},
+      {"from": "MedaramJathara", "relation": "associated_deity", "to": "LordPagididdaRaju"},
+      {"from": "MedaramJathara", "relation": "associated_deity", "to": "LordJampanna"},
+      {"from": "MedaramJathara", "relation": "associated_deity", "to": "LordGovindaraju"},
+      {"from": "MedaramJathara", "relation": "associated_deity", "to": "GoddessNagulamma"},
+      {"from": "LordJampanna", "relation": "died_in_battle_at", "to": "JampannaVagu"},
+      {"from": "JampannaVagu", "relation": "tributary_of", "to": "GodavariRiver"},
+      {"from": "MedaramJathara", "relation": "located_in", "to": "EturnagaramWLS"},
+      {"from": "EturnagaramWLS", "relation": "part_of", "to": "Dandakaranya"},
+      {"from": "MedaramJathara", "relation": "caste_priesthood", "to": "KoyaTribe"},
+      {"from": "KoyaTribe", "relation": "fought_against", "to": "KakatiyaDynasty"},
+      {"from": "KoyaTribe", "relation": "revolt_led_by", "to": "GoddessSammakka"},
+      {"from": "GoddessSammakka", "relation": "cursed", "to": "KakatiyaDynasty"},
+      {"from": "GoddessSammakka", "relation": "married_to", "to": "LordPagididdaRaju"},
+      {"from": "LordPagididdaRaju", "relation": "feudatory_chief_of", "to": "KakatiyaDynasty"},
+      {"from": "LordPagididdaRaju", "relation": "son_in_law_of", "to": "GoddessSammakka"},
+      {"from": "GoddessSammakka", "relation": "mother_of", "to": "LordJampanna"},
+      {"from": "GoddessSammakka", "relation": "mother_of", "to": "GoddessSaralamma"},
+      {"from": "GoddessSammakka", "relation": "mother_of", "to": "GoddessNagulamma"},
+      {"from": "MedaramJathara", "relation": "located_in_village", "to": "MedaramVillage"},
+      {"from": "MedaramJathara", "relation": "located_in_mandal", "to": "TadvaiMandal"},
+      {"from": "MedaramJathara", "relation": "located_in_district", "to": "Mulugu"},
+      {"from": "TadvaiMandal", "relation": "part_of", "to": "Mulugu"},
+      {"from": "Mulugu", "relation": "part_of", "to": "Telangana"},
+      {"from": "MedaramJathara", "relation": "administered_by", "to": "EndowmentsDept"},
+      {"from": "MedaramJathara", "relation": "supported_by", "to": "MuluguITDA"},
+      {"from": "SantoshChakravarthy", "relation": "first_chairman_of", "to": "MedaramJathara"},
+      {"from": "SubedarAmirAliKhan", "relation": "pioneer_administrator_of", "to": "MedaramJathara"},
+      {"from": "RevanthReddy", "relation": "inaugurated_reconstructed_shrine_of", "to": "MedaramJathara"},
+      {"from": "MedaramJathara", "relation": "nearest_major_city", "to": "Warangal"},
+      {"from": "MedaramJathara", "relation": "nearby_unesco_site", "to": "RamappaTemple"},
+      {"from": "MedaramJathara", "relation": "nearby_heritage_site", "to": "KotaGullu"},
+      {"from": "MedaramJathara", "relation": "nearby_lake", "to": "LaknavaramLake"},
+      {"from": "MedaramJathara", "relation": "nearby_accommodation", "to": "TadvaiForestHuts"},
+      {"from": "MedaramJathara", "relation": "second_largest_after", "to": "KumbhMela"},
+      {"from": "SammakkaSaralammaJatara", "relation": "principal_festival_of", "to": "MedaramJathara"}
+    ]
+  },
+  "audio": {
+    "introduction": {
+      "en": "Sammakka Saralamma Temple at Medaram, in the heart of the Eturnagaram Wildlife Sanctuary, Tadvai Mandal, Mulugu District, Telangana, is the site of Asia's largest tribal religious congregation — the Sammakka Saralamma Jatara. Held biennially over 4 days in late January (next: January 2028), it draws 1.5 to 3 crore devotees, making it the largest gathering in India after the Kumbh Mela. Declared a State Festival in 1998, the Jathara is entirely performed by Koya tribe priests in accordance with their customs — no Vedic or Brahmanic influence. Devotees offer Bangaram (jaggery equal to their weight), take a holy dip in the red waters of Jampanna Vagu, and worship the forest goddesses Sammakka and Saralamma — a mother-daughter duo who led a tribal revolt against the unjust Kakatiya tax in the 13th century.",
+      "te": "",
+      "hi": ""
+    },
+    "history": {
+      "en": "Per tribal tradition, goddess Sammakka was born in the 13th century, found as a newborn emitting enormous light amid tigers. She married Pagididda Raju, a feudatory tribal chief of the Kakatiyas, and had 2 daughters (Sarakka, Nagulamma) and 1 son (Jampanna). When the Kakatiya rulers imposed an unjust tax on the tribals during a drought, Sammakka and her daughter led a revolt. Jampanna died fighting the Kakatiyan Army at a stream (now Jampanna Vagu, with red-coloured water tribally believed to be marked with his blood). Sammakka's curse is said to have caused the Kakatiya decline. In 1946, Subedar Amir Ali Khan's stewardship set a precedent for public welfare. In 1998, the State Festival was declared and a motorable road was laid. MLA Santosh Chakravarthy became the first chairman in 1968. The 2026 Jathara deployed 21 government departments, 42,000+ personnel, and ~9,000 police, with ₹101 crore on altar reconstruction and ₹150 crore on development works.",
+      "te": "",
+      "hi": ""
+    },
+    "travel_guide": {
+      "en": "Medaram is in the Eturnagaram Wildlife Sanctuary (Dandakaranya forest belt), ~90 km from Warangal and ~300 km from Hyderabad. The 4-day Jathara runs Wednesday to Saturday in late January. The 2026 cycle was 28 to 31 January 2026, with the CM A. Revanth Reddy inaugurating the reconstructed shrine on 19 January 2026. The 4-day event concluded at 7:55 PM on 31 January 2026 with Vana Pravesham. TSRTC ran nearly 4,000 buses daily during the 2026 Jathara to move ~21 lakh people, with 30 bus points to Medaram. The nearest railway station is Warangal (~90 km); the nearest airport is Rajiv Gandhi International Airport, Hyderabad (~300 km). For pilgrims: avoid Day 3 (Friday, the busiest, up to 40 lakh visitors), carry cash (no ATMs at Medaram), wear traditional attire (men: dhoti, often shirtless; women: sarees — also a principal offering), and bring jaggery (Bangaram) equal to your body weight. Outside the Jathara, the site is restricted due to the Wildlife Sanctuary.",
+      "te": "",
+      "hi": ""
+    }
+  },
+  "faq": [
+    {
+      "id": "FAQ001",
+      "question": "What is the Sammakka Saralamma Jatara?",
+      "answer": "It is a biennial tribal religious festival held in honour of the tribal mother-daughter goddesses Sammakka and Saralamma at Medaram village in Tadvai Mandal, Mulugu District, Telangana. It is recognised as Asia's largest tribal religious congregation, drawing 1.5 to 3 crore devotees over 4 days — the largest gathering in India after the Kumbh Mela. Declared a State Festival in 1998, it is performed entirely by Koya tribe priests in accordance with their customs (no Vedic or Brahmanic influence). The 2026 cycle was 28–31 January 2026; the next is expected January 2028."
+    },
+    {
+      "id": "FAQ002",
+      "question": "Where is the Sammakka Saralamma Temple located?",
+      "answer": "In Medaram village, Tadvai Mandal, Mulugu District, Telangana – 506344, India. The temple is in the heart of the Eturnagaram Wildlife Sanctuary (Dandakaranya forest belt), ~90 km from Warangal city and ~300 km from Hyderabad. The gaddelu (sacred altar) is the focal point of the Jathara; the Saralamma temple is in nearby Kannepally; Sammakka's 'Kumkuma Bharina' is at Chilakala Gutta."
+    },
+    {
+      "id": "FAQ003",
+      "question": "What is the schedule for the 4-day Jathara?",
+      "answer": "Day 1 (Wednesday) — Secret morning pujas at Kannepally; evening 6:00 PM: Saralamma brought to Medaram Gaddhe via Jampanna Vaagu; over 3 million devotees. Day 2 (Thursday) — Edurukolla Ghattam (bamboo-stick ritual); evening 6:00 PM: Sammakka brought from Chilakala Gutta to gaddhe; SP fires 3 gunshots to inaugurate the bali. Day 3 (Friday) — Main day: devotees take Punya Snanams in Jampanna Vaagu; main darshan of Sammakka and Saralamma; offerings of Bangaram, Odi Biyyam, sarees, turmeric, vermilion, rice, cloth. Day 4 (Saturday) — Final darshan; afternoon Ammavarlu Vana Pravesham (return to forest at ~6:00 PM); the 4-day Jathara concludes with religious chants."
+    },
+    {
+      "id": "FAQ004",
+      "question": "How big is the Sammakka Saralamma Jathara?",
+      "answer": "The 2026 Jathara drew an estimated 80 lakh devotees on the first two days alone, with the full 4-day total expected to reach nearly 3 crore. The Telangana government deployed 21 government departments, 42,027 personnel, ~9,000 police officers, hundreds of CCTV cameras, 2 drone cameras, ~500 NSS volunteers from Kakatiya University, and TSRTC ran nearly 4,000 buses daily. The traffic jam can extend up to 60 km on the Warangal highway. It is the largest tribal religious gathering in the world and the second-largest religious gathering in India after the Kumbh Mela."
+    },
+    {
+      "id": "FAQ005",
+      "question": "When is the next Sammakka Saralamma Jathara?",
+      "answer": "The 2026 cycle was 28–31 January 2026. The Jathara is biennial (held every 2 years), so the next cycle is expected January 2028 (likely 26–29 January 2028). The 4-day dates are finalized by the Pujari Association and conveyed to the Executive Officer of the Jathara."
+    },
+    {
+      "id": "FAQ006",
+      "question": "Who are Sammakka and Saralamma?",
+      "answer": "Per tribal tradition, goddess Sammakka was born in the 13th century, found as a newborn emitting enormous light amid tigers, adopted by the Koya tribe head. She married Pagididda Raju, a feudatory tribal chief of the Kakatiyas, and had 2 daughters (Sarakka/Saralamma, Nagulamma) and 1 son (Jampanna). She led a tribal revolt against the unjust Kakatiya tax during a drought. Jampanna, her son, died fighting the Kakatiyan Army at a stream (now Jampanna Vagu). Per legend, Sammakka's curse caused the Kakatiya decline. Saralamma is installed in a temple at Kannepally; Sammakka is at Chilakala Gutta in the form of a 'Kumkuma Bharina' (vermilion form)."
+    },
+    {
+      "id": "FAQ007",
+      "question": "What is the Jampanna Vagu?",
+      "answer": "Jampanna Vagu is a tributary of the River Godavari that flows through the Eturnagaram Wildlife Sanctuary near Medaram. It is named after the tribal warrior Jampanna (Sammakka's son), who died fighting the Kakatiyan Army in that stream. The water is still reddish in colour — tribally believed to be marked with his blood (scientifically attributed to the soil composition). A holy dip (Punya Snanam) in the red waters is central to the Jathara experience. The Jampanna Vagu bridge crosses the stream."
+    },
+    {
+      "id": "FAQ008",
+      "question": "What is Bangaram and how is it offered?",
+      "answer": "Bangaram is the local name for jaggery (bellam) — symbolic of gold. It is the most important offering in the Sammakka Sarakka Jathara. Devotees offer jaggery of a quantity equal to their body weight to the goddesses. The offering is part of the Mokubadulu (vow fulfilment) tradition. Other offerings include Odi Biyyam (sacred rice, by women), sarees, turmeric, vermilion, rice and cloth."
+    },
+    {
+      "id": "FAQ009",
+      "question": "How do I reach Medaram for the Jathara?",
+      "answer": "By road: ~90 km from Warangal (~2.5–3 hours); ~300 km from Hyderabad (~5–6 hours). TSRTC runs special buses during the Jathara from all areas of Telangana (30+ bus points to Medaram). By rail: nearest major station is Warangal (~90 km). By air: nearest airport is Rajiv Gandhi International Airport, Hyderabad (~300 km). For the 2026 Jathara, TSRTC ran nearly 4,000 buses daily to move ~21 lakh people. During the Jathara, expect heavy traffic and plan for day-pilgrimage (most pilgrims stay in Warangal or Hyderabad and travel in for the day)."
+    },
+    {
+      "id": "FAQ010",
+      "question": "Is there accommodation at Medaram?",
+      "answer": "On-site: 100 Forest Tents (₹2,000/24h, ₹1,000/12h, up to 5 persons/tent; contact +91 95531 42346 — A. Venkat). Airbnb private homes around Medaram (per medaramjathara.com). However, the official setup emphasizes day-pilgrimage from Warangal or Hyderabad. There are no ATMs or banks at Medaram — carry sufficient cash. Most pilgrims travel in from Warangal (~90 km) or Hyderabad (~300 km) for the day."
+    },
+    {
+      "id": "FAQ011",
+      "question": "What should I wear and bring for the Jathara?",
+      "answer": "Wear traditional attire — men in dhoti (often shirtless at the gaddelu per tribal convention); women in sarees (which is also a principal offering). Carry water, light food, comfortable footwear (which you'll remove at the gaddelu and Jampanna Vagu), a towel for the holy dip, and jaggery (Bangaram) of a quantity equal to your body weight for the principal offering. There are no ATMs or banks at Medaram — carry sufficient cash. Be prepared for massive crowds (up to 40 lakh on Day 3)."
+    },
+    {
+      "id": "FAQ012",
+      "question": "What is the connection between the Jathara and Sammakka's curse on the Kakatiyas?",
+      "answer": "Per tribal tradition, goddess Sammakka's curse is said to have caused the gradual decline and death of the Kakatiya rule. After Sammakka and her daughter led the tribal revolt against the unjust Kakatiya tax during a drought, and after her son Jampanna died fighting the Kakatiyan Army at Jampanna Vagu, the Kakatiya empire gradually declined. The Jathara commemorates this tribal resistance and the sacrifice of Sammakka, Saralamma and Jampanna. It is a major assertion of tribal cultural identity and the memory of the 13th-century tribal revolt against the unjust Kakatiya rule."
+    }
+  ],
+  "query_variations": [
+    {"faq_id": "FAQ001", "queries": ["What is Sammakka Saralamma Jatara?", "Medaram Jathara?", "Asia's largest tribal fair", "Medaram Maha Jathara"]},
+    {"faq_id": "FAQ002", "queries": ["Where is Sammakka Saralamma Temple located?", "Medaram location?", "Medaram Tadvai Mandal", "Mulugu district Medaram"]},
+    {"faq_id": "FAQ003", "queries": ["Medaram Jathara schedule", "Medaram Jathara 4 days", "Sammakka Saralamma Day 1 Day 4"]},
+    {"faq_id": "FAQ004", "queries": ["How big is Medaram Jathara?", "Medaram Jathara crowd size", "How many people visit Medaram", "Asia's largest tribal gathering"]},
+    {"faq_id": "FAQ005", "queries": ["When is next Medaram Jathara?", "Medaram Jathara 2028 dates", "Sammakka Saralamma Jathara 2028"]},
+    {"faq_id": "FAQ006", "queries": ["Who is Sammakka?", "Who is Saralamma?", "Story of Sammakka", "Sammakka Saralamma legend"]},
+    {"faq_id": "FAQ007", "queries": ["What is Jampanna Vagu?", "Jampanna story", "Red water Jampanna"]},
+    {"faq_id": "FAQ008", "queries": ["What is Bangaram?", "Bangaram jaggery offering", "Sammakka Sarakka jaggery", "Mokubadulu"]},
+    {"faq_id": "FAQ009", "queries": ["How to reach Medaram", "Medaram bus from Warangal", "Medaram bus from Hyderabad", "TSRTC Medaram Jathara"]},
+    {"faq_id": "FAQ010", "queries": ["Medaram accommodation", "Forest tents Medaram", "Medaram hotel", "Medaram stay"]},
+    {"faq_id": "FAQ011", "queries": ["What to wear Medaram Jathara", "Medaram Jathara dress code", "Medaram jathara what to bring"]},
+    {"faq_id": "FAQ012", "queries": ["Sammakka curse Kakatiya", "Sammakka revolt Kakatiya", "Jampanna sacrifice"]}
+  ],
+  "sources": [
+    "https://www.medaramjathara.com/ (Official website — festival program, TGSRTC bus fares, Forest Tent info, Nearby Attractions with exact distances, contact emails)",
+    "https://en.wikipedia.org/wiki/Sammakka_Saralamma_Jatara (Wikipedia — comprehensive history, 1946 Subedar Amir Ali Khan section, 2026 Jathara section, temple administration)",
+    "https://en.wikipedia.org/wiki/Medaram (Wikipedia — village coordinates 18°14′31″N 80°5′7″E, population, history)",
+    "https://www.justdial.com/Warangal/Sammakka-Saralamma-Temple-Near-Medaram-Medaram/9999PX870-X870-180330110911-C8B2_BZDET (JustDial — 4.7/5 across 10,829 ratings, coords 18.3206/80.2417, pin 506344, Wheel Chair Accessible, Opens 6:00 AM)",
+    "https://yappe.in/telangana/medaram/sammakka-saralamma-temple/1279205 (Yappe — 4.7/5 across 9,172 votes)",
+    "https://warangaltourism.in/sammakka-saralamma-temple-warangal (Warangal Tourism — 4/5 across 34 reviews)",
+    "https://hyderabadmail.com/medaram-jatara-2026-dates/ (Hyderabad Mail 2 July 2025 — official 2026 date announcement, 28-31 Jan)",
+    "https://www.siasat.com/medaram-sammakka-saralamma-maha-jatara-witnesses-massive-devotee-turnout-3334030/ (Siasat 30 January 2026 — devotee turnout, 500 NSS volunteers, darshan organization)",
+    "https://www.devdiscourse.com/article/headlines/3788694-tribal-festival-medaram-maha-jathara-concludes-in-telangana-lakhs-offer-prayers (Devdiscourse 31 January 2026 — Jathara conclusion at 7:55 PM, 80 lakh on days 1-2, ₹101 crore altar reconstruction, ₹150 crore development, 21 government departments, 42,000 personnel, 9,000 police)",
+    "https://www.newsbytesapp.com/news/india/telanganas-medaram-jatara-15-crore-devotees-massive-prep-underway/tldr (NewsBytes 13 January 2026 — 4,000 buses daily, 21 lakh people, 9,000 police, 40 lakh peak day, 3 crore total expected)",
+    "https://m.dailyhunt.in/news/india/english/hyderabadmailcom-epaper-hydmail/medaram+sammakka+saralamma+jatara+2026+telangana+readies+massive+arrangements-newsid-n697426123 (Dailyhunt / HyderabadMail 19 January 2026 — 21 government departments, 42,027 personnel, 2,000 tribal volunteers, 8 zones, 42 sectors)",
+    "https://en.wikipedia.org/wiki/Sammakka_Saralamma_Jatara#cite_note-toi-8 (Wikipedia reference 8 — Times of India article on Subedar Amir Ali Khan's 1946 stewardship)"
+  ],
+  "quality_check": {
+    "metadata": {
+      "score_percent": 92,
+      "verified": [
+        "temple_id (assigned; based on 'Sammakka Saralamma Jatara Devasthanam, Medaram')",
+        "name",
+        "alternate_names (incl. 'Medaram Maha Jathara', 'Sammakka Sarakka Jatara')",
+        "deity (Sammakka + Saralamma + Pagididda Raju + Govindaraju + Jampanna)",
+        "temple_type (Tribal Hindu Temple, Koya tradition, biennial Jathara, State Festival)",
+        "religion",
+        "category",
+        "village (Medaram)",
+        "mandal (Tadvai Mandal / S.S. Tadvai Mandal)",
+        "district (Mulugu District, formed 17 Feb 2019)",
+        "state",
+        "country",
+        "address (full official)",
+        "pincode (506344 per JustDial; 506347 per warangaltourism.in — both flagged)",
+        "latitude (18.3206072, JustDial / yappe.in)",
+        "longitude (80.2416967, JustDial / yappe.in)",
+        "google_maps_url",
+        "elevation (~115 m)",
+        "timezone",
+        "common_abbreviations",
+        "voice_pronunciation_variants (Telugu + English)",
+        "multilingual Telugu name 'Mēḍāram Sammakka Sāralamma Jātara' is sourced",
+        "architectural_style (Tribal-Shaivite, with Kumkuma Bharina unique feature)",
+        "foundation_year (13th century per tribal tradition; State Festival 1998)",
+        "founders (Koya tribe; Subedar Amir Ali Khan 1946; MLA Santosh Chakravarthy 1968; Government of Telangana 1998)",
+        "wikidata_id (Q3380584)",
+        "wiki_url (Wikipedia)",
+        "phone_numbers (+91 95531 42346 Forest Tent booking)",
+        "email (collector.mulugu@gmail.com, subcollector.rdo@gmail.com, districteerwssjayashankar@gmail.com)",
+        "official_website (https://www.medaramjathara.com/)",
+        "nearest_railway_station (Warangal ~90 km)",
+        "nearest_bus_station (Medaram village; 30+ TSRTC bus points during Jathara)",
+        "nearest_airport (RGIA Hyderabad ~300 km)",
+        "average_rating (4.7 JustDial 10,829 + yappe.in 9,172; 4.0 warangaltourism.in 34)",
+        "top_reviews (4 quoted — JustDial Sumanth, Siasat 30 Jan 2026, Devdiscourse 31 Jan 2026, Hyderabad Mail 2 July 2025)",
+        "positive_themes (12)",
+        "negative_themes (9)",
+        "all 4 festival days with specific 2026 dates (28-31 January 2026) and programs",
+        "TGSRTC bus fares (Godavarikhani ₹400, Peddapalli ₹420, Manthani ₹350, B-Incline ₹400)",
+        "Forest Tent pricing (₹2,000/24h, ₹1,000/12h)",
+        "9 nearby attractions with exact distances (Ramappa 49.4 km, Kota Gullu 58.9 km, Laknavaram 35.1 km, Pandavula Guhalu 62.6 km, Malluru 53.4 km, Kaleshwaram 93.1 km, Bogatha 54.6 km, Damarvai Dolmens 31.1 km, Tadvai Forest Huts 15.4 km)"
+      ],
+      "not_found": [
+        "Verified executive officer / current chairman of the temple board (the user doc only mentions MLA Santosh Chakravarthy as the first chairman in 1968; no current name found in sources)",
+        "Verified specific email address for the EO of the Jathara (only district collector / sub-collector / EERWSS emails available)"
+      ],
+      "verification_required": [
+        "Pincode 506344 (JustDial) vs 506347 (warangaltourism.in) — minor conflict preserved",
+        "Coordinates 18.3206/80.2417 (JustDial) vs 18.2419/80.0853 (Wikipedia Medaram village) — Wikipedia coordinates are for Medaram village center, JustDial coordinates are for the Sammakka Saralamma Temple listing (these are essentially the same site; the JustDial coordinates are more authoritative for the temple). Preserved both.",
+        "Attendance figures vary: 1.5–1.75 crore (medaramjathara.com) / 1.3 crore (Wikipedia) / 80 lakh on days 1-2 + ~3 crore total (Devdiscourse/NewsBytes 2026). The 2026 figures are the most recent.",
+        "The 'Siasat 30 Jan 2026' article mentions Devasthanam Minister Konda Surekha + Forest, Environment and Endowments Minister Konda Surekha (one name with two portfolios). The medaramjathara.com site gives Forest/Environment/Endowments portfolio. Preserved as a single minister.",
+        "The 2026 Jathara officially concluded at 7:55 PM on 31 January 2026 (per Devdiscourse) — the Hyderabad Mail announcement said Vana Pravesham at 6:00 PM, but the actual conclusion was at 7:55 PM. Both preserved.",
+        "Forest Tents 'A. Venkat' contact (+91 95531 42346) is per medaramjathara.com; not independently verified.",
+        "Multilingual te/hi names are transliterations, not directly sourced.",
+        "Koya tribe now represents just 2% of total worshippers (per Wikipedia 2017 statistics; the 2026 Jathara would be a similar ratio).",
+        "Several Wikipedia references are marked as 'not specific enough to verify' — flagged.",
+        "The 'Subedar Amir Ali Khan' section is well-documented on Wikipedia but is a 1946 historical account; not directly verified against contemporary 1946 sources."
+      ]
+    },
+    "overall_completeness_score": "90/100"
+  },
+  "last_verified": "2026-07-28"
+}

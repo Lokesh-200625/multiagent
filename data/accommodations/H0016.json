@@ -1,0 +1,99 @@
+{
+  "associated_temple": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam",
+  "hotels": [
+    {
+      "hotel_name": "Sri Sudharshana Residency",
+      "hotel_type": "Residency",
+      "address": "1-1-61, Temple Main Road, Opposite Ramalayam Temple, Bhadrachalam - 507111, Telangana, India.",
+      "contact_numbers": [
+        "+91 9949753458",
+        "+91 9849800300",
+        "08743-234400"
+      ],
+      "email": "",
+      "about": "Sri Sudharshana Residency is a budget-friendly hotel located opposite Ramalayam Temple and within walking distance of Sri Sita Ramachandra Swamy Temple. The hotel offers AC and Non-AC rooms with amenities such as Wi-Fi, elevator, room service, free parking, and power backup. It is a preferred accommodation choice for pilgrims due to its convenient location near the temple and the Godavari River.",
+      "google_map_link": "https://maps.app.goo.gl/ (Search: Sri Sudharshana Residency, Bhadrachalam)",
+      "official_website": "http://www.srisudharsanaresidency.com",
+      "price_range": "₹1,200–₹2,000 per night (Approx.)",
+      "check_in_time": "08:00 AM",
+      "check_out_time": "08:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Bhadrachalam Bus Stand – Approximately 1 km",
+        "railway_station": "Aswapuram Railway Station – Approximately 26 km",
+        "airport": "Rajahmundry Airport – Approximately 180 km"
+      },
+      "booking_links": {
+        "Goibibo": "https://www.goibibo.com/hotels/sri-sudharsana-residency-hotel-in-bhadrachalam-3201985571754955699/",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/sri_sudharsana_residency-details-bhadrachalam.html"
+      },
+      "ratings": {
+        "platform": "MakeMyTrip",
+        "rating": "2.9/5"
+      },
+      "room_types": [
+        "Non-AC Double Room",
+        "AC Room",
+        "Family Room",
+        "Suite Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free Parking",
+        "Elevator/Lift",
+        "Power Backup",
+        "Air Conditioning",
+        "Housekeeping",
+        "Room Service",
+        "Laundry Service",
+        "Doctor on Call",
+        "Luggage Assistance",
+        "Caretaker",
+        "CCTV Security",
+        "Geyser/Water Heater",
+        "Television",
+        "Cloak Room",
+        "First-Aid Services"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes (Limited Duration)",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes (Geyser/Water Heater)"
+      },
+      "food_facility": {
+        "availability": "Yes",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available (Subject to Booking Plan)",
+        "food_type": "Pure Vegetarian",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Families",
+        "Couples",
+        "Pilgrims",
+        "Senior Citizens",
+        "Budget Travelers",
+        "Group Pilgrims"
+      ],
+      "cancellation_policy": "Free cancellation may be available on selected rooms depending on the booking platform and room plan. Please verify the cancellation terms before confirming the reservation.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Sita Ramachandra Swamy Temple – Approximately 200 m",
+        "Ramalayam Temple",
+        "Godavari River – Approximately 300 m",
+        "Abhaya Anjaneya Swamy Temple"
+      ],
+      "temple_id": "T0002",
+      "hotel_id": "H0016"
+    }
+  ],
+  "temple_id": "T0002",
+  "hotel_id": "H0016"
+}

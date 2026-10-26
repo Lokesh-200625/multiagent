@@ -1,0 +1,84 @@
+{
+  "associated_temple": "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+  "hotels": [
+    {
+      "hotel_name": "Haritha Hotel (Telangana Tourism)",
+      "hotel_type": "Government Hotel",
+      "address": "Haritha Hotel, Yadagirigutta, Yadadri Bhuvanagiri District, Telangana - 508115, India",
+      "contact_numbers": [
+        "08685-293217",
+        "1800-425-46464"
+      ],
+      "email": "info@tstdc.in",
+      "about": "Haritha Hotel is a government-operated hotel managed by the Telangana Tourism Development Corporation (TGTDC). Located near Sri Lakshmi Narasimha Swamy Temple, the hotel offers clean and comfortable accommodation for pilgrims and tourists with reliable government hospitality services and online booking facilities.",
+      "google_map_link": "https://maps.google.com/?q=Haritha+Hotel+Yadagirigutta",
+      "official_website": "https://tourism.telangana.gov.in/",
+      "price_range": "₹1,650 per night (Starting Price)",
+      "check_in_time": "12:00 AM",
+      "check_out_time": "12:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Yadadri Bus Stand – Approximately 1 km",
+        "railway_station": "Raigir Railway Station – Approximately 4 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 85 km"
+      },
+      "booking_links": {
+        "Official": "https://tourism.telangana.gov.in/hotel-list",
+        "Telangana Tourism": "https://www.tourism.telangana.gov.in/all-hotels"
+      },
+      "ratings": {
+        "overall": "[]"
+      },
+      "room_types": [
+        "A/C Deluxe Room"
+      ],
+      "amenities": [
+        "Air Conditioning",
+        "Government Accommodation",
+        "Online Booking",
+        "Parking",
+        "24-Hour Reception",
+        "Housekeeping"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Not Mentioned",
+        "hot_water_facility": "Not Mentioned"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Not Mentioned",
+        "food_type": "Vegetarian and South Indian Cuisine",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Senior Citizens",
+        "Government Employees",
+        "Budget Travelers",
+        "Group Pilgrims"
+      ],
+      "cancellation_policy": "Cancellation policy depends on Telangana Tourism booking terms and the selected reservation.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Lakshmi Narasimha Swamy Temple",
+        "Yadadri Bus Stand",
+        "Raigir Railway Station",
+        "Surendrapuri"
+      ],
+      "temple_id": "T0001",
+      "hotel_id": "H0101"
+    }
+  ],
+  "temple_id": "T0001",
+  "hotel_id": "H0101"
+}

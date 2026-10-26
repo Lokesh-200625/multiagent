@@ -1,0 +1,94 @@
+{
+  "associated_temple": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam",
+  "hotels": [
+    {
+      "hotel_name": "Varun Residency",
+      "hotel_type": "Hotel / Residency",
+      "address": "1-1-38, Ramalayam Center, Near Godavari River, Temple Road, Bhadrachalam, Bhadradri Kothagudem, Telangana - 507111, India.",
+      "contact_numbers": [
+        "+91 9849711125"
+      ],
+      "email": "",
+      "about": "Varun Residency is a budget-friendly hotel located near Sri Sita Ramachandra Swamy Temple in Bhadrachalam. The hotel offers clean and comfortable rooms with essential amenities such as air conditioning, free Wi-Fi, parking, room service, housekeeping, and power backup. Its proximity to the temple and the Godavari River makes it a convenient accommodation choice for pilgrims and families.",
+      "google_map_link": "https://maps.app.goo.gl/ (Search: Varun Residency, Bhadrachalam)",
+      "official_website": "",
+      "price_range": "₹1,450–₹2,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Bhadrachalam Bus Stand – Approximately 1 km",
+        "railway_station": "Aswapuram Railway Station – Approximately 26 km",
+        "airport": "Rajahmundry Airport – Approximately 180 km"
+      },
+      "booking_links": {
+        "Goibibo": "https://www.goibibo.com/hotels/varun-residency-hotel-in-bhadrachalam-2437525602178757384/",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/varun_residency-details-bhadrachalam.html",
+        "Agoda": "https://www.agoda.com/varun-residency/hotel/bhadrachalam-in.html"
+      },
+      "ratings": {
+        "platform": "Agoda",
+        "rating": "8.2/10"
+      },
+      "room_types": [
+        "Deluxe Room (King Bed)",
+        "Deluxe AC Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free Parking",
+        "Air Conditioning",
+        "Room Service",
+        "Power Backup",
+        "Elevator/Lift",
+        "Housekeeping",
+        "Laundry Service",
+        "Daily Housekeeping",
+        "Luggage Storage",
+        "CCTV Security",
+        "Newspaper",
+        "24-Hour Front Desk"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Not Specifically Mentioned",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "Not Mentioned",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Not Mentioned",
+        "food_type": "Not Specified",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Couples",
+        "Pilgrims",
+        "Senior Citizens",
+        "Budget Travelers",
+        "Solo Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans up to 24 hours before check-in, depending on the selected booking platform and room plan.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Sita Ramachandra Swamy Temple – Approximately 350 m",
+        "Godavari River – Approximately 300 m",
+        "Ramalayam Center",
+        "Abhaya Anjaneya Swamy Temple",
+        "Bhadrachalam Bus Stand – Approximately 1 km"
+      ],
+      "temple_id": "T0002",
+      "hotel_id": "H0018"
+    }
+  ],
+  "temple_id": "T0002",
+  "hotel_id": "H0018"
+}

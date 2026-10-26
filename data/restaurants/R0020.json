@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0020",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=My+Delicious+Cafe+and+Restro+Vemulawada+Telangana",
+      "restaurantName": "My Delicious Cafe and Restro",
+
+  "associatedTemple": {
+    "templeId": "T0003",
+    "templeName": "Sri Raja Rajeshwara Swamy Temple, Vemulawada"
+  },
+
+  "basicInformation": {
+    "category": "Cafe & Restaurant",
+    "cuisineType": [
+      "Fast Food",
+      "South Indian",
+      "Chinese",
+      "Beverages",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A modern café and restaurant serving fast food, beverages, South Indian, Chinese, and Indian cuisine near Sri Raja Rajeshwara Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Vemulawada, Telangana, India",
+    "area": "Temple Area",
+    "city": "Vemulawada",
+    "district": "Rajanna Sircilla",
+    "state": "Telangana",
+    "pincode": "505302",
+    "landmark": "Near Sri Raja Rajeshwara Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.9,
+    "walkingTimeMinutes": 12,
+    "bikeTimeMinutes": 4,
+    "carTimeMinutes": 4,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Sandwich",
+      "Toast"
+    ],
+    "lunch": [
+      "Fried Rice",
+      "Chicken Biryani",
+      "Veg Meals"
+    ],
+    "dinner": [
+      "Pizza",
+      "Burger",
+      "Noodles",
+      "Biryani"
+    ],
+    "snacks": [
+      "French Fries",
+      "Garlic Bread",
+      "Spring Rolls"
+    ],
+    "beverages": [
+      "Coffee",
+      "Tea",
+      "Fresh Juice",
+      "Milkshake",
+      "Soft Drinks"
+    ],
+    "specialDishes": [
+      "Pizza",
+      "Chicken Burger",
+      "Chicken Biryani",
+      "Cold Coffee"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹200–350",
+    "averageCostForTwo": "₹450–700"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Raja Rajeshwara Swamy Temple",
+    "busStand": "Vemulawada Bus Station",
+    "railwayStation": "Kamareddi Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Modern café and family restaurant.",
+    "Fast food and Chinese cuisine available.",
+    "Coffee, milkshakes and fresh juices served.",
+    "Family seating available.",
+    "Suitable for pilgrims and tourists."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Restaurant Guru",
+      "url": "https://restaurant-guru.in/vegetarian-Vemulawada-c93"
+    }
+  ]
+}

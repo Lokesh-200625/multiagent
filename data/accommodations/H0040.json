@@ -1,0 +1,90 @@
+{
+  "associated_temple": "Sri Edupayala Vana Durga Bhavani Temple",
+  "hotels": [
+    {
+      "hotel_name": "Haritha Hotel Edupayala",
+      "hotel_type": "Government Hotel",
+      "address": "Near Edupayala Vana Durga Bhavani Temple, Nagsanpally Village, Papannapet Mandal, Medak District, Telangana - 502110, India",
+      "contact_numbers": [
+        "+91 8499088481",
+        "1800-425-46464"
+      ],
+      "email": "info@tstdc.in",
+      "about": "Haritha Hotel Edupayala is a government-operated hotel managed by Telangana Tourism Development Corporation (TGTDC). Located about 550 metres from Sri Edupayala Vana Durga Bhavani Temple, it offers AC and Non-AC rooms, an in-house restaurant, and a peaceful stay for pilgrims and tourists. The hotel is one of the closest and most reliable accommodation options near the temple. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Haritha+Hotel+Edupayala",
+      "official_website": "https://www.tourism.telangana.gov.in/",
+      "price_range": "₹1,100–₹2,200 per night (Approx.)",
+      "check_in_time": "12:00 AM",
+      "check_out_time": "12:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Edupayala Bus Stop – Approximately 400 m",
+        "railway_station": "Kamareddi Railway Station – Approximately 42 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 115 km"
+      },
+      "booking_links": {
+        "Official": "https://www.tourism.telangana.gov.in/all-hotels",
+        "Telangana Tourism": "https://www.tourism.telangana.gov.in/",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "3.9/5"
+      },
+      "room_types": [
+        "Standard Non-AC Room",
+        "Standard AC Room"
+      ],
+      "amenities": [
+        "Free Parking",
+        "Restaurant",
+        "Air Conditioning",
+        "Non-AC Rooms",
+        "24-Hour Front Desk",
+        "Power Backup",
+        "Family Rooms",
+        "Housekeeping",
+        "Garden Area"
+      ],
+      "facilities_summary": {
+        "room_service": "Limited",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Limited",
+        "in_room_dining": "Not Mentioned",
+        "breakfast": "Available",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Senior Citizens",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation and refund policies are governed by Telangana Tourism booking terms.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Edupayala Vana Durga Bhavani Temple (Approx. 550 m)",
+        "Edupayala River Confluence",
+        "Temple Parking Area",
+        "Temple Entrance"
+      ],
+      "temple_id": "T0016",
+      "hotel_id": "H0040"
+    }
+  ],
+  "temple_id": "T0016",
+  "hotel_id": "H0040"
+}

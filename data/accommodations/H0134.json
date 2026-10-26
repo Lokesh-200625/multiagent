@@ -1,0 +1,93 @@
+{
+  "associated_temple": "Swarnagiri Sri Venkateswara Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "PASALA RESORTS",
+      "hotel_type": "Resort Hotel",
+      "address": "Keesara - Bommalaramaram Road, Rangapuram, Telangana - 508126, India",
+      "contact_numbers": [
+        "+91 75697 21310",
+        "+91 81252 31825"
+      ],
+      "email": "booking@pasalaresorts.com",
+      "about": "PASALA RESORTS is a premium countryside resort located on the Keesara–Bommalaramaram Road in Rangapuram. The resort offers spacious rooms, landscaped surroundings, event facilities, and modern amenities, making it a suitable stay for pilgrims visiting Swarnagiri Sri Venkateswara Swamy Temple as well as families, corporate groups, and weekend travelers. The temple is approximately 48 minutes away by road. :contentReference[oaicite:2]{index=2}",
+      "google_map_link": "https://maps.google.com/?q=PASALA+RESORTS+Rangapuram",
+      "official_website": "https://pasalaresorts.com/",
+      "price_range": "₹3,000–₹6,000 per night (Approx.)",
+      "check_in_time": "3:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Bommalaramaram Bus Stand – Approximately 6 km",
+        "railway_station": "Bhongir Railway Station – Approximately 22 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 52 km"
+      },
+      "booking_links": {
+        "Official": "https://pasalaresorts.com/",
+        "Google Hotels": "https://www.google.com/travel/hotels/entity/ChkI2_-ztZzP_8gfGg0vZy8xMXM5Z2I5bjM5EAE",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.7/5"
+      },
+      "room_types": [
+        "Deluxe Room",
+        "Premium Room",
+        "Family Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Swimming Pool",
+        "Restaurant",
+        "Free Parking",
+        "Air Conditioning",
+        "Event Venue",
+        "Garden",
+        "24-Hour Front Desk",
+        "Room Service",
+        "Power Backup"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Corporate Groups",
+        "Weekend Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform or direct booking with the resort.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Swarnagiri Sri Venkateswara Swamy Temple",
+        "Keesaragutta Temple",
+        "Bhongir Fort",
+        "Shamirpet Lake"
+      ],
+      "temple_id": "T0023",
+      "hotel_id": "H0134"
+    }
+  ],
+  "temple_id": "T0023",
+  "hotel_id": "H0134"
+}

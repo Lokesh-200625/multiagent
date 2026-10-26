@@ -1,0 +1,94 @@
+{
+  "associated_temple": "Sri Sammakka Saralamma Temple, Medaram",
+  "hotels": [
+    {
+      "hotel_name": "Vinayaka Resorts",
+      "hotel_type": "Resort Hotel",
+      "address": "Near Laknavaram Lake, Chakiyal Village, Mulugu District, Telangana - 506344, India",
+      "contact_numbers": [
+        "+91 90005 52046"
+      ],
+      "email": "vinayaka.resorts@gmail.com",
+      "about": "Vinayaka Resorts is a premium lakeside resort located near Laknavaram Lake in Chakiyal Village, Mulugu district. The resort offers modern accommodation with scenic lake views and is an ideal stay for pilgrims visiting Sri Sammakka Saralamma Temple as well as tourists exploring Laknavaram Lake, Ramappa Temple, and Eturnagaram Wildlife Sanctuary. It is approximately 41 minutes by road from Medaram Temple. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Vinayaka+Resorts+Laknavaram",
+      "official_website": "https://vinayakaresorts.com/",
+      "price_range": "₹2,500–₹5,000 per night (Approx.)",
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Mulugu Bus Stand – Approximately 20 km",
+        "railway_station": "Warangal Railway Station – Approximately 45 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 210 km"
+      },
+      "booking_links": {
+        "Official": "https://vinayakaresorts.com/",
+        "Google Hotels": "https://www.google.com/travel/hotels/entity/ChkI1bSf89afh6B_Gg0vZy8xMXc5aG0ybWI4EAE",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.7/5"
+      },
+      "room_types": [
+        "Executive Suite",
+        "Luxury Room & Suite",
+        "Deluxe Room",
+        "Family Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free Parking",
+        "Air Conditioning",
+        "Restaurant",
+        "Room Service",
+        "Breakfast",
+        "Garden",
+        "Sky Lounge",
+        "Family Rooms",
+        "24-Hour Front Desk"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Couples",
+        "Nature Lovers",
+        "Group Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking option or direct booking with the resort.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Sammakka Saralamma Temple (Approx. 41 min)",
+        "Laknavaram Lake",
+        "Laknavaram Hanging Bridge",
+        "Ramappa (Rudreshwara) Temple",
+        "Eturnagaram Wildlife Sanctuary"
+      ],
+      "temple_id": "T0021",
+      "hotel_id": "H0072"
+    }
+  ],
+  "temple_id": "T0021",
+  "hotel_id": "H0072"
+}

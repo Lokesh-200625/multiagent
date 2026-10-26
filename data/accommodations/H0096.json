@@ -1,0 +1,87 @@
+{
+  "associated_temple": "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+  "hotels": [
+    {
+      "hotel_name": "Sri Mahalakshmi Family Rooms",
+      "hotel_type": "Family Guest House",
+      "address": "Near Sri Lakshmi Narasimha Swamy Temple, Yadagirigutta, Yadadri Bhuvanagiri District, Telangana - 508115, India",
+      "contact_numbers": [
+        "+91 9989511379"
+      ],
+      "email": "",
+      "about": "Sri Mahalakshmi Family Rooms is a budget-friendly family guest house located near Sri Lakshmi Narasimha Swamy Temple, Yadadri. The property offers clean and comfortable family accommodation with essential amenities, making it suitable for pilgrims, families, couples, and senior citizens visiting the temple.",
+      "google_map_link": "https://maps.google.com/?q=Sri+Mahalakshmi+Family+Rooms+Yadagirigutta",
+      "official_website": "",
+      "price_range": "₹1,000–₹1,800 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Yadadri Bus Stand – Approximately 800 m",
+        "railway_station": "Raigir Railway Station – Approximately 5 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 90 km"
+      },
+      "booking_links": {
+        "Google Hotels": "https://www.google.com/travel/hotels",
+        "Official": null,
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.5/5"
+      },
+      "room_types": [
+        "Standard Family Room",
+        "Deluxe Family Room"
+      ],
+      "amenities": [
+        "Air Conditioning",
+        "Family Rooms",
+        "Free Wi-Fi",
+        "Parking",
+        "Housekeeping",
+        "Attached Bathroom",
+        "LED TV",
+        "24-Hour Front Desk"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Mentioned",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Not Available",
+        "restaurant": "No",
+        "room_service": "Not Mentioned",
+        "in_room_dining": "Not Available",
+        "breakfast": "Not Available",
+        "food_type": "Not Specified",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Senior Citizens",
+        "Budget Travelers",
+        "Group Pilgrims"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking platform and room availability.",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Lakshmi Narasimha Swamy Temple – Approximately 300 m",
+        "Yadadri Bus Stand",
+        "Temple Steps",
+        "Raigir Railway Station"
+      ],
+      "temple_id": "T0001",
+      "hotel_id": "H0096"
+    }
+  ],
+  "temple_id": "T0001",
+  "hotel_id": "H0096"
+}

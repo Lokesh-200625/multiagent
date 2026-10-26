@@ -1,0 +1,107 @@
+{
+  "associated_temple": "Sri Lakshmi Narasimha Swamy Temple, Yadadri",
+  "hotels": [
+    {
+      "hotel_name": "Sowbhagya Hilltop Resort",
+      "hotel_type": "3-Star Resort Hotel",
+      "address": "Sri Sowbhagya Villas & Resorts Pvt. Ltd., Plot No. 95, Sri Laxmi Narasimha Township, Mallapur Road, Yadagirigutta, Yadadri Bhuvanagiri District, Telangana - 508115, India",
+      "contact_numbers": [
+        "+91 9849827512",
+        "+91 9392663307"
+      ],
+      "email": "sales@sowbhagyaresorts.com",
+      "about": "Sowbhagya Hilltop Resort is a premium three-star hilltop resort located less than 1 km from Sri Lakshmi Narasimha Swamy Temple, Yadadri. Overlooking the temple, the resort offers luxurious accommodation, a multicuisine restaurant, swimming pool, banquet halls, gaming zone, gardens, wellness facilities, and destination wedding services. It is an ideal choice for pilgrims, families, honeymoon couples, corporate events, and leisure travelers seeking a premium stay near the temple. :contentReference[oaicite:1]{index=1}",
+      "google_map_link": "https://maps.google.com/?q=Sowbhagya+Hilltop+Resort+Yadagirigutta",
+      "official_website": "https://www.sowbhagyaresorts.com/",
+      "price_range": "₹3,000–₹4,000 + GST per night",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Yadadri Bus Stand – Approximately 2 km",
+        "railway_station": "Raigir Railway Station – Approximately 8 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 82 km"
+      },
+      "booking_links": {
+        "Official": "https://www.sowbhagyaresorts.com/",
+        "Google Hotels": "https://www.google.com/travel/hotels/entity/ChkI7ubwlKrxyZNYGg0vZy8xMWI3M2tuam00EAE"
+      },
+      "ratings": {
+        "platform": "Tripadvisor",
+        "rating": "2.5/5"
+      },
+      "room_types": [
+        "Luxury Room",
+        "Premium Room",
+        "Swan Premium Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Free Parking",
+        "24-Hour Front Desk",
+        "24-Hour Room Service",
+        "Swimming Pool",
+        "Multicuisine Restaurant",
+        "Banquet Hall",
+        "Conference Room",
+        "Children's Play Area",
+        "Gaming Zone",
+        "Garden",
+        "Gazebo",
+        "Temple View",
+        "Laundry Service",
+        "Medical Assistance",
+        "Solar Water Heater",
+        "Power Backup",
+        "Wellness Facilities",
+        "Corporate Event Facilities",
+        "Wedding Venue",
+        "Film & Photo Shoot Facilities"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes (24 Hours)",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes (24-Hour Solar Hot & Cold Water)"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes (24 Hours)",
+        "in_room_dining": "Available",
+        "breakfast": "Available",
+        "food_type": "Multi-Cuisine, Vegetarian, Non-Vegetarian",
+        "outside_food": "Not Mentioned"
+      },
+      "suitable_for": [
+        "Families",
+        "Pilgrims",
+        "Couples",
+        "Honeymoon Couples",
+        "Senior Citizens",
+        "Luxury Travelers",
+        "Corporate Events",
+        "Wedding Guests",
+        "Group Pilgrims"
+      ],
+      "cancellation_policy": "Cancellation policy varies depending on the selected room category and booking method. Please verify the cancellation terms before confirming the reservation. :contentReference[oaicite:2]{index=2}",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Lakshmi Narasimha Swamy Temple – Less than 1 km",
+        "Surendrapuri",
+        "Raigir Railway Station",
+        "Yadadri Bus Stand",
+        "Shirdi Sai Baba Temple"
+      ],
+      "temple_id": "T0001",
+      "hotel_id": "H0103"
+    }
+  ],
+  "temple_id": "T0001",
+  "hotel_id": "H0103"
+}

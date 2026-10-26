@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0079",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Madhu+Sahithya+Hotel+Ramappa+Mulugu+Telangana",
+      
+  "restaurantName": "Madhu Sahithya Hotel",
+
+  "associatedTemple": {
+    "templeId": "T0014",
+    "templeName": "Ramappa Temple"
+  },
+
+  "basicInformation": {
+    "category": "Local Fast Food Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "Indian",
+      "Fast Food"
+    ],
+    "shortDescription": "A local food outlet near Ramappa Temple area serving quick meals, snacks and refreshments for pilgrims and visitors."
+  },
+
+  "location": {
+    "fullAddress": "Shop No 12, 34, Ramappa Area, Mulugu District, Telangana, India",
+    "area": "Ramappa Temple Area",
+    "city": "Palampet",
+    "district": "Mulugu",
+    "state": "Telangana",
+    "pincode": "506345",
+    "landmark": "Near Ramappa Temple Road",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+
+    "distanceFromTempleKm": {
+      "value": null,
+      "source": null,
+      "confidence": "Low"
+    },
+
+    "travelTime": {
+
+      "walking": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "calculationBasis": null,
+        "confidence": "Low"
+      },
+
+      "bike": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "calculationBasis": null,
+        "confidence": "Low"
+      },
+
+      "car": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "calculationBasis": null,
+        "confidence": "Low"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+919347859601",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [
+      "Fast Food Items",
+      "Local Snacks"
+    ],
+    "beverages": [
+      "Tea",
+      "Coffee"
+    ],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": null,
+    "averageCostForOne": null,
+    "averageCostForTwo": null,
+    "source": null
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": null,
+    "parking": null,
+    "familySeating": null,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": null,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 4.6,
+    "totalReviews": 9
+  },
+
+  "nearbyPlaces": {
+    "temple": "Ramappa Temple",
+    "busStand": "Palampet Bus Stop",
+    "railwayStation": "Warangal Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located near Ramappa heritage tourism area.",
+    "Suitable for quick refreshments during pilgrimage.",
+    "Local food option for temple visitors."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "location",
+      "phoneNumber",
+      "existence",
+      "customerRating"
+    ],
+
+    "estimatedFields": [],
+
+    "unknownFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "priceInformation",
+      "workingHours",
+      "facilities",
+      "menuDetails"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile / Local Listings",
+      "url": null
+    }
+  ]
+}

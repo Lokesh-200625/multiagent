@@ -1,0 +1,81 @@
+{
+  "associated_temple": "Ramappa (Rudreshwara) Temple",
+  "hotels": [
+    {
+      "hotel_name": "Kakatiya Resorts Laknavaram",
+      "hotel_type": "Resort Hotel",
+      "address": "53JM+79, 4-27, Near Kakatiya Resorts, Bussapur, Telangana - 506344, India",
+      "contact_numbers": [
+        "+91 73834 55195"
+      ],
+      "email": "",
+      "about": "Kakatiya Resorts Laknavaram is a resort hotel situated near Laknavaram Lake in Bussapur, Mulugu district. The resort offers comfortable accommodation for tourists visiting Ramappa (Rudreshwara) Temple, Laknavaram Lake, and nearby attractions. It is approximately 27 km (about 33 minutes by road) from Ramappa Temple and is popular among families and nature lovers.",
+      "google_map_link": "https://maps.google.com/?q=Kakatiya+Resorts+Laknavaram",
+      "official_website": "",
+      "price_range": "Contact Property / Seasonal Pricing",
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Mulugu Bus Stand – Approximately 18 km",
+        "railway_station": "Warangal Railway Station – Approximately 42 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 205 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Google Hotels": "https://www.google.com/travel/hotels/entity/ChkIoN3-643lpZp6Gg0vZy8xMXNtZ242Z2J2EAE",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "3.8/5"
+      },
+      "room_types": [],
+      "amenities": [
+        "Free Parking",
+        "Restaurant",
+        "Family Rooms",
+        "Room Service",
+        "24-Hour Front Desk"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Not Specified",
+        "breakfast": "Available",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Specified"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Tourists",
+        "Nature Lovers"
+      ],
+      "cancellation_policy": "Depends on the booking platform or direct booking with the property.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card"
+      ],
+      "nearby_landmarks": [
+        "Ramappa (Rudreshwara) Temple (Approx. 27 km)",
+        "Laknavaram Lake",
+        "Laknavaram Hanging Bridge",
+        "Ramappa Lake"
+      ],
+      "temple_id": "T0014",
+      "hotel_id": "H0079"
+    }
+  ],
+  "temple_id": "T0014",
+  "hotel_id": "H0079"
+}

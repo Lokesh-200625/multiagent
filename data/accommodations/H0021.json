@@ -1,0 +1,94 @@
+{
+  "associated_temple": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam",
+  "hotels": [
+    {
+      "hotel_name": "VR Palace",
+      "hotel_type": "Hotel / Lodge",
+      "address": "H.No: 1-1-24, Ramalayam Center, Bhadrachalam - 507111, Bhadradri Kothagudem, Telangana, India.",
+      "contact_numbers": [
+        "+91 8555985338"
+      ],
+      "email": "",
+      "about": "VR Palace is a budget-friendly hotel located within walking distance of Sri Sita Ramachandra Swamy Temple and the Godavari River. The hotel offers deluxe and suite rooms with modern amenities such as air conditioning, Wi-Fi, parking, restaurant, room service, and power backup. Its location near the temple makes it a convenient accommodation choice for pilgrims, families, and tourists.",
+      "google_map_link": "https://maps.app.goo.gl/ (Search: VR Palace, Bhadrachalam)",
+      "official_website": "",
+      "price_range": "₹1,700–₹3,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Bhadrachalam Bus Stand – Approximately 1 km",
+        "railway_station": "Aswapuram Railway Station – Approximately 26 km",
+        "airport": "Rajahmundry Airport – Approximately 180 km"
+      },
+      "booking_links": {
+        "Goibibo": "https://www.goibibo.com/hotels/vrpalace-hotel-in-bhadrachalam-5125499080431861941/",
+        "MakeMyTrip": "https://www.makemytrip.com/hotels/vrpalace-details-bhadrachalam.html"
+      },
+      "ratings": {
+        "platform": "MakeMyTrip",
+        "rating": "3.5/5"
+      },
+      "room_types": [
+        "Deluxe Room (Temple View)",
+        "Suite Room (City View)"
+      ],
+      "amenities": [
+        "Air Conditioning",
+        "Free Wi-Fi",
+        "Parking",
+        "Restaurant",
+        "Room Service",
+        "Power Backup",
+        "Housekeeping",
+        "Laundry Service",
+        "Luggage Assistance",
+        "CCTV Security",
+        "First-Aid Services",
+        "LED TV",
+        "Hot & Cold Water",
+        "24-Hour Reception"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes (Hot & Cold Water Available)"
+      },
+      "food_facility": {
+        "availability": "Yes",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available (Subject to Booking Plan)",
+        "food_type": "Local Cuisine, Pure Vegetarian Meals Available",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Families",
+        "Couples",
+        "Pilgrims",
+        "Senior Citizens",
+        "Group Pilgrims",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Free cancellation is available on eligible room plans up to check-in time, depending on the selected booking option. Book @ ₹0 payment is available on selected room plans.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Sita Ramachandra Swamy Temple – Approximately 300 m",
+        "Godavari River – Approximately 350 m",
+        "Abhaya Anjaneya Swamy Temple",
+        "Amba Satram Temple",
+        "Bhadrachalam Bus Stand – Approximately 1 km"
+      ],
+      "temple_id": "T0002",
+      "hotel_id": "H0021"
+    }
+  ],
+  "temple_id": "T0002",
+  "hotel_id": "H0021"
+}

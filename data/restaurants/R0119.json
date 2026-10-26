@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0119",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Hotel+Vivera+Bhuvanagiri+Telangana",
+  "restaurantName": "Hotel Vivera",
+
+  "associatedTemple": {
+    "templeId": "T0023",
+    "templeName": "Swarnagiri Sree Venkateswara Swamy Devasthanam"
+  },
+
+  "basicInformation": {
+    "category": "Hotel & Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A hotel and restaurant facility near Bhuvanagiri offering accommodation and multi-cuisine dining for travellers and pilgrims."
+  },
+
+  "location": {
+    "fullAddress": "Bhuvanagiri, Yadadri Bhuvanagiri District, Telangana 508116, India",
+    "area": "Bhuvanagiri",
+    "city": "Bhuvanagiri",
+    "district": "Yadadri Bhuvanagiri",
+    "state": "Telangana",
+    "pincode": "508116",
+    "landmark": "Near Hyderabad-Warangal Highway",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 7.5,
+      "source": "Estimated from verified business and temple locations",
+      "confidence": "Medium"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 90,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bike": {
+        "value": 18,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "car": {
+        "value": 15,
+        "unit": "minutes",
+        "type": "Estimated"
+      },
+      "bus": {
+        "value": 25,
+        "unit": "minutes",
+        "type": "Estimated"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": "07:00 AM",
+    "closingTime": "11:00 PM",
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [
+      "Idli",
+      "Dosa",
+      "Poori",
+      "Vada"
+    ],
+
+    "lunch": [
+      "Veg Meals",
+      "Non-Veg Meals",
+      "Rice Items"
+    ],
+
+    "dinner": [
+      "Biryani",
+      "Curries",
+      "Chinese Items"
+    ],
+
+    "snacks": [
+      "South Indian Snacks"
+    ],
+
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Soft Drinks"
+    ],
+
+    "specialDishes": [
+      "Biryani",
+      "South Indian Meals"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹200–400",
+    "averageCostForTwo": "₹400–800"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": false,
+    "lodgingAvailable": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Swarnagiri Sree Venkateswara Swamy Devasthanam",
+    "busStand": "Bhuvanagiri Bus Stand",
+    "railwayStation": "Bhongir Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Hotel with restaurant facility.",
+    "Useful for pilgrims requiring accommodation.",
+    "Accessible from highway route.",
+    "Suitable for families and travellers."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "category",
+      "location"
+    ],
+
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "foodInformation",
+      "priceInformation",
+      "workingHours"
+    ],
+
+    "unknownFields": [
+      "phoneNumber",
+      "googleRating",
+      "totalReviews",
+      "officialWebsite"
+    ]
+  }
+}

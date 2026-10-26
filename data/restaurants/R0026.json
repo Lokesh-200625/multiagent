@@ -1,0 +1,122 @@
+ {
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+  "restaurantId": "R0026",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Surabhi+Family+Restaurant+Basara+Telangana",
+      "restaurantName": "Surabhi Family Restaurant",
+
+  "associatedTemple": {
+    "templeId": "T0004",
+    "templeName": "Sri Gnana Saraswati Temple, Basara"
+  },
+
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A family restaurant in Basara serving Indian and Chinese cuisine with both vegetarian and non-vegetarian options."
+  },
+
+  "location": {
+    "fullAddress": "Basara, Nirmal District, Telangana, India",
+    "area": "Temple Area",
+    "city": "Basara",
+    "district": "Nirmal",
+    "state": "Telangana",
+    "pincode": "504101",
+    "landmark": "Near Sri Gnana Saraswati Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.8,
+    "walkingTimeMinutes": 11,
+    "bikeTimeMinutes": 3,
+    "carTimeMinutes": 3,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Premium",
+    "averageCostForOne": "₹250–450",
+    "averageCostForTwo": "₹600–900"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": true
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Gnana Saraswati Temple",
+    "busStand": "Basara Bus Stand",
+    "railwayStation": "Basar Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Premium family restaurant.",
+    "Vegetarian and non-vegetarian cuisine.",
+    "Comfortable family seating.",
+    "Parking facility available.",
+    "Located near Sri Gnana Saraswati Temple."
+  ],
+
+  "references": []
+}

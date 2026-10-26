@@ -1,0 +1,165 @@
+{
+  "temple_id": "T0003",
+  "temple_name": "Sri Raja Rajeshwara Swamy Temple, Vemulawada",
+  "location": {
+    "district": "Rajanna Sircilla",
+    "state": "Telangana",
+    "latitude": 18.4669,
+    "longitude": 78.8686
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Government Area Hospital, Vemulawada",
+        "type": "Government Hospital",
+        "address": "Vemulawada, Rajanna Sircilla, Telangana 505302",
+        "latitude": 18.4689,
+        "longitude": 78.8708,
+        "distance_from_temple_km": 0.6,
+        "estimated_travel_time": "3 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Area+Hospital+Vemulawada/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Sri Sai Hospital",
+        "type": "Hospital",
+        "address": "Vemulawada, Telangana 505302",
+        "latitude": 18.4674,
+        "longitude": 78.8719,
+        "distance_from_temple_km": 0.8,
+        "estimated_travel_time": "4 min",
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Sai+Hospital+Vemulawada/",
+        "emergency_department": null,
+        "24x7_emergency": null,
+        "ambulance_available": null,
+        "trauma_care": false,
+        "icu_available": null,
+        "pharmacy_available": null,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Vemulawada Police Station",
+        "type": "Police Station",
+        "address": "Vemulawada, Rajanna Sircilla, Telangana 505302",
+        "latitude": 18.4682,
+        "longitude": 78.8701,
+        "distance_from_temple": 0.5,
+        "travel_time": "2 min",
+        "google_maps_url": "https://www.google.com/maps/search/Vemulawada+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Vemulawada",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Vemulawada",
+        "address": "Vemulawada, Rajanna Sircilla, Telangana 505302",
+        "coordinates": {
+          "latitude": 18.4714,
+          "longitude": 78.8743
+        },
+        "distance_from_temple": 1.2,
+        "travel_time": "4 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Vemulawada/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Temple Road, Vemulawada, Telangana 505302",
+        "distance": 0.4,
+        "coordinates": {
+          "latitude": 18.4673,
+          "longitude": 78.8695
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Vemulawada/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "MedPlus Pharmacy",
+        "address": "Vemulawada Main Road, Telangana 505302",
+        "distance": 0.6,
+        "coordinates": {
+          "latitude": 18.4688,
+          "longitude": 78.871
+        },
+        "google_maps_url": "https://www.google.com/maps/search/MedPlus+Pharmacy+Vemulawada/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Sri Lakshmi Medical & General Stores",
+        "address": "Temple Road, Vemulawada, Telangana 505302",
+        "distance": 0.5,
+        "coordinates": {
+          "latitude": 18.4678,
+          "longitude": 78.87
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Lakshmi+Medical+%26+General+Stores+Vemulawada/",
+        "phone": "",
+        "opening_hours": "7:30 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": false,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

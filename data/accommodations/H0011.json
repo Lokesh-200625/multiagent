@@ -1,0 +1,91 @@
+{
+  "associated_temple": "Sri Beechupally Anjaneya Swamy Temple",
+  "hotels": [
+    {
+      "hotel_name": "Haritha Hotel Gadwal",
+      "hotel_type": "Government Hotel",
+      "address": "Near Gadwal RTC Bus Stand, Gadwal, Jogulamba Gadwal District, Telangana - 509125, India",
+      "contact_numbers": [
+        "1800-425-46464"
+      ],
+      "email": "info@tstdc.in",
+      "about": "Haritha Hotel Gadwal is a government-operated hotel managed by Telangana Tourism Development Corporation (TGTDC). Located approximately 16 km from Sri Beechupally Anjaneya Swamy Temple, the hotel offers clean and comfortable accommodation with modern amenities, an in-house restaurant, ample parking, and a peaceful environment. It is one of the preferred stay options for pilgrims visiting Beechupally Temple and travelers passing through NH-44.",
+      "google_map_link": "https://maps.google.com/?q=Haritha+Hotel+Gadwal",
+      "official_website": "https://tourism.telangana.gov.in/",
+      "price_range": "₹1,200–₹2,800 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearest_transport": {
+        "bus_stand": "Gadwal RTC Bus Stand – Approximately 300 m",
+        "railway_station": "Gadwal Railway Station – Approximately 2 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 185 km"
+      },
+      "booking_links": {
+        "Official": "https://tourism.telangana.gov.in/",
+        "Telangana Tourism": "https://tourism.telangana.gov.in/",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "4.1/5"
+      },
+      "room_types": [
+        "Standard AC Room",
+        "Deluxe Room",
+        "Suite"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Restaurant",
+        "Free Parking",
+        "24-Hour Front Desk",
+        "Room Service",
+        "Power Backup",
+        "Housekeeping",
+        "Family Rooms",
+        "Laundry Service"
+      ],
+      "facilities_summary": {
+        "room_service": "Yes",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Available",
+        "restaurant": "Yes",
+        "room_service": "Yes",
+        "in_room_dining": "Available",
+        "breakfast": "Available",
+        "food_type": "Vegetarian and Non-Vegetarian",
+        "outside_food": "Not Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Business Travelers",
+        "Tourists"
+      ],
+      "cancellation_policy": "Cancellation and refund policies are governed by Telangana Tourism booking terms.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sri Beechupally Anjaneya Swamy Temple (Approx. 16 km)",
+        "Gadwal RTC Bus Stand",
+        "Gadwal Railway Station",
+        "Gadwal Fort"
+      ],
+      "temple_id": "T0020",
+      "hotel_id": "H0011"
+    }
+  ],
+  "temple_id": "T0020",
+  "hotel_id": "H0011"
+}

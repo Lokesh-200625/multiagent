@@ -1,0 +1,80 @@
+{
+  "associated_temple": "Sri Sammakka Saralamma Temple, Medaram",
+  "hotels": [
+    {
+      "hotel_name": "Anil Rooms A/C & Non A/C Medaram",
+      "hotel_type": "Homestay",
+      "address": "Near Sammakka-Saralamma Temple, Medaram, Mulugu District, Telangana - 506347, India",
+      "contact_numbers": [
+        "+91 96669 18283"
+      ],
+      "email": "",
+      "about": "Anil Rooms A/C & Non A/C Medaram is a budget-friendly homestay located very close to Sri Sammakka Saralamma Temple. The property offers clean AC and Non-AC rooms with basic amenities, making it a convenient stay option for pilgrims and families visiting Medaram throughout the year. It is situated within walking distance of the temple. ",
+      "google_map_link": "https://maps.google.com/?q=Anil+Rooms+AC+Non+AC+Medaram",
+      "official_website": "",
+      "price_range": "₹800–₹1,500 per night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Medaram Bus Stand – Approximately 500 m",
+        "railway_station": "Warangal Railway Station – Approximately 50 km",
+        "airport": "Rajiv Gandhi International Airport, Hyderabad – Approximately 190 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Google Maps": "https://maps.google.com/?q=Anil+Rooms+AC+Non+AC+Medaram",
+        "MakeMyTrip": null,
+        "Goibibo": null,
+        "Booking.com": null
+      },
+      "ratings": {
+        "platform": "Google",
+        "rating": "5.0/5"
+      },
+      "room_types": [
+        "AC Room",
+        "Non-AC Room"
+      ],
+      "amenities": [
+        "Air Conditioning",
+        "Attached Bathroom",
+        "Parking",
+        "Family Rooms"
+      ],
+      "facilities_summary": {
+        "room_service": "Not Specified",
+        "family_rooms": "Yes",
+        "hot_water_facility": "Not Specified"
+      },
+      "food_facility": {
+        "availability": "Available Nearby",
+        "restaurant": "Nearby",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Not Available",
+        "food_type": "Vegetarian and Non-Vegetarian (Nearby)",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Families",
+        "Budget Travelers",
+        "Solo Travelers"
+      ],
+      "cancellation_policy": "Depends on direct booking with the property.",
+      "payment_modes": [
+        "Cash",
+        "UPI"
+      ],
+      "nearby_landmarks": [
+        "Sri Sammakka Saralamma Temple (Walking Distance)",
+        "Jampanna Vagu",
+        "Medaram Bus Stand"
+      ],
+      "temple_id": "T0021",
+      "hotel_id": "H0068"
+    }
+  ],
+  "temple_id": "T0021",
+  "hotel_id": "H0068"
+}

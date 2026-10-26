@@ -1,0 +1,87 @@
+{
+  "associated_temple": "Sanghi Temple, Hyderabad",
+  "hotels": [
+    {
+      "hotel_name": "Sahara Dormitory",
+      "hotel_type": "Dormitory / Budget Stay",
+      "address": "Near Ramoji Film City Main Entrance, Abdullapurmet, Hyderabad, Telangana - 501512, India",
+      "contact_numbers": [],
+      "email": "",
+      "about": "Sahara Dormitory is a budget accommodation located approximately 2 km from Sanghi Temple and close to Ramoji Film City. It provides economical dormitory-style lodging with essential facilities, making it suitable for pilgrims, backpackers, solo travelers, students, and groups visiting the temple or Ramoji Film City.",
+      "google_map_link": "https://maps.google.com/?q=Sahara+Dormitory+Ramoji+Film+City",
+      "official_website": "",
+      "price_range": "₹500–₹1,000 per bed/night (Approx.)",
+      "check_in_time": "12:00 PM",
+      "check_out_time": "11:00 AM",
+      "nearest_transport": {
+        "bus_stand": "Sanghi Nagar Bus Stop – Approximately 1.8 km",
+        "railway_station": "Ghatkesar Railway Station – Approximately 13 km",
+        "airport": "Rajiv Gandhi International Airport – Approximately 35 km"
+      },
+      "booking_links": {
+        "Official": null,
+        "Goibibo": "https://www.goibibo.com/",
+        "MakeMyTrip": null,
+        "Booking.com": null,
+        "OYO": null
+      },
+      "ratings": {
+        "platform": "Goibibo",
+        "rating": "4.0/5"
+      },
+      "room_types": [
+        "Dormitory Bed",
+        "Shared Room"
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Shared Washroom",
+        "Locker Facility",
+        "24-Hour Front Desk",
+        "Daily Housekeeping",
+        "Parking"
+      ],
+      "facilities_summary": {
+        "room_service": "No",
+        "family_rooms": "No",
+        "hot_water_facility": "Yes"
+      },
+      "food_facility": {
+        "availability": "Limited",
+        "restaurant": "No",
+        "room_service": "No",
+        "in_room_dining": "No",
+        "breakfast": "Not Included",
+        "food_type": "Not Specified",
+        "outside_food": "Allowed"
+      },
+      "suitable_for": [
+        "Pilgrims",
+        "Solo Travelers",
+        "Students",
+        "Backpackers",
+        "Group Travelers",
+        "Budget Travelers"
+      ],
+      "cancellation_policy": "Cancellation policy depends on the selected booking plan available on the booking platform.",
+      "payment_modes": [
+        "Cash",
+        "UPI",
+        "Credit Card",
+        "Debit Card",
+        "Net Banking"
+      ],
+      "nearby_landmarks": [
+        "Sanghi Temple (Approx. 2 km)",
+        "Ramoji Film City",
+        "Sanghi Nagar",
+        "Abdullapurmet"
+      ],
+      "temple_id": "T0010",
+      "hotel_id": "H0122"
+    }
+  ],
+  "temple_id": "T0010",
+  "hotel_id": "H0122"
+}

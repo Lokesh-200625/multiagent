@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+
+  "restaurantId": "R0023",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Sri+Balaji+Tiffin+Center+Basara+Telangana",
+      "restaurantName": "Sri Balaji Tiffin Center",
+
+  "associatedTemple": {
+    "templeId": "T0004",
+    "templeName": "Sri Gnana Saraswati Temple, Basara"
+  },
+
+  "basicInformation": {
+    "category": "Tiffin Center",
+    "cuisineType": [
+      "South Indian",
+      "Vegetarian"
+    ],
+    "shortDescription": "A budget-friendly tiffin center near Sri Gnana Saraswati Temple serving traditional South Indian breakfast and vegetarian meals."
+  },
+
+  "location": {
+    "fullAddress": "Basara, Nirmal District, Telangana, India",
+    "area": "Temple Area",
+    "city": "Basara",
+    "district": "Nirmal",
+    "state": "Telangana",
+    "pincode": "504101",
+    "landmark": "Near Sri Gnana Saraswati Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.3,
+    "walkingTimeMinutes": 4,
+    "bikeTimeMinutes": 2,
+    "carTimeMinutes": 2,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [],
+    "beverages": [],
+    "specialDishes": []
+  },
+
+  "priceInformation": {
+    "priceCategory": "Budget",
+    "averageCostForOne": "₹100–200",
+    "averageCostForTwo": "₹250–400"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Gnana Saraswati Temple",
+    "busStand": "Basara Bus Stand",
+    "railwayStation": "Basar Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Budget-friendly tiffin center.",
+    "Pure vegetarian food.",
+    "Popular among pilgrims.",
+    "Suitable for breakfast and quick meals.",
+    "Located close to the temple."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Google Business",
+      "url": null
+    },
+    {
+      "sourceName": "Restaurant Listing",
+      "url": null
+    }
+  ]
+}

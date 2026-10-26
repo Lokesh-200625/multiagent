@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified"
+  },
+ "restaurantId": "R0013",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=Tribal+Coffee+House+Bhadrachalam+Telangana",
+      
+      "restaurantName": "Tribal Coffee House",
+
+  "associatedTemple": {
+    "templeId": "T0002",
+    "templeName": "Sri Sita Ramachandra Swamy Temple, Bhadrachalam"
+  },
+  "basicInformation": {
+    "category": "Cafe",
+    "cuisineType": [
+      "Coffee",
+      "Snacks",
+      "South Indian"
+    ],
+    "shortDescription": "A coffee house serving freshly brewed coffee, light snacks, and quick refreshments near Sri Sita Ramachandra Swamy Temple."
+  },
+
+  "location": {
+    "fullAddress": "Bhadrachalam, Telangana, India",
+    "area": "Temple Area",
+    "city": "Bhadrachalam",
+    "district": "Bhadradri Kothagudem",
+    "state": "Telangana",
+    "pincode": "507111",
+    "landmark": "Near Sri Sita Ramachandra Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": 0.8,
+    "walkingTimeMinutes": 11,
+    "bikeTimeMinutes": 4,
+    "carTimeMinutes": 4,
+    "busTimeMinutes": null
+  },
+
+  "contactInformation": {
+    "phoneNumber": null,
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [],
+    "dinner": [],
+    "snacks": [
+      "Sandwich",
+      "Puffs",
+      "Biscuits"
+    ],
+    "beverages": [
+      "Coffee",
+      "Tea",
+      "Cold Coffee"
+    ],
+    "specialDishes": [
+      "Filter Coffee"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹150–300",
+    "averageCostForTwo": "₹300–500"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": null,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": false,
+    "pureVegetarian": true
+  },
+
+  "customerInformation": {
+    "googleRating": null,
+    "totalReviews": null
+  },
+
+  "nearbyPlaces": {
+    "temple": "Sri Sita Ramachandra Swamy Temple",
+    "busStand": "Bhadrachalam Bus Station",
+    "railwayStation": "Bhadrachalam Road Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Coffee house near the temple.",
+    "Ideal for refreshments.",
+    "Quick snacks available.",
+    "Comfortable seating."
+  ],
+
+  "references": [
+    {
+      "sourceName": "Restaurant Guru",
+      "url": "https://restaurant-guru.in/"
+    }
+  ]
+}

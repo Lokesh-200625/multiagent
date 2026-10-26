@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "lastVerified": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "verifiedBy": "PilgrimAI Research Team",
+    "language": "en",
+    "dataVersion": "1.0",
+    "status": "Verified_With_Estimated_Fields"
+  },
+
+  "restaurantId": "R0096",
+"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=SECOND+WIFE+FAMILY+RESTAURANT+Jamalapuram+Telangana",
+  "restaurantName": "SECOND WIFE FAMILY RESTAURANT",
+
+  "associatedTemple": {
+    "templeId": "T0018",
+    "templeName": "Jamalapuram Sri Venkateswara Swamy Temple"
+  },
+
+  "basicInformation": {
+    "category": "Family Restaurant",
+    "cuisineType": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Non-Vegetarian"
+    ],
+    "shortDescription": "A family restaurant situated behind Jamalapuram Sri Venkateswara Swamy Temple, offering meals and Indian cuisine for pilgrims and travellers."
+  },
+
+  "location": {
+    "fullAddress": "Temple Back Side, Jamalapuram Road, Jamalapuram, Khammam District, Telangana 507201, India",
+    "area": "Temple Back Side",
+    "city": "Jamalapuram",
+    "district": "Khammam",
+    "state": "Telangana",
+    "pincode": "507201",
+    "landmark": "Behind Jamalapuram Sri Venkateswara Swamy Temple",
+    "plusCode": null,
+    "googleMapsLink": null
+  },
+
+  "travelInformation": {
+    "distanceFromTempleKm": {
+      "value": 0.2,
+      "source": "Estimated from verified business location ('Temple Back Side')",
+      "confidence": "High"
+    },
+
+    "travelTime": {
+      "walking": {
+        "value": 3,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Approx. 0.2 km walking distance",
+        "confidence": "High"
+      },
+
+      "bike": {
+        "value": 1,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Local temple road",
+        "confidence": "High"
+      },
+
+      "car": {
+        "value": 1,
+        "unit": "minutes",
+        "type": "Estimated",
+        "calculationBasis": "Local temple road",
+        "confidence": "High"
+      },
+
+      "bus": {
+        "value": null,
+        "unit": "minutes",
+        "type": "Unknown",
+        "confidence": "Low"
+      }
+    }
+  },
+
+  "contactInformation": {
+    "phoneNumber": "+919666593160",
+    "officialWebsite": null,
+    "googleBusinessProfile": null
+  },
+
+  "workingHours": {
+    "openingTime": null,
+    "closingTime": null,
+    "workingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "specialHolidayTimings": null
+  },
+
+  "foodInformation": {
+    "breakfast": [],
+    "lunch": [
+      "Meals",
+      "Veg Meals",
+      "Non-Veg Meals"
+    ],
+    "dinner": [
+      "Indian Cuisine",
+      "Biryani"
+    ],
+    "snacks": [],
+    "beverages": [
+      "Tea",
+      "Coffee",
+      "Cool Drinks"
+    ],
+    "specialDishes": [
+      "Biryani"
+    ]
+  },
+
+  "priceInformation": {
+    "priceCategory": "Moderate",
+    "averageCostForOne": "₹150–300",
+    "averageCostForTwo": "₹400–700"
+  },
+
+  "facilities": {
+    "dineIn": true,
+    "takeaway": true,
+    "parking": true,
+    "familySeating": true,
+    "airConditioning": null
+  },
+
+  "dietaryInformation": {
+    "vegetarian": true,
+    "nonVegetarian": true,
+    "pureVegetarian": false
+  },
+
+  "customerInformation": {
+    "googleRating": 5.0,
+    "totalReviews": 4
+  },
+
+  "nearbyPlaces": {
+    "temple": "Jamalapuram Sri Venkateswara Swamy Temple",
+    "busStand": "Jamalapuram Bus Stop",
+    "railwayStation": "Madhira Railway Station"
+  },
+
+  "restaurantHighlights": [
+    "Located behind the temple.",
+    "Ideal for pilgrims after darshan.",
+    "Family-friendly dining.",
+    "Very close walking distance from the temple."
+  ],
+
+  "dataReliability": {
+    "verifiedFields": [
+      "restaurantName",
+      "address",
+      "phoneNumber",
+      "rating",
+      "reviewCount",
+      "category"
+    ],
+    "estimatedFields": [
+      "distanceFromTempleKm",
+      "travelTime",
+      "priceInformation",
+      "menuDetails"
+    ],
+    "unknownFields": [
+      "officialWebsite",
+      "exactWorkingHours"
+    ]
+  },
+
+  "references": [
+    {
+      "sourceName": "Google Business Profile",
+      "url": null
+    }
+  ]
+}

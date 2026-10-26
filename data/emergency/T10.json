@@ -1,0 +1,150 @@
+{
+  "temple_id": "T0010",
+  "temple_name": "Sanghi Temple",
+  "location": {
+    "district": "Ranga Reddy",
+    "state": "Telangana",
+    "latitude": 17.3233,
+    "longitude": 78.6768
+  },
+  "emergency": {
+    "hospitals": [
+      {
+        "name": "Sri Raghavendra Hospital",
+        "type": "Hospital",
+        "address": "Ghatkesar Road, Hyderabad, Telangana 501301",
+        "latitude": 17.3538,
+        "longitude": 78.6856,
+        "distance_from_temple_km": 4.2,
+        "estimated_travel_time": "10 min",
+        "google_maps_url": "https://www.google.com/maps/search/Sri+Raghavendra+Hospital+Ghatkesar/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "Government Area Hospital, Hayathnagar",
+        "type": "Government Hospital",
+        "address": "Hayathnagar, Hyderabad, Telangana 501505",
+        "latitude": 17.3267,
+        "longitude": 78.6027,
+        "distance_from_temple_km": 8.5,
+        "estimated_travel_time": "16 min",
+        "google_maps_url": "https://www.google.com/maps/search/Government+Area+Hospital+Hayathnagar/",
+        "emergency_department": true,
+        "24x7_emergency": true,
+        "ambulance_available": true,
+        "trauma_care": null,
+        "icu_available": null,
+        "pharmacy_available": true,
+        "phone": "",
+        "emergency_phone": "",
+        "website": "",
+        "opening_hours": "Open 24 hours",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "phone_verified": false,
+        "location_verified": true,
+        "last_verified_at": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "ambulance_services": [
+      {
+        "service_name": "",
+        "phone": "",
+        "coverage_area": "",
+        "availability": "",
+        "source_url": "",
+        "last_verified_at": "",
+        "verification_status": ""
+      }
+    ],
+    "police": [
+      {
+        "police_station_name": "Rachakonda Police Station",
+        "type": "Police Station",
+        "address": "Rachakonda, Ranga Reddy, Telangana",
+        "latitude": 17.3308,
+        "longitude": 78.6714,
+        "distance_from_temple": 2.1,
+        "travel_time": "5 min",
+        "google_maps_url": "https://www.google.com/maps/search/Rachakonda+Police+Station/",
+        "station_phone": "",
+        "availability": "24x7",
+        "jurisdiction": "Rachakonda",
+        "source_url": "",
+        "source_type": "Google Maps",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "fire_rescue": [
+      {
+        "fire_station_name": "Fire Station, Hayathnagar",
+        "address": "Hayathnagar, Hyderabad, Telangana 501505",
+        "coordinates": {
+          "latitude": 17.3278,
+          "longitude": 78.6062
+        },
+        "distance_from_temple": 8.3,
+        "travel_time": "16 min",
+        "phone": "",
+        "24x7_status": true,
+        "google_maps_url": "https://www.google.com/maps/search/Fire+Station+Hayathnagar/",
+        "source_url": "",
+        "verification_status": "Location Verified"
+      }
+    ],
+    "pharmacies": [
+      {
+        "name": "Apollo Pharmacy",
+        "address": "Ghatkesar Road, Hyderabad, Telangana 501301",
+        "distance": 4.1,
+        "coordinates": {
+          "latitude": 17.3536,
+          "longitude": 78.6852
+        },
+        "google_maps_url": "https://www.google.com/maps/search/Apollo+Pharmacy+Ghatkesar/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      },
+      {
+        "name": "MedPlus Pharmacy",
+        "address": "Ghatkesar, Hyderabad, Telangana 501301",
+        "distance": 4.3,
+        "coordinates": {
+          "latitude": 17.3542,
+          "longitude": 78.6848
+        },
+        "google_maps_url": "https://www.google.com/maps/search/MedPlus+Ghatkesar/",
+        "phone": "",
+        "opening_hours": "8:00 AM - 10:00 PM",
+        "24x7": false,
+        "home_delivery": true,
+        "verification_status": "Location Verified"
+      }
+    ],
+    "metadata": {
+      "created_for": "PilgrimAI RAG Dataset",
+      "version": "1.0",
+      "last_updated": "",
+      "review_status": "Pending Verification"
+    }
+  }
+}

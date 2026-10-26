@@ -33,3 +33,6 @@ Thumbs.db
 # Local runtime files
 *.sqlite3
 *.db
+
+# local artifact
+pilgrimai-v2.patch

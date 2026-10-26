@@ -1,11 +1,19 @@
 """Google Routes API provider (Compute Routes). Used only when
 settings.google_maps_api_key is configured. Supports driving (traffic-aware),
-walking, and transit modes."""
+walking, and transit modes.
+
+Spec: POST https://routes.googleapis.com/directions/v2:computeRoutes
+RouteTravelMode enum = DRIVE | TWO_WHEELER | WALK | TRANSIT | TRUCK | BICYCLE
+(NOT the legacy Directions-API values DRIVING/WALKING).
+Transit departure time = top-level departureTime (there is no transitOptions
+field on ComputeRoutesRequest).
+"""
 from __future__ import annotations
 
 import json
 import logging
 import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
@@ -15,8 +23,8 @@ from app.travel.schemas import Coordinate, TravelFact
 logger = logging.getLogger(__name__)
 
 _MODE_MAP = {
-    "driving": "DRIVING",
-    "walking": "WALKING",
+    "driving": "DRIVE",
+    "walking": "WALK",
     "transit": "TRANSIT",
 }
 
@@ -41,6 +49,28 @@ def _log(status: str, started_at: float) -> None:
     )
 
 
+def _http_error_message(exc: urllib.error.HTTPError) -> str:
+    """Extract Google's error body (message + ErrorInfo reason) so failures
+    like 400/403 surface the real cause instead of 'Bad Request'."""
+    try:
+        raw = exc.read().decode("utf-8", errors="replace")
+    except Exception:
+        raw = ""
+    try:
+        err = json.loads(raw).get("error", {})
+        message = err.get("message") or ""
+        reason = ""
+        for detail in err.get("details") or []:
+            if str(detail.get("@type", "")).endswith("ErrorInfo"):
+                reason = detail.get("reason") or ""
+                break
+        if message or reason:
+            return f"HTTP {exc.code} [{reason}]: {message}"
+    except Exception:
+        pass
+    return f"HTTP {exc.code}: {exc.reason}"
+
+
 def route_google(
     origin: Coordinate,
     destination: Coordinate,
@@ -51,11 +81,11 @@ def route_google(
     started_at = time.monotonic()
 
     try:
-        if not settings.google_maps_api_key:
+        api_key = (settings.google_maps_api_key or "").strip()
+        if not api_key:
             raise RuntimeError("GOOGLE_MAPS_API_KEY is not configured.")
 
-        travel_mode = _MODE_MAP.get(mode, "DRIVING")
-        now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+        travel_mode = _MODE_MAP.get(mode, "DRIVE")
 
         payload: dict = {
             "origin": {
@@ -80,14 +110,17 @@ def route_google(
             "computeAlternativeRoutes": False,
         }
 
-        if travel_mode == "DRIVING":
+        if travel_mode == "DRIVE":
             payload["routingPreference"] = "TRAFFIC_AWARE"
-            payload["departureTime"] = now
         elif travel_mode == "TRANSIT":
-            payload["transitOptions"] = {"departureTime": now}
+            # ComputeRoutesRequest: transit departure time is top-level
+            # departureTime (RFC 3339, Z or offset accepted).
+            payload["departureTime"] = (
+                datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+            )
 
         request = urllib.request.Request(
-            f"{settings.google_routes_url}?key={settings.google_maps_api_key}",
+            f"{settings.google_routes_url}?key={api_key}",
             data=json.dumps(payload).encode("utf-8"),
             headers={
                 "Content-Type": "application/json",
@@ -181,6 +214,9 @@ def route_google(
         _log("success", started_at)
         return facts
 
+    except urllib.error.HTTPError as exc:
+        _log("error", started_at)
+        raise RuntimeError(f"google_routes: {_http_error_message(exc)}") from exc
     except Exception:
         _log("error", started_at)
         raise

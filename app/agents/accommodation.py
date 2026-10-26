@@ -118,6 +118,8 @@ def _norm_hotel(raw: dict, meta: dict) -> dict[str, Any]:
         f"{record['temple_name']} {record['address']} {record['name']} "
         f"{record['hotel_type']}"
     )
+    record["_place_tokens"] = _tokens(f"{record['temple_name']} {record['address']}")
+    record["_name_tokens"] = _tokens(record["name"])
     return record
 
 
@@ -220,6 +222,10 @@ def _norm_restaurant(raw: dict) -> dict[str, Any]:
         f"{record['temple_name']} {record['city']} {record['address']} "
         f"{record['name']} {' '.join(record['cuisine'])}"
     )
+    record["_place_tokens"] = _tokens(
+        f"{record['temple_name']} {record['city']} {record['address']}"
+    )
+    record["_name_tokens"] = _tokens(record["name"])
     return record
 
 
@@ -259,7 +265,7 @@ def _load_restaurants() -> list[dict[str, Any]]:
 
 
 # ---------------------------------------------------------------------------
-# static selection: temple_ids (registry-resolved) -> keyword fallback
+# static selection: temple_ids (registry-resolved) -> place tokens -> names
 # ---------------------------------------------------------------------------
 
 def _select_static(
@@ -270,25 +276,43 @@ def _select_static(
     temple_ids: list[str] | None,
     kind: str,
 ) -> list[dict[str, Any]]:
+    """Strict selection order: temple ids -> PLACE tokens (temple/city/address
+    vocabulary only) -> entity mentions (place vocabulary) -> exact name lookup.
+
+    Food/quality words (pure, veg, vegetarian, budget...) are FILTERS applied
+    after a place is pinned; they never select records on their own. This
+    prevents cross-temple leakage ("pure veg near Bhadrachalam" must only
+    return Bhadrachalam records)."""
     selected: list[dict[str, Any]] = []
 
     if temple_ids:
         wanted = set(temple_ids)
         selected = [r for r in records if r.get("temple_id") in wanted]
 
+    place_vocab: set[str] = set()
+    name_vocab: set[str] = set()
     if not selected:
-        q_tokens = _tokens(question)
-        if q_tokens:
-            selected = [r for r in records if q_tokens & r["_haystack"]]
+        for record in records:
+            place_vocab |= record["_place_tokens"]
+            name_vocab |= record["_name_tokens"]
+
+        q_place = _tokens(question) & place_vocab
+        if q_place:
+            selected = [r for r in records if q_place & r["_place_tokens"]]
 
     if not selected:
         for mention in entities or []:
             m_tokens = _tokens(mention)
             if not m_tokens:
                 continue
-            selected = [r for r in records if m_tokens & r["_haystack"]]
+            selected = [r for r in records if m_tokens & r["_place_tokens"]]
             if selected:
                 break
+
+    if not selected:
+        q_names = _tokens(question) & name_vocab
+        if q_names:
+            selected = [r for r in records if q_names & r["_name_tokens"]]
 
     if selected and kind == "restaurant":
         q_tokens = _tokens(question)

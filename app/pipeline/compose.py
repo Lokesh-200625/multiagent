@@ -23,7 +23,9 @@ Write the FINAL user-facing answer.
 
 Hard rules:
 1. Use ONLY facts present in the evidence. Never invent names, times, distances,
-   durations, prices, phone numbers, or websites.
+   durations, prices, phone numbers, or websites. Never add proximity claims
+   ("walking distance", "minutes away", "very close", "on the way") unless the
+   evidence states them.
 2. Every number in your reply (distance, minutes, hours, times, prices, km) must
    be copied EXACTLY as it appears in the evidence - same digits, no rounding,
    no unit conversion, no calculations.

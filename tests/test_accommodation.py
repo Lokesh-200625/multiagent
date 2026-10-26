@@ -179,6 +179,47 @@ def test_no_data_returns_honest_note_with_hint(monkeypatch):
     assert notes[0]["hint"] and "booking.com" in notes[0]["hint"]
 
 
+def test_no_cross_temple_leak_via_food_words(monkeypatch):
+    """Regression: 'pure/veg/vegetarian' are filters, never selectors."""
+    _no_overpass(monkeypatch)
+    out = acc.run(
+        question="Which pure vegetarian restaurants are near Bhadrachalam?",
+        entities=["Bhadrachalam"],
+        temple_ids=None,
+        kind="restaurant",
+    )
+    items = [e for e in out["evidence"] if e.get("kind") == "restaurant"]
+    assert items, "expected Bhadrachalam restaurants"
+    assert all(e["temple_id"] == "T0002" for e in items), (
+        f"cross-temple leak: {[e['temple_id'] for e in items]}"
+    )
+
+
+def test_place_token_path_without_entities(monkeypatch):
+    _no_overpass(monkeypatch)
+    out = acc.run(
+        question="veg restaurants near bhadrachalam",
+        entities=[],
+        temple_ids=None,
+        kind="restaurant",
+    )
+    items = [e for e in out["evidence"] if e.get("kind") == "restaurant"]
+    assert items
+    assert all(e["temple_id"] == "T0002" for e in items)
+    veg_known = [e for e in items if e.get("vegetarian") is not None]
+    assert veg_known and all(e["vegetarian"] for e in veg_known)
+
+
+def test_exact_name_lookup_when_no_place(monkeypatch):
+    _no_overpass(monkeypatch)
+    out = acc.run(
+        question="sannidhi emerald", entities=[], temple_ids=None, kind="hotel"
+    )
+    items = [e for e in out["evidence"] if e.get("kind") == "hotel"]
+    assert items
+    assert any(e["name"] == "Sannidhi Emerald" for e in items)
+
+
 def test_numbers_in_evidence_pass_validator(monkeypatch):
     _no_overpass(monkeypatch)
     out = acc.run(

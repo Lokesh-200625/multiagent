@@ -23,9 +23,18 @@ def _normalize_number(token: str) -> set[str]:
     return variants
 
 
+def _strip_thousands(text: str) -> str:
+    """Remove thousands separators so '₹1,066' and evidence '1066' match.
+
+    Only digit,digit-digit groups are touched (1,066 -> 1066); list commas
+    like 'Warangal, 2 districts' or decimals are left alone.
+    """
+    return re.sub(r"(?<=\d),(?=\d{3}(?!\d))", "", text)
+
+
 def _corpus_numbers(text: str) -> set[str]:
     found: set[str] = set()
-    for match in _NUMBER_RE.finditer(text):
+    for match in _NUMBER_RE.finditer(_strip_thousands(text)):
         found.update(_normalize_number(match.group(0)))
     return found
 
@@ -38,7 +47,7 @@ def find_missing_numbers(draft: str, results: list[dict]) -> list[str]:
     allowed = _corpus_numbers(evidence_text)
 
     missing: list[str] = []
-    for match in _NUMBER_RE.finditer(draft):
+    for match in _NUMBER_RE.finditer(_strip_thousands(draft)):
         token = match.group(0)
         if token in missing:
             continue
@@ -89,6 +98,36 @@ def render_structured(results: list[dict]) -> str:
                 lines.append(
                     f"provider status: {item.get('status')}"
                     + (f", selected: {item.get('selected')}" if item.get("selected") else "")
+                )
+            elif kind == "budget_item":
+                component = item.get("component") or "cost"
+                scope = item.get("scope") or ""
+                low, high = item.get("low"), item.get("high")
+                symbol = "₹" if item.get("unit") == "currency" else ""
+                if low is None and high is None:
+                    label = f"{component} {scope}".strip()
+                    free = item.get("free_darshan_stated")
+                    lines.append(
+                        f"{label}: free darshan listed in records; no priced entries"
+                        if free
+                        else f"{label}: no priced entries"
+                    )
+                elif high is None or low == high:
+                    lines.append(f"{component} {scope}: {symbol}{low}".rstrip())
+                else:
+                    lines.append(
+                        f"{component} {scope}: {symbol}{low} - {symbol}{high}".rstrip()
+                    )
+                for sample in item.get("samples") or []:
+                    if isinstance(sample, dict):
+                        lines.append(
+                            f"  {sample.get('name')}: {sample.get('charges')}"
+                        )
+            elif kind == "budget_total":
+                covers = item.get("components_included") or []
+                lines.append(
+                    f"budget total: ₹{item.get('low')} - ₹{item.get('high')}"
+                    + (f" (covers: {', '.join(str(c) for c in covers)})" if covers else "")
                 )
             else:
                 text = str(item.get("text") or "").strip()

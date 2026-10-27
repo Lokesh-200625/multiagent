@@ -14,6 +14,7 @@ from __future__ import annotations
 from typing import Any, Callable
 
 from app.agents import accommodation as _accommodation
+from app.agents import budget as _budget
 from app.agents import temple as _temple
 from app.agents import travel as _travel
 
@@ -66,16 +67,33 @@ def _run_restaurant(subquery: Any, context: dict) -> dict:
     )
 
 
+def _run_budget(subquery: Any, context: dict) -> dict:
+    return _budget.run(
+        question=subquery.question,
+        entities=_mentions(subquery),
+        temple_ids=context.get("temple_ids") or None,
+        origin=subquery.origin,
+        destination=subquery.destination,
+        mode=subquery.mode,
+    )
+
+
 AGENT_REGISTRY: dict[str, AgentFn] = {
     "temple_info": _run_temple,
     "travel_route": _run_travel,
     "travel_nearby": _run_travel,
     "accommodation": _run_accommodation,
     "restaurant": _run_restaurant,
+    "budget": _run_budget,
 }
 
 # Categories that need registry entity-id resolution before running.
-REGISTRY_RESOLVED_CATEGORIES = {"temple_info", "accommodation", "restaurant"}
+REGISTRY_RESOLVED_CATEGORIES = {
+    "temple_info",
+    "accommodation",
+    "restaurant",
+    "budget",
+}
 
 
 def get_agent(category: str) -> AgentFn:

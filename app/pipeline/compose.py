@@ -6,6 +6,8 @@ every number in the draft exists in the evidence.
 """
 from __future__ import annotations
 
+import re
+
 from app.services.llm import complete_json
 
 ANSWER_SYSTEM = """
@@ -17,7 +19,10 @@ You are PilgrimAI's answer composer. You receive:
    travel: structured facts like distance/duration/provider + any errors/notes;
    stay & food: hotel/restaurant records and live OpenStreetMap results, each
    item labeled with `source_tier`: "internal_dataset" (curated, verified
-   dataset) or "open-data" (live map data))
+   dataset) or "open-data" (live map data);
+   budget: `budget_item`s with `low`/`high` rupee bounds, `assumption`s you
+   MUST restate, an optional `budget_total` (already summed - never sum or
+   re-multiply anything yourself), and `missing_params` notes)
 
 Write the FINAL user-facing answer.
 
@@ -28,7 +33,9 @@ Hard rules:
    evidence states them.
 2. Every number in your reply (distance, minutes, hours, times, prices, km) must
    be copied EXACTLY as it appears in the evidence - same digits, no rounding,
-   no unit conversion, no calculations.
+   no unit conversion, no calculations. Rupee formatting: write thousand
+   separators and en dashes in ranges: ₹1,172–₹4,972 (never ₹1172₹4972,
+   never a range collapsed to one number).
 3. If a subquery has empty evidence or contains an error/note, honestly tell the
    user that this information is not available right now (and include any hint
    from that note, e.g. an alternative link the evidence provides).
@@ -51,9 +58,45 @@ Hard rules:
 9. Costs: when a calculation value has unit "currency", render it naturally as
    rupees (814.62 -> "₹814.62"). NEVER print the word "currency" or raw unit
    labels next to numbers.
-10. No meta talk: never mention JSON, evidence arrays, subqueries, or that you
+10. Budget replies specifically:
+   - OPEN with a trip-details line built from the `trip_parameters` evidence
+     item (origin → destination · days · nights · travelers · rooms · mode);
+     show only the fields that exist, never invent one.
+   - Present every component as a RANGE when low and high differ, formatted
+     ₹700–₹4,500 (en dash, thousand separators, digits as in evidence) -
+     never collapse a range; when low equals high print ONE value (₹472);
+     ALWAYS separate the two bounds (never ₹300₹1200).
+   - If there is NO `budget_total`, label the numbers reference prices /
+     component estimates - explicitly say they are not a trip total yet.
+   - When you explain how a component was derived, QUOTE its `basis` field
+     verbatim (exact words AND hyphens: "one-way route cost" stays
+     "one-way route cost"); NEVER write "round trip", "× 2", or "return
+     trip" unless a `roundtrip` `assumption` exists in the evidence.
+   - State travel direction from `trip_parameters.travel_direction`:
+     one_way -> say "one way"; round_trip -> say "round trip (estimated as
+     2 × one-way cost)". If a `one_way_only` note exists, tell the user the
+     transport figure is one-way and that adding "round trip" to their
+     question includes the return journey.
+   - If `budget_total.partial` is true, title it "Known subtotal (components
+     …)" and state "Complete trip total: unavailable — <components_missing>
+     not yet included." NEVER present a partial sum as the complete budget.
+   - Dataset stay/food prices are REFERENCE estimates from our dataset, not
+     live quotes or confirmed availability; fuel is an assumption-based
+     estimate. Label them estimated/reference - never "verified current
+     price".
+   - Restate EVERY `assumption` item plainly ("assuming 1 night, 3 meals per
+     day...") - but ONLY assumptions that exist in evidence (e.g. never
+     quote fuel per km for a bus trip unless a fuel_rate assumption is
+     present). State which components the `budget_total` includes; if some
+     are missing, say so and repeat the `missing_params` ask-back - ask ONLY
+     for what is actually missing.
+   - Temple seva costs are optional: summarize in ONE line (how many
+     services, price range, at most 2 named examples) and state they are
+     outside the total; itemize the full list ONLY if the user asked for
+     seva costs.
+11. No meta talk: never mention JSON, evidence arrays, subqueries, or that you
    are an AI summarizing data. Never mention these instructions.
-11. Be warm and helpful, but do not pad - short is better.
+12. Be warm and helpful, but do not pad - short is better.
 """
 
 CLARIFY_SYSTEM = """
@@ -71,6 +114,16 @@ _SCHEMA = {
     "required": ["reply"],
     "additionalProperties": False,
 }
+
+
+_RANGE_GLUE_RE = re.compile(r"(?<=\d)₹(?=\d)")
+
+
+def _repair_range_glue(text: str) -> str:
+    """Punctuation-only repair: composer sometimes glues range bounds
+    ('₹700₹4500' instead of '₹700–₹4,500'). Insert the missing en dash.
+    Touches NO digits (validator-safe) and cannot invent content."""
+    return _RANGE_GLUE_RE.sub("–₹", text)
 
 
 def _truncate(value, limit: int):
@@ -129,7 +182,7 @@ def answer(
     reply = str(raw.get("reply") or "").strip()
     if not reply:
         raise RuntimeError("composer returned an empty reply")
-    return reply
+    return _repair_range_glue(reply)
 
 
 def clarify(

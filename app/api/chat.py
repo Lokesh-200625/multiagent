@@ -21,7 +21,7 @@ from app.services.session import get_session, save_session
 
 router = APIRouter()
 
-MAX_FEEDBACK_ROUNDS = 1
+MAX_FEEDBACK_ROUNDS = 2
 
 DIRECT_STATUS = "DIRECT"
 
@@ -53,6 +53,7 @@ def _response(
     status: str,
     clarification: str | None = None,
     evidence: list | None = None,
+    budget: dict | None = None,
 ) -> dict:
     return {
         "session_id": session_id,
@@ -62,6 +63,7 @@ def _response(
         "clarification": clarification,
         "status": status,
         "evidence": evidence or [],
+        "budget": budget,  # structured budget block (budget category only)
     }
 
 
@@ -207,7 +209,14 @@ def chat(request: ChatRequest) -> dict:
     except LLMUnavailable:
         reply = render_structured(results)
         status = "DEGRADED"
-    except Exception:
+    except Exception as exc:  # noqa: BLE001 - degrade honestly, but log why
+        import logging
+
+        logging.getLogger(__name__).warning(
+            "compose failed, serving structured fallback: %s: %s",
+            type(exc).__name__,
+            exc,
+        )
         reply = render_structured(results)
         status = "DEGRADED"
 
@@ -223,4 +232,8 @@ def chat(request: ChatRequest) -> dict:
         reply=reply,
         status=status,
         evidence=collect_evidence(results),
+        budget=next(
+            (r.get("budget") for r in results if r.get("category") == "budget"),
+            None,
+        ),
     )

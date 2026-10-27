@@ -39,6 +39,7 @@ For every user message you do ALL of these, in one pass:
           options when available, nearby attractions and temples
         * stay & food: hotels/lodges with booking links, restaurants near a
           temple or city (curated dataset + live map results, clearly labeled)
+        * estimated trip budget with ranges (travel, stay, food, temple sevas)
         * safety guidance in emergencies
      Ask nothing else. Be brief and clear.
    - temple_info: questions about a temple/person/festival answered from temple
@@ -53,7 +54,12 @@ For every user message you do ALL of these, in one pass:
    - restaurant: WHERE TO EAT - restaurants, tiffin centers, cafes, veg food
      near a temple or city ("pure veg restaurants near Yadadri", "good food
      near Bhadrachalam").
-   - travel_nearby: things near a place that are NOT stay/food questions
+   - budget: ESTIMATED TRIP COST - total/expected budget with ranges for a
+     trip ("budget for Hyderabad to Yadadri", "how much will a 2-day trip
+     cost", "trip expenses for family of 4"). Fill `origin` and `destination`
+     exactly like travel_route when the trip endpoints are named; keep
+     days/persons/stay details in `question` (the budget engine reads them).
+   - travel_nearby: things near a place that are NOT stay/food/budget questions
      (nearby temples, attractions, parking, things to do around X).
    - smalltalk: chitchat, jokes, thanks, or anything outside the capabilities
      above -> fill direct_reply politely and briefly, in the user's language,
@@ -62,20 +68,19 @@ For every user message you do ALL of these, in one pass:
    - multi: when the message contains MORE THAN ONE distinct task.
      In that case classify subqueries normally (each gets its real category
      among temple_info / travel_route / travel_nearby / accommodation /
-     restaurant) but category = multi.
+     restaurant / budget) but category = multi.
 
 4) SPLIT - decompose the CURRENT message into `subqueries` (empty for direct
    categories):
    - one task per subquery, ids "q1", "q2", ... in natural reading order
    - `question` must be standalone (no pronouns)
    - `category` per subquery: temple_info | travel_route | travel_nearby |
-     accommodation | restaurant
-   - travel_route subqueries MUST fill `origin` and `destination` with the user's
-     place names (keep original spellings), and `mode`: "driving" (default),
-     "walking" (walk/foot/pedal), or "transit" (bus/train/metro/public transport).
-     If the user gave a distance/ETA question without named places, still put the
-     mentioned places in origin/destination; if a place is truly missing, leave
-     the field null.
+     accommodation | restaurant | budget
+   - travel_route AND budget subqueries MUST fill `origin` and `destination`
+     with the user's place names (keep original spellings) when trip endpoints
+     are named, and `mode`: "driving" (default), "walking" (walk/foot/pedal),
+     or "transit" (bus/train/metro/public transport). If a place is truly
+     missing, leave the field null.
    - `depends_on`: id of an earlier subquery whose RESULT this one needs
      (e.g. "nearby attractions of that temple" after "tell me about Yadadri").
      Most queries have no dependencies.
@@ -94,8 +99,8 @@ Rules:
 - Do NOT answer agent-backed questions yourself; use direct_reply ONLY for
   greeting / help_meta / smalltalk / emergency.
 - HARD RULE: if category is temple_info, travel_route, travel_nearby,
-  accommodation, restaurant, or multi, you MUST output at least ONE subquery.
-  NEVER an empty subqueries list for those categories. Only
+  accommodation, restaurant, budget, or multi, you MUST output at least ONE
+  subquery. NEVER an empty subqueries list for those categories. Only
   greeting/help_meta/smalltalk/emergency use [].
 - recent_history is context only; never repeat previous tasks unless the user
   refers to them.
@@ -119,6 +124,9 @@ Message: "hotels near yadadri temple"
 
 Message: "pure veg restaurants near bhadrachalam"
 {"language":"en","category":"restaurant","rewritten_query":"Which pure vegetarian restaurants are near Bhadrachalam?","direct_reply":null,"subqueries":[{"id":"q1","category":"restaurant","question":"Which pure vegetarian restaurants are near Bhadrachalam?","entities":[{"mention":"Bhadrachalam","entity_type":"city"}],"origin":null,"destination":null,"mode":null,"depends_on":[]}]}
+
+Message: "budget for hyderabad to yadadri for 2 days with hotel"
+{"language":"en","category":"budget","rewritten_query":"What is the estimated budget for a 2-day trip from Hyderabad to Yadadri with hotel?","direct_reply":null,"subqueries":[{"id":"q1","category":"budget","question":"What is the estimated budget for a 2-day trip from Hyderabad to Yadadri with hotel?","entities":[{"mention":"Yadadri","entity_type":"temple"}],"origin":"Hyderabad","destination":"Yadadri","mode":"driving","depends_on":[]}]}
 
 Message: "tell me about yadadri and where to stay there"
 {"language":"en","category":"multi","rewritten_query":"Tell me about Yadadri Temple and where to stay near it.","direct_reply":null,"subqueries":[{"id":"q1","category":"temple_info","question":"Tell me about Yadadri Temple.","entities":[{"mention":"Yadadri","entity_type":"temple"}],"origin":null,"destination":null,"mode":null,"depends_on":[]},{"id":"q2","category":"accommodation","question":"Where to stay near Yadadri Temple?","entities":[{"mention":"Yadadri","entity_type":"temple"}],"origin":null,"destination":null,"mode":null,"depends_on":[]}]}
@@ -161,6 +169,7 @@ class BrainSubquery(BaseModel):
         "travel_nearby",
         "accommodation",
         "restaurant",
+        "budget",
     ]
     question: str
     entities: list[BrainEntity] = Field(default_factory=list)
@@ -182,6 +191,7 @@ class BrainResult(BaseModel):
         "travel_nearby",
         "accommodation",
         "restaurant",
+        "budget",
         "smalltalk",
         "emergency",
         "multi",
@@ -267,6 +277,7 @@ def _postprocess(result: BrainResult) -> BrainResult:
             "travel_nearby",
             "accommodation",
             "restaurant",
+            "budget",
         }
         and not result.subqueries
     ):
